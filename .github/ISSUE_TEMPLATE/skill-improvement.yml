@@ -1,0 +1,26 @@
+name: Improve a skill
+description: Propose a measured change to an experimental AI skill.
+title: "Skill: "
+labels: ["type: skill", "status: proposed"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      description: Link the skill and identify the affected section.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example and evidence
+      description: Show the failure or useful change with a reproducible example.
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: Evaluation plan
+      description: Explain how the change will be checked and what human review remains necessary.
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+name: Add a design reference
+description: Propose a visual or agency reference with source links.
+title: "Reference: "
+labels: ["type: reference", "status: proposed"]
+body:
+  - type: input
+    id: reference
+    attributes:
+      label: Reference and source
+      description: Name the work and link directly to its public source.
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: What is observable?
+      description: Separate visible facts from interpretation; do not infer undocumented intent.
+    validations:
+      required: true
+  - type: textarea
+    id: transfer
+    attributes:
+      label: Transferable question
+      description: What design question could this help us ask?
+    validations:
+      required: true

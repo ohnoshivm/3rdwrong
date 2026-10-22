@@ -1,0 +1,26 @@
+name: Propose an experiment
+description: Define a small test and its evidence before running it.
+title: "Experiment: "
+labels: ["type: experiment", "status: proposed"]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Question
+      description: What uncertainty will this experiment address?
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Method and measure
+      description: State the smallest useful test, measure, and stopping point.
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy and publication check
+      description: Confirm no client or personal information will enter the public repository.
+    validations:
+      required: true

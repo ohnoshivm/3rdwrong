@@ -1,0 +1,26 @@
+name: Add a research study
+description: Propose a source-based study for the intelligence library.
+title: "Research: "
+labels: ["type: research", "status: proposed"]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Research question
+      description: What specific question should the study answer?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Add HTTPS source links and what each can establish.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and evidence limits
+      description: State what is documented, interpreted, hypothetical, and unknown.
+    validations:
+      required: true

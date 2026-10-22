@@ -1,0 +1,26 @@
+name: Propose a method
+description: Suggest a repeatable practice for the methods library.
+title: "Method: "
+labels: ["type: method", "status: proposed"]
+body:
+  - type: input
+    id: need
+    attributes:
+      label: Need
+      description: Which decision or stage does this method support?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and evidence
+      description: Give concrete steps and the evidence they should produce.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits and review
+      description: State when this method should not be used and what needs human review.
+    validations:
+      required: true

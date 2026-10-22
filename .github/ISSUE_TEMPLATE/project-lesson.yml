@@ -1,0 +1,26 @@
+name: Capture a project lesson
+description: Propose a reusable lesson without disclosing client information.
+title: "Project lesson: "
+labels: ["type: project", "status: proposed", privacy-review]
+body:
+  - type: input
+    id: lesson
+    attributes:
+      label: Generalised lesson
+      description: Describe the learning without a client name, asset, or confidential detail.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limits
+      description: Explain what supports the lesson and where it may not apply.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Publication review
+      options:
+        - label: I checked that this contains no client or personal information.
+          required: true

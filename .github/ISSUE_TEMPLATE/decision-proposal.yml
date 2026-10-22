@@ -1,0 +1,26 @@
+name: Propose a decision record
+description: Frame a decision for review; the record remains proposed until a named human approves it.
+title: "Decision: "
+labels: ["type: decision", "status: proposed"]
+body:
+  - type: input
+    id: decision
+    attributes:
+      label: Decision to resolve
+      description: State the choice that needs a human decision.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and alternatives
+      description: Link evidence, label interpretation and unknowns, and list credible alternatives.
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: Consequences and revision triggers
+      description: What changes if this choice is made, and what would justify reopening it?
+    validations:
+      required: true
