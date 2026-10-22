@@ -2,6 +2,12 @@
 
 Changes to the 3RDWRONGS Creative Operating System are recorded here.
 
+## [Unreleased]
+
+### Added
+
+- Primary taste resource for Award Site Teardowns (rickcreates.com), with evidence-graded use guidance and links to original-site benchmarks.
+
 ## [0.1.0] - 2026-10-22
 
 ### Added

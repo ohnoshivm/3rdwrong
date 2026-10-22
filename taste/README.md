@@ -48,4 +48,5 @@ Do not copy layouts, copy, characters, imagery, objects, brand identities or dis
 
 | File | Purpose |
 | --- | --- |
+| [Award Site Teardowns](award-site-teardowns.md) | Primary taste resource for structured award-site analysis; complements the original-site benchmarks and browser prompts in studio-websites.md. |
 | [Studio websites](studio-websites.md) | Six primary benchmarks, four further references, two provisional Indian leads, source checks and deep-study priorities. |

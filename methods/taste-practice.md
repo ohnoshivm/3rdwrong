@@ -31,8 +31,10 @@ Choose activities that address a real learning question. Completing every row
 each week is not a requirement. Don't confuse collecting references with
 practice or polished output with improvement.
 
-Use [studio website taste references](../taste/studio-websites.md) as one source for reference analyses;
-these calibrate taste without changing policy or the client offer.
+Use [Award Site Teardowns](../taste/award-site-teardowns.md) as the default source
+for the weekly reference-analysis slot, alongside the original-site benchmarks
+and browser prompts in [studio website taste references](../taste/studio-websites.md).
+These calibrate taste without changing policy or the client offer.
 
 ## Practice loop
 
