@@ -11,7 +11,7 @@ review_every_days: 90
 This is an internal sequence, not a promise to clients or a forecast of
 results. The schedule bends for quality, not for indecision. Blueprint-derived
 dates and work items are proposed from *Founding Blueprint v1.0, 22 October
-2026 (private archive)*. The current next strategic dependency is the verbal
+2026 ([founding source archive](archive/founding-blueprint-v1.0.md))*. The current next strategic dependency is the verbal
 and conceptual foundation required by [D-0012](decisions/0012-strategy-before-own-visual-identity.md).
 
 ## Next strategic sequence
@@ -60,7 +60,7 @@ represent actions as complete until artefacts and evidence exist.
 
 These deliverables are intended outputs from the blueprint's seven-day plan,
 not evidence that the work has happened. Prospect details and interview notes
-belong in the private repository.
+belong in a non-public store chosen before collecting the first client or interview data.
 
 ## Dependencies and deferred work
 
@@ -68,9 +68,9 @@ belong in the private repository.
   visual exploration ([D-0012](decisions/0012-strategy-before-own-visual-identity.md)).
 - A real category sample and qualified interviews gate changes to the ICP and
   offer hypotheses.
-- A private client-work repository is created when the first client signs;
-  client files stay out of this public repository
-  ([D-0008](decisions/0008-public-private-repository-boundary.md)).
+- Choose a non-public store before the first client or interview data exists;
+  keep personal data, third-party contracts, credentials and NDA-bound assets out of this public repository
+  ([D-0017](decisions/0017-fully-open-repository.md)).
 - Publish any real case only after explicit permission and evidence review.
 - `case-study-architect` is a candidate next skill, deferred until a real case
   exists to evaluate it against.

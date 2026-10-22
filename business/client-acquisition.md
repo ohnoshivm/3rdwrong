@@ -10,7 +10,7 @@ review_every_days: 90
 
 **Status: proposed.** These are public-safe business-development practices,
 not a proven acquisition system. Source direction: *Founding Blueprint v1.0,
-22 October 2026 (private archive)*.
+22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md))*.
 
 ## Operating principle
 

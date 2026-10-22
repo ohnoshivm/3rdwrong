@@ -15,8 +15,8 @@ Use this page to open the OS locally, make a first contribution, or start a fres
 1. Clone the public repository locally:
 
    ```bash
-   git clone https://github.com/ohnoshivm/3rdwrongs-os.git
-   cd 3rdwrongs-os
+   git clone https://github.com/ohnoshivm/3rdwrong.git
+   cd 3rdwrong
    ```
 
 2. Install the locked dependency and validate the repository:
@@ -38,7 +38,7 @@ Example first prompts:
 
 - “Read the route for adding an agency study. Help me plan a source-based study of the supplied public work and mark claims Documented, Interpretation, Hypothesis, or Unknown.”
 - “Read the identity-project route and prepare a proposed brief from these notes. Flag anything that needs private storage.”
-- “Use the identity-system-critic skill on the supplied work. Return evidence-linked observations and questions for human review.”
+- “Use the 3w-identity-system-critic skill on the supplied work. Return evidence-linked observations and questions for human review.”
 
 ## Keep the first task small
 

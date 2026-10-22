@@ -11,15 +11,15 @@ last_reviewed: 2026-10-22
 
 ## Decision
 
-Hypothesis: a possible client budget range for a complete identity engagement is recorded privately.
+Hypothesis: ₹1.5–3.5 lakh is the possible client budget/price range for a focused complete identity engagement. See [pricing hypotheses](../pricing.md).
 
 ## Status
 
-Hypothesis. The range is an unvalidated working hypothesis held privately, not a published price. This record does not silently change the status of any related hypothesis or proposed implementation detail.
+Hypothesis. The published range remains an unvalidated working assumption, not a fixed price or evidence of willingness to pay. This record does not silently change the status of any related hypothesis or proposed implementation detail.
 
 ## Rationale
 
-A bounded assumption helps test whether the approved flagship scope is viable for the proposed audience. It is not a published price or cost model.
+A bounded assumption helps test whether the approved flagship scope is viable for the proposed audience. It is not a validated price or cost model.
 
 ## Alternatives considered
 
@@ -27,7 +27,7 @@ Publish the range as a fixed fee; infer willingness to pay from compliments; omi
 
 ## Evidence
 
-Hypothesis: founding brief, 2026-10-22. No price-acceptance or transaction evidence yet. The test range is recorded privately; never publish margins or costs.
+Hypothesis: founding brief, 2026-10-22. No price-acceptance or transaction evidence yet. The founder approved publication of the range and source economics on 2026-10-22 ([D-0017](0017-fully-open-repository.md)); publication does not validate them.
 
 ## Consequences
 

@@ -13,7 +13,7 @@ taking a brand from unclear positioning to a distinctive, deployable identity.
 Only the scope and exclusions below are approved. Workflow, checkpoints,
 acceptance, handover and change handling are proposed operating details.
 The additional delivery range and pilot guidance below are proposed from
-*Founding Blueprint v1.0, 22 October 2026 (private archive)*.
+*Founding Blueprint v1.0, 22 October 2026 ([founding source archive](archive/founding-blueprint-v1.0.md))*.
 
 ## Approved scope
 

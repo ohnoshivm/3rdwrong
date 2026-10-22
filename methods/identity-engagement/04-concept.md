@@ -65,4 +65,4 @@ The studio recommends a route and explains trade-offs. The client chooses a rout
 - A route is selected or the work returns to strategy with a named question.
 - No application polish has hidden an unresolved idea-level problem.
 
-**Supports:** ../../skills/creative-direction/SKILL.md; ../../templates/identity-systems/concept-route.md; ../../templates/critique/design-critique.md.
+**Supports:** ../../skills/3w-creative-direction/SKILL.md; ../../templates/identity-systems/concept-route.md; ../../templates/critique/design-critique.md.

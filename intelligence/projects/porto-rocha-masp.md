@@ -172,8 +172,7 @@ provides no evidence of suitability for those scripts.
 
 ## Exercise
 
-**Hypothesis** — Proposed exercise, adapted from Founding Blueprint v1.0, 22 October 2026 (private
-archive): reposition a hypothetical independent cultural institution in India. Select a real regional
+**Hypothesis** — Proposed exercise, adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md)): reposition a hypothetical independent cultural institution in India. Select a real regional
 design history and verify it through local archives, institutions and credited practitioners before
 extracting any formal principles.
 

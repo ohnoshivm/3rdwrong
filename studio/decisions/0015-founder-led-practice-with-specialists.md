@@ -34,7 +34,7 @@ delivery gaps later.
 
 ## Evidence
 
-Proposed: *Founding Blueprint v1.0, 22 October 2026 (private archive)* and the
+Proposed: *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../archive/founding-blueprint-v1.0.md))* and the
 founding brief's founder-led company description. No collaborator or staffing
 capacity is represented as established.
 

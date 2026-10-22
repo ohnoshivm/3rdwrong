@@ -11,7 +11,7 @@ review_every_days: 180
 This is a **proposed operating framework, not an academically validated
 model**. It is a way to connect commercial questions to identity decisions;
 it does not claim that a visual intervention causes a business result.
-Framework source: *Founding Blueprint v1.0, 22 October 2026 (private archive)*.
+Framework source: *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md))*.
 Psychology claims require their own cited research sources and context.
 
 ## Six-step path
@@ -58,5 +58,5 @@ independent agreement.
   interpretation with methods appropriate to the claim.
 
 See the [engagement map](identity-engagement/README.md) and
-[brand-discovery skill](../skills/brand-discovery/SKILL.md). The blueprint
-source is a private archive; do not quote its text wholesale.
+[3w-brand-discovery skill](../skills/3w-brand-discovery/SKILL.md). The blueprint
+source is available in the [founding archive](../studio/archive/founding-blueprint-v1.0.md); later decisions supersede it where they differ.

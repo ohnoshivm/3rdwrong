@@ -65,4 +65,4 @@ The client checks factual accuracy and confirms the problem to address. The stud
 - High-impact evidence gaps are resolved, scoped out or explicitly carried forward.
 - Strategy can be drafted without inventing audience or commercial facts.
 
-**Supports:** ../../skills/category-code-audit/SKILL.md; ../../templates/learning/research-intake.md.
+**Supports:** ../../skills/3w-category-code-audit/SKILL.md; ../../templates/learning/research-intake.md.

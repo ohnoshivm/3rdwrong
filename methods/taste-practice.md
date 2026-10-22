@@ -10,7 +10,7 @@ review_every_days: 90
 
 **Status: proposed.** This is a flexible practice menu. Adapt it to current
 project needs and record evidence of change. The activity choices are proposed from *Founding
-Blueprint v1.0, 22 October 2026 (private archive)*. The practice loop is distinct from the
+Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md))*. The practice loop is distinct from the
 [knowledge loop](learning-loop.md): one improves a craft decision; the other
 turns a lesson into reusable studio knowledge.
 

@@ -11,7 +11,7 @@ review_every_days: 90
 **Status: proposed.** This is an internal working rationale, not a market
 finding or a replacement for the founder-authored [positioning thesis](positioning.md).
 Blueprint-derived material is cited as *Founding Blueprint v1.0, 22 October
-2026 (private archive)*; its market claims remain unverified.
+2026 ([founding source archive](archive/founding-blueprint-v1.0.md))*; its market claims remain unverified.
 
 ## 1. Diagnosis
 

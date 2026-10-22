@@ -22,7 +22,7 @@ with official sources before relying on a tool.
 | Obsidian / Markdown | Working notes and reusable knowledge | Adopt now; this repository is the canonical public method library. |
 | Are.na | Selective reference collection | Use selectively; preserve source, context and permission boundaries. |
 | Existing Claude / GPT access | Research and drafting assistance | Reuse existing access; human judgement owns strategy and approval. |
-| GitHub | Versioned methods, skills and code | Reuse the current repository and its public/private boundary. |
+| GitHub | Versioned methods, skills and code | Reuse the current repository and its publication rules. |
 | p5.js | Small creative-coding studies | High-leverage candidate when a concept needs a generative prototype. |
 | Motion Canvas | Motion-system experiments | Experiment only for a defined motion question. |
 | Blender | Specialist 3D | Later, when a real project need and competence justify it. |
@@ -32,7 +32,7 @@ with official sources before relying on a tool.
 The names above are candidate tools from the blueprint, not claims that each
 is installed, licensed, current, suitable or necessary. Check official
 documentation, product terms and file compatibility before use. See
-*Founding Blueprint v1.0, 22 October 2026 (private archive)* for the source
+*Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md))* for the source
 list; this document intentionally omits current prices and plan details.
 
 ## Do not install immediately

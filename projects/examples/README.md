@@ -19,5 +19,5 @@ See the sample project's [fictional brief](stillsoil-atelier/brief.md),
 [concept route A](stillsoil-atelier/concept-route-a.md) and
 [identity-system critique](stillsoil-atelier/identity-system-critique.md). The
 two runs have [discovery skill evaluation](stillsoil-atelier/brand-discovery-evaluation.md)
-and [identity-system-critic skill evaluation](stillsoil-atelier/identity-system-critic-evaluation.md).
+and [3w-identity-system-critic skill evaluation](stillsoil-atelier/identity-system-critic-evaluation.md).
 Each project file repeats the required fiction banner.

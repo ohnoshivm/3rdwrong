@@ -15,6 +15,7 @@ Project records are grouped by their relationship to real work:
 
 Copy [the project README template](../templates/projects/project-readme.md),
 then follow [the project workflow](../docs/workflows.md). For any client work,
-use the private repository and agree scope, access, evidence handling and
-publication permissions before collecting material. Do not copy client content
+choose a non-public store and agree scope, access, evidence handling and
+publication permissions before collecting any client or interview data; follow the
+[publication rules](../docs/public-private-boundary.md). Do not copy client content
 into this public repository.

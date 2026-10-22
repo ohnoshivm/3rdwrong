@@ -25,7 +25,7 @@ When sources conflict, use this order and flag the conflict for a human:
 - Never invent clients, results, approvals, research findings, quotations, or statistics.
 - Label evidence exactly: **Documented**, **Interpretation**, **Hypothesis**, or **Unknown**. Cite sources for documented claims and keep interpretation distinct from observation.
 - 3RDWRONGS' visual identity is not approved. A rejected exploration used black backgrounds, heavy grotesk typography, and neon accents. Do not reuse that direction as guidance.
-- Do not publish client names, assets, personal data, contracts, financial details, or confidential research. When uncertain, keep material private and read `docs/public-private-boundary.md`.
+- Everything committed here is public and open source. Never commit personal data, third-party contracts, credentials or NDA-bound assets. Choose a non-public store before collecting client or interview data; follow the [publication rules](docs/public-private-boundary.md). Studio pricing hypotheses and the founding source are public, with their evidence/status limits intact.
 
 ## Context router
 
@@ -35,18 +35,18 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | --- | --- |
 | Plan a portfolio project | `studio/portfolio-strategy.md`, `templates/projects/project-readme.md`, `docs/public-private-boundary.md` |
 | Run a Brand Direction Sprint | `studio/brand-direction-sprint.md`, `studio/positioning.md`, `studio/initial-icp.md` |
-| Start a client identity project | `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, `skills/brand-discovery/SKILL.md` |
-| Perception research (perception-to-identity map) | `methods/perception-to-identity-map.md`, `skills/brand-discovery/SKILL.md` |
+| Start a client identity project | `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, `skills/3w-brand-discovery/SKILL.md` |
+| Perception research (perception-to-identity map) | `methods/perception-to-identity-map.md`, `skills/3w-brand-discovery/SKILL.md` |
 | Weekly taste practice | `methods/taste-practice.md`, `methods/learning-loop.md` |
 | Calibrate taste / study reference websites | `taste/swipe-file.md`, `taste/discovery-sources.md`, `taste/award-site-teardowns.md`, `taste/studio-websites.md`, `methods/taste-practice.md` |
 | Capture a quick note | `inbox/README.md`, `docs/public-private-boundary.md` |
 | Add an agency study | `intelligence/README.md`, `templates/research/agency-study.md` |
-| Add a design reference | `intelligence/README.md`, `templates/research/visual-system-analysis.md`, `skills/category-code-audit/SKILL.md` |
+| Add a design reference | `intelligence/README.md`, `templates/research/visual-system-analysis.md`, `skills/3w-category-code-audit/SKILL.md` |
 | Update strategy | `studio/decisions/README.md`, `docs/knowledge-governance.md`, the affected `studio/` page |
 | Propose a method | `methods/README.md`, `methods/learning-loop.md`, `templates/learning/method-improvement.md` |
 | Improve a skill | the relevant `skills/*/SKILL.md`, `templates/learning/skill-evaluation.md`, `docs/ai-integration.md` |
 | Record an experiment outcome | `experiments/README.md`, `templates/learning/experiment.md`, `docs/workflows.md` |
-| Critique a design | `skills/identity-system-critic/SKILL.md`, `methods/quality/critique-protocol.md` |
+| Critique a design | `skills/3w-identity-system-critic/SKILL.md`, `methods/quality/critique-protocol.md` |
 | Capture project lessons | `methods/learning-loop.md`, `templates/learning/retrospective.md`, `docs/public-private-boundary.md` |
 | Retrieve context in Claude Code | `INDEX.md`, this file, then the closest task route above |
 
@@ -56,7 +56,7 @@ When a task involves gathering inspiration or visual/interactive references, use
 
 ## AI and human responsibility
 
-The operating split below is adapted from Founding Blueprint v1.0, 22 October 2026 (private archive). Reuse the existing multi-model AI environment; do not build another routing system. Write skills in Markdown first; add code only when it improves output or removes repeated work.
+The operating split below is adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](studio/archive/founding-blueprint-v1.0.md)). Reuse the existing multi-model AI environment; do not build another routing system. Write skills in Markdown first; add code only when it improves output or removes repeated work.
 
 | Work | AI contribution | Human responsibility |
 | --- | --- | --- |
@@ -71,11 +71,11 @@ The operating split below is adapted from Founding Blueprint v1.0, 22 October 20
 
 | Skill | Use for |
 | --- | --- |
-| `brand-discovery` | Gather and organise evidence for an identity project. |
-| `category-code-audit` | Identify and test category conventions and opportunities. |
-| `creative-direction` | Turn an approved strategy into a proposed creative direction. |
-| `identity-system-critic` | Review identity work against a stated brief and evidence. |
-| `brand-consistency-qa` | Check applications against an identity system specification. |
+| `3w-brand-discovery` | Gather and organise evidence for an identity project. |
+| `3w-category-code-audit` | Identify and test category conventions and opportunities. |
+| `3w-creative-direction` | Turn an approved strategy into a proposed creative direction. |
+| `3w-identity-system-critic` | Review identity work against a stated brief and evidence. |
+| `3w-brand-consistency-qa` | Check applications against an identity system specification. |
 
 ## Token and verification rules
 
@@ -84,6 +84,21 @@ The operating split below is adapted from Founding Blueprint v1.0, 22 October 20
 - Read `INDEX.md` before retrieving context, then run `uv run python scripts/validate.py` before proposing a pull request. Run the unit tests when changing validator or tool code.
 - Keep claims traceable to sources and show uncertainty instead of filling gaps.
 
-## Public and private boundary
+## Publication rules
 
-The public repository may hold general methods, approved public strategy, sourced public research, and sanitised learning. Keep client details, unreleased work, contracts, finance, proposals, and confidential research in an approved private system. Public references to private material use an opaque identifier only; never copy its content here.
+Follow [Publication rules](docs/public-private-boundary.md) and [D-0017](studio/decisions/0017-fully-open-repository.md). Before collecting client or interview data, choose a non-public store; publish only non-identifying, aggregated, rights-cleared learning. Retain secret and personal-data scans, including on upstream agents.
+
+## Agency agents
+
+The upstream catalogue minus [founder exclusions](agents/exclusions.txt) (229 included, 53 excluded) is repo-local in `.claude/agents/`; [provenance and updates](agents/README.md) are locked and validated. 3RDWRONG status rules, evidence labels, no invented results, and publication rules override every persona. Start with the `3w-` skill where available, then select only the relevant specialist below (exact upstream `name` values).
+
+| Studio work | Studio skill first | Upstream specialist |
+| --- | --- | --- |
+| Brand foundations and consistency | `3w-creative-direction`, `3w-brand-consistency-qa` | [Brand Guardian](.claude/agents/design-brand-guardian.md) |
+| Discovery and buyer research | `3w-brand-discovery` | [UX Researcher](.claude/agents/design-ux-researcher.md) |
+| Category and market signals | `3w-category-code-audit` | [Trend Researcher](.claude/agents/product-trend-researcher.md) |
+| Sourced research synthesis | `3w-brand-discovery` when in discovery | [Research Synthesist](.claude/agents/research-synthesist.md) |
+| Interview and critique feedback | `3w-brand-discovery`, `3w-identity-system-critic` | [Feedback Synthesizer](.claude/agents/product-feedback-synthesizer.md) |
+| Concept and case-study narrative | `3w-creative-direction` | [Visual Storyteller](.claude/agents/design-visual-storyteller.md) |
+| Inclusive visual review | `3w-identity-system-critic` | [Inclusive Visuals Specialist](.claude/agents/design-inclusive-visuals-specialist.md) |
+| Final digital craft review | `3w-brand-consistency-qa` | [UI Finish-Gate Reviewer](.claude/agents/design-ui-finish-gate-reviewer.md) |

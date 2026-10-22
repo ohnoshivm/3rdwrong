@@ -85,7 +85,7 @@ limit, not a claim that replication does not exist.
 ## Evidence tiers for practice
 
 **Interpretation** — The following proposed triage, adapted from Founding Blueprint v1.0, 22 October 2026
-(private archive), complements the four evidence labels; it does not replace them or certify every claim
+([founding source archive](../../studio/archive/founding-blueprint-v1.0.md)), complements the four evidence labels; it does not replace them or certify every claim
 in a topic.
 
 - **Documented** — **Research-supported**: use a cited study for the narrow relationship it actually

@@ -1,0 +1,147 @@
+# JSON Schema expressed as YAML; the scanner enforces the routing constraints
+# without adding a jsonschema dependency. Metadata remains proposed.
+$schema: https://json-schema.org/draft/2020-12/schema
+title: Proposed Design toolkit registry
+type: object
+required: [schema_version, status, owner, last_reviewed, tools]
+properties:
+  schema_version:
+    const: 1
+  status:
+    const: proposed
+  owner:
+    const: founder
+  last_reviewed:
+    type: string
+    pattern: '^\d{4}-\d{2}-\d{2}$'
+  discovery_aliases:
+    type: object
+    description: Scanner discovery id to canonical tool id; never a wildcard.
+    additionalProperties:
+      type: string
+  listed_but_not_found:
+    type: array
+    items:
+      type: object
+      required: [id, reason]
+      properties:
+        id: {type: string}
+        reason: {type: string}
+  tools:
+    type: array
+    items:
+      $ref: '#/$defs/tool'
+$defs:
+  tool:
+    type: object
+    required: [id, kind, source, availability, summary, sub_department, role, job, install_state]
+    properties:
+      id: {type: string, minLength: 1}
+      kind:
+        enum: [skill, plugin-skill, agent, upstream-agent, mcp, repo-skill]
+      source: {type: string, minLength: 1}
+      division:
+        enum: [strategy, design, media, marketing, engineering, quality-security, business, operations]
+      division_sub_department: {type: string}
+      division_job: {type: string}
+      division_role:
+        enum: [lead, specialist, bench, parked]
+      division_role_candidate: {type: string}
+      plugin: {type: string}
+      install_state:
+        enum: [active, parked, reference-library, plugin-cache, account-managed, declared]
+      duplicate_of: {type: string}
+      activation: {type: string}
+      provider_install_state:
+        type: object
+        additionalProperties:
+          enum: [active, parked, reference-library, plugin-cache, account-managed, declared]
+      also_in:
+        type: array
+        items: {type: string}
+      availability:
+        enum: [claude, codex, both, mcp, repo, claude-managed]
+      summary: {type: string, minLength: 1}
+      sub_department:
+        enum: [direction, identity-craft, living-digital, critique-qa, outside]
+      role:
+        enum: [lead, specialist, bench, outside]
+      job:
+        enum:
+          - research
+          - inspiration-taste
+          - category-audit
+          - concept-direction
+          - art-direction
+          - verbal-identity
+          - ux-research-methods
+          - typography
+          - colour
+          - mark-logo
+          - composition-layout
+          - image-generation-direction
+          - design-system-guidelines
+          - handover-specs
+          - presentation
+          - motion-principles
+          - motion-implementation
+          - generative-creative-coding
+          - realtime-3d
+          - ui-build
+          - interaction-architecture
+          - video-motion-graphics
+          - concept-critique
+          - ux-audit
+          - accessibility
+          - originality-audit
+          - visual-qa-browser
+          - performance
+          - consistency-qa
+          - marketing
+          - engineering
+          - workflow
+          - business
+          - media
+          - other
+          - strategy
+          - quality-security
+          - operations
+      trigger: {type: string, minLength: 1}
+      reason: {type: string, minLength: 1}
+      quality_note: {type: string}
+      path: {type: string, minLength: 1}
+      url: {type: string, minLength: 1}
+      verification:
+        enum: [local-file, local-declaration, founder-reported-remote]
+      connection_status: {type: string}
+      occurrences:
+        type: array
+        items:
+          type: object
+          required: [source, availability, path]
+          properties:
+            source: {type: string}
+            availability: {type: string}
+            path: {type: string}
+            header_sha256: {type: string, pattern: '^[0-9a-f]{64}$'}
+    anyOf:
+      - required: [path]
+      - required: [url]
+    allOf:
+      - if:
+          properties:
+            role: {const: specialist}
+        then:
+          required: [trigger]
+      - if:
+          properties:
+            role: {enum: [bench, outside]}
+        then:
+          required: [reason]
+      - if:
+          properties:
+            sub_department: {const: outside}
+        then:
+          properties:
+            role: {const: outside}
+            job: {enum: [strategy, marketing, engineering, quality-security, operations, workflow, business, media, other]}

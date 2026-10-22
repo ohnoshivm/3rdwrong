@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Callable
 
 try:
+    from .oscheck.agents import check_agents
     from .oscheck.common import Issue
     from .oscheck.decisions import check_decisions
     from .oscheck.frontmatter import check_frontmatter
@@ -17,6 +18,7 @@ try:
     from .oscheck.skills import check_skills
     from .oscheck.stale import check_stale
 except ImportError:
+    from oscheck.agents import check_agents
     from oscheck.common import Issue
     from oscheck.decisions import check_decisions
     from oscheck.frontmatter import check_frontmatter
@@ -32,6 +34,7 @@ CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
     "frontmatter": check_frontmatter,
     "decisions": check_decisions,
     "skills": check_skills,
+    "agents": check_agents,
     "links": check_links,
     "required": check_required,
     "secrets": check_secrets,

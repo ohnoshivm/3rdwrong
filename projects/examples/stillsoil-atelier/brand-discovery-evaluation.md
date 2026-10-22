@@ -12,13 +12,13 @@ review_every_days: 180
 
 ## Skill and version
 
-The first pass used `brand-discovery` 0.1.0 and prompted version 0.1.1. The
+The first pass used `3w-brand-discovery` 0.1.0 and prompted version 0.1.1. The
 blueprint integration added the perception-to-identity map and small-sample
 rule in version 0.2.0; the output below was rerun against that version.
 
 ## Test request and inputs
 
-**Request:** “Run brand-discovery on this fictional brief. Produce an evidence-led synthesis for the next strategy conversation. Do not invent research or make real-market claims.”
+**Request:** “Run 3w-brand-discovery on this fictional brief. Produce an evidence-led synthesis for the next strategy conversation. Do not invent research or make real-market claims.”
 
 Inputs were the [fictional client brief](brief.md), including B1 (business and
 scope), F1 (founder statements) and R1–R4 (synthetic participant notes). No
@@ -63,7 +63,7 @@ where evidence ended and measurement remained unknown.
 
 ## Skill changes made
 
-After the first pass, updated `skills/brand-discovery/SKILL.md` from 0.1.0 to
+After the first pass, updated `skills/3w-brand-discovery/SKILL.md` from 0.1.0 to
 0.1.1: procedure and quality checks now require the fictional boundary beside
 each Documented row and prevent duplicate notes from counting as independent
 corroboration. For version 0.2.0, integrated the perception map, stated that

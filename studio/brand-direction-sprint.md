@@ -9,7 +9,7 @@ review_every_days: 90
 # Brand Direction Sprint
 
 **Status: hypothesis.** This proposed entry offer and its price range are
-untested. Source: *Founding Blueprint v1.0, 22 October 2026 (private archive)*.
+untested. Source: *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](archive/founding-blueprint-v1.0.md))*.
 It is a bounded strategic engagement, not a discounted identity system.
 
 ## Intended buyer and use
@@ -53,8 +53,8 @@ promise a business result.
 
 - **Duration hypothesis:** 5–10 working days, subject to access to the
   decision-maker and timely source material.
-- **Price hypothesis:** held privately as a test range. This is an unvalidated hypothesis, not a published
-  rate or evidence of willingness to pay.
+- **Price hypothesis:** ₹35,000–₹75,000 (test range, hypothesis). Unvalidated; not a fixed
+  rate or evidence of willingness to pay. See [pricing hypotheses](pricing.md).
 - **Fit hypothesis:** A buyer with an urgent strategic decision may prefer a
   smaller paid step before committing to a complete identity system.
 

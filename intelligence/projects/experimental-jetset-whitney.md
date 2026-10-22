@@ -184,8 +184,7 @@ than treating flexibility as an upgrade by definition.
 
 ## Exercise
 
-**Hypothesis** — Proposed exercise, adapted from Founding Blueprint v1.0, 22 October 2026 (private
-archive): invent a fictional contemporary art institution and define one typographic principle plus two
+**Hypothesis** — Proposed exercise, adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md)): invent a fictional contemporary art institution and define one typographic principle plus two
 graphic primitives. Produce 30 applications using a new formal grammar; none may use a responsive W or
 Whitney compositions.
 

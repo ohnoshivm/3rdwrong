@@ -66,4 +66,4 @@ Define the strategic direction and criteria that creative work must answer. This
 - Creative criteria are stable enough to guide concept development.
 - No concept refinement begins before this approval is recorded.
 
-**Supports:** ../../templates/strategies/strategy-on-a-page.md; ../../skills/creative-direction/SKILL.md.
+**Supports:** ../../templates/strategies/strategy-on-a-page.md; ../../skills/3w-creative-direction/SKILL.md.

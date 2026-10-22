@@ -18,7 +18,7 @@ Claude Code imports `AGENTS.md` through [`CLAUDE.md`](../CLAUDE.md). Skills are 
 
 ## Skill format
 
-Each `skills/<name>/SKILL.md` uses Agent Skills frontmatter with a folder-matching `name`, a concise `description`, and `metadata` for type, status, owner, and review date; an optional `version` must be a string. Its body contains twelve H2 sections in the order checked by the validator. See [`schemas/metadata.json`](../schemas/metadata.json) for the canonical section names.
+The five studio skills use the `3w-` prefix; each `skills/3w-<name>/SKILL.md` uses Agent Skills frontmatter with a folder-matching `name`, a concise `description`, and `metadata` for type, status, owner, and review date; an optional `version` must be a string. Its body contains twelve H2 sections in the order checked by the validator. See [`schemas/metadata.json`](../schemas/metadata.json) for the canonical section names.
 
 To add or improve a skill, keep its status `experimental`, add the matching symlink, and evaluate it using [`templates/learning/skill-evaluation.md`](../templates/learning/skill-evaluation.md). Record the task, input, expected evidence, observed failure modes, and required human review.
 
@@ -34,11 +34,11 @@ To add or improve a skill, keep its status `experimental`, add the matching syml
 
 Use public primary sources where possible. Verify that a source supports the specific claim and record access dates for research. Mark each material claim Documented, Interpretation, Hypothesis, or Unknown. Never invent clients, results, approvals, research findings, quotations, or statistics. The company facts in the founding brief are the only approved company facts until a human records a change.
 
-Do not send private client materials to a tool unless the studio has approved that tool and use. Never put client names, assets, personal data, contracts, internal margins, or unreleased work in this repository. Read the [public-private boundary](public-private-boundary.md) before using examples.
+Do not send private client materials to a tool unless the studio has approved that tool and use. Never commit client or interviewee personal data, third-party contracts, credentials or NDA-bound assets. Choose a non-public store before collecting client or interview data; studio pricing hypotheses and the founding economics are public under D-0017. Read the [publication rules](public-private-boundary.md) before using examples.
 
 ## AI and human responsibility
 
-This operating split is adapted from Founding Blueprint v1.0, 22 October 2026 (private archive). Reuse the existing multi-model AI environment; do not build another routing system. Write skills in Markdown first; add code only when it improves output or removes repeated work.
+This operating split is adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md)). Reuse the existing multi-model AI environment; do not build another routing system. Write skills in Markdown first; add code only when it improves output or removes repeated work.
 
 | Work | AI contribution | Human responsibility |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ This operating split is adapted from Founding Blueprint v1.0, 22 October 2026 (p
 ## Adding a skill
 
 1. Open an issue describing the task, example, evaluation plan, and privacy check.
-2. Create a short-lived branch, add `skills/<name>/SKILL.md`, and link `.claude/skills/<name>` to `../../skills/<name>`.
+2. Create a short-lived branch, add `skills/3w-<name>/SKILL.md`, and link `.claude/skills/3w-<name>` to `../../skills/3w-<name>`.
 3. Keep status `experimental`; use all required H2 sections and state evidence and failure conditions.
 4. Evaluate with the skill-evaluation template, then run `uv run python scripts/validate.py` and the unit tests.
 5. Submit a pull request for human review. A passing evaluation does not make the skill approved policy.

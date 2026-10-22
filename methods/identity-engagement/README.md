@@ -13,13 +13,13 @@ inputs needed by the next; dates and client commitments are agreed separately.
 
 | Phase | Purpose | Supporting skill or template |
 | --- | --- | --- |
-| [01 Discovery](01-discovery.md) | Establish source-backed understanding | `brand-discovery`; perception-to-identity map; research intake; client brief |
-| [02 Diagnosis](02-diagnosis.md) | Frame the problem and category context | `category-code-audit`; perception-to-identity map; research intake |
+| [01 Discovery](01-discovery.md) | Establish source-backed understanding | `3w-brand-discovery`; perception-to-identity map; research intake; client brief |
+| [02 Diagnosis](02-diagnosis.md) | Frame the problem and category context | `3w-category-code-audit`; perception-to-identity map; research intake |
 | [03 Strategy](03-strategy.md) | Set direction and criteria | Perception-to-identity map; strategy on a page |
-| [04 Concept](04-concept.md) | Develop and compare ideas | `creative-direction`; concept route; design critique |
+| [04 Concept](04-concept.md) | Develop and compare ideas | `3w-creative-direction`; concept route; design critique |
 | [05 Identity](05-identity.md) | Build the selected identity elements | Identity system specification |
-| [06 System](06-system.md) | Test repeatable rules across applications | `brand-consistency-qa`; identity system specification |
-| [07 Validation](07-validation.md) | Check evidence, access and production constraints | `identity-system-critic`; system test matrix |
+| [06 System](06-system.md) | Test repeatable rules across applications | `3w-brand-consistency-qa`; identity system specification |
+| [07 Validation](07-validation.md) | Check evidence, access and production constraints | `3w-identity-system-critic`; system test matrix |
 | [08 Delivery](08-delivery.md) | Package approved assets and guidance | Final-delivery checklist |
 | [09 Learning](09-learning.md) | Record lessons and revise responsibly | Retrospective; method improvement; skill evaluation |
 
@@ -27,8 +27,7 @@ inputs needed by the next; dates and client commitments are agreed separately.
 
 The blueprint's eight-step workflow is a source model; this studio method
 retains nine operational phases by separating the final delivery from the
-learning review. Source: *Founding Blueprint v1.0, 22 October 2026 (private
-archive)*.
+learning review. Source: *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md))*.
 
 | Blueprint step | Studio phase | What moves forward |
 | --- | --- | --- |

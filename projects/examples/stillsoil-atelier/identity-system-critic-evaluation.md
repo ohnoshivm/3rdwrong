@@ -12,13 +12,13 @@ review_every_days: 180
 
 ## Skill and version
 
-The first pass used `identity-system-critic` 0.1.0 and prompted version 0.1.1.
+The first pass used `3w-identity-system-critic` 0.1.0 and prompted version 0.1.1.
 The blueprint integration added four critique modes and fixed verdicts in
 version 0.2.0; the output below was rerun against that version.
 
 ## Test request and inputs
 
-**Request:** “Use identity-system-critic to give a formative critique of route A against the fictional brief and discovery synthesis. Identify the next checks. Do not approve the route or make real-market claims.”
+**Request:** “Use 3w-identity-system-critic to give a formative critique of route A against the fictional brief and discovery synthesis. Identify the next checks. Do not approve the route or make real-market claims.”
 
 Inputs: [fictional brief](brief.md), [discovery synthesis](discovery-synthesis.md)
 and [concept route A](concept-route-a.md). Strategy is not signed. No category
@@ -64,7 +64,7 @@ as audience evidence. That gap was identified while preparing the final test.
 
 ## Skill changes made
 
-After the first pass, updated `skills/identity-system-critic/SKILL.md` from
+After the first pass, updated `skills/3w-identity-system-critic/SKILL.md` from
 0.1.0 to 0.1.1: no category sample now means **Unknown / Not testable**, and
 the schema has a dedicated distinctiveness field. Version 0.2.0 adds concept,
 formal, audience and implementation modes, exact non-scored verdicts, and a

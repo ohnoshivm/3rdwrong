@@ -65,4 +65,4 @@ The design lead signs the validation record. The client accepts known scope limi
 - The retest record is complete and files match the approved system.
 - Known limitations are ready to transfer into guidelines and handover.
 
-**Supports:** ../../methods/quality/identity-system-testing.md; ../../methods/quality/critique-protocol.md; ../../skills/identity-system-critic/SKILL.md.
+**Supports:** ../../methods/quality/identity-system-testing.md; ../../methods/quality/critique-protocol.md; ../../skills/3w-identity-system-critic/SKILL.md.

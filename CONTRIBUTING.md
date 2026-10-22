@@ -30,7 +30,7 @@ Use the status definitions in [knowledge governance](docs/knowledge-governance.m
 - Use British English, plain language, one H1, ATX headings, and relative links to files in the repository.
 - Keep one canonical home for each fact. Link to it instead of copying policy across pages.
 - Do not invent clients, results, approvals, research, quotes, or statistics.
-- Do not commit credentials, personal information, confidential client information, contracts, internal margins, or unreleased client assets. Read the [public-private boundary](docs/public-private-boundary.md) before publishing project learning.
+- Everything committed here is public and open source. Do not commit credentials, personal data, third-party contracts or NDA-bound assets. Choose a non-public store before collecting client or interview data. Studio pricing hypotheses and the founding economics are public under D-0017; preserve their status and evidence limits. Read the [publication rules](docs/public-private-boundary.md) before publishing project learning.
 
 ## No-code contributions
 

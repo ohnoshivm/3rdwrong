@@ -179,8 +179,7 @@ attractive.
 
 ## Exercise
 
-**Hypothesis** — Proposed exercise, adapted from Founding Blueprint v1.0, 22 October 2026 (private
-archive): state what an original kinetic brand should communicate before choosing effects. Define five
+**Hypothesis** — Proposed exercise, adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md)): state what an original kinetic brand should communicate before choosing effects. Define five
 motion principles covering initiation, transformation, timing, spatial behaviour and settling; give each
 a semantic purpose and a rejection condition.
 

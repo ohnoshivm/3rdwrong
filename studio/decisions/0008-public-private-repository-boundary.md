@@ -2,7 +2,8 @@
 id: D-0008
 title: Public and private repository architecture
 type: decision
-status: approved
+status: superseded
+superseded_by: D-0017
 date: 2026-10-22
 owner: founder
 last_reviewed: 2026-10-22
@@ -14,12 +15,11 @@ approval_source: founding brief, 2026-10-22
 
 ## Decision
 
-Maintain a public repository for reusable methods, templates, skills and approved public-safe studio knowledge, and a separate private repository for client work and confidential material. Client files, personal data, secrets, internal margins and contracts do not belong in the public repository.
+Historical decision (superseded): maintain a public repository for reusable methods, templates, skills and approved public-safe studio knowledge, and a separate private repository for client work and confidential material. Client files, personal data, secrets, internal margins and contracts do not belong in the public repository.
 
 ## Status
 
-Approved. This record does not silently change the status of
-any related hypothesis or proposed implementation detail.
+Superseded by [D-0017](0017-fully-open-repository.md), approved by the founder on 2026-10-22. The text below records the previous two-repo architecture as history and must not be followed as current policy.
 
 ## Rationale
 
@@ -31,11 +31,11 @@ Store client projects alongside public methods; publish anonymised material with
 
 ## Evidence
 
-Documented: founding brief, 2026-10-22; shared contract, 2026-10-22. See [public/private boundary](../../docs/public-private-boundary.md).
+Documented: founding brief, 2026-10-22; shared contract, 2026-10-22. See [publication rules](../../docs/public-private-boundary.md).
 
 ## Consequences
 
-Create the private client-work repository when the first client signs. Apply file-sharing hygiene and permission checks before public case-study use.
+Historical consequence (superseded): create the private client-work repository when the first client signs. The current rule instead requires choosing a non-public store before any client or interview data exists. Apply file-sharing hygiene and permission checks before public case-study use.
 
 ## Revision triggers
 

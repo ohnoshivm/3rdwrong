@@ -1,0 +1,10 @@
+division:game-development  # engine-specific; technical-artist duplicates local 3d-webgl-engineer, narrative-designer duplicates academic-narratologist
+division:finance  # likely US-centric bookkeeping/tax; pricing covered by specialized-pricing-analyst; use a chartered accountant
+division:gis  # mapping/BIM/drones unrelated to identity work
+division:healthcare  # unrelated
+division:support  # customer-support/IT roles; legal-compliance-checker unsafe for real legal questions
+agent:academic-geographer  # weakest fit; anthropologist and historian cover regional context
+agent:testing-api-tester  # code testing
+agent:testing-test-automation-engineer  # code testing
+agent:testing-test-results-analyzer  # code testing
+agent:testing-workflow-optimizer  # overlaps project-management

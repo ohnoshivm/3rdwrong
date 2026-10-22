@@ -66,4 +66,4 @@ Human reviewers approve the factual summary and participant handling. The client
 - Open questions are prioritised by whether they could change the diagnosis or strategy.
 - The discovery synthesis is ready for diagnosis; no visual direction is implied.
 
-**Supports:** ../../skills/brand-discovery/SKILL.md; ../../templates/learning/research-intake.md; ../../templates/briefs/client-brief.md.
+**Supports:** ../../skills/3w-brand-discovery/SKILL.md; ../../templates/learning/research-intake.md; ../../templates/briefs/client-brief.md.
