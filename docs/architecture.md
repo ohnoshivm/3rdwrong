@@ -21,7 +21,8 @@ The repository is a version-controlled second brain for durable studio knowledge
 | `intelligence/` | Cited studies and transferable observations from public work. |
 | `taste/` | Curated aesthetic and experiential references; inspiration only, with no policy or offer change. |
 | `templates/` | Reusable starts for projects, research, learning, and critique. |
-| `skills/` | Experimental, structured AI workflows. |
+| `skills/` | Five `3w-` experimental, structured AI workflows. |
+| `agents/` and `.claude/agents/` | Upstream MIT personas, pinned hashes and repo-level update instructions; excluded from knowledge indexing. |
 | `projects/` | Internal identity exploration and sanitised examples. |
 | `experiments/` | Explicit hypotheses and documented outcomes. |
 | `business/` | Proposed engagement operations. |

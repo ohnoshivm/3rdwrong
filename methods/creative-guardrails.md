@@ -10,7 +10,7 @@ review_every_days: 180
 
 These proposed rules help research and tools become original, useful work.
 They are general practice guidance derived from *Founding Blueprint v1.0, 22
-October 2026 (private archive)*, not claims about any individual's ability.
+October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md))*, not claims about any individual's ability.
 
 ## Rules for practice
 

@@ -10,7 +10,7 @@ review_every_days: 180
 
 This public-safe operating guide is proposed. Confirm the details with each
 client before relying on them. The proposed engagement rhythm and term
-categories draw on *Founding Blueprint v1.0, 22 October 2026 (private archive)*.
+categories draw on *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md))*.
 
 ## Project rhythm
 
@@ -59,8 +59,8 @@ link is a reference, not a substitute for legal review.
 
 ## File-sharing hygiene
 
-Client files never belong in the public repository. Use the private repository
-or a client-approved secure sharing location with named access. Share only the
+Client files never belong in the public repository. Choose a non-public store before any client or interview data exists;
+use a client-approved secure sharing location with named access. Share only the
 files needed for the current decision, review permissions periodically, and
 remove access when it is no longer required. Avoid personal data in public
 research notes. Check third-party asset licences and client permissions before

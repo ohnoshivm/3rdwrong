@@ -148,7 +148,7 @@ sources:
 
 ## Purpose
 
-**Interpretation** — This is a working library of inputs and proposed outputs, adapted from Founding Blueprint v1.0, 22 October 2026 (private archive). Inclusion is not endorsement, approval, a purchasing recommendation or a claim that a full book or video was consumed. No prices or study-time estimates are carried over.
+**Interpretation** — This is a working library of inputs and proposed outputs, adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md)). Inclusion is not endorsement, approval, a purchasing recommendation or a claim that a full book or video was consumed. No prices or study-time estimates are carried over.
 
 **Interpretation** — Evidence weight attaches to the specific material opened. A researcher's blog is not a peer-reviewed experiment; a studio's project narrative documents intent more strongly than effectiveness; repository documentation supports technical purpose rather than customer outcomes. Proposed outputs below remain hypotheses until made and critiqued.
 

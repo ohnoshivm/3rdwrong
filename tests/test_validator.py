@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import io
 import json
 import os
@@ -320,19 +321,61 @@ class ValidatorChecksTests(unittest.TestCase):
 
     def test_secret_check_flags_ai_research_residue(self) -> None:
         residue_host = "images" + "." + "openai" + "." + "com"
-        tracking_query = "utm_source" + "=" + "chatgpt" + "." + "com"
+        tracking_query = "utm_" + "source" + "=" + "chatgpt" + "." + "com"
         self.put("research.md", f"https://{residue_host}/asset\n?{tracking_query}\n")
         issues = check_secrets(self.root, self.config)
         self.assertTrue(any("AI-research residue" in issue.message for issue in issues))
         self.assertEqual(sum(issue.severity == "error" for issue in issues), 2)
 
-    def test_secret_check_errors_on_rupee_amount_everywhere(self) -> None:
+    def test_rupee_amounts_allow_only_studio_hypotheses_references_and_index(self) -> None:
         rupee = chr(0x20B9)
-        self.put("docs/pricing.md", f"Example {rupee}12,000\n")
-        self.put("studio/pricing.md", doc_frontmatter(status="hypothesis") + f"\nTest {rupee}12,000\n")
-        self.put("INDEX.md", f"Indexed price {rupee}12,000\n")
+        amount = f"\nTest {rupee}12,000\n"
+        allowed = ["studio/pricing.md", "studio/archive/blueprint.md", "INDEX.md"]
+        self.put(allowed[0], doc_frontmatter(status="hypothesis") + amount)
+        self.put(allowed[1], doc_frontmatter(status="reference") + amount)
+        self.put(allowed[2], amount)
+        forbidden = ["docs/pricing.md", "studio/approved.md", "studio/proposed.md", "studio/missing.md", "studio-price.md"]
+        self.put(forbidden[0], doc_frontmatter(status="hypothesis") + amount)
+        self.put(forbidden[1], doc_frontmatter(status="approved") + amount)
+        self.put(forbidden[2], doc_frontmatter(status="proposed") + amount)
+        self.put(forbidden[3], amount)
+        self.put(forbidden[4], doc_frontmatter(status="reference") + amount)
         issues = check_secrets(self.root, self.config)
-        self.assertEqual(sum(issue.severity == "error" and "rupee amount" in issue.message for issue in issues), 3)
+        self.assertEqual({issue.path for issue in issues if "rupee amount" in issue.message}, set(forbidden))
+
+    def test_vendor_agents_skip_knowledge_checks_but_keep_secret_scan(self) -> None:
+        token = "gh" + "p_" + "A" * 36
+        self.put(".claude/agents/upstream.md", f"# Vendor\n\n[upstream](absent.md)\n{token}\n")
+        self.assertEqual(check_frontmatter(self.root, self.config), [])
+        self.assertEqual(check_links(self.root, self.config), [])
+        issues = check_secrets(self.root, self.config)
+        self.assertTrue(any(issue.path == ".claude/agents/upstream.md" and "GitHub" in issue.message for issue in issues))
+
+    def test_secret_scan_does_not_treat_hex_digest_substrings_as_personal_ids(self) -> None:
+        digits = "123456" + "789012"
+        self.put("hash.json", '{"sha256": "a' + digits + 'f"}\n')
+        self.assertEqual(check_secrets(self.root, self.config), [])
+        self.put("real-id.txt", "ID: " + digits + "\n")
+        self.assertTrue(any("Aadhaar" in issue.message for issue in check_secrets(self.root, self.config)))
+
+    def test_reviewed_vendor_example_exception_is_bound_to_file_line_and_label(self) -> None:
+        line = "sk" + "-" + "EXAMPLEKEYVALUE1234"
+        content = line + "\n"
+        rel = ".claude/agents/security-example.md"
+        self.put(rel, content)
+        self.config["secret_allowlist"]["vendor_examples"] = [{
+            "path": rel,
+            "file_sha256": hashlib.sha256(content.encode()).hexdigest(),
+            "line_sha256": hashlib.sha256(line.encode()).hexdigest(),
+            "label": "OpenAI or Anthropic key",
+            "reason": "Reviewed upstream illustrative key, not a credential.",
+        }]
+        self.assertEqual(check_secrets(self.root, self.config), [])
+        self.put(rel, content + "Changed upstream file\n")
+        self.assertTrue(any("key detected" in issue.message for issue in check_secrets(self.root, self.config)))
+        self.put("docs/example.md", content)
+        self.config["secret_allowlist"]["vendor_examples"][0]["path"] = "docs/example.md"
+        self.assertTrue(any(issue.path == "docs/example.md" for issue in check_secrets(self.root, self.config)))
 
     def test_secret_check_rejects_forbidden_filenames(self) -> None:
         self.put(".env.example", "configuration template\n")

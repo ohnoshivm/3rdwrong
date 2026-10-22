@@ -28,7 +28,7 @@ These are prospecting priorities, not permanent industry restrictions.
 - **Size:** Typically a small or growing team, approximately 5–50 employees.
 - **Geography:** India initially, especially brands accessible through direct founder relationships. International clients remain an opportunity.
 - **Commercial position:** Premium or aspirational, with reasons to invest in perceived quality and distinction.
-- **Budget:** Tentative ability to invest in a focused identity project at our working price hypothesis (held in the private repository), subject to validation.
+- **Budget:** Tentative ability to invest ₹1.5–3.5 lakh in a focused identity project, subject to validation.
 - **Decision-maker:** Founder, co-founder, brand head, or marketing leader with meaningful creative authority.
 
 ## The problems they experience
@@ -91,7 +91,8 @@ Before declaring this our permanent ICP, interview at least 15–20 qualified bu
 
 ## How to record validation evidence
 
-Interview notes contain personal and commercial information, so they live in the private repository
-(see [public-private boundary](../docs/public-private-boundary.md)). Only anonymised, aggregated findings —
+Choose a non-public store before collecting any interview data; personal and identifying notes stay there
+(see [publication rules](../docs/public-private-boundary.md)). Use anonymised interview ids, record consent and its scope,
+and remove identifying combinations. Only anonymised, aggregated findings —
 for example "9 of 16 interviewed founders named a launch as the trigger" — come back here, with the date and
 sample size, through a pull request that updates this file and, where the conclusion changes, a decision record.

@@ -16,10 +16,16 @@ Original documentation, methods, templates, skills, and other original written m
 
 The [licensing-model decision](studio/decisions/0009-licensing-model.md) records this founder-approved choice.
 
+## Upstream Agency Agents
+
+The files in `.claude/agents/` are upstream Agency Agents material licensed under MIT, not CC BY 4.0. Their original copyright and complete MIT licence are reproduced in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); [the agent lock](agents/agency-agents.lock.json) records provenance and file hashes. Preserve the upstream notice when reusing these files.
+
 ## Third-party and excluded material
 
 Third-party material linked to or quoted for commentary remains under its owners' rights and terms. A citation does not relicense it. No third-party images are committed as repository assets.
 
 The name **3RDWRONGS**, and any future logos or brand assets, are not licensed by MIT or CC BY 4.0. Trademark and brand rights are reserved.
 
-Client work is never included in this public repository or licensed through it. Client names, assets, confidential information, and work not expressly cleared for public release remain private.
+Everything committed to this knowledge base is public and open source under its applicable licence. The founding blueprint and studio pricing hypotheses are included by explicit founder approval ([D-0017](studio/decisions/0017-fully-open-repository.md)); third-party quotations and cited sources retain their original rights.
+
+Client personal data, third-party contracts, credentials and NDA-bound assets must never be committed or licensed through this repository. Choose a non-public store before the first client or interview data exists, and follow the [publication rules](docs/public-private-boundary.md). Client work and other third-party assets require specific rights clearance; the founder's approval does not relicense someone else's work.

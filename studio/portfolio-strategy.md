@@ -11,7 +11,7 @@ review_every_days: 90
 **Status: proposed.** The portfolio is the studio's first public product: it
 must show decisions and application evidence, not just polished images. The
 plan below describes intended work, not completed projects. Source: *Founding
-Blueprint v1.0, 22 October 2026 (private archive)*.
+Blueprint v1.0, 22 October 2026 ([founding source archive](archive/founding-blueprint-v1.0.md))*.
 
 ## Three flagship projects
 

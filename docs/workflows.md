@@ -20,7 +20,7 @@ Open a `type: reference` issue with a direct link to the public work. Read `inte
 
 ## 3. Start an identity project
 
-Open a `type: project` issue and read `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, and `skills/brand-discovery/SKILL.md`. Create a private working branch or approved private workspace for client details; only add a sanitised public index when it is safe. Use `uv run python scripts/new_doc.py templates/projects/project-readme.md projects/examples/project-name/README.md --title "Project name"` for a cleared example. Keep delivery checkpoints proposed until approved by a human.
+Open a `type: project` issue and read `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, and `skills/3w-brand-discovery/SKILL.md`. Choose a non-public store before collecting any client or interview data; branches of this public repository are public too. Only add non-identifying, aggregated, rights-cleared learning after review. Use `uv run python scripts/new_doc.py templates/projects/project-readme.md projects/examples/project-name/README.md --title "Project name"` for a cleared example. Keep delivery checkpoints proposed until approved by a human.
 
 ## 4. Update approved strategy
 
@@ -40,7 +40,7 @@ Open a `type: experiment` issue before running the test. Read `experiments/READM
 
 ## 8. Review a design decision
 
-Open a `type: docs` issue or a `type: decision` issue for the item under review. Read `skills/identity-system-critic/SKILL.md` and `methods/quality/critique-protocol.md`. In a `review/short-desc` branch, use the design-critique template to separate documented brief requirements, observable details, interpretation, and hypotheses. Link the decision or identity-system spec under review, state what remains unknown, and submit the critique as a pull request without changing the decision's status.
+Open a `type: docs` issue or a `type: decision` issue for the item under review. Read `skills/3w-identity-system-critic/SKILL.md` and `methods/quality/critique-protocol.md`. In a `review/short-desc` branch, use the design-critique template to separate documented brief requirements, observable details, interpretation, and hypotheses. Link the decision or identity-system spec under review, state what remains unknown, and submit the critique as a pull request without changing the decision's status.
 
 ## 9. Capture post-project lessons
 
@@ -52,7 +52,7 @@ At the repository root, run `claude`. Prompt: “Read `INDEX.md` first, then the
 
 ## 11. Capture a quick note and weekly triage
 
-For a public-safe observation or link, add `inbox/YYYY-MM-DD-short-title.md` in the GitHub web editor or a short-lived branch. Read [`inbox/README.md`](../inbox/README.md) and [`docs/public-private-boundary.md`](public-private-boundary.md). Add only `title`, ISO `captured`, `type: inbox`, and `status: proposed` frontmatter; keep personal, client, confidential, and commercial material in the private system. During weekly triage, turn each useful note into a study, principle, experiment, decision, or method change and remove the inbox copy, or delete it if it has no lasting value. Use a pull request for substantive changes and run the validator after regenerating `INDEX.md`.
+For a public-safe observation or link, add `inbox/YYYY-MM-DD-short-title.md` in the GitHub web editor or a short-lived branch. Read [`inbox/README.md`](../inbox/README.md) and [`docs/public-private-boundary.md`](public-private-boundary.md). Add only `title`, ISO `captured`, `type: inbox`, and `status: proposed` frontmatter; keep personal data, third-party contracts, credentials and NDA-bound material in the chosen non-public store; record public studio pricing hypotheses in the permitted `studio/` records. During weekly triage, turn each useful note into a study, principle, experiment, decision, or method change and remove the inbox copy, or delete it if it has no lasting value. Use a pull request for substantive changes and run the validator after regenerating `INDEX.md`.
 
 ## No-code path
 

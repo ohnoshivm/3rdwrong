@@ -34,7 +34,7 @@ services before demand and delivery capacity are known.
 
 ## Evidence
 
-Proposed: *Founding Blueprint v1.0, 22 October 2026 (private archive)* and
+Proposed: *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../archive/founding-blueprint-v1.0.md))* and
 founding brief. No enquiry or conversion evidence yet supports either offer.
 
 ## Consequences

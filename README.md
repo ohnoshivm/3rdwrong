@@ -2,6 +2,8 @@
 
 3RDWRONGS is an emerging independent design and branding company with global ambitions. Its approved direction is: **“A brand identity studio first. A living identity specialist by capability. A perception-led consultancy by method.”**
 
+The repository is [`ohnoshivm/3rdwrong`](https://github.com/ohnoshivm/3rdwrong), with local home `~/3rdwrong`. Everything committed here is public and open source under the applicable licences, including the [founding blueprint](studio/archive/founding-blueprint-v1.0.md) and [unvalidated pricing hypotheses](studio/pricing.md). See [D-0017](studio/decisions/0017-fully-open-repository.md).
+
 This repository is the studio's version-controlled second brain: a public operating knowledge base that connects strategy, repeatable methods, source-based design research, working templates, and experimental AI skills so learning can compound across projects without replacing human creative judgement. [`INDEX.md`](INDEX.md) maps the frontmatter documents; [`inbox/`](inbox/README.md) is for quick public-safe capture before weekly triage.
 
 ## Contents
@@ -15,11 +17,12 @@ This repository is the studio's version-controlled second brain: a public operat
 | [`intelligence/`](intelligence/README.md) | Cited agency, project, visual-system, and research studies. |
 | [`taste/`](taste/README.md) | Curated aesthetic and experiential references only; no policy or offer change. |
 | [`templates/`](templates/README.md) | Reusable project, research, learning, strategy, and critique documents. |
-| [`skills/`](skills/README.md) | Experimental AI workflows with evidence and human-review requirements. |
+| [`skills/`](skills/README.md) | Five `3w-` experimental AI workflows with evidence and human-review requirements. |
+| [`agents/`](agents/README.md) | Upstream Agency Agents catalogue minus founder exclusions, provenance, lock and repo-level update instructions. |
 | [`projects/`](projects/README.md) | Internal identity exploration and sanitised examples. |
 | [`experiments/`](experiments/README.md) | Small, explicit tests of creative and operating hypotheses. |
 | [`business/`](business/engagement-operations.md) | Proposed engagement operations. |
-| [`docs/`](docs/architecture.md) | Governance, onboarding, workflows, maintenance, and privacy boundary. |
+| [`docs/`](docs/architecture.md) | Governance, onboarding, workflows, maintenance, and publication rules. |
 | [`scripts/validate.py`](scripts/validate.py) and [`schemas/metadata.json`](schemas/metadata.json) | Repository checks and their single source of truth. |
 | [`.github/`](.github/workflows/validate.yml) | Contribution workflow, labels, repository ownership, and CI. |
 
@@ -30,18 +33,18 @@ This repository is the studio's version-controlled second brain: a public operat
 - How knowledge is reviewed: [Knowledge governance](docs/knowledge-governance.md).
 - How agents should load context: [AI integration](docs/ai-integration.md) and [agent instructions](AGENTS.md).
 - How to contribute: [Contributing](CONTRIBUTING.md).
-- What may be published: [Public-private boundary](docs/public-private-boundary.md).
+- What may be published: [Publication rules](docs/public-private-boundary.md).
 
 ## Using with Claude Code
 
 1. Open Claude Code at the repository root so it can read `AGENTS.md` and the task router.
-2. Have it read `INDEX.md` first, then follow the closest task route in `AGENTS.md`. Claude Code can discover skills through `.claude/skills`.
+2. Have it read `INDEX.md` first, then follow the closest task route in `AGENTS.md`. Claude Code can discover the five `3w-` skills through `.claude/skills` and the 229-agent catalogue (53 founder exclusions) through `.claude/agents`; route to studio skills first.
 3. Review every proposed change and keep speculative material in its correct status.
 
 Example prompts:
 
 - “Read the route for starting a client identity project and prepare a proposed discovery brief from the files I provide. Do not invent research findings.”
-- “Use the identity-system-critic skill to critique this supplied design. Separate documented evidence, interpretation, hypothesis, and unknowns.”
+- “Use the 3w-identity-system-critic skill to critique this supplied design. Separate documented evidence, interpretation, hypothesis, and unknowns.”
 - “Review this agency's public work using the agency-study template. Link each observation to a source and keep the study at reference status.”
 
 ## Validation
@@ -72,7 +75,7 @@ The studio's own visual identity is still in exploration and is not approved. Th
 
 ## Open source and protected material
 
-Code and original written material have separate licences; third-party material, the 3RDWRONGS name and future brand assets, and client work are treated separately. Read [Licensing](LICENSING.md) and the [public-private boundary](docs/public-private-boundary.md) before reusing or publishing material.
+Code and original written material have separate licences; third-party material, the 3RDWRONGS name and future brand assets, and client work are treated separately. Read [Licensing](LICENSING.md) and the [publication rules](docs/public-private-boundary.md) before reusing or publishing material.
 
 ## Next priorities
 

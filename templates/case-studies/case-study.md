@@ -10,7 +10,7 @@ review_every_days: 180
 # Case study
 
 <!-- Copy this file into the destination project, then replace every placeholder. Keep guidance comments until the draft is complete. -->
-<!-- The ten-part case structure is proposed from Founding Blueprint v1.0, 22 October 2026 (private archive). -->
+<!-- The ten-part case structure is proposed from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md)). -->
 
 ## 1. Challenge
 

@@ -77,7 +77,9 @@ def markdown_files(root: Path) -> list[Path]:
     return sorted(
         path
         for path in root.rglob("*.md")
-        if path.is_file() and not {".git", ".venv"}.intersection(path.relative_to(root).parts)
+        if path.is_file()
+        and not {".git", ".venv", "node_modules"}.intersection(path.relative_to(root).parts)
+        and path.relative_to(root).parts[:2] != (".claude", "agents")
     )
 
 

@@ -50,6 +50,10 @@ class BuildIndexTests(unittest.TestCase):
         self.assertIn("A rough observation for triage.", first)
         self.assertNotIn("README.md", first)
 
+    def test_build_index_excludes_vendor_agents_even_with_frontmatter(self) -> None:
+        self.put(".claude/agents/vendor.md", "---\nname: Vendor\n---\n\n# Vendor\n\nUpstream persona.\n")
+        self.assertNotIn("vendor", build_index(self.root).lower())
+
     def test_build_index_truncates_summaries_to_about_140_characters(self) -> None:
         long_summary = "A" * 200
         self.put(

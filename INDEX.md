@@ -19,7 +19,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [docs/getting-started.md](docs/getting-started.md) | Getting started | guide | proposed | 2026-10-22 | Use this page to open the OS locally, make a first contribution, or start a fresh Claude Code session. |
 | [docs/knowledge-governance.md](docs/knowledge-governance.md) | Knowledge governance | guide | proposed | 2026-10-22 | Status makes the evidence and review state of a document visible. |
 | [docs/maintenance.md](docs/maintenance.md) | Repository maintenance | guide | proposed | 2026-10-22 | Keep the repository small and current. |
-| [docs/public-private-boundary.md](docs/public-private-boundary.md) | Public and private boundary | guide | proposed | 2026-10-22 | This repository is public. |
+| [docs/public-private-boundary.md](docs/public-private-boundary.md) | Publication rules | policy | approved | 2026-10-22 | Everything committed to ohnoshivm/3rdwrong is public and open source under the applicable licences. |
 | [docs/workflows.md](docs/workflows.md) | Working workflows | guide | proposed | 2026-10-22 | Use issues to frame work, branches and pull requests for substantive changes, and status metadata to show what remains uncertain. |
 
 ## experiments
@@ -43,7 +43,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [intelligence/psychology/distinctive-assets-and-memory.md](intelligence/psychology/distinctive-assets-and-memory.md) | Distinctive assets — recognition before aesthetic certainty | research | reference | 2026-10-22 | Documented — Romaniuk's institute article describes distinctive assets using fame and uniqueness. |
 | [intelligence/psychology/processing-fluency-and-distinctiveness.md](intelligence/psychology/processing-fluency-and-distinctiveness.md) | Processing fluency — ease is not a mandate for sameness | research | reference | 2026-10-22 | Documented — Reber, Schwarz and Winkielman's 2004 article in Personality and Social Psychology Review, 8(4), 364–382, presents a processi... |
 | [intelligence/research-queue.md](intelligence/research-queue.md) | Research queue — verified leads, unstudied questions | research | reference | 2026-10-22 | Interpretation — This is a prioritised backlog, not completed research. |
-| [intelligence/resources.md](intelligence/resources.md) | Resources — evidence weights and required outputs | research | reference | 2026-10-22 | Interpretation — This is a working library of inputs and proposed outputs, adapted from Founding Blueprint v1.0, 22 October 2026 (private... |
+| [intelligence/resources.md](intelligence/resources.md) | Resources — evidence weights and required outputs | research | reference | 2026-10-22 | Interpretation — This is a working library of inputs and proposed outputs, adapted from Founding Blueprint v1.0, 22 October 2026 (foundin... |
 
 ## methods
 
@@ -85,26 +85,27 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
-| [skills/brand-consistency-qa/SKILL.md](skills/brand-consistency-qa/SKILL.md) | brand-consistency-qa | skill | experimental | 2026-10-22 | Run a traceable quality check across brand assets and identify deviations from approved rules. |
-| [skills/brand-discovery/SKILL.md](skills/brand-discovery/SKILL.md) | brand-discovery | skill | experimental | 2026-10-22 | Turn supplied briefs, research notes and brand materials into a useful discovery synthesis. |
-| [skills/category-code-audit/SKILL.md](skills/category-code-audit/SKILL.md) | category-code-audit | skill | experimental | 2026-10-22 | Make category conventions inspectable. |
-| [skills/creative-direction/SKILL.md](skills/creative-direction/SKILL.md) | creative-direction | skill | experimental | 2026-10-22 | Translate signed strategy into meaningful identity ideas. |
-| [skills/identity-system-critic/SKILL.md](skills/identity-system-critic/SKILL.md) | identity-system-critic | skill | experimental | 2026-10-22 | Find consequential strengths, gaps and risks in an identity route or system. |
+| [skills/3w-brand-consistency-qa/SKILL.md](skills/3w-brand-consistency-qa/SKILL.md) | 3w-brand-consistency-qa | skill | experimental | 2026-10-22 | Run a traceable quality check across brand assets and identify deviations from approved rules. |
+| [skills/3w-brand-discovery/SKILL.md](skills/3w-brand-discovery/SKILL.md) | 3w-brand-discovery | skill | experimental | 2026-10-22 | Turn supplied briefs, research notes and brand materials into a useful discovery synthesis. |
+| [skills/3w-category-code-audit/SKILL.md](skills/3w-category-code-audit/SKILL.md) | 3w-category-code-audit | skill | experimental | 2026-10-22 | Make category conventions inspectable. |
+| [skills/3w-creative-direction/SKILL.md](skills/3w-creative-direction/SKILL.md) | 3w-creative-direction | skill | experimental | 2026-10-22 | Translate signed strategy into meaningful identity ideas. |
+| [skills/3w-identity-system-critic/SKILL.md](skills/3w-identity-system-critic/SKILL.md) | 3w-identity-system-critic | skill | experimental | 2026-10-22 | Find consequential strengths, gaps and risks in an identity route or system. |
 
 ## studio
 
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
+| [studio/archive/founding-blueprint-v1.0.md](studio/archive/founding-blueprint-v1.0.md) | 3RDWRONGS — Founding Blueprint v1.0 | strategy | reference | 2026-10-22 | This is the founding source document, partly AI-researched. |
 | [studio/brand-direction-sprint.md](studio/brand-direction-sprint.md) | Brand Direction Sprint | strategy | hypothesis | 2026-10-22 | Status: hypothesis. |
 | [studio/creative-philosophy.md](studio/creative-philosophy.md) | Creative philosophy | guide | proposed | 2026-10-22 | The eight principles below are approved verbatim operating philosophy. |
 | [studio/decisions/0001-strategic-positioning.md](studio/decisions/0001-strategic-positioning.md) | Strategic positioning | decision | approved | 2026-10-22 | 3RDWRONGS is positioned as: “A brand identity studio first. |
 | [studio/decisions/0002-identity-system-scope.md](studio/decisions/0002-identity-system-scope.md) | Flagship offer scope and exclusions | decision | approved | 2026-10-22 | The flagship offer is The 3RDWRONGS Identity System: a focused strategic and creative engagement taking a brand from unclear positioning... |
 | [studio/decisions/0003-operating-philosophy.md](studio/decisions/0003-operating-philosophy.md) | Operating philosophy | decision | approved | 2026-10-22 | The approved operating philosophy is: Meaning before appearance. |
 | [studio/decisions/0004-initial-ideal-customer-profile.md](studio/decisions/0004-initial-ideal-customer-profile.md) | Initial ICP and secondary market | decision | hypothesis | 2026-10-22 | Hypothesis: the initial primary audience is founder-led, emerging premium consumer and lifestyle businesses in India, especially beauty a... |
-| [studio/decisions/0005-pricing-hypothesis.md](studio/decisions/0005-pricing-hypothesis.md) | Complete identity pricing hypothesis | decision | hypothesis | 2026-10-22 | Hypothesis: a possible client budget range for a complete identity engagement is recorded privately. |
+| [studio/decisions/0005-pricing-hypothesis.md](studio/decisions/0005-pricing-hypothesis.md) | Complete identity pricing hypothesis | decision | hypothesis | 2026-10-22 | Hypothesis: ₹1.5–3.5 lakh is the possible client budget/price range for a focused complete identity engagement. |
 | [studio/decisions/0006-rejected-own-identity-direction.md](studio/decisions/0006-rejected-own-identity-direction.md) | Rejected own-identity direction | decision | rejected | 2026-10-22 | Reject the exploration that combined black backgrounds, heavy grotesk typography and neon accents for 3RDWRONGS. |
 | [studio/decisions/0007-own-identity-exploration.md](studio/decisions/0007-own-identity-exploration.md) | Own identity remains in exploration | decision | proposed | 2026-10-22 | Keep the 3RDWRONGS identity in exploration. |
-| [studio/decisions/0008-public-private-repository-boundary.md](studio/decisions/0008-public-private-repository-boundary.md) | Public and private repository architecture | decision | approved | 2026-10-22 | Maintain a public repository for reusable methods, templates, skills and approved public-safe studio knowledge, and a separate private re... |
+| [studio/decisions/0008-public-private-repository-boundary.md](studio/decisions/0008-public-private-repository-boundary.md) | Public and private repository architecture | decision | superseded | 2026-10-22 | Historical decision (superseded): maintain a public repository for reusable methods, templates, skills and approved public-safe studio kn... |
 | [studio/decisions/0009-licensing-model.md](studio/decisions/0009-licensing-model.md) | Licensing model | decision | approved | 2026-10-22 | MIT for code and CC BY 4.0 for original documentation, methods and skills. |
 | [studio/decisions/0010-beauty-personal-care-discovery-focus.md](studio/decisions/0010-beauty-personal-care-discovery-focus.md) | Beauty and personal-care discovery focus | decision | proposed | 2026-10-22 | Propose beginning buyer discovery with emerging beauty and personal-care brands. |
 | [studio/decisions/0011-ai-and-technology-not-primary-positioning.md](studio/decisions/0011-ai-and-technology-not-primary-positioning.md) | AI and technology not primary positioning | decision | proposed | 2026-10-22 | Propose keeping AI-first and technology-first claims out of 3RDWRONGS's primary external positioning. |
@@ -112,10 +113,15 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [studio/decisions/0013-two-offer-launch.md](studio/decisions/0013-two-offer-launch.md) | Two-offer launch | decision | proposed | 2026-10-22 | Propose launching with two offers only: the Brand Direction Sprint and the 3RDWRONGS Identity System. |
 | [studio/decisions/0014-meaning-of-the-name.md](studio/decisions/0014-meaning-of-the-name.md) | Meaning of the name | decision | proposed | 2026-10-22 | Test the candidate interpretation that “3RDWRONGS” means refusing the obvious answer when a better one remains undiscovered. |
 | [studio/decisions/0015-founder-led-practice-with-specialists.md](studio/decisions/0015-founder-led-practice-with-specialists.md) | Founder-led practice with specialists | decision | proposed | 2026-10-22 | Propose operating as a founder-led independent practice, bringing in specialist collaborators when a project requires skills or capacity... |
+| [studio/decisions/0016-agency-agents-catalogue.md](studio/decisions/0016-agency-agents-catalogue.md) | Agency Agents catalogue | decision | approved | 2026-10-22 | Install the Agency Agents catalogue minus 53 excluded agents (229 included), at repository level only in .claude/agents/, pinned to commi... |
+| [studio/decisions/0017-fully-open-repository.md](studio/decisions/0017-fully-open-repository.md) | Fully open repository | decision | approved | 2026-10-22 | Everything in the 3RDWRONG knowledge base is public and open source under the applicable licences. |
+| [studio/departments/design.md](studio/departments/design.md) | Design department | guide | proposed | 2026-10-22 | Interpretation — proposed operating guide. |
+| [studio/departments/README.md](studio/departments/README.md) | Department index | guide | proposed | 2026-10-22 | Interpretation — proposed operating structure. |
 | [studio/identity-system-offer.md](studio/identity-system-offer.md) | The 3RDWRONGS Identity System | guide | proposed | 2026-10-22 | The approved flagship offer is a focused strategic and creative engagement taking a brand from unclear positioning to a distinctive, depl... |
 | [studio/initial-icp.md](studio/initial-icp.md) | 3RDWRONGS — Initial Ideal Customer Profile | strategy | hypothesis | 2026-10-22 | Version 0.1 \| Primary ICP hypothesis |
 | [studio/portfolio-strategy.md](studio/portfolio-strategy.md) | Portfolio strategy | strategy | proposed | 2026-10-22 | Status: proposed. |
 | [studio/positioning.md](studio/positioning.md) | 3RDWRONGS — Positioning Thesis | strategy | hypothesis | 2026-10-22 | Version 0.1 \| 22 October 2026 \| Working strategic hypothesis |
+| [studio/pricing.md](studio/pricing.md) | Pricing hypotheses | strategy | hypothesis | 2026-10-22 | Hypothesis — Both ranges are unvalidated working assumptions, not fixed fees, market evidence or commitments. |
 | [studio/roadmap.md](studio/roadmap.md) | Proposed studio roadmap | guide | proposed | 2026-10-22 | This is an internal sequence, not a promise to clients or a forecast of results. |
 | [studio/strategic-rationale.md](studio/strategic-rationale.md) | Strategic rationale | strategy | proposed | 2026-10-22 | Status: proposed. |
 

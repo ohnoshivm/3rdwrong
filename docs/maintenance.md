@@ -27,7 +27,7 @@ Keep the repository small and current. Review the checks alongside the knowledge
 
 - Revisit the review intervals in `schemas/metadata.json` and update the governance guide if they change.
 - Check that proposed material is still useful, hypotheses have a test plan, and superseded records point to a current replacement.
-- Review public/private handling and access to any future private storage separately.
+- Review publication rules and access to the non-public store; choose that store before client or interview data exists.
 
 ## Python dependencies
 

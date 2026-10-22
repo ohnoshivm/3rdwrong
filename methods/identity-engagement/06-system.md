@@ -65,4 +65,4 @@ The client reviews applications against the approved strategy and the agreed tes
 - Critical defects are fixed or accepted as named exceptions by the client.
 - The identity system is ready for validation and final delivery.
 
-**Supports:** ../../templates/identity-systems/identity-system-spec.md; ../../methods/quality/identity-system-testing.md; ../../skills/brand-consistency-qa/SKILL.md.
+**Supports:** ../../templates/identity-systems/identity-system-spec.md; ../../methods/quality/identity-system-testing.md; ../../skills/3w-brand-consistency-qa/SKILL.md.

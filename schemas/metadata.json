@@ -144,11 +144,11 @@
     "templates/learning/method-improvement.md",
     "templates/learning/skill-evaluation.md",
     "skills/README.md",
-    "skills/brand-discovery/SKILL.md",
-    "skills/category-code-audit/SKILL.md",
-    "skills/creative-direction/SKILL.md",
-    "skills/identity-system-critic/SKILL.md",
-    "skills/brand-consistency-qa/SKILL.md",
+    "skills/3w-brand-discovery/SKILL.md",
+    "skills/3w-category-code-audit/SKILL.md",
+    "skills/3w-creative-direction/SKILL.md",
+    "skills/3w-identity-system-critic/SKILL.md",
+    "skills/3w-brand-consistency-qa/SKILL.md",
     "projects/README.md",
     "projects/internal/3rdwrongs-identity/brief.md",
     "projects/examples/README.md",
@@ -164,7 +164,18 @@
     "intelligence/projects/porto-rocha-masp.md",
     "intelligence/projects/collins-spotify.md",
     "intelligence/projects/studio-dumbar-demo.md",
-    "intelligence/agencies/dia-studio.md"
+    "intelligence/agencies/dia-studio.md",
+    "studio/pricing.md",
+    "studio/archive/founding-blueprint-v1.0.md",
+    "studio/decisions/0016-agency-agents-catalogue.md",
+    "studio/decisions/0017-fully-open-repository.md",
+    "agents/README.md",
+    "agents/agency-agents.lock.json",
+    "scripts/sync_agents.sh",
+    "scripts/oscheck/agents.py",
+    "tests/test_agents.py",
+    "THIRD_PARTY_NOTICES.md",
+    "agents/exclusions.txt"
   ],
   "frontmatter_exempt_globs": [
     "README.md",
@@ -176,7 +187,9 @@
     "LICENSING.md",
     "INDEX.md",
     ".github/**",
-    "tests/fixtures/**"
+    "tests/fixtures/**",
+    "THIRD_PARTY_NOTICES.md",
+    ".claude/agents/**"
   ],
   "required_skill_sections": [
     "Purpose",
@@ -204,6 +217,43 @@
   "secret_allowlist": {
     "emails": [],
     "pan": [],
-    "aadhaar": []
+    "aadhaar": [],
+    "vendor_examples": [
+      {
+        "path": ".claude/agents/security-ai-generated-code-auditor.md",
+        "file_sha256": "ac2196a914bfb00dddfef93edb9eef1860f924f9582d814cd303ab45e4fc71bc",
+        "line_sha256": "b223c76a58680b5643ef7615b646c0792fa7576c0fb874ebc39a4b55a93345a4",
+        "label": "OpenAI or Anthropic key",
+        "reason": "Reviewed illustrative placeholder in the upstream hardcoded-secret failure example; not a real key."
+      },
+      {
+        "path": ".claude/agents/security-ai-generated-code-auditor.md",
+        "file_sha256": "ac2196a914bfb00dddfef93edb9eef1860f924f9582d814cd303ab45e4fc71bc",
+        "line_sha256": "46aa1ebd6914ed1b9aefdad84918c3d4f356400b5e926fc685c43cb3dba76069",
+        "label": "OpenAI or Anthropic key",
+        "reason": "Reviewed illustrative placeholder in the upstream hardcoded-secret failure example; not a real key."
+      },
+      {
+        "path": ".claude/agents/security-senior-secops.md",
+        "file_sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+        "line_sha256": "8bcac7908eb950419537b91e19adc83ce2c9cbfdacf4f81157fdadfec11f7017",
+        "label": "private key block",
+        "reason": "Reviewed standalone PEM header in the upstream pattern catalogue; no private key material follows."
+      },
+      {
+        "path": ".claude/agents/security-senior-secops.md",
+        "file_sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+        "line_sha256": "33ea101ddbe7c33be8f143a2779736d0264a4f4c8f323331a4aa9a1f72d8ab2a",
+        "label": "private key block",
+        "reason": "Reviewed standalone PEM header in the upstream pattern catalogue; no private key material follows."
+      },
+      {
+        "path": ".claude/agents/security-senior-secops.md",
+        "file_sha256": "80f83d40f631134ab458247433b616e8fbdfdc0c7bdc568e356d4e6902385359",
+        "line_sha256": "1ece37e52d72b6c0c1f451b7a18343894a17f4c1a8c51613b078cae1139629e3",
+        "label": "private key block",
+        "reason": "Reviewed standalone PEM header in the upstream pattern catalogue; no private key material follows."
+      }
+    ]
   }
 }

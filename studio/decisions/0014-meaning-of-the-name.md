@@ -33,8 +33,7 @@ equate being wrong with rebellion or attention-seeking.
 
 ## Evidence
 
-Proposed candidate from *Founding Blueprint v1.0, 22 October 2026 (private
-archive)*. No audience feedback or pronunciation assessment is recorded.
+Proposed candidate from *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../archive/founding-blueprint-v1.0.md))*. No audience feedback or pronunciation assessment is recorded.
 Trademark, domain and pronunciation checks are required before identity
 investment.
 

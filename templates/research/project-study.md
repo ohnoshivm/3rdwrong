@@ -60,7 +60,7 @@ status:
   applied_to_original_work: false
 ```
 
-Card structure adapted from Founding Blueprint v1.0, 22 October 2026 (private archive). This is a
+Card structure adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md)). This is a
 proposed capture format, not an approved method.
 
 ## Business or creative problem

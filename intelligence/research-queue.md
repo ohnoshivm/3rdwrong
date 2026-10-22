@@ -57,7 +57,7 @@ sources:
 ## Purpose and intake boundary
 
 **Interpretation** — This is a prioritised backlog, not completed research. Priorities and proposed
-outputs are adapted from Founding Blueprint v1.0, 22 October 2026 (private archive); project claims were
+outputs are adapted from Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/founding-blueprint-v1.0.md)); project claims were
 checked against the primary pages below. This document's reference status records the leads, not approval
 of a proposed method.
 
@@ -118,7 +118,7 @@ remain visible when a study is reused.
 
 **Unknown** — Unverified source details and inaccessible leads remain in the [resources access
 notes](resources.md#access-limits-and-held-leads). No tools, prices, internal margins or founder
-capability claims are inferred from the private source.
+capability claims are inferred from the founding source.
 
 ## Promotion and review
 

@@ -11,7 +11,7 @@ review_every_days: 180
 A critique tests work against its purpose and evidence. It is not a vote on
 taste, a route-selection ritual or a substitute for human approval.
 The four modes and written verdicts below are proposed from *Founding
-Blueprint v1.0, 22 October 2026 (private archive)*.
+Blueprint v1.0, 22 October 2026 ([founding source archive](../../studio/archive/founding-blueprint-v1.0.md))*.
 
 ## Before the review
 

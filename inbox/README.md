@@ -1,6 +1,6 @@
 # Inbox
 
-Use this folder for rough, public-safe notes, links, and observations that are not ready for a permanent home. Capture only material suitable for this public repository. Personal, client, confidential, or commercial information belongs in the private system; see the [public-private boundary](../docs/public-private-boundary.md).
+Use this folder for rough, public-safe notes, links, and observations that are not ready for a permanent home. Capture only material suitable for this public repository. Personal data, third-party contracts, credentials and NDA-bound material belong in a non-public store chosen before collection. Studio pricing hypotheses are public in the permitted `studio/` records, rather than inbox notes; see the [publication rules](../docs/public-private-boundary.md).
 
 Each note needs only this frontmatter:
 

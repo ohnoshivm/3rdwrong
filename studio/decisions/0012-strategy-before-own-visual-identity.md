@@ -38,7 +38,7 @@ territory.
 
 Documented: founding brief, 2026-10-22, records the rejected own-identity
 direction. Proposed: the Phase 0 gate is a process recommendation from the
-founder brief and *Founding Blueprint v1.0, 22 October 2026 (private archive)*.
+founder brief and *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](../archive/founding-blueprint-v1.0.md))*.
 No new visual direction is approved.
 
 ## Consequences
