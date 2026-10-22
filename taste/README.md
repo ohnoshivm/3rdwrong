@@ -10,7 +10,10 @@ brand identity studio. Admiration for immersive studio websites does not imply t
 
 ## How it fits
 
-- [Studio websites](studio-websites.md) is the curated, source-checked starting list, with limits and browser prompts.
+- [Swipe file](swipe-file.md) is the founder's three-tier master list.
+- [Inspiration discovery sources](discovery-sources.md) verifies discovery sources and gives use guidance.
+- [Award Site Teardowns](award-site-teardowns.md) is the primary resource for structured award-site analysis.
+- [Studio websites](studio-websites.md) is the curated, source-checked original-site benchmark list, with limits and browser prompts.
 - [Taste practice](../methods/taste-practice.md) supplies the proposed weekly analysis and original-application loop.
 - [Intelligence](../intelligence/README.md) holds deeper evidence-graded studies, transferable questions and exercises.
 - [Research queue](../intelligence/research-queue.md) prioritises Buttermax, Unseen Studio and fromanother for deep study.
@@ -48,5 +51,7 @@ Do not copy layouts, copy, characters, imagery, objects, brand identities or dis
 
 | File | Purpose |
 | --- | --- |
+| [Swipe file](swipe-file.md) | Founder's three-tier master list and pick-list of website references. |
+| [Inspiration discovery sources](discovery-sources.md) | Discovery-source verification and use guidance. |
 | [Award Site Teardowns](award-site-teardowns.md) | Primary taste resource for structured award-site analysis; complements the original-site benchmarks and browser prompts in studio-websites.md. |
 | [Studio websites](studio-websites.md) | Six primary benchmarks, four further references, two provisional Indian leads, source checks and deep-study priorities. |

@@ -32,6 +32,8 @@ Do not use without verifiable source links or to claim a category-wide pattern f
 
 ## Dependencies
 
+Use [inspiration discovery sources](../../taste/discovery-sources.md) as the first-stop reference source for visual and interactive inspiration.
+
 Read [phase 02 Diagnosis](../../methods/identity-engagement/02-diagnosis.md), the [critique protocol](../../methods/quality/critique-protocol.md) and [concept route template](../../templates/identity-systems/concept-route.md). If the audit informs the initial audience, read the [ICP hypothesis](../../studio/initial-icp.md). No paid market database, crawler or image library is required.
 
 ## Procedure

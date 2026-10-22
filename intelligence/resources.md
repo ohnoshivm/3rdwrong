@@ -128,6 +128,21 @@ sources:
   - title: "Award Site Teardowns"
     url: https://rickcreates.com/
     accessed: 2026-10-22
+  - title: "Awwwards — Sites of the Month"
+    url: https://www.awwwards.com/websites/sites_of_the_month/
+    accessed: 2026-10-22
+  - title: "The FWA"
+    url: https://thefwa.com/
+    accessed: 2026-10-22
+  - title: "CSS Design Awards — Website of the Year 2025 nominees"
+    url: https://www.cssdesignawards.com/woty2025
+    accessed: 2026-10-22
+  - title: "Mesh3D Gallery"
+    url: https://mesh3d.gallery/
+    accessed: 2026-10-22
+  - title: "Landing Love — About"
+    url: https://www.landing.love/about/
+    accessed: 2026-10-22
 ---
 # Resources — evidence weights and required outputs
 
@@ -150,6 +165,11 @@ sources:
 | [Paula Scher on cultural identities](https://www.theintervalny.com/interviews/2017/10/the-woman-behind-the-images-paula-scher-on-creating-brand-identities-for-new-yorks-cultural-institutions/) — The Interval | **Documented** — Practitioner / first-person interview. Interview covering cultural institutions and operational design choices. | **Hypothesis** — Compare the apparent graphic brief with the client problem and operator needs; do not import every opinion as policy. |
 | [How STUDIO HERRSTRÖM evolved from freelance to a 10-person team](https://the-brandidentity.com/interview/how-studio-herrstr%C3%B6m-evolved-from-freelance-into-a-10-person-team-redefining-cultural-projects) — The Brand Identity | **Documented** — Practitioner / first-person interview. Published interview recovered through Jina; self-reported studio experience. | **Hypothesis** — Extract a question list about specialisation and operational responsibility, not a prescription to grow to the same size. |
 | [Award Site Teardowns](https://rickcreates.com/) — rickcreates.com | **Documented** — Practitioner / secondary analysis. Awarded-site teardowns report concept, design, motion, engineering, scores and credits; browser measurement methods are unspecified. | **Hypothesis** — Produce a sourced project study and original exercise that records design invariants, motion logic, engineering cost versus effect, and reported page weight; verify claims against the original site. |
+| [Awwwards — Sites of the Month](https://www.awwwards.com/websites/sites_of_the_month/) | **Documented** — Curated showcase / award platform. Monthly award listings and browsable site categories, tags and technologies. | **Hypothesis** — Make a source-linked note of one visual or interaction principle and test it in an original context. |
+| [The FWA](https://thefwa.com/) | **Documented** — Award platform URL opened; readable page content was unavailable. Specific scope and criteria are unverified in this review. | **Hypothesis** — Use only after verifying an individual entry and original site; record the observation and access limits. |
+| [CSS Design Awards — WOTY 2025 nominees](https://www.cssdesignawards.com/woty2025) | **Documented** — Curated showcase / award platform. Official nominee list exists; separate winner page reports top ten scores and category winners. | **Hypothesis** — Compare visible interface decisions across nominees, then independently check task usability and accessibility. |
+| [Mesh3D Gallery](https://mesh3d.gallery/) | **Documented** — Curated showcase / award-like gallery. Mesh3D describes a collection of interactive real-time Three.js experiences and credits selected makers. | **Hypothesis** — Record a technique question and verify implementation via linked creator sources before prototyping. |
+| [Landing Love](https://www.landing.love/about/) | **Documented** — Curated showcase / recording archive. The site says entries are full-page scroll recordings and that prior captures remain when held sites are redesigned. | **Hypothesis** — Compare versions and note what a scroll recording cannot establish about interaction or current behaviour. |
 
 ## Psychology and strategy
 
