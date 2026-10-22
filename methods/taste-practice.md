@@ -31,8 +31,7 @@ Choose activities that address a real learning question. Completing every row
 each week is not a requirement. Don't confuse collecting references with
 practice or polished output with improvement.
 
-Use [Award Site Teardowns](../taste/award-site-teardowns.md) as the default source
-for the weekly reference-analysis slot, alongside the original-site benchmarks
+Use the founder's [swipe file](../taste/swipe-file.md) as the pick-list for a project-specific study, and consult [Inspiration discovery sources](../taste/discovery-sources.md) to verify and use discovery sources. Use [Award Site Teardowns](../taste/award-site-teardowns.md) for structured analysis in the weekly reference-analysis slot, alongside the original-site benchmarks
 and browser prompts in [studio website taste references](../taste/studio-websites.md).
 These calibrate taste without changing policy or the client offer.
 

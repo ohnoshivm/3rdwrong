@@ -32,6 +32,8 @@ Do not use when strategy is missing, provisional or disputed. Do not start by ch
 
 ## Dependencies
 
+Use [inspiration discovery sources](../../taste/discovery-sources.md) as the first-stop reference source for visual and interactive inspiration.
+
 Read [phase 03 Strategy](../../methods/identity-engagement/03-strategy.md), [phase 04 Concept](../../methods/identity-engagement/04-concept.md), the [concept route template](../../templates/identity-systems/concept-route.md) and [critique protocol](../../methods/quality/critique-protocol.md). No external paid tools are required; rough sketches may be described or supplied by the designer.
 
 ## Procedure

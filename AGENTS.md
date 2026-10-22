@@ -38,7 +38,7 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Start a client identity project | `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, `skills/brand-discovery/SKILL.md` |
 | Perception research (perception-to-identity map) | `methods/perception-to-identity-map.md`, `skills/brand-discovery/SKILL.md` |
 | Weekly taste practice | `methods/taste-practice.md`, `methods/learning-loop.md` |
-| Calibrate taste / study reference websites | `taste/award-site-teardowns.md`, `taste/README.md`, `taste/studio-websites.md`, `methods/taste-practice.md` |
+| Calibrate taste / study reference websites | `taste/swipe-file.md`, `taste/discovery-sources.md`, `taste/award-site-teardowns.md`, `taste/studio-websites.md`, `methods/taste-practice.md` |
 | Capture a quick note | `inbox/README.md`, `docs/public-private-boundary.md` |
 | Add an agency study | `intelligence/README.md`, `templates/research/agency-study.md` |
 | Add a design reference | `intelligence/README.md`, `templates/research/visual-system-analysis.md`, `skills/category-code-audit/SKILL.md` |
@@ -49,6 +49,10 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Critique a design | `skills/identity-system-critic/SKILL.md`, `methods/quality/critique-protocol.md` |
 | Capture project lessons | `methods/learning-loop.md`, `templates/learning/retrospective.md`, `docs/public-private-boundary.md` |
 | Retrieve context in Claude Code | `INDEX.md`, this file, then the closest task route above |
+
+## Inspiration and references
+
+When a task involves gathering inspiration or visual/interactive references, use the `taste/` folder: start at `taste/README.md`, then `taste/swipe-file.md`, `taste/discovery-sources.md`, `taste/award-site-teardowns.md` and `taste/studio-websites.md`. Cite the specific source page used.
 
 ## AI and human responsibility
 
