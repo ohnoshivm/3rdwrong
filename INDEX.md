@@ -123,6 +123,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
+| [taste/award-site-teardowns.md](taste/award-site-teardowns.md) | Award Site Teardowns (rickcreates.com) — primary taste resource | research | reference | 2026-10-22 | Documented — Founder judgement, recorded 2026-10-22: the founder calls Award Site Teardowns “one of our driving forces” for website inspi... |
 | [taste/studio-websites.md](taste/studio-websites.md) | Studio websites — taste references only | research | reference | 2026-10-22 | Documented — Founder instruction, 2026-10-22: TASTE REFERENCE ONLY. |
 
 ## templates

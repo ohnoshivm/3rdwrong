@@ -125,6 +125,9 @@ sources:
     accessed: 2026-10-22
     author: "Ellen Lupton"
     published: "2024-03-12"
+  - title: "Award Site Teardowns"
+    url: https://rickcreates.com/
+    accessed: 2026-10-22
 ---
 # Resources — evidence weights and required outputs
 
@@ -146,6 +149,7 @@ sources:
 | [DEMO 2025](https://studiodumbar.com/work/demo-2025) — Studio Dumbar/DEPT | **Documented** — Practitioner / studio primary. Edition-specific identity and sonic account. | **Hypothesis** — Prototype one original behaviour with a readable hold and static alternative. |
 | [Paula Scher on cultural identities](https://www.theintervalny.com/interviews/2017/10/the-woman-behind-the-images-paula-scher-on-creating-brand-identities-for-new-yorks-cultural-institutions/) — The Interval | **Documented** — Practitioner / first-person interview. Interview covering cultural institutions and operational design choices. | **Hypothesis** — Compare the apparent graphic brief with the client problem and operator needs; do not import every opinion as policy. |
 | [How STUDIO HERRSTRÖM evolved from freelance to a 10-person team](https://the-brandidentity.com/interview/how-studio-herrstr%C3%B6m-evolved-from-freelance-into-a-10-person-team-redefining-cultural-projects) — The Brand Identity | **Documented** — Practitioner / first-person interview. Published interview recovered through Jina; self-reported studio experience. | **Hypothesis** — Extract a question list about specialisation and operational responsibility, not a prescription to grow to the same size. |
+| [Award Site Teardowns](https://rickcreates.com/) — rickcreates.com | **Documented** — Practitioner / secondary analysis. Awarded-site teardowns report concept, design, motion, engineering, scores and credits; browser measurement methods are unspecified. | **Hypothesis** — Produce a sourced project study and original exercise that records design invariants, motion logic, engineering cost versus effect, and reported page weight; verify claims against the original site. |
 
 ## Psychology and strategy
 

@@ -38,7 +38,7 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Start a client identity project | `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, `skills/brand-discovery/SKILL.md` |
 | Perception research (perception-to-identity map) | `methods/perception-to-identity-map.md`, `skills/brand-discovery/SKILL.md` |
 | Weekly taste practice | `methods/taste-practice.md`, `methods/learning-loop.md` |
-| Calibrate taste / study reference websites | `taste/README.md`, `taste/studio-websites.md`, `methods/taste-practice.md` |
+| Calibrate taste / study reference websites | `taste/award-site-teardowns.md`, `taste/README.md`, `taste/studio-websites.md`, `methods/taste-practice.md` |
 | Capture a quick note | `inbox/README.md`, `docs/public-private-boundary.md` |
 | Add an agency study | `intelligence/README.md`, `templates/research/agency-study.md` |
 | Add a design reference | `intelligence/README.md`, `templates/research/visual-system-analysis.md`, `skills/category-code-audit/SKILL.md` |
