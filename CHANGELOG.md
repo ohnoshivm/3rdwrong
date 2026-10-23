@@ -36,6 +36,14 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 
 
+
+
+### Added
+
+- Twelve experimental studio skills that close the remaining department lead gaps outside identity craft: `3w-effect-study`, `3w-labs-benchmark`, `3w-engine-validation`, `3w-demo-publishing` (Labs); `3w-behavioural-lens`, `3w-narrative-analysis` (Strategy); `3w-care-retention` (Production); `3w-image-production`, `3w-image-qa` (Media); `3w-awards-submission` (Marketing); `3w-prospect-qualification`, `3w-reply-triage` (Outbound). Each links to the studio method it applies, has a `.claude/skills` symlink and a proposed tool card under `toolkit/cards/`; registry placement is proposed separately for the registry owner.
+
+
+
 ## [0.5.0] - 2026-10-23
 
 ### Added

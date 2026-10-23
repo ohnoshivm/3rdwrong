@@ -17,12 +17,12 @@
     ]
   },
   "items_by_load": {
-    "active": 574,
+    "active": 586,
     "library": 318
   },
   "items_by_role": {
     "bench": 210,
-    "lead": 134,
+    "lead": 146,
     "parked": 105,
     "specialist": 443
   },

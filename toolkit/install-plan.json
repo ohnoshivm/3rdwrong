@@ -14413,6 +14413,39 @@
     {
       "department": "core",
       "distribution": "vendor",
+      "id": "core:3w-awards-submission",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-awards-submission",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-awards-submission"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-behavioural-lens",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-behavioural-lens",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-behavioural-lens"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-care-retention",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-care-retention",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-care-retention"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
       "id": "core:3w-colour-system",
       "kind": "skill",
       "load": "active",
@@ -14435,6 +14468,72 @@
     {
       "department": "core",
       "distribution": "vendor",
+      "id": "core:3w-demo-publishing",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-demo-publishing",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-demo-publishing"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-effect-study",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-effect-study",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-effect-study"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-engine-validation",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-engine-validation",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-engine-validation"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-image-production",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-image-production",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-image-production"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-image-qa",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-image-qa",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-image-qa"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-labs-benchmark",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-labs-benchmark",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-labs-benchmark"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
       "id": "core:3w-mark-exploration",
       "kind": "skill",
       "load": "active",
@@ -14442,6 +14541,39 @@
       "package": "pack-founder-3rdwrong-skills",
       "role": "lead",
       "source": "skills/3w-mark-exploration"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-narrative-analysis",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-narrative-analysis",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-narrative-analysis"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-prospect-qualification",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-prospect-qualification",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-prospect-qualification"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-reply-triage",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-reply-triage",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-reply-triage"
     },
     {
       "department": "core",
