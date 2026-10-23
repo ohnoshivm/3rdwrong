@@ -186,7 +186,7 @@ These directories are prompts for comparison. Follow examples to their original 
 
 [Website](https://supahero.io)
 
-**Best for — Interpretation:** scanning hero-section approaches and comparing how headline, image and action establish the first read.
+**Best for — Interpretation:** studying type-led hero sections for websites and studios. Compare how headline, image and action establish the first read, then adapt the hierarchy to an original studio voice.
 
 ### 3dicons
 
