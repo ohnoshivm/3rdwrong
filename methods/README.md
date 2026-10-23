@@ -3,7 +3,7 @@ title: Methods index
 type: guide
 status: proposed
 owner: founder
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 review_every_days: 180
 ---
 # Methods index
@@ -15,6 +15,9 @@ prove outcomes. The identity engagement runs through
 - [Creative Technology](creative-technology/README.md) supplies the adopted
   selection policy, technology/tool matrix, learning library and stack record
   under D-0025.
+- [Delivery playbooks](playbooks/README.md) say who runs each lifecycle stage,
+  identity phase and Digital Experience stage, with which tools, checked by
+  whom; [handoffs](handoffs/README.md) define what passes between departments.
 - [Living identities](living-identities.md) sets a decision test for motion,
   generative, adaptive and interactive extensions.
 - [Perception-to-identity map](perception-to-identity-map.md) links the

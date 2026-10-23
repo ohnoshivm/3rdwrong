@@ -14,35 +14,23 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
   every digital project; D-0023 remains the binding performance budget.
 - Digital project bundle creates the stack record; stages 02/04/05 require it
   before production, with motion and launch checks linked to the policy.
+- Four experimental identity-craft skills that fill the design department's craft gaps: `3w-mark-exploration` (mark-logo), `3w-colour-system` (colour), `3w-composition-system` (composition-layout) and `3w-typography-system` (typography), each with a `.claude/skills` link and a tool card under `toolkit/cards/design/identity-craft/`.
+- Standard-library `scripts/colour_check.py` for WCAG 2.x contrast, APCA web-content reference values, CIEDE2000 palette matrices, and Machado colour-vision simulations, with published-reference tests.
+- Fictional Stillsoil Atelier test runs and skill evaluations for all four skills; the runs led to version 0.1.1 of each (formative-run rules, declared colour-vision thresholds, mandatory-text and fixed-content inputs, below-minimum mark decision, specimen strings).
+- The `tool-card` document type in the metadata schema, matching the v0.5 handbook branch.
+- Twelve experimental studio skills that close the remaining department lead gaps outside identity craft: `3w-effect-study`, `3w-labs-benchmark`, `3w-engine-validation`, `3w-demo-publishing` (Labs); `3w-behavioural-lens`, `3w-narrative-analysis` (Strategy); `3w-care-retention` (Production); `3w-image-production`, `3w-image-qa` (Media); `3w-awards-submission` (Marketing); `3w-prospect-qualification`, `3w-reply-triage` (Outbound). Each links to the studio method it applies, has a `.claude/skills` symlink and a proposed tool card under `toolkit/cards/`; registry placement is proposed separately for the registry owner.
+- Proposed delivery playbooks (`methods/playbooks/`): how a project runs through the eleven departments, model routing, maker ≠ checker and founder gates; per-phase identity playbook, per-stage Digital Experience pod playbook with the D-0023 budget, accessibility and reduced-motion gates; client lifecycle playbook from lead to case study with D-0021, D-0023 and D-0024 defaults.
+- Proposed department handoff contracts (`methods/handoffs/`): strategy → design, design → engineering pod contract, engineering → QA, QA → production and handover, delivery → marketing, each with artefact checklists and a handoff record.
+- Proposed department heads, reviewer pools, escalation paths, quality bars and a lifecycle RACI (`studio/departments/heads.md`).
+- W1/W2 experimental leads routed by registry id, exact bundle/output provenance, read-only agent boundaries and existing-workspace handling; no canonical registry edits.
+- Quality Lab paired-case checks and the 19-stage pre-client pilot wired into delivery gates; Web QA harness reports required at DX-07/08 with explicit founder field-data and real-phone deferrals, vault-only raw evidence and independent review. No pilot execution or client-readiness result is claimed.
 
 ### Changed
 
 - Agent routing, Engineering/Labs ownership and living-identity guidance link
   the system. Six source cards qualify Lenis, full scaffolds, post-processing
   and WebGPU defaults; vendored sources remain unchanged.
-
-
-
-### Added
-
-- Four experimental identity-craft skills that fill the design department's craft gaps: `3w-mark-exploration` (mark-logo), `3w-colour-system` (colour), `3w-composition-system` (composition-layout) and `3w-typography-system` (typography), each with a `.claude/skills` link and a tool card under `toolkit/cards/design/identity-craft/`.
-- Standard-library `scripts/colour_check.py` for WCAG 2.x contrast, APCA web-content reference values, CIEDE2000 palette matrices, and Machado colour-vision simulations, with published-reference tests.
-- Fictional Stillsoil Atelier test runs and skill evaluations for all four skills; the runs led to version 0.1.1 of each (formative-run rules, declared colour-vision thresholds, mandatory-text and fixed-content inputs, below-minimum mark decision, specimen strings).
-- The `tool-card` document type in the metadata schema, matching the v0.5 handbook branch.
-
-### Changed
-
 - Proposed registry changes (not applied): the four skills become leads of their jobs and `agent:visual-designer` becomes a typography specialist for digital tokens and type ramps.
-
-
-
-
-
-### Added
-
-- Twelve experimental studio skills that close the remaining department lead gaps outside identity craft: `3w-effect-study`, `3w-labs-benchmark`, `3w-engine-validation`, `3w-demo-publishing` (Labs); `3w-behavioural-lens`, `3w-narrative-analysis` (Strategy); `3w-care-retention` (Production); `3w-image-production`, `3w-image-qa` (Media); `3w-awards-submission` (Marketing); `3w-prospect-qualification`, `3w-reply-triage` (Outbound). Each links to the studio method it applies, has a `.claude/skills` symlink and a proposed tool card under `toolkit/cards/`; registry placement is proposed separately for the registry owner.
-
-
 
 ## [0.5.0] - 2026-10-23
 
