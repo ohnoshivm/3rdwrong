@@ -1,0 +1,23 @@
+# Proposed Taste Graph links for seed assets. Founder flips approved to true.
+# Observed 2026-10-23 with playwright-cli at 1440x900 and 390x844 (first 3 screens).
+links:
+  - asset: igloo-inc
+    rel: exemplifies
+    dst: principle:a-single-coherent-palette
+    note: Every screen at both widths stays in one cool grey-to-white range; the only accent is light glowing from the igloo's block seams.
+    approved: true
+  - asset: igloo-inc
+    rel: exemplifies
+    dst: principle:intentional-asymmetry
+    note: Wordmark and copyright stack sit top-left, a right-aligned monospace manifesto sits top-right and the scroll and sound prompts sit bottom-left, framing a centred igloo.
+    approved: true
+  - asset: igloo-inc
+    rel: exemplifies
+    dst: principle:motion-with-purpose
+    note: Scrolling pulls the igloo apart into separate blocks tagged with numbered, line-connected labels, so the scroll itself acts out one company made of many brands (reduced-motion handling not checked).
+    approved: true
+  - asset: igloo-inc
+    rel: exemplifies
+    dst: pattern:default-awards-site-vocabulary
+    note: Shows the anti-pattern in part; the first view is a bare ASCII progress loader on flat grey, followed by an immersive entry scene with a sound toggle, before any copy appears.
+    approved: true

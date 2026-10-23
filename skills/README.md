@@ -1,6 +1,6 @@
 # Skills
 
-These five Agent Skills are **experimental**. Their outputs are drafts for human review; none can approve strategy, design, rights or release.
+These six Agent Skills are **experimental**. Their outputs are drafts for human review; none can approve strategy, design, rights or release.
 
 | Skill | Purpose | Phase | Inputs | Output |
 | --- | --- | --- | --- | --- |
@@ -9,6 +9,7 @@ These five Agent Skills are **experimental**. Their outputs are drafts for human
 | [3w-creative-direction](3w-creative-direction/SKILL.md) | Develop distinct ideas from approved strategy | 04 Concept | Signed strategy and criteria | At least three routes and trade-offs |
 | [3w-identity-system-critic](3w-identity-system-critic/SKILL.md) | Critique idea, system and craft | 04 or 07 | Strategy, route, artefacts and scope | Evidence-labelled findings |
 | [3w-brand-consistency-qa](3w-brand-consistency-qa/SKILL.md) | Check assets against approved rules | 06 System / 08 Delivery | Approved guideline and asset set | Pass, fail and not-testable checks |
+| [3w-taste-graph](3w-taste-graph/SKILL.md) | Reference pack before creative output; capture references | Any creative output | Brief, or a link/screenshot to save | Do/don't pack with exemplars, or a captured node |
 
 ## Discovery and use
 
