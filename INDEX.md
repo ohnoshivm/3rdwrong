@@ -40,6 +40,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [docs/knowledge-governance.md](docs/knowledge-governance.md) | Knowledge governance | guide | proposed | 2026-10-22 | Status makes the evidence and review state of a document visible. |
 | [docs/maintenance.md](docs/maintenance.md) | Repository maintenance | guide | proposed | 2026-10-22 | Keep the repository small and current. |
 | [docs/public-private-boundary.md](docs/public-private-boundary.md) | Publication rules | policy | approved | 2026-10-23 | Everything committed to ohnoshivm/3rdwrong is public and open source under the applicable licences. |
+| [docs/web-qa-harness.md](docs/web-qa-harness.md) | Web delivery QA harness | guide | proposed | 2026-10-23 | Documented — D-0023 sets the delivery budget: mobile p75 LCP ≤ 2.0 s, INP ≤ 200 ms, CLS ≤ 0.1; ≤ 2 MB before first interaction; a 60 fps... |
 | [docs/workflows.md](docs/workflows.md) | Working workflows | guide | proposed | 2026-10-22 | Use issues to frame work, branches and pull requests for substantive changes, and status metadata to show what remains uncertain. |
 
 ## experiments

@@ -19,7 +19,9 @@ reference them by filename. Staging and production URLs are vault-only.
 ## Budgets agreed at prototype (stage 04)
 
 Pre-filled with the studio budget (D-0023). Tighten per project; a looser
-target needs a founder-approved exception in `decisions.md`.
+target needs a founder-approved exception in `decisions.md`, backed by a
+committed, unchanged canonical `studio/decisions/` record for automated budget
+waivers. Match its project codename and exact limits; see the harness guide.
 
 | Budget | Target | Measured (build, date) | Device and network profile | Result |
 | --- | --- | --- | --- | --- |
@@ -33,6 +35,12 @@ target needs a founder-approved exception in `decisions.md`.
 | Frame rate on reference mid-range phone | 60 fps | | | |
 
 ## Rendered inspection
+
+Run `bin/3w qa run` against each key production-build template using the
+[web QA harness](../../../docs/web-qa-harness.md). Keep full reports in the
+vault and record filenames here. Its 375/768/1440 normal/reduced-motion
+screenshots supplement the standard matrix below. Lab observations never
+replace field p75 or the manual launch gates; `NOT_MEASURED` is not a pass.
 
 | Date | Build | Width | Browser and device | Screenshot (vault filename) | Defects | Re-inspected |
 | --- | --- | --- | --- | --- | --- | --- |

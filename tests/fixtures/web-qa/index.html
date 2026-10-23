@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local fixture for the 3RDWRONG delivery QA harness.">
+  <link rel="icon" href="data:,">
+  <title>Delivery QA fixture</title>
+  <style>
+    body { margin: 0; padding: 24px; color: #202020; background: #fff; font: 18px/1.5 system-ui; }
+    main { max-width: 60ch; margin: auto; min-height: 2400px; }
+    button { padding: 16px; font: inherit; }
+    .marker { width: 32px; height: 32px; background: #303030; animation: travel 2s linear infinite; }
+    @keyframes travel { to { transform: translateX(160px); } }
+    @media (prefers-reduced-motion: reduce) { .marker { animation: none; } }
+    body.broken .marker { animation: travel 2s linear infinite; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Delivery QA fixture</h1>
+    <p>This local page provides a scroll range and a reduced-motion fallback.</p>
+    <div class="marker" aria-hidden="true"></div>
+    <button type="button" onclick="this.textContent = 'Interaction confirmed'">Confirm interaction</button>
+  </main>
+  <script>
+    if (new URLSearchParams(location.search).has('deep')) {
+      document.querySelector('main').style.minHeight = '5000px';
+      addEventListener('scroll', () => {
+        if (scrollY > 800) document.body.classList.add('broken');
+      });
+    }
+    if (new URLSearchParams(location.search).has('broken')) {
+      document.body.classList.add('broken');
+      console.error('Intentional fixture console failure');
+      setTimeout(() => { throw new Error('Intentional fixture exception'); }, 20);
+    }
+  </script>
+</body>
+</html>

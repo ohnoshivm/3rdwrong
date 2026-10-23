@@ -94,6 +94,7 @@ p75 Core Web Vitals 28 days after launch where field data exists.
 - [Web standards](../quality/web-standards.md),
   [web QA checklist](../quality/web-qa-checklist.md),
   [launch-readiness checklist](../quality/launch-readiness-checklist.md)
+- [Automated QA harness](../../docs/web-qa-harness.md) and [machine-readable budget](qa-budget.yaml)
 - [Critique protocol](../quality/critique-protocol.md)
 - [Handover and care](../handover-and-care.md)
 - [Living identities](../living-identities.md) for motion, generative and

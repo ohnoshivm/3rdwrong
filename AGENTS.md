@@ -50,6 +50,7 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Growth metrics | `growth/metrics.md`, `growth/sales/pipeline.md`, `business/scorecard.md` |
 | Run a client project | `methods/lifecycle.md`, `business/engagement-operations.md`, `docs/public-private-boundary.md` |
 | Deliver a website | `methods/digital-experience/README.md`, `methods/quality/web-standards.md` |
+| Check a website build against the studio budget | `docs/web-qa-harness.md`, `methods/digital-experience/qa-budget.yaml`, `methods/digital-experience/07-qa.md` |
 | Create a workspace or vault record | `templates/bundles/README.md`, `docs/public-private-boundary.md` |
 | Launch and hand over | `methods/quality/launch-readiness-checklist.md`, `methods/handover-and-care.md` |
 | Price an opportunity | `business/pricing/README.md`, `business/pricing/estimation-guide.md`, `business/pricing/rates-and-estimates.md`, `business/pricing/commercial-rules.md` |

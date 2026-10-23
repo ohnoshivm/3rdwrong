@@ -6,6 +6,7 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 ### Added
 
+- Web delivery QA harness (`bin/3w qa run`): three mobile Lighthouse runs, explicit lab/field limits, project budget checks with founder exception records, Playwright responsive/reduced-motion evidence, console and scroll cadence probes, Markdown/JSON reports and local integration coverage.
 - Approved D-0022 (studio name 3RDWRONG), D-0023 (commercial and delivery defaults) and D-0024 (growth defaults), recorded from the founder decisions session of 2026-10-23.
 - Taste Graph (D-0020): local PostgreSQL reference library, public seeds, capture/search/curation CLI and the experimental `3w-taste-graph` reference-pack skill.
 - Delivery engine: lifecycle, Digital Experience method, web quality and launch gates, handover/care, `bin/3w`, project bundles and anonymity guard.
