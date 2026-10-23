@@ -1,12 +1,12 @@
 ---
-title: The 3RDWRONGS Identity System
+title: The 3RDWRONG Identity System
 type: guide
 status: proposed
 owner: founder
 last_reviewed: 2026-10-23
 review_every_days: 180
 ---
-# The 3RDWRONGS Identity System
+# The 3RDWRONG Identity System
 
 Identity remains the **core offer** under
 [D-0018](decisions/0018-design-engineering-studio.md): a focused strategic and
@@ -113,6 +113,23 @@ contrast, composition, image direction, verbal foundations, motion principles,
 application examples, accessibility, production notes, do/don't examples and
 asset locations. Use [final-delivery checklist](../methods/quality/final-delivery-checklist.md)
 before handover.
+
+## Commercial and delivery defaults
+
+Approved defaults ([D-0023](decisions/0023-commercial-and-delivery-defaults.md)), pre-filled in the proposal, SOW and MSA and
+editable per project with founder approval. Offer pricing remains a
+hypothesis.
+
+- **Payment:** 50% to start, 30% on approval of the chosen direction, 20%
+  before final files are released.
+- **Feedback:** two consolidated rounds per phase (concept, refinement,
+  applications); further rounds are change requests.
+- **Warranty:** 30 days of free defect fixes after launch; longer support is
+  a paid care plan.
+- **Portfolio:** named portfolio use after public launch with client-approved
+  case-study wording, unless the client opts out as confidential.
+- **AI:** AI use in the process is disclosed; AI-generated material in final
+  deliverables needs the client's written consent.
 
 ## Proposed changes and extensions
 

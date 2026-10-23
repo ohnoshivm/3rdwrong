@@ -11,7 +11,7 @@ last_reviewed: 2026-10-22
 
 ## Decision
 
-Propose keeping AI-first and technology-first claims out of 3RDWRONGS's
+Propose keeping AI-first and technology-first claims out of 3RDWRONG's
 primary external positioning. They describe ways the studio may work, not a
 standalone reason for a client to hire it.
 

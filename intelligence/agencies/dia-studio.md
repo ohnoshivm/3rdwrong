@@ -171,7 +171,7 @@ open generator. Compare operator errors, useful outputs and required support und
 **Unknown** — Fees, current staffing, software languages, precise curves, frame rates, source-code
 ownership, maintenance agreements, font rights and measured commercial effects are not established here.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — For a founder-led Indian consumer brand, test one behaviour tied to a meaningful product
 action: opening, unfolding or combining, only where that action actually belongs to the product. Avoid

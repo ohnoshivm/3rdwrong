@@ -1,11 +1,12 @@
 # Changelog
 
-Changes to the 3RDWRONGS Creative Operating System are recorded here.
+Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 ## [0.4.0] - Unreleased
 
 ### Added
 
+- Approved D-0022 (studio name 3RDWRONG), D-0023 (commercial and delivery defaults) and D-0024 (growth defaults), recorded from the founder decisions session of 2026-10-23.
 - Taste Graph (D-0020): local PostgreSQL reference library, public seeds, capture/search/curation CLI and the experimental `3w-taste-graph` reference-pack skill.
 - Delivery engine: lifecycle, Digital Experience method, web quality and launch gates, handover/care, `bin/3w`, project bundles and anonymity guard.
 - Approved D-0021: contract-cleared client records are public and anonymised; confidential identities, client files and all money stay in a private vault.
@@ -15,6 +16,9 @@ Changes to the 3RDWRONGS Creative Operating System are recorded here.
 
 ### Changed
 
+- Renamed the studio from 3RDWRONGS to 3RDWRONG across first-party files and generated toolkit manifests (D-0022); the founding archive stays verbatim with a note.
+- Applied D-0023 defaults to the MSA (portfolio, AI and arbitration options resolved; `{{arbitration_seat}}` placeholder), commercial rules, invoicing, engagement operations, handover warranty, web standards and QA budgets, both offer pages and the proposal, SOW and digital QA bundles.
+- Applied D-0024 defaults to content channels, outbound volume and the awards budget.
 - Integrated context routing and documentation for creative references, delivery, business and growth work; pricing reads vault inputs and prints only.
 - Normalised all bundle variables to one documented list format; made `bin/3w` honour `--set codename` and validate a cleared workspace’s vault before any public or private write.
 - Refreshed the core toolkit plugin, lock and coverage for `3w-taste-graph`; kept toolkit and anonymity checks together.

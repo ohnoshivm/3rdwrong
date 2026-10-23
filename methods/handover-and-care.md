@@ -82,10 +82,11 @@ checklist only.
 
 ## Warranty period
 
-A fixed period after final acceptance during which the studio fixes, at no
-extra charge, defects where the delivered work does not meet the agreed
-acceptance criteria. The length is set in each contract; the studio default is
-a founder decision still to be made.
+A fixed period after launch (or final acceptance where there is no launch)
+during which the studio fixes, at no extra charge, defects where the
+delivered work does not meet the agreed acceptance criteria. The studio
+default is **30 days** ([D-0023](../studio/decisions/0023-commercial-and-delivery-defaults.md)); a contract may differ only with founder
+approval. Longer support is a paid care plan.
 
 - **Covered:** defects against acceptance criteria on the agreed matrix.
 - **Not covered:** new features, content changes, changes requested after

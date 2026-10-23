@@ -12,6 +12,8 @@ approval_source: founder instruction, 2026-10-22
 
 # 3RDWRONGS
 
+The studio is now named 3RDWRONG ([D-0022](../decisions/0022-studio-name.md)); this archive keeps the original name verbatim.
+
 This is the founding source document, partly AI-researched. It is retained in full as reference; later decision records supersede it wherever they differ. Publication was approved by the founder on 2026-10-22.
 
 THE FOUNDING BLUEPRINT · V1.0 · 22 OCTOBER 2026

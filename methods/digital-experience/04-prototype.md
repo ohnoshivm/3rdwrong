@@ -45,7 +45,8 @@ real tokens. The prototype sets the budgets the rest of the project is held to.
 6. Inspect at desktop, tablet and mobile widths; screenshot and record.
 7. Set explicit numerical budgets for the full build from these measurements,
    starting from the defaults in [web standards](../quality/web-standards.md),
-   and record any approved exception.
+   and record any approved exception. Budgets may be stricter than the studio
+   budget in [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md); a looser budget needs a founder-approved exception.
 
 ## Outputs
 

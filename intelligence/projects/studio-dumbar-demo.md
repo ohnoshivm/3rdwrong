@@ -159,7 +159,7 @@ continuity. Test the least favourable aspect ratio and the longest message befor
 **Unknown** — Budgets, exact authoring pipeline, full parameter ranges, operator training, accessibility
 evaluation and independent audience outcomes remain unverified.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — For a founder-led Indian consumer brand with repeated seasonal launches, test an
 original stable identifier plus one controlled launch variable. Only use this structure if the actual

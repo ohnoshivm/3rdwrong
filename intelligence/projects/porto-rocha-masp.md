@@ -152,7 +152,7 @@ performs better.
 **Unknown** — Research sample, decision criteria for retained assets, fees, internal approval rounds,
 production costs, script coverage and independent access audits are not established here.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — For a founder-led Indian consumer business considering a refresh, inventory its current
 name, pack silhouette, recurring colour, verbal cue and image treatment. Test candidate equity before

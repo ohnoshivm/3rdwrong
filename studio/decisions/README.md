@@ -26,6 +26,9 @@ proposed and hypothesis entries are not approved policy.
 | [Organisation and loading policy](0019-organisation-and-loading-policy.md) | D-0019 | Organisation and loading policy | approved | 2026-10-23 |
 | [Taste Graph](0020-taste-graph.md) | D-0020 | Taste Graph | approved | 2026-10-23 |
 | [Client work public and anonymised](0021-client-work-public-anonymised.md) | D-0021 | Client work public and anonymised | approved | 2026-10-23 |
+| [Studio name](0022-studio-name.md) | D-0022 | Studio name | approved | 2026-10-23 |
+| [Commercial and delivery defaults](0023-commercial-and-delivery-defaults.md) | D-0023 | Commercial and delivery defaults | approved | 2026-10-23 |
+| [Growth defaults](0024-growth-defaults.md) | D-0024 | Growth defaults | approved | 2026-10-23 |
 
 D-0018 supersedes D-0001 and D-0002; their original text is retained as history.
 Approved direction does not promote the related positioning, offer, ICP,

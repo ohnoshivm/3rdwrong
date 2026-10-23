@@ -1,5 +1,5 @@
 ---
-title: 3RDWRONGS — Initial Ideal Customer Profile
+title: 3RDWRONG — Initial Ideal Customer Profile
 type: strategy
 status: hypothesis
 owner: founder
@@ -8,7 +8,7 @@ last_reviewed: 2026-10-22
 review_every_days: 90
 ---
 
-# 3RDWRONGS — Initial Ideal Customer Profile
+# 3RDWRONG — Initial Ideal Customer Profile
 
 Version 0.1 | Primary ICP hypothesis
 
@@ -53,7 +53,7 @@ Not simply a logo, colour palette, or collection of mockups.
 
 They are commissioning a distinctive, coherent identity that communicates their intended position, supports their customer experience, and provides usable rules for future communication.
 
-Our core engagement is **The 3RDWRONGS Identity System** ([offer specification](identity-system-offer.md)).
+Our core engagement is **The 3RDWRONG Identity System** ([offer specification](identity-system-offer.md)).
 
 ## Qualification criteria
 

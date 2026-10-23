@@ -11,7 +11,7 @@ last_reviewed: 2026-10-22
 
 ## Decision
 
-Reject the exploration that combined black backgrounds, heavy grotesk typography and neon accents for 3RDWRONGS.
+Reject the exploration that combined black backgrounds, heavy grotesk typography and neon accents for 3RDWRONG.
 
 ## Status
 

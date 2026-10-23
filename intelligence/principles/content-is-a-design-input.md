@@ -62,7 +62,7 @@ exception instead of concealing the failure.
 **Interpretation** — Do not reuse the W or Spotify's duotone signature. Identify the actual constraint
 and invent a different response. A borrowed treatment applied to different content can remain derivative.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — For a founder-led Indian consumer project, prototype with actual permitted assets and
 language requirements. Include a low-expression alternative where a strong treatment would interfere with

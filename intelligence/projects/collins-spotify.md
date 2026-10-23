@@ -145,7 +145,7 @@ creates product confusion, erases needed colour information or requires expert c
 causal support was not established in this review. We do not repeat its financial figures as design
 results.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — For a founder-led Indian consumer brand with mixed supplier imagery, test an original
 treatment on real product, portrait and contextual photographs. Include poor lighting and difficult crops

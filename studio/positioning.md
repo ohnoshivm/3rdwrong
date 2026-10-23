@@ -1,5 +1,5 @@
 ---
-title: 3RDWRONGS — Positioning Thesis
+title: 3RDWRONG — Positioning Thesis
 type: strategy
 status: hypothesis
 owner: founder
@@ -8,7 +8,7 @@ last_reviewed: 2026-10-22
 review_every_days: 90
 ---
 
-# 3RDWRONGS — Positioning Thesis
+# 3RDWRONG — Positioning Thesis
 
 Version 0.1 | 22 October 2026 | Working strategic hypothesis
 
@@ -19,7 +19,7 @@ Version 0.1 | 22 October 2026 | Working strategic hypothesis
 
 ## What we are building
 
-3RDWRONGS is an independent brand identity studio creating distinctive, intelligent, and expressive identities for ambitious businesses.
+3RDWRONG is an independent brand identity studio creating distinctive, intelligent, and expressive identities for ambitious businesses.
 
 We are a **brand identity studio first, a living identity specialist by capability, and a perception-led consultancy by method.**
 
@@ -37,7 +37,7 @@ At the same time, increasingly accessible design tools and AI-generated content 
 
 Our strategic hypothesis is that businesses with serious growth ambitions will continue to value original creative thinking, distinctive expression, and carefully constructed systems.
 
-**3RDWRONGS exists to bridge the gap between the quality of a business and the quality of how it is perceived and experienced.**
+**3RDWRONG exists to bridge the gap between the quality of a business and the quality of how it is perceived and experienced.**
 
 ## Our specialisation
 

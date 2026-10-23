@@ -138,8 +138,9 @@ sees the work.
 ### Feedback rounds and revision limits
 
 - Each method gate includes a set number of consolidated feedback rounds,
-  agreed in the proposal. The studio's default number is a founder decision
-  still to be made.
+  agreed in the proposal. The studio default is two rounds per phase
+  (concept, refinement, applications) under [D-0023](../studio/decisions/0023-commercial-and-delivery-defaults.md); further rounds are
+  change requests.
 - `C1` sends one consolidated set of comments per round, by the agreed date.
   Contradictory comments go back to `C1` to resolve before work starts.
 - Every comment is logged in `feedback.md` as a fix, refinement or new

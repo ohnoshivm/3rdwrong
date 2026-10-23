@@ -144,8 +144,9 @@ access. Clauses 4, 5, 6, 7 and 8 survive.
 ## 10. Law and disputes
 
 Governed by the laws of India. Disputes not resolved by discussion within
-{{negotiation_days}} days go to **[arbitration seated at {{seat_city}} under
-the Arbitration and Conciliation Act, 1996 / the courts at {{court_city}}]**.
+{{negotiation_days}} days go to arbitration under the Arbitration and
+Conciliation Act, 1996 by a sole arbitrator. Seat: {{arbitration_seat}}.
+Language: English.
 
 Signed for the Studio: {{studio_signatory}} · Signed by the Collaborator:
 {{collaborator_signatory}}
@@ -154,6 +155,8 @@ Signed for the Studio: {{studio_signatory}} · Signed by the Collaborator:
 
 ## Drafting notes
 
+- Disputes follow the studio default in [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md): arbitration, sole
+  arbitrator, seated in the founder's city (`{{arbitration_seat}}`).
 - Payment timing relative to client payment is a founder decision; paying on
   acceptance protects relationships with good collaborators.
 - Commissioned photographs and some commissioned works have special

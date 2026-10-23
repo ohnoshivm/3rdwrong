@@ -1,19 +1,19 @@
 ---
-title: 3RDWRONGS identity exploration brief
+title: 3RDWRONG identity exploration brief
 type: project
 status: proposed
 owner: founder
 last_reviewed: 2026-10-22
 review_every_days: 90
 ---
-# 3RDWRONGS identity exploration brief
+# 3RDWRONG identity exploration brief
 
 **Project status: exploration.** No visual direction is approved. This brief
 sets a process, not a predetermined aesthetic.
 
 ## Background
 
-3RDWRONGS is an emerging founder-led independent design and branding company
+3RDWRONG is an emerging founder-led independent design and branding company
 with global ambitions. The own identity needs to explain the practice clearly
 while remaining usable as the studio develops. No clients, case studies,
 revenue, awards, team size or history are on record.
@@ -30,7 +30,7 @@ Use the approved direction in [decision D-0001](../../../studio/decisions/0001-s
   design judgement. Evidence, assumptions and speculative psychology remain
   distinct.
 
-The working thesis is that 3RDWRONGS exists to bridge the gap between the
+The working thesis is that 3RDWRONG exists to bridge the gap between the
 quality of a business and the quality of how it is perceived and experienced.
 The founder's initial promise remains a hypothesis, not approved copy.
 
@@ -116,7 +116,7 @@ above ends in an explicit recorded decision.
 
 ## Name meaning remains open
 
-The meaning or origin of “3RDWRONGS” is unknown in the available brief. The
+The meaning or origin of “3RDWRONG” is unknown in the available brief. The
 candidate reading in D-0014 is proposed only. Do not present it as settled or
 build an identity investment on it before founder alignment, audience feedback,
 and trademark, domain and pronunciation checks. Do not invent an origin story.

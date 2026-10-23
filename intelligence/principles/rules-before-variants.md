@@ -59,7 +59,7 @@ simplify the rule if it creates repeated errors without a useful expressive or o
 DEMO's lettering. A superficially similar output is not evidence that an original rule has been
 developed.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — Use the client's actual product-name and language constraints to choose a rule. Start
 with a static family, then test whether motion adds a needed behaviour rather than another decorative

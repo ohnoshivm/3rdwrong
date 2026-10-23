@@ -12,7 +12,7 @@ last_reviewed: 2026-10-22
 ## Decision
 
 Propose launching with two offers only: the [Brand Direction Sprint](../brand-direction-sprint.md)
-and the [3RDWRONGS Identity System](../identity-system-offer.md). Do not publish
+and the [3RDWRONG Identity System](../identity-system-offer.md). Do not publish
 a fifteen-service menu.
 
 ## Status

@@ -70,13 +70,15 @@ AI- and technology-first framing stays out of primary positioning (D-0011).
 | Studio journal (studio site) | The canonical home of the studio's thinking; search and AI-answer visibility; linkable proof | Essays, case studies, build notes | 1 piece a month |
 | LinkedIn (founder) | Reaching founders, brand and marketing leads, and agency partners; most direct link to buyers | Text posts with one image or carousel; short case notes; journal excerpts | 1–2 posts a week |
 | Instagram (studio) | Visual proof for a visually literate audience; discovery by peers and brands | Carousels (system breakdowns), short motion pieces, process stills | 1–2 posts a week |
-| X (founder) | Conversation with designers, engineers and creative technologists; craft credibility | Short build notes, motion clips, links to journal | Optional: 2–3 short posts a week, only if the founder enjoys it |
+| X (founder) | Conversation with designers, engineers and creative technologists; craft credibility | Short build notes, motion clips, links to journal | 2–3 short posts a week |
 | Behance / Dribbble | Portfolio discovery by peers, recruiters and some buyers | Full project pages (Behance); single strong frames or motion (Dribbble) | One Behance project per published case study; Dribbble 2 shots a month at most |
 | Award-platform profiles | Credibility with peers and digital buyers; a record of recognition | Profile kept current; submissions per [awards](../proof/awards.md) | Updated with each submission |
 
-The channel list and cadence are a **founder decision**. If capacity drops,
-the minimum is one journal piece a month and one LinkedIn post a week; a
-missed week is better than a weak post.
+The channel list is approved in [D-0024](../../studio/decisions/0024-growth-defaults.md): LinkedIn, Instagram, the studio
+journal and Behance / Dribbble / X. The starting cadences above are proposed
+defaults, confirmed or revised after four weeks of measured capacity. If
+capacity drops, the minimum is one journal piece a month and one LinkedIn
+post a week; a missed week is better than a weak post.
 
 ### Voice (placeholder, pending D-0012)
 

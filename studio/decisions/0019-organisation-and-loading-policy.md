@@ -15,7 +15,7 @@ approval_source: founder instruction, 2026-10-23
 
 ## Decision
 
-Organise 3RDWRONGS into 11 full departments across four groups, supporting
+Organise 3RDWRONG into 11 full departments across four groups, supporting
 [D-0018](0018-design-engineering-studio.md). Design and Engineering are the two
 flagship departments. A department is an accountability structure, not a claim
 of staffing, proven capacity or a separately saleable service.

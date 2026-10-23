@@ -1,6 +1,6 @@
 # Agent instructions
 
-3RDWRONGS OS is the public working knowledge base for a founder-led design-engineering studio with brand identity at the core and digital experience as the second pillar. It holds reviewed strategy, methods, research, templates, and experimental AI skills.
+3RDWRONG OS is the public working knowledge base for a founder-led design-engineering studio with brand identity at the core and digital experience as the second pillar. It holds reviewed strategy, methods, research, templates, and experimental AI skills.
 
 It is not a client archive: client information, personal data, credentials, and confidential material stay outside this repository.
 
@@ -12,7 +12,7 @@ Read [`INDEX.md`](INDEX.md) first to locate current knowledge. Then read the clo
 
 When sources conflict, use this order and flag the conflict for a human:
 
-1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records; related proposals and hypotheses retain their statuses.
+1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records, D-0022 sets the studio name 3RDWRONG, and D-0023/D-0024 set commercial, delivery and growth defaults; related proposals and hypotheses retain their statuses.
 2. `studio/` — current studio strategy and operating facts.
 3. `methods/` — proposed and reviewed ways of working.
 4. `intelligence/` — source-based research and design references.
@@ -24,7 +24,7 @@ When sources conflict, use this order and flag the conflict for a human:
 - `proposed` means awaiting human review; `hypothesis` means plausible and untested; `experimental` means being evaluated; `rejected` means a human rejected it; `superseded` points to its replacement; `reference` records source material without adopting it as policy.
 - Never invent clients, results, approvals, research findings, quotations, or statistics.
 - Label evidence exactly: **Documented**, **Interpretation**, **Hypothesis**, or **Unknown**. Cite sources for documented claims and keep interpretation distinct from observation.
-- 3RDWRONGS' visual identity is not approved. A rejected exploration used black backgrounds, heavy grotesk typography, and neon accents. Do not reuse that direction as guidance.
+- 3RDWRONG's visual identity is not approved. A rejected exploration used black backgrounds, heavy grotesk typography, and neon accents. Do not reuse that direction as guidance.
 - Everything committed here is public and open source. Never commit personal data, third-party contracts, credentials or NDA-bound assets. Choose a non-public store before collecting client or interview data; follow the [publication rules](docs/public-private-boundary.md). Historical studio pricing hypotheses and the founding source remain public under D-0017, with their evidence/status limits intact. Never add operating rates, prices, deal values, invoices or cash to the repo; `scripts/pricing.py` reads vault inputs and only prints. Keep its output private.
 
 ## Department and toolkit loading

@@ -10,8 +10,11 @@ review_every_days: 90
 # Invoicing and collections
 
 **Proposed.** How the studio bills and gets paid from L4 Contract & deposit to
-L9 Close-out. Payment-term lengths and shares are founder decisions recorded
-in the MSA and vault; this page holds the process.
+L9 Close-out. The default payment split for Identity System and Digital
+Experience projects is 50 / 30 / 20 ([D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md)): 50% to start, 30% on approval
+of the chosen direction, 20% before final files are released. Brand Direction
+Sprint terms are per proposal. Payment-term lengths are founder decisions
+recorded in the MSA and vault; this page holds the process.
 
 ## Purpose
 

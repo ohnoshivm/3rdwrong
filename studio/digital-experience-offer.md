@@ -92,7 +92,7 @@ not claims that a project has passed them.
 | Identity and purpose | Each major visual/interaction decision traces to the approved concept; real content and key tasks remain legible without spectacle |
 | Responsive craft | Inspect the production build at agreed desktop, tablet and mobile widths; record screenshots, overflow/wrap defects, fixes and re-inspection |
 | Functionality | Exercise navigation, forms, CMS/content flows and agreed integrations; passing relevant automated tests and clean first-party browser console |
-| Performance budgets | Proposed user-experience targets: LCP ≤2.5 s, INP ≤200 ms, CLS ≤0.1 at the 75th percentile where field data exists; pre-launch lab checks use recorded hardware/network settings and cannot establish field INP. Set explicit numerical initial-transfer, JavaScript, image/video/3D, texture, draw-call and frame-time budgets per prototype before full build; measure the built artefact against them and disclose any exception for approval |
+| Performance budgets | Approved studio budget ([D-0023](decisions/0023-commercial-and-delivery-defaults.md)): mobile p75 LCP ≤2.0 s, INP ≤200 ms, CLS ≤0.1 where field data exists; ≤2 MB transferred before first interaction with the rest lazy-loaded; 60 fps target on a mid-range phone; a complete prefers-reduced-motion fallback. Projects may set stricter budgets; a looser budget needs a founder-approved exception recorded in the project; pre-launch lab checks use recorded hardware/network settings and cannot establish field INP. Set explicit numerical initial-transfer, JavaScript, image/video/3D, texture, draw-call and frame-time budgets per prototype before full build; measure the built artefact against them and disclose any exception for approval |
 | Accessibility | Target WCAG 2.2 AA for the agreed experience; combine automated checks with manual keyboard, focus, contrast, semantics, screen-reader and equivalent-content checks; record scope and unresolved defects |
 | Reduced motion and resilience | Honour prefers-reduced-motion with meaningful static or simplified alternatives; no essential task relies on animation, pointer effects, sound or WebGL. Test unavailable WebGL, asset failure and agreed lower-powered devices; provide usable fallback content |
 | Engineering and security | Passing production build, appropriate tests, input/integration and dependency review, no exposed secrets, documented deployment and recovery procedure; verify the running built artefact before release |
@@ -102,6 +102,22 @@ If field data is unavailable, label field Core Web Vitals **not verified** and
 agree post-launch measurement ownership. Award-level craft does not waive
 performance, accessibility or functional acceptance. Do not claim compliance
 from an automated score alone.
+
+## Commercial and delivery defaults
+
+Approved defaults ([D-0023](decisions/0023-commercial-and-delivery-defaults.md)), pre-filled in the proposal, SOW and MSA and
+editable per project with founder approval:
+
+- **Payment:** 50% to start, 30% on approval of the chosen direction, 20%
+  before final files are released.
+- **Feedback:** two consolidated rounds per phase (concept, refinement,
+  applications); further rounds are change requests.
+- **Warranty:** 30 days of free defect fixes after launch; longer support is
+  a paid care plan.
+- **Portfolio:** named portfolio use after public launch with client-approved
+  case-study wording, unless the client opts out as confidential.
+- **AI:** AI use in the process is disclosed; AI-generated material in final
+  deliverables needs the client's written consent.
 
 ## Pricing and commercial hypothesis
 

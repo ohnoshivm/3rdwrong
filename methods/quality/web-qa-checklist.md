@@ -46,7 +46,8 @@ testable** with a reason rather than leaving it blank.
       alternatives on every template.
 - [ ] WebGL disabled: fallback content appears and tasks remain possible.
 - [ ] Asset failure (blocked 3D model or video) degrades gracefully.
-- [ ] Frame rate and memory within budget on the reference mid-range mobile.
+- [ ] Frame rate (60 fps target, [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md)) and memory within budget on the
+      reference mid-range mobile.
 - [ ] No flashing above three per second; no scroll trap.
 
 ## Cross-browser and device

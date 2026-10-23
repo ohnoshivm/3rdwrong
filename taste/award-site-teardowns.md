@@ -49,7 +49,7 @@ Always finish with an original exercise, following [creative guardrails](../meth
 
 ## Mapping its sections to our templates
 
-| Teardown section | 3RDWRONGS study lens |
+| Teardown section | 3RDWRONG study lens |
 | --- | --- |
 | Concept | Strategy and creative thesis |
 | Design | Visual system |

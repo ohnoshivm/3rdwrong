@@ -109,8 +109,9 @@ the [collaborator agreement](collaborator-agreement.md) first.
   codename, no client name, people, contacts, money, client files or
   identifying combinations — after the [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md) clearance check run by the
   [Delivery engine](../../methods/lifecycle.md).
-- Named portfolio use, award entries and case studies follow the MSA's
-  clause 7 option chosen for the client, and only after public launch.
+- Named portfolio use, award entries and case studies follow MSA clause 7
+  ([D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md)): only after public launch, with client-approved case-study wording,
+  unless the client opted out as confidential in the contract.
 - Never publish unreleased work, confidential information, or material
   under third-party licences that do not allow portfolio use (some stock and
   font licences do not).
@@ -132,7 +133,7 @@ records in the vault.
 - [ ] No AI-generated material in marks or exclusive elements.
 - [ ] AI use disclosed in the handover.
 - [ ] No copyleft code without written client agreement.
-- [ ] Publication cleared under [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md) and the client's portfolio option.
+- [ ] Publication cleared under [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md) and MSA clause 7 (no confidential opt-out).
 
 ## Metrics
 

@@ -23,7 +23,7 @@ experience as the second pillar, living identity by capability, and
 perception-led by method.** Design and Engineering become paired flagship
 departments under [D-0019](decisions/0019-organisation-and-loading-policy.md).
 
-**Proposed wording:** 3RDWRONGS creates distinctive identity systems and
+**Proposed wording:** 3RDWRONG creates distinctive identity systems and
 studio-grade digital experiences for ambitious businesses. Original ideas
 connect how a brand looks, moves and behaves with how people understand and
 experience it. Engineering participates from the concept stage so the digital
@@ -43,7 +43,7 @@ of results:
 
 > Our work begins with understanding a business, its audience, its competitive environment, and the perceptions it needs to establish or change. We translate that understanding into original creative concepts and coherent identity systems that function across physical, digital, and moving environments.
 >
-> 3RDWRONGS exists to bridge the gap between the quality of a business and the quality of how it is perceived and experienced.
+> 3RDWRONG exists to bridge the gap between the quality of a business and the quality of how it is perceived and experienced.
 >
 > Technology expands the expressive possibilities of our work. It does not determine our creative direction.
 >

@@ -16,10 +16,10 @@ and conceptual foundation required by [D-0012](decisions/0012-strategy-before-ow
 
 ## Next strategic sequence
 
-1. Define and approve 3RDWRONGS's personality, cultural perspective, verbal
+1. Define and approve 3RDWRONG's personality, cultural perspective, verbal
    identity and conceptual territory. This Phase 0 must precede its own visual
    identity exploration.
-2. Develop 3RDWRONGS's own visual identity through at least three distinct
+2. Develop 3RDWRONG's own visual identity through at least three distinct
    concepts, critique and application tests; record founder approval as a
    decision before use.
 3. Revise the discovery plan for D-0018 before choosing market priority.
@@ -66,7 +66,7 @@ market priorities and two-offer launch assumptions against D-0018 and the
 | --- | --- | --- | --- |
 | Foundation | 22 Oct–4 Nov 2026 | Establish positioning and ICP hypotheses; define the own-brand verbal and conceptual foundation; set up the research library; review three reference cases; audit production skills; define the two-offer launch. | Working creative brief and category hypothesis; usable research library; defined deliverables; chosen production tools; documented evidence gaps. |
 | Capability | 5–20 Nov 2026 | Develop the creative process; complete typography and composition studies; build the first flagship's strategy and distinct concept directions; begin buyer conversations. | At least one critically reviewed identity direction with relevant applications; written critique record; initial buyer feedback with sample limits. |
-| Evidence | 21 Nov–20 Dec 2026 | Complete one flagship case study; prototype a programmable identity after a coherent static identity exists; pursue suitable pilot clients; develop 3RDWRONGS's own visual identity only after D-0012 Phase 0 approval. | One public-quality, honestly labelled case; one bounded technical prototype; a functioning prospect and learning log; own identity remains gated by explicit creative approval. |
+| Evidence | 21 Nov–20 Dec 2026 | Complete one flagship case study; prototype a programmable identity after a coherent static identity exists; pursue suitable pilot clients; develop 3RDWRONG's own visual identity only after D-0012 Phase 0 approval. | One public-quality, honestly labelled case; one bounded technical prototype; a functioning prospect and learning log; own identity remains gated by explicit creative approval. |
 | Market Entry | 21 Dec 2026–19 Jan 2027 | Publish a studio presence and permitted case studies; pursue qualified opportunities; deliver any signed pilot work; refine offer and operations from evidence. | A credible presence, tested offer, documented workflows and actual evidence of buyer interest or purchasing behaviour. |
 
 The exit criteria are planning tests, not claims that demand or results will

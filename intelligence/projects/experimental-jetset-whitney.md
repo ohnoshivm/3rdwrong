@@ -164,7 +164,7 @@ Reject the proposed grammar if they repeatedly need the originating designer to 
 **Unknown** — Fees, internal software, quantified accessibility testing, training time, exact production
 tolerances and independent effectiveness results remain unverified.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — For a founder-led Indian consumer brand, begin with an actual communication constraint:
 variable product names, inconsistent photograph ratios or required language pairs. Develop an original

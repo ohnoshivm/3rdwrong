@@ -15,7 +15,7 @@ approval_source: founding brief, 2026-10-22
 
 ## Decision
 
-The flagship offer is The 3RDWRONGS Identity System: a focused strategic and creative engagement taking a brand from unclear positioning to a distinctive, deployable identity. Approved scope: (1) brand discovery, competitor analysis, audience research, positioning; (2) one coherent strategic direction; (3) identity concept development and design exploration; (4) core visual system: logo, typography, colour, composition, image direction; (5) verbal identity foundations; (6) key applications and motion principles; (7) brand guidelines, asset library, handover. Exclusions: comprehensive websites; continuous social media production; advertising management; packaging engineering; major campaigns; complex 3D experiences. These may become separately priced extensions or partner services.
+The flagship offer is The 3RDWRONG Identity System: a focused strategic and creative engagement taking a brand from unclear positioning to a distinctive, deployable identity. Approved scope: (1) brand discovery, competitor analysis, audience research, positioning; (2) one coherent strategic direction; (3) identity concept development and design exploration; (4) core visual system: logo, typography, colour, composition, image direction; (5) verbal identity foundations; (6) key applications and motion principles; (7) brand guidelines, asset library, handover. Exclusions: comprehensive websites; continuous social media production; advertising management; packaging engineering; major campaigns; complex 3D experiences. These may become separately priced extensions or partner services.
 
 ## Status
 
