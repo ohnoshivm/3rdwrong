@@ -9859,6 +9859,21 @@
     },
     {
       "aliases": [
+        "skill:dataviz"
+      ],
+      "department": "design",
+      "distribution": "manual",
+      "id": "skill:dataviz",
+      "kind": "skill",
+      "licence_audit_class": "Not recorded",
+      "load": "active",
+      "name": "3w-skill-dataviz",
+      "package": "account-claude-synced-skills",
+      "role": "specialist",
+      "source": "toolkit/sources/managed-tool-descriptions.md"
+    },
+    {
+      "aliases": [
         "skill:deliverability-qa"
       ],
       "department": "marketing",

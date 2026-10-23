@@ -1,0 +1,81 @@
+---
+title: Transitions
+type: tool-card
+status: proposed
+owner: founder
+last_reviewed: 2026-10-23
+tool_id: vectorlab-ux-skills:transitions
+department: engineering
+sub_department: creative-engineering
+job: motion-implementation
+role: specialist
+trigger: "A specified overlay or list enter/exit animation must avoid layout jumps."
+kind: plugin-skill
+availability: claude
+distribution: vendor
+source: toolkit/vendor/plugin-account-synced-vectorlab-ux-skills-marketplace/skills/animation/transitions
+invoke: "transitions skill"
+pairs_with: [agent:motion-director, figma:figma-implement-motion, nateherk-design:scroll-craft]
+---
+# Transitions
+
+Transitions is the specialist when A specified overlay or list enter/exit animation must avoid layout jumps. at 3RDWRONG.
+
+## What it does
+
+- Enter/exit patterns for overlays and lists without layout jump. Use when animating drawers, dialogs, popovers, route changes, or staggered lists
+- Overlay enter/exit matches surfaces: slide-over uses horizontal translate; popover uses opacity (± slight scale ≤1.02); full-page routes do not fake a modal slide unless the surface skill chose a drawer
+- Esc and focus stay available during motion. Exit animation can cancel; never block Escape until the animation finishes. Focus trap rules from keyboard still apply while the overlay is open
+- List stagger ≤30ms per item, total stagger budget ≈200ms. Longer cascades feel theatrical and slow
+- Reserve space so open/close does not shift siblings (fixed drawer width, absolute overlay, or reserved inline-edit height). Zero layout jump — same spirit as inline edit in surfaces
+
+## When to use
+
+- A specified overlay or list enter/exit animation must avoid layout jumps.
+
+## When not to use
+
+- When the approved brief does not call for motion implementation; use the smallest relevant implementation method.
+- To independently approve its own work; use a separate reviewer and the relevant QA tool.
+- When required inputs or platform prerequisites are missing; clarify them before implementation.
+
+## Inputs it needs
+
+- Approved brief, intended audience, success criteria and project status.
+- Relevant design, code, platform, device and integration context named by the source.
+- Constraints and reference artefacts; mark unsupported assumptions Unknown.
+
+## How to run it
+
+1. Check that the brief matches the registry trigger and the source's documented scope.
+2. Provide the inputs and constraints above; load or invoke `vectorlab-ux-skills:transitions`.
+3. Review the output against the quality checks and pass it to an independent checker.
+
+```text
+Use vectorlab-ux-skills:transitions for {project}. Approved brief and success criteria: {link}. Relevant artefacts and platform: {links and versions}. Constraints: {performance, accessibility, delivery}. Work only within the source's documented scope. Label evidence Documented, Interpretation, Hypothesis or Unknown; return findings, assumptions, limitations and a concrete next action.
+```
+
+## What good output looks like
+
+- Addresses the registry job and trigger with a concrete artefact, recommendation or implementation handoff.
+- Makes assumptions and undocumented capabilities explicit; links findings to provided evidence.
+- States constraints, unresolved risks and a next action suitable for independent review.
+
+## Quality checks
+
+- [ ] A reviewer other than the maker checks each source-specific requirement against the brief.
+- [ ] Claims are supported by the source or supplied evidence; unknowns are labelled.
+- [ ] Platform, responsive behaviour, accessibility and performance constraints are checked where applicable.
+- [ ] No client data or secrets are committed to a public repository.
+
+## Pairs with
+
+- `agent:motion-director`: coordinate inputs and hand off the reviewed result.
+- `figma:figma-implement-motion`: coordinate inputs and hand off the reviewed result.
+- `nateherk-design:scroll-craft`: coordinate inputs and hand off the reviewed result.
+
+## Limits and cautions
+
+- Do not use beyond the documented scope; if a capability or outcome is absent from the source, treat it as Not documented.
+- Keep client data out of the public repository (D-0021); apply maker ≠ checker and label evidence as Documented, Interpretation, Hypothesis or Unknown.
+- Motion must serve the concept, preserve readable content and honour prefers-reduced-motion; test keyboard and touch behaviour.

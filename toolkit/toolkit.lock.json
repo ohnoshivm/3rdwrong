@@ -21483,11 +21483,18 @@
       "sha256": "f024396581f13c219fdb278e0e9627264989a850c9073ca6d97fb9e758b0c95f"
     },
     {
-      "bytes": 249786,
+      "bytes": 4471,
+      "licence": "MIT",
+      "package": "toolkit-metadata",
+      "path": "toolkit/sources/managed-tool-descriptions.md",
+      "sha256": "31e89c01ae9f567239673fbd49ffce0a43bba2ad76dea0f7a78761a93895f8e9"
+    },
+    {
+      "bytes": 251101,
       "licence": "MIT",
       "package": "toolkit-metadata",
       "path": "toolkit/sources/materials.json",
-      "sha256": "7fd0fb60deb2edd02bab0d65af028c6e0254c0939da44b3cedc4be7f9bc28c78"
+      "sha256": "e2c94c83e6874714db46c8bf4b70bbf9aa4eb50f3c2f8367498bf9243dfb81de"
     },
     {
       "bytes": 299989,
@@ -56936,9 +56943,9 @@
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
     "THIRD_PARTY_NOTICES.md": "8c3abfca9e24b17ed6851bb804e426c5cc27d28ff556cbd9dff5b7e49c15ac07",
-    "toolkit/coverage.json": "4602ffef8664e0fdb2bedc94af8bf0d96fe256d603300df3fc2484980690ea90",
+    "toolkit/coverage.json": "582285d3cf2339f866ce4ca4bf9cca679cb83035d8fc6e5e99cd72d5e33f52f4",
     "toolkit/fetch.yaml": "04eaf42499bca02f9db6ee0a505214e14fba46c7b86ec857f5a25b786b409c1f",
-    "toolkit/install-plan.json": "3b8c5f8389b93125b7a065a3f09c611be026dc0b6930d799a35cd6296e9b4df7",
+    "toolkit/install-plan.json": "9dd33a7fe51881dbe2fbaa22195adeed39c6174066894b94c0b57c9a289e69b3",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
     "toolkit/secret-allowlist.json": "aebcb912c20c41908ee1ce94aa8b057168154e57c3c7a05d738385d8c25533d9"

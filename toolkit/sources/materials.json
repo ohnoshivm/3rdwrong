@@ -2821,6 +2821,13 @@
     "package": "plugin-claude-plugins-official-mcp-server-dev-marketplace",
     "source": "toolkit/vendor/plugin-claude-plugins-official-mcp-server-dev-marketplace/skills/build-mcpb"
   },
+  "mcp:chatcut_desktop": {
+    "distribution": "manual",
+    "kind": "mcp",
+    "licence_audit_class": "MANUAL",
+    "package": "mcp-chatcut_desktop",
+    "source": "toolkit/sources/managed-tool-descriptions.md"
+  },
   "mcp:chrome-devtools": {
     "candidates": [
       "skills/chrome-devtools"
@@ -2829,6 +2836,20 @@
     "kind": "skill",
     "package": "mcp-chrome-devtools",
     "upstream_name": "chrome-devtools"
+  },
+  "mcp:claude-docs": {
+    "distribution": "manual",
+    "kind": "mcp",
+    "licence_audit_class": "Not recorded",
+    "package": "account-claude-synced-skills",
+    "source": "toolkit/sources/managed-tool-descriptions.md"
+  },
+  "mcp:creative_production_mcp": {
+    "distribution": "manual",
+    "kind": "mcp",
+    "licence_audit_class": "MANUAL",
+    "package": "mcp-creative_production_mcp",
+    "source": "toolkit/sources/managed-tool-descriptions.md"
   },
   "mcp:google-analytics": {
     "candidates": [],
@@ -2843,6 +2864,20 @@
     "kind": "skill",
     "package": "mcp-gsc",
     "upstream_name": "gsc"
+  },
+  "mcp:heygen": {
+    "distribution": "manual",
+    "kind": "mcp",
+    "licence_audit_class": "MANUAL",
+    "package": "mcp-heygen",
+    "source": "toolkit/sources/managed-tool-descriptions.md"
+  },
+  "mcp:hyperframes": {
+    "distribution": "manual",
+    "kind": "mcp",
+    "licence_audit_class": "Not recorded",
+    "package": "mcp-heygen",
+    "source": "toolkit/sources/managed-tool-descriptions.md"
   },
   "mcp:playwright": {
     "candidates": [],
@@ -3784,6 +3819,13 @@
     "kind": "skill",
     "package": "pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0",
     "source": "toolkit/vendor/pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0/skills/dark-social-attributor"
+  },
+  "skill:dataviz": {
+    "distribution": "manual",
+    "kind": "skill",
+    "licence_audit_class": "Not recorded",
+    "package": "account-claude-synced-skills",
+    "source": "toolkit/sources/managed-tool-descriptions.md"
   },
   "skill:deliverability-qa": {
     "distribution": "vendor",

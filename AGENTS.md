@@ -8,6 +8,10 @@ It is not a client archive: client information, personal data, credentials, and 
 
 Read [`INDEX.md`](INDEX.md) first to locate current knowledge. Then read the closest route below and only its named files; do not load the repository wholesale.
 
+## Using the toolkit
+
+To choose a tool for a task, read [toolkit/cards/index.json](toolkit/cards/index.json), filter by department and job, then open **only the chosen card** and follow its “How to run it” section. Start with the lead; load a specialist only when its trigger applies. Bench and parked tools require an explicit request. Humans can browse [handbook/README.md](handbook/README.md); a pending card is not evidence of readiness.
+
 ## Source order
 
 When sources conflict, use this order and flag the conflict for a human:
@@ -43,6 +47,7 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 
 | Task | Minimum files to read |
 | --- | --- |
+| Choose a tool for a job | `toolkit/cards/index.json`, `handbook/<department>.md` |
 | Qualify a lead or run discovery | `growth/sales/README.md`, `growth/sales/qualification.md`, `growth/sales/discovery-call.md` |
 | Plan content | `growth/content/README.md`, `growth/content/production-workflow.md`, `taste/README.md`, `skills/3w-taste-graph/SKILL.md` |
 | Outreach | `growth/outbound/README.md`, `growth/outbound/compliance.md`, `studio/initial-icp.md` |
