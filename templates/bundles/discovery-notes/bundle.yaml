@@ -1,0 +1,16 @@
+# Private discovery notes for one opportunity (L2); method in growth/sales/discovery-call.md.
+# Render with: bin/3w new discovery-notes --codename two-words --set offer=...
+kind: discovery-notes
+description: Private L2 discovery notes, written summary and hand-off pack to L3, rendered into the vault.
+template: discovery-notes.md.tmpl
+target: "{vault}/{codename}/private-notes/discovery-{date}.md"
+variables:
+  - name: codename
+    description: The opportunity's codename from the pipeline.
+    example: stillsoil-atelier
+  - name: date
+    description: Filled automatically with today's ISO date.
+    example: 2026-10-28
+  - name: offer
+    description: Offer under discussion.
+    example: Identity System
