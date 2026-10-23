@@ -290,6 +290,8 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [taste/graph/proposals/seed-links.md](taste/graph/proposals/seed-links.md) | Proposed seed links for the Taste Graph | guide | proposed | 2026-10-23 | These are proposed links between seed website assets and existing principles and patterns. |
 | [taste/studio-websites.md](taste/studio-websites.md) | Studio websites — taste references only | research | reference | 2026-10-22 | Documented — Founder instruction, 2026-10-22: TASTE REFERENCE ONLY. |
 | [taste/swipe-file.md](taste/swipe-file.md) | 3RDWRONG — World-Class Website Swipe File | research | reference | 2026-10-22 | This is the founder's three-tier master list, not a quality ranking beyond the founder judgements explicitly labelled below. |
+| [taste/teardowns/buttermax.md](taste/teardowns/buttermax.md) | Buttermax — studio teardown | research | reference | 2026-10-23 | Scope: a consolidated studio study of the captured desktop and mobile experience, visual system, motion, engineering and visitor journey. |
+| [taste/teardowns/lusion.md](taste/teardowns/lusion.md) | Lusion — studio teardown | research | reference | 2026-10-23 | Scope: a consolidated studio study of the captured desktop and mobile experience, visual system, motion, engineering and visitor journey. |
 
 ## templates
 

@@ -13,6 +13,7 @@ brand identity studio. Admiration for immersive studio websites does not imply t
 - [Swipe file](swipe-file.md) is the founder's three-tier master list.
 - [Inspiration discovery sources](discovery-sources.md) verifies discovery sources and gives use guidance.
 - [Award Site Teardowns](award-site-teardowns.md) is the primary resource for structured award-site analysis.
+- [Studio teardowns](teardowns/README.md) holds consolidated, dated studies of selected reference sites.
 - [Studio websites](studio-websites.md) is the curated, source-checked original-site benchmark list, with limits and browser prompts.
 - [Taste practice](../methods/taste-practice.md) supplies the proposed weekly analysis and original-application loop.
 - [Intelligence](../intelligence/README.md) holds deeper evidence-graded studies, transferable questions and exercises.
@@ -59,3 +60,4 @@ The [Taste Graph](graph/README.md) turns these lists into a local PostgreSQL kno
 | [Inspiration discovery sources](discovery-sources.md) | Discovery-source verification and use guidance. |
 | [Award Site Teardowns](award-site-teardowns.md) | Primary taste resource for structured award-site analysis; complements the original-site benchmarks and browser prompts in studio-websites.md. |
 | [Studio websites](studio-websites.md) | Six primary benchmarks, four further references, two provisional Indian leads, source checks and deep-study priorities. |
+| [Studio teardowns](teardowns/README.md) | Consolidated, dated studies of Lusion and Buttermax. |
