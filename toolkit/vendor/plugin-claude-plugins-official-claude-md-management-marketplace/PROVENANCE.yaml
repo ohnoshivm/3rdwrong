@@ -1,0 +1,38 @@
+package: plugin-claude-plugins-official-claude-md-management-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- 1.0.0
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-claude-md-management-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 4617ec581bdf3f6d0e9879e8d9338a1fd46602b93bb6007d3ec5c1a18f8af66f
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/LICENSE
+  commands/revise-claude-md.md:
+    sha256: d59ffd7ef2b793bdfda0efbeed6bb948cb9a455d1fe6cccb54fe4585788c68e9
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/commands/revise-claude-md.md
+  skills/claude-md-improver/SKILL.md:
+    sha256: b06c7420be08ca1c7f6d75f7f4709fdb787624a2d363e2f8052216d8c780f85b
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/SKILL.md
+  skills/claude-md-improver/references/quality-criteria.md:
+    sha256: 383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md
+  skills/claude-md-improver/references/templates.md:
+    sha256: de0aa3ac30120a0c77f9cd82738a75ed8326864f98feb89356a253f2deaf3ab0
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/references/templates.md
+  skills/claude-md-improver/references/update-guidelines.md:
+    sha256: 02a158d6ca41a0ab702a67a213e92205f09c073cea53796633251bc62fd7ec55
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver/references/update-guidelines.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

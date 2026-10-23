@@ -1,3 +1,4 @@
+# Legacy v1 scanner compatibility only; current routing: toolkit/sources/registry.json.
 # JSON Schema expressed as YAML; the scanner enforces the routing constraints
 # without adding a jsonschema dependency. Metadata remains proposed.
 $schema: https://json-schema.org/draft/2020-12/schema

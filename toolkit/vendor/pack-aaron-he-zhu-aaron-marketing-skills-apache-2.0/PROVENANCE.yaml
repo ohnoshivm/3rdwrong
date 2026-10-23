@@ -1,0 +1,1396 @@
+package: pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0
+upstream_url: https://github.com/aaron-he-zhu/aaron-marketing-skills
+pinned_ref:
+- 109908edbf0f0b19469ae57dc7b4d8f9c75efef4
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0
+copied_from:
+- ~/creative-engineering-os/library/skills/ad-account-auditor
+- ~/creative-engineering-os/library/skills/ad-creative-builder
+- ~/creative-engineering-os/library/skills/ad-test-designer
+- ~/creative-engineering-os/library/skills/advocacy-program-designer
+- ~/creative-engineering-os/library/skills/attribution-reconciler
+- ~/creative-engineering-os/library/skills/audience-belief-mapper
+- ~/creative-engineering-os/library/skills/audience-mapper
+- ~/creative-engineering-os/library/skills/audience-segment-builder
+- ~/creative-engineering-os/library/skills/bid-strategy-planner
+- ~/creative-engineering-os/library/skills/brand-language-codifier
+- ~/creative-engineering-os/library/skills/brief-generator
+- ~/creative-engineering-os/library/skills/budget-optimizer
+- ~/creative-engineering-os/library/skills/budget-pacing-monitor
+- ~/creative-engineering-os/library/skills/campaign-architect
+- ~/creative-engineering-os/library/skills/campaign-planner
+- ~/creative-engineering-os/library/skills/category-narrative-mapper
+- ~/creative-engineering-os/library/skills/channel-portfolio-planner
+- ~/creative-engineering-os/library/skills/channel-registry
+- ~/creative-engineering-os/library/skills/cold-outbound-sequencer
+- ~/creative-engineering-os/library/skills/community-launch-runner
+- ~/creative-engineering-os/library/skills/competitor-analysis
+- ~/creative-engineering-os/library/skills/competitor-tracker
+- ~/creative-engineering-os/library/skills/consent-registry
+- ~/creative-engineering-os/library/skills/content-amplifier
+- ~/creative-engineering-os/library/skills/content-gap-analysis
+- ~/creative-engineering-os/library/skills/content-quality-auditor
+- ~/creative-engineering-os/library/skills/content-writer
+- ~/creative-engineering-os/library/skills/contract-helper
+- ~/creative-engineering-os/library/skills/conversion-signal-qa
+- ~/creative-engineering-os/library/skills/conversion-value-mapper
+- ~/creative-engineering-os/library/skills/creator-content-auditor
+- ~/creative-engineering-os/library/skills/creator-registry
+- ~/creative-engineering-os/library/skills/crisis-response-planner
+- ~/creative-engineering-os/library/skills/dark-social-attributor
+- ~/creative-engineering-os/library/skills/deliverability-qa
+- ~/creative-engineering-os/library/skills/domain-authority-auditor
+- ~/creative-engineering-os/library/skills/dynamic-content-personalizer
+- ~/creative-engineering-os/library/skills/early-access-designer
+- ~/creative-engineering-os/library/skills/email-creative-builder
+- ~/creative-engineering-os/library/skills/email-quality-auditor
+- ~/creative-engineering-os/library/skills/email-render-builder
+- ~/creative-engineering-os/library/skills/email-sequence-designer
+- ~/creative-engineering-os/library/skills/engagement-inbox-manager
+- ~/creative-engineering-os/library/skills/entity-registry
+- ~/creative-engineering-os/library/skills/fatigue-frequency-manager
+- ~/creative-engineering-os/library/skills/fit-scorer
+- ~/creative-engineering-os/library/skills/geo-content-optimizer
+- ~/creative-engineering-os/library/skills/inbox-placement-monitor
+- ~/creative-engineering-os/library/skills/influencer-discovery
+- ~/creative-engineering-os/library/skills/keyword-research
+- ~/creative-engineering-os/library/skills/landing-experience-checker
+- ~/creative-engineering-os/library/skills/landing-optimizer
+- ~/creative-engineering-os/library/skills/launch-asset-packager
+- ~/creative-engineering-os/library/skills/launch-day-conductor
+- ~/creative-engineering-os/library/skills/launch-feedback-synthesizer
+- ~/creative-engineering-os/library/skills/launch-monitor
+- ~/creative-engineering-os/library/skills/launch-readiness-auditor
+- ~/creative-engineering-os/library/skills/launch-registry
+- ~/creative-engineering-os/library/skills/launch-retro-analyzer
+- ~/creative-engineering-os/library/skills/launch-tier-planner
+- ~/creative-engineering-os/library/skills/launch-window-planner
+- ~/creative-engineering-os/library/skills/list-growth-designer
+- ~/creative-engineering-os/library/skills/list-hygiene-monitor
+- ~/creative-engineering-os/library/skills/list-segment-builder
+- ~/creative-engineering-os/library/skills/memory-management
+- ~/creative-engineering-os/library/skills/message-house-builder
+- ~/creative-engineering-os/library/skills/message-system-architect
+- ~/creative-engineering-os/library/skills/message-test-designer
+- ~/creative-engineering-os/library/skills/momentum-planner
+- ~/creative-engineering-os/library/skills/narrative-baseline-mapper
+- ~/creative-engineering-os/library/skills/narrative-cascade-planner
+- ~/creative-engineering-os/library/skills/narrative-drift-monitor
+- ~/creative-engineering-os/library/skills/narrative-enablement-kit
+- ~/creative-engineering-os/library/skills/narrative-quality-auditor
+- ~/creative-engineering-os/library/skills/narrative-registry
+- ~/creative-engineering-os/library/skills/narrative-resonance-monitor
+- ~/creative-engineering-os/library/skills/newsletter-monetization-planner
+- ~/creative-engineering-os/library/skills/offer-claims-registry
+- ~/creative-engineering-os/library/skills/offsite-signal-analyzer
+- ~/creative-engineering-os/library/skills/on-page-seo-checker
+- ~/creative-engineering-os/library/skills/outreach-manager
+- ~/creative-engineering-os/library/skills/page-play-builder
+- ~/creative-engineering-os/library/skills/paid-measurement-loop
+- ~/creative-engineering-os/library/skills/participation-warmup-planner
+- ~/creative-engineering-os/library/skills/performance-analyzer
+- ~/creative-engineering-os/library/skills/performance-monitor
+- ~/creative-engineering-os/library/skills/pitch-narrative-builder
+- ~/creative-engineering-os/library/skills/placement-exclusion-manager
+- ~/creative-engineering-os/library/skills/platform-norm-profiler
+- ~/creative-engineering-os/library/skills/positioning-mapper
+- ~/creative-engineering-os/library/skills/positioning-truth-tracer
+- ~/creative-engineering-os/library/skills/preference-frequency-manager
+- ~/creative-engineering-os/library/skills/press-media-relations
+- ~/creative-engineering-os/library/skills/pricing-packaging-planner
+- ~/creative-engineering-os/library/skills/product-feed-optimizer
+- ~/creative-engineering-os/library/skills/proof-point-packager
+- ~/creative-engineering-os/library/skills/rank-tracker
+- ~/creative-engineering-os/library/skills/reactivation-specialist
+- ~/creative-engineering-os/library/skills/report-generator
+- ~/creative-engineering-os/library/skills/roi-calculator
+- ~/creative-engineering-os/library/skills/sales-enablement-kit
+- ~/creative-engineering-os/library/skills/search-term-miner
+- ~/creative-engineering-os/library/skills/send-experiment-designer
+- ~/creative-engineering-os/library/skills/serp-analysis
+- ~/creative-engineering-os/library/skills/serp-markup-builder
+- ~/creative-engineering-os/library/skills/share-of-voice-tracker
+- ~/creative-engineering-os/library/skills/short-video-scripter
+- ~/creative-engineering-os/library/skills/site-structure-optimizer
+- ~/creative-engineering-os/library/skills/social-calendar-builder
+- ~/creative-engineering-os/library/skills/social-creative-builder
+- ~/creative-engineering-os/library/skills/social-measurement-loop
+- ~/creative-engineering-os/library/skills/social-pulse-monitor
+- ~/creative-engineering-os/library/skills/social-quality-auditor
+- ~/creative-engineering-os/library/skills/social-selling-planner
+- ~/creative-engineering-os/library/skills/story-bank-builder
+- ~/creative-engineering-os/library/skills/strategic-narrative-designer
+- ~/creative-engineering-os/library/skills/subject-line-lab
+- ~/creative-engineering-os/library/skills/technical-seo-checker
+- ~/creative-engineering-os/library/skills/trend-spotter
+- ~/creative-engineering-os/library/skills/voice-dossier-builder
+copied_on: '2026-10-23'
+files:
+  skills/ad-account-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/ad-account-auditor/LICENSE.upstream
+  skills/ad-account-auditor/SKILL.md:
+    sha256: 63280bce46a36ae75ea3491e2fb0d003d6ad46ce9467060b9ab844b49d8de474
+    copied_from: ~/creative-engineering-os/library/skills/ad-account-auditor/SKILL.md
+  skills/ad-account-auditor/references/auditor-runtime.md:
+    sha256: 5f5aa0314a4645c8b7108e5c3fa2ebb11ce7e8dea7f552a5d6a6c8beaac39bc0
+    copied_from: ~/creative-engineering-os/library/skills/ad-account-auditor/references/auditor-runtime.md
+  skills/ad-creative-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/ad-creative-builder/LICENSE.upstream
+  skills/ad-creative-builder/SKILL.md:
+    sha256: 63b880cede60127c0d385f8e6045ae8cc3d5e502e6b756e68c72e403b4053f02
+    copied_from: ~/creative-engineering-os/library/skills/ad-creative-builder/SKILL.md
+  skills/ad-creative-builder/references/ad-format-specs.md:
+    sha256: 0667f5a644a44a250a9e79b7474605385af0b2d61e22200e3b29fa66c1c0a2f1
+    copied_from: ~/creative-engineering-os/library/skills/ad-creative-builder/references/ad-format-specs.md
+  skills/ad-creative-builder/references/angle-matrix.md:
+    sha256: 68c3824a275b8e9135e356a64475d0849348b40bcd663b9060c151f77f14c59d
+    copied_from: ~/creative-engineering-os/library/skills/ad-creative-builder/references/angle-matrix.md
+  skills/ad-test-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/ad-test-designer/LICENSE.upstream
+  skills/ad-test-designer/SKILL.md:
+    sha256: 7160f23c77de20dfa546d2ca1fc45488f36af686eb9c9758fc72f597c4d84104
+    copied_from: ~/creative-engineering-os/library/skills/ad-test-designer/SKILL.md
+  skills/ad-test-designer/references/measurement-control.md:
+    sha256: 8adc01c733b8e9e3d86e55737edadb4bb8a71d56dae4470f6f7c8249338fcc2c
+    copied_from: ~/creative-engineering-os/library/skills/ad-test-designer/references/measurement-control.md
+  skills/ad-test-designer/references/test-design-guide.md:
+    sha256: bddb2d721ea625fca32b14d0d12d70df34a26b451992250dac33f50f9130cacc
+    copied_from: ~/creative-engineering-os/library/skills/ad-test-designer/references/test-design-guide.md
+  skills/advocacy-program-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/advocacy-program-designer/LICENSE.upstream
+  skills/advocacy-program-designer/SKILL.md:
+    sha256: 8e32f9999c48b4cb9d6cadfadba479444c66527267ed0f6233f7f6fbb69c1b7b
+    copied_from: ~/creative-engineering-os/library/skills/advocacy-program-designer/SKILL.md
+  skills/attribution-reconciler/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/attribution-reconciler/LICENSE.upstream
+  skills/attribution-reconciler/SKILL.md:
+    sha256: cdf1ff00ec4032696a94d0a6226b4663488bb81b1a446e34d56be181be3346d8
+    copied_from: ~/creative-engineering-os/library/skills/attribution-reconciler/SKILL.md
+  skills/audience-belief-mapper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/audience-belief-mapper/LICENSE.upstream
+  skills/audience-belief-mapper/SKILL.md:
+    sha256: 340a907285a837804284a9821106d7112474637a6899e3cccbd6382a52f6abb4
+    copied_from: ~/creative-engineering-os/library/skills/audience-belief-mapper/SKILL.md
+  skills/audience-mapper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/audience-mapper/LICENSE.upstream
+  skills/audience-mapper/SKILL.md:
+    sha256: 80840cb62bcd20aa51724a60d8d69ce04f92134812cd06343c6db4cb9719b998
+    copied_from: ~/creative-engineering-os/library/skills/audience-mapper/SKILL.md
+  skills/audience-mapper/references/templates.md:
+    sha256: ebd14b1f24421dbc2e6ca862e42ef9e4e0cc4915153221e8aec0c6321a7fea5b
+    copied_from: ~/creative-engineering-os/library/skills/audience-mapper/references/templates.md
+  skills/audience-segment-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/audience-segment-builder/LICENSE.upstream
+  skills/audience-segment-builder/SKILL.md:
+    sha256: 2aa454645d5053e4b54b7c6c5a4c3fb54301629db8712c555673f49794bb22ac
+    copied_from: ~/creative-engineering-os/library/skills/audience-segment-builder/SKILL.md
+  skills/bid-strategy-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/bid-strategy-planner/LICENSE.upstream
+  skills/bid-strategy-planner/SKILL.md:
+    sha256: 0df1deacc659c5f9a1a95e262b7386cec6084eab740a0488645662d2a0e60e08
+    copied_from: ~/creative-engineering-os/library/skills/bid-strategy-planner/SKILL.md
+  skills/bid-strategy-planner/references/bid-strategy-matrix.md:
+    sha256: cb7896c7afffc764d6a739949c7324cd09279d2596d5e35a55e175c8efeb7176
+    copied_from: ~/creative-engineering-os/library/skills/bid-strategy-planner/references/bid-strategy-matrix.md
+  skills/brand-language-codifier/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/brand-language-codifier/LICENSE.upstream
+  skills/brand-language-codifier/SKILL.md:
+    sha256: b85a647be4055aebb94a55f2332258d61061a248750917e49a1adcbdeea32578
+    copied_from: ~/creative-engineering-os/library/skills/brand-language-codifier/SKILL.md
+  skills/brief-generator/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/brief-generator/LICENSE.upstream
+  skills/brief-generator/SKILL.md:
+    sha256: 3deb5c0ab802ee7c3be9fcb5b917f9b896e8ee37705828504bddf3cf1370f512
+    copied_from: ~/creative-engineering-os/library/skills/brief-generator/SKILL.md
+  skills/brief-generator/references/brief-templates.md:
+    sha256: 575e66c89856f357d3b0bfbd6e3a9f8b4f86e9034f82a5138f5bc98ff411f46e
+    copied_from: ~/creative-engineering-os/library/skills/brief-generator/references/brief-templates.md
+  skills/brief-generator/references/creator-voice-intake.md:
+    sha256: 1ac3daad73dff08632937be27ad6057f9e781d62766fd4c2965ccb5fd2d5e2d5
+    copied_from: ~/creative-engineering-os/library/skills/brief-generator/references/creator-voice-intake.md
+  skills/budget-optimizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/budget-optimizer/LICENSE.upstream
+  skills/budget-optimizer/SKILL.md:
+    sha256: f4fc07954c73d9cbb54cb365d78bceb65ece10dcdaa209477eb52547610b8afe
+    copied_from: ~/creative-engineering-os/library/skills/budget-optimizer/SKILL.md
+  skills/budget-optimizer/references/templates.md:
+    sha256: e4cd6bfd63cd969b9996b09d8cf56751fd7d15c09bf2cab99365f2bf8e30bd2a
+    copied_from: ~/creative-engineering-os/library/skills/budget-optimizer/references/templates.md
+  skills/budget-pacing-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/budget-pacing-monitor/LICENSE.upstream
+  skills/budget-pacing-monitor/SKILL.md:
+    sha256: 670fbe2e65d2dfd092ba767c4fb050045f72ce19679957da66790f3a60fdde18
+    copied_from: ~/creative-engineering-os/library/skills/budget-pacing-monitor/SKILL.md
+  skills/campaign-architect/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/campaign-architect/LICENSE.upstream
+  skills/campaign-architect/SKILL.md:
+    sha256: 00701af99252c60aa8af082ebb4000e0d08d3f3e0d14847efc037bdbf4d78469
+    copied_from: ~/creative-engineering-os/library/skills/campaign-architect/SKILL.md
+  skills/campaign-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/campaign-planner/LICENSE.upstream
+  skills/campaign-planner/SKILL.md:
+    sha256: a09420e865df9e466adfc41c5e41e17d85a0d929fac65c265db75152dbec7fba
+    copied_from: ~/creative-engineering-os/library/skills/campaign-planner/SKILL.md
+  skills/campaign-planner/references/influencer-tiers.md:
+    sha256: ba5d4193b31abd27b01148ca9992adfcad0d541519ddb47d0ff58f038560588b
+    copied_from: ~/creative-engineering-os/library/skills/campaign-planner/references/influencer-tiers.md
+  skills/campaign-planner/references/templates.md:
+    sha256: c318da28ede203d457e1ab7bc688a056ab258ba0486a1eec995fde4c40b98325
+    copied_from: ~/creative-engineering-os/library/skills/campaign-planner/references/templates.md
+  skills/category-narrative-mapper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/category-narrative-mapper/LICENSE.upstream
+  skills/category-narrative-mapper/SKILL.md:
+    sha256: e2fa86d238f6801169f33c132f876812b7dd5fa7ef5d0a994661cb39f8e89c68
+    copied_from: ~/creative-engineering-os/library/skills/category-narrative-mapper/SKILL.md
+  skills/channel-portfolio-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/channel-portfolio-planner/LICENSE.upstream
+  skills/channel-portfolio-planner/SKILL.md:
+    sha256: c39ee4d4943f6377c42082cd3040b3bac8c97665772e3aa56e79120c91330866
+    copied_from: ~/creative-engineering-os/library/skills/channel-portfolio-planner/SKILL.md
+  skills/channel-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/channel-registry/LICENSE.upstream
+  skills/channel-registry/SKILL.md:
+    sha256: fe674ec039b8858330cdcc0b2ee2eeb64d9a67dbed5b4d5c44da9fb822e9b6ae
+    copied_from: ~/creative-engineering-os/library/skills/channel-registry/SKILL.md
+  skills/cold-outbound-sequencer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/cold-outbound-sequencer/LICENSE.upstream
+  skills/cold-outbound-sequencer/SKILL.md:
+    sha256: a7dc94f8fbcdd3980929a3fd79156955e86f280a0cf57d2c060d993e35a135f4
+    copied_from: ~/creative-engineering-os/library/skills/cold-outbound-sequencer/SKILL.md
+  skills/community-launch-runner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/community-launch-runner/LICENSE.upstream
+  skills/community-launch-runner/SKILL.md:
+    sha256: 00ddaf40c5f13cb035f8a60463cb77e29de5df0dd19864623cafbbff6681747b
+    copied_from: ~/creative-engineering-os/library/skills/community-launch-runner/SKILL.md
+  skills/community-launch-runner/references/channel-matrix.md:
+    sha256: f07b3a46efcf8f3e7ab9432193cc8dfde05078d825bd11bc8856915b189dc9c8
+    copied_from: ~/creative-engineering-os/library/skills/community-launch-runner/references/channel-matrix.md
+  skills/competitor-analysis/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/competitor-analysis/LICENSE.upstream
+  skills/competitor-analysis/SKILL.md:
+    sha256: 905922fb722baf1fb3d2046a4d13031cf1ab8d7e8e4dde8b89dcc7f67eea2245
+    copied_from: ~/creative-engineering-os/library/skills/competitor-analysis/SKILL.md
+  skills/competitor-analysis/references/analysis-templates.md:
+    sha256: a04b96352a32e76aacb79462411f13e736f483f6ac89a4acf0bdd6d8b8380a08
+    copied_from: ~/creative-engineering-os/library/skills/competitor-analysis/references/analysis-templates.md
+  skills/competitor-analysis/references/battlecard-template.md:
+    sha256: 89a2d9e941bf25652a403ae34d7292b4eb2be30dddd9ccd36bd63a04c5a11a3b
+    copied_from: ~/creative-engineering-os/library/skills/competitor-analysis/references/battlecard-template.md
+  skills/competitor-analysis/references/example-report.md:
+    sha256: 002c32f1b514ef064c8ba37c9e2c16d6df0f5addfd890ee55a7584058ed95f3f
+    copied_from: ~/creative-engineering-os/library/skills/competitor-analysis/references/example-report.md
+  skills/competitor-analysis/references/positioning-frameworks.md:
+    sha256: fcafeaddf6137096235201bbf3b4cc080839a75748abd82965bcc4dcba11b7b9
+    copied_from: ~/creative-engineering-os/library/skills/competitor-analysis/references/positioning-frameworks.md
+  skills/competitor-tracker/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/competitor-tracker/LICENSE.upstream
+  skills/competitor-tracker/SKILL.md:
+    sha256: 64d018cba103b00a8712a4f08de95d4e4abcb82d068e37daed6891c31aa8a886
+    copied_from: ~/creative-engineering-os/library/skills/competitor-tracker/SKILL.md
+  skills/competitor-tracker/references/templates.md:
+    sha256: 4f9981cebd613cab992fbb26ab73962875434b7ed40cf54aa06b3ba8244f8382
+    copied_from: ~/creative-engineering-os/library/skills/competitor-tracker/references/templates.md
+  skills/consent-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/consent-registry/LICENSE.upstream
+  skills/consent-registry/SKILL.md:
+    sha256: b824f95dd1eb54f211e8260cd879ec50b4cef8a7f569f469e05b7463ac710cb7
+    copied_from: ~/creative-engineering-os/library/skills/consent-registry/SKILL.md
+  skills/content-amplifier/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/content-amplifier/LICENSE.upstream
+  skills/content-amplifier/SKILL.md:
+    sha256: a10b329d0a0ff5c87269f045a324b2b2c19b6decbd97061785f320c7107a101a
+    copied_from: ~/creative-engineering-os/library/skills/content-amplifier/SKILL.md
+  skills/content-amplifier/references/atom-extraction.md:
+    sha256: fac25955a5c0c4b92c009e7c8b82793eca0ef284409c4253b9f226d129c651f4
+    copied_from: ~/creative-engineering-os/library/skills/content-amplifier/references/atom-extraction.md
+  skills/content-amplifier/references/templates.md:
+    sha256: fa9834d3accaba5d7c006fb046603347bcd5997d45f06823b7e7012e4de159c2
+    copied_from: ~/creative-engineering-os/library/skills/content-amplifier/references/templates.md
+  skills/content-gap-analysis/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/content-gap-analysis/LICENSE.upstream
+  skills/content-gap-analysis/SKILL.md:
+    sha256: af797cb4e690539a023be90890f1c7c3506bd8b6192e5fc74f8a77b22a7f5a97
+    copied_from: ~/creative-engineering-os/library/skills/content-gap-analysis/SKILL.md
+  skills/content-gap-analysis/references/analysis-templates.md:
+    sha256: e7154a6852f383492dbb0e76464970e1a46e62c9bdd849fe23a5411754163122
+    copied_from: ~/creative-engineering-os/library/skills/content-gap-analysis/references/analysis-templates.md
+  skills/content-gap-analysis/references/example-report.md:
+    sha256: f6fb9fe7095de8dc53339e986b611001caf21b4f1572d1bf795afe765b0f69cb
+    copied_from: ~/creative-engineering-os/library/skills/content-gap-analysis/references/example-report.md
+  skills/content-gap-analysis/references/gap-analysis-frameworks.md:
+    sha256: 2a80775b6e34d52badec400f58fdb1847f51ddd064e31baf6279a972c2828281
+    copied_from: ~/creative-engineering-os/library/skills/content-gap-analysis/references/gap-analysis-frameworks.md
+  skills/content-quality-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/content-quality-auditor/LICENSE.upstream
+  skills/content-quality-auditor/SKILL.md:
+    sha256: e27be2557045da655193af0bc15d533aab40c2cfbdcd0972b2dce69545d4eb85
+    copied_from: ~/creative-engineering-os/library/skills/content-quality-auditor/SKILL.md
+  skills/content-quality-auditor/references/auditor-runtime.md:
+    sha256: 62a4424c1402babc70a7a803703b83386c13159a01a0880a049c7df2aa0063c0
+    copied_from: ~/creative-engineering-os/library/skills/content-quality-auditor/references/auditor-runtime.md
+  skills/content-quality-auditor/references/item-reference.md:
+    sha256: 3d99ec12c89589e3fd7ac6544f122f8fcf5328173c15c94b942ca19f9cbb8495
+    copied_from: ~/creative-engineering-os/library/skills/content-quality-auditor/references/item-reference.md
+  skills/content-quality-auditor/references/recursive-refinement.md:
+    sha256: efe7b67ca28643131cd13c271c2b2f68cbe8b366fffd544d68baca5d457fefcf
+    copied_from: ~/creative-engineering-os/library/skills/content-quality-auditor/references/recursive-refinement.md
+  skills/content-writer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/LICENSE.upstream
+  skills/content-writer/SKILL.md:
+    sha256: cf0138f710988b2cb698d3be52ee92119f69222710dc7753a843ecfb9b463f80
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/SKILL.md
+  skills/content-writer/references/content-decay-signals.md:
+    sha256: 70b8e92f3d65b4030c47488a99f97690d2245ee59492d5010bf607dbf1b0b0cb
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/content-decay-signals.md
+  skills/content-writer/references/content-structure-templates.md:
+    sha256: f37dfd001669a2c35a44fa6be5b34b99c4eb4c38fe71a471a990cf88252f8bd6
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/content-structure-templates.md
+  skills/content-writer/references/instructions-detail.md:
+    sha256: 24605115a253effc44386066b559370b680433ddc908f68b3ba8e54da91700e1
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/instructions-detail.md
+  skills/content-writer/references/refresh-example.md:
+    sha256: f3ade02aca9a770f120508a4f20050ef7ac8d176ca73cce5edad7b1fb4995ca2
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/refresh-example.md
+  skills/content-writer/references/refresh-templates.md:
+    sha256: e5add0c5b21c08dd9c72853f34831c4bb40ad8ae2e7b4315dc27650fecf1d42f
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/refresh-templates.md
+  skills/content-writer/references/seo-writing-checklist.md:
+    sha256: 2444caf310b03243501af872e5e087854f79a935d289b185dd1e6fc9a06cb0eb
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/seo-writing-checklist.md
+  skills/content-writer/references/title-formulas.md:
+    sha256: e9d0d47c2c93dce7e8a04622c7cf7f26dc63116795b4a0feb167e7271fe43f29
+    copied_from: ~/creative-engineering-os/library/skills/content-writer/references/title-formulas.md
+  skills/contract-helper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/contract-helper/LICENSE.upstream
+  skills/contract-helper/SKILL.md:
+    sha256: 86d03689d0645ea30615cf80ab19cc5e67bf100ab6fbf5e990817b6e8dca47fe
+    copied_from: ~/creative-engineering-os/library/skills/contract-helper/SKILL.md
+  skills/contract-helper/references/templates.md:
+    sha256: b7765f587fb32d32a4c1e101234ccf428ded49814c6562e00b8987ff2852c375
+    copied_from: ~/creative-engineering-os/library/skills/contract-helper/references/templates.md
+  skills/conversion-signal-qa/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/conversion-signal-qa/LICENSE.upstream
+  skills/conversion-signal-qa/SKILL.md:
+    sha256: 6964befb1838a9ad1758e55d8f47ba2a45a9dada1353d5ce03e3c87771e471dc
+    copied_from: ~/creative-engineering-os/library/skills/conversion-signal-qa/SKILL.md
+  skills/conversion-signal-qa/references/preflight-checklist.md:
+    sha256: 71497c22d1c9228355c86a0cfffdb3fc32b640627a6a4e3f444bec8787acb51f
+    copied_from: ~/creative-engineering-os/library/skills/conversion-signal-qa/references/preflight-checklist.md
+  skills/conversion-signal-qa/references/utm-event-spec.md:
+    sha256: 21894b1ba66508f64e6c22486caaa6c2efc41fed7b86e6997ab7df94eebbb228
+    copied_from: ~/creative-engineering-os/library/skills/conversion-signal-qa/references/utm-event-spec.md
+  skills/conversion-value-mapper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/conversion-value-mapper/LICENSE.upstream
+  skills/conversion-value-mapper/SKILL.md:
+    sha256: 3fd0cae87c30ea346a9eb3a5cec40f813e01173920bf294e033ef2e40e7650f2
+    copied_from: ~/creative-engineering-os/library/skills/conversion-value-mapper/SKILL.md
+  skills/creator-content-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/creator-content-auditor/LICENSE.upstream
+  skills/creator-content-auditor/SKILL.md:
+    sha256: 8bf0aaf017b399e89c92301a315e75dba610f210328b7d1b0c3cf24f132596c6
+    copied_from: ~/creative-engineering-os/library/skills/creator-content-auditor/SKILL.md
+  skills/creator-content-auditor/references/auditor-runtime.md:
+    sha256: 5594491a1510bfcd38b4054fbeee0259ed540edecdb2ccd121bebc63a1ab3ace
+    copied_from: ~/creative-engineering-os/library/skills/creator-content-auditor/references/auditor-runtime.md
+  skills/creator-content-auditor/references/quality-review-aids.md:
+    sha256: d5b2165fc632df087ac7aa0b29ac20733df80fca3abb09e2489adca20da8e405
+    copied_from: ~/creative-engineering-os/library/skills/creator-content-auditor/references/quality-review-aids.md
+  skills/creator-content-auditor/references/review-templates.md:
+    sha256: 3fe99a07502ee6d4000d1845c6cb29ad0e01250c25d3783a3341b11c950e1d96
+    copied_from: ~/creative-engineering-os/library/skills/creator-content-auditor/references/review-templates.md
+  skills/creator-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/creator-registry/LICENSE.upstream
+  skills/creator-registry/SKILL.md:
+    sha256: 8491f776d314f33b060a6a7b7ec7a0de69ebbfe89ce0315c9d59aa28fe2c57b6
+    copied_from: ~/creative-engineering-os/library/skills/creator-registry/SKILL.md
+  skills/creator-registry/references/creator-record-template.md:
+    sha256: ac0fa0e2bf8ecdee8a06a24b33005d9f2312907071e92187617985e96641ac1f
+    copied_from: ~/creative-engineering-os/library/skills/creator-registry/references/creator-record-template.md
+  skills/crisis-response-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/crisis-response-planner/LICENSE.upstream
+  skills/crisis-response-planner/SKILL.md:
+    sha256: a4c6811d12a54678151b9dcdafe7e32a9c2f076f9aa7f641ec940f737e5816af
+    copied_from: ~/creative-engineering-os/library/skills/crisis-response-planner/SKILL.md
+  skills/dark-social-attributor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/dark-social-attributor/LICENSE.upstream
+  skills/dark-social-attributor/SKILL.md:
+    sha256: 4d9f03dafaa06f95ac85cd8b631940916456a755b1a433e36e86fe2fde7fc2fc
+    copied_from: ~/creative-engineering-os/library/skills/dark-social-attributor/SKILL.md
+  skills/deliverability-qa/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/deliverability-qa/LICENSE.upstream
+  skills/deliverability-qa/SKILL.md:
+    sha256: c59b5ab3076352ba8c5fa773085d1fdc1860d5dd20534401b9dd157cdf19bf18
+    copied_from: ~/creative-engineering-os/library/skills/deliverability-qa/SKILL.md
+  skills/deliverability-qa/references/deliverability-checklist.md:
+    sha256: 81b58b3212dd9d3009a7e6866b4a11e2c4ad68ae3e5dd5432f015af96191f407
+    copied_from: ~/creative-engineering-os/library/skills/deliverability-qa/references/deliverability-checklist.md
+  skills/domain-authority-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/domain-authority-auditor/LICENSE.upstream
+  skills/domain-authority-auditor/SKILL.md:
+    sha256: 44e0aeb7bc89f87d02035566855029320fa0952789d5d60699e8750763525330
+    copied_from: ~/creative-engineering-os/library/skills/domain-authority-auditor/SKILL.md
+  skills/domain-authority-auditor/references/auditor-runtime.md:
+    sha256: 1cbee5c8e8db6d263e78e14096d26e3de1499a790a38711f4316d2652e11c49b
+    copied_from: ~/creative-engineering-os/library/skills/domain-authority-auditor/references/auditor-runtime.md
+  skills/domain-authority-auditor/references/example-report.md:
+    sha256: f1e73ade9d53b9ec3ba5266eb291d95f9cc294f8b1e8d12b26ccefd07dbbd6dd
+    copied_from: ~/creative-engineering-os/library/skills/domain-authority-auditor/references/example-report.md
+  skills/dynamic-content-personalizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/dynamic-content-personalizer/LICENSE.upstream
+  skills/dynamic-content-personalizer/SKILL.md:
+    sha256: 343ade28133bd5d637ba5efdf3b4d028c548f0714469fe300282eb673b1818ae
+    copied_from: ~/creative-engineering-os/library/skills/dynamic-content-personalizer/SKILL.md
+  skills/early-access-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/early-access-designer/LICENSE.upstream
+  skills/early-access-designer/SKILL.md:
+    sha256: 4314c91f6bdd176e2a70d89628935b053f67938056d6b1245e11f8044c6d42c8
+    copied_from: ~/creative-engineering-os/library/skills/early-access-designer/SKILL.md
+  skills/email-creative-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/email-creative-builder/LICENSE.upstream
+  skills/email-creative-builder/SKILL.md:
+    sha256: b011527e8b0910d225239bd446e645aa63a870400815898b159fa04b990f41fd
+    copied_from: ~/creative-engineering-os/library/skills/email-creative-builder/SKILL.md
+  skills/email-creative-builder/references/email-creative-modes.md:
+    sha256: e17c1af09a2e460039028b35ee36e3a6ed17a7bb3017a2bfea761470ccfe148d
+    copied_from: ~/creative-engineering-os/library/skills/email-creative-builder/references/email-creative-modes.md
+  skills/email-creative-builder/references/subject-line-specs.md:
+    sha256: 540b5675c4eb649dba21a993f5489785dc09d68317b71036c8b7eca6c77862f2
+    copied_from: ~/creative-engineering-os/library/skills/email-creative-builder/references/subject-line-specs.md
+  skills/email-quality-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/email-quality-auditor/LICENSE.upstream
+  skills/email-quality-auditor/SKILL.md:
+    sha256: 2e0125eac5aebb0702fe72efbeac37ffbe17db0d548988c77208e421aabe0a15
+    copied_from: ~/creative-engineering-os/library/skills/email-quality-auditor/SKILL.md
+  skills/email-quality-auditor/references/auditor-runtime.md:
+    sha256: 371d5dd977a8288d3e7ed8173accf6a477633899a525e2bac00f37cc3c8c506f
+    copied_from: ~/creative-engineering-os/library/skills/email-quality-auditor/references/auditor-runtime.md
+  skills/email-render-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/email-render-builder/LICENSE.upstream
+  skills/email-render-builder/SKILL.md:
+    sha256: 9943c2dada33831431d071c71f0839c0463b3f03836e5b1c346c6280dc5a7592
+    copied_from: ~/creative-engineering-os/library/skills/email-render-builder/SKILL.md
+  skills/email-render-builder/references/client-render-matrix.md:
+    sha256: 17a80ca67bdb029bf2aeb78a059b2f4a06cb7af45d38dfbb3ac01c334b962d7a
+    copied_from: ~/creative-engineering-os/library/skills/email-render-builder/references/client-render-matrix.md
+  skills/email-render-builder/references/email-render-specs.md:
+    sha256: 8d14775e4d01d0d2fd556ccbcdac8a1391f47418501e91d5a0413e300fa2485c
+    copied_from: ~/creative-engineering-os/library/skills/email-render-builder/references/email-render-specs.md
+  skills/email-sequence-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/email-sequence-designer/LICENSE.upstream
+  skills/email-sequence-designer/SKILL.md:
+    sha256: c6461154d48b4af76ae0013513c0d282c7b3e462404aeb78974b7dd86dedab2c
+    copied_from: ~/creative-engineering-os/library/skills/email-sequence-designer/SKILL.md
+  skills/email-sequence-designer/references/send-control.md:
+    sha256: 907b65e5cd8475090f39a46bec8f70ae052389161dc9b749b6662f10378b2c5a
+    copied_from: ~/creative-engineering-os/library/skills/email-sequence-designer/references/send-control.md
+  skills/engagement-inbox-manager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/engagement-inbox-manager/LICENSE.upstream
+  skills/engagement-inbox-manager/SKILL.md:
+    sha256: b990a916e21a1f95b7e288f85ec7c06e64d0eb14dcf424e94ef58a3af9ce9bc2
+    copied_from: ~/creative-engineering-os/library/skills/engagement-inbox-manager/SKILL.md
+  skills/entity-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/LICENSE.upstream
+  skills/entity-registry/SKILL.md:
+    sha256: 1611aa16bd485ec8e58f72a5bf50c8f31c2c6ac1e5234ac3d1731c9aaef98c29
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/SKILL.md
+  skills/entity-registry/references/entity-signal-checklist.md:
+    sha256: 0f652a6a6a5659ec53448183c4200a63b8067a8c3e1293c071ce49462caf6958
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/references/entity-signal-checklist.md
+  skills/entity-registry/references/entity-type-reference.md:
+    sha256: c629e2416d2f050dec8940125bc2beb6774aae295e0e77bd6eba7c55568dccc1
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/references/entity-type-reference.md
+  skills/entity-registry/references/example-audit-report.md:
+    sha256: f9d24cb322b13ebf8a049a64c0b2e53b0b4bd76704c1f3df158ac30c6ffd8209
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/references/example-audit-report.md
+  skills/entity-registry/references/knowledge-graph-guide.md:
+    sha256: c19a6dd7e01fd13773c28253a66deafb4f1ff2c73c913216e38257fcdcd86364
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/references/knowledge-graph-guide.md
+  skills/entity-registry/references/knowledge-panel-wikidata-guide.md:
+    sha256: 962ffc1685ad13ad71fa863774e3a2c5768fc294e69e2a5a6a8a2ad90e1b2a69
+    copied_from: ~/creative-engineering-os/library/skills/entity-registry/references/knowledge-panel-wikidata-guide.md
+  skills/fatigue-frequency-manager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/fatigue-frequency-manager/LICENSE.upstream
+  skills/fatigue-frequency-manager/SKILL.md:
+    sha256: f9eae2fa55bb25f21eea0e82b9c46b0485c3e7a07446afcd88bc6627678787da
+    copied_from: ~/creative-engineering-os/library/skills/fatigue-frequency-manager/SKILL.md
+  skills/fit-scorer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/fit-scorer/LICENSE.upstream
+  skills/fit-scorer/SKILL.md:
+    sha256: 70449e24699e875e607f85f7578aba4acfc0e1fb5bbd85581a11a20bb50a0861
+    copied_from: ~/creative-engineering-os/library/skills/fit-scorer/SKILL.md
+  skills/fit-scorer/references/scoring-templates.md:
+    sha256: 116e96c9dbc6d4f386548175a9fc3b6d1128c6699fbdf64a14286d03be26e06f
+    copied_from: ~/creative-engineering-os/library/skills/fit-scorer/references/scoring-templates.md
+  skills/geo-content-optimizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/LICENSE.upstream
+  skills/geo-content-optimizer/SKILL.md:
+    sha256: 3d5e0a6d08593ee601999572e5adcc3e421c501764da3974bbe0e564255f1162
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/SKILL.md
+  skills/geo-content-optimizer/references/ai-citation-patterns.md:
+    sha256: 647875902b7fa6b42583a5bdf29b31af54d1a233d9594d8e6fa62cec70fb1b45
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/references/ai-citation-patterns.md
+  skills/geo-content-optimizer/references/ai-overview-recovery.md:
+    sha256: ad778226ad40da9099ee4cedd8cf776b012d3794f0839c335b57f0ab9072cf32
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/references/ai-overview-recovery.md
+  skills/geo-content-optimizer/references/geo-optimization-techniques.md:
+    sha256: a4e34d667cb801e9327512502a20ca7eebe5a4e25ae8b4d7d3e137f66fcbca93
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/references/geo-optimization-techniques.md
+  skills/geo-content-optimizer/references/instructions-detail.md:
+    sha256: 721c2e93ca425c177f12c19703e4e973160460f9f939fc4cf103e34a9f8fe32a
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/references/instructions-detail.md
+  skills/geo-content-optimizer/references/medium-github-surfaces.md:
+    sha256: 8b3b0e08ba06cb78e4f25feeec0762da02006a407935628ba158bf46fd6ffd18
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/references/medium-github-surfaces.md
+  skills/geo-content-optimizer/references/quotable-content-examples.md:
+    sha256: 0423bc158bd2b9480315f668c3c5afe40d9a677137122f7e2f31cad44b7aeb0c
+    copied_from: ~/creative-engineering-os/library/skills/geo-content-optimizer/references/quotable-content-examples.md
+  skills/inbox-placement-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/inbox-placement-monitor/LICENSE.upstream
+  skills/inbox-placement-monitor/SKILL.md:
+    sha256: b800ed91bee0575f7d7870e0dd8bede37fb86c87b093393bb46859a45113cab9
+    copied_from: ~/creative-engineering-os/library/skills/inbox-placement-monitor/SKILL.md
+  skills/inbox-placement-monitor/references/placement-telemetry-checklist.md:
+    sha256: a8b805c1c633862d360b544007480be3500053e0331cd9491a4665addb278d8d
+    copied_from: ~/creative-engineering-os/library/skills/inbox-placement-monitor/references/placement-telemetry-checklist.md
+  skills/influencer-discovery/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/influencer-discovery/LICENSE.upstream
+  skills/influencer-discovery/SKILL.md:
+    sha256: b8a85d15d1286e4271d1bddfb6fb18fb72c90f0cb40d320c88f51593372895bf
+    copied_from: ~/creative-engineering-os/library/skills/influencer-discovery/SKILL.md
+  skills/influencer-discovery/references/creator-dossier.md:
+    sha256: 9f0ca2ab8d651c975cc6efb54fa23b4be1a3f6c522c35a3e5babe5ff9d4f4456
+    copied_from: ~/creative-engineering-os/library/skills/influencer-discovery/references/creator-dossier.md
+  skills/influencer-discovery/references/platform-vetting.md:
+    sha256: 8ba3322345fa63cbaa8ad7f1c0256a97bb43019374c749dc8fc12042980cd57a
+    copied_from: ~/creative-engineering-os/library/skills/influencer-discovery/references/platform-vetting.md
+  skills/influencer-discovery/references/templates.md:
+    sha256: 265fbae8acd4f9b65fd9904a023c074018f19f884b37379845a2875f394c8160
+    copied_from: ~/creative-engineering-os/library/skills/influencer-discovery/references/templates.md
+  skills/keyword-research/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/LICENSE.upstream
+  skills/keyword-research/SKILL.md:
+    sha256: 2b47555b8ce9f6a05499bc065e1cf41b9c558f039dc237efe07cee53a8c976b9
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/SKILL.md
+  skills/keyword-research/references/example-report.md:
+    sha256: 40214f13ab403309a65c07b510f0335c808f9ece427587d327c106b13c65e7de
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/references/example-report.md
+  skills/keyword-research/references/instructions-detail.md:
+    sha256: fcbf70ef164650fec1d914408f0b6f62e9a66ffd565891a8857b88a0fcd7826f
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/references/instructions-detail.md
+  skills/keyword-research/references/keyword-intent-taxonomy.md:
+    sha256: 762f9919aba2e2837c4b860e931c14389486f19bedd539f4165a600e462549df
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/references/keyword-intent-taxonomy.md
+  skills/keyword-research/references/keyword-prioritization-framework.md:
+    sha256: e1cc7c3b8c1f8c32a0c8adc0a2870e20c622c8a8997f1b61fec8d66ac8a28d0e
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/references/keyword-prioritization-framework.md
+  skills/keyword-research/references/topic-cluster-templates.md:
+    sha256: 0da2b2baa789f0fd02e29299b16af3fa87a6160c12086944654883e3c1e836aa
+    copied_from: ~/creative-engineering-os/library/skills/keyword-research/references/topic-cluster-templates.md
+  skills/landing-experience-checker/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/landing-experience-checker/LICENSE.upstream
+  skills/landing-experience-checker/SKILL.md:
+    sha256: a8c7605868c58763622bdee078d74819a7c45bf77ee3075163eb6a8d1ed7d6ab
+    copied_from: ~/creative-engineering-os/library/skills/landing-experience-checker/SKILL.md
+  skills/landing-optimizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/landing-optimizer/LICENSE.upstream
+  skills/landing-optimizer/SKILL.md:
+    sha256: c3a01696d7946aa4d3c2f1453aa2842414122079b0f6a7ec3767a862f67b8d63
+    copied_from: ~/creative-engineering-os/library/skills/landing-optimizer/SKILL.md
+  skills/landing-optimizer/references/templates.md:
+    sha256: bbb1b78d4fde581200cb4d1f397e2ee5e015a4aeabd644f2c44fe0e67bc2c3c5
+    copied_from: ~/creative-engineering-os/library/skills/landing-optimizer/references/templates.md
+  skills/launch-asset-packager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-asset-packager/LICENSE.upstream
+  skills/launch-asset-packager/SKILL.md:
+    sha256: ed260b280e0dc913365afbd22502faa662bd717e866a849c1d2f5ec2169372d0
+    copied_from: ~/creative-engineering-os/library/skills/launch-asset-packager/SKILL.md
+  skills/launch-asset-packager/references/action-control.md:
+    sha256: bfd006baaad6458795c334d1ba61d66123ab8de6ee81c341d3b9e7efe0376bdd
+    copied_from: ~/creative-engineering-os/library/skills/launch-asset-packager/references/action-control.md
+  skills/launch-asset-packager/references/asset-specs.md:
+    sha256: 990f7964452eb4a1eaa91cfe91f706d16a86b61847ce8582817974c104bb6d5d
+    copied_from: ~/creative-engineering-os/library/skills/launch-asset-packager/references/asset-specs.md
+  skills/launch-day-conductor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-day-conductor/LICENSE.upstream
+  skills/launch-day-conductor/SKILL.md:
+    sha256: 9442c52826788bb39039a6f0c4af199e33c9b9de9744482ce7006c8155f9edcc
+    copied_from: ~/creative-engineering-os/library/skills/launch-day-conductor/SKILL.md
+  skills/launch-feedback-synthesizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-feedback-synthesizer/LICENSE.upstream
+  skills/launch-feedback-synthesizer/SKILL.md:
+    sha256: 98154f1f859517bd7c339b53a77baf7228a78047a8d91e43ffc488114338b6d1
+    copied_from: ~/creative-engineering-os/library/skills/launch-feedback-synthesizer/SKILL.md
+  skills/launch-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-monitor/LICENSE.upstream
+  skills/launch-monitor/SKILL.md:
+    sha256: 4a37b962d726b04eaa5439bc264cb868371264e10166f44ad624c33b9eefaf91
+    copied_from: ~/creative-engineering-os/library/skills/launch-monitor/SKILL.md
+  skills/launch-readiness-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-readiness-auditor/LICENSE.upstream
+  skills/launch-readiness-auditor/SKILL.md:
+    sha256: cf4c342cdbc822fcf39d1e5f69f5f0d4fea6310b0396103cc139aa5ea29498dd
+    copied_from: ~/creative-engineering-os/library/skills/launch-readiness-auditor/SKILL.md
+  skills/launch-readiness-auditor/references/auditor-runtime.md:
+    sha256: 023aabbda8618bd820ac535db2b8ca02eb42ea6b68cedd3f2c8b2ebc563e9491
+    copied_from: ~/creative-engineering-os/library/skills/launch-readiness-auditor/references/auditor-runtime.md
+  skills/launch-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-registry/LICENSE.upstream
+  skills/launch-registry/SKILL.md:
+    sha256: d063c42ab1ac1f33470fb07b5189c98edb79f1fde3dc07275f040cbd7d2edcca
+    copied_from: ~/creative-engineering-os/library/skills/launch-registry/SKILL.md
+  skills/launch-retro-analyzer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-retro-analyzer/LICENSE.upstream
+  skills/launch-retro-analyzer/SKILL.md:
+    sha256: a5e3b411893af555a2454c29caf2b12fef9a6abd5f8de56ead0e93555f4070ba
+    copied_from: ~/creative-engineering-os/library/skills/launch-retro-analyzer/SKILL.md
+  skills/launch-tier-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-tier-planner/LICENSE.upstream
+  skills/launch-tier-planner/SKILL.md:
+    sha256: cbe091987a319bcc2155b0c27939c56c322d71081a1b127c7848054e11d6a1d2
+    copied_from: ~/creative-engineering-os/library/skills/launch-tier-planner/SKILL.md
+  skills/launch-window-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/launch-window-planner/LICENSE.upstream
+  skills/launch-window-planner/SKILL.md:
+    sha256: c72365a213db35715addc1581e2c8aad5a3c0661aaeede11a3f976abd8d0c181
+    copied_from: ~/creative-engineering-os/library/skills/launch-window-planner/SKILL.md
+  skills/list-growth-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/list-growth-designer/LICENSE.upstream
+  skills/list-growth-designer/SKILL.md:
+    sha256: 00344324db7b56d0d374bc143cad9f4ac7eade870f42cd47231d4c8d806e8bfd
+    copied_from: ~/creative-engineering-os/library/skills/list-growth-designer/SKILL.md
+  skills/list-hygiene-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/list-hygiene-monitor/LICENSE.upstream
+  skills/list-hygiene-monitor/SKILL.md:
+    sha256: a24834b0ad57e856a600eb158bd83476ea4e763048ea3e362b4efbc16a967fd5
+    copied_from: ~/creative-engineering-os/library/skills/list-hygiene-monitor/SKILL.md
+  skills/list-hygiene-monitor/references/hygiene-checklist.md:
+    sha256: 7b8ed5431424e235f44eea968a3442dbd07b2c866ac69b3d6679639184012457
+    copied_from: ~/creative-engineering-os/library/skills/list-hygiene-monitor/references/hygiene-checklist.md
+  skills/list-segment-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/list-segment-builder/LICENSE.upstream
+  skills/list-segment-builder/SKILL.md:
+    sha256: 57339f08db92556cdc34ec551bade5587a658f9c53c1de1c8c761570d6e1621a
+    copied_from: ~/creative-engineering-os/library/skills/list-segment-builder/SKILL.md
+  skills/memory-management/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/LICENSE.upstream
+  skills/memory-management/SKILL.md:
+    sha256: 1a3fdc9a02d7a1ac9b60020ba02110bfb024f064b63a77167f31b8a27754429d
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/SKILL.md
+  skills/memory-management/references/consolidation-pass.md:
+    sha256: ba007b0ffb1a85ece783f3caf2d99192b48b5f5c2d8df77faf8cca4b37abffdf
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/consolidation-pass.md
+  skills/memory-management/references/examples.md:
+    sha256: f9d2addf70792f93aca92e731f4b64ea006646e2e0b77c88bf24f961fa5026c1
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/examples.md
+  skills/memory-management/references/gdpr-purge-log-template.md:
+    sha256: de7ca93161f6b40b090898992b16898fef130415840070d719daa00173111c3c
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/gdpr-purge-log-template.md
+  skills/memory-management/references/glossary-template.md:
+    sha256: 1a976f503d6cacbb4d3ca881de30318295902d89c50d21ae85d22bf90bcee9a3
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/glossary-template.md
+  skills/memory-management/references/hot-cache-template.md:
+    sha256: 7cc2b67a977b73a7f4bab569c588ee9fe8068f66b3f3204be8e076b34d5d7379
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/hot-cache-template.md
+  skills/memory-management/references/promotion-demotion-rules.md:
+    sha256: 29caab3e2ef9046268c5399f3b40a308aeaf0b643ddf156c7fe3dbad7e2101a3
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/promotion-demotion-rules.md
+  skills/memory-management/references/update-triggers-integration.md:
+    sha256: d89fe474ed59fee59f9b4f200472b8b47a03bffb4788d01d0a17cea9bd4d8b3d
+    copied_from: ~/creative-engineering-os/library/skills/memory-management/references/update-triggers-integration.md
+  skills/message-house-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/message-house-builder/LICENSE.upstream
+  skills/message-house-builder/SKILL.md:
+    sha256: 2516b26239def278b5f4e31e5d4b522229cca65e6c0a045bcde23e9a1fa7c57b
+    copied_from: ~/creative-engineering-os/library/skills/message-house-builder/SKILL.md
+  skills/message-system-architect/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/message-system-architect/LICENSE.upstream
+  skills/message-system-architect/SKILL.md:
+    sha256: 7510544ffb0b18b7ba49e66733338504536315a8bbb62956787b30a86329d3c8
+    copied_from: ~/creative-engineering-os/library/skills/message-system-architect/SKILL.md
+  skills/message-test-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/message-test-designer/LICENSE.upstream
+  skills/message-test-designer/SKILL.md:
+    sha256: ec7ffb03a792ecadfa1aea7acc8bff0ab8e67b9a8d1ce77b1cb13f79e1249d74
+    copied_from: ~/creative-engineering-os/library/skills/message-test-designer/SKILL.md
+  skills/message-test-designer/references/stimulus-binding.md:
+    sha256: 4acf5b2b7e15cfeaff6a9fda2de08b14a92c11a80499af5a2216a54baefd878f
+    copied_from: ~/creative-engineering-os/library/skills/message-test-designer/references/stimulus-binding.md
+  skills/momentum-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/momentum-planner/LICENSE.upstream
+  skills/momentum-planner/SKILL.md:
+    sha256: f9ab6d3a6b2dff808c76bbb512d4e16bbbe68cab21e6997b6ac36e591693934f
+    copied_from: ~/creative-engineering-os/library/skills/momentum-planner/SKILL.md
+  skills/narrative-baseline-mapper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-baseline-mapper/LICENSE.upstream
+  skills/narrative-baseline-mapper/SKILL.md:
+    sha256: d5a78661584fe6f6c4042e27f6adac6dfb3d9ef0ab67142177e5c87760590d23
+    copied_from: ~/creative-engineering-os/library/skills/narrative-baseline-mapper/SKILL.md
+  skills/narrative-cascade-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-cascade-planner/LICENSE.upstream
+  skills/narrative-cascade-planner/SKILL.md:
+    sha256: f396253a8cd200d6b30eab6d0b54859d9d49471eba26add134856d78d9d0ea5c
+    copied_from: ~/creative-engineering-os/library/skills/narrative-cascade-planner/SKILL.md
+  skills/narrative-drift-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-drift-monitor/LICENSE.upstream
+  skills/narrative-drift-monitor/SKILL.md:
+    sha256: 3b5dc0db62b19390504295fdb2dcf899a29a25df102ee50f706431bc343533d2
+    copied_from: ~/creative-engineering-os/library/skills/narrative-drift-monitor/SKILL.md
+  skills/narrative-enablement-kit/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-enablement-kit/LICENSE.upstream
+  skills/narrative-enablement-kit/SKILL.md:
+    sha256: 2eb8b78ee7a4139fbd41105e43f602fb1ab87633148a2c468842abb86356f7b8
+    copied_from: ~/creative-engineering-os/library/skills/narrative-enablement-kit/SKILL.md
+  skills/narrative-quality-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-quality-auditor/LICENSE.upstream
+  skills/narrative-quality-auditor/SKILL.md:
+    sha256: 820fd8a9b962c1fe8ad09268f71ff9ed6e660047e00d5c9debf3a56c2ce303d3
+    copied_from: ~/creative-engineering-os/library/skills/narrative-quality-auditor/SKILL.md
+  skills/narrative-quality-auditor/references/auditor-runtime.md:
+    sha256: 266dcdeb826e8ca0ac2f4d681a2e5ec78a9400401c5835f8d145b5c31bd7426c
+    copied_from: ~/creative-engineering-os/library/skills/narrative-quality-auditor/references/auditor-runtime.md
+  skills/narrative-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-registry/LICENSE.upstream
+  skills/narrative-registry/SKILL.md:
+    sha256: 1ca4dbbc48c882df414cfa32759b06be87e3260bab2dff2e6ca3bbc1ab68b72b
+    copied_from: ~/creative-engineering-os/library/skills/narrative-registry/SKILL.md
+  skills/narrative-resonance-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/narrative-resonance-monitor/LICENSE.upstream
+  skills/narrative-resonance-monitor/SKILL.md:
+    sha256: e826eafad5a7ecf13c595134fda5ac2a8332705fd09cb33f0463edf13a2d0629
+    copied_from: ~/creative-engineering-os/library/skills/narrative-resonance-monitor/SKILL.md
+  skills/newsletter-monetization-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/newsletter-monetization-planner/LICENSE.upstream
+  skills/newsletter-monetization-planner/SKILL.md:
+    sha256: e38e5914781b08640ec40058b6848af97db1ea4e69ca5f518f74c0bde1121fc5
+    copied_from: ~/creative-engineering-os/library/skills/newsletter-monetization-planner/SKILL.md
+  skills/offer-claims-registry/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/offer-claims-registry/LICENSE.upstream
+  skills/offer-claims-registry/SKILL.md:
+    sha256: 601507d0ac192fe5293f2b3a6ea9ffccecf61e3607db1631df56671bc1d1ef16
+    copied_from: ~/creative-engineering-os/library/skills/offer-claims-registry/SKILL.md
+  skills/offer-claims-registry/references/claims-ledger-schema.md:
+    sha256: e3255615d15a3b6138075b30bc55afd5fa0e945fec397a50a4cf6246a18665a2
+    copied_from: ~/creative-engineering-os/library/skills/offer-claims-registry/references/claims-ledger-schema.md
+  skills/offsite-signal-analyzer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/offsite-signal-analyzer/LICENSE.upstream
+  skills/offsite-signal-analyzer/SKILL.md:
+    sha256: 31683928d60c0cb4c453001f35216da749b239317cc508a79a48f1586f657e98
+    copied_from: ~/creative-engineering-os/library/skills/offsite-signal-analyzer/SKILL.md
+  skills/offsite-signal-analyzer/references/backlinks-analysis-templates.md:
+    sha256: 1f483d87c8090ad3371111f6423641195395f11a05fee3505515c854f500094e
+    copied_from: ~/creative-engineering-os/library/skills/offsite-signal-analyzer/references/backlinks-analysis-templates.md
+  skills/offsite-signal-analyzer/references/link-quality-rubric.md:
+    sha256: 4d8f7c0eb93211f2dcdca00af77f0ff28c101618c37e0f787372d5257c21c1c2
+    copied_from: ~/creative-engineering-os/library/skills/offsite-signal-analyzer/references/link-quality-rubric.md
+  skills/offsite-signal-analyzer/references/outreach-templates.md:
+    sha256: ae46464d7557c281009429641f937c8d5ebca3adc4b881097eaaecbd4fc13eb3
+    copied_from: ~/creative-engineering-os/library/skills/offsite-signal-analyzer/references/outreach-templates.md
+  skills/on-page-seo-checker/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/on-page-seo-checker/LICENSE.upstream
+  skills/on-page-seo-checker/SKILL.md:
+    sha256: 0ec9eb013e2eb8d208d1e4c36fae6fe8e1803bc70cd31e279ed880ddb8562b08
+    copied_from: ~/creative-engineering-os/library/skills/on-page-seo-checker/SKILL.md
+  skills/on-page-seo-checker/references/audit-example.md:
+    sha256: a2c0ebff60a5315572a19a57d9c4a2df0f18bfc0c092d48697bc266c62546246
+    copied_from: ~/creative-engineering-os/library/skills/on-page-seo-checker/references/audit-example.md
+  skills/on-page-seo-checker/references/audit-templates.md:
+    sha256: 940c4d42657a533a9f1c1aac25addcd3f6d8192cd62df974f787bdfb48ca0e64
+    copied_from: ~/creative-engineering-os/library/skills/on-page-seo-checker/references/audit-templates.md
+  skills/on-page-seo-checker/references/bulk-audit-playbook.md:
+    sha256: 1b8a4aebf7d5e0ea4b73113e6bb4482b00632a4767a78a9efce2e2e50be60033
+    copied_from: ~/creative-engineering-os/library/skills/on-page-seo-checker/references/bulk-audit-playbook.md
+  skills/on-page-seo-checker/references/scoring-rubric.md:
+    sha256: 031fea0ec2306d77d40398026bfc74e8d12ea0fc64434a663c562998fe2dcafd
+    copied_from: ~/creative-engineering-os/library/skills/on-page-seo-checker/references/scoring-rubric.md
+  skills/outreach-manager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/outreach-manager/LICENSE.upstream
+  skills/outreach-manager/SKILL.md:
+    sha256: 30e4d0e00e759488235c54b9918513f622fc76d1f199bfeaea75860cc49ccaf0
+    copied_from: ~/creative-engineering-os/library/skills/outreach-manager/SKILL.md
+  skills/outreach-manager/references/cold-copy-rules.md:
+    sha256: 8a9049ad581391d99d3565d704d7e3e6ac0388885a3656384efd3808c505ed00
+    copied_from: ~/creative-engineering-os/library/skills/outreach-manager/references/cold-copy-rules.md
+  skills/outreach-manager/references/templates.md:
+    sha256: 13bc949ac936e5dffb89a2db05b5b00f70e25200e2a37f13abcc0abb30350e0b
+    copied_from: ~/creative-engineering-os/library/skills/outreach-manager/references/templates.md
+  skills/page-play-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/page-play-builder/LICENSE.upstream
+  skills/page-play-builder/SKILL.md:
+    sha256: 488194b1b359dc51fb196f362135145fbdc0861542d0d72f81005422da179c2e
+    copied_from: ~/creative-engineering-os/library/skills/page-play-builder/SKILL.md
+  skills/page-play-builder/references/comparison.md:
+    sha256: e0753816c1844b0a71892bd1dc286527f0042721a9524446e1485af067e76643
+    copied_from: ~/creative-engineering-os/library/skills/page-play-builder/references/comparison.md
+  skills/page-play-builder/references/local.md:
+    sha256: 441a24e8e999358aa5e6a4df60b290913046c6334bceb1b3cbfba4b4c9340f8c
+    copied_from: ~/creative-engineering-os/library/skills/page-play-builder/references/local.md
+  skills/page-play-builder/references/parasite.md:
+    sha256: 3b77026b81b17731f0cf5c860e218aea6ffe2dadd3ac2cae8f1fbb42fcfb0f10
+    copied_from: ~/creative-engineering-os/library/skills/page-play-builder/references/parasite.md
+  skills/page-play-builder/references/programmatic.md:
+    sha256: b9ffaf307662d9759d89fbea9923b7a97883078f5ece3c1c3477f956099aab6d
+    copied_from: ~/creative-engineering-os/library/skills/page-play-builder/references/programmatic.md
+  skills/paid-measurement-loop/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/paid-measurement-loop/LICENSE.upstream
+  skills/paid-measurement-loop/SKILL.md:
+    sha256: 233590da42c852f8d4a23a14a5fe9093da07df1845c11c35da04d1e97b0f9240
+    copied_from: ~/creative-engineering-os/library/skills/paid-measurement-loop/SKILL.md
+  skills/participation-warmup-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/participation-warmup-planner/LICENSE.upstream
+  skills/participation-warmup-planner/SKILL.md:
+    sha256: 81aaabd27660f734dae8bcebbbc27e0b139ebe29bc85770a9714a9d0bbbb417e
+    copied_from: ~/creative-engineering-os/library/skills/participation-warmup-planner/SKILL.md
+  skills/performance-analyzer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/performance-analyzer/LICENSE.upstream
+  skills/performance-analyzer/SKILL.md:
+    sha256: 9acb990fe127955d95034fa3442595988885e4620e48dea9a72608f0c598e566
+    copied_from: ~/creative-engineering-os/library/skills/performance-analyzer/SKILL.md
+  skills/performance-analyzer/references/analysis-templates.md:
+    sha256: ab479ecabe7dc920c7d254593aa404922a92b53a0627d902974509fe6f8e3034
+    copied_from: ~/creative-engineering-os/library/skills/performance-analyzer/references/analysis-templates.md
+  skills/performance-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/LICENSE.upstream
+  skills/performance-monitor/SKILL.md:
+    sha256: 64041054d895a965c2a5377486cf6ecdc999d78492eea9f9afbce5829614aa09
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/SKILL.md
+  skills/performance-monitor/references/alert-configuration-templates.md:
+    sha256: 850131d944128ab040204f5fb5554ac8b8f16f16aa345569c7b48a903ee62bdf
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/references/alert-configuration-templates.md
+  skills/performance-monitor/references/alert-threshold-guide.md:
+    sha256: 2f5f240e3f7537111df434fc3142377e6fdc67c2cadfa6e065239a8d99babc44
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/references/alert-threshold-guide.md
+  skills/performance-monitor/references/evidence-and-cycle-control.md:
+    sha256: 05461e0f16aa0a52f7897f8fc51d3a7907f85f8ae73a21500972a67419fe22f3
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/references/evidence-and-cycle-control.md
+  skills/performance-monitor/references/kpi-definitions.md:
+    sha256: 74d71ac579c3112f211b86d8b831f568eddd6b2d11ffbd81db6442e682fdf1b6
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/references/kpi-definitions.md
+  skills/performance-monitor/references/report-output-templates.md:
+    sha256: fc1e28a722c99c43f9142541551789234170bf8ccaf1499d2fdea1eb5e731151
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/references/report-output-templates.md
+  skills/performance-monitor/references/report-templates.md:
+    sha256: cb515fc2ed257b62bb5d348f126638abdea754c4b8050e0ce42297c5ae78efad
+    copied_from: ~/creative-engineering-os/library/skills/performance-monitor/references/report-templates.md
+  skills/pitch-narrative-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/pitch-narrative-builder/LICENSE.upstream
+  skills/pitch-narrative-builder/SKILL.md:
+    sha256: 503b77632022c56343958e38fa983595146b17dc18df3a2e302ba31ebad8ee13
+    copied_from: ~/creative-engineering-os/library/skills/pitch-narrative-builder/SKILL.md
+  skills/placement-exclusion-manager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/placement-exclusion-manager/LICENSE.upstream
+  skills/placement-exclusion-manager/SKILL.md:
+    sha256: a008d7eeba7774dfde99f37df0d1991f938a1fa32b67e0b51354ac2dc05ae2ea
+    copied_from: ~/creative-engineering-os/library/skills/placement-exclusion-manager/SKILL.md
+  skills/platform-norm-profiler/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/platform-norm-profiler/LICENSE.upstream
+  skills/platform-norm-profiler/SKILL.md:
+    sha256: baa559ecfaa7f26071eef2422bcdcfd3c3a3edc3cb8a7b6b8a2ea60bbcee84f8
+    copied_from: ~/creative-engineering-os/library/skills/platform-norm-profiler/SKILL.md
+  skills/positioning-mapper/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/positioning-mapper/LICENSE.upstream
+  skills/positioning-mapper/SKILL.md:
+    sha256: 8cd0d326bb88631b39bcedfb9b14527626650764db0c33d184f5febbb1feb155
+    copied_from: ~/creative-engineering-os/library/skills/positioning-mapper/SKILL.md
+  skills/positioning-truth-tracer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/positioning-truth-tracer/LICENSE.upstream
+  skills/positioning-truth-tracer/SKILL.md:
+    sha256: 8b9d67161c6bb008ba8c5a43d6cf7b651ea780824614ec716cfb2b2177373403
+    copied_from: ~/creative-engineering-os/library/skills/positioning-truth-tracer/SKILL.md
+  skills/preference-frequency-manager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/preference-frequency-manager/LICENSE.upstream
+  skills/preference-frequency-manager/SKILL.md:
+    sha256: d34da47c22e2488ece9483a881d78bf00fce70191fab5cbc1f6f316dba1dacb4
+    copied_from: ~/creative-engineering-os/library/skills/preference-frequency-manager/SKILL.md
+  skills/press-media-relations/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/press-media-relations/LICENSE.upstream
+  skills/press-media-relations/SKILL.md:
+    sha256: 11bc9a49ef39045c8ba99c266ff75ac0e59f986fbf927d79a7eaea604d002294
+    copied_from: ~/creative-engineering-os/library/skills/press-media-relations/SKILL.md
+  skills/pricing-packaging-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/pricing-packaging-planner/LICENSE.upstream
+  skills/pricing-packaging-planner/SKILL.md:
+    sha256: 0eca15bb86148a70d62f429f599f02620692ec206679f398c3c467353f7132fe
+    copied_from: ~/creative-engineering-os/library/skills/pricing-packaging-planner/SKILL.md
+  skills/product-feed-optimizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/product-feed-optimizer/LICENSE.upstream
+  skills/product-feed-optimizer/SKILL.md:
+    sha256: 8b86431228f516f659b1918b85587ef147735a66bbd8e11e80a8f2336b58b78d
+    copied_from: ~/creative-engineering-os/library/skills/product-feed-optimizer/SKILL.md
+  skills/product-feed-optimizer/references/feed-title-patterns.md:
+    sha256: 6cf6691d2cbc00f1cd7488dcd4066cac5bf83d989d523709754e32ab837c166e
+    copied_from: ~/creative-engineering-os/library/skills/product-feed-optimizer/references/feed-title-patterns.md
+  skills/proof-point-packager/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/proof-point-packager/LICENSE.upstream
+  skills/proof-point-packager/SKILL.md:
+    sha256: f5fade009615323723b64b14a4556dc6ba449b7f2ad93de520c8a34f0404698e
+    copied_from: ~/creative-engineering-os/library/skills/proof-point-packager/SKILL.md
+  skills/rank-tracker/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/rank-tracker/LICENSE.upstream
+  skills/rank-tracker/SKILL.md:
+    sha256: 1dc8d9994e9dcccf983ce2d17b65940b071e8885b67d699e1e018cda9d716392
+    copied_from: ~/creative-engineering-os/library/skills/rank-tracker/SKILL.md
+  skills/rank-tracker/references/ranking-analysis-templates.md:
+    sha256: 313d9fc6fc365f6dce0a70e3c7a2137c5b0a50310e28d10d1cebcdedc423af08
+    copied_from: ~/creative-engineering-os/library/skills/rank-tracker/references/ranking-analysis-templates.md
+  skills/rank-tracker/references/tracking-setup-guide.md:
+    sha256: ffd1d813b8ad970e07a5bee2e580c61a5cdb7efad2e6e2943cd2d246026a4b49
+    copied_from: ~/creative-engineering-os/library/skills/rank-tracker/references/tracking-setup-guide.md
+  skills/reactivation-specialist/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/reactivation-specialist/LICENSE.upstream
+  skills/reactivation-specialist/SKILL.md:
+    sha256: 3baf8d99fcc47aba384ce0713b29a419c203bd273ef5505e48f28c0fe1291512
+    copied_from: ~/creative-engineering-os/library/skills/reactivation-specialist/SKILL.md
+  skills/report-generator/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/report-generator/LICENSE.upstream
+  skills/report-generator/SKILL.md:
+    sha256: 1c33850438c2f3d5b9ea9b2517dcfffb3a63252cf66f9038f733250d9f41e3eb
+    copied_from: ~/creative-engineering-os/library/skills/report-generator/SKILL.md
+  skills/report-generator/references/report-templates.md:
+    sha256: 50713a67452bb6254ce9b0693650502440eda927e36058bc2fa3ab24aeab4836
+    copied_from: ~/creative-engineering-os/library/skills/report-generator/references/report-templates.md
+  skills/roi-calculator/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/roi-calculator/LICENSE.upstream
+  skills/roi-calculator/SKILL.md:
+    sha256: 06cc98245b04e2cdb1a400d5acc171f10aa20f082da63969030127c905e6082a
+    copied_from: ~/creative-engineering-os/library/skills/roi-calculator/SKILL.md
+  skills/roi-calculator/references/roi-templates.md:
+    sha256: a38fca2e00611ccfcc157b4c06d9d605f7ce04b7a65a6fa8a8729d031fa3db04
+    copied_from: ~/creative-engineering-os/library/skills/roi-calculator/references/roi-templates.md
+  skills/sales-enablement-kit/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/sales-enablement-kit/LICENSE.upstream
+  skills/sales-enablement-kit/SKILL.md:
+    sha256: dffeef19736d15c498e391cc68baf0711d45ae60ea98ef87c9f384ecf06cbce2
+    copied_from: ~/creative-engineering-os/library/skills/sales-enablement-kit/SKILL.md
+  skills/search-term-miner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/search-term-miner/LICENSE.upstream
+  skills/search-term-miner/SKILL.md:
+    sha256: 6c0d6279ca9c575a2d84f331bd75cca6927e5b8969e54d173ba3dc30c2028429
+    copied_from: ~/creative-engineering-os/library/skills/search-term-miner/SKILL.md
+  skills/send-experiment-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/send-experiment-designer/LICENSE.upstream
+  skills/send-experiment-designer/SKILL.md:
+    sha256: 7d0f3e2825a408a20ac5ac4a6514ab093c34bebb9450ebf6e481e21f84d918ce
+    copied_from: ~/creative-engineering-os/library/skills/send-experiment-designer/SKILL.md
+  skills/serp-analysis/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/serp-analysis/LICENSE.upstream
+  skills/serp-analysis/SKILL.md:
+    sha256: 2b23cae5a675bdfe9872b6d21b68b6650b8edc9c8d3561c0423c2b6f097470c4
+    copied_from: ~/creative-engineering-os/library/skills/serp-analysis/SKILL.md
+  skills/serp-analysis/references/analysis-templates.md:
+    sha256: fc781d52549575b2e04dc7facd4051bf00edccc57413d7597069ffa1a41bcd9c
+    copied_from: ~/creative-engineering-os/library/skills/serp-analysis/references/analysis-templates.md
+  skills/serp-analysis/references/example-report.md:
+    sha256: e3d14464fc33657655da7d01c6a4d3e2048b3b0e68c877785cea00cefc5f6cd5
+    copied_from: ~/creative-engineering-os/library/skills/serp-analysis/references/example-report.md
+  skills/serp-analysis/references/serp-feature-taxonomy.md:
+    sha256: 13ea2d135bd0067df01e4ccc33190fece5d1ebd42e745c2421ed867d8d85cf15
+    copied_from: ~/creative-engineering-os/library/skills/serp-analysis/references/serp-feature-taxonomy.md
+  skills/serp-markup-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/LICENSE.upstream
+  skills/serp-markup-builder/SKILL.md:
+    sha256: 0e71984c513b6a530af10d49cbd23babcd00ef6c05d097bba38ee8e7391dcbc9
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/SKILL.md
+  skills/serp-markup-builder/references/ctr-and-social-reference.md:
+    sha256: 065bb79bad6cdeed00c9c9b1dcfd66e3de9276356f457bc0c5662eeabf264f84
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/ctr-and-social-reference.md
+  skills/serp-markup-builder/references/meta-instructions-detail.md:
+    sha256: 4f05297e43dd032124cc829479632bdad7fad8efb39caf8f98c178f45f86b337
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/meta-instructions-detail.md
+  skills/serp-markup-builder/references/meta-tag-code-templates.md:
+    sha256: 98605bd84d85e75e9c6519c8d8d319417f9f2e5ae09e6d55ec4ae057dffea1a1
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/meta-tag-code-templates.md
+  skills/serp-markup-builder/references/meta-tag-formulas.md:
+    sha256: 00e9e11c81cf63d6798a17854a8a36a220683c4bf2b74ff038896569c759ee79
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/meta-tag-formulas.md
+  skills/serp-markup-builder/references/schema-decision-tree.md:
+    sha256: 14d5d4ddfb4e21a79830c60a45bf694a57168667cad06ff2b2800c6f586c21c3
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/schema-decision-tree.md
+  skills/serp-markup-builder/references/schema-instructions-detail.md:
+    sha256: 472c544d0b33ae8ec1e9be7766eb0e31008eb76e3b0e2754029fa0143a9525f2
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/schema-instructions-detail.md
+  skills/serp-markup-builder/references/schema-templates.md:
+    sha256: fb4e52696c26d3cbdfff92c34ec0fe1336e383374646a485fe07b2a75aabdcdd
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/schema-templates.md
+  skills/serp-markup-builder/references/validation-guide.md:
+    sha256: 6492ded7abc083c996a5af19b40e231cbb247099007595003a7aa960d861dd63
+    copied_from: ~/creative-engineering-os/library/skills/serp-markup-builder/references/validation-guide.md
+  skills/share-of-voice-tracker/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/share-of-voice-tracker/LICENSE.upstream
+  skills/share-of-voice-tracker/SKILL.md:
+    sha256: b999baa3c761c6f1f82c0ade2e407f41721af0de9fff541611fea7ed94d7c729
+    copied_from: ~/creative-engineering-os/library/skills/share-of-voice-tracker/SKILL.md
+  skills/short-video-scripter/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/short-video-scripter/LICENSE.upstream
+  skills/short-video-scripter/SKILL.md:
+    sha256: 00e1b9aa913c1e4de55ec56bcee2e5fb51ce9e93fce2152a8f18ecbf4a4c828e
+    copied_from: ~/creative-engineering-os/library/skills/short-video-scripter/SKILL.md
+  skills/site-structure-optimizer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/LICENSE.upstream
+  skills/site-structure-optimizer/SKILL.md:
+    sha256: 391ad255c156c311094548b44a969ed1cce81d29cf4077f55aa2831495b99c50
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/SKILL.md
+  skills/site-structure-optimizer/references/link-architecture-patterns.md:
+    sha256: 3f370936f77dd13389e2e85b6b1311c09da2515f9952285eb77e168a98e58bbf
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/references/link-architecture-patterns.md
+  skills/site-structure-optimizer/references/linking-example.md:
+    sha256: 829fca26a6aa323be0cdf203eb26b43da51d495364c853d4a2d4cf2fa4bf7cda
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/references/linking-example.md
+  skills/site-structure-optimizer/references/linking-templates.md:
+    sha256: 05f77d9fbc76137e062df1c502eb8a386b065bc01d6aae9bf79c7c83e2316c15
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/references/linking-templates.md
+  skills/site-structure-optimizer/references/mermaid-templates.md:
+    sha256: 71b453792bb537fdd3b1611fab97c24ff50c29ecb7c1b16aba54af2b441500a7
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/references/mermaid-templates.md
+  skills/site-structure-optimizer/references/site-type-patterns.md:
+    sha256: 2faa3b6d0d11a097dcacecc38f28976d744bf19fdcb208e7e155211ad1ed8d3f
+    copied_from: ~/creative-engineering-os/library/skills/site-structure-optimizer/references/site-type-patterns.md
+  skills/social-calendar-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/social-calendar-builder/LICENSE.upstream
+  skills/social-calendar-builder/SKILL.md:
+    sha256: 970c26d7b3fd1bfe899f10baeedeafad8b7effc364e5553bbce7527fe5eb0d87
+    copied_from: ~/creative-engineering-os/library/skills/social-calendar-builder/SKILL.md
+  skills/social-calendar-builder/references/human-action-control.md:
+    sha256: cb4e4fb48b922adfc32fa648149a44c141afc7fddf4f08bcbbd079d7963f1ad2
+    copied_from: ~/creative-engineering-os/library/skills/social-calendar-builder/references/human-action-control.md
+  skills/social-creative-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/social-creative-builder/LICENSE.upstream
+  skills/social-creative-builder/SKILL.md:
+    sha256: 44cb27a8aec2cc07f7a4fedf737d78059ab05884f9295c06e22040135c8ca3d9
+    copied_from: ~/creative-engineering-os/library/skills/social-creative-builder/SKILL.md
+  skills/social-measurement-loop/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/social-measurement-loop/LICENSE.upstream
+  skills/social-measurement-loop/SKILL.md:
+    sha256: 04411b23f77315bb87e7b01fc02756bd7d822714cad40048dc934cfb396f2e00
+    copied_from: ~/creative-engineering-os/library/skills/social-measurement-loop/SKILL.md
+  skills/social-pulse-monitor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/social-pulse-monitor/LICENSE.upstream
+  skills/social-pulse-monitor/SKILL.md:
+    sha256: ed68b42fd22cf101a7dbc3aec1465e7e78b76dd5afd7a3a1a2772b1b9d654382
+    copied_from: ~/creative-engineering-os/library/skills/social-pulse-monitor/SKILL.md
+  skills/social-quality-auditor/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/social-quality-auditor/LICENSE.upstream
+  skills/social-quality-auditor/SKILL.md:
+    sha256: 66250eaa3d075bc352e27d00e097dff05f5bd8b1d87e3752a38017ff10b907eb
+    copied_from: ~/creative-engineering-os/library/skills/social-quality-auditor/SKILL.md
+  skills/social-quality-auditor/references/auditor-runtime.md:
+    sha256: 264c898724a7eb057673bbb9eff90e42b26d57c2c642a32174ff90ed8b0d1858
+    copied_from: ~/creative-engineering-os/library/skills/social-quality-auditor/references/auditor-runtime.md
+  skills/social-selling-planner/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/social-selling-planner/LICENSE.upstream
+  skills/social-selling-planner/SKILL.md:
+    sha256: 8da9af0bc238a26de82288030fb935401a7b6a3f7a809fa4e2ade3704d9b2545
+    copied_from: ~/creative-engineering-os/library/skills/social-selling-planner/SKILL.md
+  skills/story-bank-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/story-bank-builder/LICENSE.upstream
+  skills/story-bank-builder/SKILL.md:
+    sha256: ef5875e8cb37e28ebd5b86553238311687cc35bf94e923db596417a5a12b4145
+    copied_from: ~/creative-engineering-os/library/skills/story-bank-builder/SKILL.md
+  skills/strategic-narrative-designer/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/strategic-narrative-designer/LICENSE.upstream
+  skills/strategic-narrative-designer/SKILL.md:
+    sha256: ffe9cd8ea24de79600a993e3976a798d20a7b69af44389390585013b300e3024
+    copied_from: ~/creative-engineering-os/library/skills/strategic-narrative-designer/SKILL.md
+  skills/subject-line-lab/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/subject-line-lab/LICENSE.upstream
+  skills/subject-line-lab/SKILL.md:
+    sha256: 6b7431ad52a51543abc5d67bb1c822495243cf17d255a036d729b9a1a2af3a5d
+    copied_from: ~/creative-engineering-os/library/skills/subject-line-lab/SKILL.md
+  skills/subject-line-lab/references/spam-trigger-checklist.md:
+    sha256: bc92ff8f4d2d025ae50626866949b72dd74275c9720440ff70c640faa205d7fe
+    copied_from: ~/creative-engineering-os/library/skills/subject-line-lab/references/spam-trigger-checklist.md
+  skills/technical-seo-checker/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/LICENSE.upstream
+  skills/technical-seo-checker/SKILL.md:
+    sha256: 644b100eb3f0d0c7858342873c792f4b3f01db5e80bc05e50ed97ac0c9c030ce
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/SKILL.md
+  skills/technical-seo-checker/references/bulk-audit-playbook.md:
+    sha256: 94e1080daf4bb3110a9d8753fe5f3b3dd9117b88dc1123d50c44cd3156b948f5
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/bulk-audit-playbook.md
+  skills/technical-seo-checker/references/ecommerce-platform-patterns.md:
+    sha256: e544bd27385af746032f4d4c566326633844e4a20000908eb10a3befcf6265d8
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/ecommerce-platform-patterns.md
+  skills/technical-seo-checker/references/http-status-codes.md:
+    sha256: 04c2e9d0b4feba325e48d581cceb7e46093732f9d4c1ce2f8a329ef8b18b1bfb
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/http-status-codes.md
+  skills/technical-seo-checker/references/llm-crawler-handling.md:
+    sha256: d831179bfab06d8a1d73cff9e9fc39a28dab1eab8cf3c69e2bcd4fe8be1dd68f
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/llm-crawler-handling.md
+  skills/technical-seo-checker/references/pre-migration-playbook.md:
+    sha256: b41a708de38ddf822bf37c24d7f8e60f9788b27715dc69725b75dcf756be1202
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/pre-migration-playbook.md
+  skills/technical-seo-checker/references/robots-txt-reference.md:
+    sha256: cb2eba170826f244c6cf653017b4f69379dbd7486aef37a493b975a409d0695d
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/robots-txt-reference.md
+  skills/technical-seo-checker/references/technical-audit-example.md:
+    sha256: f92ca242d80b70c0e4e6c3cfac497964cf40e304fbacd1253f622646ebdb8680
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/technical-audit-example.md
+  skills/technical-seo-checker/references/technical-audit-templates.md:
+    sha256: 0db1ed35641046727255d1b22bed57dd7b4feb6e755c9d405b2d494541e37215
+    copied_from: ~/creative-engineering-os/library/skills/technical-seo-checker/references/technical-audit-templates.md
+  skills/trend-spotter/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/trend-spotter/LICENSE.upstream
+  skills/trend-spotter/SKILL.md:
+    sha256: 5b032ce53b013b44d7c95581a06657d7f607de8b24a34fa313d0ffb97713470d
+    copied_from: ~/creative-engineering-os/library/skills/trend-spotter/SKILL.md
+  skills/trend-spotter/references/templates.md:
+    sha256: 00795c9f4553bba1c115696df02e3ad2959f82cd209b4747e6dc8ef3e750727e
+    copied_from: ~/creative-engineering-os/library/skills/trend-spotter/references/templates.md
+  skills/trend-spotter/references/trend-scout-recipe.md:
+    sha256: a5efbbd2352b92e60a3f964f778aa3c1eb21b5f40a39140d1b400128494121e9
+    copied_from: ~/creative-engineering-os/library/skills/trend-spotter/references/trend-scout-recipe.md
+  skills/voice-dossier-builder/LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/voice-dossier-builder/LICENSE.upstream
+  skills/voice-dossier-builder/SKILL.md:
+    sha256: e58f840fb1262319b88ef22432b9bb4e250e3828adcce93f2a95dd30564e68cb
+    copied_from: ~/creative-engineering-os/library/skills/voice-dossier-builder/SKILL.md
+  notices/664cd12e1c31-LICENSE:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/.codex/skill-sources/aaron-marketing-skills-109908edbf0f/aaron-marketing-skills-109908edbf0f0b19469ae57dc7b4d8f9c75efef4/LICENSE
+  notices/664cd12e1c31-LICENSE.upstream:
+    sha256: 664cd12e1c315650bf14cb1385359d13d4724ac03940ac10918390ef78e4f5e7
+    copied_from: ~/creative-engineering-os/library/skills/ad-account-auditor/LICENSE.upstream
+notices:
+- skills/ad-account-auditor/LICENSE.upstream
+- skills/ad-creative-builder/LICENSE.upstream
+- skills/ad-test-designer/LICENSE.upstream
+- skills/advocacy-program-designer/LICENSE.upstream
+- skills/attribution-reconciler/LICENSE.upstream
+- skills/audience-belief-mapper/LICENSE.upstream
+- skills/audience-mapper/LICENSE.upstream
+- skills/audience-segment-builder/LICENSE.upstream
+- skills/bid-strategy-planner/LICENSE.upstream
+- skills/brand-language-codifier/LICENSE.upstream
+- skills/brief-generator/LICENSE.upstream
+- skills/budget-optimizer/LICENSE.upstream
+- skills/budget-pacing-monitor/LICENSE.upstream
+- skills/campaign-architect/LICENSE.upstream
+- skills/campaign-planner/LICENSE.upstream
+- skills/category-narrative-mapper/LICENSE.upstream
+- skills/channel-portfolio-planner/LICENSE.upstream
+- skills/channel-registry/LICENSE.upstream
+- skills/cold-outbound-sequencer/LICENSE.upstream
+- skills/community-launch-runner/LICENSE.upstream
+- skills/competitor-analysis/LICENSE.upstream
+- skills/competitor-tracker/LICENSE.upstream
+- skills/consent-registry/LICENSE.upstream
+- skills/content-amplifier/LICENSE.upstream
+- skills/content-gap-analysis/LICENSE.upstream
+- skills/content-quality-auditor/LICENSE.upstream
+- skills/content-writer/LICENSE.upstream
+- skills/contract-helper/LICENSE.upstream
+- skills/conversion-signal-qa/LICENSE.upstream
+- skills/conversion-value-mapper/LICENSE.upstream
+- skills/creator-content-auditor/LICENSE.upstream
+- skills/creator-registry/LICENSE.upstream
+- skills/crisis-response-planner/LICENSE.upstream
+- skills/dark-social-attributor/LICENSE.upstream
+- skills/deliverability-qa/LICENSE.upstream
+- skills/domain-authority-auditor/LICENSE.upstream
+- skills/dynamic-content-personalizer/LICENSE.upstream
+- skills/early-access-designer/LICENSE.upstream
+- skills/email-creative-builder/LICENSE.upstream
+- skills/email-quality-auditor/LICENSE.upstream
+- skills/email-render-builder/LICENSE.upstream
+- skills/email-sequence-designer/LICENSE.upstream
+- skills/engagement-inbox-manager/LICENSE.upstream
+- skills/entity-registry/LICENSE.upstream
+- skills/fatigue-frequency-manager/LICENSE.upstream
+- skills/fit-scorer/LICENSE.upstream
+- skills/geo-content-optimizer/LICENSE.upstream
+- skills/inbox-placement-monitor/LICENSE.upstream
+- skills/influencer-discovery/LICENSE.upstream
+- skills/keyword-research/LICENSE.upstream
+- skills/landing-experience-checker/LICENSE.upstream
+- skills/landing-optimizer/LICENSE.upstream
+- skills/launch-asset-packager/LICENSE.upstream
+- skills/launch-day-conductor/LICENSE.upstream
+- skills/launch-feedback-synthesizer/LICENSE.upstream
+- skills/launch-monitor/LICENSE.upstream
+- skills/launch-readiness-auditor/LICENSE.upstream
+- skills/launch-registry/LICENSE.upstream
+- skills/launch-retro-analyzer/LICENSE.upstream
+- skills/launch-tier-planner/LICENSE.upstream
+- skills/launch-window-planner/LICENSE.upstream
+- skills/list-growth-designer/LICENSE.upstream
+- skills/list-hygiene-monitor/LICENSE.upstream
+- skills/list-segment-builder/LICENSE.upstream
+- skills/memory-management/LICENSE.upstream
+- skills/message-house-builder/LICENSE.upstream
+- skills/message-system-architect/LICENSE.upstream
+- skills/message-test-designer/LICENSE.upstream
+- skills/momentum-planner/LICENSE.upstream
+- skills/narrative-baseline-mapper/LICENSE.upstream
+- skills/narrative-cascade-planner/LICENSE.upstream
+- skills/narrative-drift-monitor/LICENSE.upstream
+- skills/narrative-enablement-kit/LICENSE.upstream
+- skills/narrative-quality-auditor/LICENSE.upstream
+- skills/narrative-registry/LICENSE.upstream
+- skills/narrative-resonance-monitor/LICENSE.upstream
+- skills/newsletter-monetization-planner/LICENSE.upstream
+- skills/offer-claims-registry/LICENSE.upstream
+- skills/offsite-signal-analyzer/LICENSE.upstream
+- skills/on-page-seo-checker/LICENSE.upstream
+- skills/outreach-manager/LICENSE.upstream
+- skills/page-play-builder/LICENSE.upstream
+- skills/paid-measurement-loop/LICENSE.upstream
+- skills/participation-warmup-planner/LICENSE.upstream
+- skills/performance-analyzer/LICENSE.upstream
+- skills/performance-monitor/LICENSE.upstream
+- skills/pitch-narrative-builder/LICENSE.upstream
+- skills/placement-exclusion-manager/LICENSE.upstream
+- skills/platform-norm-profiler/LICENSE.upstream
+- skills/positioning-mapper/LICENSE.upstream
+- skills/positioning-truth-tracer/LICENSE.upstream
+- skills/preference-frequency-manager/LICENSE.upstream
+- skills/press-media-relations/LICENSE.upstream
+- skills/pricing-packaging-planner/LICENSE.upstream
+- skills/product-feed-optimizer/LICENSE.upstream
+- skills/proof-point-packager/LICENSE.upstream
+- skills/rank-tracker/LICENSE.upstream
+- skills/reactivation-specialist/LICENSE.upstream
+- skills/report-generator/LICENSE.upstream
+- skills/roi-calculator/LICENSE.upstream
+- skills/sales-enablement-kit/LICENSE.upstream
+- skills/search-term-miner/LICENSE.upstream
+- skills/send-experiment-designer/LICENSE.upstream
+- skills/serp-analysis/LICENSE.upstream
+- skills/serp-markup-builder/LICENSE.upstream
+- skills/share-of-voice-tracker/LICENSE.upstream
+- skills/short-video-scripter/LICENSE.upstream
+- skills/site-structure-optimizer/LICENSE.upstream
+- skills/social-calendar-builder/LICENSE.upstream
+- skills/social-creative-builder/LICENSE.upstream
+- skills/social-measurement-loop/LICENSE.upstream
+- skills/social-pulse-monitor/LICENSE.upstream
+- skills/social-quality-auditor/LICENSE.upstream
+- skills/social-selling-planner/LICENSE.upstream
+- skills/story-bank-builder/LICENSE.upstream
+- skills/strategic-narrative-designer/LICENSE.upstream
+- skills/subject-line-lab/LICENSE.upstream
+- skills/technical-seo-checker/LICENSE.upstream
+- skills/trend-spotter/LICENSE.upstream
+- skills/voice-dossier-builder/LICENSE.upstream
+- notices/664cd12e1c31-LICENSE
+- notices/664cd12e1c31-LICENSE.upstream
+excluded: []

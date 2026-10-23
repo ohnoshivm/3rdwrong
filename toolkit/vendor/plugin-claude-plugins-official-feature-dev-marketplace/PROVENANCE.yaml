@@ -1,0 +1,35 @@
+package: plugin-claude-plugins-official-feature-dev-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-feature-dev-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 66e5b7724eae5bc5b24f18fafe4c425ba3763c543218ba1c68dcc22c589a99d9
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/LICENSE
+  agents/code-architect.md:
+    sha256: c50fb08d59a4bbd19660860626a049e44cf1a2b0c1cf782e6c7a99ba7e71b0c3
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/agents/code-architect.md
+  agents/code-explorer.md:
+    sha256: 3b277703de7458988ec3b8021c716f79f642e174950ed332629310f68322029a
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/agents/code-explorer.md
+  agents/code-reviewer.md:
+    sha256: a7df173bf77a00da5584c6401a1061524fdbe477b6fef5dd496d4c7a9113c78c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/agents/code-reviewer.md
+  commands/feature-dev.md:
+    sha256: 652e5d6264fd253fcb70c2f84de986a88d77109a02410aacd90230a6ab4bf557
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/commands/feature-dev.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

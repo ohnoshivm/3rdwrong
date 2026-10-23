@@ -2,6 +2,26 @@
 
 Changes to the 3RDWRONGS Creative Operating System are recorded here.
 
+## [0.3.0] - 2026-10-23
+
+### Added
+
+- Eleven department guides in four groups, recut registry summary and v2 portable routing; Design retains its human craft standards and evidence gates.
+- Third-party toolkit with VENDOR snapshots, pinned FETCH plan, MANUAL enablement, licensing notices, 12-plugin Claude Code marketplace and non-overwriting one-command installer for Claude/Codex.
+
+- Founder-approved D-0018: design-engineering studio direction, with brand identity at the core, digital experience as the second pillar and an explicitly labelled 6–12-month ambition.
+- Founder-approved D-0019: 11 departments in four groups, flagship Design and Engineering, department-head/independent-review-board model, and registry-led loading policy for skills and Agency Agents.
+- Proposed positioning v0.2 and Digital Experience flagship offer for founder review, including paired-pod delivery, performance/accessibility criteria and pricing to be set by founder.
+- Proposed 12-month roadmap milestones for OS v0.3, own identity and website proof, two self-initiated projects, Labs house-engine v1, first paid Digital Experience project and top-job evaluations.
+
+### Changed
+
+- Superseded D-0001 and D-0002 with D-0018 while retaining their historical text and approvals.
+- Aligned README and the two authorised AGENTS entry lines with the approved direction/status; updated studio navigation, identity-offer guidance and pricing hypotheses without rewriting founder positioning or ICP.
+- Flagged ICP and remaining method migration for review, updated the decision register and regenerated INDEX.md.
+
+Founder approvals: approved_by: founder; approved_on: 2026-10-23; approval_source: founder instruction, 2026-10-23. Related proposals and hypotheses retain their statuses.
+
 ## [0.2.0] - 2026-10-22
 
 ### Added

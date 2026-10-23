@@ -1,0 +1,1 @@
+../../../../../.claude/skills/brand/scripts/sync-brand-to-tokens.cjs

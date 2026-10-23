@@ -1,0 +1,1 @@
+../../../../../.claude/skills/ui-styling/scripts/shadcn_add.py

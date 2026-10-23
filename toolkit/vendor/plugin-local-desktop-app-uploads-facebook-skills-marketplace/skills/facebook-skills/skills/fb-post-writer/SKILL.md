@@ -1,0 +1,1 @@
+../../.codex-marketplace/facebook-skills/skills/fb-post-writer/SKILL.md

@@ -1,0 +1,1 @@
+../../../plugin-openai-curated-remote-notion-3.0.1/skills/notion-weekly-project-digest/SKILL.md

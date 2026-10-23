@@ -1,0 +1,52 @@
+package: standalone-imagegen-4a41c3fc
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#standalone-imagegen-4a41c3fc
+copied_from:
+- ~/creative-engineering-os/library/skills/imagegen
+copied_on: '2026-10-23'
+files:
+  skills/imagegen/LICENSE.txt:
+    sha256: 4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/LICENSE.txt
+  skills/imagegen/SKILL.md:
+    sha256: 681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/SKILL.md
+  skills/imagegen/agents/openai.yaml:
+    sha256: 9ca574af14580dc7a2a3dc37a1796d17f93cb8850be66501f0799ef8603e9dc0
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/agents/openai.yaml
+  skills/imagegen/assets/imagegen-small.svg:
+    sha256: cff5f34f57ff60b3ee92eaedd17b15e96dd4b9e776df3e78936c9e00d42be294
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/assets/imagegen-small.svg
+  skills/imagegen/references/cli.md:
+    sha256: ecfc2e09261a0feb3482517a5fa0ff410cb7d1958e3cbd2ac6b61586f5b81405
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/references/cli.md
+  skills/imagegen/references/codex-network.md:
+    sha256: c88298ca4481f6116a16fa7987434fc977f8b311c1bbc0c3d862ffd0c5981148
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/references/codex-network.md
+  skills/imagegen/references/image-api.md:
+    sha256: dc975d7af8a4888967251a0276014b4a71ea30455294944b762256373ce3e569
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/references/image-api.md
+  skills/imagegen/references/prompting.md:
+    sha256: b210b051c775860267080941eba968212bf0ac7fce581d75c5dcc217d8293f8b
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/references/prompting.md
+  skills/imagegen/references/sample-prompts.md:
+    sha256: 70474177d151855b175c6133de2aae1d90b7f146b0dab50ec830972c47d72183
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/references/sample-prompts.md
+  skills/imagegen/scripts/image_gen.py:
+    sha256: b4345cf835e5b593b97df6bb2b70bda493b8a97eee4cabbc99b2fa57dba9b448
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/scripts/image_gen.py
+  skills/imagegen/scripts/remove_chroma_key.py:
+    sha256: a5893c4bd04b21abced33731ea89d2ac428e81d92a0368eb18ffbe4fda5253e2
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/scripts/remove_chroma_key.py
+  notices/4dd13869245e-LICENSE.txt:
+    sha256: 4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9
+    copied_from: ~/creative-engineering-os/library/skills/imagegen/LICENSE.txt
+notices:
+- skills/imagegen/LICENSE.txt
+- notices/4dd13869245e-LICENSE.txt
+excluded:
+- source: ~/creative-engineering-os/library/skills/imagegen/assets/imagegen.png
+  reason: binary/non-UTF8 or unreadable; never distributed

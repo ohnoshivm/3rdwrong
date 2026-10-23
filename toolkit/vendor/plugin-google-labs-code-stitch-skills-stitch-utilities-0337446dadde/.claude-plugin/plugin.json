@@ -1,0 +1,5 @@
+{
+  "name": "stitch-utilities",
+  "description": "Design utilities for Google Stitch: generate DESIGN.md specs, create SITE.md constitutions, enhance prompts, and run stitch-loop workflows.",
+  "version": "1.0.0"
+}

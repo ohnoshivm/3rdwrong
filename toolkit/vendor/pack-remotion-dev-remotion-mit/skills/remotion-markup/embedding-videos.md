@@ -1,0 +1,1 @@
+../remotion-best-practices/remotion-markup/embedding-videos.md

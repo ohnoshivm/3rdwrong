@@ -1,0 +1,47 @@
+package: plugin-21st-dev-21st-1.0.1
+upstream_url: https://github.com/21st-dev/magic-mcp
+pinned_ref:
+- 6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55
+licence: ISC
+evidence_path: toolkit/sources/packages.json#plugin-21st-dev-21st-1.0.1
+copied_from:
+- ~/.claude/plugins/cache/21st-dev/21st/1.0.1
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 1ddb32443c2c5fced9b732e1bca2a13c397ec841e340f760e7b63747d7c473ab
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: 0385d4bc02cde6bdbd951533f601ddbf630abc48b3e322d118b6310efa3b6822
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/.claude-plugin/plugin.json
+  .codex-plugin/plugin.json:
+    sha256: 6c5afc2f049af4ec2ac8e47bee91e54e6fa8367310d864c30431defe94a82141
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/.codex-plugin/plugin.json
+  LICENSE:
+    sha256: e9412a67f017b2651af15c086fa9af56f7fcb03849d220ad037dd626dc9729f2
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/LICENSE
+  skills/21st-ui/SKILL.md:
+    sha256: 851d43ba67c18ce6552e5a0462b892d3a2196cce5d1569059fc6f72fe0e78831
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/skills/21st-ui/SKILL.md
+    alias_of: toolkit/vendor/pack-21st-dev-magic-mcp-isc/skills/21st-ui/SKILL.md
+  notices/0385d4bc02cd-plugin.json:
+    sha256: 0385d4bc02cde6bdbd951533f601ddbf630abc48b3e322d118b6310efa3b6822
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-21st-dev-21st-1.0.1/.claude-plugin/plugin.json
+  notices/6c5afc2f049a-plugin.json:
+    sha256: 6c5afc2f049af4ec2ac8e47bee91e54e6fa8367310d864c30431defe94a82141
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-21st-dev-21st-1.0.1/.codex-plugin/plugin.json
+  notices/4fbab118a91c-package.json:
+    sha256: 4fbab118a91c4acaa567488da02bea47bf5555be761914705dde9ed3a0c34091
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/package.json
+  notices/e9412a67f017-LICENSE:
+    sha256: e9412a67f017b2651af15c086fa9af56f7fcb03849d220ad037dd626dc9729f2
+    copied_from: ~/.claude/plugins/cache/21st-dev/21st/1.0.1/LICENSE
+notices:
+- LICENSE
+- notices/0385d4bc02cd-plugin.json
+- notices/6c5afc2f049a-plugin.json
+- notices/4fbab118a91c-package.json
+- notices/e9412a67f017-LICENSE
+excluded: []

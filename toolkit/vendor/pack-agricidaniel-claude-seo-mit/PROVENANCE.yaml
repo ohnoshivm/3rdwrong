@@ -1,0 +1,539 @@
+package: pack-agricidaniel-claude-seo-mit
+upstream_url: https://github.com/AgriciDaniel/claude-seo
+pinned_ref:
+- 4b99de2f7de7e7d5247042e5fb5b4ea9368ef734
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-agricidaniel-claude-seo-mit
+copied_from:
+- ~/.codex/skill-sources/claude-seo-4b99de2f7de7/claude-seo-4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-audit
+- ~/creative-engineering-os/library/skills/seo-agentic
+- ~/creative-engineering-os/library/skills/seo-audit
+- ~/creative-engineering-os/library/skills/seo-backlinks
+- ~/creative-engineering-os/library/skills/seo-cluster
+- ~/creative-engineering-os/library/skills/seo-competitor-pages
+- ~/creative-engineering-os/library/skills/seo-content
+- ~/creative-engineering-os/library/skills/seo-content-brief
+- ~/creative-engineering-os/library/skills/seo-dataforseo
+- ~/creative-engineering-os/library/skills/seo-drift
+- ~/creative-engineering-os/library/skills/seo-ecommerce
+- ~/creative-engineering-os/library/skills/seo-flow
+- ~/creative-engineering-os/library/skills/seo-geo
+- ~/creative-engineering-os/library/skills/seo-google
+- ~/creative-engineering-os/library/skills/seo-hreflang
+- ~/creative-engineering-os/library/skills/seo-image-gen
+- ~/creative-engineering-os/library/skills/seo-images
+- ~/creative-engineering-os/library/skills/seo-local
+- ~/creative-engineering-os/library/skills/seo-maps
+- ~/creative-engineering-os/library/skills/seo-page
+- ~/creative-engineering-os/library/skills/seo-plan
+- ~/creative-engineering-os/library/skills/seo-programmatic
+- ~/creative-engineering-os/library/skills/seo-schema
+- ~/creative-engineering-os/library/skills/seo-sitemap
+- ~/creative-engineering-os/library/skills/seo-sxo
+- ~/creative-engineering-os/library/skills/seo-technical
+copied_on: '2026-10-23'
+files:
+  skills/seo-audit/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/.codex/skill-sources/claude-seo-4b99de2f7de7/claude-seo-4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-audit/LICENSE.txt
+  skills/seo-audit/SKILL.md:
+    sha256: 0eee8999b05c587f58cfb8cc8ccfad7c977498653a474e2f3e7e2c51807d96e5
+    copied_from: ~/.codex/skill-sources/claude-seo-4b99de2f7de7/claude-seo-4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-audit/SKILL.md
+  skills/seo-agentic/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/LICENSE.txt
+  skills/seo-agentic/SKILL.md:
+    sha256: 17df55b1248c1bdbe2b3caea27d2eaa1060dee15361b4c1f02039bbee5f35c14
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/SKILL.md
+  skills/seo-agentic/references/access-policy.md:
+    sha256: 62b90e452a58f2e244885b6c060841d1dd9753c4e209e5b9539345545d6abcd8
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/references/access-policy.md
+  skills/seo-agentic/references/agent-friendly-pages.md:
+    sha256: 42ada14d5ccb40864ade4a6c526887d16efb8b5ba6a6643a7b9e24d92ad4a4f1
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/references/agent-friendly-pages.md
+  skills/seo-agentic/references/discovery-and-markdown.md:
+    sha256: ed35c16310fd01cfa593ca4ad54d2cc8662c4addff6bcbff0b5f4c68d5390179
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/references/discovery-and-markdown.md
+  skills/seo-agentic/references/lighthouse-agentic-category.md:
+    sha256: 3e99f0396f21bff5e7901a7b9c7dd0594d3c866006d0a551775cf189adfc2b1f
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/references/lighthouse-agentic-category.md
+  skills/seo-agentic/references/vendor-matrix.md:
+    sha256: 09297792722249a3a73c16c412b2899b3af30e4c8f98ecfe1033443773b27c4e
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/references/vendor-matrix.md
+  skills/seo-agentic/references/webmcp.md:
+    sha256: 5e71293f7baae8c04ef443aab43224637d06759170e0fc73422a2ea91fcb12a1
+    copied_from: ~/creative-engineering-os/library/skills/seo-agentic/references/webmcp.md
+  skills/seo-backlinks/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-backlinks/LICENSE.txt
+  skills/seo-backlinks/SKILL.md:
+    sha256: db0ef68ecffaaa0cda495c5f9c186f2f89484a1cdd31dbaae9a53cff18cd4c39
+    copied_from: ~/creative-engineering-os/library/skills/seo-backlinks/SKILL.md
+  skills/seo-cluster/LICENSE.upstream:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/LICENSE.upstream
+  skills/seo-cluster/SKILL.md:
+    sha256: 9041eee8c40d60394790f27486aca9a424cb8b26971715fff7f6b07f701ff773
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/SKILL.md
+  skills/seo-cluster/references/execution-workflow.md:
+    sha256: 7e5e067689a2ebe82d0a949a4b9b9c6568fc283e31a6b6e928fbb7677438f0db
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/references/execution-workflow.md
+  skills/seo-cluster/references/hub-spoke-architecture.md:
+    sha256: 5553d9fd80145362073fde96c0c615df4ed9a000bf6f928a71641ec52e85c39b
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/references/hub-spoke-architecture.md
+  skills/seo-cluster/references/serp-overlap-methodology.md:
+    sha256: a0c02dcd394a0cfe4636c02ce03da4ff58dc68b6f55ee0b3b9e36e10f20f7662
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/references/serp-overlap-methodology.md
+  skills/seo-cluster/templates/cluster-map.html:
+    sha256: 73d50e0bcab7855b4c50b182b46ad2f38965aa2fc854bc41de5acdd611a6d8c9
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/templates/cluster-map.html
+  skills/seo-competitor-pages/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-competitor-pages/LICENSE.txt
+  skills/seo-competitor-pages/SKILL.md:
+    sha256: 99cfecb7c486428d9fb6180f34f6d922acabd9a3999b272ad4ac0e44efb6d02d
+    copied_from: ~/creative-engineering-os/library/skills/seo-competitor-pages/SKILL.md
+  skills/seo-content/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-content/LICENSE.txt
+  skills/seo-content/SKILL.md:
+    sha256: c2b2d458f010e6dd38597eff24370046bb5dc67983af97945cda1aac0741e21f
+    copied_from: ~/creative-engineering-os/library/skills/seo-content/SKILL.md
+  skills/seo-content-brief/LICENSE.txt:
+    sha256: 25bc881ab74d06a365261e004f44c445a78a5241ee322cdeeb4ba7d7669be9b1
+    copied_from: ~/creative-engineering-os/library/skills/seo-content-brief/LICENSE.txt
+  skills/seo-content-brief/SKILL.md:
+    sha256: bdca005f46877fcab89bcedb3fa3cab40240e51a1617ad5a13ede7edd200ed16
+    copied_from: ~/creative-engineering-os/library/skills/seo-content-brief/SKILL.md
+  skills/seo-content-brief/references/excluded-domains.md:
+    sha256: 17b3fb0c9f0cd979c949d54a3e88eb7b39b5d3514baaaa0560022b16c3ed32b8
+    copied_from: ~/creative-engineering-os/library/skills/seo-content-brief/references/excluded-domains.md
+  skills/seo-content-brief/references/keyword-density.md:
+    sha256: 5f66b7516fda29ca43b4db64874ad445390a3eacfe3c6e99bee2f45b3c7ab348
+    copied_from: ~/creative-engineering-os/library/skills/seo-content-brief/references/keyword-density.md
+  skills/seo-content-brief/references/page-type-templates.md:
+    sha256: ac638c16ee6ef871d07d8d8172e23a491e11e5e9734f5a5f9ac070631156fd6d
+    copied_from: ~/creative-engineering-os/library/skills/seo-content-brief/references/page-type-templates.md
+  skills/seo-dataforseo/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-dataforseo/LICENSE.txt
+  skills/seo-dataforseo/SKILL.md:
+    sha256: 269aa8357308c0c268957323accabd4d45efcbeba3371021cdf841c265960359
+    copied_from: ~/creative-engineering-os/library/skills/seo-dataforseo/SKILL.md
+  skills/seo-dataforseo/references/cost-tiers.md:
+    sha256: a17c4d446f44cc5aae80539d235caa16ff57ecde9d1569d086e9557ac766be7d
+    copied_from: ~/creative-engineering-os/library/skills/seo-dataforseo/references/cost-tiers.md
+  skills/seo-dataforseo/references/tool-catalog.md:
+    sha256: 1fc02f7ea2d09fe5f40a9392dc17106f23385b02659ab06ee6bce3d718bf33da
+    copied_from: ~/creative-engineering-os/library/skills/seo-dataforseo/references/tool-catalog.md
+  skills/seo-drift/LICENSE.upstream:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/creative-engineering-os/library/skills/seo-drift/LICENSE.upstream
+  skills/seo-drift/SKILL.md:
+    sha256: b4e748a322a8518afb2ddf6c3d7c65dfee9f956a6f04d11023ad98993847a09e
+    copied_from: ~/creative-engineering-os/library/skills/seo-drift/SKILL.md
+  skills/seo-drift/references/comparison-rules.md:
+    sha256: 45b806d8cfbc3d3fa03f2095562c84b26bcbad1359d7c45bba7304849f04fc20
+    copied_from: ~/creative-engineering-os/library/skills/seo-drift/references/comparison-rules.md
+  skills/seo-ecommerce/LICENSE.upstream:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/creative-engineering-os/library/skills/seo-ecommerce/LICENSE.upstream
+  skills/seo-ecommerce/SKILL.md:
+    sha256: 62032f7947642ed4fa132e3549d3d92c9fab21b8c506b82c2a038e7242e56cec
+    copied_from: ~/creative-engineering-os/library/skills/seo-ecommerce/SKILL.md
+  skills/seo-ecommerce/references/marketplace-endpoints.md:
+    sha256: 2126051c977c899ed4cc5fb12e6f0f5dc0caafe8a0236e59aeaab8d984b9021e
+    copied_from: ~/creative-engineering-os/library/skills/seo-ecommerce/references/marketplace-endpoints.md
+  skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md:
+    sha256: ce30046ab217cc3f2de429713d54431607ecafb6f5ffa8e8ab28ac726c57d5cd
+    copied_from: ~/creative-engineering-os/library/skills/seo-ecommerce/references/ucp-universal-commerce-protocol.md
+  skills/seo-flow/LICENSE.upstream:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/LICENSE.upstream
+  skills/seo-flow/SKILL.md:
+    sha256: 4e9212cb42a78fde5746db5497a5b4b7d74bdf556464edf0ae9efe44509040d6
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/SKILL.md
+  skills/seo-flow/references/bibliography.md:
+    sha256: 1f7e5d60194c252a6b38ba1eb78970cdf5bea2f096563c508bfad36f7e445f75
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/bibliography.md
+  skills/seo-flow/references/flow-framework.md:
+    sha256: 029c009e0fd5fc77763a530af24a83bf8cf21eb703158317bde8518446af0887
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/flow-framework.md
+  skills/seo-flow/references/prompts/README.md:
+    sha256: 26e434454595c47c63e3ef5c4c5d975a8a8208ca01887e51ab09a45eb679085a
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/README.md
+  skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md:
+    sha256: 0bab3257ca8c588ffe6e96adc97d2201fc1fb4cfd5a8674cfeb97a640ab78ce1
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md
+  skills/seo-flow/references/prompts/find/content-prioritization-prompt.md:
+    sha256: e8d12ec0b02de03de7b0066a1b29b4e5523f49413bb276c3d936ca068f1645b0
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/find/content-prioritization-prompt.md
+  skills/seo-flow/references/prompts/find/keyword-research-prompt.md:
+    sha256: 3bd3c230f682c65c328324d37dada59a76ca85326bfe97fbf3acf6849e36525d
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/find/keyword-research-prompt.md
+  skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md:
+    sha256: 18b92580c0de1d0df6a8353efc0fd98864ed9e7090318cd4564cae84f79e2bd1
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md
+  skills/seo-flow/references/prompts/find/prompt-audience-avatar.md:
+    sha256: 450d58afe2499f7644f947725fcaaf9463931e09d8fdcb93765d25c6e0750d22
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/find/prompt-audience-avatar.md
+  skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md:
+    sha256: 88b5a6aca87c0f5ad12ed0a9cec601c23e944db2ff1014502fe7218064249be4
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/leverage/backlink-competition-prompt.md
+  skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md:
+    sha256: d33e8918c05d99136baf476165a57a94b7cc0c93bf3585d49bb7212d93bb0455
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/ai-homepage-rewrite-prompt.md
+  skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md:
+    sha256: 65a9876a959b4aba089e4aac9bb078eb2c487726285f0828535b9178f7410dcb
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/claude-deep-research-prompt.md
+  skills/seo-flow/references/prompts/local/gbp-categories-prompt.md:
+    sha256: f365d29c9bc3be0aa692a4b0f38515a0d75061ace60603285dbd2aed4a180ec8
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/gbp-categories-prompt.md
+  skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md:
+    sha256: 80c73c39f7240ba87bdefd19babdde7f15e6dfe0cdebfa490d62dad2c3dc8702
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-1.md
+  skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md:
+    sha256: d3ee5d748597d85cbd15b31a0e72a9d67a6f91d65f0f8a750ff7bd5ad0398f00
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-2.md
+  skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md:
+    sha256: 3c1eaca3250b854b025729aee39df6593518595eb6d2ec1f9cc24bc927ae3845
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/gbp-description-claude-prompt-3.md
+  skills/seo-flow/references/prompts/local/gbp-services-prompt.md:
+    sha256: a82eebb02b5b5b9d2e02fd21f364dae9641aae69e9a8c2ddfd1ddd975d5ea0aa
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/gbp-services-prompt.md
+  skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md:
+    sha256: 82f9d16c7158978c50c7f2ee783d636e6e54c27bde4ae56aa4df0a729710fe6e
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/prompt-generating-a-meta-description.md
+  skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md:
+    sha256: 5db99be445c3d72fdaabf75ca92133981b586d6e48221e8df1bec06233ff62f7
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/prompt-generating-a-title-tag.md
+  skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md:
+    sha256: b0000ade4e79a06e65d568e17a06ec98ababae5b33d16f61f1e101dd3f0b5720
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/prompt-rewriting-existing-homepage.md
+  skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md:
+    sha256: 6e24da4f82b486b614e9ca2b4ae4cd8554865aedd6043218334d9dfe245afed3
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/local/prompt-rewriting-existing-service-page.md
+  skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md:
+    sha256: 23b75608644f51981e8421e307a1f9c51497587fe01a846828b9142525830fd0
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md
+  skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md:
+    sha256: 92e0f8e7fded7438ed86ac58fa9f0c66122308e36903eb064125b0a2e8a10f87
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md
+  skills/seo-flow/references/prompts/optimize/basic-prompt.md:
+    sha256: 5f8ddce6655b91e3bd23ff0174d0890d46db4c86b2074230793a834c51f87d34
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/basic-prompt.md
+  skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md:
+    sha256: 4427a6ffbe45fbfa397cc3e7bb8ff2cc2d1e4652f2b2ddfff2e3ccd299ae79cc
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/blog-post-outline-prompt.md
+  skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md:
+    sha256: e88b8781e6a1f69cc7043fbdd0b79365d87691daa1d0b910957fe61aa8a9964c
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/blog-post-writing-prompt.md
+  skills/seo-flow/references/prompts/optimize/claude-prompt-1.md:
+    sha256: ae0f7460bf85ac666af355d4b3960f31a07beb2a009154c2c3c336de45b8afe9
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/claude-prompt-1.md
+  skills/seo-flow/references/prompts/optimize/claude-prompt-2.md:
+    sha256: 881278d4c5872b2d2f03eef8df21fb1dbee499acab565d039531f96d455528c3
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/claude-prompt-2.md
+  skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md:
+    sha256: cfe26d1f07bd98f5a98a3e6a825d0127cf7b003519fdfb595c4761393ac143ea
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/ctr-audit-prompt.md
+  skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md:
+    sha256: d35a7f848aab67df85391acf5f6208bdcea6f51bf454a4e87129446bc928f3f0
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/follow-up-prompt-1.md
+  skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md:
+    sha256: e8e55404737510c63080c93401a00097058eee7ef40f56f77659cccda29cc984
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/follow-up-prompt-2.md
+  skills/seo-flow/references/prompts/optimize/follow-up-prompt.md:
+    sha256: 454d9b9f684f2dfa54530819e2505361b165d54e3d1fa92a1be61367ac5da072
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/follow-up-prompt.md
+  skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md:
+    sha256: 770b5ba49150b2a48753a7c51d60d3b93c3091fb5aedc24a7c8f41c463517e55
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/paa-question-rewording-prompt.md
+  skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md:
+    sha256: b58c751c5552592b5e7f0e176c21fb0c509924a7a98bc635e32e1b93e8dff3fd
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/prompt-core-30-content-audit.md
+  skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md:
+    sha256: 4e7a894b86b03a20c4b9b06239fe97f224f680c6ab8d68d942a4e546182b7077
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md
+  skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md:
+    sha256: be767e88a2b3b6c9a4bbbc4f2f2611e1606babdf9b18163cab8b5050966048ab
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/reddit-claude-prompt.md
+  skills/seo-flow/references/prompts/optimize/schema-prompt-1.md:
+    sha256: a7b3f4fe17f7e0b5257b2cb940a00b005c44e21bfdb13de0d889b4a5cbd6fa09
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/schema-prompt-1.md
+  skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md:
+    sha256: 45112ea78038130ff3d29d6e965401d234a4a2a540883e6c625a877defa46e24
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md
+  skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md:
+    sha256: f08df22ed90c0ba1b7b7f529331309161a886fd2e12bf4ff3ec955bb10fd22ee
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md
+  skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md:
+    sha256: 51274ab6e21a62892171c53397f935242f55c3726f3d2a11850985839b047ff4
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/technical-audit-prompt.md
+  skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md:
+    sha256: 0a76f9075c783957d45ab58cec04f4701f01e235a65e9d97ab7b52f7c10f3201
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/visibility-follow-up-prompt.md
+  skills/seo-flow/references/prompts/optimize/visiblity-prompt.md:
+    sha256: 769684b2895051491a7eed1eb1ff0e0065d2472cc395fee04fc99eed85df83de
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/optimize/visiblity-prompt.md
+  skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md:
+    sha256: dbbe1d51ef93bdc1918bfab1b0948a0d87500410ea8d6727f088e5e4f937dadf
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/win/bofu-page-brief-generator.md
+  skills/seo-flow/references/prompts/win/conversion-audit-prompt.md:
+    sha256: 1fb96a2a2c0dcb096389992d14fc12738523c94e2559ebd71a46b8264f2049d7
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/win/conversion-audit-prompt.md
+  skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md:
+    sha256: 9521283c3578d613a9a25f985d609995d92d284f982d0377160a646563fa7c18
+    copied_from: ~/creative-engineering-os/library/skills/seo-flow/references/prompts/win/dual-surface-content-scorecard.md
+  skills/seo-geo/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-geo/LICENSE.txt
+  skills/seo-geo/SKILL.md:
+    sha256: 881fffb9e1d09cfbc608e93514a8b5534b42e74ebc3d0d63a365cedb48e717f7
+    copied_from: ~/creative-engineering-os/library/skills/seo-geo/SKILL.md
+  skills/seo-geo/references/google-ai-optimization-guide.md:
+    sha256: 587dfbe3a298b625341883cffe389441f6acff61fb4e12be7586c7e1cf455348
+    copied_from: ~/creative-engineering-os/library/skills/seo-geo/references/google-ai-optimization-guide.md
+  skills/seo-geo/references/llmstxt-evidence.md:
+    sha256: 6cc60538738ddabdb6da0657d43cd187d63f377140a3d4deed52dac634c344a1
+    copied_from: ~/creative-engineering-os/library/skills/seo-geo/references/llmstxt-evidence.md
+  skills/seo-google/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/LICENSE.txt
+  skills/seo-google/SKILL.md:
+    sha256: 725839040e5cccc6f11dd61ad5e9963af8a85e613a2a965d4c1f15113abc66c6
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/SKILL.md
+  skills/seo-google/assets/templates/cwv-audit-report.md:
+    sha256: 94e81dd051757c8fe588756206eb83cc2d1c3907a76610862f01a1bcd1c2ac5d
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/assets/templates/cwv-audit-report.md
+  skills/seo-google/assets/templates/gsc-performance-report.md:
+    sha256: 6b1d42af50c7cf052ea071466c0c2dbf7bb8e76c0c7a4891c7d5f559607aba9a
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/assets/templates/gsc-performance-report.md
+  skills/seo-google/assets/templates/indexation-status-report.md:
+    sha256: afc337905d82f83659a229382432876edba9bd9af6e589b3e4de4786974f13b3
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/assets/templates/indexation-status-report.md
+  skills/seo-google/references/auth-setup.md:
+    sha256: 8668c1ea20092c30ca8b06f91a9bca40d5e5653fcb4405f4d1f6c234d39ffde8
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/auth-setup.md
+  skills/seo-google/references/crux-history-api.md:
+    sha256: 73da146d03fa60e8a7d300698c0949c7f1c7ad48acb809d9dc183f0ac8922966
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/crux-history-api.md
+  skills/seo-google/references/dma-consent-mode-v2.md:
+    sha256: 18ff25a0a9a9679cc5301cc1d76bea25046f6e3991ff2771d7eb2f6419b9aef8
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/dma-consent-mode-v2.md
+  skills/seo-google/references/ga4-data-api.md:
+    sha256: b6c29f9d830df1a406339c5776a7aebd648c5d2fd33eb7a2689106c5b3c7bbb9
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/ga4-data-api.md
+  skills/seo-google/references/indexing-api.md:
+    sha256: 5d2a4d4dc588ec94f37d42a49887e2769d177b6d179429cd1e54759ab9b12577
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/indexing-api.md
+  skills/seo-google/references/keyword-planner-api.md:
+    sha256: 5581b74899f9515481e861e5c42fef642b782ad65cc4990c6d4db9f66a3625cd
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/keyword-planner-api.md
+  skills/seo-google/references/nlp-api.md:
+    sha256: c21c9a1233d36659f5a3fa5f629917b434ce015f98d794ad8dddfbad8a752e18
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/nlp-api.md
+  skills/seo-google/references/pagespeed-crux-api.md:
+    sha256: 70bd5ad30369caa89f559698acf29b689c317d9c2e8d39ce1260510c2793bdd8
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/pagespeed-crux-api.md
+  skills/seo-google/references/rate-limits-quotas.md:
+    sha256: ad1f7d096e229526c8fe9026a98124a05221f53636eb6023f362dfd5fd3c2f96
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/rate-limits-quotas.md
+  skills/seo-google/references/search-console-api.md:
+    sha256: 85d81675748e7cb22e4d86c5639b8078dff341dcfabe22dc7b7acd8290e380bc
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/search-console-api.md
+  skills/seo-google/references/supplementary-apis.md:
+    sha256: b8937fb31fa09b2c2a09ad2573191183cad219cebafc09136a88eac133cddbc1
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/supplementary-apis.md
+  skills/seo-google/references/youtube-api.md:
+    sha256: 9db7a517b3f9b3e5191465ebe6168ac3f7b2ce0edd8f605817e2abd65f295d13
+    copied_from: ~/creative-engineering-os/library/skills/seo-google/references/youtube-api.md
+  skills/seo-hreflang/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-hreflang/LICENSE.txt
+  skills/seo-hreflang/SKILL.md:
+    sha256: ee99ea3f017e703244a688e4d3338d9c8102e9c7dd1229ae58ebaab668cb839e
+    copied_from: ~/creative-engineering-os/library/skills/seo-hreflang/SKILL.md
+  skills/seo-hreflang/references/content-parity.md:
+    sha256: b6691601644bfa06393bfdd5144a44e75b8845cef32ce60f9a84ab1b9250c67e
+    copied_from: ~/creative-engineering-os/library/skills/seo-hreflang/references/content-parity.md
+  skills/seo-hreflang/references/cultural-profiles.md:
+    sha256: b9719c15c897af247aa1601dc59b7ef856efd0f5226112f741145091e67166eb
+    copied_from: ~/creative-engineering-os/library/skills/seo-hreflang/references/cultural-profiles.md
+  skills/seo-hreflang/references/locale-formats.md:
+    sha256: f9278680533041a72e3fe7fc29244453a7bf9542e9f25f16da9a5c1590f7b310
+    copied_from: ~/creative-engineering-os/library/skills/seo-hreflang/references/locale-formats.md
+  skills/seo-hreflang/references/machine-translation-qa.md:
+    sha256: 8cccc6d268f93af80a6d321ce42c28f6ab60cf5117ebb0d93018063f6f881836
+    copied_from: ~/creative-engineering-os/library/skills/seo-hreflang/references/machine-translation-qa.md
+  skills/seo-image-gen/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/LICENSE.txt
+  skills/seo-image-gen/SKILL.md:
+    sha256: 1f419100c339a833c5ccc0e0e6fbe5e01e18451bde8a83314ff89127f791d557
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/SKILL.md
+  skills/seo-image-gen/references/cost-tracking.md:
+    sha256: 68db26647d0dee334a00afbb15d15430633823651349844e9066992ab2631ff6
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/cost-tracking.md
+  skills/seo-image-gen/references/gemini-models.md:
+    sha256: 1b94a2d256e5e15f12ab33c17065ad4f49bdd92025a1e0540cd27d4d42e40d4f
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/gemini-models.md
+  skills/seo-image-gen/references/mcp-tools.md:
+    sha256: 3affbc47e0475d0301584b3ef1516126b180451e94676e9f0eb19d70ca6f761d
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/mcp-tools.md
+  skills/seo-image-gen/references/post-processing.md:
+    sha256: 73f0ad0fff971ad1ec3abf2710d18eaa1c273ca298342b99af09afbecafa9609
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/post-processing.md
+  skills/seo-image-gen/references/presets.md:
+    sha256: 074b2a54deae13cf9f1a79915cdad6ecd655658222b53dc10d2d312c637c9693
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/presets.md
+  skills/seo-image-gen/references/prompt-adaptation-safety.md:
+    sha256: 8313e96d7eb76b33558662e2560a029e32bf5b3f96297bb23348884750af2f01
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/prompt-adaptation-safety.md
+  skills/seo-image-gen/references/prompt-engineering.md:
+    sha256: fb12b8e3fd9df5919ae6a2e6dff9df5fbc4f874b7730f9ef28e3106db743f709
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/prompt-engineering.md
+  skills/seo-image-gen/references/prompt-templates.md:
+    sha256: a3a24634bebdecb886669e5c86e279bcb73fe8af725a4d73840f7b5d41ce76da
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/prompt-templates.md
+  skills/seo-image-gen/references/seo-image-presets.md:
+    sha256: 7c806dd2bfdbc683b6b48bbcc5f7e109ab31a26209f308bccfd4b2ae668088a5
+    copied_from: ~/creative-engineering-os/library/skills/seo-image-gen/references/seo-image-presets.md
+  skills/seo-images/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-images/LICENSE.txt
+  skills/seo-images/SKILL.md:
+    sha256: 51afe540d638d2b10121bfecc46d1b2ecb652d544e52689d544e3efb0f4f6d82
+    copied_from: ~/creative-engineering-os/library/skills/seo-images/SKILL.md
+  skills/seo-local/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-local/LICENSE.txt
+  skills/seo-local/SKILL.md:
+    sha256: 5a5d0c0a97c0b9d5aed613c96c39e63401e640a3c0c65bf3aa303a588bba21a2
+    copied_from: ~/creative-engineering-os/library/skills/seo-local/SKILL.md
+  skills/seo-maps/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-maps/LICENSE.txt
+  skills/seo-maps/SKILL.md:
+    sha256: 95ca6999978193e4205ed34195d8cf80b84feeab70a7d3b85a758a5737ad519b
+    copied_from: ~/creative-engineering-os/library/skills/seo-maps/SKILL.md
+  skills/seo-page/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-page/LICENSE.txt
+  skills/seo-page/SKILL.md:
+    sha256: 4036cb2fec69242350d7c9a4bea99dffada4c0287ec7c344a5f42018f3bcf6c2
+    copied_from: ~/creative-engineering-os/library/skills/seo-page/SKILL.md
+  skills/seo-plan/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/LICENSE.txt
+  skills/seo-plan/SKILL.md:
+    sha256: fd1de9df9518bf9e3520915b2b610942fa75241ad9b1538c0b3b2711c949066f
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/SKILL.md
+  skills/seo-plan/assets/agency.md:
+    sha256: 63f159b62a81c91b0570a67eba779c7c9961f0222b15accb8dc4115455d60016
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/assets/agency.md
+  skills/seo-plan/assets/ecommerce.md:
+    sha256: f25619c871f85542cd1d656598607023b63805ed0f7f030b50d1b09f98563f16
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/assets/ecommerce.md
+  skills/seo-plan/assets/generic.md:
+    sha256: f6ae9d03d98361ce032d6bf1af60f6d5e124aa46babeb34e24028fb32c7a45f9
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/assets/generic.md
+  skills/seo-plan/assets/local-service.md:
+    sha256: 310530e66741e7d155e131850009bcc4a3148b9510905227ac09fd0f3fd00ab6
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/assets/local-service.md
+  skills/seo-plan/assets/publisher.md:
+    sha256: 30e3f4b9158053ea01a58e2aff6476f7162ba037b9f3998a68596ea8f6e22694
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/assets/publisher.md
+  skills/seo-plan/assets/saas.md:
+    sha256: cec7c2e52f65c6e13460793758ae9ae169d861c7507f735f3dd5cb0975a51b1b
+    copied_from: ~/creative-engineering-os/library/skills/seo-plan/assets/saas.md
+  skills/seo-programmatic/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-programmatic/LICENSE.txt
+  skills/seo-programmatic/SKILL.md:
+    sha256: a987a228640cd917cf145d92772b1f45ca7d3486cf83dd1a7677b1999fff1ee4
+    copied_from: ~/creative-engineering-os/library/skills/seo-programmatic/SKILL.md
+  skills/seo-schema/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-schema/LICENSE.txt
+  skills/seo-schema/SKILL.md:
+    sha256: 91a5a7b33cd1dca1c1e948556735352696c1e77e63af56f01cd723eac7bd519a
+    copied_from: ~/creative-engineering-os/library/skills/seo-schema/SKILL.md
+  skills/seo-schema/references/deprecated-types-2024-2026.md:
+    sha256: a8e0deb70032e8807182d64d407822acbc24946154d29b3551312340f7e1a6f9
+    copied_from: ~/creative-engineering-os/library/skills/seo-schema/references/deprecated-types-2024-2026.md
+  skills/seo-sitemap/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-sitemap/LICENSE.txt
+  skills/seo-sitemap/SKILL.md:
+    sha256: 9b56ca83f957a8f573b52794aa35a883040f4cb87e16ad3f04b30b0b22657066
+    copied_from: ~/creative-engineering-os/library/skills/seo-sitemap/SKILL.md
+  skills/seo-sxo/LICENSE.upstream:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/creative-engineering-os/library/skills/seo-sxo/LICENSE.upstream
+  skills/seo-sxo/SKILL.md:
+    sha256: 130ffff4628ceafdb70e7be789d791d7ceaeb5af27868f9ee31fa97e6bacdb2a
+    copied_from: ~/creative-engineering-os/library/skills/seo-sxo/SKILL.md
+  skills/seo-sxo/references/page-type-taxonomy.md:
+    sha256: 489c6bdf108e519b482b1ea7ee295f438c0d31d292d7bf904a7371ca48643dae
+    copied_from: ~/creative-engineering-os/library/skills/seo-sxo/references/page-type-taxonomy.md
+  skills/seo-sxo/references/persona-scoring.md:
+    sha256: 487955f23af4a089b65b3f89a2df68782e7b8af0c8f14a6b21a6cc3360ee8b34
+    copied_from: ~/creative-engineering-os/library/skills/seo-sxo/references/persona-scoring.md
+  skills/seo-sxo/references/user-story-framework.md:
+    sha256: 329ecef0cf1194c3f012f314419bef784c8ef2d08a9f0d2fe0616b5f46c68ae8
+    copied_from: ~/creative-engineering-os/library/skills/seo-sxo/references/user-story-framework.md
+  skills/seo-sxo/references/wireframe-templates.md:
+    sha256: 10d9cbe4b0d92346280f5d70dfbf21892a75fefb91ec48db205eb13143690d92
+    copied_from: ~/creative-engineering-os/library/skills/seo-sxo/references/wireframe-templates.md
+  skills/seo-technical/LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/creative-engineering-os/library/skills/seo-technical/LICENSE.txt
+  skills/seo-technical/SKILL.md:
+    sha256: 37ccc4b03e5ad813f337150217fff7568cb3eab15b937ea1e37fa975f825b1cc
+    copied_from: ~/creative-engineering-os/library/skills/seo-technical/SKILL.md
+  notices/5c617ae0aa59-LICENSE.txt:
+    sha256: 5c617ae0aa59b995e19b3e774fcc2f2ba91b864e0b4c3e18475b139526a2da1e
+    copied_from: ~/.codex/skill-sources/claude-seo-4b99de2f7de7/claude-seo-4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-audit/LICENSE.txt
+  notices/a42b3b0253ce-LICENSE:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/.codex/skill-sources/claude-seo-4b99de2f7de7/claude-seo-4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/LICENSE
+  notices/a42b3b0253ce-LICENSE.upstream:
+    sha256: a42b3b0253cecea9af810c5207a67b0be8c9a0cfbf52b9302c3d26b063e7a86b
+    copied_from: ~/creative-engineering-os/library/skills/seo-cluster/LICENSE.upstream
+  notices/25bc881ab74d-LICENSE.txt:
+    sha256: 25bc881ab74d06a365261e004f44c445a78a5241ee322cdeeb4ba7d7669be9b1
+    copied_from: ~/.codex/skill-sources/claude-seo-4b99de2f7de7/claude-seo-4b99de2f7de7e7d5247042e5fb5b4ea9368ef734/skills/seo-content-brief/LICENSE.txt
+notices:
+- skills/seo-audit/LICENSE.txt
+- skills/seo-agentic/LICENSE.txt
+- skills/seo-backlinks/LICENSE.txt
+- skills/seo-cluster/LICENSE.upstream
+- skills/seo-competitor-pages/LICENSE.txt
+- skills/seo-content/LICENSE.txt
+- skills/seo-content-brief/LICENSE.txt
+- skills/seo-dataforseo/LICENSE.txt
+- skills/seo-drift/LICENSE.upstream
+- skills/seo-ecommerce/LICENSE.upstream
+- skills/seo-flow/LICENSE.upstream
+- skills/seo-geo/LICENSE.txt
+- skills/seo-google/LICENSE.txt
+- skills/seo-hreflang/LICENSE.txt
+- skills/seo-image-gen/LICENSE.txt
+- skills/seo-images/LICENSE.txt
+- skills/seo-local/LICENSE.txt
+- skills/seo-maps/LICENSE.txt
+- skills/seo-page/LICENSE.txt
+- skills/seo-plan/LICENSE.txt
+- skills/seo-programmatic/LICENSE.txt
+- skills/seo-schema/LICENSE.txt
+- skills/seo-sitemap/LICENSE.txt
+- skills/seo-sxo/LICENSE.upstream
+- skills/seo-technical/LICENSE.txt
+- notices/5c617ae0aa59-LICENSE.txt
+- notices/a42b3b0253ce-LICENSE
+- notices/a42b3b0253ce-LICENSE.upstream
+- notices/25bc881ab74d-LICENSE.txt
+excluded:
+- source: ~/creative-engineering-os/library/skills/seo-flow/references/flow-prompts.lock
+  reason: secret-bearing filename, cache or generated lock/map

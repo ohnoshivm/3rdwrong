@@ -1,0 +1,1 @@
+../../.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md

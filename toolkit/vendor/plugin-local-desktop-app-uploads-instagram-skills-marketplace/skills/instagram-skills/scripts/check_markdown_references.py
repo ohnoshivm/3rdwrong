@@ -1,0 +1,1 @@
+../../../../plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/scripts/check_markdown_references.py

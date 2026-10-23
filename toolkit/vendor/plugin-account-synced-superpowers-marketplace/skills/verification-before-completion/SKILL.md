@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/verification-before-completion/SKILL.md

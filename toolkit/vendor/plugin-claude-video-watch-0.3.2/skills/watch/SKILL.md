@@ -1,0 +1,1 @@
+../../../pack-bradautomates-claude-video-mit/skills/watch/SKILL.md

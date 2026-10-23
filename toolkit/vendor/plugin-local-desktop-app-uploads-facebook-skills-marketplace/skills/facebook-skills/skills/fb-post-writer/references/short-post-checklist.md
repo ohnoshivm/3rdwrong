@@ -1,0 +1,1 @@
+../../../.codex-marketplace/facebook-skills/skills/fb-post-writer/references/short-post-checklist.md

@@ -1,0 +1,1 @@
+.codex-marketplace/facebook-skills/SKILL.md

@@ -1,0 +1,193 @@
+package: plugin-claude-plugins-official-plugin-dev-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-plugin-dev-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 1c3af7703695a2d4b6c33193cce1848e931aa27a8ef9fa64cc182e67b9c5dac9
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/LICENSE
+  agents/agent-creator.md:
+    sha256: 99ca808b7577e5c4b816cd7e621a1dea4b0ba9104ba24629cd713170cfe9dbd3
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/agents/agent-creator.md
+  agents/plugin-validator.md:
+    sha256: cd1cf892e9d4693a1b783ffd53965a25bad9c293db87a2122578c97fdb098b94
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/agents/plugin-validator.md
+  agents/skill-reviewer.md:
+    sha256: 78ac55ddc31dd78227df90029d9c2333bdd97567296ddd4a9b23c090a94fc09a
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/agents/skill-reviewer.md
+  commands/create-plugin.md:
+    sha256: f2c634dfc0b519dbb1795bd012f44f93a94cabfc2cbd08020ccd1816a435dab8
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/commands/create-plugin.md
+  skills/agent-development/SKILL.md:
+    sha256: 6a2826571320828cc6f8f21ccd8e6eefd2bced62000c8c5e43a712c12e2d83a1
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/SKILL.md
+  skills/agent-development/examples/agent-creation-prompt.md:
+    sha256: a299652c1bba7b43736cc72a14ada464baccc80c6431e5fa3a55bd13129ac54c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/examples/agent-creation-prompt.md
+  skills/agent-development/examples/complete-agent-examples.md:
+    sha256: 8321e9933dd0033c46bf5ae831e7cf7dc79783c80fb9b5ea1b66c74f4ac2b337
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/examples/complete-agent-examples.md
+  skills/agent-development/references/agent-creation-system-prompt.md:
+    sha256: c56e7fafb84bcbeff69ecd61b1f68ca380e8ba4177dc57c6ceeecd3aa8a83d7b
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/references/agent-creation-system-prompt.md
+  skills/agent-development/references/system-prompt-design.md:
+    sha256: eaac53eaaf8326ac04428987280fb5041920b7571477ad41742517c5aac683fc
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/references/system-prompt-design.md
+  skills/agent-development/references/triggering-examples.md:
+    sha256: b8ff47692b007b19b36df81ebd0562476202a21d67db80eeca9c3ee05528cb10
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/references/triggering-examples.md
+  skills/agent-development/scripts/validate-agent.sh:
+    sha256: d22e1292f997169fb745793dc50ebe3e9c6631603e1d77f04c2e79bb1fc63cba
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/agent-development/scripts/validate-agent.sh
+  skills/command-development/README.md:
+    sha256: dd4ba7eded93d7ba698f05ec63d06d110a6b5543664af359b005dd976ce811b8
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/README.md
+  skills/command-development/SKILL.md:
+    sha256: c55ad02cfe4cbb2a947eea3b1ed5fa1871e722d627c3c6792c3ed87c10c4d7a8
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/SKILL.md
+  skills/command-development/examples/plugin-commands.md:
+    sha256: 7d71d7b516020a6c171171399b40dd2cad02b842c9faa78b90e0983906c9ee94
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/examples/plugin-commands.md
+  skills/command-development/examples/simple-commands.md:
+    sha256: f2533ed834305166603bcb4dd870d695af4a33b9a49d330937a4c70ed964767c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/examples/simple-commands.md
+  skills/command-development/references/advanced-workflows.md:
+    sha256: eb258095b5a411b68377c96730effe597884a14b619cb0c1a7ab1c801d80a7d9
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/advanced-workflows.md
+  skills/command-development/references/documentation-patterns.md:
+    sha256: 70c6c9b0a9b2d46a925ada6c45808a73498a457e1d641c82cc05de8a29a33b05
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/documentation-patterns.md
+  skills/command-development/references/frontmatter-reference.md:
+    sha256: db1ea175ca4b0bb7d11c75cb8a7d00b353ea7cf4df2027b4263e45ded4d39475
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/frontmatter-reference.md
+  skills/command-development/references/interactive-commands.md:
+    sha256: 09ab1f18bfa3ff5f7088e45d5810ac20eb25ffc97fc9e8bb79416d40e0b4516b
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/interactive-commands.md
+  skills/command-development/references/marketplace-considerations.md:
+    sha256: ab30835431d06a8e65cd629ba0e73b3f1de5b043126c6fef7ea70163400e90f4
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/marketplace-considerations.md
+  skills/command-development/references/plugin-features-reference.md:
+    sha256: 57e11ae6a4bbc1a4a295d1f036202970911d6029d64f4ab058b63a4c5a899072
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/plugin-features-reference.md
+  skills/command-development/references/testing-strategies.md:
+    sha256: e6ccf78d85c23bc58582dbc8b91731c4e412568705ed2c87ac699a1ded9adc67
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/command-development/references/testing-strategies.md
+  skills/hook-development/SKILL.md:
+    sha256: f47e2d42f6360294216a859ae0c30b93caafdd2b2e5ffc007489ba4ca447fa5c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/SKILL.md
+  skills/hook-development/examples/load-context.sh:
+    sha256: 0d614599e711c087b381a4ac7ee3c40758af1022669fc998649d199b9dfe15ed
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/examples/load-context.sh
+  skills/hook-development/examples/validate-bash.sh:
+    sha256: 348c58f4cf38a2e7080ea5272935a7658c7122d83dd6c52d0a1f2ef599c176ab
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/examples/validate-bash.sh
+  skills/hook-development/examples/validate-write.sh:
+    sha256: 89a8ef9bb7508e4819080e65834d6783afa5a5a614d458a3821b80a329eb32e5
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/examples/validate-write.sh
+  skills/hook-development/references/advanced.md:
+    sha256: 5b139ceeb6a3ef16555a6eef421e2642e6ca286b5527ee2b4e02c11ae5b75dd5
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/references/advanced.md
+  skills/hook-development/references/migration.md:
+    sha256: 7f8e7a795829837f46a0c058c26c8f5c4aa8be5c9fb5316b828229d1802ded77
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/references/migration.md
+  skills/hook-development/references/patterns.md:
+    sha256: cb607fca192bfa892fd198141b86dac9d0ca2c573a280b054b7beaa56fc9a8bf
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/references/patterns.md
+  skills/hook-development/scripts/README.md:
+    sha256: 08a28b12ffa9fcb16f257ea685c70a920f4f835978b9ffbbac055137c6f6aca0
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/scripts/README.md
+  skills/hook-development/scripts/test-hook.sh:
+    sha256: ded642e811b4731f6a2c90c73b02e00c937511d9ee65236bb8cf9964f0069393
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/scripts/test-hook.sh
+  skills/hook-development/scripts/validate-hook-schema.sh:
+    sha256: e7785d6c61d368f5ea5270c979753aea02f776f5b6aa220137ec4585abd720c2
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/scripts/validate-hook-schema.sh
+  skills/mcp-integration/SKILL.md:
+    sha256: b9319d8e44c8f058c1c4f003168295ab2582567fd6329c8b933409116e938bc6
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/SKILL.md
+  skills/mcp-integration/examples/http-server.json:
+    sha256: 7a11adaea5ac1bb76269bf473f5cf5cbd636a83c2ec0b7007f2b1cbf4a8a725f
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/examples/http-server.json
+  skills/mcp-integration/examples/sse-server.json:
+    sha256: 2bb1c32911c5714158e368d4bb347306078f6d2097b653e9e5c9a02d2cc0510e
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/examples/sse-server.json
+  skills/mcp-integration/examples/stdio-server.json:
+    sha256: 46148a5dc7fc5e63c681c5fb975d3908d3f3052f51de7236725cdadda41e2b5d
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/examples/stdio-server.json
+  skills/mcp-integration/references/authentication.md:
+    sha256: 2f48cf8fd68d169e885ce96a62a7feaadd0fa293d74b451a51998947f41a8f86
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/references/authentication.md
+  skills/mcp-integration/references/server-types.md:
+    sha256: 44e8be4103d6e6bf98790fd9c9b16102026e322cf7359ea259d345bf16e2dd51
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/references/server-types.md
+  skills/mcp-integration/references/tool-usage.md:
+    sha256: 8dd0005d7ba6cd2d24e72f9e6102c129b7445fc818e14656ad9ebaef6621a7a6
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/mcp-integration/references/tool-usage.md
+  skills/plugin-settings/SKILL.md:
+    sha256: 028b955244b937ebc1a5c268a12776b8ceae4cbfb60928fbca927227f4c8851d
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/SKILL.md
+  skills/plugin-settings/examples/create-settings-command.md:
+    sha256: abf0a36bb3f6425041046f2da1ebfac5505c5b37656fdd4772cfc4d8bd2fa655
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/examples/create-settings-command.md
+  skills/plugin-settings/examples/example-settings.md:
+    sha256: f07209b6e2fb62d443ae07d01bc1674c6c741c352a04549bfa978e1f34b9769e
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/examples/example-settings.md
+  skills/plugin-settings/examples/read-settings-hook.sh:
+    sha256: 627fce38d37d64c971401ecc85d548f060075670bcac52f65c92ca156e810c70
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/examples/read-settings-hook.sh
+  skills/plugin-settings/references/parsing-techniques.md:
+    sha256: bc90aa020aa5fcbb3483d7316754450dcc91d086ee96f9304fa655e878f7712e
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/references/parsing-techniques.md
+  skills/plugin-settings/references/real-world-examples.md:
+    sha256: 35c8805ac43fccd9efeef932bc49afc424f8fd150b553197652996abf2d1327e
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/references/real-world-examples.md
+  skills/plugin-settings/scripts/parse-frontmatter.sh:
+    sha256: 1ab8c42d5a19e0b404af3c573d0267fc19b5987e1d7885f522066ffd76e54553
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/scripts/parse-frontmatter.sh
+  skills/plugin-settings/scripts/validate-settings.sh:
+    sha256: 2f4975285cba7f16b82c764a95fe76d34ac488308ba6705c04561267da4f4f75
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-settings/scripts/validate-settings.sh
+  skills/plugin-structure/README.md:
+    sha256: c7cb4931d6d71198cba6b552e4733b41940be56a65552a2ff7c5656750b95184
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/README.md
+  skills/plugin-structure/SKILL.md:
+    sha256: a2dbc1e5502aacb360d0ca74732cdd7be4f6a12a49edf4f2ade4134fbc026247
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/SKILL.md
+  skills/plugin-structure/examples/advanced-plugin.md:
+    sha256: 3d24f5856048a94cb99fe2b8207d99f2f5d69325771b361d63ec73024290759c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/examples/advanced-plugin.md
+  skills/plugin-structure/examples/minimal-plugin.md:
+    sha256: c4f14fe56b153be3c532b7947bb10b453fc92e280dca5a7da752d2b1b5d17448
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/examples/minimal-plugin.md
+  skills/plugin-structure/examples/standard-plugin.md:
+    sha256: b8cfba84bd4dbdc83365cebcde5dcc6391252372300df0c1ea7890441582d784
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/examples/standard-plugin.md
+  skills/plugin-structure/references/component-patterns.md:
+    sha256: 38681792a6aba4f06d3c391b20b04060263f1fbaacc5880cc0cafe0543d37f91
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/references/component-patterns.md
+  skills/plugin-structure/references/manifest-reference.md:
+    sha256: d0ff8ffece4754df92c543266b8d0b689fb85473f51fbb57e215f2d235ee9782
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/plugin-structure/references/manifest-reference.md
+  skills/skill-development/SKILL.md:
+    sha256: d51b4e20043b13e462aa86c47ea82d43e216eb292871538127f4b12a54e4944f
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/skill-development/SKILL.md
+  skills/skill-development/references/skill-creator-original.md:
+    sha256: 8c0ce23bb87be91f5b0853c2e9815617c3858b63acdddfe5da47d2c2d3a60816
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/skill-development/references/skill-creator-original.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded:
+- source: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/skills/hook-development/scripts/hook-linter.sh
+  reason: identifiable personal home path; excluded unchanged

@@ -189,7 +189,9 @@
     ".github/**",
     "tests/fixtures/**",
     "THIRD_PARTY_NOTICES.md",
-    ".claude/agents/**"
+    ".claude/agents/**",
+    "toolkit/manual.md",
+    "toolkit/SECURITY-REVIEW.md"
   ],
   "required_skill_sections": [
     "Purpose",

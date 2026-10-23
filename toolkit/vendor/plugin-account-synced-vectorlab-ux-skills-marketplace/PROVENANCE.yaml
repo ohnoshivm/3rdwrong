@@ -1,0 +1,172 @@
+package: plugin-account-synced-vectorlab-ux-skills-marketplace
+upstream_url: https://github.com/VectorLabAU/skills
+pinned_ref:
+- 1.0.0
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-account-synced-vectorlab-ux-skills-marketplace
+copied_from:
+- ~/.claude/plugins/synced/ACCOUNT/PLUGIN
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: de65bd3820931dadb6eebbfb542099d2bc2d3ef654b1d15b34e9a8a9efa2bc13
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: db9f4eb461073e3c4347dd34a29b70b8733b32c15f53a4288726b6827854113a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: 150d0a5a345c232c24235d221a0649b9c76e9c223c8d3ebf6b4829e9c8bc5f8e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  skills/animation/motion/SKILL.md:
+    sha256: 48af17c8ae67c02a894007614ef45cc7ff4acc4898c2b4ae1378188f2fad4879
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/animation/motion/SKILL.md
+  skills/animation/motion/reference/timing-tokens.md:
+    sha256: 11148c5da584ef4efdddb87a4c011e7a36f2d002addb4ad37674e76cce3a32aa
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/animation/motion/reference/timing-tokens.md
+  skills/animation/reduced-motion/SKILL.md:
+    sha256: 534ed5aaec15d998d6ebd1f0107b5921856e8b2c6ebfe1ab55e47b6ead08dfd4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/animation/reduced-motion/SKILL.md
+  skills/animation/reduced-motion/reference/motion-a11y.md:
+    sha256: 3520c8018450ef3c5a88c00ddfcaab099716907495ef930dcad4ccea54549ca6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/animation/reduced-motion/reference/motion-a11y.md
+  skills/animation/transitions/SKILL.md:
+    sha256: 700aa2dd168b99e245be779c405fa4dbf576c54bc1fcc20ab878c5ecf430601a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/animation/transitions/SKILL.md
+  skills/animation/transitions/reference/enter-exit.md:
+    sha256: 4a935c579f7dc47738ee1dca6c787700c18bdb26da19956ac35991b7138ddc13
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/animation/transitions/reference/enter-exit.md
+  skills/audit/ux-audit/SKILL.md:
+    sha256: e393196cfab45bd5998e351bd075f9e8a25c2caddd0d14e799dfe3fdfe0ddf5d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/audit/ux-audit/SKILL.md
+  skills/config/product-profile.template.md:
+    sha256: 56b044d5b2e8b91624778b50249ca22fc40eb5314223c759093555bac38f6aae
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/config/product-profile.template.md
+  skills/feedback/empty-states/SKILL.md:
+    sha256: 026721db7f10d451bc070868218bcf66b483b88e87a18da69444d81577730dd8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/feedback/empty-states/SKILL.md
+  skills/feedback/empty-states/reference/activation-patterns.md:
+    sha256: 09256af0ac3754ba656b4af1099c465de1dbd1189e1f51624e4b5506230dc872
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/feedback/empty-states/reference/activation-patterns.md
+  skills/feedback/loaders/SKILL.md:
+    sha256: 254c556b300b18f013ca20a3acc46a1722653bbe1a9632f9c84fadf3f0ca60bf
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/feedback/loaders/SKILL.md
+  skills/feedback/loaders/reference/timing-benchmarks.md:
+    sha256: 33d38a0660352c03069a1eebe3af46ce6a876225a9cdc6a5c711831ff27d4f5a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/feedback/loaders/reference/timing-benchmarks.md
+  skills/interaction/defaults/SKILL.md:
+    sha256: aec540db146a2c28f5d148b5029543359288330c1c57d1b150a35510fa62a54f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/defaults/SKILL.md
+  skills/interaction/defaults/reference/state-persistence.md:
+    sha256: 53ea9d7d6be9ea4adf01d2050e2e3a7be006f30e4734955f950f4bccdc0952b1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/defaults/reference/state-persistence.md
+  skills/interaction/forms/SKILL.md:
+    sha256: ba19b6a350f80c217910ef6bdc10d3634f3ff97c3750a71adebc72a6964362f2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/forms/SKILL.md
+  skills/interaction/forms/reference/form-best-practices.md:
+    sha256: 880c0d1659ec7a96621093d4c7bcf0e1c21b642b35967f2376cf20fc2151e8bb
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/forms/reference/form-best-practices.md
+  skills/interaction/icon-buttons/SKILL.md:
+    sha256: dcf9908f1a0bc4128d5a803d70aa3a8dfdbeb1fb7dba8746777aa0273759c4d7
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/icon-buttons/SKILL.md
+  skills/interaction/icon-buttons/reference/icon-button-contract.md:
+    sha256: e3d4d0bfa8a8af9481b30ceceade2b4e1366b4575cf1b5fafa0ae2a22152d4e4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/icon-buttons/reference/icon-button-contract.md
+  skills/interaction/keyboard/SKILL.md:
+    sha256: bbbd2053d81519053642b15067daac03e183aa5666ce3314ee9c6730153b71ad
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/keyboard/SKILL.md
+  skills/interaction/keyboard/reference/keybinding-matrix.md:
+    sha256: a7d2099a1bd9d3a11f408bfd254afb4077faa11ab16a77294331cb7203dd9f50
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/keyboard/reference/keybinding-matrix.md
+  skills/interaction/page-patterns/SKILL.md:
+    sha256: 06a6df7402bfe61470a4c956f70f250baf5ee53dc41a84a44fbf695e948c9e3a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/page-patterns/SKILL.md
+  skills/interaction/page-patterns/reference/catalog.md:
+    sha256: 1475b597763550631eae1fce0760f5e918904132b89277cbd2efdb5c8a994512
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/page-patterns/reference/catalog.md
+  skills/interaction/page-patterns/reference/decision-tree.md:
+    sha256: 47beb7dae6deb7218bf585d308adf59a1e6e154258d6eb21d4ee952e803a0780
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/page-patterns/reference/decision-tree.md
+  skills/interaction/page-patterns/reference/marketing.md:
+    sha256: 65fa85f646371c2c0d22ea48182aa58cc65d4a435c1fdaf246d679e057f67917
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/page-patterns/reference/marketing.md
+  skills/interaction/surfaces/SKILL.md:
+    sha256: 5446779362526beb757f0978d3687806ca0f5a24b06e3b01b4f2fbbd3eae397c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/surfaces/SKILL.md
+  skills/interaction/surfaces/reference/destructive-actions.md:
+    sha256: 48f516259419d6bac43d6eec8af29a7de84e618d99255f2d70006963815ec65d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction/surfaces/reference/destructive-actions.md
+  skills/setup/setup-ui-ux-skills/SKILL.md:
+    sha256: 35f2a26ae1ac6843761f4850f9c789f9a492463f8d068dbd7a98925946d7b81f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/setup/setup-ui-ux-skills/SKILL.md
+  skills/setup/setup-ui-ux-skills/agents/openai.yaml:
+    sha256: 65199633b5f8b60b751751e46635eabe79557b69516acbd9af3b2f7b4b76667c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/setup/setup-ui-ux-skills/agents/openai.yaml
+  skills/setup/setup-ui-ux-skills/reference/anti-patterns.md:
+    sha256: b5b83e33c788f5c6cce7026dcc0fc217290b63d28a3ba203370c07374c6d3146
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/setup/setup-ui-ux-skills/reference/anti-patterns.md
+  skills/setup/setup-ui-ux-skills/reference/icon-libraries.md:
+    sha256: a14695f4d8d716e9a9736843a5f55ba22a9e258da2782aabc10e9da02b4040ad
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/setup/setup-ui-ux-skills/reference/icon-libraries.md
+  skills/setup/setup-ui-ux-skills/reference/taste-archetypes.md:
+    sha256: 02d707408462ea5b417a7fc77f9a900e99e13e632cee5bb8cf25d14d9f0d1b6b
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/setup/setup-ui-ux-skills/reference/taste-archetypes.md
+  skills/visual-taste/anti-slop/SKILL.md:
+    sha256: 240839d6133b58eb961ec917e78c3a2431adfd9c63bf3b9869a3a284c2d17c62
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/anti-slop/SKILL.md
+  skills/visual-taste/anti-slop/reference/slop-checklist.md:
+    sha256: 166a0d36f93f2c3835fde03fc64934d2daf4c3f0ea4e14d32b9c8a0d9296072e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/anti-slop/reference/slop-checklist.md
+  skills/visual-taste/colour-palette/SKILL.md:
+    sha256: 013a3f610751975fc02b75eeaa28783cfa9a055fe90925c5ed20847f7a139755
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/colour-palette/SKILL.md
+  skills/visual-taste/colour-palette/reference/elevation-tokens.md:
+    sha256: e9d948299cb6a174d7fa1452715ea92fb26aacabdba59327b6bbea7b20704759
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/colour-palette/reference/elevation-tokens.md
+  skills/visual-taste/spacing/SKILL.md:
+    sha256: de4d6a46813a449f2e82d3f1b8a01f295a11094d786a68f649dd0af2734c25a1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/spacing/SKILL.md
+  skills/visual-taste/spacing/reference/optical-offsets.md:
+    sha256: 90c86068481afc2482a03c4f75655ab281bf6908943916b281b0412d5e17b980
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/spacing/reference/optical-offsets.md
+  skills/visual-taste/typography/SKILL.md:
+    sha256: 10bce3e4e1319b3f7b8c47bab3ce70c5dcf1d845710bbf0101eefd1af6d88eff
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/typography/SKILL.md
+  skills/visual-taste/typography/reference/scale-math.md:
+    sha256: d970636ca14d595d8f5470ed65f56d38fac3987acc81d8bc15c6adecc4ff9481
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/typography/reference/scale-math.md
+  skills/visual-taste/viewports/SKILL.md:
+    sha256: e2955c9d2cf10f709cddef0ab048397e78edc7981af42498a96f4da2908b5d9c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/viewports/SKILL.md
+  skills/visual-taste/viewports/reference/breakpoint-tokens.md:
+    sha256: b308f4cca1aa8cc2e8fc83a21aa21d836f454809f7b84a47902b6340bb596352
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/visual-taste/viewports/reference/breakpoint-tokens.md
+  skills/voice/errors/SKILL.md:
+    sha256: 745cb87a3cf84be4773e9ca3fbf2cac7b1baa88174b1f1e4c6686040d9f09ef6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/voice/errors/SKILL.md
+  skills/voice/errors/reference/error-taxonomy.md:
+    sha256: bff708c5dd101cc16d390ce7d0625bd3f4e5c97c03790f5e005fca8b530945c6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/voice/errors/reference/error-taxonomy.md
+  skills/voice/labels/SKILL.md:
+    sha256: ed3f4d81628eefeafcf0a43b57c064705c5b8de880d24058f8fc2e712f8b7081
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/voice/labels/SKILL.md
+  skills/voice/labels/reference/placeholder-rules.md:
+    sha256: 7691dfa32824320064a7869782498e91a7d5251fa5552660465bfcfe56671c22
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/voice/labels/reference/placeholder-rules.md
+  skills/voice/verbs/SKILL.md:
+    sha256: 145411de9b3c86b5cc44ffe7d219225e001d126e1f82b2336669e1bbb33cec6a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/voice/verbs/SKILL.md
+  skills/voice/verbs/reference/verb-dictionary.md:
+    sha256: 08ce568795f3ca3430761e2b48c0d2064d50189b063dbe3ef6c6520f3efa310b
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/voice/verbs/reference/verb-dictionary.md
+  notices/db9f4eb46107-plugin.json:
+    sha256: db9f4eb461073e3c4347dd34a29b70b8733b32c15f53a4288726b6827854113a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-vectorlab-ux-skills-marketplace/.claude-plugin/plugin.json
+  notices/150d0a5a345c-LICENSE:
+    sha256: 150d0a5a345c232c24235d221a0649b9c76e9c223c8d3ebf6b4829e9c8bc5f8e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+notices:
+- LICENSE
+- notices/db9f4eb46107-plugin.json
+- notices/150d0a5a345c-LICENSE
+excluded: []

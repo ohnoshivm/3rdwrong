@@ -1,0 +1,44 @@
+package: plugin-claude-plugins-official-playground-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-playground-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 2975f5ccac97a08db8a4f52f214057a0d784115dd55cbbd398ea2d871b3df0bb
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/LICENSE
+  skills/playground/SKILL.md:
+    sha256: 521a3d62211e5f47b65ed17b660e001b15cf8d88d058cbf31bc00e889bcb63cc
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/SKILL.md
+  skills/playground/templates/code-map.md:
+    sha256: 0eb7c0d1ac3dbd1401c4a2348631e7be2a02ec30739dd514aab6f162cfade77f
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/templates/code-map.md
+  skills/playground/templates/concept-map.md:
+    sha256: 153810786435a1f3e3948aba075ebf3c887df827464bebca61f48ce7974e9622
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/templates/concept-map.md
+  skills/playground/templates/data-explorer.md:
+    sha256: 4b884e4b400f3af82b7f33210c5c2017a5296cab16f1496963bd42061a1fe342
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/templates/data-explorer.md
+  skills/playground/templates/design-playground.md:
+    sha256: 190f7da424ebd3226a679045420b64171a98d081b7d84e26be4553de13c91fe7
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/templates/design-playground.md
+  skills/playground/templates/diff-review.md:
+    sha256: 32112ba4e82fbb8b656af166d1e21f8461cedbb4fdb5d2c314c43d210ea7e37d
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/templates/diff-review.md
+  skills/playground/templates/document-critique.md:
+    sha256: c5bd7a68a53f2075d127e482c93b5f3d0b51c24bf8d301c1124801cca7be2d41
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/skills/playground/templates/document-critique.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

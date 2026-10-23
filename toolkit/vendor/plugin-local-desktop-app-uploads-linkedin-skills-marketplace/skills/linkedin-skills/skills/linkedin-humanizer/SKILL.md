@@ -1,0 +1,1 @@
+../../.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/SKILL.md

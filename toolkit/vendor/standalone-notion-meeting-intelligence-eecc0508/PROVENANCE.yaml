@@ -1,0 +1,76 @@
+package: standalone-notion-meeting-intelligence-eecc0508
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: MIT
+evidence_path: toolkit/sources/packages.json#standalone-notion-meeting-intelligence-eecc0508
+copied_from:
+- ~/creative-engineering-os/library/skills/notion-meeting-intelligence
+copied_on: '2026-10-23'
+files:
+  skills/notion-meeting-intelligence/LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/LICENSE.upstream
+  skills/notion-meeting-intelligence/SKILL.md:
+    sha256: 73331739b54407000b86cfd546232c7736f33fc1052d4337b3647e4077c87acc
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/SKILL.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/SKILL.md
+  skills/notion-meeting-intelligence/agents/openai.yaml:
+    sha256: 8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/agents/openai.yaml
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/agents/openai.yaml
+  skills/notion-meeting-intelligence/examples/customer-meeting.md:
+    sha256: 3e44bb3eb9ef74bd00ebbb8fdd16fa439eed96bcb7f2b49bbc6b8ecedc699f18
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/examples/customer-meeting.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/examples/customer-meeting.md
+  skills/notion-meeting-intelligence/examples/executive-review.md:
+    sha256: fc35addb996af05415412a104c7bd7e0e28a1cee9a1ab5ab8d7ffb23cac6e38c
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/examples/executive-review.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/examples/executive-review.md
+  skills/notion-meeting-intelligence/examples/project-decision.md:
+    sha256: 5c0d0eed7cfbcdd30765a8408dde08dd4f2a9c374d39e252b0b146ee5a1020da
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/examples/project-decision.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/examples/project-decision.md
+  skills/notion-meeting-intelligence/examples/sprint-planning.md:
+    sha256: 5857a1ed1ea1eddc658f6ff27dfc25dfce42656906a259f672f3578578e01d41
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/examples/sprint-planning.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/examples/sprint-planning.md
+  skills/notion-meeting-intelligence/reference/brainstorming-template.md:
+    sha256: 685c89be4b278c4b897d3a7295d4eb8b29fb786a27e13f640712e8ea6a9e0639
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/brainstorming-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/brainstorming-template.md
+  skills/notion-meeting-intelligence/reference/decision-meeting-template.md:
+    sha256: 9f74a016a430c39263fdd1d4b7f1c808fb7b79f0f79a83ccc32b8bb1dea432bc
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/decision-meeting-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/decision-meeting-template.md
+  skills/notion-meeting-intelligence/reference/meeting-to-actions.md:
+    sha256: db4b0b909c2e2513e3d53c86ede9d34487b712705146db1e49e272d2a9bf01a0
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/meeting-to-actions.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/meeting-to-actions.md
+  skills/notion-meeting-intelligence/reference/one-on-one-template.md:
+    sha256: 986075597ff9674c04be326a90db8cc0ed1e6bdd3fc1e044ba96ca9794d6d4b4
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/one-on-one-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/one-on-one-template.md
+  skills/notion-meeting-intelligence/reference/retrospective-template.md:
+    sha256: d0d8c6a55fd43ebef6f209ff1f1050d18af395c48bd8bf9b6aa633ac0b59d978
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/retrospective-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/retrospective-template.md
+  skills/notion-meeting-intelligence/reference/sprint-planning-template.md:
+    sha256: 07974127c2862787f96cbf92b4a7e50783bc447f1cf6ceb1fb857f67153e3964
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/sprint-planning-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/sprint-planning-template.md
+  skills/notion-meeting-intelligence/reference/status-update-template.md:
+    sha256: e38d17649e59aedd164b68fe99e21ae975429ddd54ac39843f418a56e689d3d2
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/status-update-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/status-update-template.md
+  skills/notion-meeting-intelligence/reference/template-selection-guide.md:
+    sha256: 5496da0a8d1146b939cf8da9da3b5c266ba456eb1340d28e43504de1ca3d6c6c
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/reference/template-selection-guide.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/template-selection-guide.md
+  notices/6f774643156a-LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-meeting-intelligence/LICENSE.upstream
+notices:
+- skills/notion-meeting-intelligence/LICENSE.upstream
+- notices/6f774643156a-LICENSE.upstream
+excluded: []

@@ -1,0 +1,95 @@
+package: pack-ohnoshivm-creative-engineering-os-mit
+upstream_url: https://github.com/ohnoshivm/creative-engineering-os
+pinned_ref:
+- 6303effaee75c9f27198b3db72d213cb030e0501
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-ohnoshivm-creative-engineering-os-mit
+copied_from:
+- ~/creative-engineering-os/agents
+- ~/creative-engineering-os/integrations/skills/pmndrs-examples
+- ~/creative-engineering-os/integrations/skills/react-bits
+- ~/creative-engineering-os/skills/ceos-3d-asset-pipeline
+- ~/creative-engineering-os/skills/ceos-art-direction
+- ~/creative-engineering-os/skills/ceos-creative-coding
+- ~/creative-engineering-os/skills/ceos-creative-direction
+- ~/creative-engineering-os/skills/ceos-frontend-architecture
+- ~/creative-engineering-os/skills/ceos-interaction-architecture
+- ~/creative-engineering-os/skills/ceos-motion-direction
+- ~/creative-engineering-os/skills/ceos-performance-engineering
+- ~/creative-engineering-os/skills/ceos-production-quality
+- ~/creative-engineering-os/skills/ceos-realtime-3d
+- ~/creative-engineering-os/skills/ceos-shader-engineering
+- ~/creative-engineering-os/skills/ceos-start-here
+- ~/creative-engineering-os/skills/ceos-studio-workflow
+- ~/creative-engineering-os/skills/ceos-visual-audit
+copied_on: '2026-10-23'
+files:
+  agents/TEAM.md:
+    sha256: cacad7ed2c2d3c9a7037b86b71726c17ef19da363c98d8cd5c9a9fb782844b03
+    copied_from: ~/creative-engineering-os/agents/TEAM.md
+  agents/creative-auditor.md:
+    sha256: 7a40cb83c8bbfc77c4d81702c1f735ed8cd4bff4f5249a56228cd4cadb4498c6
+    copied_from: ~/creative-engineering-os/agents/creative-auditor.md
+  agents/opencode/creative-auditor.md:
+    sha256: 8818dfb1bf20712954f19d8b1569a57d9af74bc777e42c54e9ee5f6797dafc1e
+    copied_from: ~/creative-engineering-os/agents/opencode/creative-auditor.md
+  skills/pmndrs-examples/SKILL.md:
+    sha256: 68307f53346673437249d7cd9371ee6ec9c9248f75f07d490e433f607b35b540
+    copied_from: ~/creative-engineering-os/integrations/skills/pmndrs-examples/SKILL.md
+  skills/react-bits/SKILL.md:
+    sha256: 6101294460fe0f63d74aab11f0ee07d5856ce0dcf39bed74110d740ec5473b98
+    copied_from: ~/creative-engineering-os/integrations/skills/react-bits/SKILL.md
+  skills/ceos-3d-asset-pipeline/SKILL.md:
+    sha256: 6e4e29d6aa1b4f75c3b4860d7cfcc6c060bec946e867e8d12d96ecc9657b8f66
+    copied_from: ~/creative-engineering-os/skills/ceos-3d-asset-pipeline/SKILL.md
+  skills/ceos-art-direction/SKILL.md:
+    sha256: fad46d970328fe64e57b3018f52233aeb4e1a81cedc6a71c7a2a41beb3e110b6
+    copied_from: ~/creative-engineering-os/skills/ceos-art-direction/SKILL.md
+  skills/ceos-art-direction/references/type-and-grid.md:
+    sha256: 9e925938657297ca0ccae817244943e92f11d48ac107e3766a352d0e8aed6e4b
+    copied_from: ~/creative-engineering-os/skills/ceos-art-direction/references/type-and-grid.md
+  skills/ceos-creative-coding/SKILL.md:
+    sha256: c331d19a493528b72fa0a30f41cdc4a41f9b45e7bdb6dcd5f0aee560c9a2a895
+    copied_from: ~/creative-engineering-os/skills/ceos-creative-coding/SKILL.md
+  skills/ceos-creative-direction/SKILL.md:
+    sha256: 5efe4986b836f222a562e14596dec4876f51be4fa7058e66d28cb6855627e7f8
+    copied_from: ~/creative-engineering-os/skills/ceos-creative-direction/SKILL.md
+  skills/ceos-creative-direction/references/benchmarks.md:
+    sha256: 57cf739f99a2562f4bda4eec0eb94d370e4029bcfe92cbf745d93d3b444879d9
+    copied_from: ~/creative-engineering-os/skills/ceos-creative-direction/references/benchmarks.md
+  skills/ceos-frontend-architecture/SKILL.md:
+    sha256: 7a55dac757f789013210b55bf7eb238546e69525d3022205b610c2af23dbb79d
+    copied_from: ~/creative-engineering-os/skills/ceos-frontend-architecture/SKILL.md
+  skills/ceos-interaction-architecture/SKILL.md:
+    sha256: 6edad8b8559cfbe0b55c2489eb3a3ae3b29e3afd12281033a872b42c1d4a80d9
+    copied_from: ~/creative-engineering-os/skills/ceos-interaction-architecture/SKILL.md
+  skills/ceos-motion-direction/SKILL.md:
+    sha256: 3580c473fc510209bba54b0b4ef37585a9d3a6d49ba219b2520aa191e932e2cd
+    copied_from: ~/creative-engineering-os/skills/ceos-motion-direction/SKILL.md
+  skills/ceos-performance-engineering/SKILL.md:
+    sha256: 62bc9503dfa533978c11911c93751d111087c916494d57d6e99fb391d10357da
+    copied_from: ~/creative-engineering-os/skills/ceos-performance-engineering/SKILL.md
+  skills/ceos-production-quality/SKILL.md:
+    sha256: 0acbdbfacf85a3e92b1357a25ec98f2e5912348a0f51c602d5244cfd8d698ff6
+    copied_from: ~/creative-engineering-os/skills/ceos-production-quality/SKILL.md
+  skills/ceos-realtime-3d/SKILL.md:
+    sha256: c4834233919d517aa71a5968b885ffc89d88535be867bfaa2c90ffe126fe2a53
+    copied_from: ~/creative-engineering-os/skills/ceos-realtime-3d/SKILL.md
+  skills/ceos-shader-engineering/SKILL.md:
+    sha256: e7eb98e0c6ef3a920b71cd24d9483df44bca9261d3e7d7fafc59691a38d2d3b6
+    copied_from: ~/creative-engineering-os/skills/ceos-shader-engineering/SKILL.md
+  skills/ceos-start-here/SKILL.md:
+    sha256: b657554cdffe019f9360217d33ddab07d17a1546ac67bc5a2d625235057cd3f6
+    copied_from: ~/creative-engineering-os/skills/ceos-start-here/SKILL.md
+  skills/ceos-studio-workflow/SKILL.md:
+    sha256: 09d39e094a6319eda008146b94dd48280d98e4a97bec9e40920cbbb8133004ca
+    copied_from: ~/creative-engineering-os/skills/ceos-studio-workflow/SKILL.md
+  skills/ceos-visual-audit/SKILL.md:
+    sha256: 13ac71205c1f0f6522320c071e98a123531c280061882eee37cf9c8653fc1aff
+    copied_from: ~/creative-engineering-os/skills/ceos-visual-audit/SKILL.md
+  notices/e49daf61e99b-LICENSE:
+    sha256: e49daf61e99be56af003b83901d70e02d76e0e3c8e84540677d78bb81a4a97e7
+    copied_from: ~/creative-engineering-os/LICENSE
+notices:
+- notices/e49daf61e99b-LICENSE
+excluded: []

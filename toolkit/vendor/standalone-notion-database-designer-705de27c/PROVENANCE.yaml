@@ -1,0 +1,40 @@
+package: standalone-notion-database-designer-705de27c
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: MIT
+evidence_path: toolkit/sources/packages.json#standalone-notion-database-designer-705de27c
+copied_from:
+- ~/creative-engineering-os/library/skills/notion-database-designer
+copied_on: '2026-10-23'
+files:
+  skills/notion-database-designer/LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/LICENSE.upstream
+  skills/notion-database-designer/SKILL.md:
+    sha256: 33a9fc74a08a214fdf229aa5fb12e0fff119219f30e9c1b2a4910a1d417396af
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/SKILL.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/SKILL.md
+  skills/notion-database-designer/agents/openai.yaml:
+    sha256: 8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/agents/openai.yaml
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/agents/openai.yaml
+  skills/notion-database-designer/examples/customer-requests.md:
+    sha256: 0527046cd655f4ec8f573a1dc8b540416cbbf695a45d0b3c64d82acce994f7da
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/examples/customer-requests.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/examples/customer-requests.md
+  skills/notion-database-designer/examples/support-triage.md:
+    sha256: b9de5bca0c3ffb22419799834874109ddc44181afdbf49fff74648239274c35a
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/examples/support-triage.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/examples/support-triage.md
+  skills/notion-database-designer/reference/schema-migrations.md:
+    sha256: 0544c400280d3056780949ac56db2ee2f60ff6b3864692a926fb829c710ef412
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/reference/schema-migrations.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/reference/schema-migrations.md
+  notices/6f774643156a-LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-database-designer/LICENSE.upstream
+notices:
+- skills/notion-database-designer/LICENSE.upstream
+- notices/6f774643156a-LICENSE.upstream
+excluded: []

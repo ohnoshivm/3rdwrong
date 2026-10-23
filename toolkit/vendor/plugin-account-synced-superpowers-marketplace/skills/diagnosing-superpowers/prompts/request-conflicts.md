@@ -1,0 +1,1 @@
+../../../../pack-obra-superpowers-mit/skills/diagnosing-superpowers/prompts/request-conflicts.md

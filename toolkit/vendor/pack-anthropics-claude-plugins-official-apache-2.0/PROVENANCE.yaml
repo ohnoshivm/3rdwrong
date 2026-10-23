@@ -1,0 +1,23 @@
+package: pack-anthropics-claude-plugins-official-apache-2.0
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#pack-anthropics-claude-plugins-official-apache-2.0
+copied_from:
+- ~/.config/opencode/skills/frontend-design
+copied_on: '2026-10-23'
+files:
+  skills/frontend-design/LICENSE.txt:
+    sha256: 0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594
+    copied_from: ~/.config/opencode/skills/frontend-design/LICENSE.txt
+  skills/frontend-design/SKILL.md:
+    sha256: d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3
+    copied_from: ~/.config/opencode/skills/frontend-design/SKILL.md
+  notices/0d542e0c8804-LICENSE.txt:
+    sha256: 0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594
+    copied_from: ~/.config/opencode/skills/frontend-design/LICENSE.txt
+notices:
+- skills/frontend-design/LICENSE.txt
+- notices/0d542e0c8804-LICENSE.txt
+excluded: []

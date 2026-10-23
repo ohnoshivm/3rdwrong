@@ -1,0 +1,1 @@
+../../../pack-anthropics-claude-plugins-official-apache-2.0/skills/frontend-design/SKILL.md

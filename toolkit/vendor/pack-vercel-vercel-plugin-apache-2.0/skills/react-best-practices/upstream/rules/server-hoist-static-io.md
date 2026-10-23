@@ -1,0 +1,1 @@
+../../rules/server-hoist-static-io.md

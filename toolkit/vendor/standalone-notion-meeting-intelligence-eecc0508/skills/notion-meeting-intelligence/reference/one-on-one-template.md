@@ -1,0 +1,1 @@
+../../../../plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/reference/one-on-one-template.md

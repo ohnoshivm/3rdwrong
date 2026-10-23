@@ -1,0 +1,1 @@
+../.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py

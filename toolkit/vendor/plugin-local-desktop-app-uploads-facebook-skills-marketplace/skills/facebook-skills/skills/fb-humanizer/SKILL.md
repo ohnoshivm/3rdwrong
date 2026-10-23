@@ -1,0 +1,1 @@
+../../.codex-marketplace/facebook-skills/skills/fb-humanizer/SKILL.md

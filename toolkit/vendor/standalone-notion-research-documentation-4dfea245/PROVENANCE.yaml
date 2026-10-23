@@ -1,0 +1,92 @@
+package: standalone-notion-research-documentation-4dfea245
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: MIT
+evidence_path: toolkit/sources/packages.json#standalone-notion-research-documentation-4dfea245
+copied_from:
+- ~/creative-engineering-os/library/skills/notion-research-documentation
+copied_on: '2026-10-23'
+files:
+  skills/notion-research-documentation/LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/LICENSE.upstream
+  skills/notion-research-documentation/SKILL.md:
+    sha256: 6281956c3bcf5934aeb29bfed0e306b98d2f9ef728a5e1f071f647ddc9461b9d
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/SKILL.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/SKILL.md
+  skills/notion-research-documentation/agents/openai.yaml:
+    sha256: 8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/agents/openai.yaml
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/agents/openai.yaml
+  skills/notion-research-documentation/examples/competitor-analysis.md:
+    sha256: f8ac1499d1b9474aa3d3112fd02e7e10279178ee98eed01f4289cc23960de2a8
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/examples/competitor-analysis.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/examples/competitor-analysis.md
+  skills/notion-research-documentation/examples/market-research.md:
+    sha256: 32d7d9b56623771c5892f01b450cf01bdd9a83bd944cbb5803c2fd69a024dc55
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/examples/market-research.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/examples/market-research.md
+  skills/notion-research-documentation/examples/technical-investigation.md:
+    sha256: c8d68b3a47298b131b45bdfeacf02d3fd0c650982ebc1d78f0e2e07f65bd7d89
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/examples/technical-investigation.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/examples/technical-investigation.md
+  skills/notion-research-documentation/examples/trip-planning.md:
+    sha256: 50dd043c8d0dae24081e733a2279f83dce376ced08da33e7947287304ae642fe
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/examples/trip-planning.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/examples/trip-planning.md
+  skills/notion-research-documentation/reference/advanced-search.md:
+    sha256: 8281debb694bc26e2c17faefae324cd42a07afc59239902d3391fa6f6cf15a5e
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/advanced-search.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/advanced-search.md
+  skills/notion-research-documentation/reference/citations.md:
+    sha256: 396ce59ddc654005cda29cf59efe6582738cdf62c7876400ce61e46088d0b7ed
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/citations.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/citations.md
+  skills/notion-research-documentation/reference/comparison-format.md:
+    sha256: 895b89db7cf023cca7e9fb7ba838ab9006f749f681e51662b68c936ad45b0b2c
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/comparison-format.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/comparison-format.md
+  skills/notion-research-documentation/reference/comparison-template.md:
+    sha256: 1ddee41ae3df3a2fc916b21b2d95701ea009e18f9a7edf30b491372daf0522c8
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/comparison-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/comparison-template.md
+  skills/notion-research-documentation/reference/comprehensive-report-format.md:
+    sha256: b6d709928fddf096f5fdb9a4a432350ae95b0ccf3552bd05080c03e3fcd7666f
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/comprehensive-report-format.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/comprehensive-report-format.md
+  skills/notion-research-documentation/reference/comprehensive-report-template.md:
+    sha256: d4304f32095e79fe5643187d936af2bb963bf0f49ad8e48a7a0a34c8d1d112b7
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/comprehensive-report-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/comprehensive-report-template.md
+  skills/notion-research-documentation/reference/customer-feedback.md:
+    sha256: 1bc11e15f7399631eb0c3e0aab3690d268671115f08629b568a88f0d4ab24037
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/customer-feedback.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/customer-feedback.md
+  skills/notion-research-documentation/reference/format-selection-guide.md:
+    sha256: b8a240f480130d141269a4b5c4917122ea724f1cac355a18918dd2d63b47f2cc
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/format-selection-guide.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/format-selection-guide.md
+  skills/notion-research-documentation/reference/quick-brief-format.md:
+    sha256: 97d9a78439a634328c8c3f4fdd35346ee52e397fa26ec2fc88668c9946e9fe0e
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/quick-brief-format.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/quick-brief-format.md
+  skills/notion-research-documentation/reference/quick-brief-template.md:
+    sha256: 4546e04e2538fd52e3d97f0e3dc32adc739e3e9ea3a0114e2d0167d1ab3d066e
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/quick-brief-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/quick-brief-template.md
+  skills/notion-research-documentation/reference/research-summary-format.md:
+    sha256: d85e7fd9abdd61feaac0897a49b0eecb14da6c5a05ac3ce82bf5fa8c6a485206
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/research-summary-format.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/research-summary-format.md
+  skills/notion-research-documentation/reference/research-summary-template.md:
+    sha256: b7802bc1bdb0bbed139a8efa97d5e55172305e5d7c69f3a1db2aa1bdade1dfd1
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/reference/research-summary-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-research-documentation/reference/research-summary-template.md
+  notices/6f774643156a-LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-research-documentation/LICENSE.upstream
+notices:
+- skills/notion-research-documentation/LICENSE.upstream
+- notices/6f774643156a-LICENSE.upstream
+excluded: []

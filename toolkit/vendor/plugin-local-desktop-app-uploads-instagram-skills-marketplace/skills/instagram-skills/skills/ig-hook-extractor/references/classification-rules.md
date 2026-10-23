@@ -1,0 +1,1 @@
+../../../.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/classification-rules.md

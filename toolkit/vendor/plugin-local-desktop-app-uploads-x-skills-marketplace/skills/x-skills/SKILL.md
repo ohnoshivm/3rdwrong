@@ -1,0 +1,1 @@
+.codex-marketplace/x-skills/SKILL.md

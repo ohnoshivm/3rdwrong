@@ -1,0 +1,340 @@
+package: pack-nextlevelbuilder-ui-ux-pro-max-skill-mit
+upstream_url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+pinned_ref:
+- 09170eec67eefd46a7ae85de61b40c194020f997
+- 56ea9cf174ed86786187daa9de0e6247cb0747e4
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-nextlevelbuilder-ui-ux-pro-max-skill-mit
+copied_from:
+- ~/creative-engineering-os/library/skills/banner-design
+- ~/creative-engineering-os/library/skills/brand
+- ~/creative-engineering-os/library/skills/design
+- ~/creative-engineering-os/library/skills/design-system
+- ~/creative-engineering-os/library/skills/slides
+copied_on: '2026-10-23'
+files:
+  skills/banner-design/LICENSE.upstream:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os/library/skills/banner-design/LICENSE.upstream
+  skills/banner-design/SKILL.md:
+    sha256: ccb89ddc848f60bfe630cb19dfe3e062df94a029467a9b15259f2761019ac5c4
+    copied_from: ~/creative-engineering-os/library/skills/banner-design/SKILL.md
+  skills/banner-design/references/banner-sizes-and-styles.md:
+    sha256: c8906fb1073a576ee8c680d9bc8586249cbc4ed36690da960d65a1c9c37143b7
+    copied_from: ~/creative-engineering-os/library/skills/banner-design/references/banner-sizes-and-styles.md
+  skills/brand/LICENSE.upstream:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os/library/skills/brand/LICENSE.upstream
+  skills/brand/SKILL.md:
+    sha256: 1c24139633e2ebf11da4f97eaeb1c0564f8658a40b3ad779387a5b8c6cb76dbc
+    copied_from: ~/creative-engineering-os/library/skills/brand/SKILL.md
+  skills/brand/references/approval-checklist.md:
+    sha256: 1cbf5f0fb3aa780c1a1406f56afe16f6af8e2e59165b8efc40038c7c0847f5b6
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/approval-checklist.md
+  skills/brand/references/asset-organization.md:
+    sha256: de98123417e9c5a1cc71a78131bba979c4c8ed2e5289e6c7a7f166576e488101
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/asset-organization.md
+  skills/brand/references/brand-guideline-template.md:
+    sha256: 392db8cf10fef492221c15a86e68590074bf5716de1f2982f41c01fbe30567cc
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/brand-guideline-template.md
+  skills/brand/references/color-palette-management.md:
+    sha256: c429298ffe3955edb8b22c9f51426fef75e83d02848cd4300e89c0d3fc34b44a
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/color-palette-management.md
+  skills/brand/references/consistency-checklist.md:
+    sha256: 56d8b2d4852cda11e600adec4b9dd68fc89a1b8265382359953bec5c5e5e2c36
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/consistency-checklist.md
+  skills/brand/references/logo-usage-rules.md:
+    sha256: 044c5ddf30cfe0eea047451cfce6ea654939198ffdd8968a19161c97066a5a26
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/logo-usage-rules.md
+  skills/brand/references/messaging-framework.md:
+    sha256: 24b2500a72867b55dd10f4bf359178b0eb347fddd852659ce47b69d9f597d4e6
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/messaging-framework.md
+  skills/brand/references/typography-specifications.md:
+    sha256: 921c3d9e6ddfde2677b9a3e32eee94c7922f54f22c1f380c5ed2eb25a7d5bfa9
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/typography-specifications.md
+  skills/brand/references/update.md:
+    sha256: 26c23af628869bbbc0ec55929e7f087374606218cff32ecaa864a772e477d28e
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/update.md
+  skills/brand/references/visual-identity.md:
+    sha256: 63f0cfc5d95403d8e12aca4d839cc28471515574d9a431334bfbb96c15407c31
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/visual-identity.md
+  skills/brand/references/voice-framework.md:
+    sha256: 08c15ac79f81cd964c5efbe593131b61a093c7e1b060d5dd28b17f3cc5b331fb
+    copied_from: ~/creative-engineering-os/library/skills/brand/references/voice-framework.md
+  skills/brand/scripts/extract-colors.cjs:
+    sha256: f09e049d24f26aeb1daccc552e24de4bb112d12a45da4eeb14f55a72554c93ef
+    copied_from: ~/creative-engineering-os/library/skills/brand/scripts/extract-colors.cjs
+  skills/brand/scripts/inject-brand-context.cjs:
+    sha256: 5b98abdeb5c636f247102cd235f1d3421db7a4de53fd853360feaa0c471b5c96
+    copied_from: ~/creative-engineering-os/library/skills/brand/scripts/inject-brand-context.cjs
+  skills/brand/scripts/sync-brand-to-tokens.cjs:
+    sha256: c774f2fff9646ccee994aea0f00608a076b2c880756558f5a437ed9b45c10fd4
+    copied_from: ~/creative-engineering-os/library/skills/brand/scripts/sync-brand-to-tokens.cjs
+  skills/brand/scripts/tests/test_sync_brand_to_tokens.py:
+    sha256: d9fd2b4adb9f7c94cff1e839207167a3cabdffc6ac20a27e2a89670060ee9bde
+    copied_from: ~/creative-engineering-os/library/skills/brand/scripts/tests/test_sync_brand_to_tokens.py
+  skills/brand/scripts/validate-asset.cjs:
+    sha256: 4546c9109fb0f4f767426508cb29e60d02b301f8897cf16d8e378b7ce9d997fc
+    copied_from: ~/creative-engineering-os/library/skills/brand/scripts/validate-asset.cjs
+  skills/brand/templates/brand-guidelines-starter.md:
+    sha256: d157a57b15f0b458c79636d11de42f3c89f03d8c0bbea1bdd3cf1c3542b2140d
+    copied_from: ~/creative-engineering-os/library/skills/brand/templates/brand-guidelines-starter.md
+  skills/design/LICENSE.upstream:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os/library/skills/design/LICENSE.upstream
+  skills/design/SKILL.md:
+    sha256: e93fe3683b7fa18a9bfcd00c0dc6e12c6859be07b7bfe20145f96ea49b72da13
+    copied_from: ~/creative-engineering-os/library/skills/design/SKILL.md
+  skills/design/data/cip/deliverables.csv:
+    sha256: 229912f35c2f5a790508ddd62270cc7a92a84694027025ea5a30f1fb5ba84b70
+    copied_from: ~/creative-engineering-os/library/skills/design/data/cip/deliverables.csv
+  skills/design/data/cip/industries.csv:
+    sha256: 729b1dea6d6f39b0bc22a1e659584e7ca5cead75841146d599c9f8dc00d4da46
+    copied_from: ~/creative-engineering-os/library/skills/design/data/cip/industries.csv
+  skills/design/data/cip/mockup-contexts.csv:
+    sha256: 15d61cef16e6746d5aa665976f4de8074fedb64bfc5c7313a40eec1112a1d499
+    copied_from: ~/creative-engineering-os/library/skills/design/data/cip/mockup-contexts.csv
+  skills/design/data/cip/styles.csv:
+    sha256: 4e7f9e209bc90b60df62fd9843a1a73b365e54161dbd820b82817a8e512af4c4
+    copied_from: ~/creative-engineering-os/library/skills/design/data/cip/styles.csv
+  skills/design/data/icon/styles.csv:
+    sha256: a4aa7d326ffe1e50961eb70e25a6351f45c0247cd245461fa1a27cdc72f903b4
+    copied_from: ~/creative-engineering-os/library/skills/design/data/icon/styles.csv
+  skills/design/data/logo/colors.csv:
+    sha256: d60218f0705bb0f0b892a10468a5c8d9a44eef3d0262ef8df8970ba3fbab567a
+    copied_from: ~/creative-engineering-os/library/skills/design/data/logo/colors.csv
+  skills/design/data/logo/industries.csv:
+    sha256: e58dda4b9d28851f70914f82c1d2a2cff626a991ca41076f64122f33cc8a6525
+    copied_from: ~/creative-engineering-os/library/skills/design/data/logo/industries.csv
+  skills/design/data/logo/styles.csv:
+    sha256: ea08bdfb7aa557f08d1b6299222423f948700f8e4029321acb58c8f83197bdf2
+    copied_from: ~/creative-engineering-os/library/skills/design/data/logo/styles.csv
+  skills/design/references/banner-sizes-and-styles.md:
+    sha256: c8906fb1073a576ee8c680d9bc8586249cbc4ed36690da960d65a1c9c37143b7
+    copied_from: ~/creative-engineering-os/library/skills/design/references/banner-sizes-and-styles.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/references/banner-sizes-and-styles.md
+  skills/design/references/cip-deliverable-guide.md:
+    sha256: 1424e120b967288e2334f24fcfa5cdc7f238420326a7444f4c5597efecfabc41
+    copied_from: ~/creative-engineering-os/library/skills/design/references/cip-deliverable-guide.md
+  skills/design/references/cip-design.md:
+    sha256: 0c32212d2a5ca6ab57aef5b5b90d9e3a91c7bf4addd5e345cb9477eb15ecd11b
+    copied_from: ~/creative-engineering-os/library/skills/design/references/cip-design.md
+  skills/design/references/cip-prompt-engineering.md:
+    sha256: 4bf3a0c858f38c230e43e872857b72d9eb692e066e8de5920da75aac733e753c
+    copied_from: ~/creative-engineering-os/library/skills/design/references/cip-prompt-engineering.md
+  skills/design/references/cip-style-guide.md:
+    sha256: f3e15408cd981e93804440c1159c12e02d001bc37a3945f455b3fc13729ed4e1
+    copied_from: ~/creative-engineering-os/library/skills/design/references/cip-style-guide.md
+  skills/design/references/design-routing.md:
+    sha256: bc099a1fc0d7b0a6580f214b9166376b711aed61978c56d0666edb27dea160d8
+    copied_from: ~/creative-engineering-os/library/skills/design/references/design-routing.md
+  skills/design/references/icon-design.md:
+    sha256: ba1a1ccaa1e427c75ec9808dc4d2057628977188953773a641d49651de2d64e2
+    copied_from: ~/creative-engineering-os/library/skills/design/references/icon-design.md
+  skills/design/references/logo-color-psychology.md:
+    sha256: 3fd0e93e24c3b2ea7f3be778e8f2d03b1c62c7c6eab3ade478c8fca332bff287
+    copied_from: ~/creative-engineering-os/library/skills/design/references/logo-color-psychology.md
+  skills/design/references/logo-design.md:
+    sha256: 8f335b0e7e8538069bfd5af2c1ee4a9f281f14b2854e8a49bfa14253324abb7d
+    copied_from: ~/creative-engineering-os/library/skills/design/references/logo-design.md
+  skills/design/references/logo-prompt-engineering.md:
+    sha256: e50f55bf323263eb27b4cd4c5172383a787fb894581d5d2befb3f6e0180b253e
+    copied_from: ~/creative-engineering-os/library/skills/design/references/logo-prompt-engineering.md
+  skills/design/references/logo-style-guide.md:
+    sha256: 611baa841eedab101f45c113c6bfbd4d7e16e859c9d6ebd2cf941827a6e8dd15
+    copied_from: ~/creative-engineering-os/library/skills/design/references/logo-style-guide.md
+  skills/design/references/slides-copywriting-formulas.md:
+    sha256: 2df4d83d7a6d4e578dd78911348357b45dfaedbcc948ffbac0e31579c5fb692a
+    copied_from: ~/creative-engineering-os/library/skills/design/references/slides-copywriting-formulas.md
+  skills/design/references/slides-create.md:
+    sha256: 792d647a5d4f87d765cf417f7ac54dd0b2fc4d229cc23ea9df56282d4c1ee086
+    copied_from: ~/creative-engineering-os/library/skills/design/references/slides-create.md
+  skills/design/references/slides-html-template.md:
+    sha256: fd5b051a37365fc6059c75bb388ec6f64daf1bd9ae938b287b6d762dc83c0c35
+    copied_from: ~/creative-engineering-os/library/skills/design/references/slides-html-template.md
+  skills/design/references/slides-layout-patterns.md:
+    sha256: 0de6208dcb32f896ad24df1bfa0c88a6abfe13c6a1ce43df06014810ab98314b
+    copied_from: ~/creative-engineering-os/library/skills/design/references/slides-layout-patterns.md
+  skills/design/references/slides-strategies.md:
+    sha256: cc97651ae1b404bde4df6ad0f7b5ef0c3f91506c9c5cb67748489a96fd155a0f
+    copied_from: ~/creative-engineering-os/library/skills/design/references/slides-strategies.md
+  skills/design/references/slides.md:
+    sha256: 5630d5daec947ff58ab1ac97c7a1ee77a21cf6f5dce5155535b65d291691979f
+    copied_from: ~/creative-engineering-os/library/skills/design/references/slides.md
+  skills/design/references/social-photos-design.md:
+    sha256: 5ea9aec209d089a01eb9f689b11f9707ef80443e0ab7602e5c63022afe42d082
+    copied_from: ~/creative-engineering-os/library/skills/design/references/social-photos-design.md
+  skills/design/scripts/cip/core.py:
+    sha256: 78a78a51f12d2382b2854414df395dc62b68532626ef724ddd5de713507911e4
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/cip/core.py
+  skills/design/scripts/cip/generate.py:
+    sha256: 2fc67921af517f803d503f9f2244560de1f3187074d3947a596c598024e4de70
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/cip/generate.py
+  skills/design/scripts/cip/render-html.py:
+    sha256: a49a89a017ea4a2c492438055f05dfba3dfb4f91563f5f913359939beeaeccab
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/cip/render-html.py
+  skills/design/scripts/cip/search.py:
+    sha256: 6619fbbe71983003a858c5eb79bc59c607b342610a1178b6976c687c2932161b
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/cip/search.py
+  skills/design/scripts/icon/generate.py:
+    sha256: c75f1d63858e8f062c811e8e60f4abcf14388bf4378f1dc34c7d91f7cb49305f
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/icon/generate.py
+  skills/design/scripts/logo/core.py:
+    sha256: 4f8b36ffe538e5995d0e0b740053a0899a1adf445ffdf484bd47f94e71ade8d0
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/logo/core.py
+  skills/design/scripts/logo/generate.py:
+    sha256: 5dbd4e4641b55c13096f6c29d577960dc6ca0386096d90c90f76598976367d01
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/logo/generate.py
+  skills/design/scripts/logo/search.py:
+    sha256: 693b3a1824831f120d4c60ed72477847604da1f6b654343381f8e9d3800a28f2
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/logo/search.py
+  skills/design/scripts/logo/tests/test_generate.py:
+    sha256: 79ccfc21db057c0820d1688331b657951ef54b8d87e240a0ae069d99e72349f8
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/logo/tests/test_generate.py
+  skills/design/scripts/tests/test_cip_generate.py:
+    sha256: a05ee545cb1459e10304de400c37d6413b997aed8d514e295eb8f3bc19039c5c
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/tests/test_cip_generate.py
+  skills/design/scripts/tests/test_icon_generate.py:
+    sha256: 38827ffe793d4c89cb418d2e4af5f3ec66e0e67141c9355fce893c8c00f9faa6
+    copied_from: ~/creative-engineering-os/library/skills/design/scripts/tests/test_icon_generate.py
+  skills/design-system/LICENSE.upstream:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os/library/skills/design-system/LICENSE.upstream
+  skills/design-system/SKILL.md:
+    sha256: 8aa5ff93320559a6e5289d37b6b06b3307737dbfb4a6f3fc44135c705613c511
+    copied_from: ~/creative-engineering-os/library/skills/design-system/SKILL.md
+  skills/design-system/data/slide-backgrounds.csv:
+    sha256: d1bb701b87bef493d72974d6fac1087c8ba4e2df14185fe3e0c36a13fe35f3d1
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-backgrounds.csv
+  skills/design-system/data/slide-charts.csv:
+    sha256: 12ef876cd76e67a6553444bfa2ebf1d5d4d6216289d34db052a6e87421135033
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-charts.csv
+  skills/design-system/data/slide-color-logic.csv:
+    sha256: ea68c737075f1615b2a7e461e2878c06bfe8f803dcabfbcc2977ffe5f9ec9ded
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-color-logic.csv
+  skills/design-system/data/slide-copy.csv:
+    sha256: 43152937a0e598b3fbfdd418684311c105d44e3c5b333703ddb0b8cb28e40658
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-copy.csv
+  skills/design-system/data/slide-layout-logic.csv:
+    sha256: 26b5b75782d5aba89836c0479acd3111cc69b67853db9c2259b30ac1e966bc62
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-layout-logic.csv
+  skills/design-system/data/slide-layouts.csv:
+    sha256: 95d558c1b7d2552d7a75402dc68facbd16125e574985851db5729d1145e14896
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-layouts.csv
+  skills/design-system/data/slide-strategies.csv:
+    sha256: f656be0ab0b3a85fa7fc74202e9701a7236220412d67d5f63eb6dbb100bb2639
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-strategies.csv
+  skills/design-system/data/slide-typography.csv:
+    sha256: b96cd11dd4ff1dea8a9454b0b9e898e7f82f9243182f8f237af1f2c9b8824ce5
+    copied_from: ~/creative-engineering-os/library/skills/design-system/data/slide-typography.csv
+  skills/design-system/references/component-specs.md:
+    sha256: b265d979a741dd748d4e595e6898ae430faeef4f6d13d7a634fa6241b91d2da4
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/component-specs.md
+  skills/design-system/references/component-tokens.md:
+    sha256: e27f8f5999badee425c98235eabbd2cb3ebe2a1a364766d5c7a6b3134ceaaec8
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/component-tokens.md
+  skills/design-system/references/primitive-tokens.md:
+    sha256: 91e6caa12646c08c8aadf8e09399aed65760a25c8d80595936d81a9131118fc3
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/primitive-tokens.md
+  skills/design-system/references/semantic-tokens.md:
+    sha256: 97e16d8061bbc22e82b51966a7015e3fc990932902e4647843506669a1cdebcc
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/semantic-tokens.md
+  skills/design-system/references/states-and-variants.md:
+    sha256: 8dacb95d57d4bb37d8a99cc55515ff26da272056f837d29abc74aedcaa3ba104
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/states-and-variants.md
+  skills/design-system/references/tailwind-integration.md:
+    sha256: 6d01092db1479dbd2060567b4232bb2b4bc16e89730ab07e1f87a3e7f5c406b9
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/tailwind-integration.md
+  skills/design-system/references/token-architecture.md:
+    sha256: 925f4049c4c4313d9fd5df98cdfd52004112aca49fba1664ad85e76bc9dce4d3
+    copied_from: ~/creative-engineering-os/library/skills/design-system/references/token-architecture.md
+  skills/design-system/scripts/embed-tokens.cjs:
+    sha256: 8c8ad04c1f948402b80693b400047e716235654147a797e11f3ac0283e143486
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/embed-tokens.cjs
+  skills/design-system/scripts/fetch-background.py:
+    sha256: 020d4e54bc26595472dc4b5a421830e0e83ffea3f44225fac8ac5f832430e691
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/fetch-background.py
+  skills/design-system/scripts/generate-slide.py:
+    sha256: 0463c98efea54870816925015fe5819e42a29aaba57408c2c38bacb33e2605b9
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/generate-slide.py
+  skills/design-system/scripts/generate-tokens.cjs:
+    sha256: aac8a0f4ec4dccf0d371f9ee5a9111e44977bb0cad7e40a3754aba5571aa1231
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/generate-tokens.cjs
+  skills/design-system/scripts/html-token-validator.py:
+    sha256: 1242a778493a8fd646da50623d654b783ed8d1b6d4234b3271789eae9f5a4bed
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/html-token-validator.py
+  skills/design-system/scripts/search-slides.py:
+    sha256: 3d3d842d1c1daa26084a89aa7a41eb89d8c62b777f45cb4923b42aa10bb0b041
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/search-slides.py
+  skills/design-system/scripts/slide-token-validator.py:
+    sha256: 66da5da5e8e659d405a89b342e13dd1e469e79726c46002d9d2368c3c7aaf945
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/slide-token-validator.py
+  skills/design-system/scripts/slide_search_core.py:
+    sha256: 2464050ae338eb50728086046b644845fa7ae943f32efead3908fdbe1473edbe
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/slide_search_core.py
+  skills/design-system/scripts/tests/test_validate_tokens.py:
+    sha256: 43c56f6ecb89d4dd4010ccabcf047d2f3824d39bbbd5a1f6f697333ff27c59e6
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/tests/test_validate_tokens.py
+  skills/design-system/scripts/validate-tokens.cjs:
+    sha256: 65f03a29290b9029d8cc27537701f226de7bcffc303b3bc361648fadfa09b77d
+    copied_from: ~/creative-engineering-os/library/skills/design-system/scripts/validate-tokens.cjs
+  skills/design-system/templates/design-tokens-starter.json:
+    sha256: 5444f477b06bab9c72e2cc289d4a9104efef653391c9639972bcb712d5f2d81e
+    copied_from: ~/creative-engineering-os/library/skills/design-system/templates/design-tokens-starter.json
+  skills/slides/LICENSE.upstream:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os/library/skills/slides/LICENSE.upstream
+  skills/slides/SKILL.md:
+    sha256: 86c07f19ec09f79441d3837e909cfcd51034b83bdcc88094c15e652be1e765cb
+    copied_from: ~/creative-engineering-os/library/skills/slides/SKILL.md
+  skills/slides/references/copywriting-formulas.md:
+    sha256: 2df4d83d7a6d4e578dd78911348357b45dfaedbcc948ffbac0e31579c5fb692a
+    copied_from: ~/creative-engineering-os/library/skills/slides/references/copywriting-formulas.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-copywriting-formulas.md
+  skills/slides/references/create.md:
+    sha256: 792d647a5d4f87d765cf417f7ac54dd0b2fc4d229cc23ea9df56282d4c1ee086
+    copied_from: ~/creative-engineering-os/library/skills/slides/references/create.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-create.md
+  skills/slides/references/html-template.md:
+    sha256: fd5b051a37365fc6059c75bb388ec6f64daf1bd9ae938b287b6d762dc83c0c35
+    copied_from: ~/creative-engineering-os/library/skills/slides/references/html-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-html-template.md
+  skills/slides/references/layout-patterns.md:
+    sha256: 0de6208dcb32f896ad24df1bfa0c88a6abfe13c6a1ce43df06014810ab98314b
+    copied_from: ~/creative-engineering-os/library/skills/slides/references/layout-patterns.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-layout-patterns.md
+  skills/slides/references/slide-strategies.md:
+    sha256: cc97651ae1b404bde4df6ad0f7b5ef0c3f91506c9c5cb67748489a96fd155a0f
+    copied_from: ~/creative-engineering-os/library/skills/slides/references/slide-strategies.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-strategies.md
+  notices/738f69dfa83d-LICENSE:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os-upstreams/ui-ux-pro-max/LICENSE
+  notices/a12a95b7ce7d-README.md:
+    sha256: a12a95b7ce7d4ea88908e1ccf09b16a8a16d851d267228e954d1981da9c3dde2
+    copied_from: ~/creative-engineering-os-upstreams/ui-ux-pro-max/README.md
+  notices/1e807232f621-README.md:
+    sha256: 1e807232f62189410c6a8ed76ae6770b0d534077729907e7b167efcc5bada9d7
+    copied_from: ~/creative-engineering-os-upstreams/ui-ux-pro-max/cli/README.md
+  notices/13957904b999-README.md:
+    sha256: 13957904b9999d6e367ecbb13d4df1aeb0a945d84f2da8c69c3b22e0750d2d7f
+    copied_from: ~/.claude/plugins/marketplaces/ui-ux-pro-max-skill/README.md
+  notices/6f2e02fa25af-README.md:
+    sha256: 6f2e02fa25aff521ca94f7ba103a825fba2478012e4a52b4af94984e172d2d73
+    copied_from: ~/.claude/plugins/marketplaces/ui-ux-pro-max-skill/cli/README.md
+  notices/738f69dfa83d-LICENSE.upstream:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/creative-engineering-os/library/skills/banner-design/LICENSE.upstream
+notices:
+- skills/banner-design/LICENSE.upstream
+- skills/brand/LICENSE.upstream
+- skills/design/LICENSE.upstream
+- skills/design-system/LICENSE.upstream
+- skills/slides/LICENSE.upstream
+- notices/738f69dfa83d-LICENSE
+- notices/a12a95b7ce7d-README.md
+- notices/1e807232f621-README.md
+- notices/13957904b999-README.md
+- notices/6f2e02fa25af-README.md
+- notices/738f69dfa83d-LICENSE.upstream
+excluded: []

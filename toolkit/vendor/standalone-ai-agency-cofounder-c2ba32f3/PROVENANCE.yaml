@@ -1,0 +1,65 @@
+package: standalone-ai-agency-cofounder-c2ba32f3
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#standalone-ai-agency-cofounder-c2ba32f3
+copied_from:
+- ~/creative-engineering-os/library/skills/ai-agency-cofounder
+copied_on: '2026-10-23'
+files:
+  skills/ai-agency-cofounder/LICENSE.txt:
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/LICENSE.txt
+  skills/ai-agency-cofounder/SKILL.md:
+    sha256: eb42651197e1a0586cebc8cf546b521278e2fdc21723d5fd0b98594fc5fcbd5d
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/SKILL.md
+  skills/ai-agency-cofounder/agents/gate-diagnostics.md:
+    sha256: 0cebdf16f107682d9f0d898de1d25633509f0aef8f486858612c97dc0f51a1e6
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/agents/gate-diagnostics.md
+  skills/ai-agency-cofounder/agents/niche-validator.md:
+    sha256: f000a8bebd861dc25a0bdd03a47f97d8bb627d727067fe53b9ec8f9c938a80c8
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/agents/niche-validator.md
+  skills/ai-agency-cofounder/assets/README.md:
+    sha256: cf89415833893f080519ccab1a6b5b9f882c1920052cfe8ff190ffb4852b9e88
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/assets/README.md
+  skills/ai-agency-cofounder/assets/slack-workspace-template.md:
+    sha256: 746902b90c3e5714569ed5952b9e105f2229a7cfa123fc8558a118eed3834627
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/assets/slack-workspace-template.md
+  skills/ai-agency-cofounder/eval-viewer/generate_review.py:
+    sha256: fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/eval-viewer/generate_review.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/eval-viewer/generate_review.py
+  skills/ai-agency-cofounder/eval-viewer/viewer.html:
+    sha256: a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/eval-viewer/viewer.html
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/eval-viewer/viewer.html
+  skills/ai-agency-cofounder/references/content-engine.md:
+    sha256: 06174288d42f53cbf21a0698daa968fabeeb3a30b68624453e41c18fb22a1c85
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/references/content-engine.md
+  skills/ai-agency-cofounder/references/delivery-architecture.md:
+    sha256: 8c91c19dc8c5b65ae64504d77b1e2ed83b1d4b7ff0eb240e777b0c54b3509fe7
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/references/delivery-architecture.md
+  skills/ai-agency-cofounder/references/niche-and-stack.md:
+    sha256: 1fd41bf6299c255223174a73a70ad97f8df2a8398f22c5eb92b8553c973dabd2
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/references/niche-and-stack.md
+  skills/ai-agency-cofounder/references/outreach-playbooks.md:
+    sha256: c5394b14730016c2bb8c9bb620a1f3aaf63a46838b6f97c778ff0efbd6c1d5ae
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/references/outreach-playbooks.md
+  skills/ai-agency-cofounder/references/scaling-gates.md:
+    sha256: 313aded10837e1ffc9fd794ee122941c491bf3a411deba193a28a155dc50bcca
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/references/scaling-gates.md
+  skills/ai-agency-cofounder/scripts/__init__.py:
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/scripts/__init__.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/__init__.py
+  skills/ai-agency-cofounder/scripts/package_skill.py:
+    sha256: 1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/scripts/package_skill.py
+  notices/58d1e17ffe51-LICENSE.txt:
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+    copied_from: ~/creative-engineering-os/library/skills/ai-agency-cofounder/LICENSE.txt
+notices:
+- skills/ai-agency-cofounder/LICENSE.txt
+- notices/58d1e17ffe51-LICENSE.txt
+excluded: []

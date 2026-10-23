@@ -1,0 +1,1 @@
+../../../../../../pack-remotion-dev-remotion-mit/skills/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md

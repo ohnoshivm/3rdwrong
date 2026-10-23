@@ -1,0 +1,37 @@
+package: plugin-claude-plugins-official-cwc-makers-marketplace
+upstream_url: https://github.com/moremas/build-with-claude
+pinned_ref:
+- 1.0.0
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-cwc-makers-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: daea51ab5138181571bf207637ff431b4abc439110a0466ac016381f112a33b7
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/LICENSE
+  commands/maker-setup.md:
+    sha256: 326e604a0501b9ebda7d140fff0fb8a09fc75db1d0ec68802eff260def1b2243
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/commands/maker-setup.md
+  skills/cardputer-buddy/SKILL.md:
+    sha256: dae31d1459c8ee7b4a03d04bf55485f4ece04bdd4f5a2650ad39eb3d07d9be10
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/cardputer-buddy/SKILL.md
+  skills/m5-onboard/SKILL.md:
+    sha256: c6ba88fd06f59a3e902fead2bb863b6834f189672cfcc75248941c23ae39bd2d
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/skills/m5-onboard/SKILL.md
+  notices/daea51ab5138-plugin.json:
+    sha256: daea51ab5138181571bf207637ff431b4abc439110a0466ac016381f112a33b7
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-cwc-makers-marketplace/.claude-plugin/plugin.json
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/LICENSE
+notices:
+- LICENSE
+- notices/daea51ab5138-plugin.json
+- notices/cfc7749b96f6-LICENSE
+excluded: []

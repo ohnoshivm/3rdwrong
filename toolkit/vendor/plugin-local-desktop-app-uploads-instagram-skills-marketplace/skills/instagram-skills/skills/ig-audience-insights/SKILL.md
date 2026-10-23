@@ -1,0 +1,1 @@
+../../.codex-marketplace/instagram-skills/skills/ig-audience-insights/SKILL.md

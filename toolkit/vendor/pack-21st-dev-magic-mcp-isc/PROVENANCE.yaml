@@ -1,0 +1,27 @@
+package: pack-21st-dev-magic-mcp-isc
+upstream_url: https://github.com/21st-dev/magic-mcp
+pinned_ref:
+- 6b5299e8a83ceffa73d4fc4e148905bb3eeeeb55
+licence: ISC
+evidence_path: toolkit/sources/packages.json#pack-21st-dev-magic-mcp-isc
+copied_from:
+- ~/creative-engineering-os/library/skills/21st-ui
+copied_on: '2026-10-23'
+files:
+  skills/21st-ui/LICENSE.upstream:
+    sha256: e9412a67f017b2651af15c086fa9af56f7fcb03849d220ad037dd626dc9729f2
+    copied_from: ~/creative-engineering-os/library/skills/21st-ui/LICENSE.upstream
+  skills/21st-ui/SKILL.md:
+    sha256: 851d43ba67c18ce6552e5a0462b892d3a2196cce5d1569059fc6f72fe0e78831
+    copied_from: ~/creative-engineering-os/library/skills/21st-ui/SKILL.md
+  notices/e9412a67f017-LICENSE:
+    sha256: e9412a67f017b2651af15c086fa9af56f7fcb03849d220ad037dd626dc9729f2
+    copied_from: ~/.claude/plugins/marketplaces/21st-dev/LICENSE
+  notices/e9412a67f017-LICENSE.upstream:
+    sha256: e9412a67f017b2651af15c086fa9af56f7fcb03849d220ad037dd626dc9729f2
+    copied_from: ~/creative-engineering-os/library/skills/21st-ui/LICENSE.upstream
+notices:
+- skills/21st-ui/LICENSE.upstream
+- notices/e9412a67f017-LICENSE
+- notices/e9412a67f017-LICENSE.upstream
+excluded: []

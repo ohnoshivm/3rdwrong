@@ -1,0 +1,1 @@
+../../../remotion-best-practices/remotion-maps/techniques/cesium/TECHNIQUE.md

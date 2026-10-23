@@ -1,0 +1,1 @@
+../../../.codex-marketplace/facebook-skills/skills/fb-content-planner/references/example-week.md

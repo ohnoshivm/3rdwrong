@@ -1,0 +1,100 @@
+package: plugin-claude-video-watch-0.3.2
+upstream_url: https://github.com/bradautomates/claude-video
+pinned_ref:
+- 03ceb42f7fa2c4439aca01752118044baabffb8f
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-claude-video-watch-0.3.2
+copied_from:
+- ~/.claude/plugins/cache/claude-video/watch/0.3.2
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 5af17cae806091f61f217109ecf756996f01d4a1500d4e5e76ced1bfcb406b67
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: 30e2df1be0fa26a2ceda5d6dbadb07c900d2a7792055be127f6bff1514307a01
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/.claude-plugin/plugin.json
+  .codex-plugin/plugin.json:
+    sha256: 8fcfba9272fe71a33380bf2f24f3b5a7f8881cb2250a54db4b846d6c9720fc66
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/.codex-plugin/plugin.json
+  LICENSE:
+    sha256: add78957ea8124a8ae6eccd7a55c948543a9f32ea26917bf562b8cafacb01d3e
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/LICENSE
+  hooks/hooks.json:
+    sha256: f71759b80a5216d6cc2b711140529fe2ebffe47126908e204e45bbb6b8dc06dc
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/hooks/hooks.json
+  hooks/scripts/check-setup.sh:
+    sha256: 659c307ed80b8b4612db73aaeca03daceb35a9593f182ff3f3ad8265b6970297
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/hooks/scripts/check-setup.sh
+  skills/watch/.skillignore:
+    sha256: deb8b437cf99c00617d9ee8f9ea920289c412469f7f6e85b55baceae43c94d17
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/.skillignore
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/.skillignore
+  skills/watch/SKILL.md:
+    sha256: 04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/SKILL.md
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/SKILL.md
+  skills/watch/scripts/build-skill.sh:
+    sha256: 209155ca460d65daaf2d08c92b22701d083474a59e61d0c651d839d05f72b9d1
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/build-skill.sh
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/build-skill.sh
+  skills/watch/scripts/config.py:
+    sha256: 3f660c726d4fcfd1e3c6fbbea4097ae1768460e2b7ce78c5c603984dcf5d2385
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/config.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/config.py
+  skills/watch/scripts/download.py:
+    sha256: aa4a01ff7fb61e05d5c97941cb9113205bc7600626ec68a732332128bd9e4fbb
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/download.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/download.py
+  skills/watch/scripts/frames.py:
+    sha256: c41071f65baf39e043c8ad8bf6895adf351e4da9ef9ce2a6237fc9e456bb2309
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/frames.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/frames.py
+  skills/watch/scripts/gemini.py:
+    sha256: e0f29cdfc1f64b6535b6c01a6f21e33493abc240ab18aeac2c85f2f24d3c850e
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/gemini.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/gemini.py
+  skills/watch/scripts/local_whisperx.py:
+    sha256: 123155ca69e188c44e2dcd1297c52558c477ae96be6238338f4f654c04b5e9cd
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/local_whisperx.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/local_whisperx.py
+  skills/watch/scripts/runtime.py:
+    sha256: 70f9741d7b863380840da602f9311eb118572c33e083cfdea99524bd282eadbd
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/runtime.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/runtime.py
+  skills/watch/scripts/setup.py:
+    sha256: 76d6f9e94918c01b8d9bb5210bb0e253ac96d3816e2db9e8a421248bd63eac9f
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/setup.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/setup.py
+  skills/watch/scripts/transcribe.py:
+    sha256: ceba832c36c0dd64cab8f3ef87d0a6dcc0472d8469c30dbc9e54f73028de4c3f
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/transcribe.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/transcribe.py
+  skills/watch/scripts/watch.py:
+    sha256: d6996d1afab2079ddd497fbbbde772f61fd86b5e71d93e6e8c55b9311cb4af94
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/watch.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/watch.py
+  skills/watch/scripts/whisper.py:
+    sha256: 0ea4910e093dda680267a1e99e98ccdc8d541c9e2a314260f5db90b330145ed3
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/scripts/whisper.py
+    alias_of: toolkit/vendor/pack-bradautomates-claude-video-mit/skills/watch/scripts/whisper.py
+  notices/30e2df1be0fa-plugin.json:
+    sha256: 30e2df1be0fa26a2ceda5d6dbadb07c900d2a7792055be127f6bff1514307a01
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-claude-video-watch-0.3.2/.claude-plugin/plugin.json
+  notices/8fcfba9272fe-plugin.json:
+    sha256: 8fcfba9272fe71a33380bf2f24f3b5a7f8881cb2250a54db4b846d6c9720fc66
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-claude-video-watch-0.3.2/.codex-plugin/plugin.json
+  notices/add78957ea81-LICENSE:
+    sha256: add78957ea8124a8ae6eccd7a55c948543a9f32ea26917bf562b8cafacb01d3e
+    copied_from: ~/.claude/plugins/cache/claude-video/watch/0.3.2/LICENSE
+notices:
+- LICENSE
+- notices/30e2df1be0fa-plugin.json
+- notices/8fcfba9272fe-plugin.json
+- notices/add78957ea81-LICENSE
+excluded:
+- source: ~/.claude/plugins/cache/claude-video/watch/0.3.2/skills/watch/.gitattributes
+  reason: git repository metadata (.gitignore/.gitattributes) would change this repository's
+    own git behaviour; not tool material, excluded unchanged

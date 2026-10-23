@@ -1,0 +1,1 @@
+../../shopify/scripts/track-telemetry.ps1

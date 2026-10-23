@@ -1,0 +1,371 @@
+package: plugin-account-synced-design-skills-marketplace
+upstream_url: https://github.com/cuellarfr/design-skills
+pinned_ref:
+- 1.0.0
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-account-synced-design-skills-marketplace
+copied_from:
+- ~/.claude/plugins/synced/ACCOUNT/PLUGIN
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 9286b4645ea3d18ed64ad86a9f32068600f920c0f081ab2fdee590b83753817d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: 507aeee50976b65c47eb5346f72a9b154bff52b8e8edc69d745acd7afecd15ba
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: b4b0fe5655750eb3462c499526d7452e0c28e6ae591870f0f282475e0ebf10b1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  skills/accessibility-audit/SKILL.md:
+    sha256: 3d5a31d9a83eaf8a58a0242fa2e23151be25ecc6f3ad507c68f7af77056c9194
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/SKILL.md
+  skills/accessibility-audit/examples/audit-walkthrough.md:
+    sha256: 1e677c6aa3051f3880cb227135fbc11bc875c6e2fed8d698d378690ee18480a9
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/examples/audit-walkthrough.md
+  skills/accessibility-audit/examples/quick-wins.md:
+    sha256: 3364d2c577aa3d7a1673eb780e6ae534352306584da75e0895d14b51b1878e10
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/examples/quick-wins.md
+  skills/accessibility-audit/references/common-issues-and-fixes.md:
+    sha256: a5d34ca224baca1c42828011ed028a3346aae2bbbac5e35b7e32350563224449
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/references/common-issues-and-fixes.md
+  skills/accessibility-audit/references/testing-tools-and-techniques.md:
+    sha256: 6436b9a42c2bde7682233a5f3ea9f6c55b1402b7d50ed0b21aa8deb1e6d2c364
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/references/testing-tools-and-techniques.md
+  skills/accessibility-audit/references/wcag-checklist.md:
+    sha256: dcf2f75a6fd254b4bf627634f8bfb1bd1e48d6325ba3560005850bcd895f4aa6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/references/wcag-checklist.md
+  skills/accessibility-audit/templates/accessibility-rules-file.md:
+    sha256: a801a8667fdc1ebc8ede7e0b73c8126a31602241a476fba6a47ad3fac9617bc7
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/templates/accessibility-rules-file.md
+  skills/accessibility-audit/templates/audit-report-template.md:
+    sha256: 500e30a10465ea9c6818ef9dbd6dcaea1a603341428f45c75ba6e05acad3d014
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/templates/audit-report-template.md
+  skills/accessibility-audit/templates/quick-checklist-template.md:
+    sha256: 052cab7c996e2343eda7617ac87388559defa1580500d9a9fc96f21f5a6983d9
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/accessibility-audit/templates/quick-checklist-template.md
+  skills/design-critique/SKILL.md:
+    sha256: b3e07c4c8a8c02dac3eb24afebd1fb0321151a6665cbff9ee851cf725298bada
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/SKILL.md
+  skills/design-critique/examples/common-design-problems.md:
+    sha256: b6f3a9d5913e1a33ad89f03f53ffbea28e4373ff5f14a4196e80a32faac43a76
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/examples/common-design-problems.md
+  skills/design-critique/examples/critique-walkthrough.md:
+    sha256: 85b7b520d6ab5e8b6a20c7a9103ba7ba065bd5b131dff6d99da418e4d2e2fae2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/examples/critique-walkthrough.md
+  skills/design-critique/examples/pattern-selection-walkthrough.md:
+    sha256: f82fc2f6a3d920963e2b311ad6515285305197cbfb3bc4260ecc86adf571a00a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/examples/pattern-selection-walkthrough.md
+  skills/design-critique/references/design-patterns-catalog.md:
+    sha256: 33c7fc2e0c65c5f500bf64c5fe7dfd957da6588c78f587179a6e3d2314f43fb6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/references/design-patterns-catalog.md
+  skills/design-critique/references/heuristics-and-laws.md:
+    sha256: c67eb8367d4e3f76d0f3fbdc99b49a962f2e24229cf1b3647b6bc6da238f05aa
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/references/heuristics-and-laws.md
+  skills/design-critique/references/interaction-design-principles.md:
+    sha256: 7b665bfaff68d3deaa51ce82889c8d364cc896911e0a6b3447a6eb4187879510
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/references/interaction-design-principles.md
+  skills/design-critique/references/visual-design-principles.md:
+    sha256: 0cf2bc6acd9735c65a110683bfa4a4daef9661c937ffa58e0e95e2e6d0094c3b
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/references/visual-design-principles.md
+  skills/design-critique/templates/design-critique-template.md:
+    sha256: 5f25d2876d1fe128f262b516ff9c7f703c1d1df1e0bf43f03321b230a2a07ff2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/templates/design-critique-template.md
+  skills/design-critique/templates/heuristic-evaluation-template.md:
+    sha256: 272a1f764c28d6eb944a4e2f015fa2b6fa7f9c32beef4e306c522d9a9b958b0c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-critique/templates/heuristic-evaluation-template.md
+  skills/design-elevation/SKILL.md:
+    sha256: 6bf97293d3d55a19bca406110966f0f53584db75cb284833529bcdb2f60d2470
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/SKILL.md
+  skills/design-elevation/references/carbon-design-system.md:
+    sha256: 7d5316194841b925437072373f46da05d943377f6aa3985213287645177445a0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/carbon-design-system.md
+  skills/design-elevation/references/color-systems.md:
+    sha256: 0b17787241c3f7a3431f20141414eba3ff983d5b5ca0eeb118b762db7ddedf8a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/color-systems.md
+  skills/design-elevation/references/data-visualization.md:
+    sha256: 69968bc99f7028309995c7b16370351e8d7dc4886e809ed07529a8376229e92a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/data-visualization.md
+  skills/design-elevation/references/design-exemplars.md:
+    sha256: 4dee36cd0f59d3358835f538331cfeaf6b42c1594a8a88ba14362154f60f5b44
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/design-exemplars.md
+  skills/design-elevation/references/design-interrogation.md:
+    sha256: de5ad54a4011411a5a28db0172b7d01eee9f17b482d88469319abbb729dcdff5
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/design-interrogation.md
+  skills/design-elevation/references/elevation-protocol.md:
+    sha256: 145901c4241202d1111b3e7aceaf8c144cef3c97c1feb7968c5cd05078a4eac3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/elevation-protocol.md
+  skills/design-elevation/references/grid-systems.md:
+    sha256: d944787a9dcfe1abd659d541517ec4c19a24e32b85fe51ba6c432043ab1caf4d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/grid-systems.md
+  skills/design-elevation/references/lightning-design-system.md:
+    sha256: 33d03d4ced3b1c4742fc93dcb460869781e5f75c2f603d345ffc1bf637dcecaf
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/lightning-design-system.md
+  skills/design-elevation/references/polaris-design-system.md:
+    sha256: 4019f1f09953d463f1a4717a066d5dab43ef254b914cdcbe2e732064d8286af8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/polaris-design-system.md
+  skills/design-elevation/references/spacing-systems.md:
+    sha256: 96dc7aeb4f64ad60fa445f9cc6d3e67d70c138809c27f21233050165ff8a824b
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/spacing-systems.md
+  skills/design-elevation/references/spectrum-design-system.md:
+    sha256: 6876c2fa3dff42a509ba7a9c15580d03345db33f217f5b44a682c04e6091473f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/spectrum-design-system.md
+  skills/design-elevation/references/technique-catalog.md:
+    sha256: 0d8b2550660d99e63f9c1e44b9621815b9498704bf01af617e081cb4368fdc00
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/technique-catalog.md
+  skills/design-elevation/references/typography-scales.md:
+    sha256: cdd242802f171d8a5c6997a312f15d0ab079e0ea4885b837547fcd98dafe93d3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-elevation/references/typography-scales.md
+  skills/design-ops/SKILL.md:
+    sha256: 83b95806ea598f92c4805e3a9296030af6d91356899b09d8f51bcac42569801f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/SKILL.md
+  skills/design-ops/examples/design-sprint-walkthrough.md:
+    sha256: 4354c4f0424036bdfa64a32073864c00b4a7f2dd3a96b7168643f93eeef125b8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/examples/design-sprint-walkthrough.md
+  skills/design-ops/examples/handoff-walkthrough.md:
+    sha256: 81ef1b0e1bd05ac869edfacc6172aabbf89ea0eea4367f93392eb0d79cb0d9e8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/examples/handoff-walkthrough.md
+  skills/design-ops/references/design-qa.md:
+    sha256: fedc2d37afc90d8edf52668190de330fe70658d79d002c24e9a25223f01f15a6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/references/design-qa.md
+  skills/design-ops/references/design-sprints.md:
+    sha256: 2272d0705e6521978615b823ad397c9239ab122513d280a77d34f5171c7b1137
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/references/design-sprints.md
+  skills/design-ops/references/documentation-standards.md:
+    sha256: b12883d1e1eab26f97fd64fd8dc30de062984a9c3acf4acb85c75ef21b9af9b3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/references/documentation-standards.md
+  skills/design-ops/references/handoff-process.md:
+    sha256: 3e10eb1c76d2c2db42d872157d2b2dc6a88e5c7147ef8cf43274453702f0dc18
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/references/handoff-process.md
+  skills/design-ops/references/team-rituals.md:
+    sha256: dd8f699dd05ceadc364f4885db1ca26239c3081a78b96a68460d4818d5cdf5f4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/references/team-rituals.md
+  skills/design-ops/templates/design-sprint-template.md:
+    sha256: ba8accde094778c158fa4903b4d07dced888d9b0eacc03547cc1cdd773c9c9b4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/templates/design-sprint-template.md
+  skills/design-ops/templates/handoff-checklist-template.md:
+    sha256: cd4b54002a85ca6de9579ebdc58cb4e222717f277825ff1f30d16b41951cb805
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-ops/templates/handoff-checklist-template.md
+  skills/design-systems/SKILL.md:
+    sha256: 42c52c7336a668180b409f3df6d960c26e31ba32d9ef63da946e6559b245f8bd
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/SKILL.md
+  skills/design-systems/examples/component-spec-walkthrough.md:
+    sha256: 1f80e384c0257d4d4f9181e8e74f161db95981151db1e8f461614ff7eb6b825d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/examples/component-spec-walkthrough.md
+  skills/design-systems/examples/system-audit-walkthrough.md:
+    sha256: 59a029f201f187db96918a03736a9167cab87669a7319a0e68e404ec45505178
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/examples/system-audit-walkthrough.md
+  skills/design-systems/references/component-hierarchy.md:
+    sha256: d6e29a442aaf8f7c33d78150ff7014daa3e9846bcdd0c25061f78705cebde19a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/references/component-hierarchy.md
+  skills/design-systems/references/design-tokens.md:
+    sha256: 80cddc366f0b405e1603814a684633e061a91e6602cb00a78ccb55657984fa01
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/references/design-tokens.md
+  skills/design-systems/references/governance-and-maintenance.md:
+    sha256: 03dcf1872cefeecded70b087e4c1d342725f428a512d62142cbed2d2b9e9eb4a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/references/governance-and-maintenance.md
+  skills/design-systems/references/pattern-documentation.md:
+    sha256: 3e69e1742bd925055e5b16dc6d58ed45cfe7c52d2126fbe8fb4131e1deec1c6b
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/references/pattern-documentation.md
+  skills/design-systems/references/perceptual-patterns.md:
+    sha256: 581ce59fef94be0ff8948b6cad7014bc8b463f8a131e6569b94eeab379929ab1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/references/perceptual-patterns.md
+  skills/design-systems/templates/component-spec-template.md:
+    sha256: 11445b2e9af1fc215e22f0153f48bbcb03beceabde12faf2602b5d38cbaf55db
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/templates/component-spec-template.md
+  skills/design-systems/templates/design-system-audit-template.md:
+    sha256: b9ef367f7c16a699ae1289033950bb7ee7471fcfe02d4e4052a9fa71e59d7133
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/templates/design-system-audit-template.md
+  skills/design-systems/templates/token-architecture-template.md:
+    sha256: de839d6d41452d1c385893e56d97ab2f02c8d4abcb9ccd41df39735d3771715f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-systems/templates/token-architecture-template.md
+  skills/interaction-design/SKILL.md:
+    sha256: 4fcfd67b45e4bf6c1a8e877b51a7da06c0d5a5fd2f83459cc76e2e1f3d6fe315
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/SKILL.md
+  skills/interaction-design/examples/interaction-audit-walkthrough.md:
+    sha256: f655b005ec0b18045f411d973c0b276229181e120817dea7b77ad5902a083802
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/examples/interaction-audit-walkthrough.md
+  skills/interaction-design/examples/microinteraction-walkthrough.md:
+    sha256: 6adfe99c39a9ae8912739ccdea1263b992ca4e69315068bec336e2a48cdf1d24
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/examples/microinteraction-walkthrough.md
+  skills/interaction-design/references/error-prevention.md:
+    sha256: 5e860c6e4a110f7a3928b605bc1d2c5a3b6262fa23578bafd621305bab7549c9
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/references/error-prevention.md
+  skills/interaction-design/references/microinteractions.md:
+    sha256: a876319411fda8a5a31f1b958a6244712520a2942894b427541b405c8f7cd2e3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/references/microinteractions.md
+  skills/interaction-design/references/motion-principles.md:
+    sha256: 03f3416f8a60bc4a54b7adc80a54dac408187366d417d2fbeb2d62a8d38cc798
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/references/motion-principles.md
+  skills/interaction-design/references/product-behavior.md:
+    sha256: 48b0d8e1be49ce7e709c8cd925d8e35809ae5d0e7fa231d86b36ce2111ef506c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/references/product-behavior.md
+  skills/interaction-design/references/state-and-transitions.md:
+    sha256: b25c77dea7c6cdcbebdab5221ec967f990219b53ad11d62fd031eaec65e1d3bf
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/references/state-and-transitions.md
+  skills/interaction-design/templates/microinteraction-spec-template.md:
+    sha256: 8fefec275f0cdf40bfcc94678b5f24d55fd6f5bd2095c343e554d3af7ca14429
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/templates/microinteraction-spec-template.md
+  skills/interaction-design/templates/state-inventory-template.md:
+    sha256: f543ff58aae390c1a7cfa80c79eafbd1a66e8626d665b033d6eb7130ddf79202
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/interaction-design/templates/state-inventory-template.md
+  skills/journey-mapping/SKILL.md:
+    sha256: 8bafec2555c910ca8aca357b94679a386f2ff4730c5af1bee924cc452ed715d6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/SKILL.md
+  skills/journey-mapping/examples/cjm-walkthrough.md:
+    sha256: 1b22c88732ff1d3496785c575061e6fff9099103d4d3c81949f8d43d8ae9a6b0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/examples/cjm-walkthrough.md
+  skills/journey-mapping/examples/diagram-selection-scenarios.md:
+    sha256: 0bed133c9979f9c08464c9bb74533f5e095c10b4dbe5302ee208457432475522
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/examples/diagram-selection-scenarios.md
+  skills/journey-mapping/references/alignment-workshops.md:
+    sha256: b9941f9484c6cea1651b7abc02f4b51844c4509c3cadc3514785e4b3f16b3f40
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/references/alignment-workshops.md
+  skills/journey-mapping/references/customer-journey-maps.md:
+    sha256: 6df41124e1a71d423eb770f73e60e3af96e7ed31bd831911efc48235f5dca6d0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/references/customer-journey-maps.md
+  skills/journey-mapping/references/experience-maps-and-models.md:
+    sha256: f11b543dffd1355c4668756f795c78f9cca3fdbe401a2f5cf0c91a3a1a7c3152
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/references/experience-maps-and-models.md
+  skills/journey-mapping/references/flow-diagramming-visual-vocabulary.md:
+    sha256: ee5efe6145797e2647a44c7d9e9e184f0b3bf53b5f55bdef385beadac02e077c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/references/flow-diagramming-visual-vocabulary.md
+  skills/journey-mapping/references/service-blueprints.md:
+    sha256: 83d5d678b9c5467c142ae139aa98f5a42726c01a64503f57f310b2d256cfd309
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/references/service-blueprints.md
+  skills/journey-mapping/templates/customer-journey-map-template.md:
+    sha256: b87887febf49c8ce84d2221b448accf003083b6ddfc529e50f5299bd9668cbce
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/templates/customer-journey-map-template.md
+  skills/journey-mapping/templates/empathy-map-template.md:
+    sha256: d276daf69cb8a308e670927890c0f6b5adb604d7fec78a842454dbce0ba8f449
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/templates/empathy-map-template.md
+  skills/journey-mapping/templates/service-blueprint-template.md:
+    sha256: 0b3c6c8b51ac57ba79ce566d21dfe98ccdfeb0900fb69534f53c63fc6b9c46ac
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/journey-mapping/templates/service-blueprint-template.md
+  skills/ux-research/SKILL.md:
+    sha256: 9cb6593e3ef597fa847955af41782305362ed52264850572873d0520afd4ad79
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/SKILL.md
+  skills/ux-research/examples/interview-to-insights.md:
+    sha256: 9b031c87ed6617a3782f8e262361f66b5d745ae51c339e1e8c94ede388efcab4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/examples/interview-to-insights.md
+  skills/ux-research/examples/method-selection-scenarios.md:
+    sha256: c2b19a0c01c2017d62979ced6396aef01673cf046f9f55d2679a914e5de2e105
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/examples/method-selection-scenarios.md
+  skills/ux-research/references/analysis-synthesis.md:
+    sha256: cafa4589aca447828d1a06b4a8e79b1f899fa055f43f070aa58d7833fb0e4c76
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/references/analysis-synthesis.md
+  skills/ux-research/references/continuous-discovery.md:
+    sha256: db99d55c83c78b0e4b60219e9147b80ac9cae89329f870378aa6342acda5de64
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/references/continuous-discovery.md
+  skills/ux-research/references/interviewing-guide.md:
+    sha256: f28d5ed8c0af7456f45df53d78512d381624c5023564dae62437cbc900fe5264
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/references/interviewing-guide.md
+  skills/ux-research/references/research-methods-catalog.md:
+    sha256: 6e4d8c7baaa7beea480f760e71592b04261b16715a2f8e333728f0c863034a0f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/references/research-methods-catalog.md
+  skills/ux-research/references/usability-testing-guide.md:
+    sha256: 0c16af07c57a7a2dcfdfe93eb39b0d865e63dc6a5170d9a172e5ceb5cb6b140f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/references/usability-testing-guide.md
+  skills/ux-research/references/workshop-methods.md:
+    sha256: 346ebc4655ae4a0ec9a667f557947375c9290245f79bab1c6dfc01442fe11aaf
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/references/workshop-methods.md
+  skills/ux-research/templates/findings-report-template.md:
+    sha256: 9e970647fd80bac27e2f9ecc6438a2c1cdebd364be03f0dbcce34e1ce8482776
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/templates/findings-report-template.md
+  skills/ux-research/templates/interview-guide-template.md:
+    sha256: 76a467c742e18f02752fdc330030b5481f9b3290048f122881f61a6f06969aa8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/templates/interview-guide-template.md
+  skills/ux-research/templates/persona-template.md:
+    sha256: e3ec23c007bc8ae8977e208449290465ccfa0e4ad8afe7cb6aafb27bd66f99dc
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/templates/persona-template.md
+  skills/ux-research/templates/research-plan-template.md:
+    sha256: a0f9961bf22868882e5d69a99a9d9662591fb748567c90fe1802bf7b87010684
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/templates/research-plan-template.md
+  skills/ux-research/templates/screener-template.md:
+    sha256: acd56d4e984133bdec029d2e06f6f148a62ecffe980cda8e2c71bb526d601d96
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/templates/screener-template.md
+  skills/ux-research/templates/usability-test-plan-template.md:
+    sha256: d5082266dddd63ca0482ccf51806687f039a2b029a5be5b5a8b86dcfcac8a283
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-research/templates/usability-test-plan-template.md
+  skills/ux-strategy/SKILL.md:
+    sha256: 179d421e0315c2b82ad6535e14defe38541a525b824eceb098681d1ecc609980
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/SKILL.md
+  skills/ux-strategy/examples/competitive-analysis-walkthrough.md:
+    sha256: 87f3329f9921465dd5ef9a5f6a99675bd643d47e9ab9d639b187ec175069f956
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/examples/competitive-analysis-walkthrough.md
+  skills/ux-strategy/examples/strategy-walkthrough.md:
+    sha256: 0c379befaad8c574b2a9f34bff9f495692bb14530967e0af2f97796514b3ab6a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/examples/strategy-walkthrough.md
+  skills/ux-strategy/references/competitive-analysis.md:
+    sha256: c7c804de74c2e366817eec65197cbd09d461bc315683a5a6f3a12623a2265930
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/references/competitive-analysis.md
+  skills/ux-strategy/references/jobs-to-be-done.md:
+    sha256: d362aec97a174e5819a2e2627a832830bfaa537e45ec0c49ad67144776f6c658
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/references/jobs-to-be-done.md
+  skills/ux-strategy/references/metrics-and-measurement.md:
+    sha256: 18e0e728a8392e96c1390d0f7772a71b13bf90a6a98b01572c17568948715d45
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/references/metrics-and-measurement.md
+  skills/ux-strategy/references/outcomes-and-opportunities.md:
+    sha256: d9b8e5b050ad57209be8ce326f8497b3a762674f04cb5824611c931a3295eea6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/references/outcomes-and-opportunities.md
+  skills/ux-strategy/references/value-proposition.md:
+    sha256: 71c9376625feb0fea87ddf780653c98dc176e7da817fa6736475a9fd9cc51587
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/references/value-proposition.md
+  skills/ux-strategy/templates/competitive-analysis-template.md:
+    sha256: d8f16bea4aa43243785f7b730e86e74258194430e18ca57be54a7c92bc049d8a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/templates/competitive-analysis-template.md
+  skills/ux-strategy/templates/competitive-brief-template.md:
+    sha256: 13b8f325dfa2c6a6e5405ef595196ad47c31e894a596b057a0a760398cdc6e2a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/templates/competitive-brief-template.md
+  skills/ux-strategy/templates/opportunity-solution-tree-template.md:
+    sha256: e3500d093cecb2865cff62ad17fe01a674043c1ff38228762d2004bf3665ef49
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/templates/opportunity-solution-tree-template.md
+  skills/ux-strategy/templates/strategy-brief-template.md:
+    sha256: ef1a46c9ba9bd03cdfd304604d331497f2bdc88fe72687e340b494989bbbee5d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-strategy/templates/strategy-brief-template.md
+  skills/ux-writing/SKILL.md:
+    sha256: d628e62cf9fc57340ba45e2faff8abf79d7951b44a74efea2c9ab77dc46b1d35
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/SKILL.md
+  skills/ux-writing/docs/figma-integration.md:
+    sha256: 736c9a0817918e6793d13af64d9d362a45797302218f4c5f189017fc4da988e0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/docs/figma-integration.md
+  skills/ux-writing/examples/real-world-improvements.md:
+    sha256: eae1497ec7d236a4e7e91e6855f91842ad2e6834b809ca15452527c299e7f78f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/examples/real-world-improvements.md
+  skills/ux-writing/references/accessibility-guidelines.md:
+    sha256: 58ea6f63b2156530bd7a7b422b828fbf8330978e989b71a3703ca2ebdb067ba0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/references/accessibility-guidelines.md
+  skills/ux-writing/references/content-usability-checklist.md:
+    sha256: 29a7437f542b6ea3215f8cb1ec5295b93955385fc90811d1fbd7bf2e2c96dad3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/references/content-usability-checklist.md
+  skills/ux-writing/references/patterns-detailed.md:
+    sha256: afc09a320f4b7bc23a62678da136a373afc1552c86a4d2e20648af8a04e323f6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/references/patterns-detailed.md
+  skills/ux-writing/references/voice-chart-template.md:
+    sha256: aef230903e2c93bc6c69fe3d9a12da7d5bd2dca36cf7688066481e549e4fb4f3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/references/voice-chart-template.md
+  skills/ux-writing/templates/empty-state-template.md:
+    sha256: efd184648b4b0399dc48049c157a3be3ef45157bb734b7b61f119d94710dda9d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/templates/empty-state-template.md
+  skills/ux-writing/templates/error-message-template.md:
+    sha256: 728795bffb33b482169eb0f312798714d95ebb976d68a00d77dae32be4c5fd70
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/templates/error-message-template.md
+  skills/ux-writing/templates/onboarding-flow-template.md:
+    sha256: 1c49b2427400263601f10679c12046be99125d1f7a81dee6b563a26618d7ed3b
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ux-writing/templates/onboarding-flow-template.md
+  notices/507aeee50976-plugin.json:
+    sha256: 507aeee50976b65c47eb5346f72a9b154bff52b8e8edc69d745acd7afecd15ba
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-design-skills-marketplace/.claude-plugin/plugin.json
+  notices/b4b0fe565575-LICENSE:
+    sha256: b4b0fe5655750eb3462c499526d7452e0c28e6ae591870f0f282475e0ebf10b1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  notices/15b0c6610436-README.md:
+    sha256: 15b0c661043681fb77d05b8bcd77211f2fe6db812cef599bafbb0a27f4499e5c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/README.md
+notices:
+- LICENSE
+- notices/507aeee50976-plugin.json
+- notices/b4b0fe565575-LICENSE
+- notices/15b0c6610436-README.md
+excluded: []

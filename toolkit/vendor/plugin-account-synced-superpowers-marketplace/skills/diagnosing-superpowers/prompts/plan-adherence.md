@@ -1,0 +1,1 @@
+../../../../pack-obra-superpowers-mit/skills/diagnosing-superpowers/prompts/plan-adherence.md

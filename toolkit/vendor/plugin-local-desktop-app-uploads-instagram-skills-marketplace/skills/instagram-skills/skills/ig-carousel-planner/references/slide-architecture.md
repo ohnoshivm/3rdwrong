@@ -1,0 +1,1 @@
+../../../.codex-marketplace/instagram-skills/skills/ig-carousel-planner/references/slide-architecture.md

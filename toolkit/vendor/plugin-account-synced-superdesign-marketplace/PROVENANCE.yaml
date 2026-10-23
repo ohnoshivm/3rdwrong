@@ -1,0 +1,82 @@
+package: plugin-account-synced-superdesign-marketplace
+upstream_url: https://github.com/superdesigndev/superdesign-skill
+pinned_ref:
+- 0.6.0
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-account-synced-superdesign-marketplace
+copied_from:
+- ~/.claude/plugins/synced/ACCOUNT/PLUGIN
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: bd9bf0515e19f690d16349cb48240ea8b338a5e020668dcf93a097491e066be2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: db8393e1bfc0229a975f68572e5cf50fecb53508a11944f2d07f2f848f768a2e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+  .codex-plugin/plugin.json:
+    sha256: 530bafa2c47e69c2cf7775652c6c90d031faddf5446264e4e1ed4fe26c0a40a4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.codex-plugin/plugin.json
+  LICENSE:
+    sha256: 40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  skills/superdesign/INIT.md:
+    sha256: fa40e7c282d2520544167084d21a8b277e13a6ea299058c5021dd793f86c99c7
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/INIT.md
+  skills/superdesign/SKILL.md:
+    sha256: f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/SKILL.md
+  skills/superdesign/SUPERDESIGN.md:
+    sha256: b243e0dba9889115c8b363ebe6e1b3b286b59c54293b76927e78a3febabea610
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/SUPERDESIGN.md
+  skills/superdesign/agents/openai.yaml:
+    sha256: 0e1c60a46d7837a3b47fb5a034d9b210b06af8fef7b33090122f9672ca5abb84
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/agents/openai.yaml
+  skills/superdesign/references/ASSET_GENERATION.md:
+    sha256: 655fdb83dc3d9603dcf34229f7dc37973275e9484eb4eef75fc8acc6313cb572
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/ASSET_GENERATION.md
+  skills/superdesign/references/COMPONENTS.md:
+    sha256: 03935ff4b869327b31146cf7ee7020aa90044b6921567f96d4180810685bf7fb
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/COMPONENTS.md
+  skills/superdesign/references/GRAPHIC.md:
+    sha256: 873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/GRAPHIC.md
+  skills/superdesign/references/INIT.md:
+    sha256: b262b4dc10705eac6caeaa7f55cae1814a71b186667d27b6a89ed776ef9f48ec
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/INIT.md
+  skills/superdesign/references/PRESENTATION.md:
+    sha256: 1e090e67e94d544aff8d5bb99d1aa36f11cc745b45ad6cfef65c734efa038639
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/PRESENTATION.md
+  skills/superdesign/references/RESUME.md:
+    sha256: 84c7b05038bb81f5c8067f385923be09f17ef2fe10c872504bbab3ab6986c3da
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/RESUME.md
+  skills/superdesign/references/SUPERDESIGN.md:
+    sha256: cecaa6ca1ef8ce39430f7f2c8d786e744e6c2a3eda2fde780d22f8162c04f791
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/SUPERDESIGN.md
+  skills/superdesign/references/WEBSITE.md:
+    sha256: 5cd4a0fd36249bd18c1f6d2f683b3c9d96c9d136fa7a7ba5832966b09e16b4fe
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/WEBSITE.md
+  skills/superdesign/references/design-with-your-model.md:
+    sha256: 986f7dcab61a5d5ad74dfdb6c4c6b43378c4887cd776719b944233aed9c40cf2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/superdesign/references/design-with-your-model.md
+  notices/db8393e1bfc0-plugin.json:
+    sha256: db8393e1bfc0229a975f68572e5cf50fecb53508a11944f2d07f2f848f768a2e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-superdesign-marketplace/.claude-plugin/plugin.json
+  notices/530bafa2c47e-plugin.json:
+    sha256: 530bafa2c47e69c2cf7775652c6c90d031faddf5446264e4e1ed4fe26c0a40a4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-superdesign-marketplace/.codex-plugin/plugin.json
+  notices/315254c6fb6d-package.json:
+    sha256: 315254c6fb6d1bbe25ce725617a5bc6cc3c748f1c919988468ccde0d4f1a4fa1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/package.json
+  notices/40ef0633533b-LICENSE:
+    sha256: 40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+notices:
+- LICENSE
+- notices/db8393e1bfc0-plugin.json
+- notices/530bafa2c47e-plugin.json
+- notices/315254c6fb6d-package.json
+- notices/40ef0633533b-LICENSE
+excluded: []

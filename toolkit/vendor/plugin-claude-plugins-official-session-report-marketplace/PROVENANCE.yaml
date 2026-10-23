@@ -1,0 +1,29 @@
+package: plugin-claude-plugins-official-session-report-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-session-report-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report
+copied_on: '2026-10-23'
+files:
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/LICENSE
+  skills/session-report/SKILL.md:
+    sha256: ef0fbc4259a41b7fd61b517fb1c9a95f02b83ea3c79ba0b3afbeee4942570397
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/skills/session-report/SKILL.md
+  skills/session-report/analyze-sessions.mjs:
+    sha256: 7e660e93b4089e9262c822f36f7233f55b77d2d6d7e19dd664596cd90c6331ea
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/skills/session-report/analyze-sessions.mjs
+  skills/session-report/template.html:
+    sha256: b2981488f8e9eeadb305330e8f6ddf795b0360d756a7f1f175f8320811202fc3
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/skills/session-report/template.html
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/session-report/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

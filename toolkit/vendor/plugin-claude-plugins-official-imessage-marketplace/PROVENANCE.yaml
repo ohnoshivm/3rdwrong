@@ -1,0 +1,33 @@
+package: plugin-claude-plugins-official-imessage-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- 0.2.0
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-imessage-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: bfd3b6f580281421c72bfec2f18363214ecf9c24064bfa86f1a3c8fa0c6a5b74
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: dfd016a63459229ceb791be757c3bede084fb22303c36b61342db1b8f58cc450
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/LICENSE
+  skills/access/SKILL.md:
+    sha256: ac994a86aab3a2724651a13a62ee9deae985196c8687a33bb79c4b7898aa5be7
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/access/SKILL.md
+  skills/configure/SKILL.md:
+    sha256: 3afdc7e9faa36aa0ba9813dce68509c45014a75b316d366ba44c46ebd8b098aa
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/skills/configure/SKILL.md
+  notices/4a9df84985f2-package.json:
+    sha256: 4a9df84985f21a7d6df518520919812889c8d4408e66c276c213df8eaf16ecfc
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/package.json
+  notices/dfd016a63459-LICENSE:
+    sha256: dfd016a63459229ceb791be757c3bede084fb22303c36b61342db1b8f58cc450
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/LICENSE
+notices:
+- LICENSE
+- notices/4a9df84985f2-package.json
+- notices/dfd016a63459-LICENSE
+excluded: []

@@ -1,0 +1,1 @@
+../../.codex-marketplace/facebook-skills/skills/fb-audience-insights/SKILL.md

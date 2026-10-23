@@ -1,0 +1,26 @@
+package: plugin-claude-plugins-official-code-simplifier-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- 1.0.0
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-code-simplifier-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-simplifier
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: f18fb26b2f03e95ad165a4333c73ecd292da18e74d2b89d89bd9848839f8d0e7
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-simplifier/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-simplifier/LICENSE
+  agents/code-simplifier.md:
+    sha256: 2a51e8d210580d9f66ac2ed1226c41f9374565fc275da30d7bb95f65c2cc87bb
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-simplifier/agents/code-simplifier.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-simplifier/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

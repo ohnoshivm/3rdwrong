@@ -1,0 +1,1 @@
+../../.codex-marketplace/x-skills/skills/x-hook-extractor/SKILL.md

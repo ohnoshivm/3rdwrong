@@ -1,0 +1,1 @@
+../../.codex-marketplace/facebook-skills/skills/fb-page-optimizer/SKILL.md

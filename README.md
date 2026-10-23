@@ -1,6 +1,6 @@
 # 3RDWRONGS Creative Operating System
 
-3RDWRONGS is an emerging independent design and branding company with global ambitions. Its approved direction is: **“A brand identity studio first. A living identity specialist by capability. A perception-led consultancy by method.”**
+3RDWRONGS is an emerging independent design-engineering studio: **brand identity at the core, digital experience as the second pillar, perception-led by method.** Living identity remains a capability. See the approved direction in [D-0018](studio/decisions/0018-design-engineering-studio.md).
 
 The repository is [`ohnoshivm/3rdwrong`](https://github.com/ohnoshivm/3rdwrong), with local home `~/3rdwrong`. Everything committed here is public and open source under the applicable licences, including the [founding blueprint](studio/archive/founding-blueprint-v1.0.md) and [unvalidated pricing hypotheses](studio/pricing.md). See [D-0017](studio/decisions/0017-fully-open-repository.md).
 
@@ -34,6 +34,39 @@ This repository is the studio's version-controlled second brain: a public operat
 - How agents should load context: [AI integration](docs/ai-integration.md) and [agent instructions](AGENTS.md).
 - How to contribute: [Contributing](CONTRIBUTING.md).
 - What may be published: [Publication rules](docs/public-private-boundary.md).
+
+## Departments and toolkit
+
+The [department index](studio/departments/README.md) groups eleven departments: **Craft** (Design, Engineering, Labs), **Delivery** (Strategy, Production, Media), **Growth** (Marketing, Advertising, Outbound, Sales), and **Studio** (Operations). Leads and specialists are active; bench and parked tools stay in the library under D-0019. The [registry summary](studio/departments/registry-summary.md) records job leads and honest gaps.
+
+The portable toolkit has three distribution paths: **VENDOR** in `toolkit/vendor/` for redistributable snapshots, **FETCH** in [toolkit/fetch.yaml](toolkit/fetch.yaml) at pinned commits, and **MANUAL** in [toolkit/manual.md](toolkit/manual.md) for account setup or unresolved rights. See [coverage](toolkit/coverage.json), [LICENSING — Third-party toolkit](LICENSING.md#third-party-toolkit) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+### One-command install
+
+From a clone of this repository:
+
+```bash
+scripts/install.sh --profile full --tools both
+scripts/install.sh --profile design-engineering --tools codex --dry-run
+scripts/install.sh --profile minimal --tools claude --skip-fetch
+scripts/install.sh --uninstall
+```
+
+Profiles: `full` (all departments), `design-engineering` (Craft), `growth` (Growth), `studio` (Delivery and Operations), `minimal` (core `3w-` skills only). Core skills accompany every profile. `--tools claude|codex|both` chooses hosts; `--dry-run` previews changes, `--skip-fetch` skips network packages, and `--uninstall` removes only unchanged installer-owned entries. `TOOLKIT_FETCH_TIMEOUT` sets the per-fetch timeout in seconds (default 1800).
+
+Active skills link into `~/.claude/skills/` and/or `~/.agents/skills/`; Claude agents link into `~/.claude/agents/`. Library tools and Codex agent references use `~/.claude/skills-library/3rdwrong/`. Fetches and ownership records live under `~/.3rdwrong/`; configuration templates are written only when absent. Names are prefixed `3w-`. Existing user files or folders are never overwritten; conflicts are reported. Keep the clone in place while its links are installed.
+
+### Claude Code marketplace
+
+[.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) exposes 12 plugins: one per department plus `3rdwrong-core`. Choose the department you need. In Claude Code, register the release branch and install a plugin:
+
+```text
+/plugin marketplace add ohnoshivm/3rdwrong#system/v0.3-departments
+/plugin install 3rdwrong-design@3rdwrong
+/plugin install 3rdwrong-core@3rdwrong
+```
+
+Shell equivalents are `claude plugin marketplace add ohnoshivm/3rdwrong#system/v0.3-departments` and `claude plugin install 3rdwrong-design@3rdwrong`. These forms were checked against the [current Claude Code plugin documentation](https://code.claude.com/docs/en/discover-plugins) on 2026-10-23. After PR A lands, the unpinned `ohnoshivm/3rdwrong` source uses the default branch. Fetch/manual tools still need the setup described above; marketplace entries do not grant accounts or licences.
 
 ## Using with Claude Code
 
@@ -69,9 +102,9 @@ The OS is for the founder, collaborators, researchers, designers, and AI tools w
 
 ## Complete and experimental
 
-The repository foundation, governance rules, validation tools, and entry-point documentation are in place. The approved positioning, flagship offer, and operating philosophy are recorded from the founding brief. Delivery workflow details remain proposed.
+The repository foundation, governance rules, validation tools, and entry-point documentation are in place. [D-0018](studio/decisions/0018-design-engineering-studio.md) records the approved design-engineering direction; [D-0019](studio/decisions/0019-organisation-and-loading-policy.md) records the approved organisation and loading policy. The original operating philosophy remains recorded. Positioning wording, offer details, delivery workflows and the 12-month roadmap remain proposed; department guides and the portable registry are integrated, with routing and capability evaluations still proposed.
 
-The studio's own visual identity is still in exploration and is not approved. The skills are experimental. The primary ICP and pricing range remain hypotheses; neither should be presented as validated market evidence. Statuses on individual documents show what is ready for use and what still needs review.
+The studio's own visual identity is still in exploration and is not approved. The skills are experimental. The ICP and existing pricing remain hypotheses and need review for D-0018; Digital Experience pricing is to be set by founder. The ambition to become a leading studio within 6–12 months is an ambition, not current standing or validated market evidence. Statuses on individual documents show what is ready for use and what still needs review.
 
 ## Open source and protected material
 

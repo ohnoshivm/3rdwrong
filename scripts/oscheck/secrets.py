@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 from pathlib import Path
 
@@ -25,6 +26,29 @@ PAN = re.compile(r"\b[A-Z]{5}[0-9]{4}[A-Z]\b")
 AADHAAR = re.compile(r"(?<![A-Za-z0-9])(?:\d{4}[ -]?){2}\d{4}(?![A-Za-z0-9])")
 RUPEE_AMOUNT = re.compile(r"₹\s*\d[\d,]*(?:\.\d+)?")
 ALLOW_MARKER = "secret-scan: allow"
+TOOLKIT_ALLOWLIST = "toolkit/secret-allowlist.json"
+
+
+def _toolkit_reviewed_lines(root: Path) -> tuple[set[tuple[str, str, str]], list[Issue]]:
+    """Exact reviewed third-party lines: (path, line SHA-256, label); no file or pattern scope."""
+    path = root / TOOLKIT_ALLOWLIST
+    if not path.is_file():
+        return set(), []
+    try:
+        entries = json.loads(path.read_text(encoding="utf-8"))["entries"]
+    except (OSError, json.JSONDecodeError, KeyError, TypeError) as exc:
+        return set(), [Issue(TOOLKIT_ALLOWLIST, 1, "secrets", f"unreadable reviewed-line allowlist: {exc}")]
+    reviewed: set[tuple[str, str, str]] = set()
+    issues: list[Issue] = []
+    for number, entry in enumerate(entries, start=1):
+        valid = isinstance(entry, dict) and all(
+            isinstance(entry.get(key), str) and entry[key].strip() for key in ("path", "line_sha256", "label", "reason")
+        )
+        if not valid or not entry["path"].startswith(("toolkit/vendor/", "toolkit/plugins/")) or not re.fullmatch(r"[0-9a-f]{64}", entry["line_sha256"]):
+            issues.append(Issue(TOOLKIT_ALLOWLIST, 1, "secrets", f"entry {number} must bind a toolkit path, line SHA-256, label and reason"))
+            continue
+        reviewed.add((entry["path"], entry["line_sha256"], entry["label"]))
+    return reviewed, issues
 
 
 def _forbidden_name(name: str) -> bool:
@@ -37,11 +61,11 @@ def _forbidden_name(name: str) -> bool:
 
 
 def check_secrets(root: Path, config: dict) -> list[Issue]:
-    issues: list[Issue] = []
     allowlist = config.get("secret_allowlist", {})
     allowed_emails = {str(value).lower() for value in allowlist.get("emails", [])}
     allowed_pan = {str(value).upper() for value in allowlist.get("pan", [])}
     allowed_aadhaar = {re.sub(r"\D", "", str(value)) for value in allowlist.get("aadhaar", [])}
+    toolkit_reviewed, issues = _toolkit_reviewed_lines(root)
     for path in sorted(root.rglob("*")):
         if not path.is_file() or path.is_symlink():
             continue
@@ -75,19 +99,23 @@ def check_secrets(root: Path, config: dict) -> list[Issue]:
             if ALLOW_MARKER in line:
                 continue
             line_sha256 = hashlib.sha256(line.encode("utf-8")).hexdigest()
+
+            def reviewed(label: str) -> bool:
+                return (rel, line_sha256, label) in toolkit_reviewed
+
             for label, pattern in SECRET_PATTERNS:
-                if pattern.search(line) and (line_sha256, label) not in reviewed_examples:
+                if pattern.search(line) and (line_sha256, label) not in reviewed_examples and not reviewed(label):
                     issues.append(Issue(rel, line_number, "secrets", f"possible {label} detected"))
             for match in EMAIL.finditer(line):
                 value = match.group(0).lower()
-                if value not in allowed_emails:
+                if value not in allowed_emails and not reviewed("email address"):
                     issues.append(Issue(rel, line_number, "secrets", "email address found", "warning"))
             for match in PAN.finditer(line):
-                if match.group(0).upper() not in allowed_pan:
+                if match.group(0).upper() not in allowed_pan and not reviewed("PAN-like identifier"):
                     issues.append(Issue(rel, line_number, "secrets", "possible private data: PAN-like identifier detected"))
             for match in AADHAAR.finditer(line):
                 digits = re.sub(r"\D", "", match.group(0))
-                if digits not in allowed_aadhaar:
+                if digits not in allowed_aadhaar and not reviewed("Aadhaar-like identifier"):
                     issues.append(Issue(rel, line_number, "secrets", "possible private data: Aadhaar-like identifier detected"))
             if RUPEE_AMOUNT.search(line) and not price_allowed:
                 issues.append(

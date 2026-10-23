@@ -1,0 +1,1 @@
+../../../../plugin-openai-curated-remote-notion-3.0.1/skills/notion-meeting-intelligence/examples/executive-review.md

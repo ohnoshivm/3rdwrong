@@ -1,0 +1,56 @@
+package: plugin-claude-plugins-official-math-olympiad-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-math-olympiad-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 8c74f63e67cb9cbea57752f12c8afe5dcab569ae978503f28b18b07416bcae73
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/LICENSE
+  skills/math-olympiad/SKILL.md:
+    sha256: f697e195d343520f3db551bd4fb44c5120504ee2c47a9cc2016cd57767f23403
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/SKILL.md
+  skills/math-olympiad/evals/trigger_eval.json:
+    sha256: 672a9d8c3804c74683cd779126ab6a7c310081b290f04de863962f3631ebb196
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/evals/trigger_eval.json
+  skills/math-olympiad/references/adversarial_prompts.md:
+    sha256: 686f5913da4e3291d64989f1bacb8f99fe69cdb3b5b9e64c8390151e870bae2a
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/adversarial_prompts.md
+  skills/math-olympiad/references/attempt_agent.md:
+    sha256: 8716d7cad5ec2a05d8e6e48f4042721638b97dec83bd11eee1f7734697ba84bf
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/attempt_agent.md
+  skills/math-olympiad/references/known_constructions.md:
+    sha256: 5135bca2eb1c448f1144cda2b1cfa796be5cb6a082306e589ad8308636b1e065
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/known_constructions.md
+  skills/math-olympiad/references/model_tier_defaults.md:
+    sha256: fa44e35b3c73c12c4098568df2d8fc6ff54dbed16b8d592e82272554c3eeaeb0
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/model_tier_defaults.md
+  skills/math-olympiad/references/presentation_prompts.md:
+    sha256: 19eb3e242eb5879a5fe2768eea9d0e5a35b3df38a5c02cccd101e0b1f07e7d09
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/presentation_prompts.md
+  skills/math-olympiad/references/solver_heuristics.md:
+    sha256: a934fc5252d1a0776e6390c5a943af7f7b32324cf5454e3dce94b3681daa842e
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/solver_heuristics.md
+  skills/math-olympiad/references/verifier_patterns.md:
+    sha256: b72657c916d5cd0baa464d5ad59fce9fedb6f870f46b8dd9610632b08a591f56
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/references/verifier_patterns.md
+  skills/math-olympiad/scripts/check_latex.sh:
+    sha256: 052151934c82b7a5d91a5bb3ba2a1611f22fc661929cf819f7e3d954bdb22721
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/scripts/check_latex.sh
+  skills/math-olympiad/scripts/compile_pdf.sh:
+    sha256: 1e990d377d79b1d08b993833e7dcce8c5c82ed5ab34ad72c009b42f2e068b243
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/skills/math-olympiad/scripts/compile_pdf.sh
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

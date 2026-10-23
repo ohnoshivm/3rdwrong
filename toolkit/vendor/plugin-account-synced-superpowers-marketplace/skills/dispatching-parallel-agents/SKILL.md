@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/dispatching-parallel-agents/SKILL.md

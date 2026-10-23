@@ -1,0 +1,1 @@
+../../../../pack-obra-superpowers-mit/skills/brainstorming/scripts/stop-server.sh

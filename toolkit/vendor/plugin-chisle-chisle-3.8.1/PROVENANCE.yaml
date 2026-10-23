@@ -1,0 +1,110 @@
+package: plugin-chisle-chisle-3.8.1
+upstream_url: https://github.com/JayPokale/Chisle
+pinned_ref:
+- 0d4bc99c5379e2996a72338282f23ec8cdfab304
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-chisle-chisle-3.8.1
+copied_from:
+- ~/.claude/plugins/cache/chisle/chisle/3.8.1
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 3d27381244368ec2f164be3f757c61bcd89eddf6445839aeb0723b8760bb3c25
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: 52ab18fb0b3a7fb3f3117fd10ffddbcfc56e5475026f95d5b1a3142218ea7a76
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/.claude-plugin/plugin.json
+  .codex-plugin/plugin.json:
+    sha256: 5afaa68a788df06ddcda4288842611234537389605031f087eb1ac13345b1960
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/.codex-plugin/plugin.json
+  LICENSE:
+    sha256: 88a72c998d207645ccc56e1c075929808132c205ca38a0841b27107d6fa406c8
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/LICENSE
+  NOTICE:
+    sha256: 838fda7a85f49f0901356fe04a2a3dec114f63b1fc298be294808ad2da979e8f
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/NOTICE
+  commands/chisle-audit.toml:
+    sha256: 86e131eca10e05283dc30ec4964f070d26866bc0a56426e4fea0322b6739be25
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/commands/chisle-audit.toml
+  commands/chisle-help.toml:
+    sha256: 19547e578945d7c34828421e27d13ab3f9acb8c3bd959586f289be695e69b29c
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/commands/chisle-help.toml
+  commands/chisle-review.toml:
+    sha256: 5e2fbd599dad1f982e83407dbed2fc51fa0a7ca4688e3b442e5ada26b17d8ae2
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/commands/chisle-review.toml
+  commands/chisle.toml:
+    sha256: 09eb70e25c4619b2a389860218b7d9747dd7f3e214221be093bdde42675c16f7
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/commands/chisle.toml
+  hooks/chisle-activate.js:
+    sha256: 658e355a30681100c53ad119063f28a98cf2e24d0e12d67e1bfe045c476f63dd
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-activate.js
+  hooks/chisle-compress-output.js:
+    sha256: 42763972821abdb3c84adc15bf1557772ac2e63525e21a1de303198aaf05b9c4
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-compress-output.js
+  hooks/chisle-config.js:
+    sha256: 991e69bffffc06e7527ccf3f2f06c92e13929f71ed28d52e6d6182216f884565
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-config.js
+  hooks/chisle-mcp-proxy.js:
+    sha256: 08b227d7f1c0ba54524d9701ea76fb7a8299906c99cc348e9322b26bc68dbe5a
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-mcp-proxy.js
+  hooks/chisle-mode-tracker.js:
+    sha256: ba49cf2912e822a1bcdf7f80d6ba3a98ec04498ad8fe03b66d87f6f3c167d0ad
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-mode-tracker.js
+  hooks/chisle-mode.js:
+    sha256: ac2f68f826f8400e6a31a81db53d5412afd1b8af49529631be8843580caa94a1
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-mode.js
+  hooks/chisle-statusline.ps1:
+    sha256: 2fc5c106a9bde4b74d8e57d02c40600e1e2d1c94c13ee7d94a59f1c66ebd054c
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-statusline.ps1
+  hooks/chisle-statusline.sh:
+    sha256: 5d7c9a0d7c957e44a440b41a78a2bac2f80631569ab390ee3394830c48c5dd13
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/chisle-statusline.sh
+  hooks/package.json:
+    sha256: e78adbbbe5741f27e8d900be349911234c1ae45c20a3f2fa293e2c8e5abf3c31
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/hooks/package.json
+  scripts/build-chart.js:
+    sha256: 6e913491872e9da9fa5b279810d6767728e14092867cdf52a84c0f88bc518fbd
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/scripts/build-chart.js
+  scripts/build-rules.js:
+    sha256: b229d4669df85ff1933bf974a5f9907aec0529f3c0d2826361e8bde699e4d91c
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/scripts/build-rules.js
+  scripts/build-samples.js:
+    sha256: 6ee854373bc5b497a9b650c867f654eb4abea4f9521615d8a96fafcf5766c33a
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/scripts/build-samples.js
+  skills/chisle/SKILL.md:
+    sha256: fe8b4acb5474b749245c39d53713a863b22c59dd02aa05e874dcfccf9b539f93
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/skills/chisle/SKILL.md
+  skills/chisle-audit/SKILL.md:
+    sha256: 8d1663e17dd6826b641b59f0af1ed68e9f4bdd2edb06168d90a8e82fbc2cf6e5
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/skills/chisle-audit/SKILL.md
+  skills/chisle-help/SKILL.md:
+    sha256: 6f6b8faf8b54e4ced37998cc362941d9c4330e5a74788c0becf53a907f2dc531
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/skills/chisle-help/SKILL.md
+  skills/chisle-review/SKILL.md:
+    sha256: f3401d3fd7004bf3d74f87f7e4cbe0fea5c1dbed3b5c0e6a916ef7bd67162b91
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/skills/chisle-review/SKILL.md
+  notices/52ab18fb0b3a-plugin.json:
+    sha256: 52ab18fb0b3a7fb3f3117fd10ffddbcfc56e5475026f95d5b1a3142218ea7a76
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-chisle-chisle-3.8.1/.claude-plugin/plugin.json
+  notices/1c8913c4c900-package.json:
+    sha256: 1c8913c4c900e5c1003fab7cce473b228801d03270917d417321e030c982ab06
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/package.json
+  notices/88a72c998d20-LICENSE:
+    sha256: 88a72c998d207645ccc56e1c075929808132c205ca38a0841b27107d6fa406c8
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/LICENSE
+  notices/838fda7a85f4-NOTICE:
+    sha256: 838fda7a85f49f0901356fe04a2a3dec114f63b1fc298be294808ad2da979e8f
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/NOTICE
+  notices/1c49343e5f14-README.md:
+    sha256: 1c49343e5f142b7d80ba2522dd0fadb94d5119aa21d1f3e4c865bce25b1e5b00
+    copied_from: ~/.claude/plugins/cache/chisle/chisle/3.8.1/README.md
+notices:
+- LICENSE
+- NOTICE
+- notices/52ab18fb0b3a-plugin.json
+- notices/1c8913c4c900-package.json
+- notices/88a72c998d20-LICENSE
+- notices/838fda7a85f4-NOTICE
+- notices/1c49343e5f14-README.md
+excluded: []

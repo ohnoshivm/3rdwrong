@@ -1,0 +1,176 @@
+package: plugin-ponytail-ponytail-5.3.2
+upstream_url: https://github.com/DietrichGebert/ponytail
+pinned_ref:
+- 09c434ab73ca43761c5d8b0c5d341926c2fba710
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-ponytail-ponytail-5.3.2
+copied_from:
+- ~/.claude/plugins/cache/ponytail/ponytail/5.3.2
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 5c17acc0d30732735a7bf725214b8db9f8a1bb3485233744c7a5e0ca1d7434e8
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: efcef724e68ceec9b04803f2945f910c4d8712e1cdc83c26913f7b8c887fdd7b
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.claude-plugin/plugin.json
+  .codex-plugin/plugin.json:
+    sha256: 9fb17fcd69adcfde927a3c821c8735677e778e5bf6a2ede431e482ef1678dab6
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.codex-plugin/plugin.json
+  .openclaw/skills/ponytail/SKILL.md:
+    sha256: 3868c7aa7cc721b7391a6a136ce609bc1e08a2b29d393fe2e637297d8d45f379
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.openclaw/skills/ponytail/SKILL.md
+  .openclaw/skills/ponytail-audit/SKILL.md:
+    sha256: 3dc1c18ec325632db297f2c34d03e6f4b3fe5f50a8eaee727f02d223b1ee3d4b
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.openclaw/skills/ponytail-audit/SKILL.md
+  .openclaw/skills/ponytail-debt/SKILL.md:
+    sha256: d55354743bf344611907bbcda8da105abe4d3eec4696b80099eb9b6c02029c40
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.openclaw/skills/ponytail-debt/SKILL.md
+  .openclaw/skills/ponytail-gain/SKILL.md:
+    sha256: 40efb084e29bfaaa85a0807ec3a88d5c85897a7bf751985496295e541dea937b
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.openclaw/skills/ponytail-gain/SKILL.md
+  .openclaw/skills/ponytail-help/SKILL.md:
+    sha256: 3a267f1c71058854b608c4eebcf2291a90c1a25972cbdd52fef777d6a2c60945
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.openclaw/skills/ponytail-help/SKILL.md
+  .openclaw/skills/ponytail-review/SKILL.md:
+    sha256: 1f010d87a90d9e801f5634e3b863510b40121608f6e980f20bb3db8b2d165299
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.openclaw/skills/ponytail-review/SKILL.md
+  LICENSE:
+    sha256: fb1bc6909ac3ef82d5c22106e32ef682b0cff66788fa915fb9b53b15c9d2f3ab
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/LICENSE
+  commands/ponytail-audit.toml:
+    sha256: eec7971e361d2f0796bda3d2d7895b5c110ab49949c0e288a559c6cc1319c50f
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/commands/ponytail-audit.toml
+  commands/ponytail-debt.toml:
+    sha256: a537eaafad70f105952301875128363d33dc3a2f1342cd0dc2cada51feaf2eff
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/commands/ponytail-debt.toml
+  commands/ponytail-gain.toml:
+    sha256: faffa8be16687e519d6a175e93800de8507929509d0c0751c61c46365f38b086
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/commands/ponytail-gain.toml
+  commands/ponytail-help.toml:
+    sha256: 7d47b79ff6f5afcb8972beac1a956d6c76ff35cf9e6ecfa6986a466489866af5
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/commands/ponytail-help.toml
+  commands/ponytail-review.toml:
+    sha256: a7f57fd8b951991dc46a064b45ac4f93d5455e61489af613803d24774c9746e2
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/commands/ponytail-review.toml
+  commands/ponytail.toml:
+    sha256: ecb6a232d49aa3de0d43c3e514f0b1b3755e9657f8703756148f67f42750b495
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/commands/ponytail.toml
+  hooks/band/board.ts:
+    sha256: c697da70dabdf9810361886f07ed6133610746ba31e7dc68bdab8384118c00ce
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/band/board.ts
+  hooks/band/logo.ts:
+    sha256: 187c17a751140e0a8b030dea9d4436ce818f287efbc6f7d899e48064ecfd309a
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/band/logo.ts
+  hooks/band/metrics.ts:
+    sha256: 332a2a56458e059f8d56d0a0388396a9b63ba5ded0c90d8788d235ac8c452a41
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/band/metrics.ts
+  hooks/band/register.tsx:
+    sha256: b9580f464c70cc09901bf983a58370eed2de87d39aa336a88c5fccfd751a3c4d
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/band/register.tsx
+  hooks/band/types.d.ts:
+    sha256: b605a330639f508d044e01dd5e8ff7c3324f55790fe0514edc28c0ede0ebf09b
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/band/types.d.ts
+  hooks/claude-band.json:
+    sha256: 8316581f357f5481dbf26077d118ca9ee03bcd14166e4da1bcd878ab723884c3
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/claude-band.json
+  hooks/claude-codex-hooks.json:
+    sha256: 3320ac7fae9bdded7fab83b62017db55c01b25af3f5896a518a5cf911072f54a
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/claude-codex-hooks.json
+  hooks/copilot-hooks.json:
+    sha256: 692b5148c3605d2ece2f081834b650c3c43d75cb272a7884dc40e9ce4425ef79
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/copilot-hooks.json
+  hooks/cursor-hooks.json:
+    sha256: 0b9f026058ad3209fd27a212881fd43a7d824a3a3405fdecf446e2f8c8647c65
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/cursor-hooks.json
+  hooks/ponytail-band-import.js:
+    sha256: 2d9dda3a6b77b46d5f46f6bc9a9ff2fa624d4f5dee77217c642f6926ab159edc
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-band-import.js
+  hooks/ponytail-config.js:
+    sha256: ae81c3552064c9a9f0b9c0e8ec8a959af56f5599f0c899dd79659ea9a101dfc4
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-config.js
+  hooks/ponytail-instructions.js:
+    sha256: 36521752b3444ef8daa823edaa996170e6af2cd45c82193644acb3a42f3395f4
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-instructions.js
+  hooks/ponytail-map.js:
+    sha256: c876b087accb6655d04f7f48bda85d8304941d0ac0fb78c0c164eb9ec7d35e69
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-map.js
+  hooks/ponytail-mode-tracker.js:
+    sha256: ab2a7d89a71fdbecd5ea4d12ffe980c2213b80fe112d623ca13ceac0258307e7
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-mode-tracker.js
+  hooks/ponytail-runtime.js:
+    sha256: 52d8e66d542d49217a9eb721942e7bd9f4ee46a56615fb3f53430276cfe3a592
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-runtime.js
+  hooks/ponytail-statusline.ps1:
+    sha256: 6138f15bc7651ee7e5ced2a2a2280f5c810d58cad3e9f3252c628f4c923e48c9
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-statusline.ps1
+  hooks/ponytail-statusline.sh:
+    sha256: f1dbfa5997a5d4b5339619709053eff557ab16d71af75eb3041c3d3e3dca42ec
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-statusline.sh
+  hooks/ponytail-subagent.js:
+    sha256: 8da045eb96b5b919655bf4c12abfc7e5163af29b62b97ccaf633b75099390315
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-subagent.js
+  hooks/qoder-hooks.json:
+    sha256: 3831c8e496b2c6f85bbe0ee36482e34855905d03bfb39e027562dfbe3d4ed0d8
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/qoder-hooks.json
+  scripts/build-openclaw-skills.js:
+    sha256: 6994885fff48c6750c9f847396e14879dd00274718bde257940458af3e3f24f0
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/scripts/build-openclaw-skills.js
+  scripts/check-rule-copies.js:
+    sha256: 84306caf05b728b1522d1e1458317efc6b7e44b18987aee042399e3f6de79318
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/scripts/check-rule-copies.js
+  scripts/check-versions.js:
+    sha256: fa0ff2383e56a2b29d3840f45f0254d6fc6421e2b9c0f1c17f9d8502ce87ee8d
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/scripts/check-versions.js
+  scripts/cursor-hooks.js:
+    sha256: ade308717d81efc266f7f0972955febd0b631345b1b68789e4b9b3990afc79f6
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/scripts/cursor-hooks.js
+  scripts/publish-openclaw-skills.js:
+    sha256: f2b7a2afd46bccb91ad0511f5ef8df7702dd7ef1306f2975fed6a97a2b0a6769
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/scripts/publish-openclaw-skills.js
+  scripts/uninstall.js:
+    sha256: 21b0893da341f891a4e9238d8dcf1114eea0378835d725f8eb8347c6497821e9
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/scripts/uninstall.js
+  skills/plugin.json:
+    sha256: b1db7be1404a84ebf992a2fb7a5a9296adb17b0fc63a14856e2028f0d1d16051
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/plugin.json
+  skills/ponytail/SKILL.md:
+    sha256: 9badd22a32e19cb884e46dfa8d3aae82bb81dfa5484105b8b4f0262df823a509
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/ponytail/SKILL.md
+  skills/ponytail-audit/SKILL.md:
+    sha256: 2b3223a02c386d1263e1b08343cb8eb3a53e444cdafb1d79e26c8ec2a8fcad28
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/ponytail-audit/SKILL.md
+  skills/ponytail-debt/SKILL.md:
+    sha256: b5ec2762f6ba8c4af9ea7173aa6c9f91b88655a25e43f9de0264f6ce8722b25f
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/ponytail-debt/SKILL.md
+  skills/ponytail-gain/SKILL.md:
+    sha256: 231034a896d6762e4b5c8468287083422c56b499119976ec9f76821f7d083090
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/ponytail-gain/SKILL.md
+  skills/ponytail-help/SKILL.md:
+    sha256: 86ab0ce0af70cbeeeef499d5c884873b393f87f86401dcc45553662ce2c1eff9
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/ponytail-help/SKILL.md
+  skills/ponytail-review/SKILL.md:
+    sha256: 33fe4ebe22a460924e5d4a261e223df22e409cc94ab76182bee9fb91a3ef022e
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/skills/ponytail-review/SKILL.md
+  notices/9fb17fcd69ad-plugin.json:
+    sha256: 9fb17fcd69adcfde927a3c821c8735677e778e5bf6a2ede431e482ef1678dab6
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-ponytail-ponytail-5.3.2/.codex-plugin/plugin.json
+  notices/f062af314f60-package.json:
+    sha256: f062af314f6031fe88fcc63bdf1c42fbae9e4acb28b7ac94c1f8acc22d204562
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/package.json
+  notices/fb1bc6909ac3-LICENSE:
+    sha256: fb1bc6909ac3ef82d5c22106e32ef682b0cff66788fa915fb9b53b15c9d2f3ab
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/LICENSE
+  notices/3428352df702-README.md:
+    sha256: 3428352df7025c06241af37b51540a84418449abbcaf9bbf55a69ecd4f152619
+    copied_from: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/README.md
+notices:
+- LICENSE
+- notices/9fb17fcd69ad-plugin.json
+- notices/f062af314f60-package.json
+- notices/fb1bc6909ac3-LICENSE
+- notices/3428352df702-README.md
+excluded:
+- source: ~/.claude/plugins/cache/ponytail/ponytail/5.3.2/hooks/ponytail-activate.js
+  reason: identifiable personal home path; excluded unchanged

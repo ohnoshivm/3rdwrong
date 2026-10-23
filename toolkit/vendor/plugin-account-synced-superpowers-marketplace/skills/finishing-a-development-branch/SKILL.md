@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/finishing-a-development-branch/SKILL.md

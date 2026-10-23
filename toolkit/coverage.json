@@ -1,0 +1,30 @@
+{
+  "active_role_library_load": [
+    "agent:skill-creator:analyzer",
+    "agent:skill-creator:comparator",
+    "agent:skill-creator:grader"
+  ],
+  "excluded_tool_ids": {
+    "pack-remotion-dev-remotion-mit": [
+      "skill:remotion-docs"
+    ],
+    "plugin-claude-plugins-official-vercel-0.50.0": [
+      "vercel:benchmark-agents",
+      "vercel:vercel-plugin-eval"
+    ],
+    "plugin-openai-curated-remote-remotion-4.0.534": [
+      "remotion:remotion-docs"
+    ]
+  },
+  "items_by_load": {
+    "active": 568,
+    "library": 318
+  },
+  "items_by_role": {
+    "bench": 210,
+    "lead": 129,
+    "parked": 105,
+    "specialist": 442
+  },
+  "unmapped_registry_ids": []
+}

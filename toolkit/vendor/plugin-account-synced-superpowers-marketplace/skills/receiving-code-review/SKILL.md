@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/receiving-code-review/SKILL.md

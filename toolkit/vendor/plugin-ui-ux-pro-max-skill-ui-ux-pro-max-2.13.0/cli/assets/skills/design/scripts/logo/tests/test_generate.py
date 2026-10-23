@@ -1,0 +1,1 @@
+../../../../../../../.claude/skills/design/scripts/logo/tests/test_generate.py

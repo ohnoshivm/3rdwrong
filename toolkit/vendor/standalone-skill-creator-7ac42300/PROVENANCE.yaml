@@ -1,0 +1,86 @@
+package: standalone-skill-creator-7ac42300
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#standalone-skill-creator-7ac42300
+copied_from:
+- ~/creative-engineering-os/library/skills/skill-creator
+copied_on: '2026-10-23'
+files:
+  skills/skill-creator/LICENSE.txt:
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/LICENSE.txt
+  skills/skill-creator/SKILL.md:
+    sha256: 42765c880e446a83c85f7852fc77b43ecd46c76ca219d68051799ac7425e6943
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/SKILL.md
+  skills/skill-creator/agents/analyzer.md:
+    sha256: bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/agents/analyzer.md
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/agents/analyzer.md
+  skills/skill-creator/agents/comparator.md:
+    sha256: fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/agents/comparator.md
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/agents/comparator.md
+  skills/skill-creator/agents/grader.md:
+    sha256: 57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/agents/grader.md
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/agents/grader.md
+  skills/skill-creator/assets/eval_review.html:
+    sha256: ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/assets/eval_review.html
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/assets/eval_review.html
+  skills/skill-creator/eval-viewer/generate_review.py:
+    sha256: fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/eval-viewer/generate_review.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/eval-viewer/generate_review.py
+  skills/skill-creator/eval-viewer/viewer.html:
+    sha256: a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/eval-viewer/viewer.html
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/eval-viewer/viewer.html
+  skills/skill-creator/references/schemas.md:
+    sha256: 8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/references/schemas.md
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/references/schemas.md
+  skills/skill-creator/scripts/__init__.py:
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/__init__.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/__init__.py
+  skills/skill-creator/scripts/aggregate_benchmark.py:
+    sha256: 123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/aggregate_benchmark.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/aggregate_benchmark.py
+  skills/skill-creator/scripts/generate_report.py:
+    sha256: 13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/generate_report.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/generate_report.py
+  skills/skill-creator/scripts/improve_description.py:
+    sha256: 87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/improve_description.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/improve_description.py
+  skills/skill-creator/scripts/package_skill.py:
+    sha256: 1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/package_skill.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/package_skill.py
+  skills/skill-creator/scripts/quick_validate.py:
+    sha256: f65315971b2a723349234947062de2ffae76cad98884b7f441e453e6dbe01892
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/quick_validate.py
+  skills/skill-creator/scripts/run_eval.py:
+    sha256: 43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/run_eval.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/run_eval.py
+  skills/skill-creator/scripts/run_loop.py:
+    sha256: 7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/run_loop.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/run_loop.py
+  skills/skill-creator/scripts/utils.py:
+    sha256: 3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/scripts/utils.py
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-skill-creator-marketplace/skills/skill-creator/scripts/utils.py
+  notices/58d1e17ffe51-LICENSE.txt:
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+    copied_from: ~/creative-engineering-os/library/skills/skill-creator/LICENSE.txt
+notices:
+- skills/skill-creator/LICENSE.txt
+- notices/58d1e17ffe51-LICENSE.txt
+excluded: []

@@ -1,0 +1,1 @@
+../../../pack-vercel-vercel-plugin-apache-2.0/skills/chat-sdk/SKILL.md

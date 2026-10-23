@@ -1,0 +1,31 @@
+package: plugin-openai-primary-runtime-pdf-26.1020.11127
+upstream_url: https://github.com/openai/openai
+pinned_ref:
+- 26.1020.11127
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-openai-primary-runtime-pdf-26.1020.11127
+copied_from:
+- ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: f2a9f90a0d5ec48dd765fc8a3373d2ab6e0b850b51f67aaf8d1a0120f185cfac
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127/.codex-plugin/plugin.json
+  skills/pdf/SKILL.md:
+    sha256: a6e20f4ae66364a06d577dd51e0ce66ee2ef955be129cbe195e0a27f403daaf8
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127/skills/pdf/SKILL.md
+  skills/pdf/agents/openai.yaml:
+    sha256: 74623eb0387951f4c6d0d02e6daf1c8a2dd449599c92a0edcafd12a2049c1a00
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127/skills/pdf/agents/openai.yaml
+  skills/pdf/container_tools/mark_artifact_operation_started.mjs:
+    sha256: e0578762dc2a8f44a26323062c8afcf6c72ef197649f349c8b40e9f2a03c8942
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127/skills/pdf/container_tools/mark_artifact_operation_started.mjs
+  notices/f2a9f90a0d5e-plugin.json:
+    sha256: f2a9f90a0d5ec48dd765fc8a3373d2ab6e0b850b51f67aaf8d1a0120f185cfac
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-primary-runtime-pdf-26.1020.11127/.codex-plugin/plugin.json
+notices:
+- notices/f2a9f90a0d5e-plugin.json
+excluded:
+- source: ~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1020.11127/skills/pdf/assets/file-document.png
+  reason: binary/non-UTF8 or unreadable; never distributed

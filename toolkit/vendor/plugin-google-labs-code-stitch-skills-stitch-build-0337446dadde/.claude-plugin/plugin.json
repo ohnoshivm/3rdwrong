@@ -1,0 +1,5 @@
+{
+  "name": "stitch-build",
+  "description": "Code generation and build tools for Google Stitch: convert designs to React components, create Remotion walkthroughs, and integrate shadcn/ui.",
+  "version": "1.0.0"
+}

@@ -1,0 +1,1 @@
+../../.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/SKILL.md

@@ -1,0 +1,1291 @@
+package: plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0
+upstream_url: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+pinned_ref:
+- 09170eec67eefd46a7ae85de61b40c194020f997
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0
+copied_from:
+- ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0
+copied_on: '2026-10-23'
+files:
+  .claude/skills/banner-design/SKILL.md:
+    sha256: ccb89ddc848f60bfe630cb19dfe3e062df94a029467a9b15259f2761019ac5c4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/banner-design/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/SKILL.md
+  .claude/skills/banner-design/references/banner-sizes-and-styles.md:
+    sha256: c8906fb1073a576ee8c680d9bc8586249cbc4ed36690da960d65a1c9c37143b7
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/banner-design/references/banner-sizes-and-styles.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/references/banner-sizes-and-styles.md
+  .claude/skills/brand/SKILL.md:
+    sha256: 1c24139633e2ebf11da4f97eaeb1c0564f8658a40b3ad779387a5b8c6cb76dbc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/SKILL.md
+  .claude/skills/brand/references/approval-checklist.md:
+    sha256: 1cbf5f0fb3aa780c1a1406f56afe16f6af8e2e59165b8efc40038c7c0847f5b6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/approval-checklist.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/approval-checklist.md
+  .claude/skills/brand/references/asset-organization.md:
+    sha256: de98123417e9c5a1cc71a78131bba979c4c8ed2e5289e6c7a7f166576e488101
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/asset-organization.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/asset-organization.md
+  .claude/skills/brand/references/brand-guideline-template.md:
+    sha256: 392db8cf10fef492221c15a86e68590074bf5716de1f2982f41c01fbe30567cc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/brand-guideline-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/brand-guideline-template.md
+  .claude/skills/brand/references/color-palette-management.md:
+    sha256: c429298ffe3955edb8b22c9f51426fef75e83d02848cd4300e89c0d3fc34b44a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/color-palette-management.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/color-palette-management.md
+  .claude/skills/brand/references/consistency-checklist.md:
+    sha256: 56d8b2d4852cda11e600adec4b9dd68fc89a1b8265382359953bec5c5e5e2c36
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/consistency-checklist.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/consistency-checklist.md
+  .claude/skills/brand/references/logo-usage-rules.md:
+    sha256: 044c5ddf30cfe0eea047451cfce6ea654939198ffdd8968a19161c97066a5a26
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/logo-usage-rules.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/logo-usage-rules.md
+  .claude/skills/brand/references/messaging-framework.md:
+    sha256: 24b2500a72867b55dd10f4bf359178b0eb347fddd852659ce47b69d9f597d4e6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/messaging-framework.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/messaging-framework.md
+  .claude/skills/brand/references/typography-specifications.md:
+    sha256: 921c3d9e6ddfde2677b9a3e32eee94c7922f54f22c1f380c5ed2eb25a7d5bfa9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/typography-specifications.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/typography-specifications.md
+  .claude/skills/brand/references/update.md:
+    sha256: 26c23af628869bbbc0ec55929e7f087374606218cff32ecaa864a772e477d28e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/update.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/update.md
+  .claude/skills/brand/references/visual-identity.md:
+    sha256: 63f0cfc5d95403d8e12aca4d839cc28471515574d9a431334bfbb96c15407c31
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/visual-identity.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/visual-identity.md
+  .claude/skills/brand/references/voice-framework.md:
+    sha256: 08c15ac79f81cd964c5efbe593131b61a093c7e1b060d5dd28b17f3cc5b331fb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/references/voice-framework.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/voice-framework.md
+  .claude/skills/brand/scripts/extract-colors.cjs:
+    sha256: f09e049d24f26aeb1daccc552e24de4bb112d12a45da4eeb14f55a72554c93ef
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/scripts/extract-colors.cjs
+  .claude/skills/brand/scripts/inject-brand-context.cjs:
+    sha256: 5b98abdeb5c636f247102cd235f1d3421db7a4de53fd853360feaa0c471b5c96
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/scripts/inject-brand-context.cjs
+  .claude/skills/brand/scripts/sync-brand-to-tokens.cjs:
+    sha256: c02f3ade7105876efd4b7bc1ba899ea3827ce7024bc21fbb8b7786508b9d5636
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/scripts/sync-brand-to-tokens.cjs
+  .claude/skills/brand/scripts/tests/test_sync_brand_to_tokens.py:
+    sha256: 58af70995b7206df6851d635e2123688c6c8685ffd1b2e21f34fdd64074911f0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/scripts/tests/test_sync_brand_to_tokens.py
+  .claude/skills/brand/scripts/validate-asset.cjs:
+    sha256: 4546c9109fb0f4f767426508cb29e60d02b301f8897cf16d8e378b7ce9d997fc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/scripts/validate-asset.cjs
+  .claude/skills/brand/templates/brand-guidelines-starter.md:
+    sha256: d157a57b15f0b458c79636d11de42f3c89f03d8c0bbea1bdd3cf1c3542b2140d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/brand/templates/brand-guidelines-starter.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/templates/brand-guidelines-starter.md
+  .claude/skills/design/SKILL.md:
+    sha256: c84f3ecfd6a0fd1c46abf6805a0bbc26ea0b94a104f457e243ccf0943ece123c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/SKILL.md
+  .claude/skills/design/data/cip/deliverables.csv:
+    sha256: 229912f35c2f5a790508ddd62270cc7a92a84694027025ea5a30f1fb5ba84b70
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/cip/deliverables.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/deliverables.csv
+  .claude/skills/design/data/cip/industries.csv:
+    sha256: 729b1dea6d6f39b0bc22a1e659584e7ca5cead75841146d599c9f8dc00d4da46
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/cip/industries.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/industries.csv
+  .claude/skills/design/data/cip/mockup-contexts.csv:
+    sha256: 15d61cef16e6746d5aa665976f4de8074fedb64bfc5c7313a40eec1112a1d499
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/cip/mockup-contexts.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/mockup-contexts.csv
+  .claude/skills/design/data/cip/styles.csv:
+    sha256: 4e7f9e209bc90b60df62fd9843a1a73b365e54161dbd820b82817a8e512af4c4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/cip/styles.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/styles.csv
+  .claude/skills/design/data/icon/styles.csv:
+    sha256: a4aa7d326ffe1e50961eb70e25a6351f45c0247cd245461fa1a27cdc72f903b4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/icon/styles.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/icon/styles.csv
+  .claude/skills/design/data/logo/colors.csv:
+    sha256: d60218f0705bb0f0b892a10468a5c8d9a44eef3d0262ef8df8970ba3fbab567a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/logo/colors.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/logo/colors.csv
+  .claude/skills/design/data/logo/industries.csv:
+    sha256: e58dda4b9d28851f70914f82c1d2a2cff626a991ca41076f64122f33cc8a6525
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/logo/industries.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/logo/industries.csv
+  .claude/skills/design/data/logo/styles.csv:
+    sha256: ea08bdfb7aa557f08d1b6299222423f948700f8e4029321acb58c8f83197bdf2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/data/logo/styles.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/logo/styles.csv
+  .claude/skills/design/references/banner-sizes-and-styles.md:
+    sha256: c8906fb1073a576ee8c680d9bc8586249cbc4ed36690da960d65a1c9c37143b7
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/banner-sizes-and-styles.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/references/banner-sizes-and-styles.md
+  .claude/skills/design/references/cip-deliverable-guide.md:
+    sha256: 1424e120b967288e2334f24fcfa5cdc7f238420326a7444f4c5597efecfabc41
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/cip-deliverable-guide.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/cip-deliverable-guide.md
+  .claude/skills/design/references/cip-design.md:
+    sha256: 1194f59a330fa70052d193c6ff8c1f6b907cd1ad1eb182a7f21b7b8020f7bf74
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/cip-design.md
+  .claude/skills/design/references/cip-prompt-engineering.md:
+    sha256: 4bf3a0c858f38c230e43e872857b72d9eb692e066e8de5920da75aac733e753c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/cip-prompt-engineering.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/cip-prompt-engineering.md
+  .claude/skills/design/references/cip-style-guide.md:
+    sha256: f3e15408cd981e93804440c1159c12e02d001bc37a3945f455b3fc13729ed4e1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/cip-style-guide.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/cip-style-guide.md
+  .claude/skills/design/references/design-routing.md:
+    sha256: bc099a1fc0d7b0a6580f214b9166376b711aed61978c56d0666edb27dea160d8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/design-routing.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/design-routing.md
+  .claude/skills/design/references/icon-design.md:
+    sha256: ba1a1ccaa1e427c75ec9808dc4d2057628977188953773a641d49651de2d64e2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/icon-design.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/icon-design.md
+  .claude/skills/design/references/logo-color-psychology.md:
+    sha256: 3fd0e93e24c3b2ea7f3be778e8f2d03b1c62c7c6eab3ade478c8fca332bff287
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/logo-color-psychology.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-color-psychology.md
+  .claude/skills/design/references/logo-design.md:
+    sha256: 8f335b0e7e8538069bfd5af2c1ee4a9f281f14b2854e8a49bfa14253324abb7d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/logo-design.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-design.md
+  .claude/skills/design/references/logo-prompt-engineering.md:
+    sha256: e50f55bf323263eb27b4cd4c5172383a787fb894581d5d2befb3f6e0180b253e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/logo-prompt-engineering.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-prompt-engineering.md
+  .claude/skills/design/references/logo-style-guide.md:
+    sha256: 611baa841eedab101f45c113c6bfbd4d7e16e859c9d6ebd2cf941827a6e8dd15
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/logo-style-guide.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-style-guide.md
+  .claude/skills/design/references/slides-copywriting-formulas.md:
+    sha256: 2df4d83d7a6d4e578dd78911348357b45dfaedbcc948ffbac0e31579c5fb692a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/slides-copywriting-formulas.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-copywriting-formulas.md
+  .claude/skills/design/references/slides-create.md:
+    sha256: 792d647a5d4f87d765cf417f7ac54dd0b2fc4d229cc23ea9df56282d4c1ee086
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/slides-create.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-create.md
+  .claude/skills/design/references/slides-html-template.md:
+    sha256: fd5b051a37365fc6059c75bb388ec6f64daf1bd9ae938b287b6d762dc83c0c35
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/slides-html-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-html-template.md
+  .claude/skills/design/references/slides-layout-patterns.md:
+    sha256: 0de6208dcb32f896ad24df1bfa0c88a6abfe13c6a1ce43df06014810ab98314b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/slides-layout-patterns.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-layout-patterns.md
+  .claude/skills/design/references/slides-strategies.md:
+    sha256: cc97651ae1b404bde4df6ad0f7b5ef0c3f91506c9c5cb67748489a96fd155a0f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/slides-strategies.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-strategies.md
+  .claude/skills/design/references/slides.md:
+    sha256: 5630d5daec947ff58ab1ac97c7a1ee77a21cf6f5dce5155535b65d291691979f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/slides.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides.md
+  .claude/skills/design/references/social-photos-design.md:
+    sha256: 5ea9aec209d089a01eb9f689b11f9707ef80443e0ab7602e5c63022afe42d082
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/references/social-photos-design.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/social-photos-design.md
+  .claude/skills/design/scripts/cip/core.py:
+    sha256: 78a78a51f12d2382b2854414df395dc62b68532626ef724ddd5de713507911e4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/cip/core.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/cip/core.py
+  .claude/skills/design/scripts/cip/generate.py:
+    sha256: df45dbfd6b57c85451bd51552987834e2d8a32964e3fe69b70aa3b6e4fd7f1e4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/cip/generate.py
+  .claude/skills/design/scripts/cip/render-html.py:
+    sha256: a49a89a017ea4a2c492438055f05dfba3dfb4f91563f5f913359939beeaeccab
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/cip/render-html.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/cip/render-html.py
+  .claude/skills/design/scripts/cip/search.py:
+    sha256: 6619fbbe71983003a858c5eb79bc59c607b342610a1178b6976c687c2932161b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/cip/search.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/cip/search.py
+  .claude/skills/design/scripts/icon/generate.py:
+    sha256: 1a6be99dc233f6d9f8b558c26148203418be5b47c677cd83e48e41e78e38780c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/icon/generate.py
+  .claude/skills/design/scripts/logo/core.py:
+    sha256: 4f8b36ffe538e5995d0e0b740053a0899a1adf445ffdf484bd47f94e71ade8d0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/logo/core.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/logo/core.py
+  .claude/skills/design/scripts/logo/generate.py:
+    sha256: a72e25d49e48fac6a1059d681a39c3f334c085f54ab90a88d1c9726edd079940
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/logo/generate.py
+  .claude/skills/design/scripts/logo/search.py:
+    sha256: 693b3a1824831f120d4c60ed72477847604da1f6b654343381f8e9d3800a28f2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/logo/search.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/logo/search.py
+  .claude/skills/design/scripts/logo/tests/test_generate.py:
+    sha256: 1afc084cd2c5af8bfac0748f11aa547bc78e3f638e06421dd0fad4c0ee6286dc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design/scripts/logo/tests/test_generate.py
+  .claude/skills/design-system/SKILL.md:
+    sha256: 8aa5ff93320559a6e5289d37b6b06b3307737dbfb4a6f3fc44135c705613c511
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/SKILL.md
+  .claude/skills/design-system/data/slide-backgrounds.csv:
+    sha256: d1bb701b87bef493d72974d6fac1087c8ba4e2df14185fe3e0c36a13fe35f3d1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-backgrounds.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-backgrounds.csv
+  .claude/skills/design-system/data/slide-charts.csv:
+    sha256: 12ef876cd76e67a6553444bfa2ebf1d5d4d6216289d34db052a6e87421135033
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-charts.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-charts.csv
+  .claude/skills/design-system/data/slide-color-logic.csv:
+    sha256: ea68c737075f1615b2a7e461e2878c06bfe8f803dcabfbcc2977ffe5f9ec9ded
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-color-logic.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-color-logic.csv
+  .claude/skills/design-system/data/slide-copy.csv:
+    sha256: 43152937a0e598b3fbfdd418684311c105d44e3c5b333703ddb0b8cb28e40658
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-copy.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-copy.csv
+  .claude/skills/design-system/data/slide-layout-logic.csv:
+    sha256: 26b5b75782d5aba89836c0479acd3111cc69b67853db9c2259b30ac1e966bc62
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-layout-logic.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-layout-logic.csv
+  .claude/skills/design-system/data/slide-layouts.csv:
+    sha256: 95d558c1b7d2552d7a75402dc68facbd16125e574985851db5729d1145e14896
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-layouts.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-layouts.csv
+  .claude/skills/design-system/data/slide-strategies.csv:
+    sha256: f656be0ab0b3a85fa7fc74202e9701a7236220412d67d5f63eb6dbb100bb2639
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-strategies.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-strategies.csv
+  .claude/skills/design-system/data/slide-typography.csv:
+    sha256: b96cd11dd4ff1dea8a9454b0b9e898e7f82f9243182f8f237af1f2c9b8824ce5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/data/slide-typography.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-typography.csv
+  .claude/skills/design-system/references/component-specs.md:
+    sha256: b265d979a741dd748d4e595e6898ae430faeef4f6d13d7a634fa6241b91d2da4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/component-specs.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/component-specs.md
+  .claude/skills/design-system/references/component-tokens.md:
+    sha256: e27f8f5999badee425c98235eabbd2cb3ebe2a1a364766d5c7a6b3134ceaaec8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/component-tokens.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/component-tokens.md
+  .claude/skills/design-system/references/primitive-tokens.md:
+    sha256: 91e6caa12646c08c8aadf8e09399aed65760a25c8d80595936d81a9131118fc3
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/primitive-tokens.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/primitive-tokens.md
+  .claude/skills/design-system/references/semantic-tokens.md:
+    sha256: 97e16d8061bbc22e82b51966a7015e3fc990932902e4647843506669a1cdebcc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/semantic-tokens.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/semantic-tokens.md
+  .claude/skills/design-system/references/states-and-variants.md:
+    sha256: 8dacb95d57d4bb37d8a99cc55515ff26da272056f837d29abc74aedcaa3ba104
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/states-and-variants.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/states-and-variants.md
+  .claude/skills/design-system/references/tailwind-integration.md:
+    sha256: 6d01092db1479dbd2060567b4232bb2b4bc16e89730ab07e1f87a3e7f5c406b9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/tailwind-integration.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/tailwind-integration.md
+  .claude/skills/design-system/references/token-architecture.md:
+    sha256: 925f4049c4c4313d9fd5df98cdfd52004112aca49fba1664ad85e76bc9dce4d3
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/references/token-architecture.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/token-architecture.md
+  .claude/skills/design-system/scripts/embed-tokens.cjs:
+    sha256: 8c8ad04c1f948402b80693b400047e716235654147a797e11f3ac0283e143486
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/embed-tokens.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/embed-tokens.cjs
+  .claude/skills/design-system/scripts/fetch-background.py:
+    sha256: 020d4e54bc26595472dc4b5a421830e0e83ffea3f44225fac8ac5f832430e691
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/fetch-background.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/fetch-background.py
+  .claude/skills/design-system/scripts/generate-slide.py:
+    sha256: 0463c98efea54870816925015fe5819e42a29aaba57408c2c38bacb33e2605b9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/generate-slide.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/generate-slide.py
+  .claude/skills/design-system/scripts/generate-tokens.cjs:
+    sha256: aac8a0f4ec4dccf0d371f9ee5a9111e44977bb0cad7e40a3754aba5571aa1231
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/generate-tokens.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/generate-tokens.cjs
+  .claude/skills/design-system/scripts/html-token-validator.py:
+    sha256: 1242a778493a8fd646da50623d654b783ed8d1b6d4234b3271789eae9f5a4bed
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/html-token-validator.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/html-token-validator.py
+  .claude/skills/design-system/scripts/search-slides.py:
+    sha256: 3d3d842d1c1daa26084a89aa7a41eb89d8c62b777f45cb4923b42aa10bb0b041
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/search-slides.py
+  .claude/skills/design-system/scripts/slide-token-validator.py:
+    sha256: 66da5da5e8e659d405a89b342e13dd1e469e79726c46002d9d2368c3c7aaf945
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/slide-token-validator.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/slide-token-validator.py
+  .claude/skills/design-system/scripts/slide_search_core.py:
+    sha256: 2464050ae338eb50728086046b644845fa7ae943f32efead3908fdbe1473edbe
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/slide_search_core.py
+  .claude/skills/design-system/scripts/tests/test_validate_tokens.py:
+    sha256: 43c56f6ecb89d4dd4010ccabcf047d2f3824d39bbbd5a1f6f697333ff27c59e6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/tests/test_validate_tokens.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/tests/test_validate_tokens.py
+  .claude/skills/design-system/scripts/validate-tokens.cjs:
+    sha256: 65f03a29290b9029d8cc27537701f226de7bcffc303b3bc361648fadfa09b77d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/scripts/validate-tokens.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/validate-tokens.cjs
+  .claude/skills/design-system/templates/design-tokens-starter.json:
+    sha256: 5444f477b06bab9c72e2cc289d4a9104efef653391c9639972bcb712d5f2d81e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/design-system/templates/design-tokens-starter.json
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/templates/design-tokens-starter.json
+  .claude/skills/slides/SKILL.md:
+    sha256: 86c07f19ec09f79441d3837e909cfcd51034b83bdcc88094c15e652be1e765cb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/slides/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/slides/SKILL.md
+  .claude/skills/slides/references/copywriting-formulas.md:
+    sha256: 2df4d83d7a6d4e578dd78911348357b45dfaedbcc948ffbac0e31579c5fb692a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/slides/references/copywriting-formulas.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-copywriting-formulas.md
+  .claude/skills/slides/references/create.md:
+    sha256: 792d647a5d4f87d765cf417f7ac54dd0b2fc4d229cc23ea9df56282d4c1ee086
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/slides/references/create.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-create.md
+  .claude/skills/slides/references/html-template.md:
+    sha256: fd5b051a37365fc6059c75bb388ec6f64daf1bd9ae938b287b6d762dc83c0c35
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/slides/references/html-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-html-template.md
+  .claude/skills/slides/references/layout-patterns.md:
+    sha256: 0de6208dcb32f896ad24df1bfa0c88a6abfe13c6a1ce43df06014810ab98314b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/slides/references/layout-patterns.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-layout-patterns.md
+  .claude/skills/slides/references/slide-strategies.md:
+    sha256: cc97651ae1b404bde4df6ad0f7b5ef0c3f91506c9c5cb67748489a96fd155a0f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/slides/references/slide-strategies.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-strategies.md
+  .claude/skills/ui-styling/LICENSE.txt:
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/LICENSE.txt
+  .claude/skills/ui-styling/SKILL.md:
+    sha256: 625e302c60ee8f2e22d56cbe638c4a739e2657f566dae42689503ad517c30f1e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/SKILL.md
+  .claude/skills/ui-styling/canvas-fonts/ArsenalSC-OFL.txt:
+    sha256: 8ddd61b18ba2c0d0dbe4a691cf5f1a0673f473d02fa0546e67ee88c006aeff6e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/ArsenalSC-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/BigShoulders-OFL.txt:
+    sha256: fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/BigShoulders-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Boldonse-OFL.txt:
+    sha256: 45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Boldonse-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/BricolageGrotesque-OFL.txt:
+    sha256: 0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/BricolageGrotesque-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/CrimsonPro-OFL.txt:
+    sha256: 35680d14547b6748b6f362a052a46d22764ce5eccf96e18b74f567bb2ee58114
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/CrimsonPro-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/DMMono-OFL.txt:
+    sha256: bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/DMMono-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/EricaOne-OFL.txt:
+    sha256: e0de629968b52255548d5fafcf30b24ff9edae0eda362380755a75816404d0fa
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/EricaOne-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/GeistMono-OFL.txt:
+    sha256: 6a873c900f584109b13ae0aaf81d6e3cf0a68751a216b03f7b6c68d547057bb4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/GeistMono-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Gloock-OFL.txt:
+    sha256: c0a3f3125ac491ef3d1f09f401be4834c646562f647e44f2bcbc49f0466c656d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Gloock-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/IBMPlexMono-OFL.txt:
+    sha256: 5294ce778857e1eb02e830b6ab06435537d38f43055327e73d03a2d4d57d5123
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexMono-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/InstrumentSans-OFL.txt:
+    sha256: bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSans-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Italiana-OFL.txt:
+    sha256: 8373b11312ace78c4cec2e8f9f6aa9f2330601107dac7bcf899c6f2dbd40c5a5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Italiana-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/JetBrainsMono-OFL.txt:
+    sha256: a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/JetBrainsMono-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Jura-OFL.txt:
+    sha256: eaf9bdb675f6d87e5feb88199ab3ea581d3bd2082f426e384fa9c394576d7260
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Jura-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/LibreBaskerville-OFL.txt:
+    sha256: 55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/LibreBaskerville-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Lora-OFL.txt:
+    sha256: 62e37a82d3f1ef2a70712885fa8b3144b65fd144d8e748d6196b690a354d792c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Lora-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/NationalPark-OFL.txt:
+    sha256: 81c6c71d83b5b45d7344f96df12bb4a2477a5b092a9144757ee1d0f50f855175
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/NationalPark-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/NothingYouCouldDo-OFL.txt:
+    sha256: 7c2a6970584ddad04919816163746f83b378078015899b18468b40f05e9ce128
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/NothingYouCouldDo-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Outfit-OFL.txt:
+    sha256: 1945b62cd76da9a3051a1660dde72afaa64ffc2666d30e7a78356d651653ba2f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Outfit-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/PixelifySans-OFL.txt:
+    sha256: 7f54d1d9f1ae1ba9f2722f978145f90324fea34ca3c2304b3a29cfa96ac6037e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/PixelifySans-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/PoiretOne-OFL.txt:
+    sha256: 2eaf541f7eb8b512e4c757a5212060abf5b6edfef230e9d7640bf736b315c33a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/PoiretOne-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/RedHatMono-OFL.txt:
+    sha256: 435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/RedHatMono-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Silkscreen-OFL.txt:
+    sha256: 6b849745119bbe85ec01fd080c9cd50234da9f52ac6e48b55d1a424a0c4d7ca9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Silkscreen-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/SmoochSans-OFL.txt:
+    sha256: 74c9c4eb88e891483e1b7bc54780b452cbf4f4df66d4e71881d7569aa2130749
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/SmoochSans-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/Tektur-OFL.txt:
+    sha256: 3f1466cb5438f31782eeb6e895f3a655bc4d090e24263e331f555357d1cb734e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Tektur-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/WorkSans-OFL.txt:
+    sha256: ace8c22a3326318b54e67c3691857929634205533f454a70ef5a3473ddb2e2ba
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/WorkSans-OFL.txt
+  .claude/skills/ui-styling/canvas-fonts/YoungSerif-OFL.txt:
+    sha256: cdcb8039606b40a027a6d24586ec62d5fe29c701343d82a048c829cb28a3dd28
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/YoungSerif-OFL.txt
+  .claude/skills/ui-styling/references/canvas-design-system.md:
+    sha256: f5de85ff39d9f3a8275c4164b921ba72d5e1d34b8d7a9243d9ee34b3870a4f5f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/canvas-design-system.md
+  .claude/skills/ui-styling/references/shadcn-accessibility.md:
+    sha256: a22cd4ccf82b635b2b2c4f12416a0c4f7edcd825d219d6089450fa797a0d9511
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/shadcn-accessibility.md
+  .claude/skills/ui-styling/references/shadcn-components.md:
+    sha256: 79c4f91cbf68993a43fa3a95889c35db73de45bdd3dfd83a6830863c01aa598a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/shadcn-components.md
+  .claude/skills/ui-styling/references/shadcn-theming.md:
+    sha256: d17d641474221123ff0e0288043ca2f2dab3ac96908a19eed28d82f9e58865ed
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/shadcn-theming.md
+  .claude/skills/ui-styling/references/tailwind-customization.md:
+    sha256: 4c5adeed6263a274f74f6eb2c816ca420fd6ef4f35683582988bacd404799afe
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/tailwind-customization.md
+  .claude/skills/ui-styling/references/tailwind-responsive.md:
+    sha256: 8d00ae620df26daea4623c7bf996d6e612e09d359305fcfa2b40cab757ed840c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/tailwind-responsive.md
+  .claude/skills/ui-styling/references/tailwind-utilities.md:
+    sha256: aba1c40ef84f43beea142ae310371e332541f39d973df90a71f1854823effda1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/references/tailwind-utilities.md
+  .claude/skills/ui-styling/scripts/requirements.txt:
+    sha256: 09402d2d274248e18bb5fd0a0267fd7cbf99b7a2440e73e87f054aa8f259f9da
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/requirements.txt
+  .claude/skills/ui-styling/scripts/shadcn_add.py:
+    sha256: 0c11d28ce9f12217df2c3306f24ae1f73527d5116db63707ab55cbe1a8bcf28c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/shadcn_add.py
+  .claude/skills/ui-styling/scripts/tailwind_config_gen.py:
+    sha256: 9a81a5e2780650ab613a87d50ffd5caa9be22533f7bac0f8807a7f7214f26471
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/tailwind_config_gen.py
+  .claude/skills/ui-styling/scripts/tests/coverage-ui.json:
+    sha256: 33bdc1f5998db9a38cac8e6128a82711f8f8b65fbb3dcb0c1680ae260441cbce
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/tests/coverage-ui.json
+  .claude/skills/ui-styling/scripts/tests/requirements.txt:
+    sha256: 80846c98ee02a7e9651ec4eee6709f840b785646b469aad5284ab7ab9b344f17
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/tests/requirements.txt
+  .claude/skills/ui-styling/scripts/tests/test_shadcn_add.py:
+    sha256: 35f60ac5d74c4a7f950854a0337883c3e8dd812c58fcf6c5153876e43a6effa2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/tests/test_shadcn_add.py
+  .claude/skills/ui-styling/scripts/tests/test_tailwind_config_gen.py:
+    sha256: 2d044e1a9e67d358e8f7f664eeaa588dbd0ef150daa91cdea71519d8d686e470
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/tests/test_tailwind_config_gen.py
+  .claude/skills/ui-ux-pro-max/SKILL.md:
+    sha256: ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/SKILL.md
+  .claude/skills/ui-ux-pro-max/data/app-interface.csv:
+    sha256: 331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/app-interface.csv
+  .claude/skills/ui-ux-pro-max/data/catalog-summary.json:
+    sha256: 6638da97231c07fb5cef3cd9d3ce483ca7b2f9748980f8c27490eb03968d8894
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/catalog-summary.json
+  .claude/skills/ui-ux-pro-max/data/charts.csv:
+    sha256: 4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/charts.csv
+  .claude/skills/ui-ux-pro-max/data/colors.csv:
+    sha256: 8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/colors.csv
+  .claude/skills/ui-ux-pro-max/data/data-provenance.json:
+    sha256: e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/data-provenance.json
+  .claude/skills/ui-ux-pro-max/data/google-font-licenses.json:
+    sha256: 35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/google-font-licenses.json
+  .claude/skills/ui-ux-pro-max/data/google-fonts.csv:
+    sha256: 1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/google-fonts.csv
+  .claude/skills/ui-ux-pro-max/data/icons.csv:
+    sha256: 50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/icons.csv
+  .claude/skills/ui-ux-pro-max/data/landing.csv:
+    sha256: 9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/landing.csv
+  .claude/skills/ui-ux-pro-max/data/motion.csv:
+    sha256: 381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/motion.csv
+  .claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json:
+    sha256: 2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json
+  .claude/skills/ui-ux-pro-max/data/products.csv:
+    sha256: 42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/products.csv
+  .claude/skills/ui-ux-pro-max/data/react-performance.csv:
+    sha256: 3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/react-performance.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/angular.csv:
+    sha256: 704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/angular.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/astro.csv:
+    sha256: 2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/astro.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv:
+    sha256: 442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/flutter.csv:
+    sha256: 64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/flutter.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv:
+    sha256: d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/javafx.csv:
+    sha256: 2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/javafx.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv:
+    sha256: 699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/laravel.csv:
+    sha256: 854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/laravel.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv:
+    sha256: ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv:
+    sha256: fce682a338cfcdbf35d318d20e5befbe7b5d81b05abc37f87677a6d9cde84dc6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv:
+    sha256: 3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/react-native.csv:
+    sha256: ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/react-native.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/react.csv:
+    sha256: 4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/react.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv:
+    sha256: e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/svelte.csv:
+    sha256: f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/svelte.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv:
+    sha256: bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/threejs.csv:
+    sha256: 155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/threejs.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/uno.csv:
+    sha256: a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/uno.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/uwp.csv:
+    sha256: c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/uwp.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/vue.csv:
+    sha256: b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/vue.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/winui.csv:
+    sha256: e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/winui.csv
+  .claude/skills/ui-ux-pro-max/data/stacks/wpf.csv:
+    sha256: 9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/stacks/wpf.csv
+  .claude/skills/ui-ux-pro-max/data/styles.csv:
+    sha256: a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/styles.csv
+  .claude/skills/ui-ux-pro-max/data/typography.csv:
+    sha256: 321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/typography.csv
+  .claude/skills/ui-ux-pro-max/data/ui-reasoning.csv:
+    sha256: f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/ui-reasoning.csv
+  .claude/skills/ui-ux-pro-max/data/ux-guidelines.csv:
+    sha256: ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/data/ux-guidelines.csv
+  .claude/skills/ui-ux-pro-max/references/pro-rules.md:
+    sha256: d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/references/pro-rules.md
+  .claude/skills/ui-ux-pro-max/references/quick-reference.md:
+    sha256: 0609bc7c89dacb40472465d8fc14257b56b2c43439660fc8d6fa3b8c022e1876
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/references/quick-reference.md
+  .claude/skills/ui-ux-pro-max/scripts/core.py:
+    sha256: c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/core.py
+  .claude/skills/ui-ux-pro-max/scripts/design_system.py:
+    sha256: e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/design_system.py
+  .claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py:
+    sha256: b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py
+  .claude/skills/ui-ux-pro-max/scripts/search.py:
+    sha256: d54e648fe0ec2932cac66684220cc17be4bd4b4eba1d23d3195d509d398db374
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/search.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json:
+    sha256: 22d8dc81a7d6827b7e8b64b53e7d184210fb9759e8e294e0d5133c81cc460176
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json:
+    sha256: c608ad5c4084ebc50a4bbbfb69ea2456c01fd5519c457e18410fffd250ae948f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv:
+    sha256: 4e0761b839dc6b2187a370e82eddc0aed8a7ff10c09e28dd814bb3656dac595b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json:
+    sha256: 30bffc29ae348416a2de2f9c6c418e768e4578f136b0f4bac5d2f70124f2e9ba
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json:
+    sha256: 6243a48a4619986768c4628e2d0c98ff195beba71ba9be5df8f0c52fc6d90c0b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv:
+    sha256: 68362c9a700c13b96f000784a0198c1c7e117a7088a01c85744e44233038fe9d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json:
+    sha256: ae4d0bb076240824e1b643c2270d1f8cc0952a69502ec1e622b7dedd85b930bb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json:
+    sha256: 500588c757d6de03e3d7e69b27a8b8b1f88ccf6bb0333e4c1e9b0d6a4f112475
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json:
+    sha256: d79f2ee0afdbc2f87776733e145df3538a16a25d7c2fba0056bb48295dad0ded
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json:
+    sha256: 1c57a1d76bcc0cdd3632d4c18b9c0e79576b4591df39831c9607e5d0eb4f2cec
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json:
+    sha256: 0df200fc54c1cb97a52d6775e7f501509163cea8f8b73fd7268429bc1f835afe
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json:
+    sha256: e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json:
+    sha256: 8099be287b13a01ef499091b99220692e85a3a652efa308e8a33b6b9fcd57ea6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py:
+    sha256: 3e2ca5d12702318f641ae62d0c14f22a3bcc84d84e79b863c0e947d475604adb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_refresh.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py:
+    sha256: fa6ff09f0ec2c99013588c77397f5082dddebe8f467e94c5f8378ec9595f4989
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_core.py:
+    sha256: 3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_core.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py:
+    sha256: 3ffc6b4905c9ea26d7ac4527ab154d153584231aee71b2ae4bd017977fa09cc5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_core_data_quality.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py:
+    sha256: 0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_data_contracts.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py:
+    sha256: 95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_mode.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py:
+    sha256: 83d09ffe8cfbf7b265f362129f061dfe8e5e167ce5db43adaead197cabc9ca38
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_design_system_stack.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py:
+    sha256: 3942845712b9a829323cd3568511483135f2a8c7cd79ccf61679da4b0f624dbb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py:
+    sha256: 2fe56a4d6fe5fff15ff592274b0eeaba925146cefea6c0fa29d8f1b77c9aca1f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py:
+    sha256: 7cec24b94be771bc60bc84f8993e614bb16d4047930e1dd3d3bed91628311d44
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_skill_script_paths.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py:
+    sha256: cd14d0092e8a454d213aa104b53e4e70ba698491fa00fde9fdec5ca8a3d70011
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_style_taxonomy.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py:
+    sha256: b51d32ee8a15505b87cb81957fb2d1b385e041e8beb4463c311d236bfd29ebd4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py
+  .claude/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py:
+    sha256: 74897571398585f27e2c35d09d81b0a531c8c774f4a2967e5e1b1d1b05a483d9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py
+  .claude/skills/ui-ux-pro-max/scripts/validate_data.py:
+    sha256: a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-ux-pro-max/scripts/validate_data.py
+  .claude-plugin/marketplace.json:
+    sha256: 7672c707664653a895209b35693e64eaec1bba6dbba007f59b6f72ddbe8fc7d9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: dc090f87833b9292b413e608a3bc12e6c85924a08280875f66b911d0bc66662a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/LICENSE
+  cli/assets/skills/banner-design/SKILL.md:
+    sha256: ccb89ddc848f60bfe630cb19dfe3e062df94a029467a9b15259f2761019ac5c4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/banner-design/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/SKILL.md
+  cli/assets/skills/banner-design/references/banner-sizes-and-styles.md:
+    sha256: c8906fb1073a576ee8c680d9bc8586249cbc4ed36690da960d65a1c9c37143b7
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/banner-design/references/banner-sizes-and-styles.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/references/banner-sizes-and-styles.md
+  cli/assets/skills/brand/SKILL.md:
+    sha256: 1c24139633e2ebf11da4f97eaeb1c0564f8658a40b3ad779387a5b8c6cb76dbc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/SKILL.md
+  cli/assets/skills/brand/references/approval-checklist.md:
+    sha256: 1cbf5f0fb3aa780c1a1406f56afe16f6af8e2e59165b8efc40038c7c0847f5b6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/approval-checklist.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/approval-checklist.md
+  cli/assets/skills/brand/references/asset-organization.md:
+    sha256: de98123417e9c5a1cc71a78131bba979c4c8ed2e5289e6c7a7f166576e488101
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/asset-organization.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/asset-organization.md
+  cli/assets/skills/brand/references/brand-guideline-template.md:
+    sha256: 392db8cf10fef492221c15a86e68590074bf5716de1f2982f41c01fbe30567cc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/brand-guideline-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/brand-guideline-template.md
+  cli/assets/skills/brand/references/color-palette-management.md:
+    sha256: c429298ffe3955edb8b22c9f51426fef75e83d02848cd4300e89c0d3fc34b44a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/color-palette-management.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/color-palette-management.md
+  cli/assets/skills/brand/references/consistency-checklist.md:
+    sha256: 56d8b2d4852cda11e600adec4b9dd68fc89a1b8265382359953bec5c5e5e2c36
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/consistency-checklist.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/consistency-checklist.md
+  cli/assets/skills/brand/references/logo-usage-rules.md:
+    sha256: 044c5ddf30cfe0eea047451cfce6ea654939198ffdd8968a19161c97066a5a26
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/logo-usage-rules.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/logo-usage-rules.md
+  cli/assets/skills/brand/references/messaging-framework.md:
+    sha256: 24b2500a72867b55dd10f4bf359178b0eb347fddd852659ce47b69d9f597d4e6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/messaging-framework.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/messaging-framework.md
+  cli/assets/skills/brand/references/typography-specifications.md:
+    sha256: 921c3d9e6ddfde2677b9a3e32eee94c7922f54f22c1f380c5ed2eb25a7d5bfa9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/typography-specifications.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/typography-specifications.md
+  cli/assets/skills/brand/references/update.md:
+    sha256: 26c23af628869bbbc0ec55929e7f087374606218cff32ecaa864a772e477d28e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/update.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/update.md
+  cli/assets/skills/brand/references/visual-identity.md:
+    sha256: 63f0cfc5d95403d8e12aca4d839cc28471515574d9a431334bfbb96c15407c31
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/visual-identity.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/visual-identity.md
+  cli/assets/skills/brand/references/voice-framework.md:
+    sha256: 08c15ac79f81cd964c5efbe593131b61a093c7e1b060d5dd28b17f3cc5b331fb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/references/voice-framework.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/references/voice-framework.md
+  cli/assets/skills/brand/scripts/extract-colors.cjs:
+    sha256: f09e049d24f26aeb1daccc552e24de4bb112d12a45da4eeb14f55a72554c93ef
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/scripts/extract-colors.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/scripts/extract-colors.cjs
+  cli/assets/skills/brand/scripts/inject-brand-context.cjs:
+    sha256: 5b98abdeb5c636f247102cd235f1d3421db7a4de53fd853360feaa0c471b5c96
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/scripts/inject-brand-context.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/scripts/inject-brand-context.cjs
+  cli/assets/skills/brand/scripts/sync-brand-to-tokens.cjs:
+    sha256: c02f3ade7105876efd4b7bc1ba899ea3827ce7024bc21fbb8b7786508b9d5636
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/scripts/sync-brand-to-tokens.cjs
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/brand/scripts/sync-brand-to-tokens.cjs
+  cli/assets/skills/brand/scripts/tests/test_sync_brand_to_tokens.py:
+    sha256: 58af70995b7206df6851d635e2123688c6c8685ffd1b2e21f34fdd64074911f0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/scripts/tests/test_sync_brand_to_tokens.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/brand/scripts/tests/test_sync_brand_to_tokens.py
+  cli/assets/skills/brand/scripts/validate-asset.cjs:
+    sha256: 4546c9109fb0f4f767426508cb29e60d02b301f8897cf16d8e378b7ce9d997fc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/scripts/validate-asset.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/scripts/validate-asset.cjs
+  cli/assets/skills/brand/templates/brand-guidelines-starter.md:
+    sha256: d157a57b15f0b458c79636d11de42f3c89f03d8c0bbea1bdd3cf1c3542b2140d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/brand/templates/brand-guidelines-starter.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/templates/brand-guidelines-starter.md
+  cli/assets/skills/design/SKILL.md:
+    sha256: c84f3ecfd6a0fd1c46abf6805a0bbc26ea0b94a104f457e243ccf0943ece123c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/SKILL.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/design/SKILL.md
+  cli/assets/skills/design/data/cip/deliverables.csv:
+    sha256: 229912f35c2f5a790508ddd62270cc7a92a84694027025ea5a30f1fb5ba84b70
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/cip/deliverables.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/deliverables.csv
+  cli/assets/skills/design/data/cip/industries.csv:
+    sha256: 729b1dea6d6f39b0bc22a1e659584e7ca5cead75841146d599c9f8dc00d4da46
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/cip/industries.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/industries.csv
+  cli/assets/skills/design/data/cip/mockup-contexts.csv:
+    sha256: 15d61cef16e6746d5aa665976f4de8074fedb64bfc5c7313a40eec1112a1d499
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/cip/mockup-contexts.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/mockup-contexts.csv
+  cli/assets/skills/design/data/cip/styles.csv:
+    sha256: 4e7f9e209bc90b60df62fd9843a1a73b365e54161dbd820b82817a8e512af4c4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/cip/styles.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/cip/styles.csv
+  cli/assets/skills/design/data/icon/styles.csv:
+    sha256: a4aa7d326ffe1e50961eb70e25a6351f45c0247cd245461fa1a27cdc72f903b4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/icon/styles.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/icon/styles.csv
+  cli/assets/skills/design/data/logo/colors.csv:
+    sha256: d60218f0705bb0f0b892a10468a5c8d9a44eef3d0262ef8df8970ba3fbab567a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/logo/colors.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/logo/colors.csv
+  cli/assets/skills/design/data/logo/industries.csv:
+    sha256: e58dda4b9d28851f70914f82c1d2a2cff626a991ca41076f64122f33cc8a6525
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/logo/industries.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/logo/industries.csv
+  cli/assets/skills/design/data/logo/styles.csv:
+    sha256: ea08bdfb7aa557f08d1b6299222423f948700f8e4029321acb58c8f83197bdf2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/data/logo/styles.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/data/logo/styles.csv
+  cli/assets/skills/design/references/banner-sizes-and-styles.md:
+    sha256: c8906fb1073a576ee8c680d9bc8586249cbc4ed36690da960d65a1c9c37143b7
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/banner-sizes-and-styles.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/banner-design/references/banner-sizes-and-styles.md
+  cli/assets/skills/design/references/cip-deliverable-guide.md:
+    sha256: 1424e120b967288e2334f24fcfa5cdc7f238420326a7444f4c5597efecfabc41
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/cip-deliverable-guide.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/cip-deliverable-guide.md
+  cli/assets/skills/design/references/cip-design.md:
+    sha256: 1194f59a330fa70052d193c6ff8c1f6b907cd1ad1eb182a7f21b7b8020f7bf74
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/cip-design.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/design/references/cip-design.md
+  cli/assets/skills/design/references/cip-prompt-engineering.md:
+    sha256: 4bf3a0c858f38c230e43e872857b72d9eb692e066e8de5920da75aac733e753c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/cip-prompt-engineering.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/cip-prompt-engineering.md
+  cli/assets/skills/design/references/cip-style-guide.md:
+    sha256: f3e15408cd981e93804440c1159c12e02d001bc37a3945f455b3fc13729ed4e1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/cip-style-guide.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/cip-style-guide.md
+  cli/assets/skills/design/references/design-routing.md:
+    sha256: bc099a1fc0d7b0a6580f214b9166376b711aed61978c56d0666edb27dea160d8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/design-routing.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/design-routing.md
+  cli/assets/skills/design/references/icon-design.md:
+    sha256: ba1a1ccaa1e427c75ec9808dc4d2057628977188953773a641d49651de2d64e2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/icon-design.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/icon-design.md
+  cli/assets/skills/design/references/logo-color-psychology.md:
+    sha256: 3fd0e93e24c3b2ea7f3be778e8f2d03b1c62c7c6eab3ade478c8fca332bff287
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/logo-color-psychology.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-color-psychology.md
+  cli/assets/skills/design/references/logo-design.md:
+    sha256: 8f335b0e7e8538069bfd5af2c1ee4a9f281f14b2854e8a49bfa14253324abb7d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/logo-design.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-design.md
+  cli/assets/skills/design/references/logo-prompt-engineering.md:
+    sha256: e50f55bf323263eb27b4cd4c5172383a787fb894581d5d2befb3f6e0180b253e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/logo-prompt-engineering.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-prompt-engineering.md
+  cli/assets/skills/design/references/logo-style-guide.md:
+    sha256: 611baa841eedab101f45c113c6bfbd4d7e16e859c9d6ebd2cf941827a6e8dd15
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/logo-style-guide.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/logo-style-guide.md
+  cli/assets/skills/design/references/slides-copywriting-formulas.md:
+    sha256: 2df4d83d7a6d4e578dd78911348357b45dfaedbcc948ffbac0e31579c5fb692a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/slides-copywriting-formulas.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-copywriting-formulas.md
+  cli/assets/skills/design/references/slides-create.md:
+    sha256: 792d647a5d4f87d765cf417f7ac54dd0b2fc4d229cc23ea9df56282d4c1ee086
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/slides-create.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-create.md
+  cli/assets/skills/design/references/slides-html-template.md:
+    sha256: fd5b051a37365fc6059c75bb388ec6f64daf1bd9ae938b287b6d762dc83c0c35
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/slides-html-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-html-template.md
+  cli/assets/skills/design/references/slides-layout-patterns.md:
+    sha256: 0de6208dcb32f896ad24df1bfa0c88a6abfe13c6a1ce43df06014810ab98314b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/slides-layout-patterns.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-layout-patterns.md
+  cli/assets/skills/design/references/slides-strategies.md:
+    sha256: cc97651ae1b404bde4df6ad0f7b5ef0c3f91506c9c5cb67748489a96fd155a0f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/slides-strategies.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-strategies.md
+  cli/assets/skills/design/references/slides.md:
+    sha256: 5630d5daec947ff58ab1ac97c7a1ee77a21cf6f5dce5155535b65d291691979f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/slides.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides.md
+  cli/assets/skills/design/references/social-photos-design.md:
+    sha256: 5ea9aec209d089a01eb9f689b11f9707ef80443e0ab7602e5c63022afe42d082
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/references/social-photos-design.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/social-photos-design.md
+  cli/assets/skills/design/scripts/cip/core.py:
+    sha256: 78a78a51f12d2382b2854414df395dc62b68532626ef724ddd5de713507911e4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/cip/core.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/cip/core.py
+  cli/assets/skills/design/scripts/cip/generate.py:
+    sha256: df45dbfd6b57c85451bd51552987834e2d8a32964e3fe69b70aa3b6e4fd7f1e4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/cip/generate.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/design/scripts/cip/generate.py
+  cli/assets/skills/design/scripts/cip/render-html.py:
+    sha256: a49a89a017ea4a2c492438055f05dfba3dfb4f91563f5f913359939beeaeccab
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/cip/render-html.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/cip/render-html.py
+  cli/assets/skills/design/scripts/cip/search.py:
+    sha256: 6619fbbe71983003a858c5eb79bc59c607b342610a1178b6976c687c2932161b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/cip/search.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/cip/search.py
+  cli/assets/skills/design/scripts/icon/generate.py:
+    sha256: 1a6be99dc233f6d9f8b558c26148203418be5b47c677cd83e48e41e78e38780c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/icon/generate.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/design/scripts/icon/generate.py
+  cli/assets/skills/design/scripts/logo/core.py:
+    sha256: 4f8b36ffe538e5995d0e0b740053a0899a1adf445ffdf484bd47f94e71ade8d0
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/logo/core.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/logo/core.py
+  cli/assets/skills/design/scripts/logo/generate.py:
+    sha256: a72e25d49e48fac6a1059d681a39c3f334c085f54ab90a88d1c9726edd079940
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/logo/generate.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/design/scripts/logo/generate.py
+  cli/assets/skills/design/scripts/logo/search.py:
+    sha256: 693b3a1824831f120d4c60ed72477847604da1f6b654343381f8e9d3800a28f2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/logo/search.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/scripts/logo/search.py
+  cli/assets/skills/design/scripts/logo/tests/test_generate.py:
+    sha256: 1afc084cd2c5af8bfac0748f11aa547bc78e3f638e06421dd0fad4c0ee6286dc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design/scripts/logo/tests/test_generate.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/design/scripts/logo/tests/test_generate.py
+  cli/assets/skills/design-system/SKILL.md:
+    sha256: 8aa5ff93320559a6e5289d37b6b06b3307737dbfb4a6f3fc44135c705613c511
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/SKILL.md
+  cli/assets/skills/design-system/data/slide-backgrounds.csv:
+    sha256: d1bb701b87bef493d72974d6fac1087c8ba4e2df14185fe3e0c36a13fe35f3d1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-backgrounds.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-backgrounds.csv
+  cli/assets/skills/design-system/data/slide-charts.csv:
+    sha256: 12ef876cd76e67a6553444bfa2ebf1d5d4d6216289d34db052a6e87421135033
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-charts.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-charts.csv
+  cli/assets/skills/design-system/data/slide-color-logic.csv:
+    sha256: ea68c737075f1615b2a7e461e2878c06bfe8f803dcabfbcc2977ffe5f9ec9ded
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-color-logic.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-color-logic.csv
+  cli/assets/skills/design-system/data/slide-copy.csv:
+    sha256: 43152937a0e598b3fbfdd418684311c105d44e3c5b333703ddb0b8cb28e40658
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-copy.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-copy.csv
+  cli/assets/skills/design-system/data/slide-layout-logic.csv:
+    sha256: 26b5b75782d5aba89836c0479acd3111cc69b67853db9c2259b30ac1e966bc62
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-layout-logic.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-layout-logic.csv
+  cli/assets/skills/design-system/data/slide-layouts.csv:
+    sha256: 95d558c1b7d2552d7a75402dc68facbd16125e574985851db5729d1145e14896
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-layouts.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-layouts.csv
+  cli/assets/skills/design-system/data/slide-strategies.csv:
+    sha256: f656be0ab0b3a85fa7fc74202e9701a7236220412d67d5f63eb6dbb100bb2639
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-strategies.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-strategies.csv
+  cli/assets/skills/design-system/data/slide-typography.csv:
+    sha256: b96cd11dd4ff1dea8a9454b0b9e898e7f82f9243182f8f237af1f2c9b8824ce5
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/data/slide-typography.csv
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/data/slide-typography.csv
+  cli/assets/skills/design-system/references/component-specs.md:
+    sha256: b265d979a741dd748d4e595e6898ae430faeef4f6d13d7a634fa6241b91d2da4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/component-specs.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/component-specs.md
+  cli/assets/skills/design-system/references/component-tokens.md:
+    sha256: e27f8f5999badee425c98235eabbd2cb3ebe2a1a364766d5c7a6b3134ceaaec8
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/component-tokens.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/component-tokens.md
+  cli/assets/skills/design-system/references/primitive-tokens.md:
+    sha256: 91e6caa12646c08c8aadf8e09399aed65760a25c8d80595936d81a9131118fc3
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/primitive-tokens.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/primitive-tokens.md
+  cli/assets/skills/design-system/references/semantic-tokens.md:
+    sha256: 97e16d8061bbc22e82b51966a7015e3fc990932902e4647843506669a1cdebcc
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/semantic-tokens.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/semantic-tokens.md
+  cli/assets/skills/design-system/references/states-and-variants.md:
+    sha256: 8dacb95d57d4bb37d8a99cc55515ff26da272056f837d29abc74aedcaa3ba104
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/states-and-variants.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/states-and-variants.md
+  cli/assets/skills/design-system/references/tailwind-integration.md:
+    sha256: 6d01092db1479dbd2060567b4232bb2b4bc16e89730ab07e1f87a3e7f5c406b9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/tailwind-integration.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/tailwind-integration.md
+  cli/assets/skills/design-system/references/token-architecture.md:
+    sha256: 925f4049c4c4313d9fd5df98cdfd52004112aca49fba1664ad85e76bc9dce4d3
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/references/token-architecture.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/references/token-architecture.md
+  cli/assets/skills/design-system/scripts/embed-tokens.cjs:
+    sha256: 8c8ad04c1f948402b80693b400047e716235654147a797e11f3ac0283e143486
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/embed-tokens.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/embed-tokens.cjs
+  cli/assets/skills/design-system/scripts/fetch-background.py:
+    sha256: 020d4e54bc26595472dc4b5a421830e0e83ffea3f44225fac8ac5f832430e691
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/fetch-background.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/fetch-background.py
+  cli/assets/skills/design-system/scripts/generate-slide.py:
+    sha256: 0463c98efea54870816925015fe5819e42a29aaba57408c2c38bacb33e2605b9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/generate-slide.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/generate-slide.py
+  cli/assets/skills/design-system/scripts/generate-tokens.cjs:
+    sha256: aac8a0f4ec4dccf0d371f9ee5a9111e44977bb0cad7e40a3754aba5571aa1231
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/generate-tokens.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/generate-tokens.cjs
+  cli/assets/skills/design-system/scripts/html-token-validator.py:
+    sha256: 1242a778493a8fd646da50623d654b783ed8d1b6d4234b3271789eae9f5a4bed
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/html-token-validator.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/html-token-validator.py
+  cli/assets/skills/design-system/scripts/search-slides.py:
+    sha256: 3d3d842d1c1daa26084a89aa7a41eb89d8c62b777f45cb4923b42aa10bb0b041
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/search-slides.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/search-slides.py
+  cli/assets/skills/design-system/scripts/slide-token-validator.py:
+    sha256: 66da5da5e8e659d405a89b342e13dd1e469e79726c46002d9d2368c3c7aaf945
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/slide-token-validator.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/slide-token-validator.py
+  cli/assets/skills/design-system/scripts/slide_search_core.py:
+    sha256: 2464050ae338eb50728086046b644845fa7ae943f32efead3908fdbe1473edbe
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/slide_search_core.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/slide_search_core.py
+  cli/assets/skills/design-system/scripts/tests/test_validate_tokens.py:
+    sha256: 43c56f6ecb89d4dd4010ccabcf047d2f3824d39bbbd5a1f6f697333ff27c59e6
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/tests/test_validate_tokens.py
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/tests/test_validate_tokens.py
+  cli/assets/skills/design-system/scripts/validate-tokens.cjs:
+    sha256: 65f03a29290b9029d8cc27537701f226de7bcffc303b3bc361648fadfa09b77d
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/scripts/validate-tokens.cjs
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/scripts/validate-tokens.cjs
+  cli/assets/skills/design-system/templates/design-tokens-starter.json:
+    sha256: 5444f477b06bab9c72e2cc289d4a9104efef653391c9639972bcb712d5f2d81e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/design-system/templates/design-tokens-starter.json
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design-system/templates/design-tokens-starter.json
+  cli/assets/skills/slides/SKILL.md:
+    sha256: 86c07f19ec09f79441d3837e909cfcd51034b83bdcc88094c15e652be1e765cb
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/slides/SKILL.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/slides/SKILL.md
+  cli/assets/skills/slides/references/copywriting-formulas.md:
+    sha256: 2df4d83d7a6d4e578dd78911348357b45dfaedbcc948ffbac0e31579c5fb692a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/slides/references/copywriting-formulas.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-copywriting-formulas.md
+  cli/assets/skills/slides/references/create.md:
+    sha256: 792d647a5d4f87d765cf417f7ac54dd0b2fc4d229cc23ea9df56282d4c1ee086
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/slides/references/create.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-create.md
+  cli/assets/skills/slides/references/html-template.md:
+    sha256: fd5b051a37365fc6059c75bb388ec6f64daf1bd9ae938b287b6d762dc83c0c35
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/slides/references/html-template.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-html-template.md
+  cli/assets/skills/slides/references/layout-patterns.md:
+    sha256: 0de6208dcb32f896ad24df1bfa0c88a6abfe13c6a1ce43df06014810ab98314b
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/slides/references/layout-patterns.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-layout-patterns.md
+  cli/assets/skills/slides/references/slide-strategies.md:
+    sha256: cc97651ae1b404bde4df6ad0f7b5ef0c3f91506c9c5cb67748489a96fd155a0f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/slides/references/slide-strategies.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/design/references/slides-strategies.md
+  cli/assets/skills/ui-styling/LICENSE.txt:
+    sha256: 58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/LICENSE.txt
+  cli/assets/skills/ui-styling/SKILL.md:
+    sha256: 625e302c60ee8f2e22d56cbe638c4a739e2657f566dae42689503ad517c30f1e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/SKILL.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/SKILL.md
+  cli/assets/skills/ui-styling/references/canvas-design-system.md:
+    sha256: f5de85ff39d9f3a8275c4164b921ba72d5e1d34b8d7a9243d9ee34b3870a4f5f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/canvas-design-system.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/canvas-design-system.md
+  cli/assets/skills/ui-styling/references/shadcn-accessibility.md:
+    sha256: a22cd4ccf82b635b2b2c4f12416a0c4f7edcd825d219d6089450fa797a0d9511
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/shadcn-accessibility.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/shadcn-accessibility.md
+  cli/assets/skills/ui-styling/references/shadcn-components.md:
+    sha256: 79c4f91cbf68993a43fa3a95889c35db73de45bdd3dfd83a6830863c01aa598a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/shadcn-components.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/shadcn-components.md
+  cli/assets/skills/ui-styling/references/shadcn-theming.md:
+    sha256: d17d641474221123ff0e0288043ca2f2dab3ac96908a19eed28d82f9e58865ed
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/shadcn-theming.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/shadcn-theming.md
+  cli/assets/skills/ui-styling/references/tailwind-customization.md:
+    sha256: 4c5adeed6263a274f74f6eb2c816ca420fd6ef4f35683582988bacd404799afe
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/tailwind-customization.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/tailwind-customization.md
+  cli/assets/skills/ui-styling/references/tailwind-responsive.md:
+    sha256: 8d00ae620df26daea4623c7bf996d6e612e09d359305fcfa2b40cab757ed840c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/tailwind-responsive.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/tailwind-responsive.md
+  cli/assets/skills/ui-styling/references/tailwind-utilities.md:
+    sha256: aba1c40ef84f43beea142ae310371e332541f39d973df90a71f1854823effda1
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/references/tailwind-utilities.md
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/references/tailwind-utilities.md
+  cli/assets/skills/ui-styling/scripts/requirements.txt:
+    sha256: 09402d2d274248e18bb5fd0a0267fd7cbf99b7a2440e73e87f054aa8f259f9da
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/requirements.txt
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/requirements.txt
+  cli/assets/skills/ui-styling/scripts/shadcn_add.py:
+    sha256: 0c11d28ce9f12217df2c3306f24ae1f73527d5116db63707ab55cbe1a8bcf28c
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/shadcn_add.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/shadcn_add.py
+  cli/assets/skills/ui-styling/scripts/tailwind_config_gen.py:
+    sha256: 9a81a5e2780650ab613a87d50ffd5caa9be22533f7bac0f8807a7f7214f26471
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/tailwind_config_gen.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/tailwind_config_gen.py
+  cli/assets/skills/ui-styling/scripts/tests/coverage-ui.json:
+    sha256: 33bdc1f5998db9a38cac8e6128a82711f8f8b65fbb3dcb0c1680ae260441cbce
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/tests/coverage-ui.json
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/tests/coverage-ui.json
+  cli/assets/skills/ui-styling/scripts/tests/requirements.txt:
+    sha256: 80846c98ee02a7e9651ec4eee6709f840b785646b469aad5284ab7ab9b344f17
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/tests/requirements.txt
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/tests/requirements.txt
+  cli/assets/skills/ui-styling/scripts/tests/test_shadcn_add.py:
+    sha256: 35f60ac5d74c4a7f950854a0337883c3e8dd812c58fcf6c5153876e43a6effa2
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/tests/test_shadcn_add.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/tests/test_shadcn_add.py
+  cli/assets/skills/ui-styling/scripts/tests/test_tailwind_config_gen.py:
+    sha256: 2d044e1a9e67d358e8f7f664eeaa588dbd0ef150daa91cdea71519d8d686e470
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/cli/assets/skills/ui-styling/scripts/tests/test_tailwind_config_gen.py
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling/scripts/tests/test_tailwind_config_gen.py
+  scripts/evaluate-relevance.py:
+    sha256: 1294b92d3242af84092b37aea7a5a93f7df5cb07721fee36c534de2cdda7703e
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/evaluate-relevance.py
+  scripts/generate-catalog-summary.py:
+    sha256: 1eac19b392ced7604073266b2dd6deec5f305c72b08699da89c494a227db39c4
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/generate-catalog-summary.py
+  scripts/refresh-google-fonts.py:
+    sha256: e29e9b19ec69e73214ebe22b2488e1da42e7e30ba75e882e7a7aca336f006a77
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/refresh-google-fonts.py
+  scripts/refresh-icon-catalog.py:
+    sha256: 18b51278d8c2236692aa117325f83d2d1c4b82d513e48a2d9e614d376e033235
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/refresh-icon-catalog.py
+  scripts/relevance_metrics.py:
+    sha256: a5126f734365380b3f3390453f25d2f504a6488c6af0fc88256a9529c02e1547
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/relevance_metrics.py
+  scripts/smoke-domains.sh:
+    sha256: 02ded0c95d32d6b83e7ce0990ff37cc23113a5a3d975f6486e27049e947223df
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/smoke-domains.sh
+  scripts/smoke-stacks.sh:
+    sha256: c1dde46ab5199b95e804a222bfacc1bd583dc5846fce944204566c531f4d8080
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/smoke-stacks.sh
+  scripts/sync-release-version.mjs:
+    sha256: 836dc7967f24a05a1c05d917bc53d74c8bd731abf59ab0f4e15a5956c769b4e9
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/sync-release-version.mjs
+  scripts/validate-agent-guide.py:
+    sha256: 9c515c5d040e14bc88dd91ebcef64afa326d45fc3bf36b34d7b5fd59f2051cbe
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/validate-agent-guide.py
+  scripts/validate-csv.py:
+    sha256: 37c11a18f90539f0bfa88b33a0235d434b5841e50051fda581e9e958b872b362
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/scripts/validate-csv.py
+  stack/.claude/agents/design-review.md:
+    sha256: 63e9d3bc54ff4720c19fde087fcc2e499b2fdc7342f3d36b1e70a6f9c0d58d0f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/stack/.claude/agents/design-review.md
+  notices/dc090f87833b-plugin.json:
+    sha256: dc090f87833b9292b413e608a3bc12e6c85924a08280875f66b911d0bc66662a
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude-plugin/plugin.json
+  notices/738f69dfa83d-LICENSE:
+    sha256: 738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/LICENSE
+  notices/13957904b999-README.md:
+    sha256: 13957904b9999d6e367ecbb13d4df1aeb0a945d84f2da8c69c3b22e0750d2d7f
+    copied_from: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/README.md
+    alias_of: toolkit/vendor/pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/notices/13957904b999-README.md
+notices:
+- .claude/skills/ui-styling/LICENSE.txt
+- LICENSE
+- cli/assets/skills/ui-styling/LICENSE.txt
+- notices/dc090f87833b-plugin.json
+- notices/738f69dfa83d-LICENSE
+- notices/13957904b999-README.md
+excluded:
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/ArsenalSC-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/BigShoulders-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/BigShoulders-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Boldonse-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/BricolageGrotesque-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/BricolageGrotesque-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/CrimsonPro-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/CrimsonPro-Italic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/CrimsonPro-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/DMMono-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/EricaOne-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/GeistMono-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/GeistMono-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Gloock-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexMono-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexMono-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexSerif-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexSerif-BoldItalic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexSerif-Italic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/IBMPlexSerif-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSans-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSans-BoldItalic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSans-Italic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSans-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSerif-Italic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/InstrumentSerif-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Italiana-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/JetBrainsMono-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/JetBrainsMono-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Jura-Light.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Jura-Medium.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/LibreBaskerville-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Lora-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Lora-BoldItalic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Lora-Italic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Lora-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/NationalPark-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/NationalPark-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/NothingYouCouldDo-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Outfit-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Outfit-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/PixelifySans-Medium.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/PoiretOne-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/RedHatMono-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/RedHatMono-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Silkscreen-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/SmoochSans-Medium.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Tektur-Medium.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/Tektur-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/WorkSans-Bold.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/WorkSans-BoldItalic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/WorkSans-Italic.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/WorkSans-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/canvas-fonts/YoungSerif-Regular.ttf
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.13.0/.claude/skills/ui-styling/scripts/.coverage
+  reason: binary/non-UTF8 or unreadable; never distributed

@@ -1,0 +1,199 @@
+package: plugin-openai-primary-runtime-presentations-26.1020.11127
+upstream_url: https://github.com/openai/openai
+pinned_ref:
+- 26.1020.11127
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-openai-primary-runtime-presentations-26.1020.11127
+copied_from:
+- ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: c96e06e1b8502888e957997d1c2ec92e0978cb8d319aada012daf4c417f5910b
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/.codex-plugin/plugin.json
+  skills/presentations/SKILL.md:
+    sha256: bb3726eff35cb82241fd2c3b09fcdb18cc3bf3daefddf8df929d2e0bd4d2af2f
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/SKILL.md
+  skills/presentations/agents/openai.yaml:
+    sha256: 13700be18c1cfbcfdf2d2439b73b5bebca744818ebfe3e634bfdf2bc14589e6f
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/agents/openai.yaml
+  skills/presentations/artifact_tool_docs/API_QUICK_START.md:
+    sha256: 1828ab26b8f9ca37de19d5ab056e52dcefaf39ce24e180251a25922eb8c310ec
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/API_QUICK_START.md
+  skills/presentations/artifact_tool_docs/api/API_DOCS.md:
+    sha256: 1ba3ca631568cc3463076ba644faae772accb6f6ec395781ca187604477f7146
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/API_DOCS.md
+  skills/presentations/artifact_tool_docs/api/references/auto-layout.spec.md:
+    sha256: 1158c8d99e36490083667300874be6c6feee53164228d89e6aa04c8f4e973d0f
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/auto-layout.spec.md
+  skills/presentations/artifact_tool_docs/api/references/charts.spec.md:
+    sha256: 773daba708b47e7c6d2a13282962d43218605264a99d7a4cd5464f0eed3e44be
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/charts.spec.md
+  skills/presentations/artifact_tool_docs/api/references/comments.md:
+    sha256: 77f912d23576761e341c2b525375b260ae7b7fba6e4eb3a98d78458a36c8a59d
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/comments.md
+  skills/presentations/artifact_tool_docs/api/references/connectors.md:
+    sha256: 3c2771a8fb3ce3b077bbc36ff3f7bb4589cb26b159c4665de3671e0cebde4e31
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/connectors.md
+  skills/presentations/artifact_tool_docs/api/references/cookbook/imported-deck.md:
+    sha256: 349ef3caa5a951f23462aff3a58ed5ccc1c37d2e3b9958ece635da9daacb4c81
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/cookbook/imported-deck.md
+  skills/presentations/artifact_tool_docs/api/references/cookbook/layout.md:
+    sha256: c415a7f976c823bc7ca82328e9f21a5a91007107777253ff9eb4c7ca8986379e
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/cookbook/layout.md
+  skills/presentations/artifact_tool_docs/api/references/fill.spec.md:
+    sha256: 79b67019ecb66c953197eb11a4b579b41b58973f5436330884c63d4341f2d7be
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/fill.spec.md
+  skills/presentations/artifact_tool_docs/api/references/help.md:
+    sha256: 45d43b4459863c1bccf7a6c180983bc3fdd3ca00a92a8d3f126b2021f54ea18e
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/help.md
+  skills/presentations/artifact_tool_docs/api/references/images.spec.md:
+    sha256: f099f52caa80fbb51b117f2cf84d38a5e17bc18901a5a4507fbc2d93fa761c67
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/images.spec.md
+  skills/presentations/artifact_tool_docs/api/references/inspect.md:
+    sha256: 30e01c0fa0fdd23fc7fdeedc3e62e2835f3db8ab502633d9006ca35dafdd8d9a
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/inspect.md
+  skills/presentations/artifact_tool_docs/api/references/inspect.schema.json:
+    sha256: 63d85c90b18a8d5bff734abc6980cdbdb52d767299dca925f73e0da71d05fcc2
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/inspect.schema.json
+  skills/presentations/artifact_tool_docs/api/references/jsx.md:
+    sha256: f8b225db2ae54134b5d4f947c8fc8efb3c1811b880ebaeaf1ef7cb81adf6cca2
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/jsx.md
+  skills/presentations/artifact_tool_docs/api/references/layout.spec.md:
+    sha256: a63ffee900cbb41256d73df92660176e4933420cbcd781756c823436b215b63d
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/layout.spec.md
+  skills/presentations/artifact_tool_docs/api/references/master.spec.md:
+    sha256: 8d786bd0a851e05e4ea18570a264ceb172c4e936a4e3f6944ff87a8e3a89be4a
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/master.spec.md
+  skills/presentations/artifact_tool_docs/api/references/presentation.spec.md:
+    sha256: 64bcfc972687325b1f8c83a8b698816517d0aae8f5dea68425149abf9f13e58a
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/presentation.spec.md
+  skills/presentations/artifact_tool_docs/api/references/rich-text.spec.md:
+    sha256: abb37df2da121771815f51626e1285d27942dd4eb9eb7a4c1cf229c0d37cbd7a
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/rich-text.spec.md
+  skills/presentations/artifact_tool_docs/api/references/shapes.spec.md:
+    sha256: 4cb500553e81dee2c06cb19cda91819c6700e4271b4f4173b7dcf06095d04ecd
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/shapes.spec.md
+  skills/presentations/artifact_tool_docs/api/references/slide.spec.md:
+    sha256: 53160ad78c5dd40c49f4e7da378cea6c795780deb43fcb73ea6c8cc64eeaf512
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/slide.spec.md
+  skills/presentations/artifact_tool_docs/api/references/speaker-notes.spec.md:
+    sha256: 108e90560cf5d7f6b13144401d5018f7f2c4b93896bb2d89f41c4ce62aa13b50
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/speaker-notes.spec.md
+  skills/presentations/artifact_tool_docs/api/references/styles.spec.md:
+    sha256: c27a25f32184d65466d6051256afd8e29144bc87eccc04e486fb845758518f8e
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/styles.spec.md
+  skills/presentations/artifact_tool_docs/api/references/tables.spec.md:
+    sha256: 4735841f5bfa3520cbba1b5e7b26014e980d616da2bdb9f4e1580817884b5efb
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/tables.spec.md
+  skills/presentations/artifact_tool_docs/api/references/theme.spec.md:
+    sha256: 3dfae5c2973cd197c47daeae042872ad90a033f2df64758b4006591694e2045c
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/theme.spec.md
+  skills/presentations/artifact_tool_docs/api/references/tokens.md:
+    sha256: 55326b4322f942a16d02caa79aebd60c2c97156008fd3eb69012bda327bbcc96
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/artifact_tool_docs/api/references/tokens.md
+  skills/presentations/container_tools/artifact_tool_utils.mjs:
+    sha256: 7f3be49b701c385ee180cad5858135297482264039f950d542c22aa9c602645d
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/artifact_tool_utils.mjs
+  skills/presentations/container_tools/create_montage.py:
+    sha256: 4e992386bab29f9b8b16b1705d2692f8e8b8fd27112d41e7cb56c886859711e0
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/create_montage.py
+  skills/presentations/container_tools/ensure_raster_image.py:
+    sha256: 88a5783010907a474fb41e7bfb8d31d0056641fcf38fbc1fc60d58e3a7d0f39f
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/ensure_raster_image.py
+  skills/presentations/container_tools/inspect_presentation_layout_geometry.py:
+    sha256: 171ce664e04705abfef280bf201c7783cfe273747002b2fd04a195b7f447c4eb
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/inspect_presentation_layout_geometry.py
+  skills/presentations/container_tools/inspect_presentation_package_integrity.py:
+    sha256: 0211c115805642094652fb1d464838559b95e4615d15170d22b29d4a23cc9f9f
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/inspect_presentation_package_integrity.py
+  skills/presentations/container_tools/mark_artifact_operation_started.mjs:
+    sha256: 93a0b2fd9f9d6f52204a581f218f3e2d0acd4e1d404d13d91ab78a06f5a7159d
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/mark_artifact_operation_started.mjs
+  skills/presentations/container_tools/materialize_literal_chart_workbooks.py:
+    sha256: c29d18483e26dc61ea5ea48245f8fe2625317f5511f8e8af82506760140051da
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/materialize_literal_chart_workbooks.py
+  skills/presentations/container_tools/native_chart_title_gate.py:
+    sha256: 752e88d019c5ee1618ec9ad0bcb111409f39ca4c68da571f0f29967c7773c078
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/native_chart_title_gate.py
+  skills/presentations/container_tools/native_quantitative_chart_gate.py:
+    sha256: 7dde6fdda947365731cd8fbc89ede5b718c57c84e285a20af1a675fc9e27cab3
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/native_quantitative_chart_gate.py
+  skills/presentations/container_tools/native_table_arithmetic_gate.py:
+    sha256: de3db1596db2fea90261990e867c9713510f3133b65a7dc36269991de5783976
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/native_table_arithmetic_gate.py
+  skills/presentations/container_tools/rasterize_svg.mjs:
+    sha256: 95e973b2750820e1c0c2a63d403bd227c8f0197ae215d0a67bff1cbe12be694a
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/rasterize_svg.mjs
+  skills/presentations/container_tools/render_presentation.mjs:
+    sha256: edd464cd7bb79bcf7528637ae201c716f1c6b74b135d674302e77552736c38c9
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/render_presentation.mjs
+  skills/presentations/container_tools/render_slides.py:
+    sha256: ab4965cd3e7338767c83217780ed0efadc219b38f1ca7e824765400fbcf69705
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/render_slides.py
+  skills/presentations/container_tools/runtime_helpers.mjs:
+    sha256: 587fb61b967842bddb886be6539c8939ad0828779352bf96a3df2d0ed7c9c227
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/runtime_helpers.mjs
+  skills/presentations/container_tools/runtime_helpers.py:
+    sha256: 0524d854d0518e562613590a293dd23da8c2622e08c82026b0da469752c3ceff
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/runtime_helpers.py
+  skills/presentations/container_tools/slides_test.py:
+    sha256: f192e85ba17a9f7634908074e2149a277a30684c0e38d459f9c1d0245bfd6cc1
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/slides_test.py
+  skills/presentations/container_tools/template_source_fidelity_gate.py:
+    sha256: 7f6b5085834ed8001862cf712589d994ddc5cbca8207cab5af52fa5ca25f91df
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/container_tools/template_source_fidelity_gate.py
+  skills/presentations/domain_guidance/finance.md:
+    sha256: 3c027850a25ca1eab480d4c93cba95d3a0fea290944d97250320449b3261677b
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/domain_guidance/finance.md
+  skills/presentations/references/cover_art_direction.md:
+    sha256: c74334268be2e7021429612df0c606b88c0b640dd7acab2c92160bf8cbe38f91
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/cover_art_direction.md
+  skills/presentations/references/finalization.md:
+    sha256: 181110cc6c15676bf265b273cbc49b1b25d0842e7cb6a902c0944a87de679273
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/finalization.md
+  skills/presentations/references/implementation.md:
+    sha256: 45a8c01663a4b1dad6e80e1112223b8a19529b32be5f46a47a2dbc058806f55d
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/implementation.md
+  skills/presentations/references/native_bullets.md:
+    sha256: db01c76bd7edbb93f3130473cbd911d3b8f717c29817d66f5d05a7cf523d83c8
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/native_bullets.md
+  skills/presentations/references/native_evidence.md:
+    sha256: b200c212c97c8f933a1f16d6f9fb1e1fd91b6b77e42ff5301216a92ebe3c480d
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/native_evidence.md
+  skills/presentations/references/template-elicitation.md:
+    sha256: 320b64453f88d78302445ac3751f6c70a3077ec16a161aa6227db2838b55319c
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/template-elicitation.md
+  skills/presentations/references/template_following.md:
+    sha256: edc138c824924085041391a2118874d21f6f8d020324e2c0d934793ad023bd0a
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/references/template_following.md
+  skills/presentations/routing/google_slides.md:
+    sha256: ae1627a41804f503602ab491169925e0c26969727fa65d72757d5950e5f09293
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/routing/google_slides.md
+  skills/presentations/style_guidelines.md:
+    sha256: c863ad07834e9801151c4d6cb3a2bba75c36d2d2830cfef5d94db7d30ba3dd58
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/style_guidelines.md
+  skills/presentations/template_following_scripts/check_template_fidelity.mjs:
+    sha256: 7dc9f198a617a456cf645ef68d3991ef2960f092f4bf995ecf629ab1fa48f8ee
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/template_following_scripts/check_template_fidelity.mjs
+  skills/presentations/template_following_scripts/inspect_template_deck.mjs:
+    sha256: c901e0c9d632f276293f5d86439b73fc5209f2cb6b2639b8232e0ddae946844e
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/template_following_scripts/inspect_template_deck.mjs
+  skills/presentations/template_following_scripts/make_contact_sheet.py:
+    sha256: b929a3d3d27dceb14d630da33bfd6218fba2e2b0b9e4ae5a28acdd2134f38322
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/template_following_scripts/make_contact_sheet.py
+  skills/presentations/template_following_scripts/prepare_template_starter_deck.mjs:
+    sha256: e8137b68bd2687f9de573467dac8eb5e6c1bea8099071aaaafcc9046f9e5937f
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/template_following_scripts/prepare_template_starter_deck.mjs
+  skills/presentations/template_following_scripts/validate_template_plan.mjs:
+    sha256: 6eb67f339358247f500f92261f6bece2c6c055dd59a0ed25bc6bf00da4f0f6b1
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/template_following_scripts/validate_template_plan.mjs
+  notices/c96e06e1b850-plugin.json:
+    sha256: c96e06e1b8502888e957997d1c2ec92e0978cb8d319aada012daf4c417f5910b
+    copied_from: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-primary-runtime-presentations-26.1020.11127/.codex-plugin/plugin.json
+notices:
+- notices/c96e06e1b850-plugin.json
+excluded:
+- source: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.1020.11127/skills/presentations/assets/file-presentation.png
+  reason: binary/non-UTF8 or unreadable; never distributed

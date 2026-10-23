@@ -1,0 +1,1 @@
+../../../../../pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md

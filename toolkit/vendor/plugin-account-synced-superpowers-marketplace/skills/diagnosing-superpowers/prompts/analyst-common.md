@@ -1,0 +1,1 @@
+../../../../pack-obra-superpowers-mit/skills/diagnosing-superpowers/prompts/analyst-common.md

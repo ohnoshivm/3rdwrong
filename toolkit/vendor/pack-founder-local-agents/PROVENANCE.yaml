@@ -1,0 +1,75 @@
+package: pack-founder-local-agents
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: CC-BY-4.0
+evidence_path: toolkit/sources/packages.json#pack-founder-local-agents
+copied_from:
+- ~/.claude/agents/3d-webgl-engineer.md
+- ~/.claude/agents/bulk-executor.md
+- ~/.claude/agents/ceo.md
+- ~/.claude/agents/complex-engineer.md
+- ~/.claude/agents/creative-director.md
+- ~/.claude/agents/creative-writer.md
+- ~/.claude/agents/frontend-architect.md
+- ~/.claude/agents/implementer.md
+- ~/.claude/agents/motion-director.md
+- ~/.claude/agents/performance-engineer.md
+- ~/.claude/agents/researcher.md
+- ~/.claude/agents/strategic-architect.md
+- ~/.claude/agents/ui-ux-architect.md
+- ~/.claude/agents/visual-designer.md
+- ~/.claude/agents/visual-qa-engineer.md
+copied_on: '2026-10-23'
+files:
+  agents/3d-webgl-engineer.md:
+    sha256: 02c6024a50964d7a90d85c4747f22316d11d5e43262b69d628f9e9e8de9974a3
+    copied_from: ~/.claude/agents/3d-webgl-engineer.md
+  agents/bulk-executor.md:
+    sha256: 6561f5d20f2d125f0ed027bc02cfe2c15edf030110043f0ec543e204aa742ece
+    copied_from: ~/.claude/agents/bulk-executor.md
+  agents/ceo.md:
+    sha256: ace978b4f1a8d9e7f9b71bd339b4b235c713cbadd106f86a77ee85f712d50aab
+    copied_from: ~/.claude/agents/ceo.md
+  agents/complex-engineer.md:
+    sha256: b9c81e8977e3346c5f72a9bf3aaa5bc460b447d4d7c8d037d584a412e6293c2b
+    copied_from: ~/.claude/agents/complex-engineer.md
+  agents/creative-director.md:
+    sha256: 165e2acde257b4c532221a15380dea3c007d833c69102cec9faf15bfb5797ae2
+    copied_from: ~/.claude/agents/creative-director.md
+  agents/creative-writer.md:
+    sha256: f429a525360f54445d931cf04fae5382f2cc382de4ab29c36584430e884115ea
+    copied_from: ~/.claude/agents/creative-writer.md
+  agents/frontend-architect.md:
+    sha256: ab5c064bfe459721c80a69b2974572b434d8e7519f6e35a1c3c0f1a069a0d061
+    copied_from: ~/.claude/agents/frontend-architect.md
+  agents/implementer.md:
+    sha256: baad5181e73e6a1a91d0942190609eaa4d96ea353c24fc6e8af1b9f9413b123f
+    copied_from: ~/.claude/agents/implementer.md
+  agents/motion-director.md:
+    sha256: dcb9f2c000236f56551fcd9a0b1f8e09ab981269531c5a6dbf3f8ce8df7d9604
+    copied_from: ~/.claude/agents/motion-director.md
+  agents/performance-engineer.md:
+    sha256: 5d3ea06c5ccfaa27b3e8c514669ee8ac0aa79cfa84c3e7ec4dfdb53611836db2
+    copied_from: ~/.claude/agents/performance-engineer.md
+  agents/researcher.md:
+    sha256: 1fff05835cf1de6598817c72e559065c51fa85079a4494e85dc54a0fdacdc931
+    copied_from: ~/.claude/agents/researcher.md
+  agents/strategic-architect.md:
+    sha256: 53182320e29217f24b46886a404f3c2e8d24154b07aad4cdefe25514511ce7ba
+    copied_from: ~/.claude/agents/strategic-architect.md
+  agents/ui-ux-architect.md:
+    sha256: 76750b323c51668b98cb660f5511ad26e9d1a18f933ea63d6ad0c88c455987d1
+    copied_from: ~/.claude/agents/ui-ux-architect.md
+  agents/visual-designer.md:
+    sha256: b4dba05f9b0b7e6db13dc8216fdc78772e58883809335e9af79af36bed90be4e
+    copied_from: ~/.claude/agents/visual-designer.md
+  agents/visual-qa-engineer.md:
+    sha256: 62e297d0a259fbdbf5c7be3e8dfaab17ce5772e6a35bcdfc1662af75341ba38e
+    copied_from: ~/.claude/agents/visual-qa-engineer.md
+  LICENSE-DOCS:
+    sha256: 9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411
+    copied_from: ~/3rdwrong/LICENSE-DOCS
+notices:
+- LICENSE-DOCS
+excluded: []

@@ -1,0 +1,1 @@
+../../../.codex-marketplace/x-skills/skills/x-reply-drafter/references/reply-templates.md

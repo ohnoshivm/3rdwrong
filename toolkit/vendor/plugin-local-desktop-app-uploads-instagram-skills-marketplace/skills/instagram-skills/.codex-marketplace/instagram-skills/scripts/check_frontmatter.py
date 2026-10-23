@@ -1,0 +1,1 @@
+../../../../../../plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py

@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/systematic-debugging/find-polluter.sh

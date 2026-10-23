@@ -1,0 +1,405 @@
+package: plugin-local-desktop-app-uploads-instagram-skills-marketplace
+upstream_url: https://github.com/sergebulaev/instagram-skills
+pinned_ref:
+- 1.0.27
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-local-desktop-app-uploads-instagram-skills-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills
+copied_on: '2026-10-23'
+files:
+  skills/instagram-skills/.agents/plugins/marketplace.json:
+    sha256: d761195eb74fdf14851ccc3eb1558a7c3d86c53a563d96d72bf1e3968143b8b4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.agents/plugins/marketplace.json
+  skills/instagram-skills/.claude-plugin/marketplace.json:
+    sha256: af22fa426e27a2ceadce1f9dfa00a5fd3d8532fb7ff527aa6b1ef17773caf14a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.claude-plugin/marketplace.json
+  skills/instagram-skills/.claude-plugin/plugin.json:
+    sha256: dc0805fe2d508af9f92c434bd9fcca812b731d6cb8cff4a4bc01719bf361a0a6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.claude-plugin/plugin.json
+  skills/instagram-skills/.codex-marketplace/instagram-skills/.codex-plugin/plugin.json:
+    sha256: 1c4bb6e64379aae245a60dc216c5adbe9d3689615acf0cedb6eb724ed23fef4a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/.codex-plugin/plugin.json
+  skills/instagram-skills/.codex-marketplace/instagram-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/LICENSE
+  skills/instagram-skills/.codex-marketplace/instagram-skills/README.md:
+    sha256: 898a47833eb6902465375b9bd3a86ae88fad2609038891d8431f8547c9ddd6c5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/README.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/SKILL.md:
+    sha256: b65292cae0479717b0c2732b0a022dce35525195db2d49cc86f99d6f8276c218
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/assets/icon.svg:
+    sha256: bdf47a4f66f02791cbc143680a92c8de3bd380e5bf5eb3e3235c9f20144ae3ce
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/assets/icon.svg
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/__init__.py:
+    sha256: 2249fb0750491479f8c5db0fa3f73c96021aa14fd3e058c64eec01ff7cc3377a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/__init__.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/_env.py:
+    sha256: 3f307c8dadac85ca6c96d2053f8ff4e8e3ffee20f08c1882f3ab57ea2135b336
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/_env.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/apify_client.py:
+    sha256: 567f4e47f474cc8c136717ae2575fb240900b3768f661ff42458811a09ecf703
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/apify_client.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/approval.py:
+    sha256: 35a1cc482d3814c084054f62cadd3703543f7d2dfadfe3bfdad493518ef012e4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/approval.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/backend_selector.py:
+    sha256: 424d14bb80f3f21356bf54153dd12b4dcdb812e68526688c31d1144b352eaa0f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/backend_selector.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/pixfaro_client.py:
+    sha256: 338eaae7400fe0dbe23f7aa45b541a95d89be6a0966c89ab7bab70cfe71fb8a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/pixfaro_client.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/publora_client.py:
+    sha256: 7901d3aa4421a11b5e3c00643a882dda7002187071a3bba6ec4b157a91bcdd5b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/publora_client.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/lib/url_parser.py:
+    sha256: 9b85fb0acbcc270c5d94f0587ed325733fc5f411584f7000b2ecf3a0b4d8eff6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/lib/url_parser.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/references/algorithm-heuristics.md:
+    sha256: 332979baa0297ca001f7a1d0b5d0502b4d89fa74a5a314e6e6e2b61b663efb2f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/references/algorithm-heuristics.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/references/hashtag-strategy.md:
+    sha256: 7c10834e0144dc2a80fe6721ef9918ce91c5cc168337e99f8b0c63e390511183
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/references/hashtag-strategy.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/references/hook-formulas.md:
+    sha256: b42fa3d65f4fd0d1eeadeb60d12c1dabae218116085eae4611302c6e4acc8a52
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/references/hook-formulas.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/references/media-workflow.md:
+    sha256: 1057655b3b65bdcc217e95e01b1100a5fd09d7468b1ef0eb81ab482878932649
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/references/media-workflow.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/references/voice-profile.md:
+    sha256: 225bd1b8624bf6b985da4c13dc626537ffa258bfe56ac960eaf86eccaf4fbae7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/references/voice-profile.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/references/voice-rules.md:
+    sha256: 5990c58bab2f1afa893f38dc7a30a4b19cfa107ea4bcb3fc11a29fe238945a91
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/references/voice-rules.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/requirements.txt:
+    sha256: 6a58af1377e006046f47bfcfead07b28400d5285d79d106b86e6e4b8ea33b9f8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/requirements.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/requirements.txt
+  skills/instagram-skills/.codex-marketplace/instagram-skills/scripts/check_actor_inputs.py:
+    sha256: ce9e6d32e57a4c87a61727ff1b19a6d4dd358ce81f6a9dcae17c6c0d7b92ffc7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/scripts/check_actor_inputs.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/scripts/check_no_secrets.py:
+    sha256: 199c5223ed7480fef30e18666564066baac8e46190ae39577216e0890af0e150
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/scripts/check_no_secrets.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-audience-insights/SKILL.md:
+    sha256: 84644bcbc6a7650bded74773186e4dbdc2ac6e8a0341fe8da861ba0e9eddbef0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-audience-insights/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-caption-writer/SKILL.md:
+    sha256: d8d2f5732d2ab9555843a2e384b5f9d1970fcbb418a18927ab98caf344526989
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-caption-writer/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-caption-writer/references/caption-checklist.md:
+    sha256: 96eae3773105436058dbfc6c1b4fd9cbe359acc95efefcc00766a0943bae916f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-caption-writer/references/caption-checklist.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-carousel-planner/SKILL.md:
+    sha256: d08b53023f5cc19f10299b323018b04a693afb88fe318fe63660b52faceb0c1b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-carousel-planner/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-carousel-planner/references/slide-architecture.md:
+    sha256: 2f023be7465bff488f0551326c48ba2b932ed3affb8fae53e3c9d5919a8a45aa
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-carousel-planner/references/slide-architecture.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/SKILL.md:
+    sha256: f945145265b921220d3a89cda917cde27706b6caae3fef0160f60df25e084ec3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/references/example-week.md:
+    sha256: 62a8885737e3499bbe3bd709f076554564a6e1d4549a8e27b29598cd255dc126
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/references/example-week.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/references/pillars-framework.md:
+    sha256: 7e42b6ae43d558ef56d6d0b4c08bc9d3655f2f6285a99648094b3f28e4a0daa3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/references/pillars-framework.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hashtag-strategist/SKILL.md:
+    sha256: 07dafa7511c102d25cf2f77a7b8f54d5be723e3764bab5d76a5f8521fbb72128
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hashtag-strategist/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hashtag-strategist/references/sourcing-tactics.md:
+    sha256: 7e7bb22511359618d8282624a11496ef83136a05cdfef69cb43eb74e91674b05
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hashtag-strategist/references/sourcing-tactics.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/SKILL.md:
+    sha256: 4c6e4893ae4600cb1f14634a4aac901b397e08cef59e9a8edbde79cd24fb924d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/classification-rules.md:
+    sha256: b85c07d7fc58fdd0ae632d4272c0a6f160d3a73c5d309de78cca5b0382fdc89a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/classification-rules.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/examples.md:
+    sha256: fc06191a275abfa89c9d7c04ded24e089dfeaf1eabde08a3e6ea4ddd4444889f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/examples.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/SKILL.md:
+    sha256: afc1d4d5428c11c27cb37f494bf5f188b0b038db47cd4d58c83389ac628ce5ae
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/audit-checklist.md:
+    sha256: d3ae4f851b7a28cfe29efd359d0cf0b57fe95bd7e9f4d60dd418b63b1e4b81fd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/audit-checklist.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/examples.md:
+    sha256: bbc27a266001c9104c0913342445ba6e7df94dfc3495b15be512ca55f13dbf0a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/examples.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/scrub-rules.md:
+    sha256: 7a5b5ca830118dc121cdf5cfe0b96e06293bc3d4b4c52f5485cd85f7c595723c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/scrub-rules.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/illustration.md:
+    sha256: e5f7273ae505c4eab4c7559a3b59e9e82bfedf7911c626cca0d8f66a7c1126fc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/illustration.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/post-audit.md:
+    sha256: 6257fec2773f5d80a6a2005cdaa4a7e8969cac23ecca8e5a5c02a77f2a224ac5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/post-audit.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/voice-profile.md:
+    sha256: ba3a9aa358b418b48dc00a64415adb29a9b06ac23856f8265974286ee3a8f0a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/voice-profile.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-profile-optimizer/SKILL.md:
+    sha256: 851157308bee1e5288fa550af20aa11a2f4780992000a09de350ab586a8e62ee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-profile-optimizer/SKILL.md
+  skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-repurposer/SKILL.md:
+    sha256: 92acb84fb4453e01162eea8b322c95ecf4beee428056a4125cfa8ea0ef493bf9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-repurposer/SKILL.md
+  skills/instagram-skills/.codex-plugin/plugin.json:
+    sha256: 1c4bb6e64379aae245a60dc216c5adbe9d3689615acf0cedb6eb724ed23fef4a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/.codex-plugin/plugin.json
+  skills/instagram-skills/.codexignore:
+    sha256: c20141a93a479c7a544c7e4ebaae520c70c85be9c1248e082187ae4b8f15d9dc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codexignore
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codexignore
+  skills/instagram-skills/.github/dependabot.yml:
+    sha256: e355c2fd8769e2be7ea27a63ea574fa64dd24254d92ddd547456b53712283ccd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.github/dependabot.yml
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.github/dependabot.yml
+  skills/instagram-skills/.github/workflows/hol-plugin-scanner.yml:
+    sha256: 4596607569489381463bda5b9dd0f1700e527e4c02019fd8fd9aff530ac98cc2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.github/workflows/hol-plugin-scanner.yml
+  skills/instagram-skills/.github/workflows/verify-references.yml:
+    sha256: 93364036709bd1393cc7dcac3cd80e506defe7560cbd27e9e63d0d7494ec47a7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.github/workflows/verify-references.yml
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.github/workflows/verify-references.yml
+  skills/instagram-skills/AGENTS.md:
+    sha256: 75223049567798c4fb2583250215ab141b753ff80d86497eddd0cad84f576c0f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/AGENTS.md
+  skills/instagram-skills/CLAUDE.md:
+    sha256: 755ca3c430df2a569bcabd83f02c3e9cab4f077a33819a2a94c3b7bfe14a8f58
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/CLAUDE.md
+  skills/instagram-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/LICENSE
+  skills/instagram-skills/README.md:
+    sha256: 898a47833eb6902465375b9bd3a86ae88fad2609038891d8431f8547c9ddd6c5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/README.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/README.md
+  skills/instagram-skills/SECURITY.md:
+    sha256: ca45427e49018e1d1ea166a096a36b0aee097c667a1dc46491772e68d6b1d1f1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/SECURITY.md
+  skills/instagram-skills/SKILL.md:
+    sha256: b65292cae0479717b0c2732b0a022dce35525195db2d49cc86f99d6f8276c218
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/SKILL.md
+  skills/instagram-skills/assets/icon.svg:
+    sha256: bdf47a4f66f02791cbc143680a92c8de3bd380e5bf5eb3e3235c9f20144ae3ce
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/assets/icon.svg
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/assets/icon.svg
+  skills/instagram-skills/lib/__init__.py:
+    sha256: 2249fb0750491479f8c5db0fa3f73c96021aa14fd3e058c64eec01ff7cc3377a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/__init__.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/__init__.py
+  skills/instagram-skills/lib/_env.py:
+    sha256: 3f307c8dadac85ca6c96d2053f8ff4e8e3ffee20f08c1882f3ab57ea2135b336
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/_env.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py
+  skills/instagram-skills/lib/apify_client.py:
+    sha256: 567f4e47f474cc8c136717ae2575fb240900b3768f661ff42458811a09ecf703
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/apify_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/apify_client.py
+  skills/instagram-skills/lib/approval.py:
+    sha256: 35a1cc482d3814c084054f62cadd3703543f7d2dfadfe3bfdad493518ef012e4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/approval.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/approval.py
+  skills/instagram-skills/lib/backend_selector.py:
+    sha256: 424d14bb80f3f21356bf54153dd12b4dcdb812e68526688c31d1144b352eaa0f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/backend_selector.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/backend_selector.py
+  skills/instagram-skills/lib/pixfaro_client.py:
+    sha256: 338eaae7400fe0dbe23f7aa45b541a95d89be6a0966c89ab7bab70cfe71fb8a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/pixfaro_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/pixfaro_client.py
+  skills/instagram-skills/lib/publora_client.py:
+    sha256: 7901d3aa4421a11b5e3c00643a882dda7002187071a3bba6ec4b157a91bcdd5b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/publora_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/publora_client.py
+  skills/instagram-skills/lib/url_parser.py:
+    sha256: 9b85fb0acbcc270c5d94f0587ed325733fc5f411584f7000b2ecf3a0b4d8eff6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/lib/url_parser.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/lib/url_parser.py
+  skills/instagram-skills/references/algorithm-heuristics.md:
+    sha256: 332979baa0297ca001f7a1d0b5d0502b4d89fa74a5a314e6e6e2b61b663efb2f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/references/algorithm-heuristics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/references/algorithm-heuristics.md
+  skills/instagram-skills/references/hashtag-strategy.md:
+    sha256: 7c10834e0144dc2a80fe6721ef9918ce91c5cc168337e99f8b0c63e390511183
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/references/hashtag-strategy.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/references/hashtag-strategy.md
+  skills/instagram-skills/references/hook-formulas.md:
+    sha256: b42fa3d65f4fd0d1eeadeb60d12c1dabae218116085eae4611302c6e4acc8a52
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/references/hook-formulas.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/references/hook-formulas.md
+  skills/instagram-skills/references/media-workflow.md:
+    sha256: 1057655b3b65bdcc217e95e01b1100a5fd09d7468b1ef0eb81ab482878932649
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/references/media-workflow.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/references/media-workflow.md
+  skills/instagram-skills/references/voice-profile.md:
+    sha256: 225bd1b8624bf6b985da4c13dc626537ffa258bfe56ac960eaf86eccaf4fbae7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/references/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/references/voice-profile.md
+  skills/instagram-skills/references/voice-rules.md:
+    sha256: 5990c58bab2f1afa893f38dc7a30a4b19cfa107ea4bcb3fc11a29fe238945a91
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/references/voice-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/references/voice-rules.md
+  skills/instagram-skills/requirements-lock.txt:
+    sha256: 97814cc0a1d9da865ac5f1629f868382ff867761295f101b1577d57662f5b29a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/requirements-lock.txt
+  skills/instagram-skills/requirements.txt:
+    sha256: 6a58af1377e006046f47bfcfead07b28400d5285d79d106b86e6e4b8ea33b9f8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/requirements.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/requirements.txt
+  skills/instagram-skills/scripts/check_actor_inputs.py:
+    sha256: ce9e6d32e57a4c87a61727ff1b19a6d4dd358ce81f6a9dcae17c6c0d7b92ffc7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/scripts/check_actor_inputs.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py
+  skills/instagram-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/instagram-skills/scripts/check_markdown_references.py:
+    sha256: 12893654b48eca05311d745a8c626b50632d21bebd5319cb93326049e5f179d4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/scripts/check_markdown_references.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/scripts/check_markdown_references.py
+  skills/instagram-skills/scripts/check_no_secrets.py:
+    sha256: 199c5223ed7480fef30e18666564066baac8e46190ae39577216e0890af0e150
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/scripts/check_no_secrets.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py
+  skills/instagram-skills/scripts/sync_codex_marketplace.py:
+    sha256: df7dccdd6710e23030853c050f73c957741021d23f755a8d64acc033eaf1c781
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/scripts/sync_codex_marketplace.py
+  skills/instagram-skills/skills/ig-audience-insights/SKILL.md:
+    sha256: 84644bcbc6a7650bded74773186e4dbdc2ac6e8a0341fe8da861ba0e9eddbef0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-audience-insights/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-audience-insights/SKILL.md
+  skills/instagram-skills/skills/ig-caption-writer/SKILL.md:
+    sha256: d8d2f5732d2ab9555843a2e384b5f9d1970fcbb418a18927ab98caf344526989
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-caption-writer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-caption-writer/SKILL.md
+  skills/instagram-skills/skills/ig-caption-writer/references/caption-checklist.md:
+    sha256: 96eae3773105436058dbfc6c1b4fd9cbe359acc95efefcc00766a0943bae916f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-caption-writer/references/caption-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-caption-writer/references/caption-checklist.md
+  skills/instagram-skills/skills/ig-carousel-planner/SKILL.md:
+    sha256: d08b53023f5cc19f10299b323018b04a693afb88fe318fe63660b52faceb0c1b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-carousel-planner/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-carousel-planner/SKILL.md
+  skills/instagram-skills/skills/ig-carousel-planner/references/slide-architecture.md:
+    sha256: 2f023be7465bff488f0551326c48ba2b932ed3affb8fae53e3c9d5919a8a45aa
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-carousel-planner/references/slide-architecture.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-carousel-planner/references/slide-architecture.md
+  skills/instagram-skills/skills/ig-content-planner/SKILL.md:
+    sha256: f945145265b921220d3a89cda917cde27706b6caae3fef0160f60df25e084ec3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-content-planner/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/SKILL.md
+  skills/instagram-skills/skills/ig-content-planner/references/example-week.md:
+    sha256: 62a8885737e3499bbe3bd709f076554564a6e1d4549a8e27b29598cd255dc126
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-content-planner/references/example-week.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/references/example-week.md
+  skills/instagram-skills/skills/ig-content-planner/references/pillars-framework.md:
+    sha256: 7e42b6ae43d558ef56d6d0b4c08bc9d3655f2f6285a99648094b3f28e4a0daa3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-content-planner/references/pillars-framework.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-content-planner/references/pillars-framework.md
+  skills/instagram-skills/skills/ig-hashtag-strategist/SKILL.md:
+    sha256: 07dafa7511c102d25cf2f77a7b8f54d5be723e3764bab5d76a5f8521fbb72128
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-hashtag-strategist/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hashtag-strategist/SKILL.md
+  skills/instagram-skills/skills/ig-hashtag-strategist/references/sourcing-tactics.md:
+    sha256: 7e7bb22511359618d8282624a11496ef83136a05cdfef69cb43eb74e91674b05
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-hashtag-strategist/references/sourcing-tactics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hashtag-strategist/references/sourcing-tactics.md
+  skills/instagram-skills/skills/ig-hook-extractor/SKILL.md:
+    sha256: 4c6e4893ae4600cb1f14634a4aac901b397e08cef59e9a8edbde79cd24fb924d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-hook-extractor/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/SKILL.md
+  skills/instagram-skills/skills/ig-hook-extractor/references/classification-rules.md:
+    sha256: b85c07d7fc58fdd0ae632d4272c0a6f160d3a73c5d309de78cca5b0382fdc89a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-hook-extractor/references/classification-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/classification-rules.md
+  skills/instagram-skills/skills/ig-hook-extractor/references/examples.md:
+    sha256: fc06191a275abfa89c9d7c04ded24e089dfeaf1eabde08a3e6ea4ddd4444889f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-hook-extractor/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/examples.md
+  skills/instagram-skills/skills/ig-humanizer/SKILL.md:
+    sha256: afc1d4d5428c11c27cb37f494bf5f188b0b038db47cd4d58c83389ac628ce5ae
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/SKILL.md
+  skills/instagram-skills/skills/ig-humanizer/references/audit-checklist.md:
+    sha256: d3ae4f851b7a28cfe29efd359d0cf0b57fe95bd7e9f4d60dd418b63b1e4b81fd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/references/audit-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/audit-checklist.md
+  skills/instagram-skills/skills/ig-humanizer/references/examples.md:
+    sha256: bbc27a266001c9104c0913342445ba6e7df94dfc3495b15be512ca55f13dbf0a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/examples.md
+  skills/instagram-skills/skills/ig-humanizer/references/scrub-rules.md:
+    sha256: 7a5b5ca830118dc121cdf5cfe0b96e06293bc3d4b4c52f5485cd85f7c595723c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/references/scrub-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/references/scrub-rules.md
+  skills/instagram-skills/skills/ig-humanizer/sub-skills/illustration.md:
+    sha256: e5f7273ae505c4eab4c7559a3b59e9e82bfedf7911c626cca0d8f66a7c1126fc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/sub-skills/illustration.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/illustration.md
+  skills/instagram-skills/skills/ig-humanizer/sub-skills/post-audit.md:
+    sha256: 6257fec2773f5d80a6a2005cdaa4a7e8969cac23ecca8e5a5c02a77f2a224ac5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/sub-skills/post-audit.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/post-audit.md
+  skills/instagram-skills/skills/ig-humanizer/sub-skills/voice-profile.md:
+    sha256: ba3a9aa358b418b48dc00a64415adb29a9b06ac23856f8265974286ee3a8f0a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-humanizer/sub-skills/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-humanizer/sub-skills/voice-profile.md
+  skills/instagram-skills/skills/ig-profile-optimizer/SKILL.md:
+    sha256: 851157308bee1e5288fa550af20aa11a2f4780992000a09de350ab586a8e62ee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-profile-optimizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-profile-optimizer/SKILL.md
+  skills/instagram-skills/skills/ig-repurposer/SKILL.md:
+    sha256: 92acb84fb4453e01162eea8b322c95ecf4beee428056a4125cfa8ea0ef493bf9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/skills/ig-repurposer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/skills/ig-repurposer/SKILL.md
+  notices/dc0805fe2d50-plugin.json:
+    sha256: dc0805fe2d508af9f92c434bd9fcca812b731d6cb8cff4a4bc01719bf361a0a6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.claude-plugin/plugin.json
+  notices/1c4bb6e64379-plugin.json:
+    sha256: 1c4bb6e64379aae245a60dc216c5adbe9d3689615acf0cedb6eb724ed23fef4a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.codex-marketplace/instagram-skills/.codex-plugin/plugin.json
+  notices/1a21cf7c2089-LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/LICENSE
+notices:
+- skills/instagram-skills/.codex-marketplace/instagram-skills/LICENSE
+- skills/instagram-skills/LICENSE
+- notices/dc0805fe2d50-plugin.json
+- notices/1c4bb6e64379-plugin.json
+- notices/1a21cf7c2089-LICENSE
+excluded:
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/assets/hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.codex-marketplace/instagram-skills/assets/social-preview.jpg
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/assets/hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/assets/social-preview.jpg
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/instagram-skills/.gitignore
+  reason: git repository metadata (.gitignore/.gitattributes) would change this repository's
+    own git behaviour; not tool material, excluded unchanged

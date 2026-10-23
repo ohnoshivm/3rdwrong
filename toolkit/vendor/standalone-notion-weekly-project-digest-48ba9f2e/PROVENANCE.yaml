@@ -1,0 +1,28 @@
+package: standalone-notion-weekly-project-digest-48ba9f2e
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: MIT
+evidence_path: toolkit/sources/packages.json#standalone-notion-weekly-project-digest-48ba9f2e
+copied_from:
+- ~/creative-engineering-os/library/skills/notion-weekly-project-digest
+copied_on: '2026-10-23'
+files:
+  skills/notion-weekly-project-digest/LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-weekly-project-digest/LICENSE.upstream
+  skills/notion-weekly-project-digest/SKILL.md:
+    sha256: ed54b98bc6a1294e621446a67ce448e88eccadd22dad00260991d036d619d69a
+    copied_from: ~/creative-engineering-os/library/skills/notion-weekly-project-digest/SKILL.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-weekly-project-digest/SKILL.md
+  skills/notion-weekly-project-digest/examples/mixed-evidence.md:
+    sha256: 80e5af26030bb8f92d40bd749e2ef92b9da81e84ae4910624a3e4e36a943cb4e
+    copied_from: ~/creative-engineering-os/library/skills/notion-weekly-project-digest/examples/mixed-evidence.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-weekly-project-digest/examples/mixed-evidence.md
+  notices/6f774643156a-LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-weekly-project-digest/LICENSE.upstream
+notices:
+- skills/notion-weekly-project-digest/LICENSE.upstream
+- notices/6f774643156a-LICENSE.upstream
+excluded: []

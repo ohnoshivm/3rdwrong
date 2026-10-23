@@ -1,0 +1,58 @@
+package: pack-bradautomates-claude-video-mit
+upstream_url: https://github.com/bradautomates/claude-video
+pinned_ref:
+- 03ceb42f7fa2c4439aca01752118044baabffb8f
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-bradautomates-claude-video-mit
+copied_from:
+- ~/.agents/skills/watch
+copied_on: '2026-10-23'
+files:
+  skills/watch/.skillignore:
+    sha256: deb8b437cf99c00617d9ee8f9ea920289c412469f7f6e85b55baceae43c94d17
+    copied_from: ~/.agents/skills/watch/.skillignore
+  skills/watch/SKILL.md:
+    sha256: 04bfa3b0d1240d5474b03869907202a3459879e9835e688149458a74320a55cb
+    copied_from: ~/.agents/skills/watch/SKILL.md
+  skills/watch/scripts/build-skill.sh:
+    sha256: 209155ca460d65daaf2d08c92b22701d083474a59e61d0c651d839d05f72b9d1
+    copied_from: ~/.agents/skills/watch/scripts/build-skill.sh
+  skills/watch/scripts/config.py:
+    sha256: 3f660c726d4fcfd1e3c6fbbea4097ae1768460e2b7ce78c5c603984dcf5d2385
+    copied_from: ~/.agents/skills/watch/scripts/config.py
+  skills/watch/scripts/download.py:
+    sha256: aa4a01ff7fb61e05d5c97941cb9113205bc7600626ec68a732332128bd9e4fbb
+    copied_from: ~/.agents/skills/watch/scripts/download.py
+  skills/watch/scripts/frames.py:
+    sha256: c41071f65baf39e043c8ad8bf6895adf351e4da9ef9ce2a6237fc9e456bb2309
+    copied_from: ~/.agents/skills/watch/scripts/frames.py
+  skills/watch/scripts/gemini.py:
+    sha256: e0f29cdfc1f64b6535b6c01a6f21e33493abc240ab18aeac2c85f2f24d3c850e
+    copied_from: ~/.agents/skills/watch/scripts/gemini.py
+  skills/watch/scripts/local_whisperx.py:
+    sha256: 123155ca69e188c44e2dcd1297c52558c477ae96be6238338f4f654c04b5e9cd
+    copied_from: ~/.agents/skills/watch/scripts/local_whisperx.py
+  skills/watch/scripts/runtime.py:
+    sha256: 70f9741d7b863380840da602f9311eb118572c33e083cfdea99524bd282eadbd
+    copied_from: ~/.agents/skills/watch/scripts/runtime.py
+  skills/watch/scripts/setup.py:
+    sha256: 76d6f9e94918c01b8d9bb5210bb0e253ac96d3816e2db9e8a421248bd63eac9f
+    copied_from: ~/.agents/skills/watch/scripts/setup.py
+  skills/watch/scripts/transcribe.py:
+    sha256: ceba832c36c0dd64cab8f3ef87d0a6dcc0472d8469c30dbc9e54f73028de4c3f
+    copied_from: ~/.agents/skills/watch/scripts/transcribe.py
+  skills/watch/scripts/watch.py:
+    sha256: d6996d1afab2079ddd497fbbbde772f61fd86b5e71d93e6e8c55b9311cb4af94
+    copied_from: ~/.agents/skills/watch/scripts/watch.py
+  skills/watch/scripts/whisper.py:
+    sha256: 0ea4910e093dda680267a1e99e98ccdc8d541c9e2a314260f5db90b330145ed3
+    copied_from: ~/.agents/skills/watch/scripts/whisper.py
+  notices/add78957ea81-LICENSE:
+    sha256: add78957ea8124a8ae6eccd7a55c948543a9f32ea26917bf562b8cafacb01d3e
+    copied_from: ~/.claude/plugins/marketplaces/claude-video/LICENSE
+notices:
+- notices/add78957ea81-LICENSE
+excluded:
+- source: ~/.agents/skills/watch/.gitattributes
+  reason: git repository metadata (.gitignore/.gitattributes) would change this repository's
+    own git behaviour; not tool material, excluded unchanged

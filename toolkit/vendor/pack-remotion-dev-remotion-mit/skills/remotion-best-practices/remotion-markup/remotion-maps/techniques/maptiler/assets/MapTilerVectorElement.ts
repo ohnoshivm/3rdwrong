@@ -1,0 +1,1 @@
+../../../../../remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts

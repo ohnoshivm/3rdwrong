@@ -20,6 +20,12 @@ The [licensing-model decision](studio/decisions/0009-licensing-model.md) records
 
 The files in `.claude/agents/` are upstream Agency Agents material licensed under MIT, not CC BY 4.0. Their original copyright and complete MIT licence are reproduced in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); [the agent lock](agents/agency-agents.lock.json) records provenance and file hashes. Preserve the upstream notice when reusing these files.
 
+## Third-party toolkit
+
+`toolkit/vendor/` holds third-party skills, agents and plugin material copied unmodified from their published sources. Each vendored package keeps its own licence: its original `LICENSE`, `NOTICE` or `COPYRIGHT` files stay in place, its `PROVENANCE.yaml` records the upstream source, pinned reference, SPDX identifier and a SHA-256 for every file, and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md#third-party-toolkit) lists every package with links to those exact notice files. The copies in `toolkit/plugins/` carry the same licences, with the notices copied into each plugin.
+
+The repository's MIT licence (code) and CC BY 4.0 licence (documentation) do not apply to `toolkit/vendor/**` or to the third-party copies in `toolkit/plugins/**`. They do apply to the toolkit scripts in `scripts/`, the generated plans and metadata in `toolkit/`, and the studio's own `3w-*` skills. Packages that `scripts/install.sh` clones at install time are not redistributed here; their own licences govern those checkouts.
+
 ## Third-party and excluded material
 
 Third-party material linked to or quoted for commentary remains under its owners' rights and terms. A citation does not relicense it. No third-party images are committed as repository assets.

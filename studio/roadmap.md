@@ -3,7 +3,7 @@ title: Proposed studio roadmap
 type: guide
 status: proposed
 owner: founder
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 review_every_days: 90
 ---
 # Proposed studio roadmap
@@ -22,15 +22,45 @@ and conceptual foundation required by [D-0012](decisions/0012-strategy-before-ow
 2. Develop 3RDWRONGS's own visual identity through at least three distinct
    concepts, critique and application tests; record founder approval as a
    decision before use.
-3. Validate the initial ICP through 15–20 qualified buyer interviews,
-   starting with emerging beauty and personal-care brands. Fashion and
-   lifestyle are secondary; creative-tech/software remains secondary to the
-   primary-market test. See the [initial ICP](initial-icp.md) and
-   [D-0010](decisions/0010-beauty-personal-care-discovery-focus.md).
+3. Revise the discovery plan for D-0018 before choosing market priority.
+   Test identity and digital-experience needs in qualified buyer conversations;
+   the earlier 15–20-interview plan and beauty/personal-care focus in
+   [D-0010](decisions/0010-beauty-personal-care-discovery-focus.md) remain proposed.
+   Creative-tech/software becoming more central is a hypothesis, not an
+   approved ICP change. Preserve the founder's [initial ICP](initial-icp.md)
+   and use the [revision note](README.md) to frame review.
 4. Build portfolio evidence in parallel only where it does not bypass the
    strategy and research gates.
 
+## Proposed 12-month ambition milestones
+
+[D-0018](decisions/0018-design-engineering-studio.md) records the founder's
+**ambition, not fact:** become one of the world's leading design-engineering
+studios within 6–12 months. The milestones below are proposed for
+23 October 2026–22 October 2027. They build evidence; they are not claims of
+completion, demand, revenue or awards. Sequence depends on capacity and review.
+
+| Window | Proposed milestone | Evidence required |
+| --- | --- | --- |
+| Months 1–2 | OS v0.3: align positioning/offer proposals, 11 departments and loading policy | Founder review of proposals; registry-derived documentation/routing/install views agree; validator, tests and lint pass |
+| Months 1–3 | Own identity through the D-0012 sequence | Explicit verbal/conceptual foundation approval before visual exploration; distinct concepts, critique and recorded founder approval of the chosen identity |
+| Months 2–6 | Studio website as flagship proof, targeting an Awwwards Site of the Day | Original identity-led live experience, production-build/browser evidence, performance/accessibility/reduced-motion checks and case study; SOTD is a target, not a claimed or promised award |
+| Months 3–8 | Two self-initiated flagship projects | Two original, clearly labelled self-initiated cases with briefs, Design + Engineering prototypes, review findings and tested delivery artefacts; never imply client commissions |
+| Months 3–9 | Labs house-engine v1 | Bounded reusable scene/motion/identity-as-code kit, documentation, measured example, maintenance owner and evidence that reuse helps delivery |
+| Months 4–12 | First paid Digital Experience project | Signed scope and founder-set price, named capacity, accepted delivery and actual cost/learning record; publish only permitted, non-identifying evidence |
+| Throughout; reviews at months 6 and 12 | Evaluation data for top jobs | Identify priority jobs in the registry; use representative cases, criteria, reviewed outputs and failure records to evaluate leads/specialists; report sample limits and resulting routing changes |
+
+Own identity and website work follow the proposed D-0012 approval sequence;
+the ambition does not approve a visual direction or waive quality gates.
+Methods, pricing and ICP revisions remain open until evidence and founder
+review support them. Digital Experience pricing is
+[to be set by founder](pricing.md).
+
 ## Proposed 90-day sequence
+
+The following is the earlier blueprint-derived planning baseline. Review its
+market priorities and two-offer launch assumptions against D-0018 and the
+12-month proposal before scheduling; it does not override the new direction.
 
 | Phase | Dates | Intended work | Exit criteria |
 | --- | --- | --- | --- |
@@ -45,7 +75,7 @@ and approvals are present.
 
 ## Current seven-day sprint: 22–28 October 2026
 
-The sprint is a proposed focus list, not a time-budget requirement. Do not
+The sprint is the earlier proposed focus list, pending D-0018 alignment, not a time-budget requirement. Do not
 represent actions as complete until artefacts and evidence exist.
 
 | Day | Focus | Deliverable |

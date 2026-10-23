@@ -1,0 +1,112 @@
+package: pack-shadcn-ui-ui-mit
+upstream_url: https://github.com/shadcn-ui/ui
+pinned_ref:
+- ba1503c64472b82256d9de95e2e62c5901a38e8b
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-shadcn-ui-ui-mit
+copied_from:
+- ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base
+- ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn
+copied_on: '2026-10-23'
+files:
+  skills/migrate-radix-to-base/SKILL.md:
+    sha256: 64c879f6f1eab0decc306ca52ad32d41327c05c4d2fb7e708335e956c61dadf8
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/SKILL.md
+  skills/migrate-radix-to-base/class-mapping.md:
+    sha256: c288738167c663c6188caf958cdac6d72061b0ce44d6bce14d9dc6d40b4e79f9
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/class-mapping.md
+  skills/migrate-radix-to-base/consumer-props.md:
+    sha256: f6f62f7173b95350339e930eb6ff2c9496b4d5df3571deed78d5b0159f91b1d0
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/consumer-props.md
+  skills/migrate-radix-to-base/disclosure.md:
+    sha256: f0962f90416ead3290f532b53a66b08a905d4a8fd6ea220b7df63521c9d993ce
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/disclosure.md
+  skills/migrate-radix-to-base/display-misc.md:
+    sha256: 76dd486105df7f0412e8d526fbeec6fa485c866ff1bf781ddccdc4d87eace0c3
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/display-misc.md
+  skills/migrate-radix-to-base/form-controls.md:
+    sha256: 66c69dd4077e3e8852a33348f7797bdb5e934192a0cc97ce8f1264ebd137b846
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/form-controls.md
+  skills/migrate-radix-to-base/menus.md:
+    sha256: 44188b70c3221a7d18f782641dc7f1a954bc1fa6eb42b788a1935a6613f376d9
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/menus.md
+  skills/migrate-radix-to-base/overlays.md:
+    sha256: 8d9fe2b05eb22a1664637b22e6112190de88a4368420d9cb36002adc108e8a03
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/overlays.md
+  skills/migrate-radix-to-base/universal-patterns.md:
+    sha256: c520a81a21c9abd1135b52ad1ecc3d4a127904bbf33199f8d26ae389679346ce
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/universal-patterns.md
+  skills/migrate-radix-to-base/wrapper-shapes.md:
+    sha256: 0bf31ea3e864a12bfa911f058ae135dc3f6f098cb0cc2aa5648b4a3d0bdd51cc
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/migrate-radix-to-base/wrapper-shapes.md
+  skills/shadcn/SKILL.md:
+    sha256: 93951e5e83f616a3e046491c00d770bd54c0a64164706cd1191822a233d27592
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/SKILL.md
+  skills/shadcn/agents/openai.yml:
+    sha256: 35db91b1eef58b2abe01da9b88577de5a44e233b740cd93d692ddeeadd2afe4d
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/agents/openai.yml
+  skills/shadcn/assets/showcase/color-pair.tsx:
+    sha256: 6028f0b677912216822fdaf76ae6b8863c429916ed4a9626b73f4de4506f8ee4
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/assets/showcase/color-pair.tsx
+  skills/shadcn/assets/showcase/preview-states.css:
+    sha256: 8d9e3cec24dd01b11c5ba12196d0376a131797d9ad247ea624e66eb8bbf61b0e
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/assets/showcase/preview-states.css
+  skills/shadcn/assets/showcase/state-matrix.tsx:
+    sha256: 07794119fe05ff735358b3f8ca30a8297617ab64dfb3901dce4d89fe5f443458
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/assets/showcase/state-matrix.tsx
+  skills/shadcn/cli.md:
+    sha256: a381e35bf36fe7bb851952c13707e01e82434fd7a4a4e53f6df26c6370838904
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/cli.md
+  skills/shadcn/customization.md:
+    sha256: a19e81c78843df255e85755e52659268d793845add845b34ad8091f62bff3af9
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/customization.md
+  skills/shadcn/design-system-page.md:
+    sha256: c541d661af159548744be3e27f79e7da710ab83f9afd448a4346f7ff1531d328
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/design-system-page.md
+  skills/shadcn/design-system.md:
+    sha256: 9ed11e93e7e80e34c8795d5ba82e5420ca905e8e9949fef79cbe9239184fd06b
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/design-system.md
+  skills/shadcn/evals/evals.json:
+    sha256: e82c747326a5c21e37a1c962274d36b1bfebb3e6602ee368b98e2dba5db18369
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/evals/evals.json
+  skills/shadcn/mcp.md:
+    sha256: 8d696b4e45b7d0e337367248513bd9acebe8f3bcfd7b748c775e5a337c8f38c8
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/mcp.md
+  skills/shadcn/registry.md:
+    sha256: 4f239be36bd2b58e17047db1ca80ab7da00e15a8b73242e5e4d50d113c4caa05
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/registry.md
+  skills/shadcn/rules/base-vs-radix.md:
+    sha256: 2b2deb47d004285220c1fc6b38bb2edc2d0ccbcdafd031b0b189d5d8ed0d1ba8
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/rules/base-vs-radix.md
+  skills/shadcn/rules/chat.md:
+    sha256: 4b4610d487ddc9751f3cfe0c554a06560ac723fcc2460abad77a1d3c7c9a4b95
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/rules/chat.md
+  skills/shadcn/rules/composition.md:
+    sha256: f282df828d83a91132a846ddb62eea149a7c7c94822e9ca88cfddf85af01aa41
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/rules/composition.md
+  skills/shadcn/rules/forms.md:
+    sha256: 29593e14381e34626f8e0e9c15c59f3394b92a0623af6a6ec94585400123853c
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/rules/forms.md
+  skills/shadcn/rules/icons.md:
+    sha256: d4a58266648872d9ee07d0c2368843a1cb88b8253b7f528dd7bda9d68b6c2535
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/rules/icons.md
+  skills/shadcn/rules/styling.md:
+    sha256: f88fbd72dff862805b786dc7d7e4c74c83030fc278c5b97c993e4e665001798c
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/rules/styling.md
+  skills/shadcn/scripts/showcase-coverage.mjs:
+    sha256: fb593e0806414d23b51354a46881f0b2873afc226bda0926a22f83cbd60af2fa
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/scripts/showcase-coverage.mjs
+  notices/1564074e1343-LICENSE.md:
+    sha256: 1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/LICENSE.md
+  notices/bb0869848a20-README.md:
+    sha256: bb0869848a2063e405b141aa6fae8b10f132ac45036f613459e2d778b7609619
+    copied_from: ~/creative-engineering-os-upstreams/shadcn-ui/README.md
+notices:
+- notices/1564074e1343-LICENSE.md
+- notices/bb0869848a20-README.md
+excluded:
+- source: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/assets/shadcn-small.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/creative-engineering-os-upstreams/shadcn-ui/skills/shadcn/assets/shadcn.png
+  reason: binary/non-UTF8 or unreadable; never distributed
