@@ -113,7 +113,7 @@ sources:
 **Documented** — Founder instruction, 2026-10-22: **TASTE REFERENCE ONLY**. These are aesthetic and
 experiential benchmarks, not policy or a change to the client offer. [D-0002](../studio/decisions/0002-identity-system-scope.md)
 excludes comprehensive websites and complex 3D experiences from the standard engagement.
-3RDWRONGS remains a brand identity studio, not a WebGL production company or an immersive-website offer.
+3RDWRONG remains a brand identity studio, not a WebGL production company or an immersive-website offer.
 
 **Interpretation** — “What to study” records the founder's selection rationale, not an independent
 quality ranking. “Explore” gives questions for a later browser session, not findings from tests already run.
@@ -276,7 +276,7 @@ For every reference, use these **Hypothesis** prompts in a later browser analysi
 - **Interpretation** — Transfer: define relationships between an original typographic language, graphic
   elements and verbal tone that remain recognisable in a static document or small social application.
 - **Unknown** — Team allocation, costs, motion implementation and actual mobile/reduced-motion/accessibility
-  outcomes unverified; the agency's broader service scope does not transfer to 3RDWRONGS.
+  outcomes unverified; the agency's broader service scope does not transfer to 3RDWRONG.
 
 ## Contemporary Indian references
 
@@ -302,7 +302,7 @@ studio descriptions, but do not verify an Indian base; keep the geographic categ
 - **Documented** — [Website](https://bunqlabs.com/) and [About](https://bunqlabs.com/about/) describe a small
   design-and-engineering studio started by Sindhur Dutta, joining brand, interface, motion and real-time web work.
 - **Interpretation** — Study the connection between graphic identity and engineered behaviour in a
-  self-described small studio, without treating its service mix as 3RDWRONGS' roadmap.
+  self-described small studio, without treating its service mix as 3RDWRONG's roadmap.
 - **Hypothesis** — Explore entry-to-work navigation, type hierarchy and imagery/material choices;
   ask what motion clarifies and whether sound adds meaning. Apply shared mobile/access prompts.
 - **Interpretation** — Transfer: make identity rules concrete enough for another discipline to implement,
@@ -329,7 +329,7 @@ not approved studio policy, deliverables, or a selected visual direction:
 1. **Interpretation — An unmistakable identity:** an original wordmark, typographic language and recognisable
    graphic elements that make attribution possible without relying on a fashionable background treatment.
 2. **Interpretation — An original visual universe:** custom objects, imagery, materials, compositions and
-   art direction specific to the identity; for 3RDWRONGS, original work must emerge from its own concept.
+   art direction specific to the identity; for 3RDWRONG, original work must emerge from its own concept.
 3. **Interpretation — A living expression:** motion, interaction and creative technology emerging from
    that concept. Static expression should retain the idea; added behaviour needs a communication purpose.
 

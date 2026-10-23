@@ -1,6 +1,6 @@
-# 3RDWRONGS Creative Operating System
+# 3RDWRONG Creative Operating System
 
-3RDWRONGS is an emerging independent design-engineering studio: **brand identity at the core, digital experience as the second pillar, perception-led by method.** Living identity remains a capability. See the approved direction in [D-0018](studio/decisions/0018-design-engineering-studio.md).
+3RDWRONG is an emerging independent design-engineering studio: **brand identity at the core, digital experience as the second pillar, perception-led by method.** Living identity remains a capability. See the approved direction in [D-0018](studio/decisions/0018-design-engineering-studio.md).
 
 The repository is [`ohnoshivm/3rdwrong`](https://github.com/ohnoshivm/3rdwrong), with local home `~/3rdwrong`. Everything committed here is public and open source under the applicable licences, including the [founding blueprint](studio/archive/founding-blueprint-v1.0.md) and [unvalidated pricing hypotheses](studio/pricing.md). See [D-0017](studio/decisions/0017-fully-open-repository.md).
 
@@ -135,7 +135,7 @@ The studio's own visual identity is still in exploration and is not approved. Th
 
 ## Open source and protected material
 
-Code and original written material have separate licences; third-party material, the 3RDWRONGS name and future brand assets, and client work are treated separately. Read [Licensing](LICENSING.md) and the [publication rules](docs/public-private-boundary.md) before reusing or publishing material.
+Code and original written material have separate licences; third-party material, the 3RDWRONG name and future brand assets, and client work are treated separately. Read [Licensing](LICENSING.md) and the [publication rules](docs/public-private-boundary.md) before reusing or publishing material.
 
 ## Next priorities
 

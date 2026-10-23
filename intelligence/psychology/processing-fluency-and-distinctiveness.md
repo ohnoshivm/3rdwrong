@@ -149,7 +149,7 @@ PDF](https://psy.ucsd.edu/~pwinkiel/reber-schwarz-winkielman-beauty-PSPR-2004.pd
 ### Interpretation
 
 **Interpretation** — Keeping clarity and attribution as separate evaluation tasks is our practical
-inference, not an outcome demonstrated for 3RDWRONGS.
+inference, not an outcome demonstrated for 3RDWRONG.
 
 ### Hypothesis
 
@@ -161,7 +161,7 @@ both outcomes and revise whichever part causes the failure.
 **Unknown** — Contemporary replication coverage, pooled effect size and category-specific transfer to
 founder-led Indian brands remain unassessed here.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — Before choosing a route, ask relevant potential buyers to find a defined piece of
 information and later identify the brand among alternatives. Keep exposure comparable and record

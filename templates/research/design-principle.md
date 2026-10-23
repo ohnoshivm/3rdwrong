@@ -85,7 +85,7 @@ Link originals; do not commit third-party images. Use at most two attributed sho
 
 **Unknown** — {{missing_evidence}}. State whether absent from reviewed sources or inaccessible; these are different limits.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — {{small_studio_application}}; establish the real client's market, languages, channels, rights and production capacity first.
 **Interpretation** — {{non_transferable_context}} prevents assuming museum-scale or global-platform outcomes for a founder-led consumer business.

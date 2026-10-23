@@ -191,7 +191,7 @@ alone. Compare the decisions with later recognition evidence and revise the meth
 **Unknown** — The reviewed materials do not establish the best asset for an emerging Indian consumer
 business, a minimum viable sample, or recognition thresholds suitable for every category.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — On a real founder-led consumer project, agree an exploratory cue test after establishing
 the target category, relevant buyers and existing familiarity. Keep the outcome as diagnosis rather than

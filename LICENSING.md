@@ -8,10 +8,10 @@ The validator, tests, schemas, and GitHub configuration are licensed under the [
 
 ## Original documentation and creative material
 
-Original documentation, methods, templates, skills, and other original written material are licensed under [Creative Commons Attribution 4.0 International](LICENSE-DOCS) (CC BY 4.0). Give attribution to 3RDWRONGS, name the work, link to the source where practical, link to the licence, and describe material changes. An attribution can follow this form:
+Original documentation, methods, templates, skills, and other original written material are licensed under [Creative Commons Attribution 4.0 International](LICENSE-DOCS) (CC BY 4.0). Give attribution to 3RDWRONG, name the work, link to the source where practical, link to the licence, and describe material changes. An attribution can follow this form:
 
 ```text
-3RDWRONGS, “{{work title}}”, {{source link}}, licensed under CC BY 4.0. Changes: {{brief description}}.
+3RDWRONG, “{{work title}}”, {{source link}}, licensed under CC BY 4.0. Changes: {{brief description}}.
 ```
 
 The [licensing-model decision](studio/decisions/0009-licensing-model.md) records this founder-approved choice.
@@ -30,7 +30,7 @@ The repository's MIT licence (code) and CC BY 4.0 licence (documentation) do not
 
 Third-party material linked to or quoted for commentary remains under its owners' rights and terms. A citation does not relicense it. No third-party images are committed as repository assets.
 
-The name **3RDWRONGS**, and any future logos or brand assets, are not licensed by MIT or CC BY 4.0. Trademark and brand rights are reserved.
+The name **3RDWRONG**, and any future logos or brand assets, are not licensed by MIT or CC BY 4.0. Trademark and brand rights are reserved.
 
 Everything committed to this knowledge base is public and open source under its applicable licence. The founding blueprint and studio pricing hypotheses are included by explicit founder approval ([D-0017](studio/decisions/0017-fully-open-repository.md)); third-party quotations and cited sources retain their original rights.
 

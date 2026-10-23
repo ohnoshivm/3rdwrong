@@ -5,7 +5,7 @@ experiential bar. The founder selected the references on 2026-10-22; selection i
 method, visual direction or client deliverable.
 
 [D-0002](../studio/decisions/0002-identity-system-scope.md) continues to govern the offer: comprehensive
-websites and complex 3D experiences are excluded from the standard identity engagement. 3RDWRONGS is a
+websites and complex 3D experiences are excluded from the standard identity engagement. 3RDWRONG is a
 brand identity studio. Admiration for immersive studio websites does not imply that it sells them.
 
 ## How it fits
@@ -26,7 +26,7 @@ Collecting them without critique could produce another familiar creative-agency 
 
 **Documented** — [D-0006](../studio/decisions/0006-rejected-own-identity-direction.md) rejects the exploration
 combining black backgrounds, heavy grotesk typography and neon accents because it was conventional.
-These references do not reopen that direction or approve an identity for 3RDWRONGS.
+These references do not reopen that direction or approve an identity for 3RDWRONG.
 
 Extract a principle, explain its context, then make an original application with different formal decisions.
 Do not copy layouts, copy, characters, imagery, objects, brand identities or distinctive interaction sequences.

@@ -10,7 +10,10 @@ review_every_days: 90
 # Web craft standards
 
 The measurable bar for every Digital Experience build. External thresholds are
-cited; studio budgets are **Hypothesis** starting values, confirmed or
+cited. The studio performance budget in [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) is approved: mobile p75
+LCP ≤ 2.0 s, INP ≤ 200 ms, CLS ≤ 0.1; ≤ 2 MB transferred before first
+interaction; 60 fps on a mid-range phone; a complete reduced-motion fallback.
+Other studio budgets are **Hypothesis** starting values, confirmed or
 replaced with explicit numbers at the stage 04 prototype and recorded in the
 project's `qa/README.md`. Award-level craft never waives these standards.
 
@@ -24,7 +27,8 @@ privacy, security and content handover.
 
 Every website, campaign site and interactive experience the studio delivers,
 from the stage 04 prototype onwards. A project may tighten a standard; loosening
-one needs a founder-approved exception in the project's `decisions.md`.
+one needs a founder-approved exception in the project's `decisions.md`
+(required by D-0023 for the studio performance budget).
 
 ## Roles
 
@@ -37,15 +41,16 @@ one needs a founder-approved exception in the project's `decisions.md`.
 
 ## Core Web Vitals
 
-Targets for the "good" threshold, measured at the 75th percentile of page
-loads, segmented by mobile and desktop
-([web.dev: Web Vitals](https://web.dev/articles/vitals)).
+The "good" threshold is measured at the 75th percentile of page loads,
+segmented by mobile and desktop
+([web.dev: Web Vitals](https://web.dev/articles/vitals)). The studio budget
+([D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md)) is stricter for LCP and applies to mobile p75.
 
-| Metric | Target | Source |
-| --- | --- | --- |
-| Largest Contentful Paint (LCP) | ≤ 2.5 s | [web.dev: LCP](https://web.dev/articles/lcp) |
-| Interaction to Next Paint (INP) | ≤ 200 ms | [web.dev: INP](https://web.dev/articles/inp) |
-| Cumulative Layout Shift (CLS) | ≤ 0.1 | [web.dev: CLS](https://web.dev/articles/cls) |
+| Metric | "Good" threshold | Studio budget (mobile p75) | Source |
+| --- | --- | --- | --- |
+| Largest Contentful Paint (LCP) | ≤ 2.5 s | ≤ 2.0 s | [web.dev: LCP](https://web.dev/articles/lcp) |
+| Interaction to Next Paint (INP) | ≤ 200 ms | ≤ 200 ms | [web.dev: INP](https://web.dev/articles/inp) |
+| Cumulative Layout Shift (CLS) | ≤ 0.1 | ≤ 0.1 | [web.dev: CLS](https://web.dev/articles/cls) |
 
 - **Field first.** p75 field data from real users is the acceptance measure
   once it exists. Before launch, field values are **not verified**; say so.
@@ -63,7 +68,7 @@ compressed transfer:
 | Budget | Content page | Experience page with 3D |
 | --- | --- | --- |
 | JavaScript on the critical path | ≤ 150 KB | ≤ 300 KB including the 3D runtime |
-| Total transfer before first interaction | ≤ 1 MB | ≤ 3 MB, streamed progressively |
+| Total transfer before first interaction | ≤ 1 MB | ≤ 2 MB (approved, D-0023); the rest lazy-loaded |
 | LCP image | ≤ 200 KB, AVIF or WebP, responsive sizes | same |
 | Web fonts | ≤ 2 families, subset, ≤ 100 KB initial | same |
 
@@ -77,7 +82,7 @@ the prototype:
 
 | Budget | Reference mid-range mobile | Desktop |
 | --- | --- | --- |
-| Frame rate target | 60 fps (≈ 16.7 ms per frame) | 60 fps |
+| Frame rate target | 60 fps (≈ 16.7 ms per frame; approved, D-0023) | 60 fps |
 | Degrade when sustained below | 45 fps | 50 fps |
 | Draw calls per frame | ≤ 100 | ≤ 300 |
 | GPU texture memory | ≤ 64 MB | ≤ 256 MB |

@@ -18,7 +18,8 @@ not in the project record.
 
 - [ ] Budgets from DX-04 measured on the production build: LCP, CLS, Total
       Blocking Time, JavaScript and transfer weight, scene frame time and
-      memory.
+      memory — no looser than the studio budget in [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) without an
+      approved exception.
 - [ ] Tool, version, device, network profile and date recorded.
 - [ ] Exceptions approved by the founder and accepted by `C1`.
 - [ ] Owner named for field Core Web Vitals review after launch.

@@ -5,13 +5,13 @@ type: decision
 status: proposed
 date: 2026-10-22
 owner: founder
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 ---
 # D-0014: Meaning of the name
 
 ## Decision
 
-Test the candidate interpretation that “3RDWRONGS” means **refusing the
+Test the candidate interpretation that “3RDWRONG” means **refusing the
 obvious answer when a better one remains undiscovered**. The intended quality
 is intelligent unconventionality, not being wrong for attention.
 
@@ -19,6 +19,11 @@ is intelligent unconventionality, not being wrong for attention.
 
 Proposed. This is a candidate interpretation, not a settled meaning, origin
 story, tagline or approved external claim.
+
+The studio name is now 3RDWRONG, singular
+([D-0022](0022-studio-name.md)). The candidate interpretation was first drafted
+for the earlier plural form; whether it still fits the singular name, and what
+the name means, remain **open questions** for the founder.
 
 ## Rationale
 
