@@ -6,7 +6,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
-| [business/client-acquisition.md](business/client-acquisition.md) | Client acquisition | guide | proposed | 2026-10-22 | Status: proposed. |
+| [business/client-acquisition.md](business/client-acquisition.md) | Client acquisition | guide | proposed | 2026-10-23 | Status: proposed. |
 | [business/engagement-operations.md](business/engagement-operations.md) | Project operations | method | proposed | 2026-10-23 | The studio's standard for running a client project day to day, from kickoff (L5) to close-out (L9) in the client lifecycle. |
 | [business/finance/india-tax-basics.md](business/finance/india-tax-basics.md) | Indian tax basics for a design and web studio | guide | proposed | 2026-10-23 | Verify with your chartered accountant before acting. |
 | [business/finance/invoicing-and-collections.md](business/finance/invoicing-and-collections.md) | Invoicing and collections | method | proposed | 2026-10-23 | Proposed. |
@@ -47,6 +47,30 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
 | [experiments/README.md](experiments/README.md) | Creative technology experiments | guide | experimental | 2026-10-22 | Use this area for bounded creative-technology, typography, motion, generative, interaction or production experiments that answer a real d... |
+
+## growth
+
+| Path | Title | Type | Status | Last reviewed | Summary |
+| --- | --- | --- | --- | --- | --- |
+| [growth/advertising.md](growth/advertising.md) | Advertising | method | proposed | 2026-10-23 | Proposed. |
+| [growth/content/inbound.md](growth/content/inbound.md) | Inbound handling | method | proposed | 2026-10-23 | Proposed. |
+| [growth/content/production-workflow.md](growth/content/production-workflow.md) | Content production workflow | method | proposed | 2026-10-23 | Proposed. |
+| [growth/content/README.md](growth/content/README.md) | Content system | method | proposed | 2026-10-23 | Proposed. |
+| [growth/metrics.md](growth/metrics.md) | Growth metrics | method | proposed | 2026-10-23 | Proposed. |
+| [growth/outbound/compliance.md](growth/outbound/compliance.md) | Outreach compliance basics | guide | proposed | 2026-10-23 | Keep studio outreach lawful, respectful and easy to refuse, and record why each contact was made. |
+| [growth/outbound/README.md](growth/outbound/README.md) | Outbound system | method | proposed | 2026-10-23 | Proposed. |
+| [growth/partnerships-and-referrals.md](growth/partnerships-and-referrals.md) | Partnerships and referrals | method | proposed | 2026-10-23 | Proposed. |
+| [growth/proof/awards.md](growth/proof/awards.md) | Awards strategy | method | proposed | 2026-10-23 | Proposed. |
+| [growth/proof/case-studies.md](growth/proof/case-studies.md) | Case-study pipeline | method | proposed | 2026-10-23 | Proposed. |
+| [growth/proof/README.md](growth/proof/README.md) | Proof engine | method | proposed | 2026-10-23 | Proposed. |
+| [growth/proof/testimonials.md](growth/proof/testimonials.md) | Testimonials | method | proposed | 2026-10-23 | Proposed. |
+| [growth/README.md](growth/README.md) | Growth engine | guide | proposed | 2026-10-23 | How 3RDWRONG becomes known to the right people, starts the right conversations, qualifies and wins clients, and turns finished work into... |
+| [growth/sales/discovery-call.md](growth/sales/discovery-call.md) | Discovery call | method | proposed | 2026-10-23 | Proposed. |
+| [growth/sales/lead-sources.md](growth/sales/lead-sources.md) | Lead sources | method | proposed | 2026-10-23 | Proposed. |
+| [growth/sales/pipeline.md](growth/sales/pipeline.md) | Pipeline and follow-up | method | proposed | 2026-10-23 | Proposed. |
+| [growth/sales/qualification.md](growth/sales/qualification.md) | Qualification | method | proposed | 2026-10-23 | Proposed. |
+| [growth/sales/README.md](growth/sales/README.md) | Sales system | guide | proposed | 2026-10-23 | Proposed. |
+| [growth/sales/win-loss.md](growth/sales/win-loss.md) | Win/loss review | method | proposed | 2026-10-23 | Proposed. |
 
 ## intelligence
 
