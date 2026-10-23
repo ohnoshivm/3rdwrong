@@ -7,7 +7,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
 | [business/client-acquisition.md](business/client-acquisition.md) | Client acquisition | guide | proposed | 2026-10-22 | Status: proposed. |
-| [business/engagement-operations.md](business/engagement-operations.md) | Engagement operations | guide | proposed | 2026-10-22 | This public-safe operating guide is proposed. |
+| [business/engagement-operations.md](business/engagement-operations.md) | Project operations | method | proposed | 2026-10-23 | The studio's standard for running a client project day to day, from kickoff (L5) to close-out (L9) in the client lifecycle. |
 | [business/tooling.md](business/tooling.md) | Tooling principles and proposed stack | guide | proposed | 2026-10-22 | Status: proposed. |
 
 ## docs
@@ -19,7 +19,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [docs/getting-started.md](docs/getting-started.md) | Getting started | guide | proposed | 2026-10-22 | Use this page to open the OS locally, make a first contribution, or start a fresh Claude Code session. |
 | [docs/knowledge-governance.md](docs/knowledge-governance.md) | Knowledge governance | guide | proposed | 2026-10-22 | Status makes the evidence and review state of a document visible. |
 | [docs/maintenance.md](docs/maintenance.md) | Repository maintenance | guide | proposed | 2026-10-22 | Keep the repository small and current. |
-| [docs/public-private-boundary.md](docs/public-private-boundary.md) | Publication rules | policy | approved | 2026-10-22 | Everything committed to ohnoshivm/3rdwrong is public and open source under the applicable licences. |
+| [docs/public-private-boundary.md](docs/public-private-boundary.md) | Publication rules | policy | approved | 2026-10-23 | Everything committed to ohnoshivm/3rdwrong is public and open source under the applicable licences. |
 | [docs/workflows.md](docs/workflows.md) | Working workflows | guide | proposed | 2026-10-22 | Use issues to frame work, branches and pull requests for substantive changes, and status metadata to show what remains uncertain. |
 
 ## experiments
@@ -50,6 +50,18 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
 | [methods/creative-guardrails.md](methods/creative-guardrails.md) | Creative guardrails | method | proposed | 2026-10-22 | These proposed rules help research and tools become original, useful work. |
+| [methods/digital-experience/01-discovery-and-audit.md](methods/digital-experience/01-discovery-and-audit.md) | 01 Discovery & audit | method | proposed | 2026-10-23 | Establish what the experience must achieve, for whom, with what content and under which constraints, and audit what exists today. |
+| [methods/digital-experience/02-experience-strategy-and-concept.md](methods/digital-experience/02-experience-strategy-and-concept.md) | 02 Experience strategy & concept | method | proposed | 2026-10-23 | Decide the one idea the experience expresses, the structure that serves the audience tasks, and the moments where craft and interaction c... |
+| [methods/digital-experience/03-art-direction-and-design-system.md](methods/digital-experience/03-art-direction-and-design-system.md) | 03 Art direction & design system | method | proposed | 2026-10-23 | Turn the approved concept into a visual and motion language with tokens first, then the smallest component inventory the templates need. |
+| [methods/digital-experience/04-prototype.md](methods/digital-experience/04-prototype.md) | 04 Prototype | method | proposed | 2026-10-23 | Build the critical slice in a real browser on target hardware before the full build: the hardest interaction or scene, one key template,... |
+| [methods/digital-experience/05-production-build.md](methods/digital-experience/05-production-build.md) | 05 Production build | method | proposed | 2026-10-23 | Build every page, template, content flow and integration in the signed scope on the architecture proven at the prototype, within budget. |
+| [methods/digital-experience/06-motion-3d-and-interaction.md](methods/digital-experience/06-motion-3d-and-interaction.md) | 06 Motion, 3D & interaction | method | proposed | 2026-10-23 | Implement the motion system, scenes and interactions so that each one carries meaning, stays within budget and has a usable alternative. |
+| [methods/digital-experience/07-qa.md](methods/digital-experience/07-qa.md) | 07 QA | method | proposed | 2026-10-23 | Find and fix defects before the client and the public do: visual, accessibility, cross-browser, functional and content QA on the producti... |
+| [methods/digital-experience/08-performance-and-launch-readiness.md](methods/digital-experience/08-performance-and-launch-readiness.md) | 08 Performance & launch readiness | method | proposed | 2026-10-23 | Prove the build meets its budgets and is safe to launch: measured performance, security, SEO, analytics and consent, and a rehearsed go-l... |
+| [methods/digital-experience/09-launch-and-handover.md](methods/digital-experience/09-launch-and-handover.md) | 09 Launch & handover | method | proposed | 2026-10-23 | Release the site, verify it live, and transfer everything the client needs to own and run it without the studio. |
+| [methods/digital-experience/10-care-and-iteration.md](methods/digital-experience/10-care-and-iteration.md) | 10 Care & iteration | method | proposed | 2026-10-23 | Fix defects during the warranty period, monitor the live site, and improve it with measured iterations under a care plan, if one is agreed. |
+| [methods/digital-experience/README.md](methods/digital-experience/README.md) | Digital experience method | method | proposed | 2026-10-23 | How the studio delivers the second pillar, Digital Experience (D-0018): award-level websites, WebGL/3D, motion and creative engineering g... |
+| [methods/handover-and-care.md](methods/handover-and-care.md) | Handover and care | method | proposed | 2026-10-23 | How the studio transfers finished work so the client can own it, supports it through a warranty period, offers ongoing care, and closes a... |
 | [methods/identity-engagement/01-discovery.md](methods/identity-engagement/01-discovery.md) | 01 Discovery | method | proposed | 2026-10-22 | Establish what is known about the business, people, offer and operating context before interpreting the brief. |
 | [methods/identity-engagement/02-diagnosis.md](methods/identity-engagement/02-diagnosis.md) | 02 Diagnosis | method | proposed | 2026-10-22 | Convert discovery evidence into a bounded problem definition. |
 | [methods/identity-engagement/03-strategy.md](methods/identity-engagement/03-strategy.md) | 03 Strategy | method | proposed | 2026-10-22 | Define the strategic direction and criteria that creative work must answer. |
@@ -61,11 +73,15 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [methods/identity-engagement/09-learning.md](methods/identity-engagement/09-learning.md) | 09 Learning | method | proposed | 2026-10-22 | Capture reusable learning after delivery without turning one project observation into a universal design rule. |
 | [methods/identity-engagement/README.md](methods/identity-engagement/README.md) | Identity engagement method | method | proposed | 2026-10-22 | This proposed sequence moves from evidence to learning. |
 | [methods/learning-loop.md](methods/learning-loop.md) | Learning loop | method | proposed | 2026-10-22 | Use a deliberate loop to turn observations into better work without making a single project carry more certainty than it earned. |
+| [methods/lifecycle.md](methods/lifecycle.md) | Client lifecycle | method | proposed | 2026-10-23 | The backbone every client engagement runs on, from first contact to case study: ten stages, each closed by a gate with a named decision. |
 | [methods/living-identities.md](methods/living-identities.md) | Living identities | method | proposed | 2026-10-22 | A living identity changes across time, context or input while remaining recognisable and useful. |
 | [methods/perception-to-identity-map.md](methods/perception-to-identity-map.md) | Perception-to-identity map | method | proposed | 2026-10-22 | This is a proposed operating framework, not an academically validated model. |
 | [methods/quality/critique-protocol.md](methods/quality/critique-protocol.md) | Critique protocol | method | proposed | 2026-10-22 | A critique tests work against its purpose and evidence. |
 | [methods/quality/final-delivery-checklist.md](methods/quality/final-delivery-checklist.md) | Final delivery checklist | checklist | proposed | 2026-10-22 | Complete this against the agreed scope. |
 | [methods/quality/identity-system-testing.md](methods/quality/identity-system-testing.md) | Identity system testing matrix | checklist | proposed | 2026-10-22 | Select application rows that are in the agreed scope. |
+| [methods/quality/launch-readiness-checklist.md](methods/quality/launch-readiness-checklist.md) | Launch-readiness checklist | checklist | proposed | 2026-10-23 | Run at stage 08 before the go/no-go review. |
+| [methods/quality/web-qa-checklist.md](methods/quality/web-qa-checklist.md) | Web QA checklist | checklist | proposed | 2026-10-23 | Run at stage 07 on the production build, not a development server. |
+| [methods/quality/web-standards.md](methods/quality/web-standards.md) | Web craft standards | method | proposed | 2026-10-23 | The measurable bar for every Digital Experience build. |
 | [methods/README.md](methods/README.md) | Methods index | guide | proposed | 2026-10-22 | Methods are proposed operating guidance. |
 | [methods/taste-practice.md](methods/taste-practice.md) | Taste practice | method | proposed | 2026-10-22 | Status: proposed. |
 
@@ -115,6 +131,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [studio/decisions/0015-founder-led-practice-with-specialists.md](studio/decisions/0015-founder-led-practice-with-specialists.md) | Founder-led practice with specialists | decision | proposed | 2026-10-22 | Propose operating as a founder-led independent practice, bringing in specialist collaborators when a project requires skills or capacity... |
 | [studio/decisions/0016-agency-agents-catalogue.md](studio/decisions/0016-agency-agents-catalogue.md) | Agency Agents catalogue | decision | approved | 2026-10-22 | Install the Agency Agents catalogue minus 53 excluded agents (229 included), at repository level only in .claude/agents/, pinned to commi... |
 | [studio/decisions/0017-fully-open-repository.md](studio/decisions/0017-fully-open-repository.md) | Fully open repository | decision | approved | 2026-10-22 | Everything in the 3RDWRONG knowledge base is public and open source under the applicable licences. |
+| [studio/decisions/0021-client-work-public-anonymised.md](studio/decisions/0021-client-work-public-anonymised.md) | Client work public and anonymised | decision | approved | 2026-10-23 | D-0017 made the knowledge base fully public and required a non-public store to be chosen before the first client or interview data exists. |
 | [studio/departments/design.md](studio/departments/design.md) | Design department | guide | proposed | 2026-10-22 | Interpretation — proposed operating guide. |
 | [studio/departments/README.md](studio/departments/README.md) | Department index | guide | proposed | 2026-10-22 | Interpretation — proposed operating structure. |
 | [studio/identity-system-offer.md](studio/identity-system-offer.md) | The 3RDWRONGS Identity System | guide | proposed | 2026-10-22 | The approved flagship offer is a focused strategic and creative engagement taking a brand from unclear positioning to a distinctive, depl... |
@@ -139,6 +156,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
 | [templates/briefs/client-brief.md](templates/briefs/client-brief.md) | Client brief | template | proposed | 2026-10-22 | — |
+| [templates/bundles/README.md](templates/bundles/README.md) | Template bundles | guide | proposed | 2026-10-23 | A bundle is a folder of templates that bin/3w new renders together into a working folder, such as a client project workspace. |
 | [templates/case-studies/case-study.md](templates/case-studies/case-study.md) | Case study | template | proposed | 2026-10-22 | — |
 | [templates/critique/design-critique.md](templates/critique/design-critique.md) | Design critique | template | proposed | 2026-10-22 | — |
 | [templates/identity-systems/concept-route.md](templates/identity-systems/concept-route.md) | Concept route | template | proposed | 2026-10-22 | — |

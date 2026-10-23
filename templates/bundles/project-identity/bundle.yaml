@@ -1,0 +1,25 @@
+# Project workspace for an Identity System engagement (D-0021).
+# Render with: bin/3w new project-identity --cleared | --private [--codename two-words] [--set name=value]
+kind: project
+description: Anonymised workspace for an Identity System engagement with brief, gate log, decisions, risks, status, feedback, QA, handover and retro.
+template: workspace/
+target: projects/{codename}/
+variables:
+  - name: codename
+    description: Two lowercase words joined by a hyphen; generated when omitted.
+    example: quiet-harbour
+  - name: title
+    description: Filled automatically from the codename.
+    example: Quiet Harbour
+  - name: date
+    description: Filled automatically with today's ISO date.
+    example: 2026-10-23
+  - name: clearance
+    description: Filled automatically from --cleared or --private.
+    example: "cleared: contract permits anonymised publication"
+  - name: sector_descriptor
+    description: Non-identifying sector and stage; left as a placeholder when not set.
+    example: premium personal care, early stage
+  - name: l4_date
+    description: Date the L4 Contract & deposit gate passed.
+    example: 2026-10-20
