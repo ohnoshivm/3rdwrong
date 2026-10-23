@@ -51,6 +51,8 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Run a client project | `methods/lifecycle.md`, `business/engagement-operations.md`, `docs/public-private-boundary.md` |
 | Deliver a website | `methods/digital-experience/README.md`, `methods/quality/web-standards.md` |
 | Create a workspace or vault record | `templates/bundles/README.md`, `docs/public-private-boundary.md` |
+| Run a project stage | `methods/playbooks/README.md`, then the stage's playbook: `methods/playbooks/client-lifecycle.md` (L0–L9), `methods/playbooks/identity-system.md` or `methods/playbooks/digital-experience.md` (L6), plus the method file it links |
+| Hand work to another department | `methods/handoffs/README.md`, the matching contract in `methods/handoffs/`, `studio/departments/heads.md` |
 | Launch and hand over | `methods/quality/launch-readiness-checklist.md`, `methods/handover-and-care.md` |
 | Price an opportunity | `business/pricing/README.md`, `business/pricing/estimation-guide.md`, `business/pricing/rates-and-estimates.md`, `business/pricing/commercial-rules.md` |
 | Write a proposal or SOW | `business/proposals.md`, `templates/bundles/README.md`, `templates/bundles/proposal/bundle.yaml`, `templates/bundles/sow/bundle.yaml` |

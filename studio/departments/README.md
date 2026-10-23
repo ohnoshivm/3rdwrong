@@ -31,9 +31,15 @@ Choose the job lead first. Leads and specialists are active; load a specialist o
 
 The [canonical registry](../../toolkit/sources/registry.json) records 1,364 source tools, 808 active and 556 library entries. The [registry summary](registry-summary.md) records all jobs/leads, counts, gaps, source corrections and boundary overrides. The [toolkit coverage](../../toolkit/coverage.json), [pinned fetch plan](../../toolkit/fetch.yaml) and [manual checklist](../../toolkit/manual.md) explain distribution and availability.
 
+## Heads and playbooks
+
+[Department heads](heads.md) proposes a head agent, job owners, reviewer pool, escalation path and quality bar for each department, with a RACI per lifecycle stage. The [delivery playbooks](../../methods/playbooks/README.md) show how the departments run one project together, and the [handoff contracts](../../methods/handoffs/README.md) define what passes between them.
+
 ## Lead gaps
 
-Gaps are deliberate rather than filled by an unreviewed tool. Design needs human ownership for mark/logo, colour and cross-format composition. Labs lacks leads for effect studies, research benchmarks, engine validation and demo publishing. Strategy lacks behavioural-theory and narrative-analysis leads; Production lacks retention-programmes; Media lacks image-production-workflow and image-quality-check; Marketing lacks awards-submissions. Consult each department's Gaps section and the registry summary for the complete current list.
+The current registry/charters retain the pre-v0.6 gaps; do not treat them as proof that a newer skill is installed. The [heads guide](heads.md) and [playbooks](../../methods/playbooks/README.md) route the four W1 craft leads and twelve W2 gap-closing leads by their proposed registry ids. Their `skills/3w-*/SKILL.md` files and scratch registry patches are integration dependencies. The registry owner applies them and regenerates charter views; this workstream does not edit the canonical registry. Type, mark, colour and composition decisions remain human-led.
+
+Remaining delivery limits are explicit in the [identity playbook](../../methods/playbooks/identity-system.md#gaps-recorded-by-this-playbook): no complete identity export/manifest lead, physical production proofing needs a vendor, and script verification needs fluent human reviewers. Assign these people at kickoff. Tool presence and source review never replace the pre-client `evals/` checks or founder review of the complete `evals/pilot/README.md` rehearsal.
 
 ## Legacy scanner compatibility
 

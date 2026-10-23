@@ -2,6 +2,16 @@
 
 Changes to the 3RDWRONG Creative Operating System are recorded here.
 
+## [Unreleased]
+
+### Added
+
+- Proposed delivery playbooks (`methods/playbooks/`): how a project runs through the eleven departments, model routing, maker ≠ checker and founder gates; per-phase identity playbook, per-stage Digital Experience pod playbook with the D-0023 budget, accessibility and reduced-motion gates; client lifecycle playbook from lead to case study with D-0021, D-0023 and D-0024 defaults.
+- Proposed department handoff contracts (`methods/handoffs/`): strategy → design, design → engineering pod contract, engineering → QA, QA → production and handover, delivery → marketing, each with artefact checklists and a handoff record.
+- Proposed department heads, reviewer pools, escalation paths, quality bars and a lifecycle RACI (`studio/departments/heads.md`).
+- W1/W2 experimental leads routed by registry id, exact bundle/output provenance, read-only agent boundaries and existing-workspace handling; no canonical registry edits.
+- Quality Lab paired-case checks and the 19-stage pre-client pilot wired into delivery gates; Web QA harness reports required at DX-07/08 with explicit founder field-data and real-phone deferrals, vault-only raw evidence and independent review. No pilot execution or client-readiness result is claimed.
+
 ## [0.4.0] - Unreleased
 
 ### Added

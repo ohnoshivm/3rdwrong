@@ -3,7 +3,7 @@ title: Methods index
 type: guide
 status: proposed
 owner: founder
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 review_every_days: 180
 ---
 # Methods index
@@ -12,6 +12,9 @@ Methods are proposed operating guidance. They do not create client approvals or
 prove outcomes. The identity engagement runs through
 [Discovery → Diagnosis → Strategy → Concept → Identity → System → Validation → Delivery → Learning](identity-engagement/README.md).
 
+- [Delivery playbooks](playbooks/README.md) say who runs each lifecycle stage,
+  identity phase and Digital Experience stage, with which tools, checked by
+  whom; [handoffs](handoffs/README.md) define what passes between departments.
 - [Living identities](living-identities.md) sets a decision test for motion,
   generative, adaptive and interactive extensions.
 - [Perception-to-identity map](perception-to-identity-map.md) links the
