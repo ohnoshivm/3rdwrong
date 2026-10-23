@@ -548,7 +548,7 @@ nodes:
     status: curated
     tags: [research-2026-10-23, ui-pattern-gallery]
     source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
-    body: "Compare how hero-section headlines, images and actions establish the first read."
+    body: "Study type-led hero sections for websites and studios, including immersive hero concepts. Compare how headline, image and action establish the first read, then adapt the hierarchy to an original studio voice."
   - type: asset
     title: "3dicons"
     kind: website
@@ -672,3 +672,8 @@ edges:
   - src: "platform:cssda-website-of-the-year-2025"
     rel: related
     dst: "platform:css-design-awards"
+  # Research addition: the hero gallery centres hierarchy in first-view composition
+  - src: "asset:supahero"
+    rel: exemplifies
+    dst: "principle:real-hierarchy"
+    note: "Headline, image and action establish the first read"
