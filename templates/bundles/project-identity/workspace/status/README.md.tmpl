@@ -1,0 +1,54 @@
+---
+title: "{{title}} weekly status"
+type: project
+status: proposed
+owner: founder
+last_reviewed: {{date}}
+codename: {{codename}}
+---
+
+# {{title}} weekly status
+
+Add one file per week named `YYYY-MM-DD.md` (the Friday of the week). Send the
+same content to the client; keep client-identifying detail and money out of it.
+Rules: [project operations](../../../business/engagement-operations.md#weekly-status-report).
+
+## Report format
+
+Copy everything below into the new file and fill it in.
+
+```markdown
+---
+title: "{{title}} status YYYY-MM-DD"
+type: project
+status: proposed
+owner: founder
+last_reviewed: YYYY-MM-DD
+---
+
+# {{title}} status YYYY-MM-DD
+
+**Overall:** on track | at risk | off track. One sentence why.
+**Stage:** L6 Deliver, method stage NN. Next gate and its date.
+
+## Done this week
+
+- Item
+
+## Next week
+
+- Item
+
+## Decisions needed from the client
+
+| Decision | Options | Needed by | Consequence of delay |
+| --- | --- | --- | --- |
+
+## Risks and issues
+
+Changes since last week; full log in ../risks.md.
+
+## Scope and change requests
+
+None, or the change-request reference and its state.
+```

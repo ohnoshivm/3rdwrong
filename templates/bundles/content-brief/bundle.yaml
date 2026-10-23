@@ -1,0 +1,25 @@
+# Brief for one piece of studio content; method in growth/content/production-workflow.md.
+# Render with: bin/3w new content-brief --set slug=one-rule-ten-uses --set pillar=... --set channel=...
+kind: content-brief
+description: Brief for one piece of studio content, from idea to measured result.
+template: content-brief.md.tmpl
+target: growth/content/briefs/{date}-{slug}.md
+variables:
+  - name: date
+    description: Filled automatically with today's ISO date.
+    example: 2026-11-02
+  - name: slug
+    description: Short lowercase hyphenated name for the piece.
+    example: one-rule-ten-applications
+  - name: title
+    description: Working title of the piece.
+    example: One rule, ten applications
+  - name: pillar
+    description: Identity systems, Digital experience, Process and craft, or Studio point of view.
+    example: Identity systems
+  - name: channel
+    description: Primary channel.
+    example: Instagram
+  - name: owner
+    description: Owning department and role, not a private person's details.
+    example: Marketing — content-social

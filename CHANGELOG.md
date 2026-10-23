@@ -2,6 +2,25 @@
 
 Changes to the 3RDWRONGS Creative Operating System are recorded here.
 
+## [0.4.0] - Unreleased
+
+### Added
+
+- Taste Graph (D-0020): local PostgreSQL reference library, public seeds, capture/search/curation CLI and the experimental `3w-taste-graph` reference-pack skill.
+- Delivery engine: lifecycle, Digital Experience method, web quality and launch gates, handover/care, `bin/3w`, project bundles and anonymity guard.
+- Approved D-0021: contract-cleared client records are public and anonymised; confidential identities, client files and all money stay in a private vault.
+- Business engine: pricing/estimation, proposals/SOWs, legal/IP and finance guidance, collaborator methods, operating rhythm, founder review queue and eight operating-record bundles.
+- Growth engine: qualification/discovery, pipeline, content, outbound/compliance, proof, partnerships, advertising and metrics; five bundles for case studies, content briefs and private discovery/outreach/win-loss records.
+- Real CLI integration coverage for all 15 shipped bundles, including cleared and private project workspaces.
+
+### Changed
+
+- Integrated context routing and documentation for creative references, delivery, business and growth work; pricing reads vault inputs and prints only.
+- Normalised all bundle variables to one documented list format; made `bin/3w` honour `--set codename` and validate a cleared workspace’s vault before any public or private write.
+- Refreshed the core toolkit plugin, lock and coverage for `3w-taste-graph`; kept toolkit and anonymity checks together.
+- Replaced the old client-acquisition guide with a route into `growth/` and wired cross-engine references.
+- Made zero-filled pricing templates report an actionable input error instead of dividing by zero.
+
 ## [0.3.0] - 2026-10-23
 
 ### Added

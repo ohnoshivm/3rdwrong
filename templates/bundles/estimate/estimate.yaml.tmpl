@@ -1,0 +1,22 @@
+# PRIVATE — vault only. Estimate for {{codename}} ({{offer}}), {{date}}.
+# Structure: business/pricing/estimation-guide.md. Price with:
+#   uv run python scripts/pricing.py "$THREEW_VAULT/{{codename}}/finance/estimate.yaml"
+codename: {{codename}}
+offer: {{offer}}
+estimated_on: "{{date}}"
+risk_buffer: 0.15     # share of hours added for uncertainty (guide: 0.10-0.30)
+
+stages:               # stage -> role -> hours; roles must exist in rates.yaml
+  discover-diagnose: {founder: 0, strategist: 0}
+  strategy:          {founder: 0, strategist: 0}
+  concept:           {founder: 0, designer: 0}
+  identity-system:   {founder: 0, designer: 0}
+  validate-deliver:  {founder: 0, designer: 0, producer: 0}
+  management:        {founder: 0, producer: 0}
+
+expenses:             # pass-through costs; 'only' limits an item to named options
+  - {item: type licences, cost: 0}
+
+options:              # good / better / best by scope; add 'price' to set a value price
+  - {name: good, label: Option A — core, include: [discover-diagnose, strategy, concept, identity-system, management]}
+  - {name: better, label: Option B — recommended, include: [discover-diagnose, strategy, concept, identity-system, validate-deliver, management]}

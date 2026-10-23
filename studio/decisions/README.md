@@ -24,6 +24,8 @@ proposed and hypothesis entries are not approved policy.
 | [Fully open repository](0017-fully-open-repository.md) | D-0017 | Fully open repository | approved | 2026-10-22 |
 | [Design-engineering studio](0018-design-engineering-studio.md) | D-0018 | Design-engineering studio | approved | 2026-10-23 |
 | [Organisation and loading policy](0019-organisation-and-loading-policy.md) | D-0019 | Organisation and loading policy | approved | 2026-10-23 |
+| [Taste Graph](0020-taste-graph.md) | D-0020 | Taste Graph | approved | 2026-10-23 |
+| [Client work public and anonymised](0021-client-work-public-anonymised.md) | D-0021 | Client work public and anonymised | approved | 2026-10-23 |
 
 D-0018 supersedes D-0001 and D-0002; their original text is retained as history.
 Approved direction does not promote the related positioning, offer, ICP,

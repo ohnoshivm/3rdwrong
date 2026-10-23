@@ -1,0 +1,52 @@
+---
+title: "{{title}} QA evidence"
+type: project
+status: proposed
+owner: founder
+last_reviewed: {{date}}
+codename: {{codename}}
+---
+
+# {{title}} QA evidence
+
+Run the [web standards](../../../methods/quality/web-standards.md), the
+[web QA checklist](../../../methods/quality/web-qa-checklist.md) and the
+[launch-readiness checklist](../../../methods/quality/launch-readiness-checklist.md)
+against the production build. Record results as text here. Screenshots,
+recordings and traces stay in the vault under `{{codename}}/files/qa/`;
+reference them by filename. Staging and production URLs are vault-only.
+
+## Budgets agreed at prototype (stage 04)
+
+| Budget | Target | Measured (build, date) | Device and network profile | Result |
+| --- | --- | --- | --- | --- |
+| LCP p75 | ≤ 2.5 s | | | |
+| INP p75 | ≤ 200 ms | | | |
+| CLS p75 | ≤ 0.1 | | | |
+| Initial JavaScript (compressed) | | | | |
+| Total initial transfer | | | | |
+| WebGL draw calls per frame | | | | |
+| Texture memory | | | | |
+| Frame time on reference device | | | | |
+
+## Rendered inspection
+
+| Date | Build | Width | Browser and device | Screenshot (vault filename) | Defects | Re-inspected |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | 1440 | | | | |
+| | | 834 | | | | |
+| | | 390 | | | | |
+
+## Checks log
+
+| Date | Check | Reviewer (role) | Result | Evidence (vault filename) | Defects raised |
+| --- | --- | --- | --- | --- | --- |
+| | Accessibility (WCAG 2.2 AA, manual + automated) | | | | |
+| | Reduced motion and WebGL-unavailable fallback | | | | |
+| | Cross-browser matrix | | | | |
+| | Content and links | | | | |
+| | Security headers and dependency audit | | | | |
+
+Field Core Web Vitals are **not verified** until real-user data exists; record
+who measures after launch. No reviewer signs off their own department's work
+alone.

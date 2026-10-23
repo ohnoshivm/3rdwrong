@@ -12,7 +12,7 @@ Read [`INDEX.md`](INDEX.md) first to locate current knowledge. Then read the clo
 
 When sources conflict, use this order and flag the conflict for a human:
 
-1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading; related proposals and hypotheses retain their statuses.
+1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records; related proposals and hypotheses retain their statuses.
 2. `studio/` — current studio strategy and operating facts.
 3. `methods/` — proposed and reviewed ways of working.
 4. `intelligence/` — source-based research and design references.
@@ -25,7 +25,7 @@ When sources conflict, use this order and flag the conflict for a human:
 - Never invent clients, results, approvals, research findings, quotations, or statistics.
 - Label evidence exactly: **Documented**, **Interpretation**, **Hypothesis**, or **Unknown**. Cite sources for documented claims and keep interpretation distinct from observation.
 - 3RDWRONGS' visual identity is not approved. A rejected exploration used black backgrounds, heavy grotesk typography, and neon accents. Do not reuse that direction as guidance.
-- Everything committed here is public and open source. Never commit personal data, third-party contracts, credentials or NDA-bound assets. Choose a non-public store before collecting client or interview data; follow the [publication rules](docs/public-private-boundary.md). Studio pricing hypotheses and the founding source are public, with their evidence/status limits intact.
+- Everything committed here is public and open source. Never commit personal data, third-party contracts, credentials or NDA-bound assets. Choose a non-public store before collecting client or interview data; follow the [publication rules](docs/public-private-boundary.md). Historical studio pricing hypotheses and the founding source remain public under D-0017, with their evidence/status limits intact. Never add operating rates, prices, deal values, invoices or cash to the repo; `scripts/pricing.py` reads vault inputs and only prints. Keep its output private.
 
 ## Department and toolkit loading
 
@@ -43,6 +43,21 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 
 | Task | Minimum files to read |
 | --- | --- |
+| Qualify a lead or run discovery | `growth/sales/README.md`, `growth/sales/qualification.md`, `growth/sales/discovery-call.md` |
+| Plan content | `growth/content/README.md`, `growth/content/production-workflow.md`, `taste/README.md`, `skills/3w-taste-graph/SKILL.md` |
+| Outreach | `growth/outbound/README.md`, `growth/outbound/compliance.md`, `studio/initial-icp.md` |
+| Case study, testimonial or award | `growth/proof/README.md`, `growth/proof/case-studies.md`, `growth/proof/testimonials.md`, `growth/proof/awards.md` |
+| Growth metrics | `growth/metrics.md`, `growth/sales/pipeline.md`, `business/scorecard.md` |
+| Run a client project | `methods/lifecycle.md`, `business/engagement-operations.md`, `docs/public-private-boundary.md` |
+| Deliver a website | `methods/digital-experience/README.md`, `methods/quality/web-standards.md` |
+| Create a workspace or vault record | `templates/bundles/README.md`, `docs/public-private-boundary.md` |
+| Launch and hand over | `methods/quality/launch-readiness-checklist.md`, `methods/handover-and-care.md` |
+| Price an opportunity | `business/pricing/README.md`, `business/pricing/estimation-guide.md`, `business/pricing/rates-and-estimates.md`, `business/pricing/commercial-rules.md` |
+| Write a proposal or SOW | `business/proposals.md`, `templates/bundles/README.md`, `templates/bundles/proposal/bundle.yaml`, `templates/bundles/sow/bundle.yaml` |
+| Contracts and IP | `business/legal/README.md`, `business/legal/master-services-agreement.md`, `business/legal/ip-and-licensing.md` |
+| Invoice and tax | `business/finance/README.md`, `business/finance/invoicing-and-collections.md`, `business/finance/india-tax-basics.md` |
+| Founder review session | `business/review-queue.md`, `scripts/review_queue.py` |
+| Creative work references | `skills/3w-taste-graph/SKILL.md`, `taste/graph/README.md` |
 | Plan a portfolio project | `studio/portfolio-strategy.md`, `templates/projects/project-readme.md`, `docs/public-private-boundary.md` |
 | Run a Brand Direction Sprint | `studio/brand-direction-sprint.md`, `studio/positioning.md`, `studio/initial-icp.md` |
 | Start a client identity project | `methods/identity-engagement/README.md`, `templates/projects/project-readme.md`, `skills/3w-brand-discovery/SKILL.md` |
@@ -60,9 +75,11 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Capture project lessons | `methods/learning-loop.md`, `templates/learning/retrospective.md`, `docs/public-private-boundary.md` |
 | Retrieve context in Claude Code | `INDEX.md`, this file, then the closest task route above |
 
-## Inspiration and references
+## Creative reference packs and client records
 
-When a task involves gathering inspiration or visual/interactive references, use the `taste/` folder: start at `taste/README.md`, then `taste/swipe-file.md`, `taste/discovery-sources.md`, `taste/award-site-teardowns.md` and `taste/studio-websites.md`. Cite the specific source page used.
+Before **any creative-output task**, load `skills/3w-taste-graph/SKILL.md` and a reference pack with `uv run scripts/taste_graph.py pack "<brief>"`. State which principles you will apply and which don'ts you will avoid. Treat references as inspiration: never copy layouts, assets, copy or brand identity. If PostgreSQL or the pack is unavailable, stop and report as the skill requires; never claim a pack was loaded when it was not. Read the specific sources needed, not the whole graph. Captured media, third-party text and database backups stay outside Git.
+
+D-0021: client work is public and anonymised **only when cleared by contract**. Use codenames and roles only, never client names, people, contacts, domains, money or client files. Otherwise render the whole workspace into the vault with `--private`. Run `bin/3w check` before committing project records, including the vault deny-list when available. Human review must also check identifying combinations. Never write rates, prices, deal values, invoices or cash into the repo; the pricing CLI reads vault inputs and only prints. Never paste its output here.
 
 ## AI and human responsibility
 
@@ -81,6 +98,7 @@ The operating split below is adapted from Founding Blueprint v1.0, 22 October 20
 
 | Skill | Use for |
 | --- | --- |
+| `3w-taste-graph` | Load principles, exemplars and anti-patterns before every creative-output task. |
 | `3w-brand-discovery` | Gather and organise evidence for an identity project. |
 | `3w-category-code-audit` | Identify and test category conventions and opportunities. |
 | `3w-creative-direction` | Turn an approved strategy into a proposed creative direction. |
@@ -96,7 +114,7 @@ The operating split below is adapted from Founding Blueprint v1.0, 22 October 20
 
 ## Publication rules
 
-Follow [Publication rules](docs/public-private-boundary.md) and [D-0017](studio/decisions/0017-fully-open-repository.md). Before collecting client or interview data, choose a non-public store; publish only non-identifying, aggregated, rights-cleared learning. Retain secret and personal-data scans, including on upstream agents.
+Follow [Publication rules](docs/public-private-boundary.md), [D-0017](studio/decisions/0017-fully-open-repository.md) and [D-0021](studio/decisions/0021-client-work-public-anonymised.md). Before collecting client or interview data, choose a non-public store; publish only non-identifying, aggregated, rights-cleared learning. Retain secret and personal-data scans, including on upstream agents.
 
 ## Agency agents
 

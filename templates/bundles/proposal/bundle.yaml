@@ -1,0 +1,21 @@
+kind: proposal
+description: 'Anonymised client proposal for lifecycle stage L3 Propose. Public under D-0021: codename
+  only, no client names, people or amounts. Investment lives in the vault and is presented live.'
+template: proposal.md.tmpl
+target: projects/{codename}/proposal.md
+variables:
+- name: codename
+  description: Project codename (lowercase, hyphenated); never the client's name.
+  example: stillsoil-atelier
+- name: offer
+  description: Offer being proposed (identity-system, digital-experience, brand-direction-sprint or care-plan).
+  example: identity-system
+- name: date
+  description: Proposal date (YYYY-MM-DD).
+  example: '2026-10-23'
+- name: presented_on
+  description: Date of the live presentation (YYYY-MM-DD).
+  example: '2026-10-28'
+- name: valid_until
+  description: Date after which options and timeline must be re-confirmed (YYYY-MM-DD).
+  example: '2026-11-27'

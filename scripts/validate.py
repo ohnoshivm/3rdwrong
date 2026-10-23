@@ -8,6 +8,7 @@ from typing import Callable
 
 try:
     from .oscheck.agents import check_agents
+    from .oscheck.anonymity import check_anonymity
     from .oscheck.common import Issue
     from .oscheck.decisions import check_decisions
     from .oscheck.frontmatter import check_frontmatter
@@ -20,6 +21,7 @@ try:
     from .oscheck.toolkit import check_toolkit
 except ImportError:
     from oscheck.agents import check_agents
+    from oscheck.anonymity import check_anonymity
     from oscheck.common import Issue
     from oscheck.decisions import check_decisions
     from oscheck.frontmatter import check_frontmatter
@@ -40,6 +42,7 @@ CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
     "links": check_links,
     "required": check_required,
     "secrets": check_secrets,
+    "anonymity": check_anonymity,
     "index": check_index,
     "toolkit": check_toolkit,
 }

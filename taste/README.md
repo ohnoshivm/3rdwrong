@@ -47,6 +47,10 @@ Do not copy layouts, copy, characters, imagery, objects, brand identities or dis
    `last_reviewed`, `review_every_days` and `sources` entries containing `title`, `url` and `accessed`.
    Link it below, rebuild `INDEX.md` and run the repository validator and Markdown lint.
 
+## Taste Graph
+
+The [Taste Graph](graph/README.md) turns these lists into a local PostgreSQL knowledge graph of references, patterns, principles and anti-patterns ([D-0020](../studio/decisions/0020-taste-graph.md)). Agents load a reference pack from it through the [`3w-taste-graph`](../skills/3w-taste-graph/SKILL.md) skill before any creative-output task. Captured media and third-party text stay on the founder's machine, never in this repository.
+
 ## File index
 
 | File | Purpose |

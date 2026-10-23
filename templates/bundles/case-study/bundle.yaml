@@ -1,0 +1,25 @@
+# Anonymised case study for a cleared project (D-0021), written at L9.
+# Render with: bin/3w new case-study --cleared --codename two-words [--set name=value]
+kind: case-study
+description: Anonymised case study for a project whose contract permits publication; method in growth/proof/case-studies.md.
+template: case-study.md.tmpl
+target: projects/{codename}/case-study.md
+variables:
+  - name: codename
+    description: The project's existing codename; never the client's name.
+    example: stillsoil-atelier
+  - name: title
+    description: Filled automatically from the codename.
+    example: Stillsoil Atelier
+  - name: date
+    description: Filled automatically with today's ISO date.
+    example: 2026-12-04
+  - name: clearance
+    description: Filled automatically from --cleared.
+    example: "cleared: contract permits anonymised publication"
+  - name: sector_descriptor
+    description: Non-identifying sector and stage.
+    example: founder-led ceramics and home fragrance, early growth
+  - name: offer
+    description: Offer delivered.
+    example: Identity System

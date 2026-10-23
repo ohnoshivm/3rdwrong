@@ -1,0 +1,544 @@
+# Taste Graph seed: public URLs and the studio's own notes only. No captured media or third-party text.
+# Loaded by `uv run scripts/taste_graph.py init --seed`; existing entries are never overwritten.
+# Sources: taste/swipe-file.md (tiers -> score/tags), taste/studio-websites.md, taste/award-site-teardowns.md,
+# taste/discovery-sources.md, and the studio's own creative rules (principles and anti-patterns).
+# Format: a YAML subset (flat mappings, quoted strings, flow lists) parsed without extra dependencies.
+# Node keys other than type/slug/title/body/url/kind/verdict/score/tags are stored in props.
+version: 1
+
+nodes:
+  # ---- Principles: what to do (studio rules)
+  - type: principle
+    title: "Type-led design"
+    verdict: exemplar
+    tags: [typography, hierarchy, identity]
+    body: "Let typography carry identity and hierarchy before imagery or effects; choose and set type deliberately, never by default."
+  - type: principle
+    title: "Real hierarchy"
+    verdict: exemplar
+    tags: [hierarchy, layout, composition]
+    body: "One clear first read per view, then a deliberate second and third; size, weight, space and position agree on what matters."
+  - type: principle
+    title: "Generous whitespace"
+    verdict: exemplar
+    tags: [spacing, layout, composition]
+    body: "Treat space as a material: give the key idea room so it reads at a glance; crowding signals uncertainty."
+  - type: principle
+    title: "Intentional asymmetry"
+    verdict: exemplar
+    tags: [layout, composition, grid]
+    body: "Break symmetry on purpose to create tension and direction, anchored to a grid so it reads as decided rather than misaligned."
+  - type: principle
+    title: "One idea per section"
+    verdict: exemplar
+    tags: [structure, copy, storytelling]
+    body: "Each section makes one point; if it needs two headlines it is two sections."
+  - type: principle
+    title: "Fewer, stronger decisions"
+    verdict: exemplar
+    tags: [art-direction, identity, restraint]
+    body: "Commit to a small number of distinctive choices and push them, rather than layering many safe ones."
+  - type: principle
+    title: "Motion with purpose"
+    verdict: exemplar
+    tags: [motion, interaction, accessibility]
+    body: "Every animation aids hierarchy, storytelling or feedback, with precise easing and consistent durations; always honour prefers-reduced-motion."
+  - type: principle
+    title: "Performance parity with visual ambition"
+    verdict: exemplar
+    tags: [performance, engineering, accessibility]
+    body: "The build must be as good as the look: fast first view, smooth frames and accessible fallbacks. Spectacle that stutters is a defect."
+  - type: principle
+    title: "A single coherent palette"
+    verdict: exemplar
+    tags: [colour, identity, restraint]
+    body: "Define colour roles once and hold them everywhere; a palette earns recognition through consistency, not variety."
+
+  # ---- Anti-patterns: what NOT to do (studio rules and repository cautions)
+  - type: pattern
+    title: "Generic SaaS template"
+    verdict: anti_pattern
+    tags: [layout, generic, landing-page]
+    body: "Centred hero, decorative blob, three feature cards and a logo strip: interchangeable with any product and ownable by none."
+  - type: pattern
+    title: "Random gradient soup"
+    verdict: anti_pattern
+    tags: [colour, background, generic]
+    body: "Gradients chosen for mood alone, unrelated to the palette or concept; they blur hierarchy and date quickly."
+  - type: pattern
+    title: "Gratuitous card grids and cards inside cards"
+    verdict: anti_pattern
+    tags: [layout, ui, generic]
+    body: "Boxing every item flattens hierarchy; nested cards add borders and padding without adding meaning."
+  - type: pattern
+    title: "Weak default typography"
+    verdict: anti_pattern
+    tags: [typography, generic]
+    body: "System or template defaults with no scale, no contrast of weight and no voice: the fastest way to look unconsidered."
+  - type: pattern
+    title: "Overdecorated backgrounds"
+    verdict: anti_pattern
+    tags: [background, decoration]
+    body: "Textures, blobs and noise competing with content; decoration that does not carry the concept is clutter."
+  - type: pattern
+    title: "Decorative 3D unrelated to the concept"
+    verdict: anti_pattern
+    tags: [3d, decoration, performance]
+    body: "Floating objects added for spectacle cost load time and attention without saying anything about the brand."
+  - type: pattern
+    title: "Animation for its own sake"
+    verdict: anti_pattern
+    tags: [motion, decoration]
+    body: "Everything fades, slides and parallaxes; motion without a job dilutes the moments that matter and tires the reader."
+  - type: pattern
+    title: "Misaligned sections and inconsistent spacing"
+    verdict: anti_pattern
+    tags: [layout, spacing, craft]
+    body: "Edges that almost line up and gaps that vary without reason read as carelessness, not as asymmetry."
+  - type: pattern
+    title: "Six-line headline wraps"
+    verdict: anti_pattern
+    tags: [typography, copy, responsive]
+    body: "A headline that wraps into a tall column on small screens loses its shape; size and edit headlines per breakpoint."
+  - type: pattern
+    title: "Filler copy"
+    verdict: anti_pattern
+    tags: [copy, generic]
+    body: "Placeholder or generic claims (\"we craft digital experiences\") that any studio could sign; every line should be specific."
+  - type: pattern
+    title: "Default awards-site vocabulary"
+    verdict: anti_pattern
+    tags: [art-direction, generic, website]
+    source: "taste/studio-websites.md#what-not-to-take-from-them"
+    body: "Loaders, immersive entry scenes, large type, pointer effects and dramatic transitions used by default converge on category sameness."
+  - type: pattern
+    title: "Spectacle over comprehension"
+    verdict: anti_pattern
+    tags: [performance, accessibility, 3d, motion]
+    source: "taste/studio-websites.md#what-not-to-take-from-them"
+    body: "Effects that trade load time, battery, comprehension or access for novelty; ask what the identity still says without sound, heavy rendering and transitions."
+  - type: pattern
+    title: "Rejected own-identity direction (D-0006)"
+    verdict: anti_pattern
+    tags: [identity, 3rdwrong, colour, typography]
+    source: "studio/decisions/0006-rejected-own-identity-direction.md"
+    body: "Black backgrounds, heavy grotesk type and neon accents were rejected as conventional for 3RDWRONG's own identity; do not reuse them as guidance."
+
+  # ---- Swipe file, Tier 1: exceptional interactive and award-winning websites (score 5)
+  - type: asset
+    title: "Igloo Inc"
+    kind: website
+    url: "https://www.igloo.inc/"
+    score: 5
+    tags: [tier-1, award-site-teardown, 3d, scroll, world-building]
+    source: "taste/swipe-file.md#igloo-inc"
+    teardown: "https://rickcreates.com/r/2024-07-23-igloo-inc"
+    body: "Study how scrolling, environment and visual metaphor make brand architecture discoverable."
+  - type: asset
+    title: "Oryzo AI"
+    kind: landing_page
+    url: "https://oryzo.ai/"
+    score: 5
+    tags: [tier-1, founder-top-five, award-site-teardown, product-storytelling, humour, scroll]
+    source: "taste/swipe-file.md#oryzo-ai"
+    teardown: "https://rickcreates.com/r/2026-04-13-oryzo-ai"
+    body: "Study product storytelling, sustained visual metaphor, scroll pacing and how humour supports a brand idea."
+  - type: asset
+    title: "The Symphony of Vines"
+    kind: website
+    url: "https://symphonyofvines.unseen.co/"
+    score: 5
+    tags: [tier-1, storytelling, place, motion, interaction]
+    source: "taste/swipe-file.md#the-symphony-of-vines"
+    body: "Study translating place and origin into chapters, motion and interaction."
+  - type: asset
+    title: "We Are Büro"
+    kind: website
+    url: "https://www.burocratik.com/"
+    score: 5
+    tags: [tier-1, founder-top-five, studio-website, studio-voice, navigation]
+    source: "taste/swipe-file.md#we-are-büro"
+    body: "Study studio voice, navigation and how project work is framed as evidence of a practice."
+  - type: asset
+    title: "The Monolith Project"
+    kind: website
+    url: "https://themonolithproject.net/"
+    score: 5
+    tags: [tier-1, cssda-woty-2025-nominee]
+    source: "taste/swipe-file.md#the-monolith-project"
+    body: ""
+  - type: asset
+    title: "Exat Typeface"
+    kind: website
+    url: "https://exat.hottype.co/"
+    score: 5
+    tags: [tier-1, cssda-woty-2025-nominee, typography, type-specimen, interaction]
+    source: "taste/swipe-file.md#exat-typeface"
+    body: "Study how a type specimen lets visitors test a type system through interaction and information hierarchy."
+  - type: asset
+    title: "Bruno Simon"
+    kind: website
+    url: "https://bruno-simon.com/"
+    score: 5
+    tags: [tier-1, award-site-teardown, portfolio, 3d, playful-navigation]
+    source: "taste/swipe-file.md#bruno-simon"
+    teardown: "https://rickcreates.com/r/2026-01-21-brunos-portfolio"
+    body: "Study playful navigation, discovery, interface help and the trade-off between memorable exploration and access to portfolio information. The teardown reports that reduced-motion preference is ignored."
+  - type: asset
+    title: "Santioni Spirits"
+    kind: landing_page
+    url: "https://santionispirits.com/"
+    score: 5
+    tags: [tier-1, award-site-teardown, product-storytelling, 3d, scroll, choice]
+    source: "taste/swipe-file.md#santioni-spirits"
+    teardown: "https://rickcreates.com/r/2026-10-05-santioni-spirits"
+    body: "Study choice, colour and product storytelling across a linear narrative."
+  - type: asset
+    title: "Lusion"
+    kind: website
+    url: "https://lusion.co/"
+    score: 5
+    tags: [tier-1, founder-top-five, studio-website, primary-benchmark, award-site-teardown, 3d, engineering]
+    source: "taste/studio-websites.md#lusion"
+    teardown: "https://rickcreates.com/r/2023-10-02-lusion-v3"
+    body: "Study sophisticated interactive engineering and 3D craft, especially whether technical decisions support a single art-directed idea. Transfer: a coherent image and material language, judged for consistency and readability separately from technical complexity."
+  - type: asset
+    title: "Buttermax"
+    kind: website
+    url: "https://buttermax.net/"
+    score: 5
+    tags: [tier-1, founder-top-five, studio-website, primary-benchmark, personality, branded-3d]
+    source: "taste/studio-websites.md#buttermax"
+    body: "Study memorable, ownable personality and branded 3D assets: a visual universe with a recognisable attitude rather than a collection of effects. Transfer: derive an original object family and behaviour from an identity concept; check that a static composition still carries the character."
+  - type: asset
+    title: "Active Theory"
+    kind: website
+    url: "https://activetheory.net/"
+    score: 5
+    tags: [tier-1, studio-website, further-reference, immersive, world-building]
+    source: "taste/studio-websites.md#active-theory"
+    body: "Study immersive environments and a studio identity communicated through a world. Transfer: a coherent narrative setting for identity imagery, distilled into an understandable static application."
+  - type: asset
+    title: "Unseen Studio"
+    kind: website
+    url: "https://unseen.co/"
+    score: 5
+    tags: [tier-1, founder-top-five, studio-website, primary-benchmark, atmosphere, art-direction]
+    source: "taste/studio-websites.md#unseen-studio"
+    body: "Study atmospheric art direction and immersive studio identity: a consistent mood connecting portfolio, studio voice and an exploratory world. Transfer: define atmosphere through original image direction, composition and motion principles that also work in static applications."
+  - type: asset
+    title: "Noomo Labs"
+    kind: website
+    url: "https://labs.noomoagency.com/"
+    score: 5
+    tags: [tier-1, studio-website, primary-benchmark, experimental, creative-technology, sound]
+    source: "taste/studio-websites.md#noomo-labs"
+    body: "Study playful experimental creative technology. Transfer: one original material or behaviour rule can give a small identity exercise personality; check that play makes information clearer."
+  - type: asset
+    title: "Utsubo"
+    kind: website
+    url: "https://www.utsubo.com/"
+    score: 5
+    tags: [tier-1, studio-website, primary-benchmark, world-building, 3d]
+    source: "taste/studio-websites.md#utsubo"
+    body: "Study surreal world-building and ambitious 3D as a unified environment rather than an isolated hero ornament. Transfer: original spatial and compositional rules for brand imagery that survive translation into flat, practical applications."
+  - type: asset
+    title: "Resn"
+    kind: website
+    url: "https://resn.co.nz/"
+    score: 5
+    tags: [tier-1, studio-website, further-reference, interaction, entry-object]
+    source: "taste/studio-websites.md#resn"
+    body: "Study unconventional interactive design and the possibility of an entry object carrying identity. Transfer: a brand symbol that suggests behaviour as well as appearing on a page, with a direct information route kept available."
+  - type: asset
+    title: "fromanother"
+    kind: website
+    url: "https://www.fromanother.love/"
+    score: 5
+    tags: [tier-1, studio-website, primary-benchmark, cinematic, motion, content-architecture]
+    source: "taste/studio-websites.md#fromanother"
+    body: "Study cinematic direction and motion that follows a concept, with content architecture sustaining the expression. Transfer: concept-based motion rules and an editable content hierarchy for an identity system."
+
+  # ---- Swipe file, Tier 2: exceptional creative studios and digital experiences (score 4)
+  - type: asset
+    title: "Lando Norris"
+    kind: website
+    url: "https://landonorris.com/"
+    score: 4
+    tags: [tier-2, award-site-teardown, personal-brand, identity-thread]
+    source: "taste/swipe-file.md#lando-norris"
+    teardown: "https://rickcreates.com/r/2025-11-20-lando-norris"
+    body: "Study building a coherent identity thread from a recognisable personal artefact across long-form page sections."
+  - type: asset
+    title: "Siena Film Foundation"
+    kind: website
+    url: "https://www.siena.film/"
+    score: 4
+    tags: [tier-2, cinematic, archive, information-design]
+    source: "taste/swipe-file.md#siena-film-foundation"
+    body: "Study how a moving-image archive can use a cinematic interface while preserving useful catalogue information."
+  - type: asset
+    title: "KOKUYO — Curiosity is Life"
+    kind: website
+    url: "https://kokuyo.life/en/"
+    score: 4
+    tags: [tier-2, cssda-woty-2025-nominee, corporate-story]
+    source: "taste/swipe-file.md#kokuyo--curiosity-is-life"
+    body: "Study connecting a broad corporate story to distinct business areas and future-facing content."
+  - type: asset
+    title: "OddCommon"
+    kind: website
+    url: "https://www.oddcommon.com/"
+    score: 4
+    tags: [tier-2, studio-website, positioning, tone]
+    source: "taste/swipe-file.md#oddcommon"
+    body: "Study the repeated \"creating belief\" idea, tone and agency positioning."
+  - type: asset
+    title: "Studio K95"
+    kind: website
+    url: "https://k95.it/"
+    score: 4
+    tags: [tier-2, studio-website, typography, graphic-motion]
+    source: "taste/swipe-file.md#studio-k95"
+    body: "Study typographic voice, graphic motion and how an Italian-language studio communicates its offer."
+  - type: asset
+    title: "Obys"
+    kind: website
+    url: "https://obys.agency/"
+    score: 4
+    tags: [tier-2, studio-website, portfolio, point-of-view]
+    source: "taste/swipe-file.md#obys"
+    body: "Study how case selection, service labels and visual presentation build a studio's own point of view."
+  - type: asset
+    title: "MONOGRID"
+    kind: website
+    url: "https://monogrid.com/"
+    score: 4
+    tags: [tier-2, studio-website]
+    source: "taste/swipe-file.md#monogrid"
+    body: ""
+  - type: asset
+    title: "Immersive Garden"
+    kind: website
+    url: "https://www.immersive-g.com/"
+    score: 4
+    tags: [tier-2, studio-website]
+    source: "taste/swipe-file.md#immersive-garden"
+    body: ""
+  - type: asset
+    title: "Bleibtgleich"
+    kind: website
+    url: "https://bleibtgleich.dev/"
+    score: 4
+    tags: [tier-2, portfolio, usability, clarity]
+    source: "taste/swipe-file.md#bleibtgleich"
+    body: "Study direct self-presentation, work indexing and the relationship between portfolio craft and practical usability."
+  - type: asset
+    title: "Locomotive"
+    kind: website
+    url: "https://locomotive.ca/"
+    score: 4
+    tags: [tier-2, studio-website, further-reference, graphic-personality, studio-voice]
+    source: "taste/studio-websites.md#locomotive"
+    body: "Study digital-first identity, graphic personality and informal studio voice as one expression. Transfer: relationships between typographic language, graphic elements and verbal tone that stay recognisable in a static document or small social application."
+  - type: asset
+    title: "ToyFight"
+    kind: website
+    url: "https://toyfight.co/"
+    score: 4
+    tags: [tier-2, studio-website, further-reference, character, humour]
+    source: "taste/studio-websites.md#toyfight"
+    body: "Study character-led identity and humour. Transfer: express a studio's attitude through an original character or verbal/graphic system, with clear information beneath the joke."
+  - type: asset
+    title: "LUCERRÁ"
+    kind: website
+    url: "https://www.lucerra.co/"
+    score: 4
+    tags: [tier-2, studio-website, provisional-lead, cinematic, light]
+    source: "taste/studio-websites.md#lucerrá"
+    body: "Study cinematic digital art direction, asking whether atmosphere grows from a clear idea rather than borrowing an awards-site look. Transfer: identity-led image-direction and lighting rules that communicate without an interactive environment."
+  - type: asset
+    title: "BUNQ LABS"
+    kind: website
+    url: "https://bunqlabs.com/"
+    score: 4
+    tags: [tier-2, studio-website, provisional-lead, design-engineering, small-studio]
+    source: "taste/studio-websites.md#bunq-labs"
+    body: "Study the connection between graphic identity and engineered behaviour in a self-described small design-and-engineering studio. Transfer: make identity rules concrete enough for another discipline to implement."
+
+  # ---- Swipe file, Tier 3: discovery sources (platforms)
+  - type: platform
+    title: "Awwwards"
+    url: "https://www.awwwards.com/"
+    tags: [tier-3, discovery, awards]
+    source: "taste/discovery-sources.md#awwwards--sites-of-the-month"
+    body: "Discovering polished art direction, interaction and studio work. Awards reflect an editorial and jury lens, not effectiveness or accessibility."
+  - type: platform
+    title: "Awwwards Sites of the Month"
+    url: "https://www.awwwards.com/websites/sites_of_the_month/"
+    tags: [tier-3, discovery, awards]
+    source: "taste/discovery-sources.md#awwwards--sites-of-the-month"
+    body: "Lookup for art direction and interaction. Pick an entry, open the original live site and record one interaction sequence, one visual decision and one principle."
+  - type: platform
+    title: "The FWA"
+    url: "https://thefwa.com/"
+    tags: [tier-3, discovery, awards, experimental]
+    source: "taste/discovery-sources.md#the-fwa"
+    body: "Discovery lead for experimental, campaign or immersive work; check effectiveness, accessibility and technical suitability on the original page."
+  - type: platform
+    title: "CSS Design Awards"
+    url: "https://www.cssdesignawards.com/"
+    tags: [tier-3, discovery, awards]
+    source: "taste/discovery-sources.md#css-design-awards-website-of-the-year-2025-nominees"
+    body: "Comparing approaches and asking how visual quality, usability and innovation relate within specific examples."
+  - type: platform
+    title: "CSSDA Website of the Year 2025"
+    url: "https://www.cssdesignawards.com/woty2025"
+    tags: [tier-3, discovery, awards]
+    source: "taste/discovery-sources.md#css-design-awards-website-of-the-year-2025-nominees"
+    body: "Quality-versus-usability comparison: select two nominees with different approaches to a relevant task and compare them."
+  - type: platform
+    title: "Mesh3D"
+    url: "https://mesh3d.gallery/"
+    tags: [tier-3, discovery, 3d, technique]
+    source: "taste/discovery-sources.md#mesh3d-gallery"
+    body: "Real-time 3D technique: find web experiments and trace a site's maker or technology where published. A technical showcase is not a recommendation to add 3D."
+  - type: platform
+    title: "Landing Love"
+    url: "https://www.landing.love/"
+    tags: [tier-3, discovery, landing-page, motion]
+    source: "taste/discovery-sources.md#landing-love"
+    body: "Studying page progression through recorded scrolls and comparing recorded versions; recordings are historical, so check the live page."
+  - type: platform
+    title: "Award Site Teardowns"
+    url: "https://rickcreates.com/"
+    tags: [tier-3, discovery, analysis, founder-primary-resource]
+    source: "taste/award-site-teardowns.md"
+    body: "Founder's primary resource for structured analysis of concept, design, motion, engineering, scores, credits and reported page weight. Secondary analysis: verify against the original site."
+
+  # ---- Makers named in the taste documents
+  - type: brand
+    title: "Lusion"
+    url: "https://lusion.co/"
+  - type: brand
+    title: "Unseen Studio"
+    url: "https://unseen.co/"
+  - type: brand
+    title: "Hot Type"
+  - type: brand
+    title: "Bureaux"
+  - type: brand
+    title: "Abeto"
+  - type: brand
+    title: "Active Theory"
+    url: "https://activetheory.net/"
+  - type: creator
+    title: "Bruno Simon"
+    url: "https://bruno-simon.com/"
+
+edges:
+  # Do/Don't pairs
+  - src: "pattern:weak-default-typography"
+    rel: contrasts
+    dst: "principle:type-led-design"
+  - src: "pattern:six-line-headline-wraps"
+    rel: contrasts
+    dst: "principle:type-led-design"
+  - src: "pattern:gratuitous-card-grids-and-cards-inside-cards"
+    rel: contrasts
+    dst: "principle:real-hierarchy"
+  - src: "pattern:overdecorated-backgrounds"
+    rel: contrasts
+    dst: "principle:generous-whitespace"
+  - src: "pattern:misaligned-sections-and-inconsistent-spacing"
+    rel: contrasts
+    dst: "principle:intentional-asymmetry"
+  - src: "pattern:filler-copy"
+    rel: contrasts
+    dst: "principle:one-idea-per-section"
+  - src: "pattern:generic-saas-template"
+    rel: contrasts
+    dst: "principle:fewer-stronger-decisions"
+  - src: "pattern:default-awards-site-vocabulary"
+    rel: contrasts
+    dst: "principle:fewer-stronger-decisions"
+  - src: "pattern:decorative-3d-unrelated-to-the-concept"
+    rel: contrasts
+    dst: "principle:fewer-stronger-decisions"
+  - src: "pattern:animation-for-its-own-sake"
+    rel: contrasts
+    dst: "principle:motion-with-purpose"
+  - src: "pattern:spectacle-over-comprehension"
+    rel: contrasts
+    dst: "principle:performance-parity-with-visual-ambition"
+  - src: "pattern:random-gradient-soup"
+    rel: contrasts
+    dst: "principle:a-single-coherent-palette"
+  # Attribution documented in the taste files
+  - src: "asset:oryzo-ai"
+    rel: by
+    dst: "brand:lusion"
+    note: "Official page: Designed by Lusion"
+  - src: "asset:lusion"
+    rel: by
+    dst: "brand:lusion"
+  - src: "asset:the-symphony-of-vines"
+    rel: by
+    dst: "brand:unseen-studio"
+    note: "Official project page credits Unseen Studio"
+  - src: "asset:unseen-studio"
+    rel: by
+    dst: "brand:unseen-studio"
+  - src: "asset:exat-typeface"
+    rel: by
+    dst: "brand:hot-type"
+    note: "Official page: a new typeface by Hot Type"
+  - src: "asset:igloo-inc"
+    rel: by
+    dst: "brand:bureaux"
+    note: "Mesh3D credit for the featured project"
+  - src: "asset:igloo-inc"
+    rel: by
+    dst: "brand:abeto"
+    note: "Mesh3D credit for the featured project"
+  - src: "asset:active-theory"
+    rel: by
+    dst: "brand:active-theory"
+  - src: "asset:buttermax"
+    rel: related
+    dst: "brand:active-theory"
+    note: "Jordan Frand: launched as an Active Theory sub-brand, October 2023"
+  - src: "asset:bruno-simon"
+    rel: by
+    dst: "creator:bruno-simon"
+  # Award listings documented in the taste files
+  - src: "asset:unseen-studio"
+    rel: "on"
+    dst: "platform:awwwards"
+    note: "SOTD 6 February 2023"
+  - src: "asset:fromanother"
+    rel: "on"
+    dst: "platform:awwwards"
+    note: "SOTD 14 May 2026 and Developer Award"
+  - src: "asset:active-theory"
+    rel: "on"
+    dst: "platform:awwwards"
+    note: "v5 SOTD 29 September 2019 (historical)"
+  - src: "asset:the-monolith-project"
+    rel: "on"
+    dst: "platform:cssda-website-of-the-year-2025"
+    note: "WOTY 2025 nominee"
+  - src: "asset:exat-typeface"
+    rel: "on"
+    dst: "platform:cssda-website-of-the-year-2025"
+    note: "WOTY 2025 nominee"
+  - src: "asset:kokuyo-curiosity-is-life"
+    rel: "on"
+    dst: "platform:cssda-website-of-the-year-2025"
+    note: "WOTY 2025 nominee"
+  - src: "platform:awwwards-sites-of-the-month"
+    rel: related
+    dst: "platform:awwwards"
+  - src: "platform:cssda-website-of-the-year-2025"
+    rel: related
+    dst: "platform:css-design-awards"

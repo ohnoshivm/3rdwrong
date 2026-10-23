@@ -1,0 +1,18 @@
+kind: change-order
+description: Anonymised change order for any scope, timeline or criteria change during L5–L8. Public under
+  D-0021; the fee and the signed copy live in the vault.
+template: change-order.md.tmpl
+target: projects/{codename}/change-orders/{change_id}.md
+variables:
+- name: codename
+  description: Project codename; never the client's name.
+  example: stillsoil-atelier
+- name: change_id
+  description: Sequential change identifier for this project.
+  example: co-001
+- name: date
+  description: Date raised (YYYY-MM-DD).
+  example: '2026-11-20'
+- name: requested_by
+  description: Role (not name) of the person requesting the change.
+  example: client decision-maker

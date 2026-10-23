@@ -1,0 +1,19 @@
+# Private win/loss review for one decided opportunity; method in growth/sales/win-loss.md.
+# Render with: bin/3w new win-loss --codename two-words --set outcome=won --set stage_reached=proposal
+kind: win-loss
+description: Private win/loss review filed within five working days of a decision, rendered into the vault.
+template: win-loss.md.tmpl
+target: "{vault}/growth/win-loss/{codename}-{date}.md"
+variables:
+  - name: codename
+    description: The opportunity's codename.
+    example: stillsoil-atelier
+  - name: date
+    description: Filled automatically with today's ISO date.
+    example: 2026-11-25
+  - name: outcome
+    description: won, lost, declined by studio, or closed after not yet.
+    example: won
+  - name: stage_reached
+    description: Highest pipeline stage reached.
+    example: proposal

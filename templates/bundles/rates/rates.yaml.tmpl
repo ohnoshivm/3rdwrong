@@ -1,0 +1,30 @@
+# PRIVATE — vault only. Studio rates effective {{date}}.
+# Format and meaning: business/pricing/rates-and-estimates.md (public repo).
+# Amounts exclude GST. Shares and margins are fractions (0.5 = 50%).
+currency_label: {{currency_label}}
+effective_from: "{{date}}"
+
+roles:
+  # cost_per_hour: what an hour costs the studio (collaborator fee, or the
+  #   founder's target pay for founder roles).
+  # rate_per_hour: standard sell rate used as the rate-card cross-check.
+  # external: true when the hour is paid in cash to a collaborator.
+  founder:            {cost_per_hour: 0, rate_per_hour: 0, external: false}
+  strategist:         {cost_per_hour: 0, rate_per_hour: 0, external: true}
+  designer:           {cost_per_hour: 0, rate_per_hour: 0, external: true}
+  creative-engineer:  {cost_per_hour: 0, rate_per_hour: 0, external: true}
+  frontend-engineer:  {cost_per_hour: 0, rate_per_hour: 0, external: true}
+  motion-designer:    {cost_per_hour: 0, rate_per_hour: 0, external: true}
+  producer:           {cost_per_hour: 0, rate_per_hour: 0, external: true}
+
+overhead_rate: 0      # studio overheads as a share of labour cost
+expense_markup: 0     # handling markup on pass-through expenses
+target_margin: 0.5    # placeholder, founder sets: GO at or above this gross margin
+floor_margin: 0.35    # placeholder, founder sets: below this: NO-GO; between floor and target: founder REVIEW
+tax_set_aside: 0      # share of every receipt moved to the tax account
+rounding: 1           # round derived prices up to this step
+
+payment_schedule:     # founder decision pending; shown: the founding blueprint's possible 50/30/20
+  - {milestone: Deposit on signature, share: 0.5}
+  - {milestone: Midpoint sign-off, share: 0.3}
+  - {milestone: Final acceptance, share: 0.2}

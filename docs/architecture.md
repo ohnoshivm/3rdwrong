@@ -3,7 +3,7 @@ title: Repository architecture
 type: guide
 status: proposed
 owner: founder
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 ---
 
 # Repository architecture
@@ -19,13 +19,17 @@ The repository is a version-controlled second brain for durable studio knowledge
 | `studio/` | Positioning, offer, philosophy, roadmap, and decision records. |
 | `methods/` | Engagement stages, quality practices, and the learning loop. |
 | `intelligence/` | Cited studies and transferable observations from public work. |
-| `taste/` | Curated aesthetic and experiential references; inspiration only, with no policy or offer change. |
+| `taste/` | Curated aesthetic and experiential references; inspiration only. |
+| `taste/graph/` | PostgreSQL migrations, public seeds, reference-pack guide and proposals; captured media and the database remain local outside Git (D-0020). |
 | `templates/` | Reusable starts for projects, research, learning, and critique. |
-| `skills/` | Five `3w-` experimental, structured AI workflows. |
+| `templates/bundles/` | CLI-rendered project, proposal, SOW and change-order records; studio content briefs and case studies; vault-only invoice, reviews, rates, estimates, discovery, outreach and win/loss records. |
+| `bin/` | `3w` workspace, vault and anonymity-check command wrapper. |
+| `skills/` | Six `3w-` experimental, structured AI workflows. |
 | `agents/` and `.claude/agents/` | Upstream MIT personas, pinned hashes and repo-level update instructions; excluded from knowledge indexing. |
-| `projects/` | Internal identity exploration and sanitised examples. |
+| `projects/` | Codenamed, contract-cleared anonymised client records (D-0021) and internal exploration; no client identities, money or files. |
 | `experiments/` | Explicit hypotheses and documented outcomes. |
-| `business/` | Proposed engagement operations. |
+| `growth/` | Qualification/discovery, content, outbound, proof, partnerships, advertising and acquisition metrics; named prospect records stay in the vault. |
+| `business/` | Pricing, proposals, legal/IP, finance, people and operating rhythm; monetary records remain in the vault. |
 | `schemas/` | Metadata rules and required repository paths. |
 | `scripts/` and `tests/` | Small maintenance tools and their checks. |
 | `docs/` | Onboarding, governance, workflows, and boundaries. |
@@ -44,4 +48,4 @@ The allowed metadata, review intervals, required paths, exemptions, and section 
 
 ## Deliberately not built
 
-This repository does not include a custom database, CMS, client portal, CRM, design-asset hosting service, automation platform, or generated case-study system. Those would add ongoing maintenance before the studio has a need for them. Private client operations remain outside this public repository.
+The Taste Graph uses a local PostgreSQL database outside Git. This repository does not host a CMS, client portal, CRM, design assets or a generated case-study system. Confidential client operations and all monetary records stay in the private vault; only contract-cleared anonymised project records enter the public tree.

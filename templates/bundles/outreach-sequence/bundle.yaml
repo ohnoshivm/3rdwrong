@@ -1,0 +1,19 @@
+# Private outreach sequence for one target account (L0); method in growth/outbound/README.md.
+# Render with: bin/3w new outreach-sequence --codename two-words --set channel=email --set country=IN
+kind: outreach-sequence
+description: Private, personalised outreach sequence and log for one target account, rendered into the vault.
+template: outreach-sequence.md.tmpl
+target: "{vault}/growth/outreach/{codename}.md"
+variables:
+  - name: codename
+    description: Codename assigned to the target account.
+    example: stillsoil-atelier
+  - name: date
+    description: Filled automatically with today's ISO date.
+    example: 2026-10-23
+  - name: channel
+    description: Primary channel — email, LinkedIn or Instagram DM.
+    example: email
+  - name: country
+    description: Recipient's country, to check the compliance rules that apply.
+    example: IN
