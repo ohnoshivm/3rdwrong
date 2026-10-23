@@ -30,6 +30,30 @@ sources:
   - title: "Award Site Teardowns"
     url: https://rickcreates.com/
     accessed: 2026-10-22
+  - title: "Scrolltide"
+    url: https://scrolltide.co
+    accessed: 2026-10-23
+  - title: "Navbar Gallery"
+    url: https://navbar.gallery
+    accessed: 2026-10-23
+  - title: "Footer Design"
+    url: https://footer.design
+    accessed: 2026-10-23
+  - title: "CTA Gallery"
+    url: https://cta.gallery
+    accessed: 2026-10-23
+  - title: "Refero Styles"
+    url: https://styles.refero.design
+    accessed: 2026-10-23
+  - title: "Supahero"
+    url: https://supahero.io
+    accessed: 2026-10-23
+  - title: "3dicons"
+    url: https://3dicons.co
+    accessed: 2026-10-23
+  - title: "Glass"
+    url: https://glass.samasante.com
+    accessed: 2026-10-23
 ---
 # Inspiration discovery sources
 
@@ -123,6 +147,58 @@ sources:
 ## Award Site Teardowns (rickcreates.com)
 
 See [Award Site Teardowns](award-site-teardowns.md), already documented as the source for structured analysis of concept, design, motion, engineering, scores, credits and reported page weight. Use that page for its evidence limits and original-site verification guidance; this page does not duplicate its analysis.
+
+## Resources (UI-pattern galleries and libraries, 2026-10-23)
+
+These directories are prompts for comparison. Follow examples to their original sites and judge them against the real task, audience, accessibility and responsive behaviour.
+
+### Scrolltide
+
+[Website](https://scrolltide.co)
+
+**Best for — Interpretation:** finding examples of scroll-led interaction and comparing how movement contributes to page structure.
+
+### Navbar Gallery
+
+[Website](https://navbar.gallery)
+
+**Best for — Interpretation:** comparing navigation patterns, especially how menus expose hierarchy and remain usable across screen sizes.
+
+### Footer Design
+
+[Website](https://footer.design)
+
+**Best for — Interpretation:** studying footer composition, information grouping and the closing moment of a page.
+
+### CTA Gallery
+
+[Website](https://cta.gallery)
+
+**Best for — Interpretation:** comparing calls to action by placement, visual emphasis and the amount of context that precedes them.
+
+### Refero Styles
+
+[Website](https://styles.refero.design)
+
+**Best for — Interpretation:** browsing interface-style references and identifying how colour, type and component treatment work together.
+
+### Supahero
+
+[Website](https://supahero.io)
+
+**Best for — Interpretation:** scanning hero-section approaches and comparing how headline, image and action establish the first read.
+
+### 3dicons
+
+[Website](https://3dicons.co)
+
+**Best for — Interpretation:** exploring a 3D icon library for material and lighting references; use it to study craft, not to reuse its assets without permission.
+
+### Glass
+
+[Website](https://glass.samasante.com)
+
+**Best for — Interpretation:** observing glass-like material treatment in a focused visual study, then testing whether that material communicates the intended idea.
 
 ## Cross-source cautions
 

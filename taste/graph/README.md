@@ -15,7 +15,7 @@ cd ~/3rdwrong
 uv run scripts/taste_graph.py init --seed
 ```
 
-`init` creates the `taste_graph` database, applies the schema, loads the seed (the 37 swipe-file entries, studio benchmarks, discovery sources, 9 principles and 13 anti-patterns) and reports what it found. Running it again is safe: it only adds what is missing. Web screenshots use `playwright-cli`, which is already installed.
+`init` creates the `taste_graph` database, applies the schema, loads the seed (the existing 37 swipe-file entries plus 16 research additions, studio benchmarks, discovery sources, 9 principles and 13 anti-patterns) and reports what it found. Running it again is safe: it only adds what is missing. Web screenshots use `playwright-cli`, which is already installed.
 
 Optional settings (set them in your shell only if you want to change the defaults):
 

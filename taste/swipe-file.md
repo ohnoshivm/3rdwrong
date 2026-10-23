@@ -141,6 +141,30 @@ sources:
   - title: "Oryzo AI teardown"
     url: https://rickcreates.com/r/2026-04-13-oryzo-ai
     accessed: 2026-10-22
+  - title: "Wieden+Kennedy"
+    url: https://www.wk.com/
+    accessed: 2026-10-23
+  - title: "Mother London"
+    url: https://www.motherlondon.com/
+    accessed: 2026-10-23
+  - title: "Mischief"
+    url: https://www.mischiefusa.com/
+    accessed: 2026-10-23
+  - title: "VaynerMedia"
+    url: https://vaynermedia.com/
+    accessed: 2026-10-23
+  - title: "Collins"
+    url: https://www.wearecollins.com/
+    accessed: 2026-10-23
+  - title: "DixonBaxi"
+    url: https://dixonbaxi.com/
+    accessed: 2026-10-23
+  - title: "Gretel"
+    url: https://gretelny.com/
+    accessed: 2026-10-23
+  - title: "Koto"
+    url: https://koto.studio/
+    accessed: 2026-10-23
 ---
 # 3RDWRONG — World-Class Website Swipe File
 
@@ -333,6 +357,62 @@ Already covered in [Studio websites](studio-websites.md#lucerrá); this master l
 [Website](https://bunqlabs.com/) · [Studio website study](studio-websites.md#bunq-labs)
 
 Already covered in [Studio websites](studio-websites.md#bunq-labs); this master list does not repeat its detail.
+
+## Research additions (2026-10-23)
+
+The entries below are new references from a studio research pass. Use the transferable question as a prompt, not as a direction to reproduce the site's expression.
+
+### Advertising agencies and culture
+
+#### Wieden+Kennedy
+
+[Website](https://www.wk.com/)
+
+**What to study — Interpretation:** how taste-led work can be presented as part of a wider cultural point of view, with the work itself carrying the agency's character.
+
+#### Mother London
+
+[Website](https://www.motherlondon.com/)
+
+**What to study — Interpretation:** how an attitude-first voice can make an agency recognisable before its services are listed.
+
+#### Mischief
+
+[Website](https://www.mischiefusa.com/)
+
+**What to study — Interpretation:** how an earned-media idea can be designed to travel beyond its first placement; inspect the relationship between the stunt, the story and the audience's retelling.
+
+#### VaynerMedia
+
+[Website](https://vaynermedia.com/)
+
+**What to study — Interpretation:** social-first distribution at scale as an operating model. **Avoid:** treating volume and channel presence as a substitute for a distinctive, ownable point of view.
+
+### Brand systems and studios
+
+#### Collins
+
+[Website](https://www.wearecollins.com/)
+
+**What to study — Interpretation:** how editorial selection and art direction can connect brand strategy to a legible experience across touchpoints.
+
+#### DixonBaxi
+
+[Website](https://dixonbaxi.com/)
+
+**What to study — Interpretation:** how a brand system can be built to move across broadcast, screen and other media while retaining a recognisable core.
+
+#### Gretel
+
+[Website](https://gretelny.com/)
+
+**What to study — Interpretation:** how identity systems for networks and streaming services make a broad content offer feel coherent across programmes and formats.
+
+#### Koto
+
+[Website](https://koto.studio/)
+
+**What to study — Interpretation:** how a studio presents brand and digital work for a varied, international portfolio without losing a clear point of view.
 
 ## Tier 3 — Best websites to discover more references
 

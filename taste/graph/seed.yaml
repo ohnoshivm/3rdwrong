@@ -436,6 +436,136 @@ nodes:
     title: "Bruno Simon"
     url: "https://bruno-simon.com/"
 
+  # ---- Research additions (2026-10-23): new swipe references and discovery resources
+  - type: asset
+    title: "Wieden+Kennedy"
+    kind: website
+    url: "https://www.wk.com/"
+    status: curated
+    tags: [research-2026-10-23, advertising-agency]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study taste-led advertising and how a portfolio can express a wider cultural point of view."
+  - type: asset
+    title: "Mother London"
+    kind: website
+    url: "https://www.motherlondon.com/"
+    status: curated
+    tags: [research-2026-10-23, advertising-agency]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study how an attitude-first voice can make an agency recognisable before its services are listed."
+  - type: asset
+    title: "Mischief"
+    kind: website
+    url: "https://www.mischiefusa.com/"
+    status: curated
+    tags: [research-2026-10-23, advertising-agency]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study how an earned-media idea is designed to travel through a clear story and audience retelling."
+  - type: asset
+    title: "VaynerMedia"
+    kind: website
+    url: "https://vaynermedia.com/"
+    status: curated
+    tags: [research-2026-10-23, advertising-agency]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study social-first distribution at scale. Avoid treating volume and channel presence as a substitute for a distinctive, ownable point of view."
+  - type: asset
+    title: "Collins"
+    kind: website
+    url: "https://www.wearecollins.com/"
+    status: curated
+    tags: [research-2026-10-23, brand-studio]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study how editorial selection and art direction connect brand strategy to a legible experience across touchpoints."
+  - type: asset
+    title: "DixonBaxi"
+    kind: website
+    url: "https://dixonbaxi.com/"
+    status: curated
+    tags: [research-2026-10-23, brand-studio]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study how a brand system moves across broadcast, screen and other media while retaining a recognisable core."
+  - type: asset
+    title: "Gretel"
+    kind: website
+    url: "https://gretelny.com/"
+    status: curated
+    tags: [research-2026-10-23, brand-studio]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study how identity systems for networks and streaming services create coherence across programmes and formats."
+  - type: asset
+    title: "Koto"
+    kind: website
+    url: "https://koto.studio/"
+    status: curated
+    tags: [research-2026-10-23, brand-studio]
+    source: "taste/swipe-file.md#research-additions-2026-10-23"
+    body: "Study how a studio presents brand and digital work for a varied international portfolio without losing a clear point of view."
+  - type: asset
+    title: "Scrolltide"
+    kind: website
+    url: "https://scrolltide.co"
+    status: curated
+    tags: [research-2026-10-23, ui-pattern-gallery]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Find examples of scroll-led interaction and compare how movement contributes to page structure."
+  - type: asset
+    title: "Navbar Gallery"
+    kind: website
+    url: "https://navbar.gallery"
+    status: curated
+    tags: [research-2026-10-23, ui-pattern-gallery]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Compare navigation patterns and how menus expose hierarchy across screen sizes."
+  - type: asset
+    title: "Footer Design"
+    kind: website
+    url: "https://footer.design"
+    status: curated
+    tags: [research-2026-10-23, ui-pattern-gallery]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Study footer composition, information grouping and the closing moment of a page."
+  - type: asset
+    title: "CTA Gallery"
+    kind: website
+    url: "https://cta.gallery"
+    status: curated
+    tags: [research-2026-10-23, ui-pattern-gallery]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Compare calls to action by placement, visual emphasis and the context that precedes them."
+  - type: asset
+    title: "Refero Styles"
+    kind: website
+    url: "https://styles.refero.design"
+    status: curated
+    tags: [research-2026-10-23, interface-reference-library]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Browse interface-style references and identify how colour, type and component treatment work together."
+  - type: asset
+    title: "Supahero"
+    kind: website
+    url: "https://supahero.io"
+    status: curated
+    tags: [research-2026-10-23, ui-pattern-gallery]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Compare how hero-section headlines, images and actions establish the first read."
+  - type: asset
+    title: "3dicons"
+    kind: website
+    url: "https://3dicons.co"
+    status: curated
+    tags: [research-2026-10-23, 3d-icon-library]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Explore a 3D icon library for material and lighting references; do not reuse its assets without permission."
+  - type: asset
+    title: "Glass"
+    kind: website
+    url: "https://glass.samasante.com"
+    status: curated
+    tags: [research-2026-10-23, material-study]
+    source: "taste/discovery-sources.md#resources-ui-pattern-galleries-and-libraries-2026-10-23"
+    body: "Observe glass-like material treatment in a focused visual study and test whether the material communicates the intended idea."
+
 edges:
   # Do/Don't pairs
   - src: "pattern:weak-default-typography"
