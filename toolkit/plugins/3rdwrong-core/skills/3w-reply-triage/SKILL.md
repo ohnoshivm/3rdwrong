@@ -30,6 +30,8 @@ Do not use for inbound enquiries (they go straight to the pipeline as L0 leads) 
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/outbound/outreach-sequences/skill--3w-reply-triage.md) records routing, invocation and independent checks.
+
 Read the [outbound system](../../growth/outbound/README.md#5-reply-handling) reply table, [compliance basics](../../growth/outbound/compliance.md), [pipeline](../../growth/sales/pipeline.md) and [growth metrics](../../growth/metrics.md).
 
 ## Procedure

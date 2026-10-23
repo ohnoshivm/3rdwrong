@@ -32,6 +32,8 @@ Do not use for live client service during a project (`agency:customer-service`) 
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/production/handover-retention/skill--3w-care-retention.md) records routing, invocation and independent checks.
+
 Read [handover and care](../../methods/handover-and-care.md), [10 Care and iteration](../../methods/digital-experience/10-care-and-iteration.md), the [lifecycle](../../methods/lifecycle.md) L7–L9 stages, [testimonials](../../growth/proof/testimonials.md), [partnerships and referrals](../../growth/partnerships-and-referrals.md#referral-asks-l9) and [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md).
 
 ## Procedure

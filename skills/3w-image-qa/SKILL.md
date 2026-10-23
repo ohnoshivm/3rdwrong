@@ -31,6 +31,8 @@ Do not use to make or select images. Do not use as a brand-wide guideline audit;
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/media/image-photo-direction/skill--3w-image-qa.md) records routing, invocation and independent checks.
+
 Read [IP and licensing](../../business/legal/ip-and-licensing.md), [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md), [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md), [final-delivery checklist](../../methods/quality/final-delivery-checklist.md) and [web standards](../../methods/quality/web-standards.md#weight-budgets).
 
 ## Procedure

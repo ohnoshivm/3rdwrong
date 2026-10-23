@@ -3166,6 +3166,18 @@
     "package": "pack-21st-dev-magic-mcp-isc",
     "source": "toolkit/vendor/pack-21st-dev-magic-mcp-isc/skills/21st-ui"
   },
+  "skill:3w-awards-submission": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-awards-submission"
+  },
+  "skill:3w-behavioural-lens": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-behavioural-lens"
+  },
   "skill:3w-brand-consistency-qa": {
     "distribution": "vendor",
     "kind": "skill",
@@ -3178,11 +3190,29 @@
     "package": "pack-founder-3rdwrong-skills",
     "source": "skills/3w-brand-discovery"
   },
+  "skill:3w-care-retention": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-care-retention"
+  },
   "skill:3w-category-code-audit": {
     "distribution": "vendor",
     "kind": "skill",
     "package": "pack-founder-3rdwrong-skills",
     "source": "skills/3w-category-code-audit"
+  },
+  "skill:3w-colour-system": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-colour-system"
+  },
+  "skill:3w-composition-system": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-composition-system"
   },
   "skill:3w-creative-direction": {
     "distribution": "vendor",
@@ -3190,11 +3220,83 @@
     "package": "pack-founder-3rdwrong-skills",
     "source": "skills/3w-creative-direction"
   },
+  "skill:3w-demo-publishing": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-demo-publishing"
+  },
+  "skill:3w-effect-study": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-effect-study"
+  },
+  "skill:3w-engine-validation": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-engine-validation"
+  },
   "skill:3w-identity-system-critic": {
     "distribution": "vendor",
     "kind": "skill",
     "package": "pack-founder-3rdwrong-skills",
     "source": "skills/3w-identity-system-critic"
+  },
+  "skill:3w-image-production": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-image-production"
+  },
+  "skill:3w-image-qa": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-image-qa"
+  },
+  "skill:3w-labs-benchmark": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-labs-benchmark"
+  },
+  "skill:3w-mark-exploration": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-mark-exploration"
+  },
+  "skill:3w-narrative-analysis": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-narrative-analysis"
+  },
+  "skill:3w-prospect-qualification": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-prospect-qualification"
+  },
+  "skill:3w-reply-triage": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-reply-triage"
+  },
+  "skill:3w-taste-graph": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-taste-graph"
+  },
+  "skill:3w-typography-system": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-typography-system"
   },
   "skill:access-protected-vercel-deployment": {
     "distribution": "vendor",

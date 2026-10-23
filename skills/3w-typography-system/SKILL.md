@@ -34,6 +34,8 @@ Do not use before a route exists, to pick a font by mood, or to tune an existing
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/design/identity-craft/skill--3w-typography-system.md) records routing, invocation and independent checks.
+
 Read [phase 05 Identity](../../methods/identity-engagement/05-identity.md), [identity system testing](../../methods/quality/identity-system-testing.md), the [final delivery checklist](../../methods/quality/final-delivery-checklist.md), the [creative guardrails](../../methods/creative-guardrails.md) (rule 3 and rule 5) and the typography section of the [identity system specification](../../templates/identity-systems/identity-system-spec.md). Licence documents come from the foundry or distributor. Font-inspection and subsetting can use free tools (for example `fonttools`); no paid tool is required by this skill.
 
 ## Procedure

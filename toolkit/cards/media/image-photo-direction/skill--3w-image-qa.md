@@ -19,7 +19,7 @@ pairs_with: [skill:3w-image-production, skill:3w-brand-consistency-qa]
 ---
 # Image QA
 
-The studio's lead tool for image quality checks: the independent rights, likeness, AI-consent, fit, technical and accessibility gate before release. Proposed lead; the registry change is pending.
+The studio's lead tool for image quality checks: the independent rights, likeness, AI-consent, fit, technical and accessibility gate before release. Registered job lead; the skill remains experimental.
 
 ## What it does
 

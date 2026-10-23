@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/marketing.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **98/98 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **99/99 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Content social
 
@@ -125,6 +125,10 @@ Card coverage: **98/98 (100.0%)** lead/specialist tools. Start with the lead; ma
 - **Lead:** [`skill:social-quality-auditor`](../toolkit/cards/marketing/content-social/skill--social-quality-auditor.md) — Social Quality Auditor is the lead tool for social-quality at 3RDWRONG.
 
 ## Pr awards
+
+### Awards submissions
+
+- **Lead:** [`skill:3w-awards-submission`](../toolkit/cards/marketing/pr-awards/skill--3w-awards-submission.md) — The studio's lead tool for awards submissions: fit check, permission, free-only rule (D-0024), checklist, entry text and results log.
 
 ### Earned media
 

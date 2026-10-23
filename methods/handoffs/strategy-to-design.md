@@ -23,7 +23,7 @@ Strategy hands Design a signed direction that concept work can be judged against
 - [ ] Creative criteria, each phrased so a route can pass or fail it.
 - [ ] What the identity or experience must say, enable and avoid; promise boundaries.
 - [ ] Hypotheses concepts may illustrate but cannot resolve; open questions with owners.
-- [ ] Strategy / culture-behaviour records from `skill:3w-behavioural-lens` or `skill:3w-narrative-analysis` where a behavioural mechanism or sourced story changes the direction; primary sources and limits included.
+- [ ] Strategy / culture-behaviour records from [`skill:3w-behavioural-lens`](../../toolkit/cards/strategy/culture-behaviour/skill--3w-behavioural-lens.md) or [`skill:3w-narrative-analysis`](../../toolkit/cards/strategy/culture-behaviour/skill--3w-narrative-analysis.md) where a behavioural mechanism or sourced story changes the direction; primary sources and limits included.
 - [ ] Pre-client `evidence-synthesis` and `positioning-canvas` case results from `evals/cases/strategy/`, plus independent judgement and human spot-check, or an explicit unresolved quality gap.
 - [ ] Audience tasks and success criteria (Digital Experience, from DX-01).
 - [ ] Constraints: scripts and languages, channels, production limits, licences known so far.

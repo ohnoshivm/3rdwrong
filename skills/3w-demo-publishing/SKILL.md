@@ -31,12 +31,14 @@ Do not use for client launches or client case studies; use the [launch-readiness
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/labs/open-source-showcase/skill--3w-demo-publishing.md) records routing, invocation and independent checks.
+
 Read [IP and licensing](../../business/legal/ip-and-licensing.md) (open source, stock, AI-generated assets), [licensing model D-0009](../../studio/decisions/0009-licensing-model.md) and [LICENSING.md](../../LICENSING.md), [public-private boundary](../../docs/public-private-boundary.md), [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md), [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) and [web standards](../../methods/quality/web-standards.md).
 
 ## Procedure
 
 1. **Provenance.** Confirm the work is Labs-originated. Search code, assets, commit history and screenshots for client names, codenames, client files or personal data. Any hit blocks publication.
-2. **Licence.** Choose the outbound licence under D-0009 (proposed: MIT for experimental code; documentation under the docs licence) and record that the licensing proposal is pending founder confirmation where it still is. Check every dependency and asset licence is compatible; list notices to keep.
+2. **Licence.** Apply approved D-0009: MIT for original code and CC BY 4.0 for original documentation, methods and skills; reserve trademarks and brand assets, and retain third-party rights and notices. Check every dependency and asset licence is compatible; list notices to keep.
 3. **Third-party assets.** Fonts must allow web embedding and redistribution in the repository, or be loaded from a permitted source. Images, models and datasets need a licence that permits public redistribution. Unknown means remove.
 4. **AI disclosure.** State which parts used AI tools and how they were edited. Do not publish AI-generated material as the studio's own craft without saying so.
 5. **Performance and access.** Run the demo against the D-0023 budget and the reduced-motion and no-WebGL paths; check keyboard access and text alternatives. Record numbers with tool, device and date.
@@ -54,7 +56,7 @@ Licence findings cite the licence file or terms page with access date. Performan
 # Demo publication record: {{demo}}
 
 **Public location:** {{URL or repository}} · **Version:** {{tag}}
-**Outbound licence:** {{licence}} · **D-0009 status:** {{confirmed | pending}}
+**Outbound licence:** {{licence}} · **D-0009:** approved studio licensing model; record any proposed exception for founder review
 
 | Check | Result | Evidence |
 | --- | --- | --- |

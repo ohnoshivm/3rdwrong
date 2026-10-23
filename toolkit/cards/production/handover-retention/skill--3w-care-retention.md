@@ -19,7 +19,7 @@ pairs_with: [agency:customer-success-manager, skill:writing-release-notes, skill
 ---
 # Care and retention
 
-The studio's lead tool for retention programmes: warranty closure, care plans, care reviews, check-ins and once-only testimonial and referral asks. Proposed lead; the registry change is pending.
+The studio's lead tool for retention programmes: warranty closure, care plans, care reviews, check-ins and once-only testimonial and referral asks. Registered job lead; the skill remains experimental.
 
 ## What it does
 

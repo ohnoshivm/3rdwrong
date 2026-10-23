@@ -31,6 +31,8 @@ Do not use as a project's performance gate; that is `skill:3w-engine-validation`
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/labs/experiments/skill--3w-labs-benchmark.md) records routing, invocation and independent checks.
+
 Read the [experiment template](../../templates/learning/experiment.md), the [experiments guide](../../experiments/README.md) and, for web metrics, [web standards](../../methods/quality/web-standards.md). Statistical challenge may use `agency:academic-statistician`. No paid tool is required; a tool that cannot run is recorded as not run.
 
 ## Procedure

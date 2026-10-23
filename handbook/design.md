@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/design.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **174/174 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **179/179 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Design qa
 
@@ -161,6 +161,8 @@ Card coverage: **174/174 (100.0%)** lead/specialist tools. Start with the lead; 
 - **Lead:** [`skill:taste-skill`](../toolkit/cards/design/direction/skill--taste-skill.md) — The inspiration-taste lead for subject-specific digital direction, image planning and measured browser review.
 - **Specialist:** [`mcp:mobbin`](../toolkit/cards/design/direction/mcp--mobbin.md) — A declared Mobbin MCP endpoint for interface reference work; server capabilities are not documented in the available declaration.
   Trigger: A digital interaction question needs source-backed interface reference research; record it under taste/.
+- **Specialist:** [`skill:3w-taste-graph`](../toolkit/cards/design/direction/skill--3w-taste-graph.md) — The studio's prerequisite for creative output: retrieve curated principles, exemplars and anti-patterns for the actual brief before making work.
+  Trigger: Before any creative-output task, load a Taste Graph reference pack for the brief (AGENTS.md; D-0020).
 - **Specialist:** [`skill:brutalist-skill`](../toolkit/cards/design/direction/skill--brutalist-skill.md) — A specialist aesthetic system for deliberately industrial, brutalist digital interfaces.
   Trigger: When the approved scope specifically requires exploring or applying the aesthetic system described by this skill.
 - **Specialist:** [`skill:daily-ui-inspiration-capture`](../toolkit/cards/design/direction/skill--daily-ui-inspiration-capture.md) — A workflow specialist for packaging dated UI inspiration references with local evidence and prompts.
@@ -296,15 +298,13 @@ Card coverage: **174/174 (100.0%)** lead/specialist tools. Start with the lead; 
 
 ### Colour
 
-No lead is assigned in the registry; agree a human owner before starting.
-
+- **Lead:** [`skill:3w-colour-system`](../toolkit/cards/design/identity-craft/skill--3w-colour-system.md) — The studio's lead tool for brand colour: roles, accessible pairings, colour-vision screening, light and dark behaviour, print proofs and tokens, tested across applications.
 - **Specialist:** [`vectorlab-ux-skills:colour-palette`](../toolkit/cards/design/identity-craft/vectorlab-ux-skills--colour-palette.md) — The Colour Palette is a specialist for colour in 3RDWRONG’s identity-craft work.
   Trigger: A digital palette needs role/distribution checks after the human colour direction is approved.
 
 ### Composition layout
 
-No lead is assigned in the registry; agree a human owner before starting.
-
+- **Lead:** [`skill:3w-composition-system`](../toolkit/cards/design/identity-craft/skill--3w-composition-system.md) — The studio's lead tool for brand-wide composition: invariants, variables, grids and hierarchy rules that hold across digital, print, social, environmental and motion formats.
 - **Specialist:** [`design-skills:design-elevation`](../toolkit/cards/design/identity-craft/design-skills--design-elevation.md) — The Design Elevation is a specialist for composition and layout in 3RDWRONG’s identity-craft work.
   Trigger: The concept is already approved and a bounded artefact needs formal hierarchy and craft refinement.
 - **Specialist:** [`figma:figma-create-new-file`](../toolkit/cards/design/identity-craft/figma--figma-create-new-file.md) — The Figma Create New File is a specialist for composition and layout in 3RDWRONG’s identity-craft work.
@@ -400,6 +400,10 @@ No lead is assigned in the registry; agree a human owner before starting.
 - **Specialist:** [`skill:solar-duotone-bold`](../toolkit/cards/design/identity-craft/skill--solar-duotone-bold.md) — The Solar Duotone Bold is a specialist for image-generation direction in 3RDWRONG’s identity-craft work.
   Trigger: When the approved scope specifically requires use when the task specifically needs use iconify solar duotone bold icon style.
 
+### Mark logo
+
+- **Lead:** [`skill:3w-mark-exploration`](../toolkit/cards/design/identity-craft/skill--3w-mark-exploration.md) — The studio's lead tool for mark and logo work: from an idea written without visual adjectives to a tested, production-ready vector family.
+
 ### Presentation
 
 - **Lead:** [`anthropic-skills:pptx`](../toolkit/cards/design/identity-craft/anthropic-skills--pptx.md) — The PowerPoint is 3RDWRONG’s lead for presentation.
@@ -416,7 +420,9 @@ No lead is assigned in the registry; agree a human owner before starting.
 
 ### Typography
 
-- **Lead:** [`agent:visual-designer`](../toolkit/cards/design/identity-craft/agent--visual-designer.md) — The Visual Designer is 3RDWRONG’s lead for typography.
+- **Lead:** [`skill:3w-typography-system`](../toolkit/cards/design/identity-craft/skill--3w-typography-system.md) — The studio's lead tool for brand typography: type chosen against the idea, licensed for every medium, shaped correctly in every required script and fast on the web.
+- **Specialist:** [`agent:visual-designer`](../toolkit/cards/design/identity-craft/agent--visual-designer.md) — The Visual Designer converts an approved brand type and colour system into digital tokens, a type ramp, a measured contrast table and a grid specification.
+  Trigger: An approved brand type and colour system must be converted into digital tokens, a type ramp, measured contrast table and grid specification for a build.
 - **Specialist:** [`vectorlab-ux-skills:typography`](../toolkit/cards/design/identity-craft/vectorlab-ux-skills--typography.md) — The Typography is a specialist for typography in 3RDWRONG’s identity-craft work.
   Trigger: A supplied digital type hierarchy has a scale, weight or line-height defect.
 

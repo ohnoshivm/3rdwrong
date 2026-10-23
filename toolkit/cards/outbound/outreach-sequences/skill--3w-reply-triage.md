@@ -19,7 +19,7 @@ pairs_with: [skill:3w-prospect-qualification, agency:sales-outreach, skill:engag
 ---
 # Reply triage
 
-The studio's lead tool for reply triage: every outbound reply classified, answered within a working day, opt-outs honoured the same day. Proposed lead; the registry change is pending.
+The studio's lead tool for reply triage: every outbound reply classified, answered within a working day, opt-outs honoured the same day. Registered job lead; the skill remains experimental.
 
 ## What it does
 

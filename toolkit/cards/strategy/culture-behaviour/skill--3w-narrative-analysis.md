@@ -19,7 +19,7 @@ pairs_with: [skill:3w-brand-discovery, agency:academic-historian, skill:category
 ---
 # Narrative analysis
 
-The studio's lead tool for narrative analysis: sourced brand, founder, customer and cultural stories, tested before the identity carries them. Proposed lead; the registry change is pending.
+The studio's lead tool for narrative analysis: sourced brand, founder, customer and cultural stories, tested before the identity carries them. Registered job lead; the skill remains experimental.
 
 ## What it does
 

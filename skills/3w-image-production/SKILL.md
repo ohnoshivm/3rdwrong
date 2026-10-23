@@ -31,6 +31,8 @@ Do not use to invent the image direction; that is art direction (`skill:ceos-art
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/media/image-photo-direction/skill--3w-image-production.md) records routing, invocation and independent checks.
+
 Read [IP and licensing](../../business/legal/ip-and-licensing.md) (stock and third-party content; AI-generated assets), [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) AI use, [03 Art direction and design system](../../methods/digital-experience/03-art-direction-and-design-system.md), [web standards](../../methods/quality/web-standards.md#weight-budgets) image budgets and [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md). Generation tools: `skill:imagegen` (lead for brand image assets).
 
 ## Procedure

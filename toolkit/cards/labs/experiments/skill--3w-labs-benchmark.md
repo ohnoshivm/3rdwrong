@@ -19,7 +19,7 @@ pairs_with: [agency:academic-statistician, skill:3w-engine-validation]
 ---
 # Labs benchmark
 
-The studio's lead tool for research benchmarks: a reproducible comparison of techniques, libraries, models or workflows tied to a real decision. Proposed lead; the registry change is pending.
+The studio's lead tool for research benchmarks: a reproducible comparison of techniques, libraries, models or workflows tied to a real decision. Registered job lead; the skill remains experimental.
 
 ## What it does
 

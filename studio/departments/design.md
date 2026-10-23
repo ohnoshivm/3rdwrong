@@ -21,7 +21,7 @@ Decide concept, identity and experience intent; own WHAT and WHY with independen
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-246 tools; 23 lead, 151 specialist, 71 bench, 1 parked, 0 excluded; 174 active / 72 library.
+251 tools; 26 lead, 153 specialist, 71 bench, 1 parked, 0 excluded; 179 active / 72 library.
 
 ## Sub-departments → jobs → leads
 
@@ -39,10 +39,10 @@ Status: proposed registry routing. Source review does not establish live tool pe
 
 | Job | Lead(s) |
 | --- | --- |
-| `typography` | `agent:visual-designer` |
-| `colour` | **gap** — Colour-system and contrast support exists, but no reviewed tool owns perception-aware colour decisions plus real material/print proofing; human colour/craft owner needed. |
-| `mark-logo` | **gap** — No source-reviewed method owns distinctive mark exploration, optical correction, small-size testing and production-ready vector approval; human identity specialist needed. |
-| `composition-layout` | **gap** — UI layout presets and critique rubrics exist, but no reviewed tool owns brand-wide composition across digital, print and environmental formats; a human identity composition owner is missing. |
+| `typography` | `skill:3w-typography-system` |
+| `colour` | `skill:3w-colour-system` |
+| `mark-logo` | `skill:3w-mark-exploration` |
+| `composition-layout` | `skill:3w-composition-system` |
 | `image-generation-direction` | `anthropic-skills:gpt-image-2-director` |
 | `design-system-guidelines` | `design-skills:design-systems` |
 | `handover-specs` | `design:design-handoff` |
@@ -224,6 +224,8 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | `vectorlab-ux-skills:ux-audit` | `design-qa/ux-audit` | A supplied digital interface explicitly adopts the VectorLab rules and needs its independent preflight. |
 | `vectorlab-ux-skills:verbs` | `experience-design/ux-writing` | An approved interface needs verb-first action labels. |
 | `vectorlab-ux-skills:viewports` | `design-qa/visual-qa-browser` | A supplied layout overflows or loses usability between 375px and 1280px. |
+| `agent:visual-designer` | `identity-craft/typography` | An approved brand type and colour system must be converted into digital tokens, a type ramp, measured contrast table and grid specification for a build. |
+| `skill:3w-taste-graph` | `direction/inspiration-taste` | Before any creative-output task, load a Taste Graph reference pack for the brief (AGENTS.md; D-0020). |
 
 ## Bench and parked summary
 
@@ -235,16 +237,15 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `identity-craft/colour` — Colour-system and contrast support exists, but no reviewed tool owns perception-aware colour decisions plus real material/print proofing; human colour/craft owner needed.
-- `identity-craft/mark-logo` — No source-reviewed method owns distinctive mark exploration, optical correction, small-size testing and production-ready vector approval; human identity specialist needed.
-- `identity-craft/composition-layout` — UI layout presets and critique rubrics exist, but no reviewed tool owns brand-wide composition across digital, print and environmental formats; a human identity composition owner is missing.
+Experimental craft leads now cover colour, mark-logo and composition-layout.
+Human approval remains mandatory; [delivery subjob gaps](registry-summary.md#designengineering-lead-gaps) cover export/archive coordination, physical proofing and fluent native-language verification.
 
 ## Counts by sub-department and role
 
 | Sub-department | Lead | Specialist | Bench | Parked | Excluded | Active | Library | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| direction | 6 | 20 | 5 | 0 | 0 | 26 | 5 | 31 |
-| identity-craft | 5 | 48 | 34 | 0 | 0 | 53 | 34 | 87 |
+| direction | 6 | 21 | 5 | 0 | 0 | 27 | 5 | 32 |
+| identity-craft | 8 | 49 | 34 | 0 | 0 | 57 | 34 | 91 |
 | experience-design | 5 | 42 | 28 | 1 | 0 | 47 | 29 | 76 |
 | design-qa | 7 | 41 | 4 | 0 | 0 | 48 | 4 | 52 |
 

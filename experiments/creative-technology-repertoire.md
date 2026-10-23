@@ -26,20 +26,19 @@ what changed. Pick the smallest stack through the policy and record a preferred
 approach plus two alternatives before coding. Prototype the riskiest interaction
 first. A valid result may be iterate or drop.
 
-**Documented** — Four proposed Labs lead skills were read in the sibling
-gap-closer worktree on 2026-10-23. They are not on this branch's main baseline
-or registry; these are pending code-formatted paths, not active registry IDs:
+**Documented** — Four experimental Labs lead skills are integrated and registered.
+Read each source method and its linked card before the matching study step:
 
-- `skills/3w-effect-study/SKILL.md`: study and isolate a technique with provenance.
-- `skills/3w-labs-benchmark/SKILL.md`: compare two options on a fixed fixture,
+- [`skills/3w-effect-study/SKILL.md`](../skills/3w-effect-study/SKILL.md): study and isolate a technique with provenance.
+- [`skills/3w-labs-benchmark/SKILL.md`](../skills/3w-labs-benchmark/SKILL.md): compare two options on a fixed fixture,
   at least five alternating runs per environment; report median and spread.
-- `skills/3w-engine-validation/SKILL.md`: a different engineer validates an
+- [`skills/3w-engine-validation/SKILL.md`](../skills/3w-engine-validation/SKILL.md): a different engineer validates an
   original reusable kit, its API, licences, clean install and degradation.
-- `skills/3w-demo-publishing/SKILL.md`: check rights, data, disclosure, evidence
+- [`skills/3w-demo-publishing/SKILL.md`](../skills/3w-demo-publishing/SKILL.md): check rights, data, disclosure, evidence
   and founder approval before publication.
 
-Until integrated, a named human Labs owner applies their reviewed procedures;
-do not claim that the skills are installed, active or a completed handoff.
+A named human Labs owner checks prerequisites before applying the methods;
+registration does not establish execution or a completed handoff.
 Maker and checker are separate. Founder review decides house-engine adoption
 and publication. Do not run the publishing step as part of studying a reference.
 

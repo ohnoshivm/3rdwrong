@@ -40,7 +40,7 @@ Validated work moves to Production to be packaged, released and handed to the cl
 - [ ] Every delivered file opens; versions match the sign-offs.
 - [ ] No client-owned infrastructure is left with the studio as its only owner.
 - [ ] Operations confirms the final 20% payment before release of final files (D-0023); invoice and payment evidence stay in the vault. An unpaid final invoice is not release authority without a written founder variation.
-- [ ] All image finals passed independent `skill:3w-image-qa`; unknown rights or AI-final consent block release. This is separate from layout/brand consistency QA.
+- [ ] All image finals passed independent [`skill:3w-image-qa`](../../toolkit/cards/media/image-photo-direction/skill--3w-image-qa.md); unknown rights or AI-final consent block release. This is separate from layout/brand consistency QA.
 
 ## Return conditions
 
@@ -48,7 +48,7 @@ Return to the maker when a file fails to open, a version does not match its sign
 
 ## Exit
 
-`C1` confirms final acceptance and, separately, receipt and access; both are recorded in `decisions.md` and `handover.md`. Receipt is not a new creative approval. Record the 30-day warranty start at launch, or final acceptance when there is no launch, and the end date. `skill:3w-care-retention` routes the care conversation, issue channel and eventual access removal.
+`C1` confirms final acceptance and, separately, receipt and access; both are recorded in `decisions.md` and `handover.md`. Receipt is not a new creative approval. Record the 30-day warranty start at launch, or final acceptance when there is no launch, and the end date. [`skill:3w-care-retention`](../../toolkit/cards/production/handover-retention/skill--3w-care-retention.md) routes the care conversation, issue channel and eventual access removal.
 
 ## Record
 

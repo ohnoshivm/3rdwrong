@@ -13,7 +13,7 @@ Run non-client experiments, develop reusable house technology, and publish open-
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-61 tools; 5 lead, 0 specialist, 7 bench, 49 parked, 0 excluded; 5 active / 56 library.
+65 tools; 9 lead, 0 specialist, 7 bench, 49 parked, 0 excluded; 9 active / 56 library.
 
 ## Sub-departments → jobs → leads
 
@@ -21,9 +21,9 @@ Status: proposed registry routing. Source review does not establish live tool pe
 
 | Job | Lead(s) |
 | --- | --- |
-| `effect-studies` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `effect-studies` | `skill:3w-effect-study` |
 | `playable-prototypes` | `skill:master-of-games` |
-| `research-benchmarks` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `research-benchmarks` | `skill:3w-labs-benchmark` |
 
 ### house-engine
 
@@ -31,13 +31,13 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | --- | --- |
 | `reusable-kits` | `skill:web-technique-to-skill` |
 | `asset-pipelines` | `skill:build-vesperfall-review-assets` |
-| `engine-validation` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `engine-validation` | `skill:3w-engine-validation` |
 
 ### open-source-showcase
 
 | Job | Lead(s) |
 | --- | --- |
-| `demo-publishing` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `demo-publishing` | `skill:3w-demo-publishing` |
 | `contributor-community` | `agency:specialized-developer-advocate` |
 | `project-packaging` | `skill:publish-project-to-github` |
 
@@ -56,18 +56,24 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `experiments/effect-studies` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
-- `experiments/research-benchmarks` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
-- `house-engine/engine-validation` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
-- `open-source-showcase/demo-publishing` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
+The previous lead gaps now have experimental studio methods:
+
+- `open-source-showcase/demo-publishing` — [`skill:3w-demo-publishing`](../../skills/3w-demo-publishing/SKILL.md).
+- `experiments/effect-studies` — [`skill:3w-effect-study`](../../skills/3w-effect-study/SKILL.md).
+- `house-engine/engine-validation` — [`skill:3w-engine-validation`](../../skills/3w-engine-validation/SKILL.md).
+- `experiments/research-benchmarks` — [`skill:3w-labs-benchmark`](../../skills/3w-labs-benchmark/SKILL.md).
+
+Routing closes the ownership gap; it does not prove output quality, human
+approval, installed prerequisites or completed delivery. Independent evidence
+and the charter gates remain required.
 
 ## Counts by sub-department and role
 
 | Sub-department | Lead | Specialist | Bench | Parked | Excluded | Active | Library | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| experiments | 1 | 0 | 7 | 49 | 0 | 1 | 56 | 57 |
-| house-engine | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
-| open-source-showcase | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
+| experiments | 3 | 0 | 7 | 49 | 0 | 3 | 56 | 59 |
+| house-engine | 3 | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
+| open-source-showcase | 3 | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 
 ## Creative Technology repertoire
 

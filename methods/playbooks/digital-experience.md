@@ -30,14 +30,14 @@ Design and Engineering work as one pod from stage 01 ([D-0018](../../studio/deci
 
 ## Workspace files and source templates
 
-The [digital bundle](../../templates/bundles/project-digital/bundle.yaml) renders `README.md`, `brief.md`, `decisions.md`, `feedback.md`, `risks.md`, `status/README.md`, `qa/README.md`, `handover.md` and `retro.md` from the same filenames plus `.tmpl` under `templates/bundles/project-digital/workspace/`. Follow [existing-workspace handling](README.md#workspace-and-evidence-discipline), including combined engagements. Store raw client content, URLs, captures, harness reports and code in the agreed private project store; only cleared, anonymised text summaries enter the public workspace.
+The [digital bundle](../../templates/bundles/project-digital/bundle.yaml) renders `README.md`, `brief.md`, `decisions.md`, `feedback.md`, `risks.md`, `stack-decision.md`, `status/README.md`, `qa/README.md`, `handover.md` and `retro.md` from the same filenames plus `.tmpl` under `templates/bundles/project-digital/workspace/`. Follow [existing-workspace handling](README.md#workspace-and-evidence-discipline), including combined engagements. Store raw client content, URLs, captures, harness reports and code in the agreed private project store; only cleared, anonymised text summaries enter the public workspace.
 
 | Stage | Exact output record / artefact | Source |
 | --- | --- | --- |
 | 01 | `discovery-synthesis.md`, `content-inventory.md`; `qa/README.md` audit and success criteria | New method records under [DX-01](../digital-experience/01-discovery-and-audit.md); [research intake](../../templates/learning/research-intake.md) for source/method limits; existing [QA log source](../../templates/bundles/project-digital/workspace/qa/README.md.tmpl). |
-| 02 | `experience-strategy.md`, `sitemap.md`, `signature-moments.md`; `qa/concept-critique.md` | New DX-02 records; [concept route](../../templates/identity-systems/concept-route.md) for each of at least three distinct territories and [design critique](../../templates/critique/design-critique.md). |
+| 02 | `experience-strategy.md`, `sitemap.md`, `signature-moments.md`; `qa/concept-critique.md` | Open `stack-decision.md` from the [stack record source](../../templates/bundles/project-digital/workspace/stack-decision.md.tmpl); new DX-02 records; [concept route](../../templates/identity-systems/concept-route.md) for each of at least three distinct territories and [design critique](../../templates/critique/design-critique.md). |
 | 03 | Private code repository: `docs/ART_DIRECTION.md`, `docs/INTERFACE_ARCHITECTURE.md`, `docs/MOTION_SPEC.md`, `design/tokens.json`; vault template designs | New artefacts to the [pod contract](../handoffs/design-to-engineering.md), not bundle-generated files. Record versions in `decisions.md`. |
-| 04 | Runnable prototype in private code repository; `qa/README.md` budget/measurements; `risks.md`; `<vault>/<codename>/finance/estimate.yaml` | DX-04 artefacts; [estimate source](../../templates/bundles/estimate/estimate.yaml.tmpl). |
+| 04 | Runnable prototype in private code repository; `qa/README.md` budget/measurements; `risks.md`; `<vault>/<codename>/finance/estimate.yaml` | Complete and prove `stack-decision.md` before DX-05; DX-04 artefacts; [estimate source](../../templates/bundles/estimate/estimate.yaml.tmpl). |
 | 05 | Feature-complete private build, tests and CMS models; `qa/README.md` build/test/review records | DX-05 output contract; test/code filenames follow the chosen project's conventions rather than invented bundle outputs. |
 | 06 | Private `docs/MOTION_SPEC.md` updated; scene code; `qa/README.md` measurements | DX-06 output contract and versioned pod contract; captures in `<vault>/<codename>/files/qa/`. |
 | 07 | `qa/README.md` defect/checklist log; `<vault>/<codename>/files/qa/<build>/<template>/report.md` and `report.json` plus raw evidence | Existing QA log source; `scripts/web_qa.py` generates harness reports after integration. |
@@ -135,17 +135,17 @@ Method: [01 Discovery & audit](../digital-experience/01-discovery-and-audit.md).
 
 ## 02 Experience strategy and concept
 
-Method: [02 Experience strategy & concept](../digital-experience/02-experience-strategy-and-concept.md). Confirm a dated approved identity strategy first; if it is missing or changed, return to the [strategy gate](identity-system.md#03-strategy). Record any experience-strategy changes for human approval before route exploration; concept and visual decisions never authorise strategy retroactively. Hand-in: [strategy → design](../handoffs/strategy-to-design.md).
+Method: [02 Experience strategy & concept](../digital-experience/02-experience-strategy-and-concept.md). Open `stack-decision.md` under [D-0025](../../studio/decisions/0025-creative-technology-selection-policy.md): outcome, preferred approach, two alternatives, dependency reasons, risks, mobile/accessibility strategy and prototype plan. This is the candidate architecture; DX-04 proves it. Confirm a dated approved identity strategy first; if it is missing or changed, return to the [strategy gate](identity-system.md#03-strategy). Record any experience-strategy changes for human approval before route exploration; concept and visual decisions never authorise strategy retroactively. Hand-in: [strategy → design](../handoffs/strategy-to-design.md).
 
 | Field | Playbook |
 | --- | --- |
 | Objective | One original idea, the sitemap and journeys that serve audience tasks, and a few signature moments with costs and fallbacks. |
 | Owner | Design / direction (`agent:creative-director`, or `agent:ceo` for flagship and own-studio work) with experience-design (`agent:ui-ux-architect`: sitemap, templates, journeys). Engineering / creative-engineering rates feasibility (`agency:engineering-rapid-prototyper`; `agent:3d-webgl-engineer` for scenes). |
 | Independent reviewer | Independent `agency:design-brand-guardian` on Opus (or `agent:ceo` when triggered and not a maker) runs `skill:3w-identity-system-critic` on the concept; `agent:creative-auditor` joins only when rendered evidence exists. `agent:strategic-architect` checks positioning and audience fit. |
-| Lead tools | A reference pack from the [`3w-taste-graph`](../../skills/3w-taste-graph/SKILL.md) skill first (repository skill, not yet in the registry); `agent:creative-director` and `skill:3w-creative-direction` (concept-direction); `skill:designing-user-experience` (interaction-architecture); `skill:double-diamond` (experience-prototyping); `skill:ceos-motion-direction` (motion-principles) for the intent of each signature moment. |
+| Lead tools | A reference pack from the [`3w-taste-graph`](../../skills/3w-taste-graph/SKILL.md) skill first (registered creative-output prerequisite); `agent:creative-director` and `skill:3w-creative-direction` (concept-direction); `skill:designing-user-experience` (interaction-architecture); `skill:double-diamond` (experience-prototyping); `skill:ceos-motion-direction` (motion-principles) for the intent of each signature moment. |
 | Specialists (trigger) | `agent:ceo` — flagship or own-identity concept decision. `skill:ceos-creative-direction` — the studio's own digital touchpoint needs a concept narrative. `skill:ceos-interaction-architecture` — navigation, journeys, states and input behaviour need defining. `skill:find-animation-opportunities` — identifying motion opportunities. `skill:ux-storyboard` — representing journeys or experience narratives. |
 | Inputs | DX-01 synthesis, content inventory, success criteria; approved identity strategy and system. |
-| Outputs | Concept statement and route rationale (`decisions.md`); sitemap, template inventory and journey maps; signature-moment list with purpose, reduced-motion and no-WebGL fallback and feasibility rating; `risks.md`. |
+| Outputs | Candidate `stack-decision.md`; concept statement and route rationale (`decisions.md`); sitemap, template inventory and journey maps; signature-moment list with purpose, reduced-motion and no-WebGL fallback and feasibility rating; `risks.md`. |
 | Gate | DX-02: founder selects the concept; **`C1` approves concept and sitemap**. Concept approval does not approve art direction. **Interpretation** — if the SOW treats this as "approval of the chosen direction", the D-0023 30% payment falls here; follow the SOW. |
 | Evidence | Critique record with verdict "Strong enough to advance"; Engineering's feasibility note per moment; `C1` approval with version. |
 | Pre-client quality check | Both cases in `evals/cases/design/interaction-architecture/`; both cases in `evals/cases/design/concept-direction/`. Follow `evals/README.md`; retain independent scores and human spot-check in `qa/README.md`. |
@@ -160,8 +160,8 @@ Method: [03 Art direction & design system](../digital-experience/03-art-directio
 | Objective | Tokens first, then two or three key templates at three widths with real content, then the smallest component inventory. |
 | Owner | Design / direction (`agent:creative-director`: art direction), identity-craft (`agent:visual-designer`: digital type scale, colour roles, tokens from the human-led W1 system), experience-design (`agent:ui-ux-architect`: components and states). Engineering / product-frontend (`agent:frontend-architect`) sets token format and naming that maps to code. |
 | Independent reviewer | `agency:design-brand-guardian` running `skill:3w-identity-system-critic`, formal mode, against concept and identity; rendered templates also go to `agent:creative-auditor`; `agent:frontend-architect` (not a maker of the visuals) confirms tokens and components are buildable. |
-| Lead tools | `skill:ceos-art-direction` (art-direction); `frontend-design:frontend-design` (ui-design); `skill:3w-typography-system` (typography); `skill:3w-colour-system` (colour); `skill:3w-composition-system` (composition-layout); `design-skills:design-systems` (design-system-guidelines); `skill:ceos-motion-direction` (motion-principles); `design-skills:ux-writing` (ux-writing). |
-| Specialists (trigger) | `agent:visual-designer` — an approved brand system needs digital tokens, a type ramp, measured contrast and grid specification. `skill:3w-image-production` (image-production-workflow lead) — approved placements need image assets; `skill:3w-image-qa` (image-quality-check lead) — independent asset rights/consent and quality check before use. `ui-ux-pro-max:design-system` — a primitive/semantic/component token architecture is needed. `vectorlab-ux-skills:motion` — consistent duration and easing tokens. `design:accessibility-review` — a design artefact needs WCAG review before implementation. `mcp:figma` / `figma:figma-use` — a Figma file exists or is explicitly requested. `design-superpowers:ds-consumer` — the client has an existing design system that must be consumed. |
+| Lead tools | `skill:ceos-art-direction` (art-direction); `frontend-design:frontend-design` (ui-design); [`skill:3w-typography-system`](../../toolkit/cards/design/identity-craft/skill--3w-typography-system.md) (typography); [`skill:3w-colour-system`](../../toolkit/cards/design/identity-craft/skill--3w-colour-system.md) (colour); [`skill:3w-composition-system`](../../toolkit/cards/design/identity-craft/skill--3w-composition-system.md) (composition-layout); `design-skills:design-systems` (design-system-guidelines); `skill:ceos-motion-direction` (motion-principles); `design-skills:ux-writing` (ux-writing). |
+| Specialists (trigger) | `agent:visual-designer` — an approved brand system needs digital tokens, a type ramp, measured contrast and grid specification. [`skill:3w-image-production`](../../toolkit/cards/media/image-photo-direction/skill--3w-image-production.md) (image-production-workflow lead) — approved placements need image assets; [`skill:3w-image-qa`](../../toolkit/cards/media/image-photo-direction/skill--3w-image-qa.md) (image-quality-check lead) — independent asset rights/consent and quality check before use. `ui-ux-pro-max:design-system` — a primitive/semantic/component token architecture is needed. `vectorlab-ux-skills:motion` — consistent duration and easing tokens. `design:accessibility-review` — a design artefact needs WCAG review before implementation. `mcp:figma` / `figma:figma-use` — a Figma file exists or is explicitly requested. `design-superpowers:ds-consumer` — the client has an existing design system that must be consumed. |
 | Inputs | DX-02 concept, sitemap and signature moments; identity specification and assets with rights. |
 | Outputs | Art direction document; design tokens as data (JSON) in the project code repository, version recorded in `decisions.md`; key templates at desktop, tablet and mobile (vault `files/`); component inventory with states; motion language with durations and easings. |
 | Gate | DX-03: founder; **`C1` approves art direction on two or three key templates**. Tokens are then frozen for the prototype; later changes go through change control. |
@@ -171,7 +171,7 @@ Method: [03 Art direction & design system](../digital-experience/03-art-directio
 
 ## 04 Prototype
 
-Method: [04 Prototype](../digital-experience/04-prototype.md). Hand-in: [design → engineering pod contract](../handoffs/design-to-engineering.md).
+Method: [04 Prototype](../digital-experience/04-prototype.md). Prove and complete the stack record with rejected alternatives, exact versions, prototype/device measurements, independent craft review and the final decision; link DX-04 acceptance from `decisions.md`. This record is required before DX-05. Hand-in: [design → engineering pod contract](../handoffs/design-to-engineering.md).
 
 | Field | Playbook |
 | --- | --- |
@@ -181,15 +181,15 @@ Method: [04 Prototype](../digital-experience/04-prototype.md). Hand-in: [design 
 | Lead tools | `agency:engineering-rapid-prototyper` (creative-prototyping); `skill:ceos-realtime-3d` (realtime-3d); `skill:gsap-core` (motion-implementation); `skill:ceos-shader-engineering` (shader-engineering) only for bespoke shaders; `skill:ceos-performance-engineering` (web-vitals); `skill:playwright-cli` (test-engineering) for screenshots at three widths. |
 | Specialists (trigger) | `skill:scaffold-3d-site` — a scoped 3D prototype needs a scaffold after architecture approval. `skill:gsap-scrolltrigger` — scroll-linked pinning or scrubbing is in the concept. `skill:optimize-3d-assets` — 3D assets need web preparation. `vectorlab-ux-skills:reduced-motion` — the motion treatment needs a tested reduced-motion alternative. `playground:playground` — the system needs a self-contained parameter explorer. |
 | Inputs | Frozen tokens, key templates, motion language; signature-moment list; reference device and network profile from kickoff. |
-| Outputs | Prototype on a private preview URL (URL recorded in the vault); measurement record and the budget table in `qa/README.md`; fallback notes; updated risks; updated estimate in `<vault>/<codename>/finance/estimate.yaml`. |
-| Gate | DX-04: **founder and `C1` accept the prototype**; Design and Engineering leads jointly agree budgets and fallbacks. Budgets at or under D-0023, or a founder-approved exception recorded in the project. |
+| Outputs | Completed `stack-decision.md` with evidence and final architecture decision; prototype on a private preview URL (URL recorded in the vault); measurement record and the budget table in `qa/README.md`; fallback notes; updated risks; updated estimate in `<vault>/<codename>/finance/estimate.yaml`. |
+| Gate | DX-04: complete stack decision record with prototype/device evidence and final decision; **founder and `C1` accept the prototype**; Design and Engineering leads jointly agree budgets and fallbacks. Budgets at or under D-0023, or a founder-approved exception recorded in the project. |
 | Evidence | Screenshots and a short recording at three widths (vault); measurements on the reference mid-range mobile and a desktop (LCP, CLS, input responsiveness, JS and asset weight, draw calls, texture memory, frame time); fallback tests. |
 | Pre-client quality check | Both cases in `evals/cases/engineering/creative-prototyping/`; both cases in `evals/cases/design/interaction-architecture/`; both cases in `evals/cases/engineering/web-vitals/`. Follow `evals/README.md`; retain independent scores and human spot-check in `qa/README.md`. |
 | Failure modes | Prototyping the easy part; measuring on a fast laptop; budgets set after the build to match it; prototype shortcuts kept in production code. |
 
 ## 05 Production build
 
-Method: [05 Production build](../digital-experience/05-production-build.md).
+Method: [05 Production build](../digital-experience/05-production-build.md). Do not begin without the DX-04-proven `stack-decision.md`; revisit and re-test it when assumptions or dependencies change.
 
 | Field | Playbook |
 | --- | --- |
@@ -198,7 +198,7 @@ Method: [05 Production build](../digital-experience/05-production-build.md).
 | Independent reviewer | `agency:engineering-code-reviewer` on every consequential change (no self-merging); `agent:visual-qa-engineer` runs the design review in the browser at three widths per completed template. |
 | Lead tools | `agent:frontend-architect` (frontend-architecture); `agency:engineering-software-architect` (technical-architecture); `agency:engineering-frontend-developer` (ui-implementation); `agency:engineering-cms-developer` (site-and-cms-build); `skill:building-accessible-interfaces` (accessibility-implementation); `skill:playwright-cli` (test-engineering); `skill:supply-chain-risk-auditor` (dependency-audit); `agency:engineering-devops-automator` (deployment-and-release) for staging. |
 | Specialists (trigger) | `skill:ceos-frontend-architecture` — choosing and structuring the frontend for a creative site. `skill:next-best-practices` — the stack is Next.js. `agency:engineering-i18n-engineer` (internationalization lead) — more than one language is in scope. `agency:engineering-backend-architect` (backend-and-api lead) — an API or backend is in scope. `skill:deploy-to-vercel` — hosting is Vercel. `agent:complex-engineer` — the normal executor would struggle. |
-| Inputs | DX-04 prototype, budgets and fallbacks; templates, tokens and component states; content per the delivery plan. |
+| Inputs | Completed DX-04 stack decision record; DX-04 prototype, budgets and fallbacks; templates, tokens and component states; content per the delivery plan. |
 | Outputs | Architecture decision in `decisions.md`; feature-complete build on staging; CMS content models with editor previews; tests; design-review log and budget checks per milestone in `qa/README.md`; screenshots in the vault. |
 | Gate | DX-05: Engineering and Design leads confirm feature completeness; founder logs it. Scope additions go through change control (`bin/3w new change-order`). |
 | Evidence | Build and test output; budget measurements per milestone; code-review record; design-review screenshots. |
@@ -207,7 +207,7 @@ Method: [05 Production build](../digital-experience/05-production-build.md).
 
 ## 06 Motion, 3D and interaction
 
-Method: [06 Motion, 3D & interaction](../digital-experience/06-motion-3d-and-interaction.md).
+Method: [06 Motion, 3D & interaction](../digital-experience/06-motion-3d-and-interaction.md). Reference: [Creative Technology selection policy](../creative-technology/selection-policy.md) and the current stack decision record; verify dependency reasons, property/scroll ownership and fallback evidence.
 
 | Field | Playbook |
 | --- | --- |
@@ -243,7 +243,7 @@ Method: [07 QA](../digital-experience/07-qa.md). Hand-in: [engineering → QA](.
 
 ## 08 Performance and launch readiness
 
-Method: [08 Performance & launch readiness](../digital-experience/08-performance-and-launch-readiness.md).
+Method: [08 Performance & launch readiness](../digital-experience/08-performance-and-launch-readiness.md). Reference: [Creative Technology selection policy](../creative-technology/selection-policy.md) and the current stack decision record; verify dependency reasons, property/scroll ownership and fallback evidence.
 
 | Field | Playbook |
 | --- | --- |
@@ -286,7 +286,7 @@ Method: [10 Care & iteration](../digital-experience/10-care-and-iteration.md). L
 | Objective | Fix warranty defects, monitor the live site and improve it through measured iterations under an agreed care plan. |
 | Owner | Production / handover-retention (`agency:project-management-studio-producer` triages: warranty defect, change request or care work); Engineering / platform-performance (`agent:performance-engineer`: monitoring and field Core Web Vitals; fixes by `agent:implementer` or GPT-6 Luna); Design for iteration craft. |
 | Independent reviewer | `agency:engineering-code-reviewer` on every fix; `agent:visual-qa-engineer` re-inspects affected templates. |
-| Lead tools | `agency:customer-success-manager` (client-success) when a care retainer exists; `skill:investigating-performance` (runtime-diagnostics); `skill:ceos-performance-engineering` (web-vitals); `skill:supply-chain-risk-auditor` (dependency-audit). `skill:3w-care-retention` (retention-programmes) leads warranty closure, evidence-based care and access removal. |
+| Lead tools | `agency:customer-success-manager` (client-success) when a care retainer exists; `skill:investigating-performance` (runtime-diagnostics); `skill:ceos-performance-engineering` (web-vitals); `skill:supply-chain-risk-auditor` (dependency-audit). [`skill:3w-care-retention`](../../toolkit/cards/production/handover-retention/skill--3w-care-retention.md) (retention-programmes) leads warranty closure, evidence-based care and access removal. |
 | Specialists (trigger) | `agency:engineering-incident-response-commander` — a production incident. `agency:engineering-sre` — SLOs or observability are in the care plan. `skill:core-web-vitals` — field data shows a budget breach. |
 | Inputs | Live site; handover record; warranty terms; care plan if any. |
 | Outputs | Care log in `handover.md`; field measurement record in `qa/README.md`; iteration proposals; warranty closure in `decisions.md`; access removed and credentials rotated. |

@@ -19,7 +19,7 @@ pairs_with: [sales:sales-company-research, agency:sales-outreach, skill:3w-reply
 ---
 # Prospect qualification
 
-The studio's lead tool for prospect qualification: contact, watch or exclude each researched account before outbound. Proposed lead; the registry change is pending.
+The studio's lead tool for prospect qualification: contact, watch or exclude each researched account before outbound. Registered job lead; the skill remains experimental.
 
 ## What it does
 

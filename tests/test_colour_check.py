@@ -9,9 +9,6 @@ Reference sources:
   https://webaim.org/resources/contrastchecker/?fcolor=767676&bcolor=FFFFFF&api
   https://webaim.org/resources/contrastchecker/?fcolor=777777&bcolor=FFFFFF&api
   Black on white is 21:1 in HHS's contrast reference: https://www.hhs.gov/sites/default/files/os-a11y-color-contrast-reference.pdf
-- APCA Lc vectors are from the official APCA-W3 repository test script
-  (0.1.7 test file; values are included verbatim):
-  https://github.com/Myndex/apca-w3/blob/master/test/index.js
 - CIEDE2000 values are from Sharma, Wu & Dalal's supplementary published data:
   https://hajim.rochester.edu/ece/sites/gsharma/ciede2000/dataNprograms/ciede2000testdata.txt
   Paper: https://doi.org/10.1002/col.20070
@@ -72,11 +69,6 @@ class HexAndContrastTests(unittest.TestCase):
         self.assertTrue(colour_check.is_large_text(14, bold=True))
         self.assertFalse(colour_check.is_large_text(17.99))
         self.assertFalse(colour_check.is_large_text(14, bold=False))
-
-    def test_apca_matches_official_apca_w3_test_vectors_and_polarity(self) -> None:
-        self.assertAlmostEqual(colour_check.apca_lc("#888", "#fff"), 63.056469930209424, places=10)
-        self.assertAlmostEqual(colour_check.apca_lc("#fff", "#888"), -68.54146436644962, places=10)
-
 
 class PerceptualDifferenceTests(unittest.TestCase):
     def test_ciede2000_matches_sharma_supplementary_test_vector(self) -> None:
@@ -146,7 +138,7 @@ class CliTests(unittest.TestCase):
         self.assertEqual(raised.exception.code, 2)
         self.assertIn("--min-delta-e", stderr.getvalue())
 
-    def test_palette_json_includes_declared_text_pair_wcag_and_reference_apca(self) -> None:
+    def test_palette_json_includes_declared_text_pair_wcag(self) -> None:
         stdout = io.StringIO()
         with contextlib.redirect_stdout(stdout):
             code = colour_check.main([
@@ -157,7 +149,6 @@ class CliTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(len(report["contrast_pairs"]), 1)
         self.assertEqual(report["contrast_pairs"][0]["wcag"]["aa_normal"], False)
-        self.assertAlmostEqual(report["contrast_pairs"][0]["apca_lc_reference"], 63.056469930209424, places=10)
 
     def test_contrast_command_reports_all_four_wcag_text_categories(self) -> None:
         stdout = io.StringIO()
@@ -167,7 +158,6 @@ class CliTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertEqual(result["wcag"]["aa_normal"], True)
         self.assertEqual(result["wcag"]["aaa_normal"], False)
-        self.assertIn("apca_lc_reference", result)
 
 
 if __name__ == "__main__":

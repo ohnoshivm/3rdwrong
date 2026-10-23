@@ -31,6 +31,8 @@ Do not use to enter paid awards while the paid awards budget is zero (D-0024). D
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/marketing/pr-awards/skill--3w-awards-submission.md) records routing, invocation and independent checks.
+
 Read [awards strategy](../../growth/proof/awards.md), [D-0024](../../studio/decisions/0024-growth-defaults.md), [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md), [award site teardowns](../../taste/award-site-teardowns.md) and [growth metrics](../../growth/metrics.md). `agency:marketing-pr-communications-manager` may help with wider communications; its business-award template (results-led, quantified outcomes) does not apply to design-jury awards.
 
 ## Procedure

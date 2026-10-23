@@ -10,10 +10,12 @@ review_every_days: 180
 
 **Fictional example for testing methods and skills. Not a client.**
 
+APCA is not shipped; it may be checked manually with the official tool, subject to its licence. WCAG 2.2 contrast is the pass/fail rule.
+
 > Fictional skill test run. Colour values are invented for the test. The
 > contrast and palette figures were recomputed on 2026-10-23 with
-> `scripts/colour_check.py`, using WCAG 2.2 relative luminance, APCA-W3
-> 0.0.98G-4g as reference only, CIEDE2000 ΔE00, and Machado (2009) CVD
+> `scripts/colour_check.py`, using WCAG 2.2 relative luminance,
+> CIEDE2000 ΔE00, and Machado (2009) CVD
 > matrices. For this recomputation the declared screening cutoff was ΔE00 < 5;
 > it is a project choice, not a standard. Nothing here is approved.
 
@@ -52,18 +54,18 @@ Colour separates the four products at shelf and thumbnail distance, and keeps th
 
 ## Contrast pairings
 
-| Foreground / background | Use | WCAG 2.x ratio | Threshold | Pass | APCA Lc (reference) |
-| --- | --- | --- | --- | --- | --- |
-| `#2E2A24` / `#F3EFE6` | Names, body | 12.43:1 | 4.5:1 | Yes | 91.6 |
-| `#6B6358` / `#F3EFE6` | Descriptors | 5.15:1 | 4.5:1 | Yes | 70.2 |
-| `#F3EFE6` / `#A4553A` | Variant name on clay band | 4.65:1 | 4.5:1 | Yes, narrowly | -71.2 |
-| `#F3EFE6` / `#5E6B3A` | Variant name on first moss | 5.03:1 | 4.5:1 | Yes | -73.7 |
-| `#F3EFE6` / `#3F4A26` | Variant name on revised moss | 8.25:1 | 4.5:1 | Yes | -85.8 |
-| `#F3EFE6` / `#B07A2A` | Variant name on first amber | 3.23:1 | 4.5:1 (3:1 large) | No — large text only | -59.6 |
-| `#F3EFE6` / `#8A5A16` | Variant name on revised amber | 5.15:1 | 4.5:1 | Yes | -74.2 |
-| `#2E2A24` / `#CFC6B4` | Variant name on oat band | 8.41:1 | 4.5:1 | Yes | 68.6 |
-| `#6B6358` / `#CFC6B4` | Descriptor on oat band | 3.49:1 | 4.5:1 | No | 47.2 |
-| `#4F483F` / `#CFC6B4` | Revised descriptor on oat band | 5.31:1 | 4.5:1 | Yes | 58.3 |
+| Foreground / background | Use | WCAG 2.2 ratio | Threshold | Pass |
+| --- | --- | --- | --- | --- |
+| `#2E2A24` / `#F3EFE6` | Names, body | 12.43:1 | 4.5:1 | Yes |
+| `#6B6358` / `#F3EFE6` | Descriptors | 5.15:1 | 4.5:1 | Yes |
+| `#F3EFE6` / `#A4553A` | Variant name on clay band | 4.65:1 | 4.5:1 | Yes, narrowly |
+| `#F3EFE6` / `#5E6B3A` | Variant name on first moss | 5.03:1 | 4.5:1 | Yes |
+| `#F3EFE6` / `#3F4A26` | Variant name on revised moss | 8.25:1 | 4.5:1 | Yes |
+| `#F3EFE6` / `#B07A2A` | Variant name on first amber | 3.23:1 | 4.5:1 (3:1 large) | No — large text only |
+| `#F3EFE6` / `#8A5A16` | Variant name on revised amber | 5.15:1 | 4.5:1 | Yes |
+| `#2E2A24` / `#CFC6B4` | Variant name on oat band | 8.41:1 | 4.5:1 | Yes |
+| `#6B6358` / `#CFC6B4` | Descriptor on oat band | 3.49:1 | 4.5:1 | No |
+| `#4F483F` / `#CFC6B4` | Revised descriptor on oat band | 5.31:1 | 4.5:1 | Yes |
 
 Ratios on printed labels are a proxy only; WCAG applies to digital content.
 

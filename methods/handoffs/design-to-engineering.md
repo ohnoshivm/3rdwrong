@@ -30,7 +30,7 @@ Design and Engineering are one pod from day one; this contract names what Design
 - [ ] Design tokens as data (JSON), versioned: spacing scale, type scale, colour roles with contrast pairs, radii, shadows or materials, motion durations and easings, breakpoints.
 - [ ] Contrast results for every text and interface pair against [web standards](../quality/web-standards.md#accessibility).
 - [ ] Fonts with licence terms for web use; subsets and weights actually needed.
-- [ ] Human-led typography, colour and composition decisions checked through `skill:3w-typography-system`, `skill:3w-colour-system` and `skill:3w-composition-system`; mark variants through `skill:3w-mark-exploration` where scoped. `agent:visual-designer` translates the chosen system into digital tokens.
+- [ ] Human-led typography, colour and composition decisions checked through [`skill:3w-typography-system`](../../toolkit/cards/design/identity-craft/skill--3w-typography-system.md), [`skill:3w-colour-system`](../../toolkit/cards/design/identity-craft/skill--3w-colour-system.md) and [`skill:3w-composition-system`](../../toolkit/cards/design/identity-craft/skill--3w-composition-system.md); mark variants through [`skill:3w-mark-exploration`](../../toolkit/cards/design/identity-craft/skill--3w-mark-exploration.md) where scoped. `agent:visual-designer` translates the chosen system into digital tokens.
 
 ### Motion principles
 

@@ -33,6 +33,8 @@ Do not use before a route is chosen, to style a single hero mock-up, or to desig
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/design/identity-craft/skill--3w-composition-system.md) records routing, invocation and independent checks.
+
 Read [phase 05 Identity](../../methods/identity-engagement/05-identity.md), [phase 06 System](../../methods/identity-engagement/06-system.md), [identity system testing](../../methods/quality/identity-system-testing.md), the [creative guardrails](../../methods/creative-guardrails.md) and the composition section of the [identity system specification](../../templates/identity-systems/identity-system-spec.md). Digital layout should follow [web standards](../../methods/quality/web-standards.md). Layout software is the designer's choice; no paid tool is required by this skill.
 
 ## Procedure

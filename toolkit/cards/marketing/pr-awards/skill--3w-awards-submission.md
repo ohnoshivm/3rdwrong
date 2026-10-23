@@ -19,7 +19,7 @@ pairs_with: [agency:marketing-pr-communications-manager, skill:press-media-relat
 ---
 # Awards submission
 
-The studio's lead tool for awards submissions: fit check, permission, free-only rule (D-0024), checklist, entry text and results log. Proposed lead; the registry change is pending.
+The studio's lead tool for awards submissions: fit check, permission, free-only rule (D-0024), checklist, entry text and results log. Registered job lead; the skill remains experimental.
 
 ## What it does
 

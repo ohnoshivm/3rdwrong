@@ -30,6 +30,8 @@ Do not use for inbound enquiries or after a conversation has started; L1 qualifi
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/outbound/prospecting-research/skill--3w-prospect-qualification.md) records routing, invocation and independent checks.
+
 Read the [outbound system](../../growth/outbound/README.md), [compliance basics](../../growth/outbound/compliance.md), [qualification](../../growth/sales/qualification.md) (scorecard and disqualifiers), [lead sources](../../growth/sales/lead-sources.md) and [D-0024](../../studio/decisions/0024-growth-defaults.md).
 
 ## Procedure

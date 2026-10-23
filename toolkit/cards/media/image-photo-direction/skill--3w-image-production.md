@@ -19,7 +19,7 @@ pairs_with: [skill:imagegen, anthropic-skills:gpt-image-2-director, skill:3w-ima
 ---
 # Image production
 
-The studio's lead tool for the image production workflow: brief, route, rights and AI consent before making, then selection, export and a rights register. Proposed lead; the registry change is pending.
+The studio's lead tool for the image production workflow: brief, route, rights and AI consent before making, then selection, export and a rights register. Registered job lead; the skill remains experimental.
 
 ## What it does
 

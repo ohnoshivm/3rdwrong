@@ -19,7 +19,7 @@ pairs_with: [agency:academic-psychologist, agency:academic-statistician, agency:
 ---
 # Behavioural lens
 
-The studio's lead tool for behavioural theory: cited mechanisms turned into testable hypotheses, with an ethics screen. Proposed lead; the registry change is pending.
+The studio's lead tool for behavioural theory: cited mechanisms turned into testable hypotheses, with an ethics screen. Registered job lead; the skill remains experimental.
 
 ## What it does
 

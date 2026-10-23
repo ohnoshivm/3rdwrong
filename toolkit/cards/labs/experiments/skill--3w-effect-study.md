@@ -19,7 +19,7 @@ pairs_with: [skill:audit-reference-originality, skill:3w-engine-validation]
 ---
 # Effect study
 
-The studio's lead tool for effect studies: re-authors a parked effect recipe or captured technique as an original technique card, measured against the D-0023 budget. Proposed lead; the registry change is pending.
+The studio's lead tool for effect studies: re-authors a parked effect recipe or captured technique as an original technique card, measured against the D-0023 budget. Registered job lead; the skill remains experimental.
 
 ## What it does
 

@@ -25,7 +25,7 @@ The studio's lead tool for brand colour: roles, accessible pairings, colour-visi
 
 - Assigns roles (primary, secondary, neutral, accent, semantic, variant) before values, with a share of use.
 - Checks distinctiveness against category colour codes and records cultural associations only with sources.
-- Computes WCAG 2.2 contrast as the baseline and records APCA as reference only.
+- Computes WCAG 2.2 contrast as the pass/fail rule.
 - Screens colour-vision deficiencies with a declared metric and threshold; requires non-colour cues where colour collapses.
 - Specifies CMYK per the printer's profile and spot references, with proofs on the real substrate; writes primitive and semantic tokens.
 
@@ -50,14 +50,14 @@ The studio's lead tool for brand colour: roles, accessible pairings, colour-visi
 ## How to run it
 
 1. Collect the inputs above in one folder or message; state whether the route is chosen or the run is formative.
-2. Before a palette check, declare the CIEDE2000 ΔE00 cutoff. Run `uv run python scripts/colour_check.py contrast <fg> <bg>` for a text pair, or `uv run python scripts/colour_check.py palette <hex> <hex> ... --min-delta-e N [--text-pairs fg:bg,...] [--format md|json]` for a palette. The tool requires `--min-delta-e`; APCA is reference only.
-   APCA-W3 is licensed for web-content contrast assessment; commercial use outside the W3 cooperative web-content agreement requires a written license. Do not use APCA to evaluate print; see the [APCA-W3 license](https://github.com/Myndex/apca-w3/blob/master/LICENSE.md).
+2. Before a palette check, declare the CIEDE2000 ΔE00 cutoff. Run `uv run python scripts/colour_check.py contrast <fg> <bg>` for a text pair, or `uv run python scripts/colour_check.py palette <hex> <hex> ... --min-delta-e N [--text-pairs fg:bg,...] [--format md|json]` for a palette. The tool requires `--min-delta-e`; WCAG 2.2 contrast determines pass/fail.
+   APCA is not shipped; it may be checked manually with the official tool, subject to its licence. See the [official tool](https://apcacontrast.com/) and [licence](https://github.com/Myndex/apca-w3/blob/master/LICENSE.md).
 3. Run the skill; a human designer makes every form decision it records.
 4. Hand the output to someone other than the maker for review.
 5. File the output in the project folder; nothing it produces is an approval.
 
 ```text
-Use the 3w-colour-system skill for {{project}}. Route: {{link}}. Candidate roles and values: {{…}}. Category audit: {{link or none}}. Applications and printer: {{…}}. Declare a CIEDE2000 ΔE00 cutoff before running `uv run python scripts/colour_check.py palette <hex> <hex> ... --min-delta-e N`; use `uv run python scripts/colour_check.py contrast <fg> <bg>` or `--text-pairs fg:bg,...` for WCAG 2.x ratios. Label APCA as reference; mark print unverified without a proof. Return the skill's exact output structure.
+Use the 3w-colour-system skill for {{project}}. Route: {{link}}. Candidate roles and values: {{…}}. Category audit: {{link or none}}. Applications and printer: {{…}}. Declare a CIEDE2000 ΔE00 cutoff before running `uv run python scripts/colour_check.py palette <hex> <hex> ... --min-delta-e N`; use `uv run python scripts/colour_check.py contrast <fg> <bg>` or `--text-pairs fg:bg,...` for WCAG 2.2 ratios. Use WCAG 2.2 contrast for pass/fail; mark print unverified without a proof. Return the skill's exact output structure.
 ```
 
 ## What good output looks like

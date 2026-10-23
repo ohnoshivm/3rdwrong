@@ -34,6 +34,8 @@ Do not use before a route is chosen, to restyle an existing approved mark withou
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/design/identity-craft/skill--3w-mark-exploration.md) records routing, invocation and independent checks.
+
 Read [phase 05 Identity](../../methods/identity-engagement/05-identity.md), [identity system testing](../../methods/quality/identity-system-testing.md), the [final delivery checklist](../../methods/quality/final-delivery-checklist.md), the [creative guardrails](../../methods/creative-guardrails.md) and the logo section of the [identity system specification](../../templates/identity-systems/identity-system-spec.md). Hand finished routes to [3w-identity-system-critic](../3w-identity-system-critic/SKILL.md). Vector work needs a drawing application chosen by the designer; no paid tool is required by this skill.
 
 ## Procedure

@@ -30,6 +30,8 @@ Do not use to map competitors' messaging or category clichés; use `skill:catego
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/strategy/culture-behaviour/skill--3w-narrative-analysis.md) records routing, invocation and independent checks.
+
 Read [01 Discovery](../../methods/identity-engagement/01-discovery.md), [03 Strategy](../../methods/identity-engagement/03-strategy.md), the [perception-to-identity map](../../methods/perception-to-identity-map.md) and [creative guardrails](../../methods/creative-guardrails.md). Use `agency:academic-historian` to verify heritage or period claims and `agency:academic-anthropologist` or `agency:specialized-cultural-intelligence-strategist` for cultural meaning.
 
 ## Procedure

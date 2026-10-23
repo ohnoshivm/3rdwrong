@@ -2,11 +2,9 @@
 """WCAG contrast and CIEDE2000 palette checks for 3RDWRONG.
 
 Run with ``uv run python scripts/colour_check.py --help``. All calculations
-are local and use only the Python standard library. APCA is reported as a
-signed reference value and is never used as a pass/fail gate. The APCA-W3
-repository license limits use to web-content contrast assessment; commercial
-use otherwise requires a written license. Check the official license before
-using or distributing APCA functionality: https://github.com/Myndex/apca-w3/blob/master/LICENSE.md
+are local and use only the Python standard library. WCAG 2.2 contrast supplies
+the contrast pass/fail rules; CIEDE2000 and CVD simulations screen palette
+differences against a project-declared threshold.
 """
 from __future__ import annotations
 
@@ -77,7 +75,7 @@ MACHADO_MATRICES: dict[str, dict[float, _MATRIX]] = {
 
 
 # ---------------------------------------------------------------------------
-# sRGB and WCAG 2.x contrast
+# sRGB and WCAG 2.2 contrast
 
 
 def parse_hex(value: str) -> _RGB:
@@ -125,13 +123,13 @@ def _linear_rgb(colour: str | Sequence[int]) -> tuple[float, float, float]:
 
 
 def relative_luminance(colour: str | Sequence[int]) -> float:
-    """Calculate WCAG 2.x relative luminance for opaque sRGB."""
+    """Calculate WCAG 2.2 relative luminance for opaque sRGB."""
     red, green, blue = _linear_rgb(colour)
     return 0.2126 * red + 0.7152 * green + 0.0722 * blue
 
 
 def contrast_ratio(foreground: str | Sequence[int], background: str | Sequence[int]) -> float:
-    """Return the WCAG 2.x contrast ratio for opaque sRGB foreground/background."""
+    """Return the WCAG 2.2 contrast ratio for opaque sRGB foreground/background."""
     first = relative_luminance(foreground)
     second = relative_luminance(background)
     lighter, darker = max(first, second), min(first, second)
@@ -157,65 +155,6 @@ def is_large_text(font_size_pt: float, bold: bool = False) -> bool:
     return font_size_pt >= 18.0 or (font_size_pt >= 14.0 and bool(bold))
 
 
-# ---------------------------------------------------------------------------
-# APCA-W3 0.0.98G-4g reference only; constants and formula follow the official
-# repository README/source. https://github.com/Myndex/apca-w3
-
-_APCA = {
-    "main_trc": 2.4,
-    "red": 0.2126729,
-    "green": 0.7151522,
-    "blue": 0.0721750,
-    "normal_bg": 0.56,
-    "normal_text": 0.57,
-    "reverse_text": 0.62,
-    "reverse_bg": 0.65,
-    "black_threshold": 0.022,
-    "black_clamp": 1.414,
-    "scale_bow": 1.14,
-    "scale_wob": 1.14,
-    "offset_bow": 0.027,
-    "offset_wob": 0.027,
-    "delta_y_min": 0.0005,
-    "low_clip": 0.1,
-}
-
-
-def _apca_y(colour: str | Sequence[int]) -> float:
-    red, green, blue = _parse_rgb(colour)
-    return (
-        _APCA["red"] * (red / 255.0) ** _APCA["main_trc"]
-        + _APCA["green"] * (green / 255.0) ** _APCA["main_trc"]
-        + _APCA["blue"] * (blue / 255.0) ** _APCA["main_trc"]
-    )
-
-
-def _apca_contrast(text_y: float, background_y: float) -> float:
-    """APCA-W3 0.0.98G-4g signed Lc formula; do not use for pass/fail."""
-    if not (math.isfinite(text_y) and math.isfinite(background_y)):
-        return 0.0
-    if min(text_y, background_y) < 0.0 or max(text_y, background_y) > 1.1:
-        return 0.0
-    clamp = _APCA["black_threshold"]
-    exponent = _APCA["black_clamp"]
-    text_y = text_y if text_y > clamp else text_y + (clamp - text_y) ** exponent
-    background_y = background_y if background_y > clamp else background_y + (clamp - background_y) ** exponent
-    if abs(background_y - text_y) < _APCA["delta_y_min"]:
-        return 0.0
-    if background_y > text_y:
-        sapc = (background_y ** _APCA["normal_bg"] - text_y ** _APCA["normal_text"]) * _APCA["scale_bow"]
-        output = 0.0 if sapc < _APCA["low_clip"] else sapc - _APCA["offset_bow"]
-    else:
-        sapc = (background_y ** _APCA["reverse_bg"] - text_y ** _APCA["reverse_text"]) * _APCA["scale_wob"]
-        output = 0.0 if sapc > -_APCA["low_clip"] else sapc + _APCA["offset_wob"]
-    return output * 100.0
-
-
-def apca_lc(foreground: str | Sequence[int], background: str | Sequence[int]) -> float:
-    """Return signed APCA-W3 0.0.98G-4g Lc, for reference only."""
-    return _apca_contrast(_apca_y(foreground), _apca_y(background))
-
-
 def contrast_report(foreground: str, background: str) -> dict[str, Any]:
     foreground_hex = format_hex(parse_hex(foreground))
     background_hex = format_hex(parse_hex(background))
@@ -225,8 +164,6 @@ def contrast_report(foreground: str, background: str) -> dict[str, Any]:
         "background": background_hex,
         "wcag_contrast_ratio": ratio,
         "wcag": wcag_passes(ratio),
-        "apca_lc_reference": apca_lc(foreground_hex, background_hex),
-        "apca_note": "Reference only; APCA is not a pass/fail gate or WCAG conformance result.",
     }
 
 
@@ -472,7 +409,6 @@ def palette_report(
         "delta_e_matrices": matrices,
         "flagged_pairs": flagged,
         "contrast_pairs": contrast_pairs,
-        "apca_note": "APCA Lc is signed and reference only; it is never a pass/fail gate or WCAG conformance result.",
         "lab_white_point": "D65 (sRGB)",
     }
 
@@ -487,7 +423,7 @@ def render_contrast_markdown(result: dict[str, Any]) -> str:
         "",
         f"Foreground `{result['foreground']}` on background `{result['background']}`.",
         "",
-        f"WCAG 2.x contrast: **{result['wcag_contrast_ratio']:.2f}:1** (unrounded value used for thresholds).",
+        f"WCAG 2.2 contrast: **{result['wcag_contrast_ratio']:.2f}:1** (unrounded value used for thresholds).",
         "",
         "| Text category | Minimum | Result |",
         "| --- | ---: | --- |",
@@ -495,8 +431,6 @@ def render_contrast_markdown(result: dict[str, Any]) -> str:
         f"| AAA normal | 7:1 | {_format_pass(result['wcag']['aaa_normal'])} |",
         f"| AA large | 3:1 | {_format_pass(result['wcag']['aa_large'])} |",
         f"| AAA large | 4.5:1 | {_format_pass(result['wcag']['aaa_large'])} |",
-        "",
-        f"APCA Lc (reference only): **{result['apca_lc_reference']:.2f}**. {result['apca_note']}",
         "",
         "Large text follows WCAG: at least 18 pt, or at least 14 pt when bold. This calculation does not itself establish conformance.",
         "",
@@ -516,8 +450,8 @@ def render_palette_markdown(report: dict[str, Any]) -> str:
         lines.extend([
             "## Declared text pairings",
             "",
-            "| Foreground / background | WCAG ratio | AA normal | AAA normal | AA large | AAA large | APCA Lc (reference) |",
-            "| --- | ---: | --- | --- | --- | --- | ---: |",
+            "| Foreground / background | WCAG ratio | AA normal | AAA normal | AA large | AAA large |",
+            "| --- | ---: | --- | --- | --- | --- |",
         ])
         for pair in report["contrast_pairs"]:
             checks = pair["wcag"]
@@ -525,9 +459,8 @@ def render_palette_markdown(report: dict[str, Any]) -> str:
                 f"| `{pair['foreground']}` / `{pair['background']}` | {pair['wcag_contrast_ratio']:.2f}:1 | "
                 f"{_format_pass(checks['aa_normal'])} | {_format_pass(checks['aaa_normal'])} | "
                 f"{_format_pass(checks['aa_large'])} | {_format_pass(checks['aaa_large'])} | "
-                f"{pair['apca_lc_reference']:.2f} |"
             )
-        lines.extend(["", "APCA values are signed, reference only, and never determine pass/fail. Large text is at least 18 pt, or at least 14 pt bold.", ""])
+        lines.extend(["", "WCAG 2.2 contrast determines pass/fail. Large text is at least 18 pt, or at least 14 pt bold.", ""])
     for mode, matrix in report["delta_e_matrices"].items():
         lines.extend([f"## ΔE00 matrix — {matrix['label']}", "", "| Colour | " + " | ".join(f"`{color}`" for color in report["colors"]) + " |", "| --- | " + " ---: |" * len(report["colors"])])
         for index, color in enumerate(report["colors"]):
@@ -570,7 +503,7 @@ def _severity_value(value: str) -> float:
 def _build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Check sRGB text contrast and palette distinguishability.")
     subparsers = parser.add_subparsers(dest="command", required=True)
-    contrast_parser = subparsers.add_parser("contrast", help="compute WCAG contrast and APCA reference for one text pair")
+    contrast_parser = subparsers.add_parser("contrast", help="compute WCAG 2.2 contrast for one text pair")
     contrast_parser.add_argument("foreground", help="text foreground sRGB hex")
     contrast_parser.add_argument("background", help="background sRGB hex")
     contrast_parser.add_argument("--format", choices=("md", "json"), default="md")

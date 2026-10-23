@@ -22,9 +22,9 @@
   },
   "items_by_role": {
     "bench": 210,
-    "lead": 146,
+    "lead": 145,
     "parked": 105,
-    "specialist": 443
+    "specialist": 444
   },
   "unmapped_registry_ids": []
 }

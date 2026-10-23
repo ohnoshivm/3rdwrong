@@ -10,6 +10,8 @@ review_every_days: 180
 
 **Fictional example for testing methods and skills. Not a client.**
 
+APCA is not shipped; it may be checked manually with the official tool, subject to its licence. WCAG 2.2 contrast is the pass/fail rule.
+
 ## Skill and version
 
 `3w-colour-system` 0.1.0 was run; findings below produced version 0.1.1 of [the skill](../../../skills/3w-colour-system/SKILL.md). The original run was not repeated on 0.1.1; its calculations were recomputed with the reviewed tool on 2026-10-23 after the skill advanced to 0.1.2.
@@ -24,7 +26,7 @@ Output: [colour system test run](colour-system-test-run.md).
 
 ## Procedure followed
 
-All twelve steps were followed. The original calculations were later recomputed on 2026-10-23 with `scripts/colour_check.py` using published WCAG, APCA-W3, Sharma CIEDE2000 and Machado reference values. The palette run declared CIEDE2000 ΔE00 < 5 as its project cutoff before execution. Print conversion and proofing remain unverified (no printer); application tests were text checks only.
+All twelve steps were followed. The original calculations were later recomputed on 2026-10-23 with `scripts/colour_check.py` using published WCAG 2.2, Sharma CIEDE2000 and Machado reference values. The palette run declared CIEDE2000 ΔE00 < 5 as its project cutoff before execution. Print conversion and proofing remain unverified (no printer); application tests were text checks only.
 
 ## Output review
 
@@ -35,7 +37,7 @@ All twelve steps were followed. The original calculations were later recomputed 
 
 ## What worked
 
-- `scripts/colour_check.py` replaces the ad-hoc calculator and is tested against published WCAG, APCA-W3, CIEDE2000 and Machado reference values.
+- `scripts/colour_check.py` replaces the ad-hoc calculator and is tested against published WCAG 2.2, CIEDE2000 and Machado reference values.
 - Computing instead of eyeballing produced Documented findings and showed that the revised clay/amber pair remains below the declared cutoff in greyscale.
 - The rule "colour must not carry the variant alone" from step 1 connects directly to the fictional customer need (R1) and to composition rule I3.
 - Print stayed honestly unverified.

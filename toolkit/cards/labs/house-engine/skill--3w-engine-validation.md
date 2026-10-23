@@ -19,7 +19,7 @@ pairs_with: [skill:web-technique-to-skill, skill:3w-effect-study, skill:3w-labs-
 ---
 # Engine validation
 
-The studio's lead tool for engine validation: the Labs gate a house-engine kit passes before projects may use it. Proposed lead; the registry change is pending.
+The studio's lead tool for engine validation: the Labs gate a house-engine kit passes before projects may use it. Registered job lead; the skill remains experimental.
 
 ## What it does
 

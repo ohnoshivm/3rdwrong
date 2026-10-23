@@ -39,8 +39,8 @@ After acceptance, Production hands Marketing what it needs to tell the project's
 - [ ] Repository records always use codenames and non-identifying descriptions. Separate written naming permission applies to an external portfolio/award entry only; it never authorises names or client files in this repository.
 - [ ] `bin/3w check` passes and a second reader has checked identifying combinations.
 - [ ] Award entries are free submissions only for now ([D-0024](../../studio/decisions/0024-growth-defaults.md)).
-- [ ] `skill:3w-awards-submission` leads any award proposal: official criteria/deadline/fee verified, permission and credits settled, founder approves before submission. Marketing never infers award standing from a QA score.
-- [ ] Media uses `skill:3w-image-production` for new case-study assets and an independent `skill:3w-image-qa` check before publication. The permissions record covers the final crops, channels and AI use.
+- [ ] [`skill:3w-awards-submission`](../../toolkit/cards/marketing/pr-awards/skill--3w-awards-submission.md) leads any award proposal: official criteria/deadline/fee verified, permission and credits settled, founder approves before submission. Marketing never infers award standing from a QA score.
+- [ ] Media uses [`skill:3w-image-production`](../../toolkit/cards/media/image-photo-direction/skill--3w-image-production.md) for new case-study assets and an independent [`skill:3w-image-qa`](../../toolkit/cards/media/image-photo-direction/skill--3w-image-qa.md) check before publication. The permissions record covers the final crops, channels and AI use.
 
 ## Outputs
 

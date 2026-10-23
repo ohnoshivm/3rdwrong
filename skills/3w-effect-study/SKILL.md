@@ -31,6 +31,8 @@ Do not use inside a client build; client motion follows [06 Motion, 3D and inter
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/labs/experiments/skill--3w-effect-study.md) records routing, invocation and independent checks.
+
 Read the [Labs department](../../studio/departments/labs.md) operating contract, [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) budget, [web standards](../../methods/quality/web-standards.md) (WebGL budgets, motion standards), [creative guardrails](../../methods/creative-guardrails.md) and the [experiments guide](../../experiments/README.md). Measurement uses browser performance tools available on the machine; if none run, mark measurements Unknown.
 
 ## Procedure

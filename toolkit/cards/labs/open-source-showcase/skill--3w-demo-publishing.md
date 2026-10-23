@@ -19,7 +19,7 @@ pairs_with: [skill:publish-project-to-github, agency:specialized-developer-advoc
 ---
 # Demo publishing
 
-The studio's lead tool for demo publishing: the pre-release gate for Labs demos and public repositories. Proposed lead; the registry change is pending.
+The studio's lead tool for demo publishing: the pre-release gate for Labs demos and public repositories. Registered job lead; the skill remains experimental.
 
 ## What it does
 
@@ -76,5 +76,5 @@ Use the 3w-demo-publishing skill for {{demo}} going to {{public location}}. Inpu
 ## Limits and cautions
 
 - Not legal advice; licence compatibility questions go to an adviser.
-- D-0009 licensing remains pending founder confirmation where stated.
+- D-0009 approves MIT for original code and CC BY 4.0 for original documentation, methods and skills; reserve brand assets and retain third-party rights and notices.
 - Publishing cannot be undone reliably.

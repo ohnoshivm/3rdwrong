@@ -1224,6 +1224,19 @@
       "summary": "A declared Mobbin MCP endpoint for interface reference work; server capabilities are not documented in the available declaration."
     },
     {
+      "id": "skill:3w-taste-graph",
+      "department": "design",
+      "sub_department": "direction",
+      "job": "inspiration-taste",
+      "role": "specialist",
+      "trigger": "Before any creative-output task, load a Taste Graph reference pack for the brief (AGENTS.md; D-0020).",
+      "invoke": "3w-taste-graph skill",
+      "availability": "repo",
+      "distribution": "vendor",
+      "card": "toolkit/cards/design/direction/skill--3w-taste-graph.md",
+      "summary": "The studio's prerequisite for creative output: retrieve curated principles, exemplars and anti-patterns for the actual brief before making work."
+    },
+    {
       "id": "skill:brutalist-skill",
       "department": "design",
       "sub_department": "direction",
@@ -1978,6 +1991,19 @@
       "summary": "The experience-design specialist for ux-writing is Verb-First Actions (trigger: “An approved interface needs verb-first action labels”), which makes buttons and action links state clearly what activation will do."
     },
     {
+      "id": "skill:3w-colour-system",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "colour",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-colour-system skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/design/identity-craft/skill--3w-colour-system.md",
+      "summary": "The studio's lead tool for brand colour: roles, accessible pairings, colour-vision screening, light and dark behaviour, print proofs and tokens, tested across applications."
+    },
+    {
       "id": "vectorlab-ux-skills:colour-palette",
       "department": "design",
       "sub_department": "identity-craft",
@@ -1989,6 +2015,19 @@
       "distribution": "vendor",
       "card": "toolkit/cards/design/identity-craft/vectorlab-ux-skills--colour-palette.md",
       "summary": "The Colour Palette is a specialist for colour in 3RDWRONG’s identity-craft work."
+    },
+    {
+      "id": "skill:3w-composition-system",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "composition-layout",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-composition-system skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/design/identity-craft/skill--3w-composition-system.md",
+      "summary": "The studio's lead tool for brand-wide composition: invariants, variables, grids and hierarchy rules that hold across digital, print, social, environmental and motion formats."
     },
     {
       "id": "design-skills:design-elevation",
@@ -2563,6 +2602,19 @@
       "summary": "The Solar Duotone Bold is a specialist for image-generation direction in 3RDWRONG’s identity-craft work."
     },
     {
+      "id": "skill:3w-mark-exploration",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "mark-logo",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-mark-exploration skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/design/identity-craft/skill--3w-mark-exploration.md",
+      "summary": "The studio's lead tool for mark and logo work: from an idea written without visual adjectives to a tested, production-ready vector family."
+    },
+    {
       "id": "anthropic-skills:pptx",
       "department": "design",
       "sub_department": "identity-craft",
@@ -2641,17 +2693,30 @@
       "summary": "The Figma Use Slides is a specialist for presentation in 3RDWRONG’s identity-craft work."
     },
     {
-      "id": "agent:visual-designer",
+      "id": "skill:3w-typography-system",
       "department": "design",
       "sub_department": "identity-craft",
       "job": "typography",
       "role": "lead",
       "trigger": "",
+      "invoke": "3w-typography-system skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/design/identity-craft/skill--3w-typography-system.md",
+      "summary": "The studio's lead tool for brand typography: type chosen against the idea, licensed for every medium, shaped correctly in every required script and fast on the web."
+    },
+    {
+      "id": "agent:visual-designer",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "typography",
+      "role": "specialist",
+      "trigger": "An approved brand type and colour system must be converted into digital tokens, a type ramp, measured contrast table and grid specification for a build.",
       "invoke": "Agent tool: visual-designer",
       "availability": "claude",
       "distribution": "vendor",
       "card": "toolkit/cards/design/identity-craft/agent--visual-designer.md",
-      "summary": "The Visual Designer is 3RDWRONG’s lead for typography."
+      "summary": "The Visual Designer converts an approved brand type and colour system into digital tokens, a type ramp, a measured contrast table and a grid specification."
     },
     {
       "id": "vectorlab-ux-skills:typography",
@@ -5267,6 +5332,19 @@
       "summary": "Stitch Build Loop is the studio's specialist for ui-implementation; use it when the registry trigger below applies."
     },
     {
+      "id": "skill:3w-effect-study",
+      "department": "labs",
+      "sub_department": "experiments",
+      "job": "effect-studies",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-effect-study skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/labs/experiments/skill--3w-effect-study.md",
+      "summary": "The studio's lead tool for effect studies: re-authors a parked effect recipe or captured technique as an original technique card, measured against the D-0023 budget."
+    },
+    {
       "id": "skill:master-of-games",
       "department": "labs",
       "sub_department": "experiments",
@@ -5280,6 +5358,19 @@
       "summary": "The studio's lead tool for playable-prototypes: use it for the documented workflow in media production."
     },
     {
+      "id": "skill:3w-labs-benchmark",
+      "department": "labs",
+      "sub_department": "experiments",
+      "job": "research-benchmarks",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-labs-benchmark skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/labs/experiments/skill--3w-labs-benchmark.md",
+      "summary": "The studio's lead tool for research benchmarks: a reproducible comparison of techniques, libraries, models or workflows tied to a real decision."
+    },
+    {
       "id": "skill:build-vesperfall-review-assets",
       "department": "labs",
       "sub_department": "house-engine",
@@ -5291,6 +5382,19 @@
       "distribution": "manual",
       "card": "toolkit/cards/labs/house-engine/skill--build-vesperfall-review-assets.md",
       "summary": "The studio's lead tool for asset-pipelines: use it for the documented workflow in media production."
+    },
+    {
+      "id": "skill:3w-engine-validation",
+      "department": "labs",
+      "sub_department": "house-engine",
+      "job": "engine-validation",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-engine-validation skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/labs/house-engine/skill--3w-engine-validation.md",
+      "summary": "The studio's lead tool for engine validation: the Labs gate a house-engine kit passes before projects may use it."
     },
     {
       "id": "skill:web-technique-to-skill",
@@ -5317,6 +5421,19 @@
       "distribution": "vendor",
       "card": "toolkit/cards/labs/open-source-showcase/agency--specialized-developer-advocate.md",
       "summary": "The studio's lead tool for contributor-community: use it for the documented workflow in media production."
+    },
+    {
+      "id": "skill:3w-demo-publishing",
+      "department": "labs",
+      "sub_department": "open-source-showcase",
+      "job": "demo-publishing",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-demo-publishing skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/labs/open-source-showcase/skill--3w-demo-publishing.md",
+      "summary": "The studio's lead tool for demo publishing: the pre-release gate for Labs demos and public repositories."
     },
     {
       "id": "skill:publish-project-to-github",
@@ -5928,6 +6045,19 @@
       "distribution": "vendor",
       "card": "toolkit/cards/marketing/content-social/skill--social-quality-auditor.md",
       "summary": "Social Quality Auditor is the lead tool for social-quality at 3RDWRONG."
+    },
+    {
+      "id": "skill:3w-awards-submission",
+      "department": "marketing",
+      "sub_department": "pr-awards",
+      "job": "awards-submissions",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-awards-submission skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/marketing/pr-awards/skill--3w-awards-submission.md",
+      "summary": "The studio's lead tool for awards submissions: fit check, permission, free-only rule (D-0024), checklist, entry text and results log."
     },
     {
       "id": "skill:press-media-relations",
@@ -7111,6 +7241,32 @@
       "distribution": "manual",
       "card": "toolkit/cards/media/image-photo-direction/skill--image.md",
       "summary": "The studio's specialist for brand-image-assets; activate when Use when the task explicitly calls for this image generation workflow or host"
+    },
+    {
+      "id": "skill:3w-image-production",
+      "department": "media",
+      "sub_department": "image-photo-direction",
+      "job": "image-production-workflow",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-image-production skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/media/image-photo-direction/skill--3w-image-production.md",
+      "summary": "The studio's lead tool for the image production workflow: brief, route, rights and AI consent before making, then selection, export and a rights register."
+    },
+    {
+      "id": "skill:3w-image-qa",
+      "department": "media",
+      "sub_department": "image-photo-direction",
+      "job": "image-quality-check",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-image-qa skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/media/image-photo-direction/skill--3w-image-qa.md",
+      "summary": "The studio's lead tool for image quality checks: the independent rights, likeness, AI-consent, fit, technical and accessibility gate before release."
     },
     {
       "id": "agency:specialized-focus-music-architect",
@@ -9505,6 +9661,19 @@
       "summary": "The studio lead for outreach-copy: use this tool to handle outreach copy work with a source-grounded draft for human review."
     },
     {
+      "id": "skill:3w-reply-triage",
+      "department": "outbound",
+      "sub_department": "outreach-sequences",
+      "job": "reply-triage",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-reply-triage skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/outbound/outreach-sequences/skill--3w-reply-triage.md",
+      "summary": "The studio's lead tool for reply triage: every outbound reply classified, answered within a working day, opt-outs honoured the same day."
+    },
+    {
       "id": "agency:sales-outbound-strategist",
       "department": "outbound",
       "sub_department": "outreach-sequences",
@@ -9661,6 +9830,19 @@
       "summary": "The studio specialist for prospect-discovery: Use for outbound/prospecting-research/prospect-discovery when the brief specifically requires: Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale ."
     },
     {
+      "id": "skill:3w-prospect-qualification",
+      "department": "outbound",
+      "sub_department": "prospecting-research",
+      "job": "prospect-qualification",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-prospect-qualification skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/outbound/prospecting-research/skill--3w-prospect-qualification.md",
+      "summary": "The studio's lead tool for prospect qualification: contact, watch or exclude each researched account before outbound."
+    },
+    {
       "id": "creative-production:intake",
       "department": "production",
       "sub_department": "client-experience",
@@ -9776,6 +9958,19 @@
       "distribution": "manual",
       "card": "toolkit/cards/production/handover-retention/skill--writing-release-notes.md",
       "summary": "The 3RDWRONG tool for {job.replace(\"-\",\" \")} — lead."
+    },
+    {
+      "id": "skill:3w-care-retention",
+      "department": "production",
+      "sub_department": "handover-retention",
+      "job": "retention-programmes",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-care-retention skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/production/handover-retention/skill--3w-care-retention.md",
+      "summary": "The studio's lead tool for retention programmes: warranty closure, care plans, care reviews, check-ins and once-only testimonial and referral asks."
     },
     {
       "id": "agency:project-management-studio-producer",
@@ -10155,6 +10350,19 @@
       "summary": "The studio specialist for seller-enablement: When gathering approved, verbatim client proof for a proposal or case study."
     },
     {
+      "id": "skill:3w-behavioural-lens",
+      "department": "strategy",
+      "sub_department": "culture-behaviour",
+      "job": "behavioural-theory",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-behavioural-lens skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/strategy/culture-behaviour/skill--3w-behavioural-lens.md",
+      "summary": "The studio's lead tool for behavioural theory: cited mechanisms turned into testable hypotheses, with an ethics screen."
+    },
+    {
       "id": "agency:specialized-cultural-intelligence-strategist",
       "department": "strategy",
       "sub_department": "culture-behaviour",
@@ -10192,6 +10400,19 @@
       "distribution": "vendor",
       "card": "toolkit/cards/strategy/culture-behaviour/agency--academic-historian.md",
       "summary": "The 3RDWRONG tool for {job.replace(\"-\",\" \")} — lead."
+    },
+    {
+      "id": "skill:3w-narrative-analysis",
+      "department": "strategy",
+      "sub_department": "culture-behaviour",
+      "job": "narrative-analysis",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-narrative-analysis skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/strategy/culture-behaviour/skill--3w-narrative-analysis.md",
+      "summary": "The studio's lead tool for narrative analysis: sourced brand, founder, customer and cultural stories, tested before the identity carries them."
     },
     {
       "id": "skill:category-narrative-mapper",

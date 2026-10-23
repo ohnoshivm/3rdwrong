@@ -12,9 +12,13 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/strategy.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **27/27 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **29/29 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Culture behaviour
+
+### Behavioural theory
+
+- **Lead:** [`skill:3w-behavioural-lens`](../toolkit/cards/strategy/culture-behaviour/skill--3w-behavioural-lens.md) — The studio's lead tool for behavioural theory: cited mechanisms turned into testable hypotheses, with an ethics screen.
 
 ### Cultural systems
 
@@ -25,6 +29,10 @@ Card coverage: **27/27 (100.0%)** lead/specialist tools. Start with the lead; ma
 ### Historical context
 
 - **Lead:** [`agency:academic-historian`](../toolkit/cards/strategy/culture-behaviour/agency--academic-historian.md) — The 3RDWRONG tool for {job.replace("-"," ")} — lead.
+
+### Narrative analysis
+
+- **Lead:** [`skill:3w-narrative-analysis`](../toolkit/cards/strategy/culture-behaviour/skill--3w-narrative-analysis.md) — The studio's lead tool for narrative analysis: sourced brand, founder, customer and cultural stories, tested before the identity carries them.
 
 ## Positioning
 

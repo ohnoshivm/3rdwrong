@@ -31,6 +31,8 @@ Do not use to approve a client site; that is the [launch-readiness checklist](..
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/labs/house-engine/skill--3w-engine-validation.md) records routing, invocation and independent checks.
+
 Read [web standards](../../methods/quality/web-standards.md) (Core Web Vitals, weight, WebGL and 3D budgets, accessibility, devices and browsers, motion standards), [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md), [web QA checklist](../../methods/quality/web-qa-checklist.md) and [IP and licensing](../../business/legal/ip-and-licensing.md). Performance runs use the tools available locally; record what ran.
 
 ## Procedure

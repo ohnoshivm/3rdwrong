@@ -30,6 +30,8 @@ Do not use to analyse a named real person, to make clinical or diagnostic statem
 
 ## Dependencies
 
+[Tool card](../../toolkit/cards/strategy/culture-behaviour/skill--3w-behavioural-lens.md) records routing, invocation and independent checks.
+
 Read the [perception-to-identity map](../../methods/perception-to-identity-map.md), [03 Strategy](../../methods/identity-engagement/03-strategy.md) and [creative guardrails](../../methods/creative-guardrails.md). Use `agency:academic-psychologist` as a specialist for deeper theory review and `agency:academic-statistician` before any quantitative test.
 
 ## Procedure

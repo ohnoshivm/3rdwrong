@@ -47,7 +47,7 @@ Each phase or stage has the same fields:
 | Failure modes | The ways this phase usually goes wrong in practice; the method file lists more. |
 | Duration | **Hypothesis** planning range only, never a commitment. Real dates are set at L5. |
 
-**Documented** — W1/W2 supply experimental craft and gap-closing leads in the integration patches. Their paths, `evals/`, `scripts/web_qa.py`, `docs/web-qa-harness.md` and `toolkit/cards/` are integration dependencies, not files in this checkout. Code-formatted paths deliberately await integration. Check that the tool and its source are installed before using it; a routing entry is not quality evidence. Tool cards use `toolkit/cards/<department>/<sub_department>/<slug>.md`, with the registry id lowercased, `:` replaced by `--`, and other invalid characters replaced by `-`.
+**Documented** — The four craft and twelve gap-closing leads are integrated experimental skills, with routing and invocation in the [tool-card index](../../toolkit/cards/index.json) and source methods in the [skills guide](../../skills/README.md). Quality Lab (`evals/`) and Web QA (`scripts/web_qa.py`, `docs/web-qa-harness.md`, `bin/3w qa`) remain phase-2 dependencies pending independent review; their code-formatted paths await integration. Check that the selected tool and its prerequisites are installed before use; routing is not quality evidence.
 
 Read the job's lead instructions first. All proposed ownership and duration assignments in these playbooks are **Hypothesis** until tested; the linked methods and decisions are the **Documented** basis. Common failure modes are risks to test, not reports of client incidents.
 
@@ -117,7 +117,7 @@ Human-led craft: type, mark, colour and composition decisions are made by a pers
 - [D-0024](../../studio/decisions/0024-growth-defaults.md): four content channels, 20 hand-written first messages a week, free award submissions only.
 - [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md): codenames and roles only in the repository; names, contacts, money, contracts and client files in the vault. Run `bin/3w check` before committing project records.
 - [D-0006](../../studio/decisions/0006-rejected-own-identity-direction.md): the rejected look (black backgrounds, heavy grotesk, neon, familiar creative-agency aesthetics) is never a default.
-- Before any creative-output task, load the [`3w-taste-graph`](../../skills/3w-taste-graph/SKILL.md) skill and a reference pack, as [AGENTS.md](../../AGENTS.md#creative-reference-packs-and-client-records) requires. Its proposed id `skill:3w-taste-graph` is in the playbooks registry patch; integration must apply it before id-based loading.
+- Before any creative-output task, load the [`3w-taste-graph`](../../skills/3w-taste-graph/SKILL.md) skill and a reference pack, as [AGENTS.md](../../AGENTS.md#creative-reference-packs-and-client-records) requires. Its registered id [`skill:3w-taste-graph`](../../toolkit/cards/design/direction/skill--3w-taste-graph.md) records the creative-output prerequisite without displacing the inspiration-taste lead.
 
 ## Related
 

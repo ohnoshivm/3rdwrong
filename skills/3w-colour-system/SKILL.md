@@ -1,6 +1,6 @@
 ---
 name: 3w-colour-system
-description: Build a perception-aware brand colour system — roles, distinctiveness against category colour codes, sourced cultural notes, WCAG 2.2 contrast with APCA as reference, colour-vision-deficiency checks, light and dark contexts, print conversion and proofing, design tokens and application tests. Use in identity and system phases after a route is chosen; a human sets the colour direction.
+description: Build a perception-aware brand colour system — roles, distinctiveness against category colour codes, sourced cultural notes, WCAG 2.2 contrast, colour-vision-deficiency checks, light and dark contexts, print conversion and proofing, design tokens and application tests. Use in identity and system phases after a route is chosen; a human sets the colour direction.
 metadata:
   type: skill
   status: experimental
@@ -33,9 +33,11 @@ Do not use to pick colours before an idea exists, to assert colour psychology ("
 
 ## Dependencies
 
-Read [phase 05 Identity](../../methods/identity-engagement/05-identity.md), [phase 06 System](../../methods/identity-engagement/06-system.md), [identity system testing](../../methods/quality/identity-system-testing.md), the [perception-to-identity map](../../methods/perception-to-identity-map.md), [web standards](../../methods/quality/web-standards.md) and the colour section of the [identity system specification](../../templates/identity-systems/identity-system-spec.md). Use the reviewed, standard-library tool `scripts/colour_check.py`: `uv run python scripts/colour_check.py contrast <fg> <bg>` computes WCAG 2.x contrast and signed APCA Lc (reference only); `uv run python scripts/colour_check.py palette <hex> <hex> ... --min-delta-e N [--text-pairs fg:bg,...] [--format md|json]` reports CIEDE2000 ΔE00 matrices under normal vision, Machado protanopia, deuteranopia and tritanopia simulations, and luminance greyscale. Choose and state the CIEDE2000 cutoff before each palette run; `--min-delta-e` has no default. `--cvd-severity` accepts 0–1 and defaults to full severity. Print proofing still needs the named vendor.
+[Tool card](../../toolkit/cards/design/identity-craft/skill--3w-colour-system.md) records routing, invocation and independent checks.
 
-APCA Lc is licensed by the [APCA-W3 repository terms](https://github.com/Myndex/apca-w3/blob/master/LICENSE.md) for web-content contrast assessment; commercial use outside the W3 cooperative web-content agreement requires a written license. Do not use APCA results to evaluate print. WCAG remains the baseline for web accessibility checks.
+Read [phase 05 Identity](../../methods/identity-engagement/05-identity.md), [phase 06 System](../../methods/identity-engagement/06-system.md), [identity system testing](../../methods/quality/identity-system-testing.md), the [perception-to-identity map](../../methods/perception-to-identity-map.md), [web standards](../../methods/quality/web-standards.md) and the colour section of the [identity system specification](../../templates/identity-systems/identity-system-spec.md). Use the reviewed, standard-library tool `scripts/colour_check.py`: `uv run python scripts/colour_check.py contrast <fg> <bg>` computes WCAG 2.2 contrast; `uv run python scripts/colour_check.py palette <hex> <hex> ... --min-delta-e N [--text-pairs fg:bg,...] [--format md|json]` reports CIEDE2000 ΔE00 matrices under normal vision, Machado protanopia, deuteranopia and tritanopia simulations, and luminance greyscale. Choose and state the CIEDE2000 cutoff before each palette run; `--min-delta-e` has no default. `--cvd-severity` accepts 0–1 and defaults to full severity. Print proofing still needs the named vendor.
+
+APCA is not shipped; it may be checked manually with the official tool, subject to its licence. WCAG 2.2 contrast is the pass/fail rule. See the [official tool](https://apcacontrast.com/) and [licence](https://github.com/Myndex/apca-w3/blob/master/LICENSE.md) before any optional manual check.
 
 ## Procedure
 
@@ -44,7 +46,7 @@ APCA Lc is licensed by the [APCA-W3 repository terms](https://github.com/Myndex/
 3. **Check distinctiveness against category colour codes.** From the audit, tally the category's dominant hues and value ranges with denominator. Mark which code the system keeps as an entry cue and which it avoids, with reasons. Without an audit, distinctiveness is **Unknown**.
 4. **Record cultural associations only with evidence.** For each association, cite a source and its scope (community, region, period, context) and label it; otherwise mark it **Hypothesis** with the research or participant test needed. Make no universal colour-psychology claim. For India-specific meanings, use sourced, context-bound notes only — meanings differ by region, community, religion and occasion — and have a reviewer from the audience context check them.
 5. **Define values in a perceptual model.** Set master values in OKLCH (or another stated perceptual space) and derive tonal steps there so lightness steps are even; record sRGB hex for the web and note any Display P3 value with its sRGB fallback.
-6. **Test contrast with WCAG 2.2 as the baseline.** For every text and interface pairing in use, record the WCAG 2.x ratio against 4.5:1 for normal text, 3:1 for large text (at least 18 pt, or at least 14 pt bold) and 3:1 for non-text interface components and meaningful graphics. Calculate text pairings with `uv run python scripts/colour_check.py contrast <fg> <bg>` or `--text-pairs fg:bg,...` in a palette report. The tool uses the WCAG 2.2 sRGB transfer breakpoint (0.04045) and reports AA/AAA outcomes for normal and large text. On printed applications the ratio is a proxy for legibility, not a conformance result. Record the signed APCA Lc value as a reference only; never replace a WCAG result with it or present APCA as a conformance standard.
+6. **Test contrast with WCAG 2.2 as the baseline.** For every text and interface pairing in use, record the WCAG 2.2 ratio against 4.5:1 for normal text, 3:1 for large text (at least 18 pt, or at least 14 pt bold) and 3:1 for non-text interface components and meaningful graphics. Calculate text pairings with `uv run python scripts/colour_check.py contrast <fg> <bg>` or `--text-pairs fg:bg,...` in a palette report. The tool uses the WCAG 2.2 sRGB transfer breakpoint (0.04045) and reports AA/AAA outcomes for normal and large text. On printed applications the ratio is a proxy for legibility, not a conformance result. WCAG 2.2 contrast determines pass/fail.
 7. **Simulate colour-vision deficiencies.** Before running, declare the metric as CIEDE2000 ΔE00 and choose a project cutoff; state both in the record before running `uv run python scripts/colour_check.py palette ... --min-delta-e N`. The cutoff is a project choice, not a standard. The tool checks every pair under normal vision, full-severity protanopia, deuteranopia and tritanopia (Machado et al. matrices applied in linear RGB), plus a greyscale view made from relative luminance. `--cvd-severity 0–1` selects an anomalous-trichromacy severity; 1.0 is dichromacy. Check every set colour distinguishes (variants, charts, states) in greyscale first: when a set has more than three members, or each member must also hold readable text, expect lightness alone not to separate every pair and plan the non-colour cue from the start. Then check the simulated views on the real applications. Where pairs fall below the declared cutoff, add a non-colour cue (label, shape, position, pattern) rather than only shifting hue. A simulator is a screening aid, not a user test.
 8. **Specify light and dark contexts.** Define how each role behaves on light and dark surfaces and on photography: which roles invert, which stay, adjusted values for dark backgrounds (saturated colours glare on dark; desaturate or lighten by decision), and re-run steps 6–7 for each context.
 9. **Convert for print and plan proofs.** For each process, give CMYK built for the ICC profile the printer names (not a generic default) and spot references where specified, noting coated and uncoated differences. Require a hard proof or press check on the real substrate and lighting before sign-off; record that a screen preview, even on a calibrated display, does not predict the printed result, and an uncalibrated display cannot be used for colour approval.
@@ -54,7 +56,7 @@ APCA Lc is licensed by the [APCA-W3 repository terms](https://github.com/Myndex/
 
 ## Evidence requirements
 
-A contrast ratio, APCA value or simulation is **Documented** only when actually computed or run on named files; name `scripts/colour_check.py` and record the declared CIEDE2000 cutoff for palette checks. Print colour is Documented only from a proof on the named substrate. Category colour patterns need the linked audit; without it they are **Unknown**. Cultural meanings need a cited source and scope or stay **Hypothesis**. Emotional or behavioural effects of colour are never Documented from studio work. Fictional runs stay inside the fiction.
+A contrast ratio or simulation is **Documented** only when actually computed or run on named files; name `scripts/colour_check.py` and record the declared CIEDE2000 cutoff for palette checks. Print colour is Documented only from a proof on the named substrate. Category colour patterns need the linked audit; without it they are **Unknown**. Cultural meanings need a cited source and scope or stay **Hypothesis**. Emotional or behavioural effects of colour are never Documented from studio work. Fictional runs stay inside the fiction.
 
 ## Output
 
@@ -82,8 +84,8 @@ Return this exact Markdown structure.
 | --- | --- | --- | --- |
 
 ## Contrast pairings
-| Foreground / background | Use | WCAG 2.x ratio | Threshold | Pass | APCA Lc (reference) |
-| --- | --- | --- | --- | --- | --- |
+| Foreground / background | Use | WCAG 2.2 ratio | Threshold | Pass |
+| --- | --- | --- | --- | --- |
 
 ## Colour-vision checks
 Screening metric and threshold: {{metric, cut-off, tool}}
@@ -117,7 +119,7 @@ Deliverables when final: the colour specification page; token files (CSS custom 
 - No role relies on colour alone to carry a required distinction.
 - Category colour codes cite the audit with denominator, or are Unknown.
 - Every cultural association has a source and scope, or is a Hypothesis; no universal colour-psychology claim appears.
-- Every text and interface pairing in use has a computed WCAG 2.x ratio with `scripts/colour_check.py`; APCA is labelled reference.
+- Every text and interface pairing in use has a computed WCAG 2.2 ratio with `scripts/colour_check.py`. WCAG 2.2 contrast determines pass/fail.
 - Every palette screen names CIEDE2000 ΔE00 and states the user-chosen cutoff before the command runs.
 - Colour-vision simulation covered every colour-coded distinction; collapses have a non-colour cue.
 - Light and dark contexts were each tested, not assumed.

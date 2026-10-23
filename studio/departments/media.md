@@ -13,7 +13,7 @@ Produce film, motion graphics, images and sound assets from approved creative di
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-66 tools; 12 lead, 33 specialist, 6 bench, 15 parked, 0 excluded; 45 active / 21 library.
+68 tools; 14 lead, 33 specialist, 6 bench, 15 parked, 0 excluded; 47 active / 21 library.
 
 ## Sub-departments → jobs → leads
 
@@ -35,8 +35,8 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | Job | Lead(s) |
 | --- | --- |
 | `brand-image-assets` | `skill:imagegen` |
-| `image-production-workflow` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
-| `image-quality-check` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `image-production-workflow` | `skill:3w-image-production` |
+| `image-quality-check` | `skill:3w-image-qa` |
 
 ### sound-voice
 
@@ -94,15 +94,21 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `image-photo-direction/image-production-workflow` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
-- `image-photo-direction/image-quality-check` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
+The previous lead gaps now have experimental studio methods:
+
+- `image-photo-direction/image-production-workflow` — [`skill:3w-image-production`](../../skills/3w-image-production/SKILL.md).
+- `image-photo-direction/image-quality-check` — [`skill:3w-image-qa`](../../skills/3w-image-qa/SKILL.md).
+
+Routing closes the ownership gap; it does not prove output quality, human
+approval, installed prerequisites or completed delivery. Independent evidence
+and the charter gates remain required.
 
 ## Counts by sub-department and role
 
 | Sub-department | Lead | Specialist | Bench | Parked | Excluded | Active | Library | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | film-motion-graphics | 8 | 28 | 5 | 12 | 0 | 36 | 17 | 53 |
-| image-photo-direction | 1 | 2 | 0 | 1 | 0 | 3 | 1 | 4 |
+| image-photo-direction | 3 | 2 | 0 | 1 | 0 | 5 | 1 | 6 |
 | sound-voice | 3 | 3 | 1 | 2 | 0 | 6 | 3 | 9 |
 
 ## Operating contract

@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/production.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **19/19 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **20/20 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Client experience
 
@@ -45,6 +45,10 @@ Card coverage: **19/19 (100.0%)** lead/specialist tools. Start with the lead; ma
 ### Delivery handover
 
 - **Lead:** [`skill:writing-release-notes`](../toolkit/cards/production/handover-retention/skill--writing-release-notes.md) — The 3RDWRONG tool for {job.replace("-"," ")} — lead.
+
+### Retention programmes
+
+- **Lead:** [`skill:3w-care-retention`](../toolkit/cards/production/handover-retention/skill--3w-care-retention.md) — The studio's lead tool for retention programmes: warranty closure, care plans, care reviews, check-ins and once-only testimonial and referral asks.
 
 ## Producing pm
 

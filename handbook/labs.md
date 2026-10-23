@@ -12,19 +12,31 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/labs.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **5/5 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **9/9 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Experiments
+
+### Effect studies
+
+- **Lead:** [`skill:3w-effect-study`](../toolkit/cards/labs/experiments/skill--3w-effect-study.md) — The studio's lead tool for effect studies: re-authors a parked effect recipe or captured technique as an original technique card, measured against the D-0023 budget.
 
 ### Playable prototypes
 
 - **Lead:** [`skill:master-of-games`](../toolkit/cards/labs/experiments/skill--master-of-games.md) — The studio's lead tool for playable-prototypes: use it for the documented workflow in media production.
+
+### Research benchmarks
+
+- **Lead:** [`skill:3w-labs-benchmark`](../toolkit/cards/labs/experiments/skill--3w-labs-benchmark.md) — The studio's lead tool for research benchmarks: a reproducible comparison of techniques, libraries, models or workflows tied to a real decision.
 
 ## House engine
 
 ### Asset pipelines
 
 - **Lead:** [`skill:build-vesperfall-review-assets`](../toolkit/cards/labs/house-engine/skill--build-vesperfall-review-assets.md) — The studio's lead tool for asset-pipelines: use it for the documented workflow in media production.
+
+### Engine validation
+
+- **Lead:** [`skill:3w-engine-validation`](../toolkit/cards/labs/house-engine/skill--3w-engine-validation.md) — The studio's lead tool for engine validation: the Labs gate a house-engine kit passes before projects may use it.
 
 ### Reusable kits
 
@@ -35,6 +47,10 @@ Card coverage: **5/5 (100.0%)** lead/specialist tools. Start with the lead; make
 ### Contributor community
 
 - **Lead:** [`agency:specialized-developer-advocate`](../toolkit/cards/labs/open-source-showcase/agency--specialized-developer-advocate.md) — The studio's lead tool for contributor-community: use it for the documented workflow in media production.
+
+### Demo publishing
+
+- **Lead:** [`skill:3w-demo-publishing`](../toolkit/cards/labs/open-source-showcase/skill--3w-demo-publishing.md) — The studio's lead tool for demo publishing: the pre-release gate for Labs demos and public repositories.
 
 ### Project packaging
 
