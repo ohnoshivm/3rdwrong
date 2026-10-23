@@ -1,6 +1,6 @@
 # Skills
 
-These six Agent Skills are **experimental**. Their outputs are drafts for human review; none can approve strategy, design, rights or release.
+These ten Agent Skills are **experimental**. Their outputs are drafts for human review; none can approve strategy, design, rights or release.
 
 | Skill | Purpose | Phase | Inputs | Output |
 | --- | --- | --- | --- | --- |
@@ -10,6 +10,14 @@ These six Agent Skills are **experimental**. Their outputs are drafts for human 
 | [3w-identity-system-critic](3w-identity-system-critic/SKILL.md) | Critique idea, system and craft | 04 or 07 | Strategy, route, artefacts and scope | Evidence-labelled findings |
 | [3w-brand-consistency-qa](3w-brand-consistency-qa/SKILL.md) | Check assets against approved rules | 06 System / 08 Delivery | Approved guideline and asset set | Pass, fail and not-testable checks |
 | [3w-taste-graph](3w-taste-graph/SKILL.md) | Reference pack before creative output; capture references | Any creative output | Brief, or a link/screenshot to save | Do/don't pack with exemplars, or a captured node |
+| [3w-mark-exploration](3w-mark-exploration/SKILL.md) | Mark from idea to tested production vector | 05 Identity / 07 Validation | Chosen route, name, scripts, category audit, media | Routes, optical-correction and size/medium test record, deliverable list |
+| [3w-typography-system](3w-typography-system/SKILL.md) | Brand type selection, licensing, scripts and web fonts | 05 Identity / 06 System | Chosen route, scripts, media, content strings | Shortlist, licence and script tables, hierarchy, font budget |
+| [3w-colour-system](3w-colour-system/SKILL.md) | Perception-aware colour roles, contrast, print and tokens | 05 Identity / 06 System / 07 Validation | Chosen route, colour direction, applications, printer | Roles, computed contrast and colour-vision tables, print and token spec |
+| [3w-composition-system](3w-composition-system/SKILL.md) | Brand-wide composition across formats | 05 Identity / 06 System | Draft mark, type and colour; applications with dimensions | Invariants, grids, format rules, test record, templates |
+
+## Identity-craft order
+
+The four identity-craft skills feed each other: run mark exploration and typography first (the wordmark and type share stroke contrast and spacing), then colour, then composition, which uses all three. Iterate when a later skill exposes a defect in an earlier one. The [Stillsoil Atelier test runs](../projects/examples/README.md) show the hand-offs. Each records craft decisions for a human; the founder or design lead decides type, mark, colour and composition.
 
 ## Discovery and use
 

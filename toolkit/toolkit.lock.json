@@ -1337,6 +1337,20 @@
       "sha256": "8c8307f66e476b78f72dbc7b15ff92c53df9e10855cdf004c84e3f5f0d80dfcc"
     },
     {
+      "bytes": 13238,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-colour-system/SKILL.md",
+      "sha256": "56046ca18f1777d24e9948d6d4230e9d4cfb730dbbb8a54b5591d01c65bac5c6"
+    },
+    {
+      "bytes": 10661,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-composition-system/SKILL.md",
+      "sha256": "6f2308b8419edbb1c8b731d81a7c3538e0dab0a8905c8fbf53e9d316df415524"
+    },
+    {
       "bytes": 6384,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
@@ -1351,11 +1365,25 @@
       "sha256": "a44d388187ff244b2be5926b456b705667e79fddd285c40e265fc42a6ab5e3be"
     },
     {
+      "bytes": 12901,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-mark-exploration/SKILL.md",
+      "sha256": "b2b4f32bc5f7d12c78785ee0c4b6da350d21262703e82ed046f7f4fde6b7f852"
+    },
+    {
       "bytes": 7160,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
       "path": "toolkit/plugins/3rdwrong-core/skills/3w-taste-graph/SKILL.md",
       "sha256": "34b3b3bc1e9419b90d8829f085cc21838d9207da3e901cb42c70dfee2ea5ed16"
+    },
+    {
+      "bytes": 11553,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-typography-system/SKILL.md",
+      "sha256": "2353b9885692010c93c808c28f36f36758222ee69695c5a1ca2429206668034f"
     },
     {
       "bytes": 242,
@@ -56943,9 +56971,9 @@
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
     "THIRD_PARTY_NOTICES.md": "8c3abfca9e24b17ed6851bb804e426c5cc27d28ff556cbd9dff5b7e49c15ac07",
-    "toolkit/coverage.json": "582285d3cf2339f866ce4ca4bf9cca679cb83035d8fc6e5e99cd72d5e33f52f4",
+    "toolkit/coverage.json": "0910954be8522f2372c16e698f902616c9891a0a208d2920b2eca1ac2f13ea3b",
     "toolkit/fetch.yaml": "04eaf42499bca02f9db6ee0a505214e14fba46c7b86ec857f5a25b786b409c1f",
-    "toolkit/install-plan.json": "9dd33a7fe51881dbe2fbaa22195adeed39c6174066894b94c0b57c9a289e69b3",
+    "toolkit/install-plan.json": "b2291a91593266909075f318fd3a1af0947a1f1db90ce87d5eded3445d0e9141",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
     "toolkit/secret-allowlist.json": "aebcb912c20c41908ee1ce94aa8b057168154e57c3c7a05d738385d8c25533d9"

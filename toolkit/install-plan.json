@@ -14413,6 +14413,39 @@
     {
       "department": "core",
       "distribution": "vendor",
+      "id": "core:3w-colour-system",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-colour-system",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-colour-system"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-composition-system",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-composition-system",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-composition-system"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-mark-exploration",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-mark-exploration",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-mark-exploration"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
       "id": "core:3w-taste-graph",
       "kind": "skill",
       "load": "active",
@@ -14420,6 +14453,17 @@
       "package": "pack-founder-3rdwrong-skills",
       "role": "lead",
       "source": "skills/3w-taste-graph"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-typography-system",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-typography-system",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-typography-system"
     }
   ],
   "manual": [
