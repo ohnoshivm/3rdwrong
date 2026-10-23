@@ -1,0 +1,7 @@
+schema_version: 1
+run_id: demo-stillsoil-synthesis-demo
+job: evidence-synthesis
+demo: true
+run_path: evals/runs/demos/evidence-synthesis/demo-stillsoil-synthesis-demo
+result_path: evals/results/demos/evidence-synthesis/demo-stillsoil-synthesis-demo.yaml
+creation_sha256: 8bc826ad4d38a96d832b9d47212932886a6f0de47f562606127449cc914a011b

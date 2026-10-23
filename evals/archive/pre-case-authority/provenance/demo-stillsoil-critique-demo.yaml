@@ -1,0 +1,7 @@
+schema_version: 1
+run_id: demo-stillsoil-critique-demo
+job: concept-critique
+demo: true
+run_path: evals/runs/demos/concept-critique/demo-stillsoil-critique-demo
+result_path: evals/results/demos/concept-critique/demo-stillsoil-critique-demo.yaml
+creation_sha256: 6c73b305bd5e3e424f3b302484d936261b76c79b028159bfc7e4e75c7f9525bc

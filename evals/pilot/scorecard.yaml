@@ -1,0 +1,487 @@
+status: proposed
+protocol: Pilot Delivery Dry-Run
+fictional_project: Stillsoil Atelier
+score_scale:
+- 1
+- 5
+index_scale:
+- 0
+- 100
+ready_bar: 80
+minimum_each_stage: 4
+stage_aggregation: Arithmetic mean of applicable job rubric scores; case scores are weighted criterion
+  means. No missing required rubric or stage may be omitted.
+hard_gates:
+- Every stage has actual evidence and a human-checked score; fictional Stillsoil case scores remain demo
+  and cannot enter leaderboard evidence.
+- No unresolved Blocker or Major and no disqualifiers.
+- All required human gates are actually recorded, rehearsal-only.
+- D-0023 lab/transfer/frame/fallback evidence passes; field p75 remains explicitly unverified until available.
+- Complete opened delivery pack, rights, AI-final consent rehearsal, rollback and care/access-removal
+  checks.
+stages:
+- id: I01
+  name: Discovery
+  weight_percent: 5
+  method: methods/identity-engagement/01-discovery.md
+  rubric_cases:
+  - evals/cases/strategy/evidence-synthesis/contradictions-and-gaps.yaml
+  - evals/cases/strategy/evidence-synthesis/discovery-synthesis.yaml
+  required_evidence: Source inventory, fictional evidence boundary and research questions
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 01 Discovery
+  gate_requirement: No separate client gate; the factual summary goes to C1 with phase 02. Founder approves
+    the factual summary and participant handling.
+  lifecycle: L6 Deliver
+- id: I02
+  name: Diagnosis
+  weight_percent: 5
+  method: methods/identity-engagement/02-diagnosis.md
+  rubric_cases:
+  - evals/cases/strategy/evidence-synthesis/contradictions-and-gaps.yaml
+  - evals/cases/strategy/evidence-synthesis/discovery-synthesis.yaml
+  - evals/cases/strategy/positioning-canvas/premium-proof.yaml
+  - evals/cases/strategy/positioning-canvas/working-position.yaml
+  required_evidence: Problem frame, category-source coverage, tensions and missing evidence
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 02 Diagnosis
+  gate_requirement: 'Discovery and diagnosis gate: C1 confirms factual accuracy and the work question;
+    founder logs it. This does not approve an interpretation or concept.'
+  lifecycle: L6 Deliver
+- id: I03
+  name: Strategy
+  weight_percent: 7
+  method: methods/identity-engagement/03-strategy.md
+  rubric_cases:
+  - evals/cases/strategy/positioning-canvas/premium-proof.yaml
+  - evals/cases/strategy/positioning-canvas/working-position.yaml
+  required_evidence: Versioned strategy, perception-to-identity map and separate human strategy gate
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 03 Strategy
+  gate_requirement: Founder approves the strategy for presentation. C1 signs a dated strategy version
+    before phase 04 starts. Present without visual references. A later material change returns here and
+    is recorded before concept work resumes.
+  lifecycle: L6 Deliver
+- id: I04
+  name: Concept
+  weight_percent: 7
+  method: methods/identity-engagement/04-concept.md
+  rubric_cases:
+  - evals/cases/design/concept-direction/three-territories.yaml
+  - evals/cases/design/concept-direction/variant-first.yaml
+  - evals/cases/design/concept-critique/colour-only-change.yaml
+  - evals/cases/design/concept-critique/text-only-route.yaml
+  required_evidence: Three different ideas, comparative critique and human route selection
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 04 Concept
+  gate_requirement: 'Founder chooses the route to recommend. C1 selects a route for development (concept
+    decision, not visual sign-off). Under D-0023 the 30% payment falls on approval of the chosen direction:
+    Operations raises it with bin/3w new invoice (vault only).'
+  lifecycle: L6 Deliver
+- id: I05
+  name: Identity
+  weight_percent: 10
+  method: methods/identity-engagement/05-identity.md
+  rubric_cases:
+  - evals/cases/design/verbal-identity/compact-copy.yaml
+  - evals/cases/design/verbal-identity/voice-foundations.yaml
+  - evals/cases/design/typography/label-shop-hierarchy.yaml
+  - evals/cases/design/typography/small-long-name.yaml
+  - evals/cases/design/colour/non-colour-variant.yaml
+  - evals/cases/design/colour/role-palette.yaml
+  - evals/cases/design/mark-logo/avatar-master.yaml
+  - evals/cases/design/mark-logo/mark-exploration.yaml
+  - evals/cases/design/composition-layout/dense-and-sparse.yaml
+  - evals/cases/design/composition-layout/system-layout.yaml
+  required_evidence: Original editable identity elements, human craft review, specimens, rights and production
+    limits
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 05 Identity
+  gate_requirement: No client visual gate here. Founder signs the craft; C1 confirms product language
+    and required scripts. Component review does not approve the system.
+  lifecycle: L6 Deliver
+- id: I06
+  name: System
+  weight_percent: 7
+  method: methods/identity-engagement/06-system.md
+  rubric_cases:
+  - evals/cases/design/composition-layout/dense-and-sparse.yaml
+  - evals/cases/design/composition-layout/system-layout.yaml
+  - evals/cases/design/consistency-qa/missing-system.yaml
+  - evals/cases/design/consistency-qa/variant-drift.yaml
+  required_evidence: Versioned rules across label, line sheet and mobile; separate visual-system gate
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 06 System
+  gate_requirement: Founder approves the system for presentation. C1 gives visual sign-off, separate from
+    the strategy sign-off. A strategy change returns to 03; a production defect returns to its rule.
+  lifecycle: L6 Deliver
+- id: I07
+  name: Validation
+  weight_percent: 5
+  method: methods/identity-engagement/07-validation.md
+  rubric_cases:
+  - evals/cases/design/concept-critique/colour-only-change.yaml
+  - evals/cases/design/concept-critique/text-only-route.yaml
+  - evals/cases/design/consistency-qa/missing-system.yaml
+  - evals/cases/design/consistency-qa/variant-drift.yaml
+  - evals/cases/engineering/accessibility-implementation/audit-plan.yaml
+  - evals/cases/engineering/accessibility-implementation/synthetic-dialog-defects.yaml
+  required_evidence: System matrix at actual dimensions, defects and independent retest evidence
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 07 Validation
+  gate_requirement: Founder (as design lead) signs the validation record. C1 accepts known limits and
+    residual exceptions in writing (decisions.md).
+  lifecycle: L6 Deliver
+- id: I08
+  name: Delivery
+  weight_percent: 3
+  method: methods/identity-engagement/08-delivery.md
+  rubric_cases:
+  - evals/cases/design/consistency-qa/missing-system.yaml
+  - evals/cases/design/consistency-qa/variant-drift.yaml
+  required_evidence: Opened exports, asset/rights index, guidelines, access and separate receipt rehearsal
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 08 Delivery
+  gate_requirement: Founder approves release. C1 confirms receipt and access, recorded separately from
+    creative approval; receipt is not a new creative approval.
+  lifecycle: L7 Launch and handover
+- id: I09
+  name: Learning
+  weight_percent: 1
+  method: methods/identity-engagement/09-learning.md
+  rubric_cases:
+  - evals/cases/strategy/evidence-synthesis/contradictions-and-gaps.yaml
+  - evals/cases/strategy/evidence-synthesis/discovery-synthesis.yaml
+  required_evidence: Source-linked retrospective, tool defects, method changes and next evaluation
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/identity-system.md
+  playbook_stage: 09 Learning
+  gate_requirement: Founder approves retro actions and publication. C1 gives or withholds case-study permission
+    (separate written permission to name the client).
+  lifecycle: L9 Close-out and case study
+- id: DX01
+  name: Discovery and audit
+  weight_percent: 3
+  method: methods/digital-experience/01-discovery-and-audit.md
+  rubric_cases:
+  - evals/cases/strategy/evidence-synthesis/contradictions-and-gaps.yaml
+  - evals/cases/strategy/evidence-synthesis/discovery-synthesis.yaml
+  - evals/cases/engineering/web-vitals/no-runtime-evidence.yaml
+  - evals/cases/engineering/web-vitals/synthetic-budget-failures.yaml
+  - evals/cases/engineering/accessibility-implementation/audit-plan.yaml
+  - evals/cases/engineering/accessibility-implementation/synthetic-dialog-defects.yaml
+  required_evidence: Fictional digital scope extension, content/task inventory and confirmed success criteria
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 01 Discovery and audit
+  gate_requirement: 'DX-01: founder; C1 confirms facts, success criteria and the content plan.'
+  lifecycle: L6 Deliver
+- id: DX02
+  name: Experience strategy and concept
+  weight_percent: 5
+  method: methods/digital-experience/02-experience-strategy-and-concept.md
+  rubric_cases:
+  - evals/cases/design/interaction-architecture/dialog-recovery.yaml
+  - evals/cases/design/interaction-architecture/product-finder.yaml
+  - evals/cases/design/concept-direction/three-territories.yaml
+  - evals/cases/design/concept-direction/variant-first.yaml
+  required_evidence: Original experience idea, sitemap, journeys and concept gate
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 02 Experience strategy and concept
+  gate_requirement: 'DX-02: founder selects the concept; C1 approves concept and sitemap. Concept approval
+    does not approve art direction. Interpretation — if the SOW treats this as "approval of the chosen
+    direction", the D-0023 30% payment falls here; follow the SOW.'
+  lifecycle: L6 Deliver
+- id: DX03
+  name: Art direction and design system
+  weight_percent: 6
+  method: methods/digital-experience/03-art-direction-and-design-system.md
+  rubric_cases:
+  - evals/cases/design/typography/label-shop-hierarchy.yaml
+  - evals/cases/design/typography/small-long-name.yaml
+  - evals/cases/design/colour/non-colour-variant.yaml
+  - evals/cases/design/colour/role-palette.yaml
+  - evals/cases/design/composition-layout/dense-and-sparse.yaml
+  - evals/cases/design/composition-layout/system-layout.yaml
+  - evals/cases/design/motion-principles/remove-delayed-reveal.yaml
+  - evals/cases/design/motion-principles/variant-feedback.yaml
+  required_evidence: Named tokens, type/colour/layout rules, states, motion and art-direction gate
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 03 Art direction and design system
+  gate_requirement: 'DX-03: founder; C1 approves art direction on two or three key templates. Tokens are
+    then frozen for the prototype; later changes go through change control.'
+  lifecycle: L6 Deliver
+- id: DX04
+  name: Prototype
+  weight_percent: 7
+  method: methods/digital-experience/04-prototype.md
+  rubric_cases:
+  - evals/cases/engineering/creative-prototyping/context-loss.yaml
+  - evals/cases/engineering/creative-prototyping/purposeful-3d.yaml
+  - evals/cases/design/interaction-architecture/dialog-recovery.yaml
+  - evals/cases/design/interaction-architecture/product-finder.yaml
+  - evals/cases/engineering/web-vitals/no-runtime-evidence.yaml
+  - evals/cases/engineering/web-vitals/synthetic-budget-failures.yaml
+  required_evidence: Hardest browser slice on target hardware, static comparison, budget/fallback acceptance
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 04 Prototype
+  gate_requirement: 'DX-04: complete stack decision record with prototype/device evidence and final decision;
+    founder and C1 accept the prototype; Design and Engineering leads jointly agree budgets and fallbacks.
+    Budgets at or under D-0023, or a founder-approved exception recorded in the project.'
+  lifecycle: L6 Deliver
+- id: DX05
+  name: Production build
+  weight_percent: 8
+  method: methods/digital-experience/05-production-build.md
+  rubric_cases:
+  - evals/cases/engineering/ui-implementation/product-slice.yaml
+  - evals/cases/engineering/ui-implementation/responsive-dialog.yaml
+  required_evidence: Passing production build, meaningful tests, content/states and integration boundaries
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 05 Production build
+  gate_requirement: 'DX-05: Engineering and Design leads confirm feature completeness; founder logs it.
+    Scope additions go through change control (bin/3w new change-order).'
+  lifecycle: L6 Deliver
+- id: DX06
+  name: Motion, 3D and interaction
+  weight_percent: 5
+  method: methods/digital-experience/06-motion-3d-and-interaction.md
+  rubric_cases:
+  - evals/cases/design/motion-principles/remove-delayed-reveal.yaml
+  - evals/cases/design/motion-principles/variant-feedback.yaml
+  - evals/cases/engineering/creative-prototyping/context-loss.yaml
+  - evals/cases/engineering/creative-prototyping/purposeful-3d.yaml
+  required_evidence: Purposeful scenes, frame traces, one scroll engine, complete reduced-motion/static
+    path
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 06 Motion, 3D and interaction
+  gate_requirement: 'DX-06: Design and Engineering leads jointly; founder logs it. One smooth-scroll engine
+    at most; reduced motion complete.'
+  lifecycle: L6 Deliver
+- id: DX07
+  name: QA
+  weight_percent: 6
+  method: methods/digital-experience/07-qa.md
+  rubric_cases:
+  - evals/cases/design/consistency-qa/missing-system.yaml
+  - evals/cases/design/consistency-qa/variant-drift.yaml
+  - evals/cases/engineering/accessibility-implementation/audit-plan.yaml
+  - evals/cases/engineering/accessibility-implementation/synthetic-dialog-defects.yaml
+  - evals/cases/engineering/ui-implementation/product-slice.yaml
+  - evals/cases/engineering/ui-implementation/responsive-dialog.yaml
+  required_evidence: Desktop/tablet/mobile evidence, browser/keyboard/AT checks, no unresolved Blocker
+    or Major
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 07 QA
+  gate_requirement: 'DX-07: founder logs pass or pass with conditions only under the mandatory harness
+    gate, with no open Blocker (critical) or Major and every Minor dispositioned.'
+  lifecycle: L6 Deliver
+- id: DX08
+  name: Performance and launch readiness
+  weight_percent: 5
+  method: methods/digital-experience/08-performance-and-launch-readiness.md
+  rubric_cases:
+  - evals/cases/engineering/web-vitals/no-runtime-evidence.yaml
+  - evals/cases/engineering/web-vitals/synthetic-budget-failures.yaml
+  - evals/cases/engineering/accessibility-implementation/audit-plan.yaml
+  - evals/cases/engineering/accessibility-implementation/synthetic-dialog-defects.yaml
+  required_evidence: D-0023 measurements, security/rights/SEO/analytics checklist, rollback and human
+    launch rehearsal gate
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 08 Performance and launch readiness
+  gate_requirement: 'DX-08: founder and C1 approve launch at the go/no-go review.'
+  lifecycle: L6 Deliver
+- id: DX09
+  name: Launch and handover
+  weight_percent: 3
+  method: methods/digital-experience/09-launch-and-handover.md
+  rubric_cases:
+  - evals/cases/engineering/ui-implementation/product-slice.yaml
+  - evals/cases/engineering/ui-implementation/responsive-dialog.yaml
+  - evals/cases/design/consistency-qa/missing-system.yaml
+  - evals/cases/design/consistency-qa/variant-drift.yaml
+  required_evidence: Sandbox release verification, restoration, opened handover pack, acceptance and receipt
+    recorded separately
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 09 Launch and handover
+  gate_requirement: 'DX-09: C1 confirms final acceptance and, separately, receipt and access. Record the
+    30-day warranty dates from launch; receipt is a separate event.'
+  lifecycle: L7 Launch and handover
+- id: DX10
+  name: Care and iteration
+  weight_percent: 2
+  method: methods/digital-experience/10-care-and-iteration.md
+  rubric_cases:
+  - evals/cases/engineering/web-vitals/no-runtime-evidence.yaml
+  - evals/cases/engineering/web-vitals/synthetic-budget-failures.yaml
+  - evals/cases/strategy/evidence-synthesis/contradictions-and-gaps.yaml
+  - evals/cases/strategy/evidence-synthesis/discovery-synthesis.yaml
+  required_evidence: Simulated warranty defect, monitoring/field owner, care choice and access-removal
+    rehearsal
+  score: null
+  elapsed_minutes: null
+  gate: not-run
+  judge_model: null
+  human_reviewer: null
+  evidence_refs: []
+  defects: []
+  lessons: []
+  playbook: methods/playbooks/digital-experience.md
+  playbook_stage: 10 Care and iteration
+  gate_requirement: 'DX-10: founder and C1 close the 30-day warranty and agree or decline a care plan.
+    Resolve deferred device tests; review the field-data condition on its due date. If traffic is insufficient,
+    keep field p75 Unknown with owner and next review, rather than closing it as passed.'
+  lifecycle: L8 Care
+lifecycle_gate_requirements:
+  L0-L5: Rehearse lead capture, founder pursue/decline, C1 facts/scope confirmation, founder proposal
+    approval and client acceptance, signed contract/deposit/clearance, and founder/C1 plan, team, roles,
+    access and inputs. No actual client, money or consent is fabricated.
+  L6: Every offer stage gate logged; two consolidated feedback rounds per phase; scope additions use a
+    simulated change decision.
+  L7: Founder release approval; C1 final acceptance and separately receipt/access; opened handover pack.
+  L8: Simulated warranty closure, care agreed or declined, access removed and credentials rotated; deferred
+    field/device tests retain owners and dates.
+  L9: Founder retro actions and publication gate; C1 case-study permission separately; closed project
+    gate log. No real publication permission is implied.

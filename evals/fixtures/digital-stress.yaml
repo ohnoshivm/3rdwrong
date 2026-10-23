@@ -1,0 +1,44 @@
+status: proposed
+fictional: true
+purpose: Synthetic adversarial inputs for evaluation only; no browser was run.
+scope_extension: Fictional pilot includes a product finder and digital experience, beyond the original brief.
+performance:
+  evidence_label: Hypothesis
+  provenance: Invented measurement-shaped fixture, not measurements or client evidence.
+  lab_profile:
+    build: synthetic-build-a
+    device: synthetic mid-range mobile profile
+    network: synthetic throttled mobile
+    tool: no tool run
+    lcp_seconds: 2.4
+    cls: 0.12
+    tbt_ms: 260
+    transfer_before_interaction_mb: 2.3
+    animation_fps: 43
+    reduced_motion_content: blank canvas
+  field_profile:
+    mobile_p75_lcp_seconds: null
+    mobile_p75_inp_ms: null
+    mobile_p75_cls: null
+    sample_window: null
+accessibility:
+  evidence_label: Hypothesis
+  provenance: Synthetic descriptions of potential defects, not a conformance test.
+  states:
+    - Product variant chosen only by colour swatches without names.
+    - Dialog opens without moving focus; Escape does nothing; background controls remain in tab order.
+    - Product image is the only source of use instructions; it has no alternative text.
+    - Narrow layout crops the product name; zoom and reflow have not been tested.
+    - Purchase action becomes available only after a motion sequence; reduced motion hides its label.
+identity_stress:
+  evidence_label: Hypothesis
+  dimensions: Synthetic test targets only; not vendor-approved sizes.
+  label_mm: [35, 50]
+  avatar_px: [24, 24]
+  mobile_width_px: 320
+  languages: English supplied; additional scripts unknown and require confirmation.
+  content:
+    product: Fragrance-free cleansing bar
+    variant: Fragrance-free
+    instructions: Use instructions are unverified; do not invent regulated product text.
+  proposed_change: Replace the variant text with an unlabelled pale colour patch.

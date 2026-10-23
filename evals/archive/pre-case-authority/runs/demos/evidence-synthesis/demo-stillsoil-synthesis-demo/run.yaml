@@ -1,0 +1,50 @@
+schema_version: 1
+status: proposed
+run_id: demo-stillsoil-synthesis-demo
+created_at: '2026-10-23T06:18:39+00:00'
+demo: true
+department: strategy
+job: evidence-synthesis
+case_path: evals/cases/strategy/evidence-synthesis/discovery-synthesis.yaml
+case_sha256: 263cdaecbb631bf527ac900c16f0919bd0e94e4e1ea4876cae5466c3bb8a628d
+registry_sha256: 843dcfb5afef70b0e9e38ca2532c5933537c713d77b514de5c421953d635616f
+inputs:
+- source: projects/examples/stillsoil-atelier/brief.md
+  snapshot: inputs/01.txt
+  sha256: f665d6bb689841a7e7a207d34b4507cf6e501bbee312ea068e37ba87b9574635
+- source: methods/identity-engagement/01-discovery.md
+  snapshot: inputs/02.txt
+  sha256: 6e28ce89c018f84f04c38fc5aee19a81683a7a5ad8bd75396b7c1a951818196f
+- source: methods/perception-to-identity-map.md
+  snapshot: inputs/03.txt
+  sha256: 4972f6bb4806979851436b53ec5658d7b65cd7704efb2719362b06fa85b22a27
+- source: templates/learning/skill-evaluation.md
+  snapshot: inputs/04.txt
+  sha256: cdb3d1f1ef64cf37f20b941f133e0829592c8513c808445b46cb67605b60d5dd
+candidates:
+  A:
+    tool_id: skill:3w-brand-discovery
+    registry_snapshot:
+      aliases:
+      - skill:3w-brand-discovery
+      department: strategy
+      id: skill:3w-brand-discovery
+      job: brand-discovery
+      kind: repo-skill
+      load: active
+      reason: Studio-specific source inventory, four evidence labels, independent-source
+        checks, fiction boundary, perception-to-identity map and separate human strategy
+        approval. Experimental, not validated.
+      role: lead
+      sub_department: research-perception
+      trigger: ''
+    maker_model: historical-unknown
+    output: slots/A.txt
+    output_sha256: fd456d8a61dc03d82f5a59af80d3c8261f69fe63989ea72ae2bfee569ea12311
+    recorded_at: '2026-10-23T06:18:39+00:00'
+    maker_canonical: unknown
+state: scored
+score_meaning: Pipeline demonstration only; not a quality verdict.
+provenance_note: Legacy demonstration migrated to class-specific storage; no new blind
+  evaluation or quality claim.
+creation_sha256: 8bc826ad4d38a96d832b9d47212932886a6f0de47f562606127449cc914a011b

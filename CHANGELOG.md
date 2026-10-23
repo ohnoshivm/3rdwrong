@@ -56,6 +56,9 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 ### Added
 
+- Proposed Quality Lab: 32 anchored cases across 16 jobs, schema/validator check, blinded evaluation CLI, per-job leaderboard and two explicitly non-verdict Stillsoil pipeline demonstrations.
+- Pilot Delivery Dry-Run protocol, 19-stage rubric crosswalk, Studio Delivery Quality Index and time/defect/gate/learning log template; integrated playbooks and actual pilot evidence remain pending.
+
 - Approved D-0022 (studio name 3RDWRONG), D-0023 (commercial and delivery defaults) and D-0024 (growth defaults), recorded from the founder decisions session of 2026-10-23.
 - Taste Graph (D-0020): local PostgreSQL reference library, public seeds, capture/search/curation CLI and the experimental `3w-taste-graph` reference-pack skill.
 - Delivery engine: lifecycle, Digital Experience method, web quality and launch gates, handover/care, `bin/3w`, project bundles and anonymity guard.
