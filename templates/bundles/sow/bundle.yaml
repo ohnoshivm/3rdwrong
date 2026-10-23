@@ -1,0 +1,23 @@
+kind: sow
+description: >-
+  Anonymised statement of work for lifecycle stage L4 Contract and deposit,
+  issued under the master services agreement. Public under D-0021; payment
+  amounts live in the vault and the signed copy is filed in the vault.
+template: sow.md.tmpl
+target: projects/{codename}/sow.md
+variables:
+  codename:
+    description: Project codename; never the client's name.
+    example: stillsoil-atelier
+  offer:
+    description: Offer delivered (identity-system, digital-experience, brand-direction-sprint or care-plan).
+    example: identity-system
+  option:
+    description: Proposal option the client chose.
+    example: Option B — recommended
+  date:
+    description: Issue date (YYYY-MM-DD).
+    example: "2026-10-30"
+  sow_version:
+    description: Version of this statement of work.
+    example: "1.0"

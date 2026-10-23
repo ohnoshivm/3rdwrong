@@ -1,0 +1,57 @@
+---
+title: "Invoice {{invoice_number}}: {{codename}}"
+codename: {{codename}}
+invoice_number: {{invoice_number}}
+invoice_date: {{invoice_date}}
+due_date: {{due_date}}
+milestone: {{milestone}}
+state: draft
+---
+
+# Invoice {{invoice_number}}
+
+PRIVATE — vault only. Never copy this file or its figures into the public repository.
+
+## Supplier
+
+- Legal name and address:
+- GSTIN (if registered):
+- PAN (on the private record only):
+- Bank details for payment:
+
+## Recipient
+
+- Legal name and billing address:
+- GSTIN (if registered in India):
+- Country (for exports):
+- Place of supply (state name and code, or outside India):
+
+## Supply
+
+| Description | SAC | Taxable value | Tax type | Rate | Tax amount |
+| --- | --- | ---: | --- | ---: | ---: |
+| {{milestone}} — services under the statement of work for {{codename}} | | | CGST+SGST / IGST / export under LUT | | |
+
+- Total taxable value:
+- Total tax:
+- Invoice total (figures and words):
+- Currency:
+- Export declaration, when zero-rated under LUT: "Supply meant for export under Letter of Undertaking without payment of integrated tax" with the LUT reference.
+- Reverse charge applicable: yes / no
+
+## Terms
+
+- Milestone: {{milestone}}
+- Due: {{due_date}}
+- Late payment and work-pause terms: as in the master services agreement.
+- Signature or digital signature of the supplier or authorised person.
+
+## Tracking
+
+| Event | Date | Note |
+| --- | --- | --- |
+| Sent | | |
+| Reminder 1 | | |
+| Reminder 2 | | |
+| Paid | | amount received, bank reference, FIRA or e-BRC reference for foreign payments |
+| TDS deducted by client | | section, amount, certificate received |

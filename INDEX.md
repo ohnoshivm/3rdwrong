@@ -8,7 +8,27 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | --- | --- | --- | --- | --- | --- |
 | [business/client-acquisition.md](business/client-acquisition.md) | Client acquisition | guide | proposed | 2026-10-22 | Status: proposed. |
 | [business/engagement-operations.md](business/engagement-operations.md) | Project operations | method | proposed | 2026-10-23 | The studio's standard for running a client project day to day, from kickoff (L5) to close-out (L9) in the client lifecycle. |
-| [business/tooling.md](business/tooling.md) | Tooling principles and proposed stack | guide | proposed | 2026-10-22 | Status: proposed. |
+| [business/finance/india-tax-basics.md](business/finance/india-tax-basics.md) | Indian tax basics for a design and web studio | guide | proposed | 2026-10-23 | Verify with your chartered accountant before acting. |
+| [business/finance/invoicing-and-collections.md](business/finance/invoicing-and-collections.md) | Invoicing and collections | method | proposed | 2026-10-23 | Proposed. |
+| [business/finance/README.md](business/finance/README.md) | Finance | method | proposed | 2026-10-23 | Proposed. |
+| [business/legal/collaborator-agreement.md](business/legal/collaborator-agreement.md) | Collaborator agreement | template | proposed | 2026-10-23 | Template, not legal advice — have a qualified lawyer in India review before use. |
+| [business/legal/ip-and-licensing.md](business/legal/ip-and-licensing.md) | IP and licensing guide | guide | proposed | 2026-10-23 | Template, not legal advice — have a qualified lawyer in India review before use. |
+| [business/legal/master-services-agreement.md](business/legal/master-services-agreement.md) | Master services agreement | template | proposed | 2026-10-23 | Template, not legal advice — have a qualified lawyer in India review before use. |
+| [business/legal/mutual-nda.md](business/legal/mutual-nda.md) | Mutual non-disclosure agreement | template | proposed | 2026-10-23 | Template, not legal advice — have a qualified lawyer in India review before use. |
+| [business/legal/README.md](business/legal/README.md) | Contracts and legal | guide | proposed | 2026-10-23 | Template, not legal advice — have a qualified lawyer in India review before use. |
+| [business/operating-rhythm.md](business/operating-rhythm.md) | Operating rhythm | method | proposed | 2026-10-23 | Proposed. |
+| [business/people/collaborator-network.md](business/people/collaborator-network.md) | Collaborator network | method | proposed | 2026-10-23 | Proposed. |
+| [business/people/README.md](business/people/README.md) | People and roles | guide | proposed | 2026-10-23 | Proposed. |
+| [business/people/working-agreements.md](business/people/working-agreements.md) | Working agreements | policy | proposed | 2026-10-23 | Proposed. |
+| [business/pricing/commercial-rules.md](business/pricing/commercial-rules.md) | Commercial rules | policy | proposed | 2026-10-23 | Proposed. |
+| [business/pricing/estimation-guide.md](business/pricing/estimation-guide.md) | Estimation guide | guide | proposed | 2026-10-23 | Proposed. |
+| [business/pricing/rates-and-estimates.md](business/pricing/rates-and-estimates.md) | Rates and estimates format | guide | proposed | 2026-10-23 | Proposed. |
+| [business/pricing/README.md](business/pricing/README.md) | Pricing method | method | proposed | 2026-10-23 | Proposed. |
+| [business/proposals.md](business/proposals.md) | Proposals | method | proposed | 2026-10-23 | Proposed. |
+| [business/README.md](business/README.md) | Business engine | guide | proposed | 2026-10-23 | How 3RDWRONG prices, proposes, contracts, invoices, stays tax-compliant, runs its week, measures itself and works with collaborators. |
+| [business/review-queue.md](business/review-queue.md) | Founder review queue | method | proposed | 2026-10-23 | Proposed. |
+| [business/scorecard.md](business/scorecard.md) | Scorecard | method | proposed | 2026-10-23 | Proposed. |
+| [business/tooling.md](business/tooling.md) | Tooling principles and proposed stack | guide | proposed | 2026-10-23 | Status: proposed. |
 
 ## docs
 
