@@ -21,6 +21,7 @@ from string import Formatter
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
 BUNDLES = ROOT / "templates" / "bundles"
 CODENAME = re.compile(r"^[a-z]+-[a-z]+$")
 PLACEHOLDER = re.compile(r"\{\{\s*([A-Za-z][A-Za-z0-9_]*)\s*\}\}")
@@ -280,6 +281,8 @@ def run_check(staged: bool, root: Path = ROOT, vault: Path | None = None) -> int
 
 
 def main(argv: list[str] | None = None) -> int:
+    from scripts import web_qa
+
     parser = argparse.ArgumentParser(prog="3w", description="3RDWRONG project workspaces, vault and anonymity guard (D-0021).")
     commands = parser.add_subparsers(dest="command", required=True)
     new = commands.add_parser("new", help="render a template bundle into a project workspace")
@@ -295,8 +298,13 @@ def main(argv: list[str] | None = None) -> int:
     check.add_argument("--staged", action="store_true", help="guard staged files only (used by the pre-commit hook)")
     hooks = commands.add_parser("hooks", help="manage local git hooks")
     hooks.add_argument("action", choices=["install"])
+    qa = commands.add_parser("qa", help="check a website build against the studio budget")
+    qa_commands = qa.add_subparsers(dest="qa_command", required=True)
+    web_qa.add_run_arguments(qa_commands.add_parser("run", help="collect private lab QA evidence"))
     args = parser.parse_args(argv)
     try:
+        if args.command == "qa":
+            return web_qa.run_args(args)
         if args.command == "new":
             pairs = [item.partition("=") for item in args.set]
             if any(not sep or not name for name, sep, _ in pairs):

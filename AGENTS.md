@@ -57,6 +57,7 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Growth metrics | `growth/metrics.md`, `growth/sales/pipeline.md`, `business/scorecard.md` |
 | Run a client project | `methods/lifecycle.md`, `business/engagement-operations.md`, `docs/public-private-boundary.md` |
 | Deliver a website | `methods/digital-experience/README.md`, `methods/quality/web-standards.md` |
+| Check a website build against the studio budget | `docs/web-qa-harness.md`, `methods/digital-experience/qa-budget.yaml`, `methods/digital-experience/07-qa.md` |
 | Create a workspace or vault record | `templates/bundles/README.md`, `docs/public-private-boundary.md` |
 | Run a project stage | `methods/playbooks/README.md`, then the stage's playbook: `methods/playbooks/client-lifecycle.md` (L0–L9), `methods/playbooks/identity-system.md` or `methods/playbooks/digital-experience.md` (L6), plus the method file it links |
 | Hand work to another department | `methods/handoffs/README.md`, the matching contract in `methods/handoffs/`, `studio/departments/heads.md` |

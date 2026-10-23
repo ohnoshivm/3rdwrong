@@ -6,6 +6,8 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 ### Added
 
+- Web delivery QA harness (`bin/3w qa run`): three mobile Lighthouse runs, explicit lab/field limits, project budget checks with founder exception records, Playwright responsive/reduced-motion evidence, console and scroll cadence probes, Markdown/JSON reports and local integration coverage.
+
 - Creative Technology system from the founder-supplied October 2026 handbook:
   archived source, selection policy, tool/effect matrices, official-source
   verification, learning library and five proposed Labs starter studies.
