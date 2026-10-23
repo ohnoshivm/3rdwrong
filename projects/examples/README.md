@@ -21,3 +21,13 @@ See the sample project's [fictional brief](stillsoil-atelier/brief.md),
 two runs have [discovery skill evaluation](stillsoil-atelier/brand-discovery-evaluation.md)
 and [3w-identity-system-critic skill evaluation](stillsoil-atelier/identity-system-critic-evaluation.md).
 Each project file repeats the required fiction banner.
+
+The identity-craft skills were also tested on this brand as formative runs:
+[mark exploration](stillsoil-atelier/mark-exploration-test-run.md),
+[typography system](stillsoil-atelier/typography-system-test-run.md),
+[colour system](stillsoil-atelier/colour-system-test-run.md) and
+[composition system](stillsoil-atelier/composition-system-test-run.md), each with
+an evaluation ([mark](stillsoil-atelier/mark-exploration-evaluation.md),
+[typography](stillsoil-atelier/typography-system-evaluation.md),
+[colour](stillsoil-atelier/colour-system-evaluation.md),
+[composition](stillsoil-atelier/composition-system-evaluation.md)).

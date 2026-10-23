@@ -2,6 +2,19 @@
 
 Changes to the 3RDWRONG Creative Operating System are recorded here.
 
+## [Unreleased]
+
+### Added
+
+- Four experimental identity-craft skills that fill the design department's craft gaps: `3w-mark-exploration` (mark-logo), `3w-colour-system` (colour), `3w-composition-system` (composition-layout) and `3w-typography-system` (typography), each with a `.claude/skills` link and a tool card under `toolkit/cards/design/identity-craft/`.
+- Standard-library `scripts/colour_check.py` for WCAG 2.x contrast, APCA web-content reference values, CIEDE2000 palette matrices, and Machado colour-vision simulations, with published-reference tests.
+- Fictional Stillsoil Atelier test runs and skill evaluations for all four skills; the runs led to version 0.1.1 of each (formative-run rules, declared colour-vision thresholds, mandatory-text and fixed-content inputs, below-minimum mark decision, specimen strings).
+- The `tool-card` document type in the metadata schema, matching the v0.5 handbook branch.
+
+### Changed
+
+- Proposed registry changes (not applied): the four skills become leads of their jobs and `agent:visual-designer` becomes a typography specialist for digital tokens and type ramps.
+
 ## [0.4.0] - Unreleased
 
 ### Added
