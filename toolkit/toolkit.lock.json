@@ -35,11 +35,11 @@
   },
   "files": [
     {
-      "bytes": 253,
+      "bytes": 252,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-advertising",
       "path": "toolkit/plugins/3rdwrong-advertising/.claude-plugin/plugin.json",
-      "sha256": "f04a1da58d46804169d165712a63466cd822ad7c89354930e2e3f7b50de50eb7"
+      "sha256": "b7ae51583e3b51582edff2c19d19c828288f2a46a07c9ff7fa8bb907235d385f"
     },
     {
       "bytes": 450,
@@ -1295,11 +1295,11 @@
       "sha256": "6cf6691d2cbc00f1cd7488dcd4066cac5bf83d989d523709754e32ab837c166e"
     },
     {
-      "bytes": 239,
+      "bytes": 238,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
       "path": "toolkit/plugins/3rdwrong-core/.claude-plugin/plugin.json",
-      "sha256": "9489c7f6edfec79adb56ea7a5212cc5308a1c9a1cba6267c5b50c52c9c32ae22"
+      "sha256": "19ea1badc1c573ca833a7e1bb6a34b0022c5b9e87085d4c4d011afd209c42c6d"
     },
     {
       "bytes": 225,
@@ -1358,11 +1358,11 @@
       "sha256": "34b3b3bc1e9419b90d8829f085cc21838d9207da3e901cb42c70dfee2ea5ed16"
     },
     {
-      "bytes": 243,
+      "bytes": 242,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/.claude-plugin/plugin.json",
-      "sha256": "ba1c241a4f44ff06b8b561dca5e20383c84fa532796ac7324752fc1f6f58da9a"
+      "sha256": "08c713cf10fbd4661644c1438b318b436c96168d2ad4c3e42d0aaf81252a7bfc"
     },
     {
       "bytes": 1942,
@@ -5334,11 +5334,11 @@
       "sha256": "b308f4cca1aa8cc2e8fc83a21aa21d836f454809f7b84a47902b6340bb596352"
     },
     {
-      "bytes": 253,
+      "bytes": 252,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-engineering",
       "path": "toolkit/plugins/3rdwrong-engineering/.claude-plugin/plugin.json",
-      "sha256": "7e2665783aa7613bf866e9e7117296da591dfc936041cd4e8b137f410e33fda2"
+      "sha256": "716c2516188a0dce72cca59e93222f9c1f4fb2e56a594e29c8cf6dbda0019a3e"
     },
     {
       "bytes": 1930,
@@ -9555,11 +9555,11 @@
       "sha256": "3ffb6492aa23bfe3b0c4d4d9616c82759925e16babcdfc8658237db4988b25dd"
     },
     {
-      "bytes": 239,
+      "bytes": 238,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-labs",
       "path": "toolkit/plugins/3rdwrong-labs/.claude-plugin/plugin.json",
-      "sha256": "5fb1fda3545206bdab994591fa6b138639f5485697c5d0a7b759b1e333a9c621"
+      "sha256": "10d12f794bc61a5ff1a1574975c72b77fbd57d7b20eff57c68d7a8ee62d97356"
     },
     {
       "bytes": 217,
@@ -9583,11 +9583,11 @@
       "sha256": "b0e003f83555b8b025b95b26b1faad092ec08fa0f17f1ff0c6b511330a16c7ae"
     },
     {
-      "bytes": 249,
+      "bytes": 248,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-marketing",
       "path": "toolkit/plugins/3rdwrong-marketing/.claude-plugin/plugin.json",
-      "sha256": "a9a2bea8d9001a57d75c86145703828d38996d8aeb29583012a074a1d4ef7e53"
+      "sha256": "1361daafb8dde6857659d62e930ab62b1e91ae7d6d1e5f7beb780f37d64b5108"
     },
     {
       "bytes": 896,
@@ -12992,11 +12992,11 @@
       "sha256": "e58f840fb1262319b88ef22432b9bb4e250e3828adcce93f2a95dd30564e68cb"
     },
     {
-      "bytes": 241,
+      "bytes": 240,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-media",
       "path": "toolkit/plugins/3rdwrong-media/.claude-plugin/plugin.json",
-      "sha256": "f66383986987e76992b1226c069e6ccb7f974edac074132acb71ef2eadde99f0"
+      "sha256": "aa28b914f9c7a9cdf35b312d1d03dff0dc43eeeadf537cade7a49d27b3a1e9d4"
     },
     {
       "bytes": 627,
@@ -14567,11 +14567,11 @@
       "sha256": "8e15f8c30f24fbcb075efbc1b17260911de033d34160d91a7481afe0d8808f29"
     },
     {
-      "bytes": 251,
+      "bytes": 250,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-operations",
       "path": "toolkit/plugins/3rdwrong-operations/.claude-plugin/plugin.json",
-      "sha256": "16ea07aa6712d8328e6c622c1aa27f58e8428ea74ce3e22a21f7d1307d59ec56"
+      "sha256": "e94c59915bcbbbe5563db1134106ee5e8564d2c48d48ddff77a349c9e31a6714"
     },
     {
       "bytes": 2876,
@@ -18270,11 +18270,11 @@
       "sha256": "174dec086c6a955e9b2b4423337394c128cf655404809ba3af73d8ae7bcca7e6"
     },
     {
-      "bytes": 247,
+      "bytes": 246,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-outbound",
       "path": "toolkit/plugins/3rdwrong-outbound/.claude-plugin/plugin.json",
-      "sha256": "fde29987ae8f5378fff2f1dd21437a4c8e323d2deef06dc4bd70aa0e1c199bfe"
+      "sha256": "ca9756fd2dc641c9565bdf53ff0eeee0069129cce7b04548b6d004054850dddd"
     },
     {
       "bytes": 342,
@@ -19264,11 +19264,11 @@
       "sha256": "a5efbbd2352b92e60a3f964f778aa3c1eb21b5f40a39140d1b400128494121e9"
     },
     {
-      "bytes": 251,
+      "bytes": 250,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-production",
       "path": "toolkit/plugins/3rdwrong-production/.claude-plugin/plugin.json",
-      "sha256": "b9793074b5be0a65955bf8999b624de106c280e0846d2971b67d6fe7850ffcfb"
+      "sha256": "f3bce86eb9542d0e9bfced5f220ef33dd979680cfc8057348479cc74ee044108"
     },
     {
       "bytes": 217,
@@ -19334,11 +19334,11 @@
       "sha256": "b0e003f83555b8b025b95b26b1faad092ec08fa0f17f1ff0c6b511330a16c7ae"
     },
     {
-      "bytes": 241,
+      "bytes": 240,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-sales",
       "path": "toolkit/plugins/3rdwrong-sales/.claude-plugin/plugin.json",
-      "sha256": "ad71433777bdbae1a671c8becd08934f248746f31b63e7457838d6db4343a409"
+      "sha256": "657ee46b0c3587b4c3108ff083c7c595de52e498eb4f60826897021be1fb70fd"
     },
     {
       "bytes": 342,
@@ -20272,11 +20272,11 @@
       "sha256": "0eca15bb86148a70d62f429f599f02620692ec206679f398c3c467353f7132fe"
     },
     {
-      "bytes": 247,
+      "bytes": 246,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-strategy",
       "path": "toolkit/plugins/3rdwrong-strategy/.claude-plugin/plugin.json",
-      "sha256": "b2bdd5dbd962d9d25e6450ffdcfd946bd2c9437b8f16ee74bd6408aac2fad307"
+      "sha256": "c0e85b1727bdd5d383df3730344c1821ca2fd41951cab3ca1f2cb7111cb67ef4"
     },
     {
       "bytes": 513,
@@ -56941,7 +56941,7 @@
     }
   ],
   "generated_sha256": {
-    ".claude-plugin/marketplace.json": "8d54712fb55082b72cc631681e87711e9e0eb9fd7d24e67ed06d41f649211638",
+    ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
     "THIRD_PARTY_NOTICES.md": "8c3abfca9e24b17ed6851bb804e426c5cc27d28ff556cbd9dff5b7e49c15ac07",
     "toolkit/coverage.json": "582285d3cf2339f866ce4ca4bf9cca679cb83035d8fc6e5e99cd72d5e33f52f4",
     "toolkit/fetch.yaml": "04eaf42499bca02f9db6ee0a505214e14fba46c7b86ec857f5a25b786b409c1f",

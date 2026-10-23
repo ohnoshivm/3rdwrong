@@ -243,8 +243,8 @@ def make_outputs(repo: Path, packages: list[dict], materials: dict, registry: di
     for department in departments:
         name = '3rdwrong-'+slug(department)
         root = f'{GENERATED_DIR}/{name}'
-        plugins.append({'name':name,'source':'./'+root,'description':f'3RDWRONGS {department}: active leads and specialists'})
-        manifest = {'name':name,'version':'0.3.0','description':f'Active {department} skills and agents; generated from the toolkit registry','author':{'name':'3RDWRONGS'},'repository':'https://github.com/ohnoshivm/3rdwrong'}
+        plugins.append({'name':name,'source':'./'+root,'description':f'3RDWRONG {department}: active leads and specialists'})
+        manifest = {'name':name,'version':'0.3.0','description':f'Active {department} skills and agents; generated from the toolkit registry','author':{'name':'3RDWRONG'},'repository':'https://github.com/ohnoshivm/3rdwrong'}
         outputs[root+'/.claude-plugin/plugin.json'] = encoded(manifest)
         used_packages = set()
         for item in items:
@@ -277,7 +277,7 @@ def make_outputs(repo: Path, packages: list[dict], materials: dict, registry: di
             if package_id=='pack-founder-3rdwrong-skills' and (repo/'LICENSE-DOCS').exists():
                 outputs[root+'/notices/LICENSE-DOCS']=(repo/'LICENSE-DOCS').read_bytes()
         outputs[root+'/THIRD_PARTY_NOTICES.md'] = ('\n'.join(notice_lines)+'\n').encode()
-    outputs['.claude-plugin/marketplace.json'] = encoded({'name':'3rdwrong','owner':{'name':'3RDWRONGS'},'description':'3RDWRONGS studio toolkit: one plugin per department plus the studio core skills','plugins':plugins})
+    outputs['.claude-plugin/marketplace.json'] = encoded({'name':'3rdwrong','owner':{'name':'3RDWRONG'},'description':'3RDWRONG studio toolkit: one plugin per department plus the studio core skills','plugins':plugins})
     outputs['toolkit/secret-allowlist.json'] = encoded(expand_allowlist(repo, copied))
     outputs['THIRD_PARTY_NOTICES.md'] = notices_file(repo, packages)
     # Lock includes each vendored path, including aliases, generated plugin copies,

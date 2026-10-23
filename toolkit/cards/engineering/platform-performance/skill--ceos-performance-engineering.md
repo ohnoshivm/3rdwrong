@@ -53,7 +53,7 @@ Use ceos-performance-engineering skill. Task: {specific task}. Context: {reposit
 
 ## What good output looks like
 
-- Studio web budget (founder instruction): LCP ≤ 2.0 s; ≤ 2 MB before first interaction; INP ≤ 200 ms; CLS ≤ 0.1; 60 fps; honour reduced motion.
+- Studio web budget (D-0023): mobile p75 LCP ≤ 2.0 s, INP ≤ 200 ms, CLS ≤ 0.1; ≤ 2 MB before first interaction, rest lazy-loaded; target 60 fps on a mid-range phone; complete reduced-motion fallback. Looser budgets need a recorded founder-approved exception.
 - Recommendations map to the stated task and cite supplied evidence.
 - Unknowns, assumptions and risks are explicit.
 - Any performance or reliability claim has a comparable baseline and follow-up measure.

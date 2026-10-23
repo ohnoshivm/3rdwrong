@@ -13,7 +13,7 @@ last_reviewed: 2026-10-22
 
 Before another serious visual-identity attempt, define and explicitly approve
 the personality, cultural perspective, verbal identity and conceptual
-territory of 3RDWRONGS. The own-identity project remains in exploration until
+territory of 3RDWRONG. The own-identity project remains in exploration until
 that foundation is approved.
 
 ## Status

@@ -60,7 +60,7 @@ dependency is unresolved.
 **Interpretation** — Do not imitate a 220-page manual as a status signal, or assume a small project needs
 a generative CMS. Transfer the clarity of responsibilities, not the production scale.
 
-## Application to 3RDWRONGS
+## Application to 3RDWRONG
 
 **Hypothesis** — A small consumer client might need a few robust templates and a concise example-led
 guide. Establish that through observed use before proposing more elaborate tooling or specialist

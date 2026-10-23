@@ -1,6 +1,6 @@
 # Creative intelligence
 
-This library turns research into explicit design questions, reusable principles and original exercises. It is not a collection of images to imitate. Creator intent, our interpretation, untested applications and missing evidence stay separate. A reference study does not approve a method or select 3RDWRONGS's own visual direction.
+This library turns research into explicit design questions, reusable principles and original exercises. It is not a collection of images to imitate. Creator intent, our interpretation, untested applications and missing evidence stay separate. A reference study does not approve a method or select 3RDWRONG's own visual direction.
 
 ## Folder map
 

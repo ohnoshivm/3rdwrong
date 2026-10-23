@@ -1,1 +1,1 @@
-"""Validation checks for the 3RDWRONGS Creative Operating System."""
+"""Validation checks for the 3RDWRONG Creative Operating System."""

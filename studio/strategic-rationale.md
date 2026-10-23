@@ -95,7 +95,7 @@ approved external copy:
 - Founder-authored initial promise, hypothesis: “We create distinctive brand
   identities built around a strong idea, designed as coherent systems, and
   made to work in the real world.” See [positioning](positioning.md).
-- Blueprint working proposition, proposed: “3RDWRONGS builds distinctive
+- Blueprint working proposition, proposed: “3RDWRONG builds distinctive
   brand identities for ambitious businesses that need to look, sound, and
   behave like something unmistakably their own.”
 

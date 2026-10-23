@@ -18,7 +18,7 @@ supersedes:
 
 ## Decision
 
-Reposition 3RDWRONGS as a design-engineering studio: brand identity at the core,
+Reposition 3RDWRONG as a design-engineering studio: brand identity at the core,
 digital experience as the second pillar, perception-led by method. Living
 identity remains a capability across the practice. Design and Engineering are
 the two flagship departments; [D-0019](0019-organisation-and-loading-policy.md)
@@ -68,7 +68,7 @@ bar; their layouts, assets and brand identities are not templates to copy.
 
 **Documented** — Founder instruction, 2026-10-23, approves this direction and
 ambition. The reference library records aesthetic and experiential benchmarks;
-it is not market evidence for 3RDWRONGS.
+it is not market evidence for 3RDWRONG.
 
 **Hypothesis** — Digital experience can be a meaningful differentiator for the
 studio. Test through original prototypes, qualified buyer conversations,

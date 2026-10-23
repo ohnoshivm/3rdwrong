@@ -153,9 +153,11 @@ brand. Bracketed fields are placeholders.
 - **Quality first:** every message passes the research checklist and the
   "could this go to another company?" test. The founder reviews first
   messages until ten consecutive sequences pass without edits.
-- **Volume:** set by research capacity, not by tools. **Hypothesis:** 5–10
-  new accounts a week is sustainable alongside client work. The weekly number
-  is a **founder decision**; never batch-send or automate first messages.
+- **Volume:** 20 personalised first messages a week ([D-0024](../../studio/decisions/0024-growth-defaults.md)), each
+  researched and written by hand; never batch-send or automate first
+  messages. The earlier hypothesis was 5–10 accounts a week; if research
+  quality slips, send fewer rather than weaker messages and flag the capacity
+  risk for review.
 - **Stop signals:** opt-out rate rising, replies calling the message
   irrelevant, or spam complaints — pause and review the list and messages.
 

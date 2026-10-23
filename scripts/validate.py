@@ -64,7 +64,7 @@ def run_checks(root: Path, config: dict, selected: list[str]) -> list[Issue]:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Validate 3RDWRONGS OS documents and repository policy.")
+    parser = argparse.ArgumentParser(description="Validate 3RDWRONG OS documents and repository policy.")
     parser.add_argument("--check", choices=ALL_CHECKS, action="append", help="run only this check; repeat to run several")
     parser.add_argument("--stale", action="store_true", help="include the warning-only review-cadence report")
     parser.add_argument("--strict-cards", action="store_true", help="require every lead/specialist tool to have a card")

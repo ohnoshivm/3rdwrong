@@ -72,6 +72,6 @@ Use Claude Code/Codex skill `image` for the brand-image-assets task. Brief: {{ap
 - Source: `/Users/hustle/.codex/skills/image/SKILL.md`. Verify documented prerequisites and scope before relying on output.
 - Distribution and runtime availability are not guaranteed by this card.
 - Follow studio rules: maker ≠ checker; motion only when concept-led; honour reduced motion/accessibility; no client data in public repo.
-- Client consent is required for AI-generated material in final deliverables (studio contract default).
+- The studio discloses AI use in its process; AI-generated material in final deliverables requires the client's written consent (D-0023).
 - Check rights, likeness and source permissions before use.
 - Do not send client data in prompts to third-party services without permission.

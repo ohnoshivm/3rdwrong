@@ -14,8 +14,12 @@ review_every_days: 180
 
 **Proposed.** The umbrella agreement for every client engagement. Each
 project is a statement of work (SOW) under it ([SOW bundle](../../templates/bundles/sow/)).
-Fill `{{placeholders}}` in a vault copy only. Clause choices marked
-**[Option]** are founder decisions to make once, before the lawyer review.
+Fill `{{placeholders}}` in a vault copy only. [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) resolved the
+portfolio (7.2), AI (9) and dispute (13.3) choices and set the default
+payment split, feedback rounds and defect-fix period; these are pre-filled and
+can be varied per SOW with founder approval. The remaining clause choices
+marked **[Option]** are founder decisions to make once, before the lawyer
+review.
 Context and signing steps: [Contracts and legal](README.md).
 
 ---
@@ -50,6 +54,10 @@ writing, uses it publicly or commercially, or does not respond within
 2.3 A failure is a deliverable not meeting a stated criterion. A new
 preference, direction or requirement is a change under clause 4.
 
+2.4 Unless the SOW states otherwise, each phase (concept, refinement,
+applications) includes two rounds of consolidated feedback. Further rounds
+are changes under clause 4.
+
 ## 3. Client responsibilities
 
 3.1 The Client will name one decision-maker and one consolidated feedback
@@ -72,8 +80,10 @@ takes effect only when both parties approve the change order in writing.
 services tax and other indirect taxes, which the Studio adds where
 applicable.
 
-5.2 The Studio invoices at the SOW milestones. Work starts when the deposit
-invoice is paid in cleared funds.
+5.2 The Studio invoices at the SOW milestones. Unless the SOW states
+otherwise, identity-system and digital-experience fees are invoiced 50% on
+signature, 30% on approval of the chosen direction and 20% before final files
+are released. Work starts when the deposit invoice is paid in cleared funds.
 
 5.3 The Client pays each invoice within {{payment_terms_days}} days of the
 invoice date, without set-off, to the account on the invoice.
@@ -134,17 +144,15 @@ public knowledge base: method, process and lessons identified by a codename,
 without the Client's name, people, contact details, money, confidential
 information, client files or any combination that identifies the Client.
 
-7.2 **[Option A — named portfolio]** After the Client has publicly launched
-the work, the Studio may show the Final Deliverables in its portfolio, award
-entries and talks, naming the Client, unless the SOW excludes it. The Studio
-will not publish confidential information or unreleased work.
+7.2 After the Client has publicly launched the work, the Studio may show the
+Final Deliverables in its portfolio, award entries and talks, naming the
+Client, unless the SOW records that the Client has opted out as a
+confidential client. The Studio will not publish confidential information or
+unreleased work.
 
-7.2 **[Option B — anonymised only]** The Studio may show released Final
-Deliverables in its portfolio only in anonymised form unless the Client
-consents in writing to being named.
-
-7.3 The Studio will send the Client any named case study for a factual
-accuracy check {{case_study_review_days}} working days before publication.
+7.3 The Studio will send the Client any named case study
+{{case_study_review_days}} working days before publication. The Client
+approves its wording before it is published.
 
 ## 8. Confidentiality and data
 
@@ -171,8 +179,11 @@ other applicable law.
 production. It will not enter Client confidential information or personal
 data into a tool that may train on it or disclose it, and it will disclose in
 the handover which Final Deliverables contain AI-generated material and the
-tool used. **[Option]** require Client consent before AI-generated material
-appears in a Final Deliverable.
+tool used.
+
+9.2 The Studio discloses its use of AI tools in its process in the proposal
+or SOW. AI-generated material appears in a Final Deliverable only with the
+Client's prior written consent.
 
 ## 10. Warranties and liability
 
@@ -193,6 +204,11 @@ infringement indemnities and liability that cannot be limited by law.
 10.5 Each party indemnifies the other against third-party claims that
 material it supplied infringes that third party's intellectual property,
 provided it is promptly notified and controls the defence.
+
+10.6 For 30 days after launch (or after acceptance where there is no
+launch), the Studio fixes at no charge defects where the Final Deliverables
+do not meet the SOW's acceptance criteria. Support after that period is
+available under a separate paid care plan.
 
 ## 11. Term and termination
 
@@ -237,14 +253,10 @@ electronically and in counterparts.
 13.2 The parties will first try to resolve a dispute by good-faith
 discussion between decision-makers for {{negotiation_days}} days.
 
-13.3 **[Option A — arbitration]** Unresolved disputes go to arbitration under
-the Arbitration and Conciliation Act, 1996 by a sole arbitrator appointed by
-agreement **[or under the rules of {{arbitral_institution}}]**. Seat:
-{{seat_city}}. Language: English. Courts at the seat have supervisory
-jurisdiction.
-
-13.3 **[Option B — courts]** The courts at {{court_city}} have exclusive
-jurisdiction, subject to any mandatory pre-institution mediation.
+13.3 Unresolved disputes go to arbitration under the Arbitration and
+Conciliation Act, 1996 by a sole arbitrator appointed by agreement **[or
+under the rules of {{arbitral_institution}}]**. Seat: {{arbitration_seat}}.
+Language: English. Courts at the seat have supervisory jurisdiction.
 
 13.4 Either party may seek urgent interim relief from a competent court.
 
@@ -255,9 +267,17 @@ Signed for the Studio: {{studio_signatory}} · Signed for the Client:
 
 ## Drafting notes
 
-- Payment terms, deposit share, late interest, pause threshold, cancellation
-  fee, portfolio option and dispute option are founder decisions; record them
-  in the vault template copy.
+- Payment-term days, late interest, pause threshold and cancellation fee
+  are founder decisions; record them in the vault template copy.
+- [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md) defaults: 50 / 30 / 20 payment split (5.2), two feedback rounds per
+  phase (2.4), named portfolio use after launch with a confidential opt-out
+  and client-approved wording (7.2–7.3), disclosed AI use with written consent
+  for AI-generated deliverables (9.2), 30 days of defect fixes (10.6) and
+  arbitration by a sole arbitrator (13.3). `{{arbitration_seat}}` is the
+  founder's city, filled once by the founder.
+- Clause 7 governs external portfolio use only. In this repository client
+  work stays codenamed and anonymised until cleared under
+  [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md).
 - For cross-border clients read the cross-border notes in [Contracts and legal](README.md).
 - Keep the SOW's acceptance criteria objective; clause 2 depends on them.
 - The assignment in 6.2 meets section 19 of the Copyright Act only if the

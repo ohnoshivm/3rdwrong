@@ -12,7 +12,8 @@ review_every_days: 180
 **Proposed.** Rules for discounts, negotiation, rush work and changes. They
 protect the price the [pricing method](README.md) arrives at and make
 exceptions deliberate. Percentages and amounts are founder decisions recorded
-in the vault; this page holds the rules, not the numbers.
+in the vault; this page holds the rules, not the numbers. Default terms
+are approved in [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md).
 
 ## Purpose
 
@@ -36,6 +37,22 @@ The approved estimate and calculator output, the SOW, the client's request in
 writing and the vault history of past concessions.
 
 ## Steps
+
+### Default terms
+
+Approved defaults ([D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md)); varying one for a project needs the founder's
+written approval:
+
+- **Payment:** 50 / 30 / 20 for Identity System and Digital Experience
+  projects — 50% to start, 30% on approval of the chosen direction, 20%
+  before final files are released. Brand Direction Sprint terms are set per
+  proposal.
+- **Feedback:** two consolidated rounds per phase (concept, refinement,
+  applications); further rounds are change requests (see below).
+- **Warranty:** 30 days of free defect fixes after launch; longer support is
+  a paid care plan.
+- **Still open:** the cancellation fee, rates and margins (vault) and
+  care-plan pricing remain founder decisions.
 
 ### Discounts
 

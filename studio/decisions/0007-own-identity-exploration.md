@@ -11,7 +11,7 @@ last_reviewed: 2026-10-22
 
 ## Decision
 
-Keep the 3RDWRONGS identity in exploration. Require a documented process and explicit founder creative approval recorded as a decision before calling any logo, typeface, colour, tagline or visual direction approved. The proposed brief is [3RDWRONGS identity project brief](../../projects/internal/3rdwrongs-identity/brief.md).
+Keep the 3RDWRONG identity in exploration. Require a documented process and explicit founder creative approval recorded as a decision before calling any logo, typeface, colour, tagline or visual direction approved. The proposed brief is [3RDWRONG identity project brief](../../projects/internal/3rdwrongs-identity/brief.md).
 
 ## Status
 

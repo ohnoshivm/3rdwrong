@@ -15,7 +15,7 @@ approval_source: founding brief, 2026-10-22
 
 ## Decision
 
-3RDWRONGS is positioned as: “A brand identity studio first. A living identity specialist by capability. A perception-led consultancy by method.” This is one coherent practice: original, coherent, culturally relevant brand identities and visual systems; living extensions where useful; and research-informed creative judgement.
+3RDWRONG is positioned as: “A brand identity studio first. A living identity specialist by capability. A perception-led consultancy by method.” This is one coherent practice: original, coherent, culturally relevant brand identities and visual systems; living extensions where useful; and research-informed creative judgement.
 
 ## Status
 

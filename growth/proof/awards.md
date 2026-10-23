@@ -49,7 +49,8 @@ The live work, the case study, client permission, the
    credited; record it with the clearance ([D-0021](../../studio/decisions/0021-client-work-public-anonymised.md)).
 3. **Cost decision.** Record the fee, the expected value (peer credibility,
    discovery, team morale) and the decision in the vault's `budgets.yaml`.
-   The annual awards budget is a **founder decision**.
+   Free submissions only until the studio website or a flagship project is
+   ready; the paid awards budget is zero for now ([D-0024](../../studio/decisions/0024-growth-defaults.md)).
 4. **Prepare** using the submission checklist.
 5. **Submit**, log the entry and date, and plan distribution if it wins.
 6. **Log results** and learning, whether or not it wins.
