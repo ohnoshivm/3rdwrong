@@ -69,6 +69,17 @@ Individual reasons and activation requirements are in the [canonical registry](.
 | house-engine | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | open-source-showcase | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 
+## Creative Technology repertoire
+
+**Documented** — [D-0025](../decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](../../methods/creative-technology/selection-policy.md).
+Labs owns the proposed [five-study starter repertoire](../../experiments/creative-technology-repertoire.md)
+in `experiments/`, with independent art-direction critique, device evidence,
+D-0023 budgets and original public output. Engineering's creative-engineering
+sub-department owns the policy; a non-client study does not authorise a client
+stack or activate parked tools. See the
+[learning library](../../methods/creative-technology/learning-library.md).
+
 ## Operating contract
 
 Use the job lead first and a specialist only on its trigger. Maker and checker must be separate people/agent instances; a reviewer never approves its own department alone. Proposed `load: active` is the desired loading policy, while the source inventory records installation presence. No physical activation was performed.

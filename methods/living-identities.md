@@ -31,6 +31,20 @@ motion to conceal weak logo construction or to make a route appear more
 original. Complex 3D experiences are excluded from the standard Identity
 System; a separately scoped extension or partner service would be required.
 
+## Technology choice
+
+**Documented** — [D-0025](../studio/decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](creative-technology/selection-policy.md).
+Use [section 6 of the matrix](creative-technology/selection-matrix.md#6-living-identities)
+to compare Rive, Lottie/dotLottie, SVG and GSAP against the actual requirements.
+
+**Interpretation** — Art-directed living identities have deliberately designed
+states and behaviours; generative identity systems produce variations through
+rules and inputs. These are different disciplines. Data binding alone does not
+make an asset generative. Prove the static invariant, useful fallback and
+maintenance contract before adding either. Record the technology choice and
+prototype evidence; web delivery must meet D-0023.
+
 ## Decision test
 
 Before proposing a living element, answer all of these:

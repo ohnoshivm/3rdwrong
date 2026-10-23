@@ -16,7 +16,7 @@ To choose a tool for a task, read [toolkit/cards/index.json](toolkit/cards/index
 
 When sources conflict, use this order and flag the conflict for a human:
 
-1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records, D-0022 sets the studio name 3RDWRONG, and D-0023/D-0024 set commercial, delivery and growth defaults; related proposals and hypotheses retain their statuses.
+1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records, D-0022 sets the studio name 3RDWRONG, and D-0023/D-0024 set commercial, delivery and growth defaults, and D-0025 adopts Creative Technology selection and stack records; related proposals and hypotheses retain their statuses.
 2. `studio/` — current studio strategy and operating facts.
 3. `methods/` — proposed and reviewed ways of working.
 4. `intelligence/` — source-based research and design references.
@@ -47,6 +47,8 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 
 | Task | Minimum files to read |
 | --- | --- |
+| Choose a technology stack or effect technique | `methods/creative-technology/selection-policy.md`, `methods/creative-technology/selection-matrix.md` |
+| Record a stack decision | `templates/bundles/project-digital/workspace/stack-decision.md.tmpl` |
 | Choose a tool for a job | `toolkit/cards/index.json`, `handbook/<department>.md` |
 | Qualify a lead or run discovery | `growth/sales/README.md`, `growth/sales/qualification.md`, `growth/sales/discovery-call.md` |
 | Plan content | `growth/content/README.md`, `growth/content/production-workflow.md`, `taste/README.md`, `skills/3w-taste-graph/SKILL.md` |

@@ -34,7 +34,10 @@ rollback plan.
 1. Measure every key template on the reference mid-range mobile profile and
    desktop: LCP, CLS, Total Blocking Time as a lab proxy for responsiveness,
    JavaScript and transfer weight, frame time for scenes.
-2. Fix budget breaches or record approved exceptions.
+2. Fix budget breaches or record founder-approved exceptions under D-0023.
+   Compare the built dependency/renderer stack and fallbacks with
+   `stack-decision.md`; [D-0025](../../studio/decisions/0025-creative-technology-selection-policy.md)
+   does not waive the performance budget. Field p75 remains Unknown until measured.
 3. Review security: headers, dependency audit, form and input handling, no
    exposed secrets, least-privilege access.
 4. Check SEO, metadata, social cards, sitemap, robots rules and redirects from

@@ -2,6 +2,25 @@
 
 Changes to the 3RDWRONG Creative Operating System are recorded here.
 
+## [Unreleased]
+
+### Added
+
+- Creative Technology system from the founder-supplied October 2026 handbook:
+  archived source, selection policy, tool/effect matrices, official-source
+  verification, learning library and five proposed Labs starter studies.
+- Founder-approved D-0025 adopts native-first selection, three access levels,
+  recorded reasons for specialist dependencies and a stack decision record for
+  every digital project; D-0023 remains the binding performance budget.
+- Digital project bundle creates the stack record; stages 02/04/05 require it
+  before production, with motion and launch checks linked to the policy.
+
+### Changed
+
+- Agent routing, Engineering/Labs ownership and living-identity guidance link
+  the system. Six source cards qualify Lenis, full scaffolds, post-processing
+  and WebGPU defaults; vendored sources remain unchanged.
+
 ## [0.5.0] - 2026-10-23
 
 ### Added

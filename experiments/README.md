@@ -16,6 +16,9 @@ README that states the question and status, the result, the evidence and what
 it changes. Store code and captures with clear provenance; avoid client files
 and unlicensed assets.
 
+The proposed [Creative Technology starter repertoire](creative-technology-repertoire.md)
+sets the five initial non-client studies; no study is claimed complete.
+
 Start from [the experiment template](../templates/learning/experiment.md).
 Record the hypothesis, setup, tool and version, what was tried, observed
 result, evidence and decision: adopt, iterate or drop. Experiments are not

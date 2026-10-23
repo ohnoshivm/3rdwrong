@@ -47,6 +47,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
+| [experiments/creative-technology-repertoire.md](experiments/creative-technology-repertoire.md) | Labs — Creative Technology starter repertoire | guide | proposed | 2026-10-23 | Interpretation — Proposed non-client practice backlog before the first client, adapted from handbook section 14. |
 | [experiments/README.md](experiments/README.md) | Creative technology experiments | guide | experimental | 2026-10-22 | Use this area for bounded creative-technology, typography, motion, generative, interaction or production experiments that answer a real d... |
 
 ## growth
@@ -112,6 +113,11 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
 | [methods/creative-guardrails.md](methods/creative-guardrails.md) | Creative guardrails | method | proposed | 2026-10-22 | These proposed rules help research and tools become original, useful work. |
+| [methods/creative-technology/learning-library.md](methods/creative-technology/learning-library.md) | Creative Technology learning library | guide | proposed | 2026-10-23 | Interpretation — Proposed learning programme adapted from section 14 of the founder's handbook. |
+| [methods/creative-technology/README.md](methods/creative-technology/README.md) | Creative Technology system | method | proposed | 2026-10-23 | Choose the simplest technology that faithfully delivers an exceptional creative result. |
+| [methods/creative-technology/selection-matrix.md](methods/creative-technology/selection-matrix.md) | Creative Technology selection matrix | method | proposed | 2026-10-23 | Interpretation — Working recommendations adapted from handbook sections 1–9; “preferred”, “excellent”, “strongest” and complexity labels... |
+| [methods/creative-technology/selection-policy.md](methods/creative-technology/selection-policy.md) | Creative Technology selection policy | policy | proposed | 2026-10-23 | Documented — Adopted by D-0025, 2026-10-23. |
+| [methods/creative-technology/verification.md](methods/creative-technology/verification.md) | Creative Technology — official-source verification | guide | proposed | 2026-10-23 | Documented — Checks below were made on 2026-10-23 against official maintainer documentation or releases. |
 | [methods/digital-experience/01-discovery-and-audit.md](methods/digital-experience/01-discovery-and-audit.md) | 01 Discovery & audit | method | proposed | 2026-10-23 | Establish what the experience must achieve, for whom, with what content and under which constraints, and audit what exists today. |
 | [methods/digital-experience/02-experience-strategy-and-concept.md](methods/digital-experience/02-experience-strategy-and-concept.md) | 02 Experience strategy & concept | method | proposed | 2026-10-23 | Decide the one idea the experience expresses, the structure that serves the audience tasks, and the moments where craft and interaction c... |
 | [methods/digital-experience/03-art-direction-and-design-system.md](methods/digital-experience/03-art-direction-and-design-system.md) | 03 Art direction & design system | method | proposed | 2026-10-23 | Turn the approved concept into a visual and motion language with tokens first, then the smallest component inventory the templates need. |
@@ -174,6 +180,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
+| [studio/archive/creative-technology-handbook-2026-10.md](studio/archive/creative-technology-handbook-2026-10.md) | The Creative Technology Handbook — October 2026 | guide | proposed | 2026-10-23 | Documented — Founder-supplied source received 2026-10-23, dated October 2026 and written with AI-assisted research. |
 | [studio/archive/founding-blueprint-v1.0.md](studio/archive/founding-blueprint-v1.0.md) | 3RDWRONGS — Founding Blueprint v1.0 | strategy | reference | 2026-10-22 | The studio is now named 3RDWRONG (D-0022); this archive keeps the original name verbatim. |
 | [studio/brand-direction-sprint.md](studio/brand-direction-sprint.md) | Brand Direction Sprint | strategy | hypothesis | 2026-10-22 | Status: hypothesis. |
 | [studio/creative-philosophy.md](studio/creative-philosophy.md) | Creative philosophy | guide | proposed | 2026-10-22 | The eight principles below are approved verbatim operating philosophy. |
@@ -201,6 +208,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [studio/decisions/0022-studio-name.md](studio/decisions/0022-studio-name.md) | Studio name | decision | approved | 2026-10-23 | Most documents, the founding blueprint and the toolkit manifests named the studio 3RDWRONGS. |
 | [studio/decisions/0023-commercial-and-delivery-defaults.md](studio/decisions/0023-commercial-and-delivery-defaults.md) | Commercial and delivery defaults | decision | approved | 2026-10-23 | The Business engine, the contract templates, the offer pages and the Digital Experience method left payment shares, feedback rounds, port... |
 | [studio/decisions/0024-growth-defaults.md](studio/decisions/0024-growth-defaults.md) | Growth defaults | decision | approved | 2026-10-23 | The Growth engine left the channel list, outbound volume and awards budget as founder decisions. |
+| [studio/decisions/0025-creative-technology-selection-policy.md](studio/decisions/0025-creative-technology-selection-policy.md) | Creative Technology selection policy | decision | approved | 2026-10-23 | Adopt the Creative Technology selection policy, the three access levels, the native-first and recorded-reason rules, and the required sta... |
 | [studio/departments/advertising.md](studio/departments/advertising.md) | Advertising department | guide | proposed | 2026-10-23 | Support studio paid demand and explicitly scoped client launch campaigns with paid media, creative and measurement. |
 | [studio/departments/design.md](studio/departments/design.md) | Design department | guide | proposed | 2026-10-23 | Build distinctive, deployable identity systems through meaningful ideas, human craft and independent evidence. |
 | [studio/departments/engineering.md](studio/departments/engineering.md) | Engineering department | guide | proposed | 2026-10-23 | Build award-level digital experiences and robust product/platform systems; own HOW with measured performance and independent technical QA... |

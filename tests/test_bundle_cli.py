@@ -76,7 +76,11 @@ class ShippedBundleCliTests(unittest.TestCase):
                             unresolved = set(PLACEHOLDER.findall(path.read_text())) & required
                             self.assertFalse(unresolved, f"{path}: {unresolved}")
                         if name in {"project-identity", "project-digital"}:
-                            self.assertEqual(len(outputs), 9)
+                            self.assertEqual(len(outputs), 10 if name == "project-digital" else 9)
+                            if name == "project-digital":
+                                stack = (target / "stack-decision.md").read_text()
+                                self.assertIn("## Final decision before production build", stack)
+                                self.assertIn(f"codename: {values['codename']}", stack)
                             text = (target / "README.md").read_text()
                             self.assertIn(f"codename: {values['codename']}", text)
                             self.assertIn("private: vault only" if mode == "--private" else "cleared:", text)

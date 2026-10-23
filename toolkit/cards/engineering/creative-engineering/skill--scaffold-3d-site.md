@@ -45,6 +45,12 @@ Scaffold 3D Site is the specialist when A separately scoped studio 3D prototype 
 - Relevant design, code, platform, device and integration context named by the source.
 - Constraints and reference artefacts; mark unsupported assumptions Unknown.
 
+## Technology choice
+
+**Documented** — [D-0025](../../../../studio/decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](../../../../methods/creative-technology/selection-policy.md).
+The source defaults to a full preset. Override it: justify React/R3F first, start with the minimum core, and add no Lenis, physics, post-processing, store or other specialist package without a recorded need. Check exact renderer/ecosystem versions. D-0023 remains binding; preserve HTML, keyboard access and reduced motion.
+
 ## How to run it
 
 1. Check that the brief matches the registry trigger and the source's documented scope.
