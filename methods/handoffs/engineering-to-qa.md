@@ -25,7 +25,7 @@ Engineering hands a feature-complete production build, with motion and scenes, t
 - [ ] Code-review record; dependency audit (`skill:supply-chain-risk-auditor`) output.
 - [ ] Known defects and limitations, each with severity and owner.
 - [ ] Test accounts and CMS roles for QA, issued through the vault process.
-- [ ] Current-build automated collection: `bin/3w qa run <url> --out <vault>/<codename>/files/qa/<build>/<template>` per key template after integration. Follow `docs/web-qa-harness.md`; reports and URLs stay private. Preserve `report.md`, `report.json`, three Lighthouse JSON files, `browser.json` and all normal/reduced-motion screenshots. A tool collection failure is listed, never concealed.
+- [ ] Current-build automated collection: `bin/3w qa run <url> --out <vault>/<codename>/files/qa/<build>/<template>` per key template. Follow [`docs/web-qa-harness.md`](../../docs/web-qa-harness.md); reports and URLs stay private. Preserve `report.md`, `report.json`, three Lighthouse JSON files, `browser.json` and all normal/reduced-motion screenshots. A tool collection failure is listed, never concealed.
 
 ## Acceptance checks (receiver, before testing starts)
 

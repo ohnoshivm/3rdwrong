@@ -124,9 +124,19 @@ Measure the production slice with device, browser, network, date and run count.
 Lab measurements guide the prototype; they do not establish field p75 INP or
 Core Web Vitals compliance. Record absent field data as **Unknown** and name
 its post-launch owner. Apply [web standards](../quality/web-standards.md) and
-run `bin/3w qa run <url>` where available; retain raw reports privately when they
-contain identifying data. Automated QA is only part of the evidence: inspect
-three widths, keyboard/focus, reduced motion and real mobile behaviour.
+run `bin/3w qa run <url>` using the [Web QA harness guide](../../docs/web-qa-harness.md)
+and [default budget](../digital-experience/qa-budget.yaml); retain raw reports
+outside the public repository. Acceptance requires verdict PASS, or INCOMPLETE
+only with the named founder sign-offs `FIELD-DATA-DEFERRED` and, where needed,
+`REAL-PHONE-TEST-DEFERRED` under the
+[conditional QA gate](../playbooks/digital-experience.md#mandatory-harness-report-and-conditional-gate).
+The current harness never emits overall PASS: require `lab_status: PASS`, no
+unresolved Blocker/Major defect, complete manual accessibility, functional and
+equivalent reduced-motion/fallback checks, and account for every `NOT_MEASURED`
+item. Only field data and the named real-phone checks may be deferred; missing
+collection or required manual evidence holds the gate. Missing prerequisites
+block collection; exit 2 alone is never success. Inspect three widths,
+keyboard/focus, reduced motion and real mobile behaviour.
 
 **Interpretation** — For GPU work, set draw-call, texture-memory, pixel-ratio
 and frame-time budgets in the prototype. Compress assets, load progressively,

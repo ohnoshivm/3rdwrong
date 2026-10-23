@@ -46,9 +46,21 @@ and publication. Do not run the publishing step as part of studying a reference.
 
 Every study below must supply all of this evidence before it can pass:
 
-- Run `bin/3w qa run <url>` against its production build; record tool/version,
-  device, browser, network profile, date, raw output and what the command could
-  not test. If unavailable, mark **Unknown**, never pass it silently.
+- Run `bin/3w qa run <url>` against its production build per key template using
+  the [Web QA harness guide](../docs/web-qa-harness.md) and
+  [default budget](../methods/digital-experience/qa-budget.yaml). Record tool/version,
+  device, browser, network profile, date, raw output and every unmeasured check.
+  Keep reports and screenshots outside the public repository; use a fresh
+  private output directory for each build/template. Missing prerequisites block collection.
+- Require verdict PASS, or INCOMPLETE only with the named founder sign-offs
+  `FIELD-DATA-DEFERRED` and, where needed, `REAL-PHONE-TEST-DEFERRED` under the
+  [conditional QA gate](../methods/playbooks/digital-experience.md#mandatory-harness-report-and-conditional-gate).
+  The current harness intentionally never emits overall PASS. Conditional
+  acceptance needs `lab_status: PASS`, zero unresolved Blocker/Major defects,
+  complete manual accessibility, functional and equivalent reduced-motion/fallback
+  checks, and every `NOT_MEASURED` item accounted for. Only field data and the
+  named real-phone checks may be deferred; missing collection evidence holds
+  the study. Exit 2 alone is not success, and no sign-off is granted here.
 - Meet [D-0023](../studio/decisions/0023-commercial-and-delivery-defaults.md):
   mobile p75 LCP ≤ 2.0 s, INP ≤ 200 ms, CLS ≤ 0.1, ≤ 2 MB before first
   interaction, 60 fps target on a mid-range phone and a complete reduced-motion

@@ -71,6 +71,14 @@ remain library entries requiring explicit request; this method cannot activate t
 | [08 Launch readiness](../digital-experience/08-performance-and-launch-readiness.md) | Check D-0023 budgets, accessibility, fallbacks and compatibility against the actual build. |
 | [Living identities](../living-identities.md) | Apply the decision test and distinguish authored states from generative rules before choosing a runtime. |
 
+Run `bin/3w qa run <url>` against the production build using the
+[Web QA harness guide](../../docs/web-qa-harness.md), [implementation](../../scripts/web_qa.py),
+[browser probe](../../scripts/web_qa_browser.js) and [default budget](../digital-experience/qa-budget.yaml).
+Acceptance requires PASS, or INCOMPLETE only with the named founder sign-offs
+under the [conditional QA gate](../playbooks/digital-experience.md#mandatory-harness-report-and-conditional-gate).
+The current harness never emits overall PASS; `lab_status: PASS` alone is not
+acceptance. Keep raw evidence outside the public repository.
+
 ## Working documents
 
 - [Selection policy](selection-policy.md): the rules and seven-step process.

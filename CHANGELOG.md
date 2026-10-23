@@ -28,6 +28,8 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 ### Changed
 
+- Integrated Web QA after independent round-2 clearance; wired its source, guide and budget links into delivery handoffs, heads and Creative Technology. Labs studies require a harness verdict PASS or the named founder-authorised INCOMPLETE route; Quality Lab remains under review.
+
 - Integrated 17 registry entries and materials (16 job leads plus the existing Taste Graph prerequisite), updated department counts/leads and expanded coverage to 825 tool cards, and regenerated toolkit, handbook and routing outputs.
 - Wired delivery playbooks to the integrated skills/cards, D-0025 stack records, living-identity selection and Engineering/Labs ownership; retained Quality Lab and Web QA as phase-2 dependencies.
 - Aligned the demo-publishing skill/card with the already-approved D-0009 licensing model.
