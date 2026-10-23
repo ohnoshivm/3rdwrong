@@ -1,0 +1,1 @@
+../../../../../remotion-best-practices/remotion-maps/techniques/mapbox/references/render-stability.md

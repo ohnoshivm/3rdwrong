@@ -1,0 +1,38 @@
+package: plugin-occam-occam-1.0.0
+upstream_url: https://github.com/quisbaum-prog/occam
+pinned_ref:
+- c8af9d146c837749366fb4d9d149edd4c17b0217
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-occam-occam-1.0.0
+copied_from:
+- ~/.claude/plugins/cache/occam/occam/1.0.0
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: a5b88778a2fc5f784f8e8b0d8f34bccb0a4f90e458cb199150276d052d5cb28d
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/.claude-plugin/plugin.json
+  hooks/hooks.json:
+    sha256: 9c81e7f0c21ca40456fb7c06189b17261decc2836093d8a3f278a4593e3d73ea
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/hooks/hooks.json
+  hooks/occam.sh:
+    sha256: 473e21b5bc7d087fe41329ed8216249af1d52e5f2e211f70bd958048f929e363
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/hooks/occam.sh
+  hooks/subagent.json:
+    sha256: 06cc0161669b6eeaaee80b8a8e79438c0f3c050a2537e9fd6a43222d6cb2f2c2
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/hooks/subagent.json
+  skills/audit/SKILL.md:
+    sha256: 7f12be5f7244a9d7c8ce4ff39f32dc5f1f8363cc3e8ef1356b74dc3463d8c7c2
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/skills/audit/SKILL.md
+  skills/occam/SKILL.md:
+    sha256: 5ea3af7946923fcf51a63d90eef75646e1e7392c3d153578102b5aa15431a6dd
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/skills/occam/SKILL.md
+  skills/occam/rules.md:
+    sha256: ade93af1fc60c87d542b3557d93ac315ea4d7a2902f48ea605ad3a5bcece2ec4
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/skills/occam/rules.md
+  notices/a5b88778a2fc-plugin.json:
+    sha256: a5b88778a2fc5f784f8e8b0d8f34bccb0a4f90e458cb199150276d052d5cb28d
+    copied_from: ~/.claude/plugins/cache/occam/occam/1.0.0/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-occam-occam-1.0.0/.claude-plugin/plugin.json
+notices:
+- notices/a5b88778a2fc-plugin.json
+excluded: []

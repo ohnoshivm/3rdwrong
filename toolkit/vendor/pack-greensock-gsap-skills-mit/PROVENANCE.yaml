@@ -1,0 +1,51 @@
+package: pack-greensock-gsap-skills-mit
+upstream_url: https://github.com/greensock/gsap-skills
+pinned_ref:
+- aed9cfd3277740755f6bfc1155c7aa645403b760
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-greensock-gsap-skills-mit
+copied_from:
+- ~/.config/opencode/skills/gsap-core
+- ~/.config/opencode/skills/gsap-frameworks
+- ~/.config/opencode/skills/gsap-performance
+- ~/.config/opencode/skills/gsap-plugins
+- ~/.config/opencode/skills/gsap-react
+- ~/.config/opencode/skills/gsap-scrolltrigger
+- ~/.config/opencode/skills/gsap-timeline
+- ~/.config/opencode/skills/gsap-utils
+copied_on: '2026-10-23'
+files:
+  skills/gsap-core/SKILL.md:
+    sha256: 3887b47e050ab5afbe2a9a820f23d39fa02ab785e06a343be44c6f91d84d12b3
+    copied_from: ~/.config/opencode/skills/gsap-core/SKILL.md
+  skills/gsap-frameworks/SKILL.md:
+    sha256: 842d9d3659ec3ddc8abbdc524708f8facf81f468ac25d0577f48c759c4fa31e6
+    copied_from: ~/.config/opencode/skills/gsap-frameworks/SKILL.md
+  skills/gsap-performance/SKILL.md:
+    sha256: cb5408d6fba707aabcbfe3320317a14c1f8fca6070074e5261047930f50d441e
+    copied_from: ~/.config/opencode/skills/gsap-performance/SKILL.md
+  skills/gsap-plugins/SKILL.md:
+    sha256: 5838b856c74c07fbc9fa99b6dfd1eee34ea554c3e530c30e0d58014b707d70a4
+    copied_from: ~/.config/opencode/skills/gsap-plugins/SKILL.md
+  skills/gsap-react/SKILL.md:
+    sha256: 88e2a5312b45e8cc7b3c496637ff5bc9af2ae9c925b555c8b235b34cbc989d74
+    copied_from: ~/.config/opencode/skills/gsap-react/SKILL.md
+  skills/gsap-scrolltrigger/SKILL.md:
+    sha256: 9351b6666a4749c0740406ea363aaccb99a087ff45cc5e8b99a0f367facf3ef4
+    copied_from: ~/.config/opencode/skills/gsap-scrolltrigger/SKILL.md
+  skills/gsap-timeline/SKILL.md:
+    sha256: 1a8b0f39cc4be3ed3d834b89672e4ae2f151b901dc3450bebf10bbc45379fe02
+    copied_from: ~/.config/opencode/skills/gsap-timeline/SKILL.md
+  skills/gsap-utils/SKILL.md:
+    sha256: 1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba
+    copied_from: ~/.config/opencode/skills/gsap-utils/SKILL.md
+  notices/51b04b065566-LICENSE:
+    sha256: 51b04b06556662dd817e8f4aa6d06bc7139dc73739e1319a7233cfde3e147b90
+    copied_from: ~/creative-engineering-os-upstreams/gsap-skills/LICENSE
+  notices/2cd27948cd14-README.md:
+    sha256: 2cd27948cd1486056271d8d962918eec074e9956b594111b5f84304ec1c13914
+    copied_from: ~/creative-engineering-os-upstreams/gsap-skills/README.md
+notices:
+- notices/51b04b065566-LICENSE
+- notices/2cd27948cd14-README.md
+excluded: []

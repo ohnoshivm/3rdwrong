@@ -1,0 +1,379 @@
+package: plugin-openai-curated-remote-shopify-4.1.2
+upstream_url: https://github.com/Shopify/Shopify-AI-Toolkit
+pinned_ref:
+- 4.1.2
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-shopify-4.1.2
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: 468ddb4c1b00efa81edfcaa27fbb18a0aa9cfec481f9a25c9da0b08e306537a5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/.codex-plugin/plugin.json
+  skills/shopify/SKILL.md:
+    sha256: 5d4a180b8bd93b0b3417feefa40b387382d04b88db494f5fee992942be25a4ea
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/SKILL.md
+  skills/shopify/assets/supported-versions-schema.json:
+    sha256: 487d31c127275247bc232e92c979590e45fb56bfc63a4a38209325efab94c050
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/supported-versions-schema.json
+  skills/shopify/blocks/hero-slide.liquid:
+    sha256: 46c32db90d44782e1f384010e9b145b990d4b476b8ec641935e49bf1e72d0b01
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/blocks/hero-slide.liquid
+  skills/shopify/config/settings_schema.json:
+    sha256: 37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/config/settings_schema.json
+  skills/shopify/data/supported-versions-schema.json:
+    sha256: 487d31c127275247bc232e92c979590e45fb56bfc63a4a38209325efab94c050
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/data/supported-versions-schema.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-shopify-4.1.2/skills/shopify/assets/supported-versions-schema.json
+  skills/shopify/featured-collection.liquid:
+    sha256: f4e392ff97af90eb5cf329a714f2e87d3d475fbc9170dd125b4ee923f80611fa
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/featured-collection.liquid
+  skills/shopify/locales/en.default.json:
+    sha256: 6db5ab10d5abbc42bc7dba2e584ce538e2e4466eb538dec8c0dfacf76100bad8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/locales/en.default.json
+  skills/shopify/locales/en.default.schema.json:
+    sha256: bfcaefda7990db593a9beb4cbb100f37333eb000c53041dd650ba0ba4f16459a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/locales/en.default.schema.json
+  skills/shopify/package.json:
+    sha256: 5f810d3d4ff8e81fef50f31f3e7ded4400684c962b21535c3cf62438b049aeb5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/package.json
+  skills/shopify/references/admin.md:
+    sha256: 712fdc7b07b876f647babab99ebf87ef491ea6d7dd66befa8c964594cbb63606
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/admin.md
+  skills/shopify/references/app-pricing.md:
+    sha256: db3f9255c04e91daae5a39e302515481d80cdcd849992bf0fcd5785ddbc6a3a1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/app-pricing.md
+  skills/shopify/references/app-store-review.md:
+    sha256: 3d855c7c64a6af763904a2eeca68b929b089565f91d7a9ab04ee2933c232a3a8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/app-store-review.md
+  skills/shopify/references/custom-data.md:
+    sha256: 253d8bf7c9ff44c1b5fd67b4883a520806fe4b1117ea0471a417d54498f531da
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/custom-data.md
+  skills/shopify/references/customer.md:
+    sha256: 08d917cb05e2cd7e2375c87dbdb81eb9350f1dc0b19949fc89d39d48b88373e9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/customer.md
+  skills/shopify/references/functions.md:
+    sha256: d0ed64af21a6d5118ee3a01b73a6a3b977adcc9ee0925b4cbdc37ebd59302799
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/functions.md
+  skills/shopify/references/hydrogen.md:
+    sha256: 6b0bcf8d7ab7e9bffb1e81e71fcd69c160221f8c113d5977f3a5695855cb34c4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/hydrogen.md
+  skills/shopify/references/hydrogen.part2.md:
+    sha256: 1364f45d4443fd38400e86a171804cbc982ada2fdcd93599e55b4ea24013e6f9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/hydrogen.part2.md
+  skills/shopify/references/hydrogen.part3.md:
+    sha256: 2d146f14a7a10ad906c134cf4d8494087f76367fe95633f4e8ddc972bc911844
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/hydrogen.part3.md
+  skills/shopify/references/hydrogen.part4.md:
+    sha256: e1f72bdfd460c8ca5a8ce38b696b306bbe17d503031a50251d59488e38cc9dd6
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/hydrogen.part4.md
+  skills/shopify/references/hydrogen.part5.md:
+    sha256: 5824f3c5bc0573eed6f7cbf59c39fb381704faf0b347a77f10113ad7c0ac0671
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/hydrogen.part5.md
+  skills/shopify/references/hydrogen.part6.md:
+    sha256: c3b576f09a7bd5f613e7aedbe42f6cf0a8f5c9466b7055de142ffa294f970cb9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/hydrogen.part6.md
+  skills/shopify/references/liquid.md:
+    sha256: 1de831bb45e3535c1d2c403015a38c69c3912d59a7dbae84b36ba6b7fe7b0595
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/liquid.md
+  skills/shopify/references/onboarding-dev.md:
+    sha256: f15f967e8705fe34ef7dfabfa8c604a670a621d7f0223d6b39846cb05d069307
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/onboarding-dev.md
+  skills/shopify/references/onboarding-merchant.md:
+    sha256: eaee5ec196665dc5f1f3f37980bd9d16d3767ce6a29e16e2e53ab0a4a0d393f1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/onboarding-merchant.md
+  skills/shopify/references/onboarding-merchant.part2.md:
+    sha256: bd19b0f649e13136cb8f158140459cda608b396fef515bcae6cc883a850514bb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/onboarding-merchant.part2.md
+  skills/shopify/references/partner.md:
+    sha256: 652c9ef64293ff221b909722a01098bdb1b9090ffe0d93586d970e1418bf454a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/partner.md
+  skills/shopify/references/payments-apps.md:
+    sha256: 157d1905900b7c71dd8a9684478da67f43357665baec5f9513b4c86504621249
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/payments-apps.md
+  skills/shopify/references/polaris-admin-extensions.md:
+    sha256: 82f9e578b221a8363d083e5f9ba825de80e2b674356e50d0d7cfa753b669f62b
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/polaris-admin-extensions.md
+  skills/shopify/references/polaris-admin-extensions.part2.md:
+    sha256: 88360baa6a53d5f8773a7e9b9e4663ea2b6f006be90415a17852b187418b56f8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/polaris-admin-extensions.part2.md
+  skills/shopify/references/polaris-app-home.md:
+    sha256: 75aebbe0869f2176cb6f2fd10e636de31e464ce0dc7eff21d8dc79fd18a224b9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/polaris-app-home.md
+  skills/shopify/references/polaris-checkout-extensions.md:
+    sha256: c841dc8d6f6d3dab86ebe6b5b48e7262eda1a21376a0b4fde4a13e86379704c6
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/polaris-checkout-extensions.md
+  skills/shopify/references/polaris-customer-account-extensions.md:
+    sha256: ae438fc989c9eb8bd1c9d6029a4614e5c6a1fe2d4778d27567177306a96441cb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/polaris-customer-account-extensions.md
+  skills/shopify/references/pos-ui.md:
+    sha256: 0ed8f8205b3421317c5a6858b054555896f8fdd3d2e6daf8526d6fa68840b135
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/pos-ui.md
+  skills/shopify/references/shopifyql.md:
+    sha256: 4559cb5313f33a7f03387febc418f276a0ca628c7097ba6522687df10bb64d05
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/shopifyql.md
+  skills/shopify/references/storefront-graphql.md:
+    sha256: c0d6f655baed97146e411c926695f0a07c1691e86c9b0e187160029167c0b68f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/storefront-graphql.md
+  skills/shopify/references/use-shopify-cli.md:
+    sha256: 6bdd24d7bf556608c6f41d68454c30888941fc79a4ad39bfac5ea664b2946cbe
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/references/use-shopify-cli.md
+  skills/shopify/scripts/_validate_components.mjs:
+    sha256: 9660288940fd3f5fcc2fd9f301495262364bdd6fe768296cdab23e2cc871b341
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/_validate_components.mjs
+  skills/shopify/scripts/_validate_functions.mjs:
+    sha256: 43c6ae9866b1d0a8c0666391235f50c19d878dcffc1539a9cbff353029cd2179
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/_validate_functions.mjs
+  skills/shopify/scripts/_validate_graphql.mjs:
+    sha256: 79d5b1220c59384c70a1789aedc9db56a38ba917ad0ae46acfabf374682fec21
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/_validate_graphql.mjs
+  skills/shopify/scripts/_validate_theme.mjs:
+    sha256: b6c237a350fd6ab6e13e830f6658c6e33adb81a1157f1846b2777e0e3364b191
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/_validate_theme.mjs
+  skills/shopify/scripts/import_mock_shop_catalog.mjs:
+    sha256: def61dd4cf963abdf767be8b1e8735b0d1227a1b5f652724754846c2ac5e8df1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/import_mock_shop_catalog.mjs
+  skills/shopify/scripts/log_feedback.mjs:
+    sha256: 382a185895337f18fd996bac7bcda2e63dd7aeca4abefb32cca7820c273191da
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/log_feedback.mjs
+  skills/shopify/scripts/log_skill_use.mjs:
+    sha256: f7392f3f1da1ece1e8e366b08cc8988fd316ed19d28c7a7fee4d41c282d8102b
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/log_skill_use.mjs
+  skills/shopify/scripts/search_docs.mjs:
+    sha256: 0bbd2941d5367bd1f933875e38b58e7286a22b9715f4255587b4f92d4afd6df4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/search_docs.mjs
+  skills/shopify/scripts/track-telemetry.ps1:
+    sha256: 69771bfd2c2f6aa00a1ee127f4fdeb6906ff2a802079bb6f5790061c684a3602
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/track-telemetry.ps1
+  skills/shopify/scripts/track-telemetry.sh:
+    sha256: f5b9bbecd41d5642bf1956f213a89d8d136f9f08d515517ba8a07a4df17861ef
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/track-telemetry.sh
+  skills/shopify/scripts/validate.mjs:
+    sha256: 29a8cd8a63eb6afa4a69d8792bafe6311aa4c9c0f92569512a7b0d19e42d5220
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/scripts/validate.mjs
+  skills/shopify/sections/hero-banner.liquid:
+    sha256: f2b0e3d86fe6fe1dde4071243bb2cd40417b889594b97b6d977c3f3b5166a072
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/sections/hero-banner.liquid
+  skills/ucp/SKILL.md:
+    sha256: 73ba929a962c87fb116e50cb78fa993069334fde34227ca8d1dcfa4780fcfc8a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/SKILL.md
+  skills/ucp/scripts/log_feedback.mjs:
+    sha256: 9633120676229172601ab9146d23a2b34dde6bd76365d1e60953b40338b446db
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/scripts/log_feedback.mjs
+  skills/ucp/scripts/log_skill_use.mjs:
+    sha256: 46d461ba35d28f1a9959f870a54da792e2c74d93b1c7eb790967b8a149ac1352
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/scripts/log_skill_use.mjs
+  skills/ucp/scripts/track-telemetry.ps1:
+    sha256: 69771bfd2c2f6aa00a1ee127f4fdeb6906ff2a802079bb6f5790061c684a3602
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/scripts/track-telemetry.ps1
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-shopify-4.1.2/skills/shopify/scripts/track-telemetry.ps1
+  skills/ucp/scripts/track-telemetry.sh:
+    sha256: f5b9bbecd41d5642bf1956f213a89d8d136f9f08d515517ba8a07a4df17861ef
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/scripts/track-telemetry.sh
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-shopify-4.1.2/skills/shopify/scripts/track-telemetry.sh
+  skills/ucp/views/cart.summary.jmespath:
+    sha256: 35700e64d26f869b3e3250519f56cba9fb31ddc00113486f74fd7823588fff44
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/views/cart.summary.jmespath
+  skills/ucp/views/catalog.compact.jmespath:
+    sha256: 4d4622a0c9116246c3c442bd3078f7f5b6fcbdd06631691988a7e02fc5d09012
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/views/catalog.compact.jmespath
+  skills/ucp/views/catalog.summary.jmespath:
+    sha256: ebf669ac63371d0df1af417093deed2aabcf4a5e517ff7cf94b9c0c246719e87
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/ucp/views/catalog.summary.jmespath
+  notices/468ddb4c1b00-plugin.json:
+    sha256: 468ddb4c1b00efa81edfcaa27fbb18a0aa9cfec481f9a25c9da0b08e306537a5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-shopify-4.1.2/.codex-plugin/plugin.json
+notices:
+- notices/468ddb4c1b00-plugin.json
+excluded:
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/admin_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/admin_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/admin_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/admin_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/admin_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/admin_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/customer_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/customer_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/customer_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/customer_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/customer_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/customer_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_checkout_validation_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_checkout_validation_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_checkout_validation_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_checkout_validation_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_checkout_validation_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_checkout_validation_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_transform_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_transform_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_transform_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_transform_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_transform_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_cart_transform_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_delivery_customization_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_delivery_customization_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_delivery_customization_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_delivery_customization_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_delivery_customization_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_delivery_customization_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discount_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discount_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discount_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discount_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discount_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discount_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_discounts_allocator_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_fulfillment_constraints_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_fulfillment_constraints_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_fulfillment_constraints_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_fulfillment_constraints_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_fulfillment_constraints_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_fulfillment_constraints_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_local_pickup_delivery_option_generator_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_discounts_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_discounts_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_discounts_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_discounts_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_discounts_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_discounts_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_routing_location_rule_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_routing_location_rule_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_routing_location_rule_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_routing_location_rule_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_routing_location_rule_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_order_routing_location_rule_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_payment_customization_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_payment_customization_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_payment_customization_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_payment_customization_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_payment_customization_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_payment_customization_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_pickup_point_delivery_option_generator_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_product_discounts_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_product_discounts_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_product_discounts_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_product_discounts_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_product_discounts_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_product_discounts_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_shipping_discounts_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_shipping_discounts_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_shipping_discounts_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_shipping_discounts_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_shipping_discounts_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/functions_shipping_discounts_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/partner_2025-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/partner_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/partner_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/partner_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/partner_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/partner_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/payments-apps_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/payments-apps_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/payments-apps_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/payments-apps_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/payments-apps_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/payments-apps_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/storefront-graphql_2025-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/storefront-graphql_2026-01.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/storefront-graphql_2026-04.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/storefront-graphql_2026-07.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/storefront-graphql_2026-10.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/storefront-graphql_unstable.json.br
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shopify/4.1.2/skills/shopify/assets/types.archive.br
+  reason: binary/non-UTF8 or unreadable; never distributed

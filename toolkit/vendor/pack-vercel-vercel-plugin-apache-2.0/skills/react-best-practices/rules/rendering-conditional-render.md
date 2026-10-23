@@ -1,0 +1,1 @@
+../../../../pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-conditional-render.md

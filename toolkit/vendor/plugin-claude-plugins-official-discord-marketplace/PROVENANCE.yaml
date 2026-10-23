@@ -1,0 +1,33 @@
+package: plugin-claude-plugins-official-discord-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- 0.0.1
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-discord-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 3e559b00317540f96fe3b24aee4a816af8b43d648f6e1dd9896e59aa835cd3d8
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: dfd016a63459229ceb791be757c3bede084fb22303c36b61342db1b8f58cc450
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/LICENSE
+  skills/access/SKILL.md:
+    sha256: 4fc3da872e033c37576a904b15a1bcac6b1ce6c7bc43f1f96abd7cad4855ac7a
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/access/SKILL.md
+  skills/configure/SKILL.md:
+    sha256: 9364d7895d6f38b917a711128e7b391884fb8b8d69a62c7d72a81e95b6e2b948
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/skills/configure/SKILL.md
+  notices/fa2ece9108ac-package.json:
+    sha256: fa2ece9108aca2ae17e7b1909f468ee8f055e53a45882eb25108a3e394f17e46
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/package.json
+  notices/dfd016a63459-LICENSE:
+    sha256: dfd016a63459229ceb791be757c3bede084fb22303c36b61342db1b8f58cc450
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/LICENSE
+notices:
+- LICENSE
+- notices/fa2ece9108ac-package.json
+- notices/dfd016a63459-LICENSE
+excluded: []

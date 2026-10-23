@@ -1,0 +1,1 @@
+../../../.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/references/question-bank.md

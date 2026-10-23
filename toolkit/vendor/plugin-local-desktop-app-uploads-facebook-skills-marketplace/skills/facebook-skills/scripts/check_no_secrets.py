@@ -1,0 +1,1 @@
+../.codex-marketplace/facebook-skills/scripts/check_no_secrets.py

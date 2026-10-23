@@ -1,0 +1,1 @@
+../../../.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/banner-photo-specs.md

@@ -1,0 +1,1 @@
+../../../.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/reply-templates.md

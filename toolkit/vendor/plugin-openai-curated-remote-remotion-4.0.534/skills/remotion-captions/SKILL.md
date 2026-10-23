@@ -1,0 +1,1 @@
+../../../pack-remotion-dev-remotion-mit/skills/remotion-captions/SKILL.md

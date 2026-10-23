@@ -1,0 +1,38 @@
+package: plugin-openai-curated-remote-shiro-1.0.1
+upstream_url: https://github.com/Abhigyan-Shekhar/Shiro
+pinned_ref:
+- 1.0.1
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-shiro-1.0.1
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: d5961df5e69ab9f2db29392110bf8faa45ba91a37b42586b9ae57ec57af5d535
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/.codex-plugin/plugin.json
+  skills/shiro/SKILL.md:
+    sha256: 9d3ed5ae76df82e19251faeadd4366e3ff569957e61605f6e5172902db650024
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/skills/shiro/SKILL.md
+  skills/shiro/agents/openai.yaml:
+    sha256: aca6489b23ddd63770dd7737976c2cf245de9c3fd071b1e34e24743339ed15ff
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/skills/shiro/agents/openai.yaml
+  skills/shiro/references/anti-patterns.md:
+    sha256: d3d9e61942bdfa267604c8ed19be2d1fea095a0ce83153b41b5592e35e0f3771
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/skills/shiro/references/anti-patterns.md
+  skills/shiro/references/rubric.md:
+    sha256: 00090063e3198735c6126035c08fd2ce2c9fa0d11dab654c5098ac43aae1d2f0
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/skills/shiro/references/rubric.md
+  notices/d5961df5e69a-plugin.json:
+    sha256: d5961df5e69ab9f2db29392110bf8faa45ba91a37b42586b9ae57ec57af5d535
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-shiro-1.0.1/.codex-plugin/plugin.json
+notices:
+- notices/d5961df5e69a-plugin.json
+excluded:
+- source: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/.codex-plugin/assets/composer-icon.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/.codex-plugin/assets/logo-dark.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/shiro/1.0.1/.codex-plugin/assets/logo.png
+  reason: binary/non-UTF8 or unreadable; never distributed

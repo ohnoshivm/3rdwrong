@@ -1,0 +1,778 @@
+package: plugin-local-desktop-app-uploads-linkedin-skills-marketplace
+upstream_url: https://github.com/sergebulaev/linkedin-skills
+pinned_ref:
+- 1.1.19
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-local-desktop-app-uploads-linkedin-skills-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills
+copied_on: '2026-10-23'
+files:
+  skills/linkedin-skills/.agents/plugins/marketplace.json:
+    sha256: 11bad3145534d8736084f19c9aefc97a5698c48db5da92d4ab3cb7bb7c75b8f8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.agents/plugins/marketplace.json
+  skills/linkedin-skills/.claude/skills/linkedin-comment-drafter:
+    sha256: e72cab50b152064a7dff2d34cdad1ee49d198207e04cec2cc8daa7a89ed107fa
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-comment-drafter
+  skills/linkedin-skills/.claude/skills/linkedin-content-planner:
+    sha256: ad5a84646b44ab0c8ab756c218bbed320779b8c446d2d0967eb9627b9e929beb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-content-planner
+  skills/linkedin-skills/.claude/skills/linkedin-employee-advocacy:
+    sha256: aa6af043487121b6cb0b1719755fe7dfbe66bdc844d5fadf93bb7ca62d5fa9ff
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-employee-advocacy
+  skills/linkedin-skills/.claude/skills/linkedin-engager-analytics:
+    sha256: a431d2e295b57a92e12a69b004e0a556fdb49644b522bbbbe7932ae7cd58809e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-engager-analytics
+  skills/linkedin-skills/.claude/skills/linkedin-hook-extractor:
+    sha256: 25c04c4f00d2dbd57f4700fef35394fb5fe0b364831f9192896b87d2c7fb4bd0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-hook-extractor
+  skills/linkedin-skills/.claude/skills/linkedin-humanizer:
+    sha256: c01186bb0a07e0103ceac5fa1d9482c5ee6d1d8a1ee5c8acfa5233950b42845f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-humanizer
+  skills/linkedin-skills/.claude/skills/linkedin-interviewer:
+    sha256: e04e866dfe9fdcb6b2e18d54ff70b03a0fda92f60d187afc880129e03d4de0fe
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-interviewer
+  skills/linkedin-skills/.claude/skills/linkedin-post-writer:
+    sha256: 592f31d2ccdfba9ee1ce77c563eae4f0cf11bdc6702eec68a5448ea0fc6cc6ff
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-post-writer
+  skills/linkedin-skills/.claude/skills/linkedin-profile-optimizer:
+    sha256: a7c31f7d56b5dd9344d4c7c8388ec9cd69962f0368877b096c6e6c23fe86a167
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-profile-optimizer
+  skills/linkedin-skills/.claude/skills/linkedin-reply-handler:
+    sha256: e7beaff414b441e853da82b3d072b3327eab90439ccf57c228e73491758ffa5e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-reply-handler
+  skills/linkedin-skills/.claude/skills/linkedin-repurposer:
+    sha256: b4366171a6f96a9fe39cbb4c3cdc5b19bebd076de45c386d3496cf0acefa2627
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-repurposer
+  skills/linkedin-skills/.claude/skills/linkedin-thread-monitor:
+    sha256: 8c7cf4199096cd9cd16741eecb98a7fefc7106019ca0d5609cb213d723bb058f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude/skills/linkedin-thread-monitor
+  skills/linkedin-skills/.claude-plugin/marketplace.json:
+    sha256: d8cdd902ab197b4c0465a5abfd5d923c481f240026d3a4500a1d40bccd7e4379
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude-plugin/marketplace.json
+  skills/linkedin-skills/.claude-plugin/plugin.json:
+    sha256: 7e6bfc843ba43ce2b002a886c68710c1f8d36a2b82f2ea791cf10155f31dc844
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude-plugin/plugin.json
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/.codex-plugin/plugin.json:
+    sha256: f4348ef86253bcbd322cbdb0152702daa8a67347a4401d5382224571f2628c8c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/.codex-plugin/plugin.json
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/.codexignore:
+    sha256: c20141a93a479c7a544c7e4ebaae520c70c85be9c1248e082187ae4b8f15d9dc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/.codexignore
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codexignore
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/LICENSE
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/README.md:
+    sha256: c97abfb6b8786ca4ebaf956c85e3696e6b44bfd739e63fc034f8df2210bf6f89
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/README.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/SECURITY.md:
+    sha256: 2d4a41d83456dfe5de126b41c6b41d96042047efed1738b8d1372a39afb57482
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/SECURITY.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/SKILL.md:
+    sha256: 8035b63943ff022342e020139de56895e09b0c3ed88896dda499bb8204514d38
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/assets/icon.svg:
+    sha256: 5d92b3dafeb1e1a10e91a19096719bd337d21919da47df137d19c5488a66e696
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/assets/icon.svg
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/__init__.py:
+    sha256: e1415532fb346d5aa44a12df8a61acc54c7748a477b730206f6d385140f11198
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/__init__.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/_env.py:
+    sha256: 1b9bdb629dd63924038876edb04b742707fac3c40b06603c7f99f2bc73a4a5b9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/_env.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/apify_client.py:
+    sha256: 409e8f290efa579fd66e074c660e1ed7b44c44f4c778f4cf8e8f48e0ce40caee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/apify_client.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/approval.py:
+    sha256: 9251389b96fc753a336b735686754d89617cd29dda701fd05c23bacc666a409d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/approval.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/backend_selector.py:
+    sha256: fd03b333ef5fb8f846a694bb6c7665d099d4eb8816839c31c4567c37b77ba473
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/backend_selector.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/pixfaro_client.py:
+    sha256: bc65736cec738cc9e4c0b32ee3ca6e88c9d69a332c3642214bcef91c733dce3d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/pixfaro_client.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/publora_client.py:
+    sha256: a0e39c1826f509f8b5b4d7343ad51372049923d8104fa398b57fadaf9feb4b9f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/publora_client.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/url_parser.py:
+    sha256: 1238aefe56aaabae07baa9ae801aa5f9a83dc3bb003c12e4b6e08a8195961afd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/lib/url_parser.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/algorithm-heuristics.md:
+    sha256: e1e13dadebc6b20ee5ceb0f30d4b3fbbad29de87478eebc28b42549131506f83
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/algorithm-heuristics.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/engagement-metrics-taxonomy.md:
+    sha256: 70066d8c125510a95221c6f9615e760a9d8e58a55ec4045c94604ed80760e0a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/engagement-metrics-taxonomy.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/founder-topics.md:
+    sha256: ff48ff651362cc0bfc8eaeefc4a9684f49f777dcd0d048810304e5c7d0482b9e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/founder-topics.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/hook-formulas.md:
+    sha256: 7909ce17e1ae4332aaf38fa5d9dcf9e0f749b39ac371bb64db452558a1bc8c81
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/hook-formulas.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/industry-benchmarks.md:
+    sha256: 4167aaa6807c80acca8aa59c63f9e60ff3d7feeb808f6696860ff530c0c6bcb1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/industry-benchmarks.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/story-bank.md:
+    sha256: 1accec677836ceadc2ab803161cec6468e9555b24d45690ce46f08a2bd2456f2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/story-bank.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/untrusted-content.md:
+    sha256: 015021d0e34a6489d61670b79d2b7cf73e6e1f85f4fe3d47f0aa367a2d55cc56
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/untrusted-content.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/voice-profile.md:
+    sha256: a4880406ae37c9e66b2f759f7d63b9d635faf316a35430148e50fe2c9b9053b5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/voice-profile.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/voice-rules.md:
+    sha256: 25782ffa33f1ff4f2eb3fb78634815350f6ab181fbc6beaa71bda728bfcfe69e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/references/voice-rules.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/requirements-lock.txt:
+    sha256: 4e34c827a180942e9807239806befff035193ebc5924666144c4e633f96751bf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/requirements-lock.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/requirements-lock.txt
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/requirements.txt:
+    sha256: 6602f8cb4d70a2d3001dd4fb9b52965429afed672fa1c2880ffc93ce0b398aa3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/requirements.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/requirements.txt
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_actor_inputs.py:
+    sha256: 02318cfbed811c592926ae23099bb7a9b368f97ccbafad4c8a6cd39bdab3179a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_actor_inputs.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_config.py:
+    sha256: 9bd686207f9dfa2f6b6968cc7933eeeeb05df5a82241e182f6c22fc16a8d5ab7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_config.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_no_secrets.py:
+    sha256: 3efc6b833ef0495b3910e38338be065f1d6a1c99e2c3dd71c0a7f2716d1f983b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_no_secrets.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/post_comment.py:
+    sha256: d1455f3f068d1c522ebdfb4ab7d3e8b37a441c8ff43eaf7dea833d7147e57b13
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/post_comment.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/schedule_post.py:
+    sha256: 15defc4ef1aa55807c15b15d4563ecc5ac23beb0af290ec9c16f8e20f90f5ec2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/schedule_post.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/selftest.py:
+    sha256: b7b84f51c69a03539d06d8bce71203b8738a071fe7361a0549bbe48f6b684b1f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/selftest.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/SKILL.md:
+    sha256: 81af2d20a84432e9d2c9964243453f0187fe35673f04e11067d8286f34a4835a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/comment-templates.md:
+    sha256: 496fcb4852c2e79e601eaf23ac79a978b3fe3096076518269254e00bf427be17
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/comment-templates.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/examples.md:
+    sha256: 3c1d891b8c66b9654d73ddbe62a359720ec389cc3b2be489810cc8e00dee47c3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/examples.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/voice-rules.md:
+    sha256: 2f34986133c7ab70c00ebc92fade4e060dcff903e0c1cb3dca64e0f96bebe701
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/voice-rules.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/SKILL.md:
+    sha256: 1d4e4c3679e3c0f33d992161563ba80abfecd2b6285cfb916e8cf21a7fa85c24
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/references/example-plan-week.md:
+    sha256: b7f5da1fab977e42ceaa1b5c4714f22bf1ef9bdf8ea3f2057a19bdd3babac4c6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/references/example-plan-week.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/references/pillars-framework.md:
+    sha256: f62502734939e618c7fd99f5ab5420ea54f433ae94b3279206095d57933e8953
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/references/pillars-framework.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md:
+    sha256: eff2818223f03574bcfc735c9b4c472af161a2b7b539c21e40639319b347d3dd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/advocacy-principles.md
+  : sha256: f858daa0c3045a4b5c20911ec7a828e29ccb0fcf8da9a8c8eb014a009b54697c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/advocacy-principles.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/governance-playbook.md
+  : sha256: a3955bd7d050b2b5961d67fa2023fa924b1f7f28d514786d525fcec446873bee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/governance-playbook.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/team-cadence-matrix.md
+  : sha256: eaa81e3752353e0fa1dc73d36ad30fe1d9588722df20a6943796d303ebc4190f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/team-cadence-matrix.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/SKILL.md:
+    sha256: 97b348d54e3a9f90d8d63019bd7ec22c4ceb0b6235dcc5d246bb5f5e603b4754
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/references/output-spec.md:
+    sha256: 56ed0c7e6397576fab79c25da871cc93ed99adf82d696d0a6b8e628e87ee1f95
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/references/output-spec.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md:
+    sha256: db4a791fb883bf64d8600587196dc8516b116364683c01900cfe9c7f0a2164e3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/references/classification-rules.md
+  : sha256: a936a09b9ff8c9336112f0364c096d74a9c74ca4bb624149aba60cdf3f930203
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/references/classification-rules.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/references/examples.md:
+    sha256: b346c97edeaa0c51f02e27d7ca26a2aaf0afb629c93d0b16e3d642419be68256
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/references/examples.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/SKILL.md:
+    sha256: 15d30a63d7f4bf4e60c82565dd25a0c729af038c70243dc6b22d3b672895bd0f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-ai-tells.md:
+    sha256: 87baf1ae90f04d2c8c5cb519ab65ecf48f961730548deeadcc737d51f22cb104
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-ai-tells.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-checklist.md:
+    sha256: 94c200a1b8a90396bc59cae7d624e47f53b1222efb5a18c3ca8f9dda7f1489f4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-checklist.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-examples.md:
+    sha256: 932c6a2465f02946f113a22ec9f882bffb3d6e4bda69c98770379a147d553de0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-examples.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/detector-list.md:
+    sha256: 200174145fa441f304fc52caae96fbc72e4ce9de36679a66a17d8ad11eb1ace4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/detector-list.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/emoji-patterns.md:
+    sha256: 0d0334be2d4cf9700876cda92d2d8992a0d713aa2044059e5e1a340df8831c27
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/emoji-patterns.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/examples.md:
+    sha256: 5c30bb5699ff29661dadb5fa63438792eff30b710f960c02520df6f5ec52ea7a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/examples.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/rules-explainer.md:
+    sha256: b1fc35ea0a3d364ea0bcfbb50ade0c9bb7096e855ff9ac4c9c38786ce72bbcff
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/rules-explainer.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/scrub-rules.md:
+    sha256: 9716865a9f78fb06f191c1b09836f28dcdb7753bee5336fe55d3754d6e90540d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/scrub-rules.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/tier-rationale.md:
+    sha256: 7c5fc51ff281adff25ba5e99b1dac3f7f70c615f90e61b80f45c4a97524e19fa
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/tier-rationale.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/voice-fingerprint.md:
+    sha256: 2eb1af1a0b9a1f6a62dfb5ccd89f17cc73b99bfb883792fb8897a66acca40c4d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/voice-fingerprint.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/scripts/detectors.env.example:
+    sha256: 26eaf2f5f05abef88e6f23aacaf636fc55289f9a91c5a8cbc47518a98451ded5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/scripts/detectors.env.example
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/scripts/test_detectors.py:
+    sha256: 6d6b2fa88bddf6f006a538e622092efae134e9c413e9428221a2508b052faed2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/scripts/test_detectors.py
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/emoji-detector.md:
+    sha256: fa4323dfc7792a025a29fd25d96ba13f29de9db6f99f1d5c2486b711e257696c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/emoji-detector.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/illustration.md:
+    sha256: 68fe8b93402e44efe966e005934ecb78fbac7ede6f51d4f988e4ecbdae4c4f6f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/illustration.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/post-audit.md:
+    sha256: 83be4f7e755143780a4bcfb0bf3b8f8b592095816f07f80a87010ea56aa9605a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/post-audit.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/rules-explainer.md:
+    sha256: 3b2a8c0b5eaab8fdc7ce1bcba77964a97712c42501f50b6ecac6891c1a64ca25
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/rules-explainer.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/voice-profile.md:
+    sha256: a82658e411a51405b06cb78db3ef083252aada07a0366472a9c34327aface05c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/voice-profile.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/SKILL.md:
+    sha256: 6744464b0050a9371b0de7af657a7d094e57a4ed456ad2bf0349a1c3e509d266
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/references/question-bank.md:
+    sha256: eebde9772408326129a1cc98b8431034292bb58bd451ab494c58dad5c465ef9b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/references/question-bank.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/SKILL.md:
+    sha256: 4107d04639d3896710990799cdf59ebe45c2eefedb236444cfccada77f004b6d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/algorithm-heuristics.md:
+    sha256: 52f2508ad1374bc8c5a021bcd4d6fa78a927822ad60bd2896656d7b8abebb0d1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/algorithm-heuristics.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/hook-formulas.md:
+    sha256: 3140a869ea0857039fbb12a11bb5e418d7ee8f49e7315afddcb6507bc214f0de
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/hook-formulas.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/humanizer-checklist.md:
+    sha256: 36340062a0c8d119fae3da31923a6d1791cf7b6819f0cb263d95426a3e9290d8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/humanizer-checklist.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/SKILL.md:
+    sha256: bfa2b0b69a42547d7cafb8528a4b0cb00471fa578eaa9641977c31338648388c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/SKILL.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/about-section-templates.md
+  : sha256: 61d20273275e75409652ffc7f13affe6c572eee400a2c5298605c1b0a7c6aa0c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/about-section-templates.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/banner-photo-specs.md
+  : sha256: 918c60044be5f3ac555fb411e052f389738cbab8623c20ca39bf23275e0b07ea
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/banner-photo-specs.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/experience-skills-rules.md
+  : sha256: 9dd685a08f59e306fa1ec58b68d2f727407fe6f42f36aab2bd45ff5cb4210282
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/experience-skills-rules.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/featured-section-playbook.md
+  : sha256: ef3209ad7177bab98b497b877297dcc988a01351ab021f4d4bbc656168d68976
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/featured-section-playbook.md
+  ? skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/profile-headline-formulas.md
+  : sha256: 8307154ec1c8a5b8eeb9dddd367a3e6d98711a3d9c8a095621dc21dfd5781e3d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/profile-headline-formulas.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/SKILL.md:
+    sha256: 4fa68ca268de72fe2a2584634f71588f805ecd1c3c6423ab62350cde6a1cfeab
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/examples.md:
+    sha256: 6cfc52ab82628d6b0840fd0854ad4592fa1d270bc591ae7c083c0b8bd20d6b34
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/examples.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/filtering-rules.md:
+    sha256: 06238bd00828b4fddbb24e859015d8de8b982e88489f0188bf980991e7ecda38
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/filtering-rules.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/reply-templates.md:
+    sha256: 6892fbd90ab2b5ff15e18f49587cc64aab347cb12328abc23bb5996063911ab7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/reply-templates.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/threading-rules.md:
+    sha256: f4fd5974a5e9639bbd31bbc1af5e067aa24fc40f71441e2d325b50eefba504cf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/threading-rules.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-repurposer/SKILL.md:
+    sha256: 8b5e1861d17ebfbc6a7cfcb8714ced0f59cd002cb22b5fdbadabb5746f726e19
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-repurposer/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md:
+    sha256: 911dd932eab152b1852a9313db29c7989056464d4d85b965ffe6c33ea0b7786e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/references/output-spec.md:
+    sha256: 462d8f001365c3a28ca4668e3adf3dadbc953ab97cf66033c1da845573fbc260
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/references/output-spec.md
+  skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/references/thread-timing.md:
+    sha256: ce75e56ee61a1fc682990dbc49c197c50da49ec4ff38e55fd3ba70b4f7bfb196
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/references/thread-timing.md
+  skills/linkedin-skills/.codex-plugin/plugin.json:
+    sha256: f4348ef86253bcbd322cbdb0152702daa8a67347a4401d5382224571f2628c8c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/.codex-plugin/plugin.json
+  skills/linkedin-skills/.codexignore:
+    sha256: c20141a93a479c7a544c7e4ebaae520c70c85be9c1248e082187ae4b8f15d9dc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codexignore
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codexignore
+  skills/linkedin-skills/.github/dependabot.yml:
+    sha256: e355c2fd8769e2be7ea27a63ea574fa64dd24254d92ddd547456b53712283ccd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.github/dependabot.yml
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.github/dependabot.yml
+  skills/linkedin-skills/.github/workflows/hol-plugin-scanner.yml:
+    sha256: b94f0734b6299913666e473d17213d65413107468ad02900828df6dfc5ef4f78
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.github/workflows/hol-plugin-scanner.yml
+  skills/linkedin-skills/.github/workflows/verify-references.yml:
+    sha256: 50bba6e3a200ffc3c38aa75950917838e9183711fc2a44903a5058964eb588ba
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.github/workflows/verify-references.yml
+  skills/linkedin-skills/AGENTS.md:
+    sha256: 5560beefe613bff65d9e2f52d1489945e96e801fe5798bb79ebfa60d7908bfa0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/AGENTS.md
+  skills/linkedin-skills/CLAUDE.md:
+    sha256: f3cdc8ce44b2b026d87c0c83d2779958ba71a3d6f39ff4e8a9eb09c163ec9647
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/CLAUDE.md
+  skills/linkedin-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/LICENSE
+  skills/linkedin-skills/README.md:
+    sha256: c97abfb6b8786ca4ebaf956c85e3696e6b44bfd739e63fc034f8df2210bf6f89
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/README.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/README.md
+  skills/linkedin-skills/SECURITY.md:
+    sha256: 2d4a41d83456dfe5de126b41c6b41d96042047efed1738b8d1372a39afb57482
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/SECURITY.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/SECURITY.md
+  skills/linkedin-skills/SKILL.md:
+    sha256: 8035b63943ff022342e020139de56895e09b0c3ed88896dda499bb8204514d38
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/SKILL.md
+  skills/linkedin-skills/assets/icon.svg:
+    sha256: 5d92b3dafeb1e1a10e91a19096719bd337d21919da47df137d19c5488a66e696
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/assets/icon.svg
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/assets/icon.svg
+  skills/linkedin-skills/evals/run_evals.py:
+    sha256: a6621fc5ce1d45fd45a2189b792bff7582639a6f652bdfa866d76d639caf2261
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/evals/run_evals.py
+  skills/linkedin-skills/lib/__init__.py:
+    sha256: e1415532fb346d5aa44a12df8a61acc54c7748a477b730206f6d385140f11198
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/__init__.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/__init__.py
+  skills/linkedin-skills/lib/_env.py:
+    sha256: 1b9bdb629dd63924038876edb04b742707fac3c40b06603c7f99f2bc73a4a5b9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/_env.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/_env.py
+  skills/linkedin-skills/lib/apify_client.py:
+    sha256: 409e8f290efa579fd66e074c660e1ed7b44c44f4c778f4cf8e8f48e0ce40caee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/apify_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/apify_client.py
+  skills/linkedin-skills/lib/approval.py:
+    sha256: 9251389b96fc753a336b735686754d89617cd29dda701fd05c23bacc666a409d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/approval.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/approval.py
+  skills/linkedin-skills/lib/backend_selector.py:
+    sha256: fd03b333ef5fb8f846a694bb6c7665d099d4eb8816839c31c4567c37b77ba473
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/backend_selector.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/backend_selector.py
+  skills/linkedin-skills/lib/pixfaro_client.py:
+    sha256: bc65736cec738cc9e4c0b32ee3ca6e88c9d69a332c3642214bcef91c733dce3d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/pixfaro_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/pixfaro_client.py
+  skills/linkedin-skills/lib/publora_client.py:
+    sha256: a0e39c1826f509f8b5b4d7343ad51372049923d8104fa398b57fadaf9feb4b9f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/publora_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/publora_client.py
+  skills/linkedin-skills/lib/url_parser.py:
+    sha256: 1238aefe56aaabae07baa9ae801aa5f9a83dc3bb003c12e4b6e08a8195961afd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/lib/url_parser.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/lib/url_parser.py
+  skills/linkedin-skills/references/algorithm-heuristics.md:
+    sha256: e1e13dadebc6b20ee5ceb0f30d4b3fbbad29de87478eebc28b42549131506f83
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/algorithm-heuristics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/algorithm-heuristics.md
+  skills/linkedin-skills/references/engagement-metrics-taxonomy.md:
+    sha256: 70066d8c125510a95221c6f9615e760a9d8e58a55ec4045c94604ed80760e0a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/engagement-metrics-taxonomy.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/engagement-metrics-taxonomy.md
+  skills/linkedin-skills/references/founder-topics.md:
+    sha256: ff48ff651362cc0bfc8eaeefc4a9684f49f777dcd0d048810304e5c7d0482b9e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/founder-topics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/founder-topics.md
+  skills/linkedin-skills/references/hook-formulas.md:
+    sha256: 7909ce17e1ae4332aaf38fa5d9dcf9e0f749b39ac371bb64db452558a1bc8c81
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/hook-formulas.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/hook-formulas.md
+  skills/linkedin-skills/references/industry-benchmarks.md:
+    sha256: 4167aaa6807c80acca8aa59c63f9e60ff3d7feeb808f6696860ff530c0c6bcb1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/industry-benchmarks.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/industry-benchmarks.md
+  skills/linkedin-skills/references/story-bank.md:
+    sha256: 1accec677836ceadc2ab803161cec6468e9555b24d45690ce46f08a2bd2456f2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/story-bank.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/story-bank.md
+  skills/linkedin-skills/references/untrusted-content.md:
+    sha256: 015021d0e34a6489d61670b79d2b7cf73e6e1f85f4fe3d47f0aa367a2d55cc56
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/untrusted-content.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/untrusted-content.md
+  skills/linkedin-skills/references/voice-profile.md:
+    sha256: a4880406ae37c9e66b2f759f7d63b9d635faf316a35430148e50fe2c9b9053b5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/voice-profile.md
+  skills/linkedin-skills/references/voice-rules.md:
+    sha256: 25782ffa33f1ff4f2eb3fb78634815350f6ab181fbc6beaa71bda728bfcfe69e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/references/voice-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/references/voice-rules.md
+  skills/linkedin-skills/requirements-dev.txt:
+    sha256: 41c36bca209f8c32f9fa86ed59006491eba9d1e39ea43036c0e1454e6f0b238c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/requirements-dev.txt
+  skills/linkedin-skills/requirements-lock.txt:
+    sha256: 4e34c827a180942e9807239806befff035193ebc5924666144c4e633f96751bf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/requirements-lock.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/requirements-lock.txt
+  skills/linkedin-skills/requirements.txt:
+    sha256: 6602f8cb4d70a2d3001dd4fb9b52965429afed672fa1c2880ffc93ce0b398aa3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/requirements.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/requirements.txt
+  skills/linkedin-skills/scripts/check_actor_inputs.py:
+    sha256: 02318cfbed811c592926ae23099bb7a9b368f97ccbafad4c8a6cd39bdab3179a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/check_actor_inputs.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_actor_inputs.py
+  skills/linkedin-skills/scripts/check_config.py:
+    sha256: 9bd686207f9dfa2f6b6968cc7933eeeeb05df5a82241e182f6c22fc16a8d5ab7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/check_config.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_config.py
+  skills/linkedin-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/linkedin-skills/scripts/check_markdown_references.py:
+    sha256: 12893654b48eca05311d745a8c626b50632d21bebd5319cb93326049e5f179d4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/check_markdown_references.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/scripts/check_markdown_references.py
+  skills/linkedin-skills/scripts/check_no_secrets.py:
+    sha256: 3efc6b833ef0495b3910e38338be065f1d6a1c99e2c3dd71c0a7f2716d1f983b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/check_no_secrets.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/check_no_secrets.py
+  skills/linkedin-skills/scripts/post_comment.py:
+    sha256: d1455f3f068d1c522ebdfb4ab7d3e8b37a441c8ff43eaf7dea833d7147e57b13
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/post_comment.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/post_comment.py
+  skills/linkedin-skills/scripts/schedule_post.py:
+    sha256: 15defc4ef1aa55807c15b15d4563ecc5ac23beb0af290ec9c16f8e20f90f5ec2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/schedule_post.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/schedule_post.py
+  skills/linkedin-skills/scripts/selftest.py:
+    sha256: b7b84f51c69a03539d06d8bce71203b8738a071fe7361a0549bbe48f6b684b1f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/selftest.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/scripts/selftest.py
+  skills/linkedin-skills/scripts/sync_codex_marketplace.py:
+    sha256: 409df5b221e06582233691c0fda1fa97697fb9364d859d0ca01c042ba5baacad
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/scripts/sync_codex_marketplace.py
+  skills/linkedin-skills/skills/linkedin-comment-drafter/SKILL.md:
+    sha256: 81af2d20a84432e9d2c9964243453f0187fe35673f04e11067d8286f34a4835a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-comment-drafter/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/SKILL.md
+  skills/linkedin-skills/skills/linkedin-comment-drafter/references/comment-templates.md:
+    sha256: 496fcb4852c2e79e601eaf23ac79a978b3fe3096076518269254e00bf427be17
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-comment-drafter/references/comment-templates.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/comment-templates.md
+  skills/linkedin-skills/skills/linkedin-comment-drafter/references/examples.md:
+    sha256: 3c1d891b8c66b9654d73ddbe62a359720ec389cc3b2be489810cc8e00dee47c3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-comment-drafter/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/examples.md
+  skills/linkedin-skills/skills/linkedin-comment-drafter/references/voice-rules.md:
+    sha256: 2f34986133c7ab70c00ebc92fade4e060dcff903e0c1cb3dca64e0f96bebe701
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-comment-drafter/references/voice-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/references/voice-rules.md
+  skills/linkedin-skills/skills/linkedin-content-planner/SKILL.md:
+    sha256: 1d4e4c3679e3c0f33d992161563ba80abfecd2b6285cfb916e8cf21a7fa85c24
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-content-planner/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/SKILL.md
+  skills/linkedin-skills/skills/linkedin-content-planner/references/example-plan-week.md:
+    sha256: b7f5da1fab977e42ceaa1b5c4714f22bf1ef9bdf8ea3f2057a19bdd3babac4c6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-content-planner/references/example-plan-week.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/references/example-plan-week.md
+  skills/linkedin-skills/skills/linkedin-content-planner/references/pillars-framework.md:
+    sha256: f62502734939e618c7fd99f5ab5420ea54f433ae94b3279206095d57933e8953
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-content-planner/references/pillars-framework.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-content-planner/references/pillars-framework.md
+  skills/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md:
+    sha256: eff2818223f03574bcfc735c9b4c472af161a2b7b539c21e40639319b347d3dd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md
+  skills/linkedin-skills/skills/linkedin-employee-advocacy/references/advocacy-principles.md:
+    sha256: f858daa0c3045a4b5c20911ec7a828e29ccb0fcf8da9a8c8eb014a009b54697c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-employee-advocacy/references/advocacy-principles.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/advocacy-principles.md
+  skills/linkedin-skills/skills/linkedin-employee-advocacy/references/governance-playbook.md:
+    sha256: a3955bd7d050b2b5961d67fa2023fa924b1f7f28d514786d525fcec446873bee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-employee-advocacy/references/governance-playbook.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/governance-playbook.md
+  skills/linkedin-skills/skills/linkedin-employee-advocacy/references/team-cadence-matrix.md:
+    sha256: eaa81e3752353e0fa1dc73d36ad30fe1d9588722df20a6943796d303ebc4190f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-employee-advocacy/references/team-cadence-matrix.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/references/team-cadence-matrix.md
+  skills/linkedin-skills/skills/linkedin-engager-analytics/SKILL.md:
+    sha256: 97b348d54e3a9f90d8d63019bd7ec22c4ceb0b6235dcc5d246bb5f5e603b4754
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-engager-analytics/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/SKILL.md
+  skills/linkedin-skills/skills/linkedin-engager-analytics/references/output-spec.md:
+    sha256: 56ed0c7e6397576fab79c25da871cc93ed99adf82d696d0a6b8e628e87ee1f95
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-engager-analytics/references/output-spec.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/references/output-spec.md
+  skills/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md:
+    sha256: db4a791fb883bf64d8600587196dc8516b116364683c01900cfe9c7f0a2164e3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md
+  skills/linkedin-skills/skills/linkedin-hook-extractor/references/classification-rules.md:
+    sha256: a936a09b9ff8c9336112f0364c096d74a9c74ca4bb624149aba60cdf3f930203
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-hook-extractor/references/classification-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/references/classification-rules.md
+  skills/linkedin-skills/skills/linkedin-hook-extractor/references/examples.md:
+    sha256: b346c97edeaa0c51f02e27d7ca26a2aaf0afb629c93d0b16e3d642419be68256
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-hook-extractor/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/references/examples.md
+  skills/linkedin-skills/skills/linkedin-humanizer/SKILL.md:
+    sha256: 15d30a63d7f4bf4e60c82565dd25a0c729af038c70243dc6b22d3b672895bd0f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/SKILL.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/audit-ai-tells.md:
+    sha256: 87baf1ae90f04d2c8c5cb519ab65ecf48f961730548deeadcc737d51f22cb104
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/audit-ai-tells.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-ai-tells.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/audit-checklist.md:
+    sha256: 94c200a1b8a90396bc59cae7d624e47f53b1222efb5a18c3ca8f9dda7f1489f4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/audit-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-checklist.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/audit-examples.md:
+    sha256: 932c6a2465f02946f113a22ec9f882bffb3d6e4bda69c98770379a147d553de0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/audit-examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/audit-examples.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/detector-list.md:
+    sha256: 200174145fa441f304fc52caae96fbc72e4ce9de36679a66a17d8ad11eb1ace4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/detector-list.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/detector-list.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/emoji-patterns.md:
+    sha256: 0d0334be2d4cf9700876cda92d2d8992a0d713aa2044059e5e1a340df8831c27
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/emoji-patterns.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/emoji-patterns.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/examples.md:
+    sha256: 5c30bb5699ff29661dadb5fa63438792eff30b710f960c02520df6f5ec52ea7a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/examples.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/rules-explainer.md:
+    sha256: b1fc35ea0a3d364ea0bcfbb50ade0c9bb7096e855ff9ac4c9c38786ce72bbcff
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/rules-explainer.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/rules-explainer.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/scrub-rules.md:
+    sha256: 9716865a9f78fb06f191c1b09836f28dcdb7753bee5336fe55d3754d6e90540d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/scrub-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/scrub-rules.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/tier-rationale.md:
+    sha256: 7c5fc51ff281adff25ba5e99b1dac3f7f70c615f90e61b80f45c4a97524e19fa
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/tier-rationale.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/tier-rationale.md
+  skills/linkedin-skills/skills/linkedin-humanizer/references/voice-fingerprint.md:
+    sha256: 2eb1af1a0b9a1f6a62dfb5ccd89f17cc73b99bfb883792fb8897a66acca40c4d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/references/voice-fingerprint.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/references/voice-fingerprint.md
+  skills/linkedin-skills/skills/linkedin-humanizer/scripts/detectors.env.example:
+    sha256: 26eaf2f5f05abef88e6f23aacaf636fc55289f9a91c5a8cbc47518a98451ded5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/scripts/detectors.env.example
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/scripts/detectors.env.example
+  skills/linkedin-skills/skills/linkedin-humanizer/scripts/test_detectors.py:
+    sha256: 6d6b2fa88bddf6f006a538e622092efae134e9c413e9428221a2508b052faed2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/scripts/test_detectors.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/scripts/test_detectors.py
+  skills/linkedin-skills/skills/linkedin-humanizer/sub-skills/emoji-detector.md:
+    sha256: fa4323dfc7792a025a29fd25d96ba13f29de9db6f99f1d5c2486b711e257696c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/sub-skills/emoji-detector.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/emoji-detector.md
+  skills/linkedin-skills/skills/linkedin-humanizer/sub-skills/illustration.md:
+    sha256: 68fe8b93402e44efe966e005934ecb78fbac7ede6f51d4f988e4ecbdae4c4f6f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/sub-skills/illustration.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/illustration.md
+  skills/linkedin-skills/skills/linkedin-humanizer/sub-skills/post-audit.md:
+    sha256: 83be4f7e755143780a4bcfb0bf3b8f8b592095816f07f80a87010ea56aa9605a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/sub-skills/post-audit.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/post-audit.md
+  skills/linkedin-skills/skills/linkedin-humanizer/sub-skills/rules-explainer.md:
+    sha256: 3b2a8c0b5eaab8fdc7ce1bcba77964a97712c42501f50b6ecac6891c1a64ca25
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/sub-skills/rules-explainer.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/rules-explainer.md
+  skills/linkedin-skills/skills/linkedin-humanizer/sub-skills/voice-profile.md:
+    sha256: a82658e411a51405b06cb78db3ef083252aada07a0366472a9c34327aface05c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/sub-skills/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/voice-profile.md
+  skills/linkedin-skills/skills/linkedin-interviewer/SKILL.md:
+    sha256: 6744464b0050a9371b0de7af657a7d094e57a4ed456ad2bf0349a1c3e509d266
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-interviewer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/SKILL.md
+  skills/linkedin-skills/skills/linkedin-interviewer/references/question-bank.md:
+    sha256: eebde9772408326129a1cc98b8431034292bb58bd451ab494c58dad5c465ef9b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-interviewer/references/question-bank.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-interviewer/references/question-bank.md
+  skills/linkedin-skills/skills/linkedin-post-writer/SKILL.md:
+    sha256: 4107d04639d3896710990799cdf59ebe45c2eefedb236444cfccada77f004b6d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-post-writer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/SKILL.md
+  skills/linkedin-skills/skills/linkedin-post-writer/references/algorithm-heuristics.md:
+    sha256: 52f2508ad1374bc8c5a021bcd4d6fa78a927822ad60bd2896656d7b8abebb0d1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-post-writer/references/algorithm-heuristics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/algorithm-heuristics.md
+  skills/linkedin-skills/skills/linkedin-post-writer/references/hook-formulas.md:
+    sha256: 3140a869ea0857039fbb12a11bb5e418d7ee8f49e7315afddcb6507bc214f0de
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-post-writer/references/hook-formulas.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/hook-formulas.md
+  skills/linkedin-skills/skills/linkedin-post-writer/references/humanizer-checklist.md:
+    sha256: 36340062a0c8d119fae3da31923a6d1791cf7b6819f0cb263d95426a3e9290d8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-post-writer/references/humanizer-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-post-writer/references/humanizer-checklist.md
+  skills/linkedin-skills/skills/linkedin-profile-optimizer/SKILL.md:
+    sha256: bfa2b0b69a42547d7cafb8528a4b0cb00471fa578eaa9641977c31338648388c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-profile-optimizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/SKILL.md
+  skills/linkedin-skills/skills/linkedin-profile-optimizer/references/about-section-templates.md:
+    sha256: 61d20273275e75409652ffc7f13affe6c572eee400a2c5298605c1b0a7c6aa0c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-profile-optimizer/references/about-section-templates.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/about-section-templates.md
+  skills/linkedin-skills/skills/linkedin-profile-optimizer/references/banner-photo-specs.md:
+    sha256: 918c60044be5f3ac555fb411e052f389738cbab8623c20ca39bf23275e0b07ea
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-profile-optimizer/references/banner-photo-specs.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/banner-photo-specs.md
+  skills/linkedin-skills/skills/linkedin-profile-optimizer/references/experience-skills-rules.md:
+    sha256: 9dd685a08f59e306fa1ec58b68d2f727407fe6f42f36aab2bd45ff5cb4210282
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-profile-optimizer/references/experience-skills-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/experience-skills-rules.md
+  skills/linkedin-skills/skills/linkedin-profile-optimizer/references/featured-section-playbook.md:
+    sha256: ef3209ad7177bab98b497b877297dcc988a01351ab021f4d4bbc656168d68976
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-profile-optimizer/references/featured-section-playbook.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/featured-section-playbook.md
+  skills/linkedin-skills/skills/linkedin-profile-optimizer/references/profile-headline-formulas.md:
+    sha256: 8307154ec1c8a5b8eeb9dddd367a3e6d98711a3d9c8a095621dc21dfd5781e3d
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-profile-optimizer/references/profile-headline-formulas.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/profile-headline-formulas.md
+  skills/linkedin-skills/skills/linkedin-reply-handler/SKILL.md:
+    sha256: 4fa68ca268de72fe2a2584634f71588f805ecd1c3c6423ab62350cde6a1cfeab
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-reply-handler/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/SKILL.md
+  skills/linkedin-skills/skills/linkedin-reply-handler/references/examples.md:
+    sha256: 6cfc52ab82628d6b0840fd0854ad4592fa1d270bc591ae7c083c0b8bd20d6b34
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-reply-handler/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/examples.md
+  skills/linkedin-skills/skills/linkedin-reply-handler/references/filtering-rules.md:
+    sha256: 06238bd00828b4fddbb24e859015d8de8b982e88489f0188bf980991e7ecda38
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-reply-handler/references/filtering-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/filtering-rules.md
+  skills/linkedin-skills/skills/linkedin-reply-handler/references/reply-templates.md:
+    sha256: 6892fbd90ab2b5ff15e18f49587cc64aab347cb12328abc23bb5996063911ab7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-reply-handler/references/reply-templates.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/reply-templates.md
+  skills/linkedin-skills/skills/linkedin-reply-handler/references/threading-rules.md:
+    sha256: f4fd5974a5e9639bbd31bbc1af5e067aa24fc40f71441e2d325b50eefba504cf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-reply-handler/references/threading-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/references/threading-rules.md
+  skills/linkedin-skills/skills/linkedin-repurposer/SKILL.md:
+    sha256: 8b5e1861d17ebfbc6a7cfcb8714ced0f59cd002cb22b5fdbadabb5746f726e19
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-repurposer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-repurposer/SKILL.md
+  skills/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md:
+    sha256: 911dd932eab152b1852a9313db29c7989056464d4d85b965ffe6c33ea0b7786e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md
+  skills/linkedin-skills/skills/linkedin-thread-monitor/references/output-spec.md:
+    sha256: 462d8f001365c3a28ca4668e3adf3dadbc953ab97cf66033c1da845573fbc260
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-thread-monitor/references/output-spec.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/references/output-spec.md
+  skills/linkedin-skills/skills/linkedin-thread-monitor/references/thread-timing.md:
+    sha256: ce75e56ee61a1fc682990dbc49c197c50da49ec4ff38e55fd3ba70b4f7bfb196
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-thread-monitor/references/thread-timing.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/references/thread-timing.md
+  skills/linkedin-skills/tests/fixtures/apify_comments.json:
+    sha256: a3ebadfbe668bf42bffc0b9df7b781c812911c9178ee343271395fe9c629195b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/fixtures/apify_comments.json
+  skills/linkedin-skills/tests/fixtures/apify_engagers.json:
+    sha256: 546f36ae40df5dba6148e2e24a73077cca643f1c18d4975855f75b3b5918bcb3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/fixtures/apify_engagers.json
+  skills/linkedin-skills/tests/fixtures/apify_post.json:
+    sha256: 967c228c3210b0b1ffc140f4dd3391d59f561994b9b75adbf6992a5e3495315e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/fixtures/apify_post.json
+  skills/linkedin-skills/tests/fixtures/apify_profile_comments.json:
+    sha256: 782ef56f0b7658e77b5160b668f9bf092a2eab613eef8b6d54676b2b3e5ba53b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/fixtures/apify_profile_comments.json
+  skills/linkedin-skills/tests/fixtures/publora_get_post.json:
+    sha256: 8fab7cc3e9492aee33eb1ce7b1f5bb30264e6d5ff6917849532d5687ebf4fc9e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/fixtures/publora_get_post.json
+  skills/linkedin-skills/tests/fixtures/publora_platform_limits.json:
+    sha256: b435092b7781efe9328a0ade2badd344f13b72ce472e52bdd57cf6323a500ee1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/fixtures/publora_platform_limits.json
+  skills/linkedin-skills/tests/test_client_behaviour.py:
+    sha256: 52079cde92fe89bd6271e22243f60888d757b76a7ea166b31673ebe5de21230e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_client_behaviour.py
+  skills/linkedin-skills/tests/test_detector_tool.py:
+    sha256: 7bc55681d11dd51ca1bd4ed5ed2f3bbaac65621c06c2a8fb68df9c067342cc07
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_detector_tool.py
+  skills/linkedin-skills/tests/test_instruction_integrity.py:
+    sha256: 05d1126d278a73823be3184963b5f4dc73ec7caa8bb8c55b3072c85ed2efbe77
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_instruction_integrity.py
+  skills/linkedin-skills/tests/test_pixfaro_client.py:
+    sha256: f77835763b192a170f63f4d7ca33f1d27e28e46ed74643d906026a4bee329b15
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_pixfaro_client.py
+  skills/linkedin-skills/tests/test_publora_shapes.py:
+    sha256: ec9ef7c7fe77ab5b8c3dc1ffa8cd61c78ba2ef90b3946ce3e37a99fbd8c0de40
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_publora_shapes.py
+  skills/linkedin-skills/tests/test_response_shapes.py:
+    sha256: 0e8f247b46a2db6dde2d54375965ec22a340da5ca02d9653ea798021227cc576
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_response_shapes.py
+  skills/linkedin-skills/tests/test_skill_contracts.py:
+    sha256: 1500729e0eb429a8c8c55450ef6d892ec0d010267ed46d0682ace5639e9ad849
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_skill_contracts.py
+  skills/linkedin-skills/tests/test_text_encoding.py:
+    sha256: d222e868ac9efd3b4ee25289d1a1a93e33c93d3bb152d6da647f13487fa079fa
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/tests/test_text_encoding.py
+  notices/7e6bfc843ba4-plugin.json:
+    sha256: 7e6bfc843ba43ce2b002a886c68710c1f8d36a2b82f2ea791cf10155f31dc844
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.claude-plugin/plugin.json
+  notices/f4348ef86253-plugin.json:
+    sha256: f4348ef86253bcbd322cbdb0152702daa8a67347a4401d5382224571f2628c8c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-linkedin-skills-marketplace/skills/linkedin-skills/.codex-marketplace/linkedin-skills/.codex-plugin/plugin.json
+  notices/1a21cf7c2089-LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/LICENSE
+notices:
+- skills/linkedin-skills/.codex-marketplace/linkedin-skills/LICENSE
+- skills/linkedin-skills/LICENSE
+- notices/7e6bfc843ba4-plugin.json
+- notices/f4348ef86253-plugin.json
+- notices/1a21cf7c2089-LICENSE
+excluded:
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/assets/linkedin-skills-hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.codex-marketplace/linkedin-skills/skills/linkedin-humanizer/sub-skills/detector-tester.md
+  reason: identifiable personal home path; excluded unchanged
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/assets/linkedin-skills-hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/skills/linkedin-humanizer/sub-skills/detector-tester.md
+  reason: identifiable personal home path; excluded unchanged
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/linkedin-skills/.gitignore
+  reason: git repository metadata (.gitignore/.gitattributes) would change this repository's
+    own git behaviour; not tool material, excluded unchanged

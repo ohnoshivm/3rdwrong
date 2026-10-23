@@ -1,0 +1,80 @@
+package: plugin-claude-plugins-official-mcp-server-dev-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-mcp-server-dev-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 1c99fc6e35a0716a5b0adab482d13235feff3cf5e398497235bd7c250a1c19fe
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/LICENSE
+  skills/build-mcp-app/SKILL.md:
+    sha256: d2fd94f0096506469ec855c581e48293d35480e58e6405b2bfcdba0486a0c218
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/SKILL.md
+  skills/build-mcp-app/references/abuse-protection.md:
+    sha256: 103711d50f6c0c46fc3c2ecbe684f4397b0e048b7b7289ecd22f562c3214a700
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/references/abuse-protection.md
+  skills/build-mcp-app/references/apps-sdk-messages.md:
+    sha256: df8857d98dc9b186a670ebce006ec7ef5a983338808a0dfca8ff1a2f326876dc
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/references/apps-sdk-messages.md
+  skills/build-mcp-app/references/directory-checklist.md:
+    sha256: 9f6113638f1ba15691462093945d283c86323b0f648f23c6602453c05e2fc3b9
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/references/directory-checklist.md
+  skills/build-mcp-app/references/iframe-sandbox.md:
+    sha256: d4c4a303f6e63840b3e4c1b0d943b24555efc88cc944261ec43c94bd9fd018ba
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/references/iframe-sandbox.md
+  skills/build-mcp-app/references/payload-budgeting.md:
+    sha256: 0dc6d9bfa24d2ffe314de631d3f552cf3b5c86b2afcf25e902d1898069d58625
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/references/payload-budgeting.md
+  skills/build-mcp-app/references/widget-templates.md:
+    sha256: d165f546ed7f91ece474d7605abc91e54e410ecebd3b649829687282c4887386
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-app/references/widget-templates.md
+  skills/build-mcp-server/SKILL.md:
+    sha256: 088cd04be7f03ebbdfd24973cbcbf93c7a2e09117c4bba7b2b06bcc3e0a556f6
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/SKILL.md
+  skills/build-mcp-server/references/auth.md:
+    sha256: 83869c9c5ff0aee69ad88589e88c3a6888a7cc4a7843e9ea85185e11ac369e0f
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/auth.md
+  skills/build-mcp-server/references/deploy-cloudflare-workers.md:
+    sha256: b72abb420638510187da33b3e5348c6e8b5f319821b339d646517efbb3c8084c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/deploy-cloudflare-workers.md
+  skills/build-mcp-server/references/elicitation.md:
+    sha256: d8f19b01b1bd3a8bad0fdb22e1898bb43110343db1d321e6c472f603d288f856
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/elicitation.md
+  skills/build-mcp-server/references/remote-http-scaffold.md:
+    sha256: bd5d49e1f4caa895221b7e539bd7cd23ad2c7e2dff5e7cf0bf4b976ebbb178e4
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/remote-http-scaffold.md
+  skills/build-mcp-server/references/resources-and-prompts.md:
+    sha256: 90537efcaf329ead6cabe42ab197412d39eb8401b6d1d734bf329f8a78cf8a60
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/resources-and-prompts.md
+  skills/build-mcp-server/references/server-capabilities.md:
+    sha256: a4d76934e9fb386a5026c44a1888ea1338ca8f128314547a765827d60a1aaff0
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/server-capabilities.md
+  skills/build-mcp-server/references/tool-design.md:
+    sha256: fd3747e5abf5d2aa584fb94936a879fe57e46203e0f896dad2a2e22a69f0a3fa
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/tool-design.md
+  skills/build-mcp-server/references/versions.md:
+    sha256: f7592e72c5c357153c3e031c7c768e32f670a654b146509cbeaf6d8d4f2e3752
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcp-server/references/versions.md
+  skills/build-mcpb/SKILL.md:
+    sha256: 6bb90afd0415754e13f353ee5982d13857c14826edbcbdf5f1481fa5563cd56b
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcpb/SKILL.md
+  skills/build-mcpb/references/local-security.md:
+    sha256: 7813aae1084e050537241956ba835adceb710804871894b53a9adcdeb3736241
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcpb/references/local-security.md
+  skills/build-mcpb/references/manifest-schema.md:
+    sha256: 6a97f9481107ebdbe8a75f06a5e126ba28021e1e8652677109e53d63a5793c72
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/skills/build-mcpb/references/manifest-schema.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

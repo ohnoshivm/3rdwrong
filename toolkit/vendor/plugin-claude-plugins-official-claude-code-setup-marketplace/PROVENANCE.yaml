@@ -1,0 +1,41 @@
+package: plugin-claude-plugins-official-claude-code-setup-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- 1.0.0
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-claude-code-setup-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: f5cc68a308d6a781596325a635272639e823dfaad6aa66494338715306d53fe6
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/LICENSE
+  skills/claude-automation-recommender/SKILL.md:
+    sha256: 441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/SKILL.md
+  skills/claude-automation-recommender/references/hooks-patterns.md:
+    sha256: 7b6e91b53aa0f1ed471fd66e177de17a88c1d6620ce95f5c8e8cdfebd20d939e
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/references/hooks-patterns.md
+  skills/claude-automation-recommender/references/mcp-servers.md:
+    sha256: 0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md
+  skills/claude-automation-recommender/references/plugins-reference.md:
+    sha256: 6570ff4c853253b3f15fb62e5d540cbf0ce3371936437791dde8fb53b7d444f3
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/references/plugins-reference.md
+  skills/claude-automation-recommender/references/skills-reference.md:
+    sha256: b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/references/skills-reference.md
+  skills/claude-automation-recommender/references/subagent-templates.md:
+    sha256: 7f9a107d8619ff96fea07d5a17da31b269cec0ee343e5a9ff643c0d6cb4ba944
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender/references/subagent-templates.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

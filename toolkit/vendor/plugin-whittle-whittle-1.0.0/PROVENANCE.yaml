@@ -1,0 +1,41 @@
+package: plugin-whittle-whittle-1.0.0
+upstream_url: https://github.com/Obed0101/whittle
+pinned_ref:
+- 8013e04d9219f2d4d2e12bd0a3994e358625c0e3
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-whittle-whittle-1.0.0
+copied_from:
+- ~/.claude/plugins/cache/whittle/whittle/1.0.0
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 8deabe5a7f25f98c66acada83390d10712d060ea8c994499d3bfc7b8fbb03dfc
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: d42c3d882d88ded6ad9285f21dd6db70b007f1558a917db9bc99a436ecc78eda
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: 805f71a9b12ea7f19f2b79fa6fadc3c56b6c0dc2c5b91858012115b6f127d304
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/LICENSE
+  scripts/build.py:
+    sha256: 93aa5085bef9035ab89efd8bc4a0a73c9ebc0a1fcc0eb77f97945c8cbdd7fb12
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/scripts/build.py
+  skills/whittle/SKILL.md:
+    sha256: 174dec086c6a955e9b2b4423337394c128cf655404809ba3af73d8ae7bcca7e6
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/skills/whittle/SKILL.md
+  notices/d42c3d882d88-plugin.json:
+    sha256: d42c3d882d88ded6ad9285f21dd6db70b007f1558a917db9bc99a436ecc78eda
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-whittle-whittle-1.0.0/.claude-plugin/plugin.json
+  notices/805f71a9b12e-LICENSE:
+    sha256: 805f71a9b12ea7f19f2b79fa6fadc3c56b6c0dc2c5b91858012115b6f127d304
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/LICENSE
+  notices/87d5e6ca8775-README.md:
+    sha256: 87d5e6ca8775bc389da59d36ad91842df1ecd3faae1f9ec3d341e9fd2c3bcb36
+    copied_from: ~/.claude/plugins/cache/whittle/whittle/1.0.0/README.md
+notices:
+- LICENSE
+- notices/d42c3d882d88-plugin.json
+- notices/805f71a9b12e-LICENSE
+- notices/87d5e6ca8775-README.md
+excluded: []

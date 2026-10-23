@@ -1,0 +1,68 @@
+package: plugin-google-labs-code-stitch-skills-stitch-utilities-0337446dadde
+upstream_url: https://github.com/google-labs-code/stitch-skills
+pinned_ref:
+- 0337446dadde6f8c94210444e2aa9d546126480f
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-google-labs-code-stitch-skills-stitch-utilities-0337446dadde
+copied_from:
+- ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: f4b2dd011d73fb7b8b4f6cc3455cf9d6cfdaf0b961bb38f9f544e47de37a92e9
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/.claude-plugin/plugin.json
+  .codex-plugin/plugin.json:
+    sha256: 4077ee50450f467783faa821887ed609e39586e93404c6a20baf1fdaf827757a
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/.codex-plugin/plugin.json
+  skills/design-md/README.md:
+    sha256: d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/design-md/README.md
+  skills/design-md/SKILL.md:
+    sha256: eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/design-md/SKILL.md
+  skills/design-md/examples/DESIGN.md:
+    sha256: e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/design-md/examples/DESIGN.md
+  skills/enhance-prompt/README.md:
+    sha256: 91a27571c98c9d5a36f97e2f737ab781a76630534dcb5e33b2d970a3e6b5e6b6
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/enhance-prompt/README.md
+  skills/enhance-prompt/SKILL.md:
+    sha256: ccb200c798072438b642b1fa6a5c515563159e2fab3d56e813d76d8afa9a7ce6
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/enhance-prompt/SKILL.md
+  skills/enhance-prompt/references/KEYWORDS.md:
+    sha256: b837324b0a51bed4521f2b55c860a4dd729a45e597fe569bc576dba95dd3bbb8
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/enhance-prompt/references/KEYWORDS.md
+  skills/site-md/SKILL.md:
+    sha256: 679a0020ea2fbfdc4c4db84c32936eaea203263ebccb4d217eff1cf418d3de60
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/site-md/SKILL.md
+  skills/stitch-loop/README.md:
+    sha256: 8c12fc4f42a7f867aeb64e28cf7f15b8e803fafb1c52751047eb0c1668a215ab
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/stitch-loop/README.md
+  skills/stitch-loop/SKILL.md:
+    sha256: 05f39ecf81b0664872e6f3d6be01c53cf8c1f8b9ef14c741fe01d1ac424ce634
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/stitch-loop/SKILL.md
+  skills/stitch-loop/examples/SITE.md:
+    sha256: 93961111838eecae82ddc4a3db7e86381a7c430b8ea4ac495b73d03f7804808e
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/stitch-loop/examples/SITE.md
+  skills/stitch-loop/examples/next-prompt.md:
+    sha256: 4a3575178d2236a7f3bc6af3bdabf65567dc9e0636f72674593e6d4ed0982cc5
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/stitch-loop/examples/next-prompt.md
+  skills/stitch-loop/resources/baton-schema.md:
+    sha256: 14f8aa79f9236e960418b234e35e2e96458db04e348801174b50b52003564f1e
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/stitch-loop/resources/baton-schema.md
+  skills/stitch-loop/resources/site-template.md:
+    sha256: 0891648f83e9d098960baed9ed16f1ca33568e0765fce571bf6c771c278ce678
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/stitch-loop/resources/site-template.md
+  skills/taste-design/SKILL.md:
+    sha256: e425fdb7ab250764f6229c48941f97e20bd6a7ba9e25a628f1e0ebeb008e8bff
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/taste-design/SKILL.md
+  skills/taste-design/resources/DESIGN.md:
+    sha256: d6bd72a44725e0d8fe40642559863c4c2eae5e4a6bd3b5f204d1cc0c7c5482fa
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/skills/taste-design/resources/DESIGN.md
+  notices/4077ee50450f-plugin.json:
+    sha256: 4077ee50450f467783faa821887ed609e39586e93404c6a20baf1fdaf827757a
+    copied_from: ~/.claude/plugins/cache/google-labs-code-stitch-skills/stitch-utilities/0337446dadde/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-google-labs-code-stitch-skills-stitch-utilities-0337446dadde/.codex-plugin/plugin.json
+notices:
+- notices/4077ee50450f-plugin.json
+excluded: []

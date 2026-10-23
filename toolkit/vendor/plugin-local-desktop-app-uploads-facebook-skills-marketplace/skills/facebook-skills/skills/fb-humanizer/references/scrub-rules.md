@@ -1,0 +1,1 @@
+../../../.codex-marketplace/facebook-skills/skills/fb-humanizer/references/scrub-rules.md

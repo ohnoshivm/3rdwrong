@@ -1,0 +1,68 @@
+package: standalone-notion-spec-to-implementation-20d69610
+upstream_url: null
+pinned_ref:
+- unresolved
+licence: MIT
+evidence_path: toolkit/sources/packages.json#standalone-notion-spec-to-implementation-20d69610
+copied_from:
+- ~/creative-engineering-os/library/skills/notion-spec-to-implementation
+copied_on: '2026-10-23'
+files:
+  skills/notion-spec-to-implementation/LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/LICENSE.upstream
+  skills/notion-spec-to-implementation/SKILL.md:
+    sha256: 0fe3e0e040193836de1898216388e8edf1e02df81ff47d31968190116c051096
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/SKILL.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/SKILL.md
+  skills/notion-spec-to-implementation/examples/api-feature.md:
+    sha256: bb9ab2b8363e394be89203999fe7bf95a9f52ef844de34716f76bf89516eff65
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/examples/api-feature.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/examples/api-feature.md
+  skills/notion-spec-to-implementation/examples/database-migration.md:
+    sha256: 306ef7a5b198e9d8b76acfdba85cea52c53b29a806df7a9daaff54da34ebb594
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/examples/database-migration.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/examples/database-migration.md
+  skills/notion-spec-to-implementation/examples/ui-component.md:
+    sha256: f02de7fba5520d57aed78564a3ce8b2d46660ba0a6e4cea4782dd44a6d0ce8a6
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/examples/ui-component.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/examples/ui-component.md
+  skills/notion-spec-to-implementation/reference/milestone-summary-template.md:
+    sha256: 9b996c1ecf763e51353615166866215fef338fa7e62d9f090f47ace54920ebdc
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/milestone-summary-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/milestone-summary-template.md
+  skills/notion-spec-to-implementation/reference/progress-tracking.md:
+    sha256: a7df4456d9e5141d02e6d4d28627fd330edd8e76e40399f5b76b6a9a6dc0f9be
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/progress-tracking.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/progress-tracking.md
+  skills/notion-spec-to-implementation/reference/progress-update-template.md:
+    sha256: 8f4de83c90e89646a87be184b1606471e695ee27960576f26639e03059d2c718
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/progress-update-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/progress-update-template.md
+  skills/notion-spec-to-implementation/reference/quick-implementation-plan.md:
+    sha256: 3c9913862cee3db27a632e371114bcddacdc1f6a9971685ddf6094ca352c63bf
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/quick-implementation-plan.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/quick-implementation-plan.md
+  skills/notion-spec-to-implementation/reference/spec-parsing.md:
+    sha256: d63c902ad7b2de91d19a7d870ff5110ecbb9df33624c43a000ef6fe2522d83e8
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/spec-parsing.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/spec-parsing.md
+  skills/notion-spec-to-implementation/reference/standard-implementation-plan.md:
+    sha256: 37302b78d105d56ec4d4db744837f0186eb401e0071795aa5e03f2c853f2a356
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/standard-implementation-plan.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/standard-implementation-plan.md
+  skills/notion-spec-to-implementation/reference/task-creation-template.md:
+    sha256: 82c5ecc49ee8833dfb4291d15e0959f4a7003cb5786aded982854cb9c5c050fe
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/task-creation-template.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/task-creation-template.md
+  skills/notion-spec-to-implementation/reference/task-creation.md:
+    sha256: 9f33bf822502ebf329ce69e2507fe4c93251216c99268a10b97506e02396c608
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/reference/task-creation.md
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/task-creation.md
+  notices/6f774643156a-LICENSE.upstream:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/creative-engineering-os/library/skills/notion-spec-to-implementation/LICENSE.upstream
+notices:
+- skills/notion-spec-to-implementation/LICENSE.upstream
+- notices/6f774643156a-LICENSE.upstream
+excluded: []

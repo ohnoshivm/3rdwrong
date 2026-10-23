@@ -1,0 +1,1 @@
+../../../.codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/references/featured-section-playbook.md

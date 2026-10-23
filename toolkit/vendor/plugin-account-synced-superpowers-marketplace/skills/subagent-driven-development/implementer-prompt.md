@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/subagent-driven-development/implementer-prompt.md

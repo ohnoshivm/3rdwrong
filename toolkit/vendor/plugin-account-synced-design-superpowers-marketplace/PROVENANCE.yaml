@@ -1,0 +1,161 @@
+package: plugin-account-synced-design-superpowers-marketplace
+upstream_url: https://github.com/LSDimi/design-superpowers
+pinned_ref:
+- 1.0.0
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-account-synced-design-superpowers-marketplace
+copied_from:
+- ~/.claude/plugins/synced/ACCOUNT/PLUGIN
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 1920e9032a88c84173e9877653ae5b79466c4762f98a22edded48d4f814d530e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: 3d7d3a6f236eabdfb5c1410d71f0574db6b98a966a588c77bfe2e3fe42b35f23
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: 53e5364386f498c207529f1c52ecf19a88814445871a328f6be7f6cabeeaa938
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  scripts/aggregate_eval_results.py:
+    sha256: 1aeda72975864972a6a6f02ef41ed8adc79d771df7326d34c275139f095c5f1e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/scripts/aggregate_eval_results.py
+  scripts/validate_plugin.py:
+    sha256: 6c6a278f1f00ad4abe61fe7813c547147c89534a1e6a3fe2b43ad0a995bb6f04
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/scripts/validate_plugin.py
+  skills/README.md:
+    sha256: 37921ec2c72866b82c57cbe91b5d6fc57dbe66f03cfafe10a3a98b5edfebbdf3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/README.md
+  skills/creative/SKILL.md:
+    sha256: 191da9a827ed33bec581883c6f6c57d013dd15b24b391de55a4bfe17436223de
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/creative/SKILL.md
+  skills/design/SKILL.md:
+    sha256: e619846b3036d7057df4a6651ca188018e2a949175611adcbad71febfc030432
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design/SKILL.md
+  skills/design-review/SKILL.md:
+    sha256: 525707e356a2860d7f5bf0a87dc52c6eec6e699f6fbc5a8395d931b4181a73f8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/design-review/SKILL.md
+  skills/ds-consumer/SKILL.md:
+    sha256: 094516f4bdd2fe0b79bfaf6d3fb2538b74543b30c6a56d2cfff6e01ebb00311c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ds-consumer/SKILL.md
+  skills/ds-make/SKILL.md:
+    sha256: 44fa1fa91cdb0548335482caba4c10ac86e2907441f08ac046fb5872675fcadb
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ds-make/SKILL.md
+  skills/ds-manage/SKILL.md:
+    sha256: 13a8947bffe022576e55544779b55ce0d6e5013379b252280da85e8f7ca27216
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ds-manage/SKILL.md
+  skills/ds-producer/SKILL.md:
+    sha256: 00c423b7381576c15eb59000b201df2ffd25c1e4318b485225463d6c90899cbe
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/ds-producer/SKILL.md
+  skills/figma-setup/SKILL.md:
+    sha256: cefa41b63b809816df2011b4b0ada208fd6de620a72e89c599c1f7449d4af338
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/figma-setup/SKILL.md
+  skills/map-design/SKILL.md:
+    sha256: b0a8a64cb6a4b919109a100baceb21c234282a9a96a05d0b590ac35cc62e8237
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/map-design/SKILL.md
+  skills/shared/data/design-principles.csv:
+    sha256: f3292b9f2e169c7e0d532cf06b7d4ef587459f0b816d555accd3bf9d617dd470
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/data/design-principles.csv
+  skills/shared/data/psychological-principles.csv:
+    sha256: ed79a72495cbc450fced445e7d6dbbd01b4ab58b359dc8ef66e05b19ed0ff359
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/data/psychological-principles.csv
+  skills/shared/data/style-contexts.csv:
+    sha256: 6e74e0c448c14027a0f15838777dd29bb7e526af8c50b5902c95728522e8bea5
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/data/style-contexts.csv
+  skills/shared/data/typography-styles.csv:
+    sha256: 53c1d78017a58f588ee2f0af3665c9429065e61d15d4e8598a39d65815b0bd09
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/data/typography-styles.csv
+  skills/shared/data/usability.csv:
+    sha256: 1e7be473b8ad80039805a77c4beca186624fa7211c0b28ccfea73842acc1e230
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/data/usability.csv
+  skills/shared/data/visual-styles.csv:
+    sha256: fa2c4b639b8e4c26bda1b56a1b93e274c27589c60706b338b5a8120ee4e993ec
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/data/visual-styles.csv
+  skills/shared/design-principles.md:
+    sha256: 3f16eb69cc1edad9b54a2b363e6df69d2e21b54d3d897400a8ce765b19b2de97
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/design-principles.md
+  skills/shared/ds-context-loader.md:
+    sha256: 0cee0cfc334c4e081588b6bda94f68a53389c947696549585f80b65618a5a9a2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/ds-context-loader.md
+  skills/shared/ds-context-schema.md:
+    sha256: c77819d8a2cd28e1da8a8f9d55326f76002009829d66c008d496b3b22a24d96a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/ds-context-schema.md
+  skills/shared/examples/enterprise-ds-context.example.md:
+    sha256: 18f3bc5fd8b54155d33184fc3ecd3a61e42a0e5623a5b7617864fbb835ee3353
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/examples/enterprise-ds-context.example.md
+  skills/shared/examples/minimal-ds-context.example.md:
+    sha256: 1e9ffb0061a8a688d9a6b0f746150c1f61269a147c2a6b48dd197174bb264205
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/examples/minimal-ds-context.example.md
+  skills/shared/figma-adapter.md:
+    sha256: 519feacd92686b5acbda37cf54e39e8b38a93eb896abeb620efdc2d2449de08e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/figma-adapter.md
+  skills/shared/font-availability.md:
+    sha256: 145a479afaaf9cdf01a897dd4be0c2a73e3ec95600f5dc706c276f544972362d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/font-availability.md
+  skills/shared/knowledge/accessibility.md:
+    sha256: ff00561c88a52a83d94fa0ade1e275831ce486ab7e4d28e3559810699d570070
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/accessibility.md
+  skills/shared/knowledge/art-direction.md:
+    sha256: 75ac047b78bc5d277132934df41716256438355df2cdc5e288c89d911b8d900c
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/art-direction.md
+  skills/shared/knowledge/brand-design.md:
+    sha256: 1f37afdc97914034ce097203a393386ab567adda9ba5d60d1f83690047fc2aaf
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/brand-design.md
+  skills/shared/knowledge/color-theory.md:
+    sha256: 15b74d64bf4b60559237ec211848f97edf4df819fa1ecf66c76f3c170646b9d2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/color-theory.md
+  skills/shared/knowledge/component-patterns.md:
+    sha256: e084b3fe2b2bdd0fe035467a3eb25dfa2bac4edafb6b9f973187fa25e9757bc0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/component-patterns.md
+  skills/shared/knowledge/core-principles.md:
+    sha256: fa239d417596f46f0518ee0bab83ec72b2894d9a448336103b567eadb299a2af
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/core-principles.md
+  skills/shared/knowledge/creative-direction.md:
+    sha256: 5e785ae82771614bfdce9c8452367d1d4b54f89934d3648ada28d4e3e5c95518
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/creative-direction.md
+  skills/shared/knowledge/design-md-schema.md:
+    sha256: 5b92f644aa8be8d8100859052665991fc1048b9a17870ae5a8c6aefc81c0a2b1
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/design-md-schema.md
+  skills/shared/knowledge/documentation.md:
+    sha256: 11ad14d5ffa326a8e37c0f19c34c8514f563ad0b9cccf95b01151c73ed7510a9
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/documentation.md
+  skills/shared/knowledge/governance.md:
+    sha256: b8621dc78998a2bc15e42ab654165f28cb362bd18ed44709ec43e0aa574e14b0
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/governance.md
+  skills/shared/knowledge/layout.md:
+    sha256: 322053e0fb52697120e3498b73c8103ca7d6798409ccb5fdf40b144b2cf3462e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/layout.md
+  skills/shared/knowledge/motion.md:
+    sha256: e40c07336e8c371cd442c50f496cc056adc8cc6197626ece338532aaeb2a1abd
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/motion.md
+  skills/shared/knowledge/token-architecture.md:
+    sha256: 1b33d594f6ffb491f27cc17b0c7cf364c0ad947b9e9b61f5dd9b783b090ef914
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/token-architecture.md
+  skills/shared/knowledge/typography.md:
+    sha256: 3c5bda38282dc8ec78963f2d33a25296f36415e586d2c4c1cf791f11e84bc719
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/typography.md
+  skills/shared/knowledge/ux-heuristics.md:
+    sha256: f63f4b403b5e492e4e9ace53093317ffddd2122d0f750697689484d28fa5bdd8
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/ux-heuristics.md
+  skills/shared/knowledge/visual-quality.md:
+    sha256: 282c13a62bb4e118a7313bbc88cc12c380580b0c0151eaefc8c96f0d78a8baec
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/knowledge/visual-quality.md
+  skills/shared/maturity-detection.md:
+    sha256: 4672cb95036dd0944b5637756557405e9f4e77d4b645b128700f0dce9534b510
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/shared/maturity-detection.md
+  notices/3d7d3a6f236e-plugin.json:
+    sha256: 3d7d3a6f236eabdfb5c1410d71f0574db6b98a966a588c77bfe2e3fe42b35f23
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-design-superpowers-marketplace/.claude-plugin/plugin.json
+  notices/53e5364386f4-LICENSE:
+    sha256: 53e5364386f498c207529f1c52ecf19a88814445871a328f6be7f6cabeeaa938
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  notices/b0b05e6a7e53-README.md:
+    sha256: b0b05e6a7e537153d56edb96c56c13d300b8ddc76208087e181bf13ae9340af3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/README.md
+notices:
+- LICENSE
+- notices/3d7d3a6f236e-plugin.json
+- notices/53e5364386f4-LICENSE
+- notices/b0b05e6a7e53-README.md
+excluded: []

@@ -1,0 +1,1 @@
+../remotion-best-practices/remotion-captions/import-srt-captions.md

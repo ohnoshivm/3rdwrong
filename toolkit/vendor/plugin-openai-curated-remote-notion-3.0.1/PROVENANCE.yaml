@@ -1,0 +1,178 @@
+package: plugin-openai-curated-remote-notion-3.0.1
+upstream_url: null
+pinned_ref:
+- 3.0.1
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-notion-3.0.1
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: b77373ddf593d786d3fb04045db67626cbc77e53843b495098d9b312e5c91496
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/.codex-plugin/plugin.json
+  LICENSE:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/LICENSE
+  skills/notion-database-designer/SKILL.md:
+    sha256: 33a9fc74a08a214fdf229aa5fb12e0fff119219f30e9c1b2a4910a1d417396af
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-database-designer/SKILL.md
+  skills/notion-database-designer/agents/openai.yaml:
+    sha256: 8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-database-designer/agents/openai.yaml
+  skills/notion-database-designer/examples/customer-requests.md:
+    sha256: 0527046cd655f4ec8f573a1dc8b540416cbbf695a45d0b3c64d82acce994f7da
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-database-designer/examples/customer-requests.md
+  skills/notion-database-designer/examples/support-triage.md:
+    sha256: b9de5bca0c3ffb22419799834874109ddc44181afdbf49fff74648239274c35a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-database-designer/examples/support-triage.md
+  skills/notion-database-designer/reference/schema-migrations.md:
+    sha256: 0544c400280d3056780949ac56db2ee2f60ff6b3864692a926fb829c710ef412
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-database-designer/reference/schema-migrations.md
+  skills/notion-meeting-intelligence/SKILL.md:
+    sha256: 73331739b54407000b86cfd546232c7736f33fc1052d4337b3647e4077c87acc
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/SKILL.md
+  skills/notion-meeting-intelligence/agents/openai.yaml:
+    sha256: 8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/agents/openai.yaml
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/agents/openai.yaml
+  skills/notion-meeting-intelligence/examples/customer-meeting.md:
+    sha256: 3e44bb3eb9ef74bd00ebbb8fdd16fa439eed96bcb7f2b49bbc6b8ecedc699f18
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/examples/customer-meeting.md
+  skills/notion-meeting-intelligence/examples/executive-review.md:
+    sha256: fc35addb996af05415412a104c7bd7e0e28a1cee9a1ab5ab8d7ffb23cac6e38c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/examples/executive-review.md
+  skills/notion-meeting-intelligence/examples/project-decision.md:
+    sha256: 5c0d0eed7cfbcdd30765a8408dde08dd4f2a9c374d39e252b0b146ee5a1020da
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/examples/project-decision.md
+  skills/notion-meeting-intelligence/examples/sprint-planning.md:
+    sha256: 5857a1ed1ea1eddc658f6ff27dfc25dfce42656906a259f672f3578578e01d41
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/examples/sprint-planning.md
+  skills/notion-meeting-intelligence/reference/brainstorming-template.md:
+    sha256: 685c89be4b278c4b897d3a7295d4eb8b29fb786a27e13f640712e8ea6a9e0639
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/brainstorming-template.md
+  skills/notion-meeting-intelligence/reference/decision-meeting-template.md:
+    sha256: 9f74a016a430c39263fdd1d4b7f1c808fb7b79f0f79a83ccc32b8bb1dea432bc
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/decision-meeting-template.md
+  skills/notion-meeting-intelligence/reference/meeting-to-actions.md:
+    sha256: db4b0b909c2e2513e3d53c86ede9d34487b712705146db1e49e272d2a9bf01a0
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/meeting-to-actions.md
+  skills/notion-meeting-intelligence/reference/one-on-one-template.md:
+    sha256: 986075597ff9674c04be326a90db8cc0ed1e6bdd3fc1e044ba96ca9794d6d4b4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/one-on-one-template.md
+  skills/notion-meeting-intelligence/reference/retrospective-template.md:
+    sha256: d0d8c6a55fd43ebef6f209ff1f1050d18af395c48bd8bf9b6aa633ac0b59d978
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/retrospective-template.md
+  skills/notion-meeting-intelligence/reference/sprint-planning-template.md:
+    sha256: 07974127c2862787f96cbf92b4a7e50783bc447f1cf6ceb1fb857f67153e3964
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/sprint-planning-template.md
+  skills/notion-meeting-intelligence/reference/status-update-template.md:
+    sha256: e38d17649e59aedd164b68fe99e21ae975429ddd54ac39843f418a56e689d3d2
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/status-update-template.md
+  skills/notion-meeting-intelligence/reference/template-selection-guide.md:
+    sha256: 5496da0a8d1146b939cf8da9da3b5c266ba456eb1340d28e43504de1ca3d6c6c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-meeting-intelligence/reference/template-selection-guide.md
+  skills/notion-research-documentation/SKILL.md:
+    sha256: 6281956c3bcf5934aeb29bfed0e306b98d2f9ef728a5e1f071f647ddc9461b9d
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/SKILL.md
+  skills/notion-research-documentation/agents/openai.yaml:
+    sha256: 8619a54e8c098122a7f3881394f84ca89b684366e848233a29ad18b6ec363935
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/agents/openai.yaml
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-notion-3.0.1/skills/notion-database-designer/agents/openai.yaml
+  skills/notion-research-documentation/examples/competitor-analysis.md:
+    sha256: f8ac1499d1b9474aa3d3112fd02e7e10279178ee98eed01f4289cc23960de2a8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/examples/competitor-analysis.md
+  skills/notion-research-documentation/examples/market-research.md:
+    sha256: 32d7d9b56623771c5892f01b450cf01bdd9a83bd944cbb5803c2fd69a024dc55
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/examples/market-research.md
+  skills/notion-research-documentation/examples/technical-investigation.md:
+    sha256: c8d68b3a47298b131b45bdfeacf02d3fd0c650982ebc1d78f0e2e07f65bd7d89
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/examples/technical-investigation.md
+  skills/notion-research-documentation/examples/trip-planning.md:
+    sha256: 50dd043c8d0dae24081e733a2279f83dce376ced08da33e7947287304ae642fe
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/examples/trip-planning.md
+  skills/notion-research-documentation/reference/advanced-search.md:
+    sha256: 8281debb694bc26e2c17faefae324cd42a07afc59239902d3391fa6f6cf15a5e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/advanced-search.md
+  skills/notion-research-documentation/reference/citations.md:
+    sha256: 396ce59ddc654005cda29cf59efe6582738cdf62c7876400ce61e46088d0b7ed
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/citations.md
+  skills/notion-research-documentation/reference/comparison-format.md:
+    sha256: 895b89db7cf023cca7e9fb7ba838ab9006f749f681e51662b68c936ad45b0b2c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/comparison-format.md
+  skills/notion-research-documentation/reference/comparison-template.md:
+    sha256: 1ddee41ae3df3a2fc916b21b2d95701ea009e18f9a7edf30b491372daf0522c8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/comparison-template.md
+  skills/notion-research-documentation/reference/comprehensive-report-format.md:
+    sha256: b6d709928fddf096f5fdb9a4a432350ae95b0ccf3552bd05080c03e3fcd7666f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/comprehensive-report-format.md
+  skills/notion-research-documentation/reference/comprehensive-report-template.md:
+    sha256: d4304f32095e79fe5643187d936af2bb963bf0f49ad8e48a7a0a34c8d1d112b7
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/comprehensive-report-template.md
+  skills/notion-research-documentation/reference/customer-feedback.md:
+    sha256: 1bc11e15f7399631eb0c3e0aab3690d268671115f08629b568a88f0d4ab24037
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/customer-feedback.md
+  skills/notion-research-documentation/reference/format-selection-guide.md:
+    sha256: b8a240f480130d141269a4b5c4917122ea724f1cac355a18918dd2d63b47f2cc
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/format-selection-guide.md
+  skills/notion-research-documentation/reference/quick-brief-format.md:
+    sha256: 97d9a78439a634328c8c3f4fdd35346ee52e397fa26ec2fc88668c9946e9fe0e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/quick-brief-format.md
+  skills/notion-research-documentation/reference/quick-brief-template.md:
+    sha256: 4546e04e2538fd52e3d97f0e3dc32adc739e3e9ea3a0114e2d0167d1ab3d066e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/quick-brief-template.md
+  skills/notion-research-documentation/reference/research-summary-format.md:
+    sha256: d85e7fd9abdd61feaac0897a49b0eecb14da6c5a05ac3ce82bf5fa8c6a485206
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/research-summary-format.md
+  skills/notion-research-documentation/reference/research-summary-template.md:
+    sha256: b7802bc1bdb0bbed139a8efa97d5e55172305e5d7c69f3a1db2aa1bdade1dfd1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-research-documentation/reference/research-summary-template.md
+  skills/notion-spec-to-implementation/SKILL.md:
+    sha256: 0fe3e0e040193836de1898216388e8edf1e02df81ff47d31968190116c051096
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/SKILL.md
+  skills/notion-spec-to-implementation/examples/api-feature.md:
+    sha256: bb9ab2b8363e394be89203999fe7bf95a9f52ef844de34716f76bf89516eff65
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/examples/api-feature.md
+  skills/notion-spec-to-implementation/examples/database-migration.md:
+    sha256: 306ef7a5b198e9d8b76acfdba85cea52c53b29a806df7a9daaff54da34ebb594
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/examples/database-migration.md
+  skills/notion-spec-to-implementation/examples/ui-component.md:
+    sha256: f02de7fba5520d57aed78564a3ce8b2d46660ba0a6e4cea4782dd44a6d0ce8a6
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/examples/ui-component.md
+  skills/notion-spec-to-implementation/reference/milestone-summary-template.md:
+    sha256: 9b996c1ecf763e51353615166866215fef338fa7e62d9f090f47ace54920ebdc
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/milestone-summary-template.md
+  skills/notion-spec-to-implementation/reference/progress-tracking.md:
+    sha256: a7df4456d9e5141d02e6d4d28627fd330edd8e76e40399f5b76b6a9a6dc0f9be
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/progress-tracking.md
+  skills/notion-spec-to-implementation/reference/progress-update-template.md:
+    sha256: 8f4de83c90e89646a87be184b1606471e695ee27960576f26639e03059d2c718
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/progress-update-template.md
+  skills/notion-spec-to-implementation/reference/quick-implementation-plan.md:
+    sha256: 3c9913862cee3db27a632e371114bcddacdc1f6a9971685ddf6094ca352c63bf
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/quick-implementation-plan.md
+  skills/notion-spec-to-implementation/reference/spec-parsing.md:
+    sha256: d63c902ad7b2de91d19a7d870ff5110ecbb9df33624c43a000ef6fe2522d83e8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/spec-parsing.md
+  skills/notion-spec-to-implementation/reference/standard-implementation-plan.md:
+    sha256: 37302b78d105d56ec4d4db744837f0186eb401e0071795aa5e03f2c853f2a356
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/standard-implementation-plan.md
+  skills/notion-spec-to-implementation/reference/task-creation-template.md:
+    sha256: 82c5ecc49ee8833dfb4291d15e0959f4a7003cb5786aded982854cb9c5c050fe
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/task-creation-template.md
+  skills/notion-spec-to-implementation/reference/task-creation.md:
+    sha256: 9f33bf822502ebf329ce69e2507fe4c93251216c99268a10b97506e02396c608
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-spec-to-implementation/reference/task-creation.md
+  skills/notion-weekly-project-digest/SKILL.md:
+    sha256: ed54b98bc6a1294e621446a67ce448e88eccadd22dad00260991d036d619d69a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-weekly-project-digest/SKILL.md
+  skills/notion-weekly-project-digest/examples/mixed-evidence.md:
+    sha256: 80e5af26030bb8f92d40bd749e2ef92b9da81e84ae4910624a3e4e36a943cb4e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/skills/notion-weekly-project-digest/examples/mixed-evidence.md
+  notices/6f774643156a-LICENSE:
+    sha256: 6f774643156a54b629c6f0a00e563451cef9b92f17384f2b104f7265984cc479
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/notion/3.0.1/LICENSE
+notices:
+- LICENSE
+- notices/6f774643156a-LICENSE
+excluded: []

@@ -1,0 +1,1 @@
+../../../pack-vercel-vercel-plugin-apache-2.0/skills/knowledge-update/SKILL.md

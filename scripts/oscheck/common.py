@@ -73,13 +73,18 @@ def as_date(value: object) -> date | None:
     return None
 
 
+# Third-party material keeps its upstream form: no OS frontmatter, link or index
+# rules apply. The secret scan still covers these trees.
+THIRD_PARTY_TREES = {(".claude", "agents"), ("toolkit", "vendor"), ("toolkit", "plugins")}
+
+
 def markdown_files(root: Path) -> list[Path]:
     return sorted(
         path
         for path in root.rglob("*.md")
         if path.is_file()
         and not {".git", ".venv", "node_modules"}.intersection(path.relative_to(root).parts)
-        and path.relative_to(root).parts[:2] != (".claude", "agents")
+        and path.relative_to(root).parts[:2] not in THIRD_PARTY_TREES
     )
 
 

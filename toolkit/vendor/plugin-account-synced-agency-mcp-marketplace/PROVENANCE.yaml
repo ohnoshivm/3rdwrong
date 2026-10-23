@@ -1,0 +1,69 @@
+package: plugin-account-synced-agency-mcp-marketplace
+upstream_url: https://github.com/harrisonjdahl3/agency-mcp-plugin
+pinned_ref:
+- 1.7.0
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-account-synced-agency-mcp-marketplace
+copied_from:
+- ~/.claude/plugins/synced/ACCOUNT/PLUGIN
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/marketplace.json:
+    sha256: 2fee96528c5d7c26fb2ca866e898fecfb28bec8ef2e049c949ec78d9cb2e291d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: cbc09115d551b456538b4676db301a671cd8fc2d258e58ee156a0f7aabf55b72
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: a473bbfd8d3352cd75a2ad1bb9f7289bead410cc8bb9b1e14c7aebf5ff5684ca
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  skills/client-audit/SKILL.md:
+    sha256: bcb361943c5dc12f5b746aa33119bae8089f3ae54b9de1407279707b6e074f5d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/client-audit/SKILL.md
+  skills/client-report/SKILL.md:
+    sha256: fc4279acd97c46399e1f33664ff147652d17921c5cc50a1970d0f0c66313492a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/client-report/SKILL.md
+  skills/connect-accounts/SKILL.md:
+    sha256: 76df31301760cd04f725b4b3e1fec2c19ec3b5b13b2beab9196d5262b86d80b4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/connect-accounts/SKILL.md
+  skills/crm-followup/SKILL.md:
+    sha256: 419c0aa3c65d8d21b0d85fcdae2c82dfa69007b65148f4283595ab7594efe08a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/crm-followup/SKILL.md
+  skills/google-ads-manager/SKILL.md:
+    sha256: 94635313ad28497bee6e137c9c5e8b1e3ed2201c60eaafa4dc3bd61fc8854713
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/google-ads-manager/SKILL.md
+  skills/keyword-research/SKILL.md:
+    sha256: bf35c961319aeb1d829d1e5bee4d675c7f5b33c1fcc9d1b43adfd0f4babde68d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/keyword-research/SKILL.md
+  skills/local-seo-gbp/SKILL.md:
+    sha256: a396a087e9334becc90c11885191f80fe1b63841cfccc0db02261fc4af079c3d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/local-seo-gbp/SKILL.md
+  skills/meta-ads-manager/SKILL.md:
+    sha256: f633ad1c9d5b4e2cf235c5a6565d262c3483ad2e790691b2edca8f32a961f421
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/meta-ads-manager/SKILL.md
+  skills/seo-audit/SKILL.md:
+    sha256: 00a8a59844c8016e36e52896799dd9c9966d4f81fdcf2e08325d9f8c0d060e7e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/seo-audit/SKILL.md
+  skills/seo-content/SKILL.md:
+    sha256: 0fbb27db6f6c0fe029b9fbbe861b575c0312294629d276d600e97b7ee164c8f6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/seo-content/SKILL.md
+  skills/start/SKILL.md:
+    sha256: 6db5a369f253d7892753306ca2926925c0e85dacaa768d57c1cfedbc8cafa277
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/start/SKILL.md
+  skills/weekly-review/SKILL.md:
+    sha256: aeb7a985e62709cd7a018d872b6868e7878dd450ca2e6358da7fe4eb392b0dc2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/weekly-review/SKILL.md
+  notices/cbc09115d551-plugin.json:
+    sha256: cbc09115d551b456538b4676db301a671cd8fc2d258e58ee156a0f7aabf55b72
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-agency-mcp-marketplace/.claude-plugin/plugin.json
+  notices/a473bbfd8d33-LICENSE:
+    sha256: a473bbfd8d3352cd75a2ad1bb9f7289bead410cc8bb9b1e14c7aebf5ff5684ca
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+notices:
+- LICENSE
+- notices/cbc09115d551-plugin.json
+- notices/a473bbfd8d33-LICENSE
+excluded:
+- source: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/icon.png
+  reason: binary/non-UTF8 or unreadable; never distributed

@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/using-git-worktrees/SKILL.md

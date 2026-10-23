@@ -1,0 +1,1 @@
+../../../../../../.claude/skills/design/scripts/icon/generate.py

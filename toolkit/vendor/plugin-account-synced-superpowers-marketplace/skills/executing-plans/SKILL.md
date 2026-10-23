@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/executing-plans/SKILL.md

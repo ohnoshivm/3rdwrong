@@ -1,0 +1,31 @@
+package: plugin-claude-plugins-official-frontend-design-a0b04d9ddcca
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- a0b04d9ddcca
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-frontend-design-a0b04d9ddcca
+copied_from:
+- ~/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: fd9a7db11f5dec771d9e29ad1d6a3298c12f04c81c3a6457099b81fe477d835d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca/LICENSE
+  skills/frontend-design/LICENSE.txt:
+    sha256: 0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca/skills/frontend-design/LICENSE.txt
+  skills/frontend-design/SKILL.md:
+    sha256: d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca/skills/frontend-design/SKILL.md
+    alias_of: toolkit/vendor/pack-anthropics-claude-plugins-official-apache-2.0/skills/frontend-design/SKILL.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/frontend-design/a0b04d9ddcca/LICENSE
+notices:
+- LICENSE
+- skills/frontend-design/LICENSE.txt
+- notices/cfc7749b96f6-LICENSE
+excluded: []

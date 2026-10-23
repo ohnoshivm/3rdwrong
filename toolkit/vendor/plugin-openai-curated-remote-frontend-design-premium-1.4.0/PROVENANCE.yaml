@@ -1,0 +1,174 @@
+package: plugin-openai-curated-remote-frontend-design-premium-1.4.0
+upstream_url: https://github.com/TryHand-Co-Ltd/frontend-design-premium
+pinned_ref:
+- 1.4.0
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-frontend-design-premium-1.4.0
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: d3ffd7ab06b6a6506763928ae38a5ce42038977e6fa60b1301f463403c2b464a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/.codex-plugin/plugin.json
+  LICENSE:
+    sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/LICENSE
+  THIRD_PARTY_NOTICES.md:
+    sha256: 8cd2f6c1b7e7408c4eb962b68b16f9ce63d841e16a0fbf8725f6bc0eb4fb28cf
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/THIRD_PARTY_NOTICES.md
+  skills/frontend-design/LICENSE.txt:
+    sha256: 0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design/LICENSE.txt
+  skills/frontend-design/SKILL.md:
+    sha256: 1608ea77fbb6fc30d13a97d12cfa8ebf31358d40f0dd97beed24829d6b3f45dd
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design/SKILL.md
+  skills/frontend-design/SOURCE.json:
+    sha256: 57b0e8cfd9584a0b38695ac723c95782eebd406454f347bd0c3d1beea4815af5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design/SOURCE.json
+  skills/frontend-design-premium/SKILL.md:
+    sha256: 02f3ec65d5cbe787ffed1812d6438971560ea8f00a6e8b9eb63846e6189163c2
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/SKILL.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/SKILL.md
+  skills/frontend-design-premium/agents/openai.yaml:
+    sha256: 4091f64baf37238450ec75aca94b69a04c51e2070464df393af42b62977f2c96
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/agents/openai.yaml
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/agents/openai.yaml
+  skills/frontend-design-premium/assets/DESIGN.template.md:
+    sha256: f69f87211737ce2ed3ca9f0e9ffc4a974179b0c6804b778f7b27f6a4346776ea
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/assets/DESIGN.template.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/assets/DESIGN.template.md
+  skills/frontend-design-premium/assets/UX-CONTRACT.template.md:
+    sha256: 76be3d1a15b1eca8717cf766512097190731a9a2ddf2ad76fe68cef5958c998a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/assets/UX-CONTRACT.template.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/assets/UX-CONTRACT.template.md
+  skills/frontend-design-premium/references/anti-patterns.md:
+    sha256: 14794880383da1ba74dce65fb65724abd3bd0715c82f62a7bd31a12529f16816
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/anti-patterns.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/anti-patterns.md
+  skills/frontend-design-premium/references/async-resilience.md:
+    sha256: 9c78ce0332d33b6dbd9a60b720c9adef0f43ba315ea970037454f2bc1eb56dde
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/async-resilience.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/async-resilience.md
+  skills/frontend-design-premium/references/auth-patterns.md:
+    sha256: 230d48db69d36ba287fddeaae671ff6b414a0904ac23e32054e39befa12f4c30
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/auth-patterns.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/auth-patterns.md
+  skills/frontend-design-premium/references/canonical-ui-resolution.md:
+    sha256: bea9618d91b23c8770dfb8a1f4d975dea68c361d66eb21d7138547ed1a36509e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/canonical-ui-resolution.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/canonical-ui-resolution.md
+  skills/frontend-design-premium/references/consistency-migration.md:
+    sha256: 1021c1f1faa0e822d739e90ecd25f847e918120bd913f605337eef97765d297b
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/consistency-migration.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/consistency-migration.md
+  skills/frontend-design-premium/references/consistency-system.md:
+    sha256: 24762f7b3e1fe8f336b877de27e3ac205d17a3f1c52ffe61521e5f5b398cb466
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/consistency-system.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/consistency-system.md
+  skills/frontend-design-premium/references/data-entry-patterns.md:
+    sha256: ec14f7d19f7bb057d87d73a975f47bcf960879c0773e81612d595514de758238
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/data-entry-patterns.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/data-entry-patterns.md
+  skills/frontend-design-premium/references/decision-matrix.md:
+    sha256: d9dcd30c083293c9ec92c22bea37e2155f76a012090c49acce81f95ff19422ba
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/decision-matrix.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/decision-matrix.md
+  skills/frontend-design-premium/references/design-context-lifecycle.md:
+    sha256: 8c2dd2d7cc84cfac12c306971a82c3e3b9c5e72d5d2d553c6767eaa825f0903f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/design-context-lifecycle.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/design-context-lifecycle.md
+  skills/frontend-design-premium/references/e2e-audit-prompt.md:
+    sha256: dab5a56ed1f820498cf3feb3cca5ae90a8f564fd824628688425b24677c4572f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/e2e-audit-prompt.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/e2e-audit-prompt.md
+  skills/frontend-design-premium/references/electron-dual-surface.md:
+    sha256: 13090687dc894658e0a7d0596bdb7f1621e6d5535710ece0a14b364e675e66d6
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/electron-dual-surface.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/electron-dual-surface.md
+  skills/frontend-design-premium/references/file-upload.md:
+    sha256: 8fa1e639dad77562da5019ea1faac6f4d8df6fc59aebe6471cfd3d1fd110d836
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/file-upload.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/file-upload.md
+  skills/frontend-design-premium/references/interaction-contract.md:
+    sha256: be584bd303875ff039b5f6957458a057763b75d2491c41d59015091e5ce38169
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/interaction-contract.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/interaction-contract.md
+  skills/frontend-design-premium/references/japan-market-context.md:
+    sha256: 11baa05a0fcf062a758781ccc5cafdd1c9f9b446d70c98ec4685c2088be737d8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/japan-market-context.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/japan-market-context.md
+  skills/frontend-design-premium/references/japan-regulated-flows.md:
+    sha256: 438c24a27f5679f12591f64734efeac7ecbd4336643e6fe64078c93ea2363fe1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/japan-regulated-flows.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/japan-regulated-flows.md
+  skills/frontend-design-premium/references/japanese-content-design.md:
+    sha256: 9f86d42a533492446c1949c329c37192f51fc3d6ff83b85747e29a0ae9610857
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/japanese-content-design.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/japanese-content-design.md
+  skills/frontend-design-premium/references/japanese-localization.md:
+    sha256: 2ac99a32e0b4ddaa7c1225a48ab3b3dba0648b20fb3214a2cef20e1c9eb1bc6c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/japanese-localization.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/japanese-localization.md
+  skills/frontend-design-premium/references/japanese-visual-layout.md:
+    sha256: 46feeb64c2471e014640a5d9b836998378f876ff72c1786b68e20ff523e376e1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/japanese-visual-layout.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/japanese-visual-layout.md
+  skills/frontend-design-premium/references/layer-contract.md:
+    sha256: b762aea2ff20aa39b3999b18b3a730d3a7268736960f31481d2638d5706bdbd8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/layer-contract.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/layer-contract.md
+  skills/frontend-design-premium/references/llm-streaming.md:
+    sha256: 60f293086b60220b720f2af50d314d2494dc14aed866955bfb85745581954475
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/llm-streaming.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/llm-streaming.md
+  skills/frontend-design-premium/references/navigation-layout.md:
+    sha256: e18447e2fb7c1a5d27df29032486f073dd7d1d6e2c08406c0363c373e18b3b8e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/navigation-layout.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/navigation-layout.md
+  skills/frontend-design-premium/references/permission-ui.md:
+    sha256: a0d39c9504be6c68f6399b1786dda36f761a50f493a03ff7dbc457098159356d
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/permission-ui.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/permission-ui.md
+  skills/frontend-design-premium/references/pilot-review.md:
+    sha256: b2c6be678627ee2bccea9aa9b412b399d3a865b36b76e3bff733d917ceccc449
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/pilot-review.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/pilot-review.md
+  skills/frontend-design-premium/references/research-sources.md:
+    sha256: 5606c3786d47c33bfacd2c1240a2306a24d950b3fff9d67cd2c1c88f7e1fa21a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/research-sources.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/research-sources.md
+  skills/frontend-design-premium/references/token-mapping.md:
+    sha256: a9c53b8e733744eeba4ecff207656f5a19a14288b1f922539b4dc6d043350815
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/token-mapping.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/token-mapping.md
+  skills/frontend-design-premium/references/verification-checklist.md:
+    sha256: 3966a0c024868e0931e3fa7243d367d437913cbe2b2d239fdcb3d43f25942604
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/references/verification-checklist.md
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/references/verification-checklist.md
+  skills/frontend-design-premium/scripts/audit_project.py:
+    sha256: 67fd35597c85a2f37dd3c566f0bd79768cbe059114edcf28074fc5afa3e0ce68
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/scripts/audit_project.py
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/scripts/audit_project.py
+  skills/frontend-design-premium/scripts/resolve_frontend_design.py:
+    sha256: 0c9c385ce4f2e5b4367903410a7c801410f7a2e8a875419ba7177f2c0a639f6e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/skills/frontend-design-premium/scripts/resolve_frontend_design.py
+    alias_of: toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium/scripts/resolve_frontend_design.py
+  notices/d3ffd7ab06b6-plugin.json:
+    sha256: d3ffd7ab06b6a6506763928ae38a5ce42038977e6fa60b1301f463403c2b464a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-frontend-design-premium-1.4.0/.codex-plugin/plugin.json
+  notices/c71d239df917-LICENSE:
+    sha256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/LICENSE
+notices:
+- LICENSE
+- THIRD_PARTY_NOTICES.md
+- skills/frontend-design/LICENSE.txt
+- notices/d3ffd7ab06b6-plugin.json
+- notices/c71d239df917-LICENSE
+excluded:
+- source: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/.codex-plugin/assets/composer-icon.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/frontend-design-premium/1.4.0/.codex-plugin/assets/logo.png
+  reason: binary/non-UTF8 or unreadable; never distributed

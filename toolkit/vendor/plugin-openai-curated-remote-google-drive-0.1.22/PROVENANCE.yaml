@@ -1,0 +1,211 @@
+package: plugin-openai-curated-remote-google-drive-0.1.22
+upstream_url: https://github.com/openai/plugins
+pinned_ref:
+- 0.1.22
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-google-drive-0.1.22
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: cb84df6853015ce58a7702e8143d9bc493f4bc0fc2c7cc0589080eba7ddb09f5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/.codex-plugin/plugin.json
+  skills/google-docs/SKILL.md:
+    sha256: 1c4f8e6477a61d45370731143fd926d2b8917594982f9cb39677909d645625c1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/SKILL.md
+  skills/google-docs/agents/openai.yaml:
+    sha256: 07a3096d020b624d1246d411e6d81cc4686a77e8cb4f486d9b43c13bf4261f17
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/agents/openai.yaml
+  skills/google-docs/assets/google-docs-small.svg:
+    sha256: 2a61baaef537798f02530bed0c41dc0b6fbf964134563f2811d1e0c6dec8304c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/assets/google-docs-small.svg
+  skills/google-docs/host/docs-dropdown-executor.mjs:
+    sha256: 97f002cca96055fc8ec5f1c032a89a2966ba2a0f96ca51567cf450ca66163b4a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/host/docs-dropdown-executor.mjs
+  skills/google-docs/host/docs-dropdown-file-bridge.mjs:
+    sha256: 47cd11ae7872bf7cda18cd5e78e7229ba6485045585838c93b9265117f38b878
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/host/docs-dropdown-file-bridge.mjs
+  skills/google-docs/host/docs-stdin-receiver.pl:
+    sha256: a31a4a530ad61538385ce28d87d2be5c44810095df4de1ac6eed84628c492dd4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/host/docs-stdin-receiver.pl
+  skills/google-docs/host/docs-trusted-read-file-bridge.mjs:
+    sha256: 8ee2b99c05d1adcdd4a4ab71c4f904dbf4bead9cd1c4daab2dd2644b37c3fbd4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/host/docs-trusted-read-file-bridge.mjs
+  skills/google-docs/host/docs-trusted-read-wrapper.mjs:
+    sha256: c7c1affe5fd3e37924f005c27aa0d6ffbc10e1d2d7ca8fb55d8f38f288ca2ead
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/host/docs-trusted-read-wrapper.mjs
+  skills/google-docs/references/reference-direct-request-composition.md:
+    sha256: aff93372198d3dd36ecb33c777f82b5ea359600cacfc636bae94102fd7bd3da7
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/references/reference-direct-request-composition.md
+  skills/google-docs/references/reference-meeting-notes-direct.md:
+    sha256: 070af740894dcda59b8a7cc1849689df416ea92f255ab30bff3ff0a52948e9e9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/references/reference-meeting-notes-direct.md
+  skills/google-docs/references/reference-smart-chips-and-building-blocks.md:
+    sha256: 96debf093be85229f863694a3fb6d6023a88dc5ecd38e353891f23fe9602a7a5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/references/reference-smart-chips-and-building-blocks.md
+  skills/google-docs/references/reference-trusted-read-wrapper.md:
+    sha256: defdd8ac40e32c11c5aa65471cd7ae4078721076b1815a51078a027c7df53b04
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/references/reference-trusted-read-wrapper.md
+  skills/google-docs/runtime/docs-read-normalizer.mjs:
+    sha256: 324de06dedc0476c91f7f3d2fe4b15c4cb992ace2afb9e57df498a994020878a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/runtime/docs-read-normalizer.mjs
+  skills/google-docs/runtime/dropdown-common.mjs:
+    sha256: f845319bd56c8bf07f74cc62cfdf10421d58464f0effccf8a720319b091cfba7
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/runtime/dropdown-common.mjs
+  skills/google-docs/runtime/dropdown-contract.mjs:
+    sha256: 2894e9b9ea6304be097e0f8c67e96e7e9bd9a7181c38b95dabd6056cb8197536
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/runtime/dropdown-contract.mjs
+  skills/google-docs/runtime/dropdown-inventory.mjs:
+    sha256: 5d4229fc4e37c21921a9e749c07239a9dab36e00c4f6b57baaa8466af4130043
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/runtime/dropdown-inventory.mjs
+  skills/google-docs/runtime/dropdown-plan.mjs:
+    sha256: 92d39533dd1c908699b5db941f170543bcfccaa8eb8ced7a5d5d332a6d8f8939
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/runtime/dropdown-plan.mjs
+  skills/google-docs/runtime/dropdown-routing.mjs:
+    sha256: 2f1ca983fa3a8e21312e4fcad392c8dabd443d3720706fac8239e3dab0b4f8dc
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/runtime/dropdown-routing.mjs
+  skills/google-docs/scripts/build_docs_dropdown_inventory.mjs:
+    sha256: f7e08ad9aa36373043ff1b36fb81e1721b922b0ca6b44a9cb5ee5287535279e1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/scripts/build_docs_dropdown_inventory.mjs
+  skills/google-docs/scripts/canonicalize_google_workspace_url.mjs:
+    sha256: e439d12ad25f60049c15d8bbfabb9e29fa6b3233c42e653006049127414c2521
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/scripts/canonicalize_google_workspace_url.mjs
+  skills/google-docs/scripts/create_docs_dropdown_execution_context.mjs:
+    sha256: cf8c99d6d2d40409ab36ccebbcc7c54a010178d7bf41e12f52cc12cc96f99ed5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/scripts/create_docs_dropdown_execution_context.mjs
+  skills/google-docs/scripts/freeze_docs_dropdown_contract.mjs:
+    sha256: bb0fe83d265f2db2eb47302514eebb7fca1b844d4be247e63640ffda6dd6e154
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/scripts/freeze_docs_dropdown_contract.mjs
+  skills/google-docs/scripts/validate_docs_dropdown_plan.mjs:
+    sha256: 1ab562784f52c3aefec0858b5134e5efa0ec7b79b129b9e338576c068e6afdaa
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/scripts/validate_docs_dropdown_plan.mjs
+  skills/google-drive/SKILL.md:
+    sha256: dabae8a192c861b76cf7b5742bdf14f8ed35e67d8e6cacfd5f746ffbefd6da5c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/SKILL.md
+  skills/google-drive/agents/openai.yaml:
+    sha256: c78a0cff8b8127845b3626ad2fe285ba2333268c5252b124eb3e2ddaa22ba2fb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/agents/openai.yaml
+  skills/google-drive/assets/google-drive-small.svg:
+    sha256: 5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/assets/google-drive-small.svg
+  skills/google-drive/assets/google-drive.svg:
+    sha256: 5b31886b56b95450f7b9763d9b2fef49cb6076d52b69d35ccad48f454bc03021
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/assets/google-drive.svg
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-google-drive-0.1.22/skills/google-drive/assets/google-drive-small.svg
+  skills/google-drive/references/slides/chart-refresh-workflows.md:
+    sha256: 0ddbd940cfbd379bef232fc01e628ef02a3b7c2182e7d6983d281199b651f600
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/references/slides/chart-refresh-workflows.md
+  skills/google-drive/references/slides/deck-scope-verification.md:
+    sha256: 7fa958f5dd4e7575857c5e1ff8761646f650694a3bc3cc8ed302943332452c3d
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/references/slides/deck-scope-verification.md
+  skills/google-drive/references/slides/sheets-chart-replacement.md:
+    sha256: 601d323942d4a944d8ec84cb8be149ec1d1865ab33ede91bf25d3ca6da3a978a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/references/slides/sheets-chart-replacement.md
+  skills/google-drive/references/slides/visual-change-loop.md:
+    sha256: 6ab9b64580fe2dcc9def5535de9f549a4728eae26d447fb1d7ba479d04bd25eb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/references/slides/visual-change-loop.md
+  skills/google-drive-comments/SKILL.md:
+    sha256: a3077375a8f7558b9e052c98047747b8a4a1a90a9a90b552009c28fcdadfe94a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive-comments/SKILL.md
+  skills/google-drive-comments/agents/openai.yaml:
+    sha256: bda6a87d79d64d386334a79d4dc93963fd8053c2c8af7c8632c16a1df6db295c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive-comments/agents/openai.yaml
+  skills/google-sheets/SKILL.md:
+    sha256: 1851109d8f2c182236d28db136fb161d30c85287e5bc4fa79cf137673184c58d
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/SKILL.md
+  skills/google-sheets/agents/openai.yaml:
+    sha256: 4d55928fc0f63aae133f8c00219e3fd7dfdd3a49ef457ceec6bcf0f014ffae00
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/agents/openai.yaml
+  skills/google-sheets/assets/google-sheets-small.svg:
+    sha256: 502b9fcfb51a6345d03db408b36be40676ee1483a4efa24a2751ad65128c4945
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/assets/google-sheets-small.svg
+  skills/google-sheets/references/reference-batch-update-recipes.md:
+    sha256: 18e645b4f05f4f399ceff0c2ee62501a38609709b087e7140457eef2c60c8e9e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-batch-update-recipes.md
+  skills/google-sheets/references/reference-chart-recipes.md:
+    sha256: f8428db55e2cddee66bf1bf7ced1cbeff75b06893f1477bf175af56bb2026eac
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-chart-recipes.md
+  skills/google-sheets/references/reference-edit-workflow.md:
+    sha256: 66c6845a16547d65ac3eaf2ae8b7762fb534f2acfb5700716827b21cff9b149a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-edit-workflow.md
+  skills/google-sheets/references/reference-formula-patterns.md:
+    sha256: 749791a220c1e1ab18f99c0f0be56de106e9e4701d28b82385b673c8f9d1cc56
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-formula-patterns.md
+  skills/google-sheets/references/reference-import-spreadsheet-to-native-sheets.md:
+    sha256: c0f78aad392819aff85a389cb04e4f560c54bdc4da249e0bd2cbf24df166f0fd
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-import-spreadsheet-to-native-sheets.md
+  skills/google-sheets/references/reference-live-read-search-safety.md:
+    sha256: bd13045e10fd7f8cb5389512ead5dc3482aa04ba328cd95da87a9a09d0b3c981
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-live-read-search-safety.md
+  skills/google-sheets/references/reference-native-cell-structure.md:
+    sha256: 989e30e41ec064712b45966dd88aea8613631653fa981559038d4e0549338e47
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-native-cell-structure.md
+  skills/google-sheets/references/reference-visual-quality.md:
+    sha256: 869601926708d005d8a9ce7e2ebac859bd31d54d42150b0b8d6f1f2d01b93129
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/reference-visual-quality.md
+  skills/google-sheets/references/style-profiles.md:
+    sha256: a3afa692e57bb2bcd91aa3ea540147fc0789ce576215d587b2ee55df30e32c65
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/references/style-profiles.md
+  skills/google-slides/SKILL.md:
+    sha256: f85bd1d7080becf8c043a3646b6c3a53fbcd6d2a77c62a15112b8d89e01a4b83
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/SKILL.md
+  skills/google-slides/agents/openai.yaml:
+    sha256: c93b66486cc6df212d2eb3fabb57a3495eba07e3ae900612c3c72a1cb2315605
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/agents/openai.yaml
+  skills/google-slides/assets/google-slides-small.svg:
+    sha256: 702cb4708c85d38833f075bfbd2870e5cf07f934b2a06124e57a00eafe68b486
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/assets/google-slides-small.svg
+  skills/google-slides/host/export-and-render-slides.mjs:
+    sha256: 43d2436482267426bd48ec20e11787b7c2f84e72adde26e2fee2d1a121aecec4
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/host/export-and-render-slides.mjs
+  skills/google-slides/host/export-and-render-slides.test.mjs:
+    sha256: 6bc4c07cde3183bd40495a1d985862b432f3e5c1f110d2b309ea803096034ce8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/host/export-and-render-slides.test.mjs
+  skills/google-slides/host/read-template-to-file.mjs:
+    sha256: bdeb61186088aab091f2f8c5330449a6aa5e9e3a1e1abbfc0cf132dfc8b27484
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/host/read-template-to-file.mjs
+  skills/google-slides/host/slides-stdin-receiver.pl:
+    sha256: 95d9f2fffd6b1eb02292f574370f6424df8daa45969ad1b5f0e617679e39159f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/host/slides-stdin-receiver.pl
+  skills/google-slides/runtime/common.mjs:
+    sha256: da0497e25983d4cea67f0f588f213d9f587c7f6a865dee28e9d24a7e76b7733e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/runtime/common.mjs
+  skills/google-slides/runtime/design-system.mjs:
+    sha256: 4e393f1486c2e7209fc833fdd2fca4a2094ab3b0ff4e5ce20a83612b441cf0fb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/runtime/design-system.mjs
+  skills/google-slides/runtime/media-geometry.mjs:
+    sha256: 4d0930a9d2bec3ed29f10a19c430a319dc450bc087c96dbb47239cd5171666b6
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/runtime/media-geometry.mjs
+  skills/google-slides/runtime/normalize.mjs:
+    sha256: 3b7f5267f61335410b5aeccca75271b7a810e4306ef9edc5e28a3b7be2d0d8fa
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/runtime/normalize.mjs
+  skills/google-slides/runtime/output-issues.mjs:
+    sha256: 45f8a2f8c70c5356b050ba84c1c0a7e3d4b7b421db3929c99af73037d6d3198d
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/runtime/output-issues.mjs
+  skills/google-slides/runtime/result.mjs:
+    sha256: 1c516fac28909b0c5f98b07a2cd9378885e9838182a9a0b907b5188c8324eb7e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/runtime/result.mjs
+  skills/google-slides/scripts/check_output_issues.mjs:
+    sha256: 095179a53e10edaaeb1381e7a4a24c1b461c1c61e245b9e707881c8de6a85b9c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/scripts/check_output_issues.mjs
+  skills/google-slides/scripts/parse_template_design_system.mjs:
+    sha256: 5985a2fba34d769e7839a90fba7745b070d82773b8da4a2e1a77213c70e4c914
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/scripts/parse_template_design_system.mjs
+  notices/cb84df685301-plugin.json:
+    sha256: cb84df6853015ce58a7702e8143d9bc493f4bc0fc2c7cc0589080eba7ddb09f5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-google-drive-0.1.22/.codex-plugin/plugin.json
+notices:
+- notices/cb84df685301-plugin.json
+excluded:
+- source: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-docs/assets/google-docs.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/assets/app-icon.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-drive/assets/google-drive.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-sheets/assets/google-sheets.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/google-drive/0.1.22/skills/google-slides/assets/google-slides.png
+  reason: binary/non-UTF8 or unreadable; never distributed

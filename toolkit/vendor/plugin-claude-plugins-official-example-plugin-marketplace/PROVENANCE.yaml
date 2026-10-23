@@ -1,0 +1,32 @@
+package: plugin-claude-plugins-official-example-plugin-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-example-plugin-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: a206f70e6dfdc1c59a341a1789d6d26bb59fe4f0ea8c383d7d1d369de2fe52cd
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/LICENSE
+  commands/example-command.md:
+    sha256: 809f5b818fcee015e6b9d66d44e05e766392e87f4a1e494953c16278d11794f5
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/commands/example-command.md
+  skills/example-command/SKILL.md:
+    sha256: d561981660827f3818b0daec456ae5b31894f68c22407d8c495a77b3105ba96d
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-command/SKILL.md
+  skills/example-skill/SKILL.md:
+    sha256: 87d90442621ace039aa3379805f99c3f95bf500e9f7b96f9e7876ac2dcf804f5
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/skills/example-skill/SKILL.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

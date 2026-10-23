@@ -1,0 +1,26 @@
+package: pack-dammyjay93-interface-design-mit
+upstream_url: https://github.com/Dammyjay93/interface-design
+pinned_ref:
+- unresolved
+licence: MIT
+evidence_path: toolkit/sources/packages.json#pack-dammyjay93-interface-design-mit
+copied_from:
+- ~/creative-engineering-os/library/skills/interface-design
+copied_on: '2026-10-23'
+files:
+  skills/interface-design/LICENSE.upstream:
+    sha256: 54c405ef24e71634b73c994133d028e7a96d1906f42615366296d6583dcaba8f
+    copied_from: ~/creative-engineering-os/library/skills/interface-design/LICENSE.upstream
+  skills/interface-design/SKILL.md:
+    sha256: 720b31a31276e899fbe3006a33cbfeaceb77a73ba4c27b80d29afd38c8b7b208
+    copied_from: ~/creative-engineering-os/library/skills/interface-design/SKILL.md
+  skills/interface-design/agents/openai.yaml:
+    sha256: 752d0810d593b5cc88b34ea8e0c101b50d0ec1c4c8091be369544f73f3a2ea2e
+    copied_from: ~/creative-engineering-os/library/skills/interface-design/agents/openai.yaml
+  notices/54c405ef24e7-LICENSE.upstream:
+    sha256: 54c405ef24e71634b73c994133d028e7a96d1906f42615366296d6583dcaba8f
+    copied_from: ~/creative-engineering-os/library/skills/interface-design/LICENSE.upstream
+notices:
+- skills/interface-design/LICENSE.upstream
+- notices/54c405ef24e7-LICENSE.upstream
+excluded: []

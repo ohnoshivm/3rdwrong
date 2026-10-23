@@ -1,0 +1,32 @@
+package: plugin-openai-curated-remote-open-design-0.5.2
+upstream_url: https://github.com/nexu-io/open-design-agent-plugins
+pinned_ref:
+- 0.5.2
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-open-design-0.5.2
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: 9d92ee040d46fdf5d6821562d9416ed7b357bf4d60fcb7f7d65ec7e1cd737474
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/.codex-plugin/plugin.json
+  skills/open-design-mode/SKILL.md:
+    sha256: 4e4635551d6ac7f2af4497691b201ccf7e5fb7b7db013755be4c2af8d8e8644f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/skills/open-design-mode/SKILL.md
+  skills/open-design-mode/agents/openai.yaml:
+    sha256: 04d0299de096a9e29c11da39d7c8f0bc3e84f0297c255f81cf9fba80842e36c2
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/skills/open-design-mode/agents/openai.yaml
+  notices/9d92ee040d46-plugin.json:
+    sha256: 9d92ee040d46fdf5d6821562d9416ed7b357bf4d60fcb7f7d65ec7e1cd737474
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-open-design-0.5.2/.codex-plugin/plugin.json
+notices:
+- notices/9d92ee040d46-plugin.json
+excluded:
+- source: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/.codex-plugin/assets/composer-icon.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/.codex-plugin/assets/logo.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.codex/plugins/cache/openai-curated-remote/open-design/0.5.2/skills/open-design-mode/assets/open-design.png
+  reason: binary/non-UTF8 or unreadable; never distributed

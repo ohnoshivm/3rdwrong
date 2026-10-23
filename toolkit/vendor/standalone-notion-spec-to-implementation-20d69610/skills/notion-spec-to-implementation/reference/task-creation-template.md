@@ -1,0 +1,1 @@
+../../../../plugin-openai-curated-remote-notion-3.0.1/skills/notion-spec-to-implementation/reference/task-creation-template.md

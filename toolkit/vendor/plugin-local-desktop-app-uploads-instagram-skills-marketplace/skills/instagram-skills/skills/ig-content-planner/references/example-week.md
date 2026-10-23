@@ -1,0 +1,1 @@
+../../../.codex-marketplace/instagram-skills/skills/ig-content-planner/references/example-week.md

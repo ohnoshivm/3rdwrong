@@ -1,0 +1,1 @@
+../../../.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/story-bank-interview.md

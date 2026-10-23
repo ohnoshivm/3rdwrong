@@ -1,0 +1,381 @@
+package: plugin-local-desktop-app-uploads-facebook-skills-marketplace
+upstream_url: https://github.com/sergebulaev/facebook-skills
+pinned_ref:
+- 1.0.27
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-local-desktop-app-uploads-facebook-skills-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills
+copied_on: '2026-10-23'
+files:
+  skills/facebook-skills/.agents/plugins/marketplace.json:
+    sha256: 3fe987c81da3cc24ce24f1be75203635dced1d563523ff0daefb2ccfe7d29397
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.agents/plugins/marketplace.json
+  skills/facebook-skills/.claude-plugin/marketplace.json:
+    sha256: b689add5cd0a40672a4e1e69575d92e1b7e5d6499aaa86f0d79c4c10f472de85
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.claude-plugin/marketplace.json
+  skills/facebook-skills/.claude-plugin/plugin.json:
+    sha256: 896a2240da790a0908a693ec53979191a0ecdec9cdfe2444fa911f759c9fca0b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.claude-plugin/plugin.json
+  skills/facebook-skills/.codex-marketplace/facebook-skills/.codex-plugin/plugin.json:
+    sha256: a22f8a2a14ebec642d05e2ac802cc930d289cb2b9fb69f1df4886038e6157817
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/.codex-plugin/plugin.json
+  skills/facebook-skills/.codex-marketplace/facebook-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/LICENSE
+  skills/facebook-skills/.codex-marketplace/facebook-skills/README.md:
+    sha256: 001f46ff692d1a681e1843fd91ed1289a6e1e66d35e041ab457f257247c19bee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/README.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/SKILL.md:
+    sha256: f17c0fdf2db05b04578f09d4b952b502142a5c70ef763d018cc0da4637c1eecb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/assets/icon.svg:
+    sha256: 78eb40c08af002ce51047674432e8ef7d569c92a2e486b94ede9e5874f18829a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/assets/icon.svg
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/__init__.py:
+    sha256: 2d71e966d477748ac92b2812e9ed707f52200d48f2b5c0ee1708217a4342d1e0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/__init__.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py:
+    sha256: 3f307c8dadac85ca6c96d2053f8ff4e8e3ffee20f08c1882f3ab57ea2135b336
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/apify_client.py:
+    sha256: 08abb6f168d7a996a4c1fef9dc2add81492f54a33b6d18d095e5ead6512b3744
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/apify_client.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/approval.py:
+    sha256: 3a7e8ccf8c3a7de35cee3deabc70fcf185e8b3a02b9b6e3b82cfda7959074570
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/approval.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/backend_selector.py:
+    sha256: 1c58d4b27df41606ad8b7045bdb9003174f1b5421754c7c0043169ccaf024dd5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/backend_selector.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/pixfaro_client.py:
+    sha256: 0f984c9f22fa8fc438f4419e3d5a0391688c4f76d53bbfc563b19693c1df1345
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/pixfaro_client.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/publora_client.py:
+    sha256: 3e98a7f1f74bfb4900838ae5154f9c5df9cec3f5357ebee2875a45f13807ffb8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/publora_client.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/lib/url_parser.py:
+    sha256: a1897e8f7751b6fa81ff0cd1b273004da76a6af76b2bfeddb391c8b4bc82a9c9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/lib/url_parser.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/references/algorithm-heuristics.md:
+    sha256: 1006e363fd011808dbad1ee09fef109e5e5e51af2aceb50547cb4c881e8489b0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/references/algorithm-heuristics.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/references/hook-formulas.md:
+    sha256: 5d9ed5192a95fd217e1180a822108ba3fea010bc64b29f2ac9ea5edfabe31c3b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/references/hook-formulas.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/references/story-bank.md:
+    sha256: 8e96087a2e87a8531e2eb204d44708ed4d1866bb7f38fb0eaa4d71885b6b0746
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/references/story-bank.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/references/voice-profile.md:
+    sha256: 870ea7ac26944d4a10335e731509a101f02a7e7d21d961110c003ac1a5f02ab8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/references/voice-profile.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/references/voice-rules.md:
+    sha256: bef9f3147d2963d24c1d2b9cfe0c351fe8f5cc0fbaf4d617f20984ceaafc5521
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/references/voice-rules.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/requirements.txt:
+    sha256: 6a58af1377e006046f47bfcfead07b28400d5285d79d106b86e6e4b8ea33b9f8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/requirements.txt
+  skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py:
+    sha256: ce9e6d32e57a4c87a61727ff1b19a6d4dd358ce81f6a9dcae17c6c0d7b92ffc7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py:
+    sha256: 199c5223ed7480fef30e18666564066baac8e46190ae39577216e0890af0e150
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-audience-insights/SKILL.md:
+    sha256: 7358646034dcd8e09bdc6c089fb0b67944e8eeebf481a3390129fa67d503e831
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-audience-insights/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/SKILL.md:
+    sha256: 5878cd084b75c480f23ede30cbbacb561a794e85476baacf089392eaf0412a69
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/references/example-week.md:
+    sha256: 3d45cade1201451ff3aa9fb8a871d3a318f8d3ce15c10838df36c9451ae850a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/references/example-week.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/references/pillars-framework.md:
+    sha256: 6f6e7d5a1a92e1642ab35d6a1b03ed3ce9f79266f8bf064514025870a92847b2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/references/pillars-framework.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-engagement-drafter/SKILL.md:
+    sha256: ad778c5a3d470cab676c30845356c02805b85adacf25ac21531646f5b4fe611b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-engagement-drafter/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-engagement-drafter/references/reply-templates.md:
+    sha256: 2bbd983bd9c0304a1e7dd693c35a3450d10013df1be1dca2cee8362b6a7273ae
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-engagement-drafter/references/reply-templates.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/SKILL.md:
+    sha256: bc7162459b537117064ea8069950900cefae7aac91aa87f64cad22e9d8c69248
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/references/classification-rules.md:
+    sha256: 678662ae8859cf4e3d3dd644df762c55cb103097ca2b7825bf4afbc219dc1b45
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/references/classification-rules.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/references/examples.md:
+    sha256: a23349dd42518f775cdd115d6c0fb7c572511ee51393389e4f802816956e0190
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/references/examples.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/SKILL.md:
+    sha256: cd9a7de3b8f4ca766138f40e789dfec24677834b32033f72fbe1210c59ad24b0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/audit-checklist.md:
+    sha256: c829f1400f7df6868f8d08cacfa45ac4c9687659a50090ce4d23df9b39f27495
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/audit-checklist.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/examples.md:
+    sha256: 6bff8aa9b3435ada984825d197dd8adfe87e241056cb8f4644bb04f6cb272356
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/examples.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/scrub-rules.md:
+    sha256: 65c5d77cfe0fbd8041d788092836a9197c574f61cfcd521720b687f1b24af485
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/scrub-rules.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/illustration.md:
+    sha256: cbebc0d34a55a7c9f59415ba909d6726769620c19e77d10c4cabcfed4c25fca8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/illustration.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/post-audit.md:
+    sha256: 51266b9324574e2c264cb31703d9378d96ed51634a7c79f05ad9561b09d1fdeb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/post-audit.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/story-bank-interview.md:
+    sha256: 3bd57d80aeabfa0e1aa0df4f2b2937953e746a2c17685870ba6a5e64ba6c2d55
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/story-bank-interview.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/voice-profile.md:
+    sha256: 1e15bee6b02978dad1fabaf034c2396060373dc42f9de3219f4e18de241792d1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/voice-profile.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-page-optimizer/SKILL.md:
+    sha256: 294e6fbfaa596fcbfddfb01b96fa9188a78a2bfa5185eb373529335319695631
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-page-optimizer/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-post-writer/SKILL.md:
+    sha256: 99fbb7776a3cee7de99bae07eae7726160b209e74b1ef16635819ed630b21de5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-post-writer/SKILL.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-post-writer/references/short-post-checklist.md:
+    sha256: 432a4da256a70c8fa99cc74976e6dd484bf1eec37cb4acc6a4bc2ce77f1461a5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-post-writer/references/short-post-checklist.md
+  skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-repurposer/SKILL.md:
+    sha256: 834db95a23880d3691d850189986c512bbe1fcd35d082bd9d67ff4ddfd39be3b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-repurposer/SKILL.md
+  skills/facebook-skills/.codex-plugin/plugin.json:
+    sha256: a22f8a2a14ebec642d05e2ac802cc930d289cb2b9fb69f1df4886038e6157817
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/.codex-plugin/plugin.json
+  skills/facebook-skills/.codexignore:
+    sha256: c20141a93a479c7a544c7e4ebaae520c70c85be9c1248e082187ae4b8f15d9dc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codexignore
+  skills/facebook-skills/.github/dependabot.yml:
+    sha256: e355c2fd8769e2be7ea27a63ea574fa64dd24254d92ddd547456b53712283ccd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.github/dependabot.yml
+  skills/facebook-skills/.github/workflows/hol-plugin-scanner.yml:
+    sha256: a632754aff5b35a9df22e63baca555d3c05dd9c15c7059944cf4d8d483d20f44
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.github/workflows/hol-plugin-scanner.yml
+  skills/facebook-skills/.github/workflows/verify-references.yml:
+    sha256: 93364036709bd1393cc7dcac3cd80e506defe7560cbd27e9e63d0d7494ec47a7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.github/workflows/verify-references.yml
+  skills/facebook-skills/AGENTS.md:
+    sha256: 0fd404dc58d208262b767741a085f79af4f5f7dce955c1902143051af8348862
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/AGENTS.md
+  skills/facebook-skills/CLAUDE.md:
+    sha256: 2533f6679b732bfd9a89eb6fe49503cb4762d8a9ec97059e2a66ab57f23d7b14
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/CLAUDE.md
+  skills/facebook-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/LICENSE
+  skills/facebook-skills/README.md:
+    sha256: 001f46ff692d1a681e1843fd91ed1289a6e1e66d35e041ab457f257247c19bee
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/README.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/README.md
+  skills/facebook-skills/SECURITY.md:
+    sha256: 26f7b0bd1ef983c6b1a0f8e024bdcddf838f28d5180da59db26a98e6e4538193
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/SECURITY.md
+  skills/facebook-skills/SKILL.md:
+    sha256: f17c0fdf2db05b04578f09d4b952b502142a5c70ef763d018cc0da4637c1eecb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/SKILL.md
+  skills/facebook-skills/assets/icon.svg:
+    sha256: 78eb40c08af002ce51047674432e8ef7d569c92a2e486b94ede9e5874f18829a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/assets/icon.svg
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/assets/icon.svg
+  skills/facebook-skills/lib/__init__.py:
+    sha256: 2d71e966d477748ac92b2812e9ed707f52200d48f2b5c0ee1708217a4342d1e0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/__init__.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/__init__.py
+  skills/facebook-skills/lib/_env.py:
+    sha256: 3f307c8dadac85ca6c96d2053f8ff4e8e3ffee20f08c1882f3ab57ea2135b336
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/_env.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py
+  skills/facebook-skills/lib/apify_client.py:
+    sha256: 08abb6f168d7a996a4c1fef9dc2add81492f54a33b6d18d095e5ead6512b3744
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/apify_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/apify_client.py
+  skills/facebook-skills/lib/approval.py:
+    sha256: 3a7e8ccf8c3a7de35cee3deabc70fcf185e8b3a02b9b6e3b82cfda7959074570
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/approval.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/approval.py
+  skills/facebook-skills/lib/backend_selector.py:
+    sha256: 1c58d4b27df41606ad8b7045bdb9003174f1b5421754c7c0043169ccaf024dd5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/backend_selector.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/backend_selector.py
+  skills/facebook-skills/lib/pixfaro_client.py:
+    sha256: 0f984c9f22fa8fc438f4419e3d5a0391688c4f76d53bbfc563b19693c1df1345
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/pixfaro_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/pixfaro_client.py
+  skills/facebook-skills/lib/publora_client.py:
+    sha256: 3e98a7f1f74bfb4900838ae5154f9c5df9cec3f5357ebee2875a45f13807ffb8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/publora_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/publora_client.py
+  skills/facebook-skills/lib/url_parser.py:
+    sha256: a1897e8f7751b6fa81ff0cd1b273004da76a6af76b2bfeddb391c8b4bc82a9c9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/lib/url_parser.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/url_parser.py
+  skills/facebook-skills/references/algorithm-heuristics.md:
+    sha256: 1006e363fd011808dbad1ee09fef109e5e5e51af2aceb50547cb4c881e8489b0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/references/algorithm-heuristics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/references/algorithm-heuristics.md
+  skills/facebook-skills/references/hook-formulas.md:
+    sha256: 5d9ed5192a95fd217e1180a822108ba3fea010bc64b29f2ac9ea5edfabe31c3b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/references/hook-formulas.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/references/hook-formulas.md
+  skills/facebook-skills/references/story-bank.md:
+    sha256: 8e96087a2e87a8531e2eb204d44708ed4d1866bb7f38fb0eaa4d71885b6b0746
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/references/story-bank.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/references/story-bank.md
+  skills/facebook-skills/references/voice-profile.md:
+    sha256: 870ea7ac26944d4a10335e731509a101f02a7e7d21d961110c003ac1a5f02ab8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/references/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/references/voice-profile.md
+  skills/facebook-skills/references/voice-rules.md:
+    sha256: bef9f3147d2963d24c1d2b9cfe0c351fe8f5cc0fbaf4d617f20984ceaafc5521
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/references/voice-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/references/voice-rules.md
+  skills/facebook-skills/requirements-lock.txt:
+    sha256: 4e34c827a180942e9807239806befff035193ebc5924666144c4e633f96751bf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/requirements-lock.txt
+  skills/facebook-skills/requirements.txt:
+    sha256: 6602f8cb4d70a2d3001dd4fb9b52965429afed672fa1c2880ffc93ce0b398aa3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/requirements.txt
+  skills/facebook-skills/scripts/check_actor_inputs.py:
+    sha256: ce9e6d32e57a4c87a61727ff1b19a6d4dd358ce81f6a9dcae17c6c0d7b92ffc7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/scripts/check_actor_inputs.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py
+  skills/facebook-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/facebook-skills/scripts/check_markdown_references.py:
+    sha256: 12893654b48eca05311d745a8c626b50632d21bebd5319cb93326049e5f179d4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/scripts/check_markdown_references.py
+  skills/facebook-skills/scripts/check_no_secrets.py:
+    sha256: 199c5223ed7480fef30e18666564066baac8e46190ae39577216e0890af0e150
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/scripts/check_no_secrets.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py
+  skills/facebook-skills/scripts/sync_codex_marketplace.py:
+    sha256: acf2527636eb940caf7a9c264a16f434513202a975b6d63f481e74e88d15c4c6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/scripts/sync_codex_marketplace.py
+  skills/facebook-skills/skills/fb-audience-insights/SKILL.md:
+    sha256: 7358646034dcd8e09bdc6c089fb0b67944e8eeebf481a3390129fa67d503e831
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-audience-insights/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-audience-insights/SKILL.md
+  skills/facebook-skills/skills/fb-content-planner/SKILL.md:
+    sha256: 5878cd084b75c480f23ede30cbbacb561a794e85476baacf089392eaf0412a69
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-content-planner/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/SKILL.md
+  skills/facebook-skills/skills/fb-content-planner/references/example-week.md:
+    sha256: 3d45cade1201451ff3aa9fb8a871d3a318f8d3ce15c10838df36c9451ae850a1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-content-planner/references/example-week.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/references/example-week.md
+  skills/facebook-skills/skills/fb-content-planner/references/pillars-framework.md:
+    sha256: 6f6e7d5a1a92e1642ab35d6a1b03ed3ce9f79266f8bf064514025870a92847b2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-content-planner/references/pillars-framework.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-content-planner/references/pillars-framework.md
+  skills/facebook-skills/skills/fb-engagement-drafter/SKILL.md:
+    sha256: ad778c5a3d470cab676c30845356c02805b85adacf25ac21531646f5b4fe611b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-engagement-drafter/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-engagement-drafter/SKILL.md
+  skills/facebook-skills/skills/fb-engagement-drafter/references/reply-templates.md:
+    sha256: 2bbd983bd9c0304a1e7dd693c35a3450d10013df1be1dca2cee8362b6a7273ae
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-engagement-drafter/references/reply-templates.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-engagement-drafter/references/reply-templates.md
+  skills/facebook-skills/skills/fb-hook-extractor/SKILL.md:
+    sha256: bc7162459b537117064ea8069950900cefae7aac91aa87f64cad22e9d8c69248
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-hook-extractor/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/SKILL.md
+  skills/facebook-skills/skills/fb-hook-extractor/references/classification-rules.md:
+    sha256: 678662ae8859cf4e3d3dd644df762c55cb103097ca2b7825bf4afbc219dc1b45
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-hook-extractor/references/classification-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/references/classification-rules.md
+  skills/facebook-skills/skills/fb-hook-extractor/references/examples.md:
+    sha256: a23349dd42518f775cdd115d6c0fb7c572511ee51393389e4f802816956e0190
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-hook-extractor/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-hook-extractor/references/examples.md
+  skills/facebook-skills/skills/fb-humanizer/SKILL.md:
+    sha256: cd9a7de3b8f4ca766138f40e789dfec24677834b32033f72fbe1210c59ad24b0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/SKILL.md
+  skills/facebook-skills/skills/fb-humanizer/references/audit-checklist.md:
+    sha256: c829f1400f7df6868f8d08cacfa45ac4c9687659a50090ce4d23df9b39f27495
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/references/audit-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/audit-checklist.md
+  skills/facebook-skills/skills/fb-humanizer/references/examples.md:
+    sha256: 6bff8aa9b3435ada984825d197dd8adfe87e241056cb8f4644bb04f6cb272356
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/examples.md
+  skills/facebook-skills/skills/fb-humanizer/references/scrub-rules.md:
+    sha256: 65c5d77cfe0fbd8041d788092836a9197c574f61cfcd521720b687f1b24af485
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/references/scrub-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/references/scrub-rules.md
+  skills/facebook-skills/skills/fb-humanizer/sub-skills/illustration.md:
+    sha256: cbebc0d34a55a7c9f59415ba909d6726769620c19e77d10c4cabcfed4c25fca8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/sub-skills/illustration.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/illustration.md
+  skills/facebook-skills/skills/fb-humanizer/sub-skills/post-audit.md:
+    sha256: 51266b9324574e2c264cb31703d9378d96ed51634a7c79f05ad9561b09d1fdeb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/sub-skills/post-audit.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/post-audit.md
+  skills/facebook-skills/skills/fb-humanizer/sub-skills/story-bank-interview.md:
+    sha256: 3bd57d80aeabfa0e1aa0df4f2b2937953e746a2c17685870ba6a5e64ba6c2d55
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/sub-skills/story-bank-interview.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/story-bank-interview.md
+  skills/facebook-skills/skills/fb-humanizer/sub-skills/voice-profile.md:
+    sha256: 1e15bee6b02978dad1fabaf034c2396060373dc42f9de3219f4e18de241792d1
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-humanizer/sub-skills/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/voice-profile.md
+  skills/facebook-skills/skills/fb-page-optimizer/SKILL.md:
+    sha256: 294e6fbfaa596fcbfddfb01b96fa9188a78a2bfa5185eb373529335319695631
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-page-optimizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-page-optimizer/SKILL.md
+  skills/facebook-skills/skills/fb-post-writer/SKILL.md:
+    sha256: 99fbb7776a3cee7de99bae07eae7726160b209e74b1ef16635819ed630b21de5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-post-writer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-post-writer/SKILL.md
+  skills/facebook-skills/skills/fb-post-writer/references/short-post-checklist.md:
+    sha256: 432a4da256a70c8fa99cc74976e6dd484bf1eec37cb4acc6a4bc2ce77f1461a5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-post-writer/references/short-post-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-post-writer/references/short-post-checklist.md
+  skills/facebook-skills/skills/fb-repurposer/SKILL.md:
+    sha256: 834db95a23880d3691d850189986c512bbe1fcd35d082bd9d67ff4ddfd39be3b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/skills/fb-repurposer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/skills/fb-repurposer/SKILL.md
+  notices/896a2240da79-plugin.json:
+    sha256: 896a2240da790a0908a693ec53979191a0ecdec9cdfe2444fa911f759c9fca0b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.claude-plugin/plugin.json
+  notices/a22f8a2a14eb-plugin.json:
+    sha256: a22f8a2a14ebec642d05e2ac802cc930d289cb2b9fb69f1df4886038e6157817
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/.codex-plugin/plugin.json
+  notices/1a21cf7c2089-LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/LICENSE
+notices:
+- skills/facebook-skills/.codex-marketplace/facebook-skills/LICENSE
+- skills/facebook-skills/LICENSE
+- notices/896a2240da79-plugin.json
+- notices/a22f8a2a14eb-plugin.json
+- notices/1a21cf7c2089-LICENSE
+excluded:
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/assets/hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.codex-marketplace/facebook-skills/assets/social-preview.jpg
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/assets/hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/assets/social-preview.jpg
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/facebook-skills/.gitignore
+  reason: git repository metadata (.gitignore/.gitattributes) would change this repository's
+    own git behaviour; not tool material, excluded unchanged

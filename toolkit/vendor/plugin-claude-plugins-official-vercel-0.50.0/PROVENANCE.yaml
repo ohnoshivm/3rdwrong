@@ -1,0 +1,1617 @@
+package: plugin-claude-plugins-official-vercel-0.50.0
+upstream_url: https://github.com/vercel/vercel-plugin
+pinned_ref:
+- 882e66c2698689324c341b7bb8fd8beb92c27bf6
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-vercel-0.50.0
+copied_from:
+- ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0
+copied_on: '2026-10-23'
+files:
+  .claude/skills/benchmark-agents/prompts.md:
+    sha256: ef24df26688c884d4e020ea62c34f86bb980f07f11d59d90c32d288b7b689c91
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-agents/prompts.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-agents/prompts.md
+  .claude/skills/benchmark-e2e/SKILL.md:
+    sha256: 1f18ec33990b765e7235bfec8e28b41f088aad5c5ea977b041c4657465ce624b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-e2e/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-e2e/SKILL.md
+  .claude/skills/benchmark-sandbox/SKILL.md:
+    sha256: 2588bbda779e1843d131be656dd89fdcb8599d626b84366ff10f98e13733d4a4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/SKILL.md
+  .claude/skills/benchmark-sandbox/logger.ts:
+    sha256: 4e1103746775b3cd3e1f0e45d308d145bb22b5d893b89c8b6f707d95900cd0c8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/logger.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/logger.ts
+  .claude/skills/benchmark-sandbox/run-eval.ts:
+    sha256: 238ee44860ec352f6c24a7f0fa829738ff7de73597c2accb39a586c90b0a463e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/run-eval.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/run-eval.ts
+  .claude/skills/benchmark-sandbox/sandbox-analyze.ts:
+    sha256: 158a36d0a0cf52f3ce7c5136a776eeea19e0a297f3d4a2ce14fc2d15bce117c1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/sandbox-analyze.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/sandbox-analyze.ts
+  .claude/skills/benchmark-sandbox/sandbox-runner.ts:
+    sha256: 091a48b9165c343db4dbb249e675449a35494c497fc057c87ebb718da5cbf20e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/sandbox-runner.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/sandbox-runner.ts
+  .claude/skills/benchmark-sandbox/spike/create-snapshot.ts:
+    sha256: 3221934f437ff693da74506718e3dbdcdcb9302309435984b7889de6aee1191f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/spike/create-snapshot.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/spike/create-snapshot.ts
+  .claude/skills/benchmark-sandbox/spike/interactive-proof.ts:
+    sha256: 89c1ff038f6c5979130af63a70df21545d699b5bb5557d51f8cf08616128efc0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/spike/interactive-proof.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/spike/interactive-proof.ts
+  .claude/skills/benchmark-sandbox/spike/provision.ts:
+    sha256: a2e99efab217dce4607ddd4814839c08227b95ee7b3841601c7e161a9fa6480f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/spike/provision.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/spike/provision.ts
+  .claude/skills/benchmark-sandbox/types.ts:
+    sha256: a16d3745cf7b4c5dafb5718f9ff3feded095350659a2863b2028a805f2ac4fb1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-sandbox/types.ts
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-sandbox/types.ts
+  .claude/skills/benchmark-testing/SKILL.md:
+    sha256: 9d5ead7eed4f56a57cbfbf475614c970589131ff8c279d85738eaa94979152b0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-testing/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/benchmark-testing/SKILL.md
+  .claude/skills/plugin-audit/SKILL.md:
+    sha256: 3179280ffb97921cb5e91fdce5bb45003db9b15e76f9f9887a519ccb603ea32a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/plugin-audit/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/plugin-audit/SKILL.md
+  .claude/skills/plugin-audit/scripts/batch-match.mjs:
+    sha256: c1bf2295d1975db8706c8131f1f7ceb163ab29a4ba9ea01d7cb0afab0283ae49
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/plugin-audit/scripts/batch-match.mjs
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/plugin-audit/scripts/batch-match.mjs
+  .claude/skills/release/SKILL.md:
+    sha256: 8124ee02d88eca6e455092e35637e37f96d2f37ce05b9694282bfe40fa1f4945
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/release/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/release/SKILL.md
+  .claude-plugin/marketplace.json:
+    sha256: a8f883037d4e0337cf84e9aef085dd18d80068bc5b3d56ce3546a00f2c2f3233
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude-plugin/marketplace.json
+  .claude-plugin/plugin.json:
+    sha256: 931751d5bea8a6d96d2c7829fce849345fba758ada9b1517a9014eb21e86e69f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/LICENSE
+  agents/ai-architect.md:
+    sha256: 6ca976f2eec3f8b60c488e8939148b3913cc4fecc34c2ddc0c5007f53cefe05d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/agents/ai-architect.md
+  agents/deployment-expert.md:
+    sha256: 1eb7329c03aa6f143448903fe5ac240c80ca60742cded63570a0d3474d1d6b03
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/agents/deployment-expert.md
+  agents/performance-optimizer.md:
+    sha256: 6193726714ea4adef998e8e7530137c9e09642ee55ab517ca1ee8a284457b16d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/agents/performance-optimizer.md
+  commands/_conventions.md:
+    sha256: cb10f630e3d615ef4a1c556c3b35ab4312b3c387770a988bb233335aa637908e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/_conventions.md
+  commands/bootstrap.md:
+    sha256: e97a99f50e1fe4d0049fe9a2e2233bc1d0182e3617afa9b4bbd0c954749b886f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/bootstrap.md
+  commands/bootstrap.md.tmpl:
+    sha256: 1e085e763487c26f55dae65c5b5bf542dd8f7930de64d1377b703b50d3c401f1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/bootstrap.md.tmpl
+  commands/deploy.md:
+    sha256: 236ad738d9c57b044fc00744a86e3de21c34ae85a77ee3bce68dfe07de42798f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/deploy.md
+  commands/deploy.md.tmpl:
+    sha256: 236d094381e07faae852c2df20301aab074a7da02aaab688d21d6152af383cef
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/deploy.md.tmpl
+  commands/env.md:
+    sha256: b5fee61f45ca8a308c1a3f685415ead7fa5f48ba79d0d19f1bea74768ef0f268
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/env.md
+  commands/env.md.tmpl:
+    sha256: 47d5c29121b5e03677404569a15bb4ca8e9e97e6ef3dfa7f03a41f4a5c46a953
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/env.md.tmpl
+  commands/status.md:
+    sha256: 975d6a9ea4b8c702171c701129c1ae054d4cd8c6b607a3667450a7dcd922bb83
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/status.md
+  commands/status.md.tmpl:
+    sha256: 975d6a9ea4b8c702171c701129c1ae054d4cd8c6b607a3667450a7dcd922bb83
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/commands/status.md.tmpl
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-vercel-0.50.0/commands/status.md
+  hooks/compat.mjs:
+    sha256: 73599a55aed8b69829feb7d3b5ef96799627b3b119a5dbed7f2d02e76eddfc67
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/compat.mjs
+  hooks/compat.test.ts:
+    sha256: 417f0383148a9768288033e714f609d39bcf77ebc55cd3c40f0874cfdd4de66b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/compat.test.ts
+  hooks/hook-env.mjs:
+    sha256: 6acf82e99c353550a0ac20f0d7969fa9393d52c57ef526cb01e00370dd053421
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/hook-env.mjs
+  hooks/hooks.json:
+    sha256: 7ac19b88a89933a65fe33f55e4ba6d4e87e30ce36bd9bbd683294d488df69206
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/hooks.json
+  hooks/inject-claude-md.mjs:
+    sha256: bbda85ac5cb781560d8f9318e27ddaccdc6172e8bb9010ab86b6e297bd0b432c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/inject-claude-md.mjs
+  hooks/lexical-index.mjs:
+    sha256: ef4a0b927249094566532191c064982fbee21188df4f6154ce17f97d5e955da6
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/lexical-index.mjs
+  hooks/lexical-index.test.ts:
+    sha256: 114d64f5f24d16780a0b46a2335421e3de5d897462d0ff51329b241e6a886423
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/lexical-index.test.ts
+  hooks/logger.mjs:
+    sha256: 9e9a7f6895a5f27bf4f736051e5f859940ec486347d0b2ee343c1f72f4135734
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/logger.mjs
+  hooks/patterns.mjs:
+    sha256: e6124aec16d0c603494fa05a19c966b24768d4fd6d3a8ca28668c13ce0754fa0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/patterns.mjs
+  hooks/platform-hook-compat.test.ts:
+    sha256: f5e85136975eede690da8ed38dd5aa05948a855e93710f099ef0ffc4d3685030
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/platform-hook-compat.test.ts
+  hooks/posttooluse-skill-telemetry.mjs:
+    sha256: 848a37af007b558015297256468dc4a1e9cfbbd6a40ff949e9f6a67076c2000f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/posttooluse-skill-telemetry.mjs
+  hooks/pretooluse-skill-inject.mjs:
+    sha256: 785b227a4675405c075496bb2e3328bdda363bcfa396d2e465d4321a4b903691
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/pretooluse-skill-inject.mjs
+  hooks/prompt-analysis.mjs:
+    sha256: e53bd2a85d8d16dd619cc80af03f8c1b208ff26f0bb369bd6f47f8c1c74e81c5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/prompt-analysis.mjs
+  hooks/prompt-patterns.mjs:
+    sha256: 276f701538194ac3adb8711fc925fff0f3cb58f58dbd57670f059f7c6c04da83
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/prompt-patterns.mjs
+  hooks/session-end-cleanup.mjs:
+    sha256: 1db52d969130cbcb954cad129eb06dbe4a89ed636b51bad6ba6b33a22ec80a0a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/session-end-cleanup.mjs
+  hooks/session-hooks-platform-compat.test.ts:
+    sha256: 7d5efcbbeebc3f023158d982e052121bc1a0c6cbc6612f55af8278890061e5a9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/session-hooks-platform-compat.test.ts
+  hooks/session-start-activation.mjs:
+    sha256: 75c6587f58c72f71e3ecf0002c8e3520f57ce2fd1e7ff54ba7083e3f3b68a0b1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/session-start-activation.mjs
+  hooks/session-start-profiler-platform.test.ts:
+    sha256: 7912f1a6764a6cc9399cc69327aae5401ab737842eaf9df9ad049ec037acee66
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/session-start-profiler-platform.test.ts
+  hooks/session-start-profiler.mjs:
+    sha256: d8606f09d10616acec25c8ec7ae352774047b8c89fb99b19c486990aaec9eae1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/session-start-profiler.mjs
+  hooks/session-start-seen-skills.mjs:
+    sha256: 02f75d69ac4b7c1055688862c65b1223123e44c6fb5bde5db372ca602a3e668e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/session-start-seen-skills.mjs
+  hooks/setup-telemetry.mjs:
+    sha256: cb8fe2b7938a127b3107bc565c57da658b4d8212c7bfe0a0954d30c5f14af5ee
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/setup-telemetry.mjs
+  hooks/shared-contractions.mjs:
+    sha256: cd448a7e45e7105a10b5bd91e69e0b8460a58ed77c4d383dd3d3bf7d9626efc8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/shared-contractions.mjs
+  hooks/skill-map-frontmatter.mjs:
+    sha256: 15b4216c061d9e0acb01d0d80816337cde8507286c0885b5f378e9e4b89b82c7
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/skill-map-frontmatter.mjs
+  hooks/skill-map-frontmatter.test.ts:
+    sha256: 4fe2e10cf197a7bd8891caa1714442b08333a8c9b2f9bd62fc31ef54818bbca4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/skill-map-frontmatter.test.ts
+  hooks/skill-telemetry.mjs:
+    sha256: 9ed221aa4f1f071b95cdb8384d9f750df4c225fb152c986ffa97f3a5b4452c3a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/skill-telemetry.mjs
+  hooks/src/compat.mts:
+    sha256: 56aae6815670168d444c4b3013294b5d7be898abd84c399d1a6fbf298080dca6
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/compat.mts
+  hooks/src/hook-env.mts:
+    sha256: 2a1a75b05ede48a026e98d6af3daefa588489214a93334a28da4501dbb26efd4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/hook-env.mts
+  hooks/src/inject-claude-md.mts:
+    sha256: 35873a07cf38c8eaa8a64b491fa142661e777849e744f20a25b8fea2cf4d84b9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/inject-claude-md.mts
+  hooks/src/lexical-index.mts:
+    sha256: d77dc3b90db3c90dff25a4681c5878e9fba490aa4eef027ee417e804c3c1a0a9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/lexical-index.mts
+  hooks/src/logger.mts:
+    sha256: 416f3b417c03e50feca5b10772cd5f989ddc73e72f9140d0e185b535bb2ccd28
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/logger.mts
+  hooks/src/patterns.mts:
+    sha256: 449d374f29968f13fb487d32e4b39a71d79de88adfb463a50e63e684aeac6d3a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/patterns.mts
+  hooks/src/posttooluse-skill-telemetry.mts:
+    sha256: 2df2fcffae6412fa9ba43c463d4f3d91b133e71e6e40ee049d346e55dd107074
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/posttooluse-skill-telemetry.mts
+  hooks/src/pretooluse-skill-inject.mts:
+    sha256: 4bb7ce28bb8dbdc9c1eb3d083ca114bb976d9e31a479202339be7c7e89ada3d6
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/pretooluse-skill-inject.mts
+  hooks/src/prompt-analysis.mts:
+    sha256: fa8868c101b947a104e56f805f28c2a22f24689c081794db0e0a20221e59e472
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/prompt-analysis.mts
+  hooks/src/prompt-patterns.mts:
+    sha256: 8e4933127f5f33c7b0ea2c0d9584b52c5f2c186a9356154400b4f9a539bbbccf
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/prompt-patterns.mts
+  hooks/src/session-end-cleanup.mts:
+    sha256: 84644037f9d382bf45b2e8bc8a0b51b72df4edf2021bf884e9fdf8f51fef5f9d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/session-end-cleanup.mts
+  hooks/src/session-start-activation.mts:
+    sha256: 083777838b58abaeea499b8df6ae19b4bfb93968d68dc7818a9384205d55fca9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/session-start-activation.mts
+  hooks/src/session-start-profiler.mts:
+    sha256: 65a99c6bdba5ee06308c4245532061167d8c1ce10cd35104a5d86b910420996b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/session-start-profiler.mts
+  hooks/src/session-start-seen-skills.mts:
+    sha256: 6011b60040c816f43a67e08d8cd035cd0603bbcda631d71e066954e6bc46e9ec
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/session-start-seen-skills.mts
+  hooks/src/setup-telemetry.mts:
+    sha256: cad12f553a1f946ef4f1aa0278e26b2161984a5f6e403f2aaf9ec097f9e5983d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/setup-telemetry.mts
+  hooks/src/shared-contractions.mts:
+    sha256: f0a2165d6b4b3b56287895976b7810bc3a80a9d6f8f6d0271626b646022652d5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/shared-contractions.mts
+  hooks/src/skill-map-frontmatter.mts:
+    sha256: d501eb6a046a1f85eddbb90715013d1559fc27c6c47fac4f0c5437a153dfa7f3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/skill-map-frontmatter.mts
+  hooks/src/skill-telemetry.mts:
+    sha256: 2cc4b7c9f0937753f7aa1c5c4562a666d2c1c611768a14ba89f7255377eba13d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/skill-telemetry.mts
+  hooks/src/stemmer.mts:
+    sha256: 92c94915a059b4cc6943f0da28778d1d246993132c2fa19a3ee37006e24f5793
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/stemmer.mts
+  hooks/src/telemetry.mts:
+    sha256: dd14384f3ca61930ae75342451b46d3a9b44c42b1543669c15848773d6501b88
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/telemetry.mts
+  hooks/src/unified-ranker.mts:
+    sha256: 5b79dcb70d8fe4a6007c9f02c1a4cebc22998aa3544db96a9baaa417b7f54001
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/unified-ranker.mts
+  hooks/src/user-prompt-submit-skill-inject.mts:
+    sha256: e971b07f57cb795ebc282adcea9afcc8b90db0824e24fe3a8532d9ca33bc9873
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/user-prompt-submit-skill-inject.mts
+  hooks/src/vercel-config.mts:
+    sha256: 8ec5498331213455489ae581b041adc7a7cf6b767a8fd32d04d27deeee6bef0a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/vercel-config.mts
+  hooks/src/vercel-context.mts:
+    sha256: ed006a5ac2dd028f632634b1b2950ec7b8b853075848d723cbf684132da71060
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/src/vercel-context.mts
+  hooks/stemmer.mjs:
+    sha256: cdb02544b1fcd60ec1b1a720843fb89fb18de572c41aaea626a958e9a2083f3e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/stemmer.mjs
+  hooks/telemetry.mjs:
+    sha256: 85b6c227f060232e736cb27761d342bc4ea47bbeb932c9ea90373113d6ba6e7c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/telemetry.mjs
+  hooks/tsconfig.json:
+    sha256: b821f2b1f60756950294afb34a51ed4086077c20e8c6de61578c6e3828ea86c8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/tsconfig.json
+  hooks/tsup.config.ts:
+    sha256: 54ce0d0fe679bab8d75e7adfbd6dd3e43640c461c089bc6e54b25ceca4942926
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/tsup.config.ts
+  hooks/unified-ranker.mjs:
+    sha256: b73d815a6d3a31b6beee3746f7c6a0c5a2f21cbc5a6ebc0d25e51f1c7678121b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/unified-ranker.mjs
+  hooks/user-prompt-submit-skill-inject.mjs:
+    sha256: b2916ad9e76a86d600414357213d3eab5aab4eba1075cf4a0291399a591834eb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/user-prompt-submit-skill-inject.mjs
+  hooks/user-prompt-submit-skill-inject.test.ts:
+    sha256: f3df70b4d9a111e34bd2937065d248f6a66c087770c3418362006a88b74c316e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/user-prompt-submit-skill-inject.test.ts
+  hooks/vercel-config.mjs:
+    sha256: caa07ed1c662ee4dfe585de5c25a6272fa868c933dd69440b4b4e241c52b77d0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/vercel-config.mjs
+  hooks/vercel-context.mjs:
+    sha256: ea06bfc4343c1a75bf923982d24fd25b32a3986d2b5e9b1883560809f120dc80
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/hooks/vercel-context.mjs
+  scripts/audit-retrieval-metadata.ts:
+    sha256: e4cefb1563304039a324261aedf74a90f1ef1c4344847a0b6de6b2846c631de3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/audit-retrieval-metadata.ts
+  scripts/benchmark-e2e.ts:
+    sha256: 86479a8b308a4396b53c177f7b7afa47df3772e482628efcfbe3695e03558dd1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/benchmark-e2e.ts
+  scripts/benchmark-report.ts:
+    sha256: a0c2ee174dcee66b43967c56bde060d23a56796e132c2f5f4c4702e3a35436bb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/benchmark-report.ts
+  scripts/benchmark-runner.ts:
+    sha256: 4ad2af3672d8de33db199aa0a76f2cd1ab20a49837eb56cd59ec84865a4ee951
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/benchmark-runner.ts
+  scripts/benchmark-scenarios.ts:
+    sha256: 496a3d728611c7b45b7ddad7392a89647235c6b8376b2ea8aed14b6e66797b5b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/benchmark-scenarios.ts
+  scripts/benchmark-verify.ts:
+    sha256: 922e8d579efe4c0b821fe26203b97b4fa0ede22f45d43f72a434fd15c0be3732
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/benchmark-verify.ts
+  scripts/build-from-skills.ts:
+    sha256: 015aa714ba7405212f5dae1d9645a90328b8819667cdfa386179d016a0d89b63
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/build-from-skills.ts
+  scripts/build-skills.ts:
+    sha256: 2d9f13e44e13f1be12314604fe29ca631b425885dc65a6f2a985a5403184c9b6
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/build-skills.ts
+  scripts/cli-reference.ts:
+    sha256: 156dc13a1cf74404a61816c8fcb0c69d19771b03f248e34184bc58ab4b3b20d8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/cli-reference.ts
+  scripts/coverage-baseline.ts:
+    sha256: d8ea58d527ff1a6ab5c71c8f384572daa2f1d13a6b605caa69a7dc3081dfa51d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/coverage-baseline.ts
+  scripts/explain.ts:
+    sha256: 086833e88d6f3ebc59e9ad1973f94c49cc3970b3853f6bd35d7017caaf95437f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/explain.ts
+  scripts/generate-doc-inventories.ts:
+    sha256: a57cc253d72626c2518b69a73ad14f7f3f8976c3f9886766e447d31ef11fdd7e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/generate-doc-inventories.ts
+  scripts/prompt-signals-explain.ts:
+    sha256: 6016da2c1b5d397384b249d26e5a7c120e09d8278441e74cc1ecc6c740c3d9c0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/prompt-signals-explain.ts
+  scripts/validate.ts:
+    sha256: e1201c649a9400e37189788c51379e677ceb5715c839defee5a39ba428e22757
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/validate.ts
+  scripts/verify-docs.ts:
+    sha256: 6f0218ba755f3487a00e6d6b47f282db6c7502bb8bbb6e478bde5848739ce7da
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/verify-docs.ts
+  skills/access-protected-vercel-deployment/SKILL.md:
+    sha256: 24d295fa893a22b318f19d87fc52865fc0e26fe43abea62ce787769d00a79fc6
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/access-protected-vercel-deployment/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/access-protected-vercel-deployment/SKILL.md
+  skills/ai-gateway/SKILL.md:
+    sha256: b23ff37171dae9f3f9ea0c35ca60df9197b7cc4c3ed62f707f8e46e998b7abbe
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-gateway/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-gateway/SKILL.md
+  skills/ai-gateway/references/coding-agents.md:
+    sha256: c95325c90c26201b4bc7ce24b8f70d5128d2d49383d61a8c98a00c6483f63061
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-gateway/references/coding-agents.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-gateway/references/coding-agents.md
+  skills/ai-gateway/references/routing.md:
+    sha256: ff4eab3f0dd715286146d77666e13ff392913b9135bbfe9fb28dfc724a8ba3cc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-gateway/references/routing.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-gateway/references/routing.md
+  skills/ai-gateway/references/setup.md:
+    sha256: 9d20f576423ca6dabfe2aa8d42724c04dae70f788b0766778f16bc6a15dd610e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-gateway/references/setup.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-gateway/references/setup.md
+  skills/ai-gateway/references/spend-observability.md:
+    sha256: a51fddd40f1d3c0b38a2c1532dc3128fcf5c5ce3202f7348e015420dae7e3f5d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-gateway/references/spend-observability.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-gateway/references/spend-observability.md
+  skills/ai-sdk/SKILL.md:
+    sha256: 18565cbd3c95240758683328b77cb5e0a6a065a1588a326495cee5d0afcf7047
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-sdk/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-sdk/SKILL.md
+  skills/ai-sdk/overlay.yaml:
+    sha256: 0b00426871356d74258fe976501ce5132b3e080ddc84d3009cca549c80e113af
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-sdk/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-sdk/overlay.yaml
+  skills/ai-sdk/upstream/SKILL.md:
+    sha256: 864e110a36c00975e5c5ddec68163dd0b5347b126a46d84d7369a2bbdbdb7754
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/ai-sdk/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-sdk/upstream/SKILL.md
+  skills/auth/SKILL.md:
+    sha256: 84a656a2dc0b2bfc39a36ed3dc55c43dae754e50513faecf8529675f1bb52591
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/auth/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/auth/SKILL.md
+  skills/bootstrap/SKILL.md:
+    sha256: a53426f5637621c248c2ba4de1190fe7de6bed2d9033c5f3d37af49e71334c18
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/bootstrap/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/bootstrap/SKILL.md
+  skills/build-agents/SKILL.md:
+    sha256: 00f78306ddf38c2bdc8b6ab777a713ea5a4cb4c6118b1138c420eaac455728d5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/build-agents/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/build-agents/SKILL.md
+  skills/cdn-caching/SKILL.md:
+    sha256: 81457e8c938232b2dd63168c712ae34276f45123c0970ece57e1e5cefed4d9fd
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/cdn-caching/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/cdn-caching/SKILL.md
+  skills/chat-sdk/SKILL.md:
+    sha256: 3230728922e2e8880d6ab308726225a6c4fbfee880ed7af4381b7eb07c5c9021
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/chat-sdk/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/chat-sdk/SKILL.md
+  skills/chat-sdk/overlay.yaml:
+    sha256: f70d77070189e911d6cbe527bc5849eb07dba0a181efde2335609b2aa0f8186c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/chat-sdk/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/chat-sdk/overlay.yaml
+  skills/chat-sdk/upstream/SKILL.md:
+    sha256: d6d1224c2d01aa145d34fdb4e7877b61dc9de18315f6ba0344cad21e5df1dbec
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/chat-sdk/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/chat-sdk/upstream/SKILL.md
+  skills/create-a-backend/SKILL.md:
+    sha256: e4a4b368076d73573d3f74f8bd0c7ea8cb205cceace160f36f87a2ba976c1329
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/create-a-backend/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/create-a-backend/SKILL.md
+  skills/create-a-backend/agents/openai.yaml:
+    sha256: f5bd71e15004e4a8ef9b8baca09200876f12b7a1158efef4e401f3e728fd04a7
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/create-a-backend/agents/openai.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/create-a-backend/agents/openai.yaml
+  skills/custom-metrics/SKILL.md:
+    sha256: dda9871df28f58001367e6ee923912c3b41d3ed77a4ef665ce0552227760d4f1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/custom-metrics/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/custom-metrics/SKILL.md
+  skills/deployments-cicd/SKILL.md:
+    sha256: 0d9ffe3554d5b44f45d797c7f26b98ba0fd63fab6e650c4d3e07e847d61ed04d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/deployments-cicd/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/deployments-cicd/SKILL.md
+  skills/env-vars/SKILL.md:
+    sha256: aaca226ca808d08a62f80e72543a862ba214160d5dd3d8b4b6d61f38bad76a0e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/env-vars/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/env-vars/SKILL.md
+  skills/eve/SKILL.md:
+    sha256: 73e515d45071a987ace13cce18b690280b878c263eb1a15559f0d7965a041eda
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/eve/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/eve/SKILL.md
+  skills/eve/overlay.yaml:
+    sha256: 41839d08621dec59592004c047081a4e42a9be7b3cd0e6f4245c49dd7ac4e270
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/eve/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/eve/overlay.yaml
+  skills/eve/upstream/SKILL.md:
+    sha256: e467a328d14991a6486a7a2010046fd89d187258806820d569bfac2e135d1725
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/eve/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/eve/upstream/SKILL.md
+  skills/flags-sdk/SKILL.md:
+    sha256: f962552d74d84ea0286a58c93afc7e81a58247e2d52aa4d0740e95ee73341a2f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/SKILL.md
+  skills/flags-sdk/overlay.yaml:
+    sha256: b38ea03dcc56b077ff7499453c02992899d7d897df6fc39a67addc10c89ded17
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/overlay.yaml
+  skills/flags-sdk/references/api.md:
+    sha256: 94d6517b9d4d34be91dc33145f071a240e53d64e22d8e807995f549221376771
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/references/api.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/api.md
+  skills/flags-sdk/references/nextjs.md:
+    sha256: 2d932468ed5fd86492c1c15476c9321d0a7c5df44f1f4c8bfe2b9378f8868f01
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/references/nextjs.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/nextjs.md
+  skills/flags-sdk/references/providers.md:
+    sha256: 5fd1c6826ed67035351e6dcc5cb73987532ef03d15fb17d402d8879a1d1fc3c3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/references/providers.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/providers.md
+  skills/flags-sdk/references/sveltekit.md:
+    sha256: 2b52b5599e5b56ac0e58dec09232a08cae3d457533b69dd3b398b12b7aff6c1f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/references/sveltekit.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/sveltekit.md
+  skills/flags-sdk/upstream/SKILL.md:
+    sha256: 0f9b3946959fccc21a8ac01b568bbf0100bf1f927075470f190361076b7139df
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/SKILL.md
+  skills/flags-sdk/upstream/references/api.md:
+    sha256: 94d6517b9d4d34be91dc33145f071a240e53d64e22d8e807995f549221376771
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/upstream/references/api.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/api.md
+  skills/flags-sdk/upstream/references/nextjs.md:
+    sha256: 2d932468ed5fd86492c1c15476c9321d0a7c5df44f1f4c8bfe2b9378f8868f01
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/upstream/references/nextjs.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/nextjs.md
+  skills/flags-sdk/upstream/references/providers.md:
+    sha256: 5fd1c6826ed67035351e6dcc5cb73987532ef03d15fb17d402d8879a1d1fc3c3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/upstream/references/providers.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/providers.md
+  skills/flags-sdk/upstream/references/sveltekit.md:
+    sha256: 2b52b5599e5b56ac0e58dec09232a08cae3d457533b69dd3b398b12b7aff6c1f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/flags-sdk/upstream/references/sveltekit.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/flags-sdk/references/sveltekit.md
+  skills/knowledge-update/SKILL.md:
+    sha256: b66f1c3ceebba4ed24cf118013322bb8eb2bb59f5428984cecec0c38fe13904d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/knowledge-update/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/knowledge-update/SKILL.md
+  skills/marketplace/SKILL.md:
+    sha256: a40c777113e78dfc8a3f430e53d850b5bda03ee724691e732a205accd0004843
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/marketplace/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/marketplace/SKILL.md
+  skills/microfrontends/SKILL.md:
+    sha256: 2b846d0e875117919e1720f6e086b09560b9f3efc5c3b17575d0f23adf173c1a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/SKILL.md
+  skills/microfrontends/references/configuration.md:
+    sha256: 4cf0bed8c766825f226ae7e1189277b87fb56ba3a81dd79a1d819c7aba12ccd2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/references/configuration.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/configuration.md
+  skills/microfrontends/references/local-development.md:
+    sha256: a3eedaa76060afa7c0b8d8fb4904127582631d881e3366e122ed5257316aaf3c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/references/local-development.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/local-development.md
+  skills/microfrontends/references/managing-microfrontends.md:
+    sha256: 0523de85aa1765ce22dc344074fe3be50b75377a5d802704d3ac391da9016fc3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/references/managing-microfrontends.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/managing-microfrontends.md
+  skills/microfrontends/references/path-routing.md:
+    sha256: f9b8f897e6ba0c24090012970de9aa6a638214caafddbeffc0fe91d0f27e643b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/references/path-routing.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/path-routing.md
+  skills/microfrontends/references/security.md:
+    sha256: 14947f8ba4487fd0478e7c0ad6802c060ffdc21171981d3e33d0b6e02c45986c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/references/security.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/security.md
+  skills/microfrontends/references/troubleshooting.md:
+    sha256: 88a972602f070a860e2017e067eef2220cd88cc57b14bc830bb0d18648895f17
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/microfrontends/references/troubleshooting.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/troubleshooting.md
+  skills/next-cache-components/SKILL.md:
+    sha256: 4c296aa985079c913f68e5bc0f603c0054fabd2dd7dfdfcc7000198fc5a4b99e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-cache-components/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-cache-components/SKILL.md
+  skills/next-cache-components/overlay.yaml:
+    sha256: a79036f0f25d87bd0481954ec200e58826291138fa07d7d9db0488ffb2b35fe1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-cache-components/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-cache-components/overlay.yaml
+  skills/next-cache-components/upstream/SKILL.md:
+    sha256: 92fc6ac94c5cabdcd13c7dc7aabd6a4d04921e6295dfc00dd9888e375fd1ff4c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-cache-components/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-cache-components/upstream/SKILL.md
+  skills/next-forge/SKILL.md:
+    sha256: 97fcefaa3f0a5174cceefeaea30e92aa7ec5f34d67730649eecad373ef0849d3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/SKILL.md
+  skills/next-forge/overlay.yaml:
+    sha256: 91acc51b7acd25c7387b528f37a6da26473b36f301b9ce7e68e943a33afa0f7d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/overlay.yaml
+  skills/next-forge/references/architecture.md:
+    sha256: b9ea72e475e747797dda1413e89843e218e850f43d9e0c597712cd53cfe7aa05
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/references/architecture.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/architecture.md
+  skills/next-forge/references/customization.md:
+    sha256: cf45ac1c0f4fe30b37ededb4bab2f915851fe6d96c4dddd618619d64ad765844
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/references/customization.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/customization.md
+  skills/next-forge/references/packages.md:
+    sha256: fce84c439bf91b73f487887c5d36d4f1980109aac8ce1e3b585c79b4fd2cfe31
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/references/packages.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/packages.md
+  skills/next-forge/references/setup.md:
+    sha256: 2625bc7da628a8a27c32b88863d1d0c20be3963bb7920c330cddaa7d5f000556
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/references/setup.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/setup.md
+  skills/next-forge/upstream/SKILL.md:
+    sha256: be76e0d67cfd50860e2014643fa085977d73e9d9f775f8132791b8e5d1ed5ac6
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/upstream/SKILL.md
+  skills/next-forge/upstream/references/architecture.md:
+    sha256: b9ea72e475e747797dda1413e89843e218e850f43d9e0c597712cd53cfe7aa05
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/upstream/references/architecture.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/architecture.md
+  skills/next-forge/upstream/references/customization.md:
+    sha256: cf45ac1c0f4fe30b37ededb4bab2f915851fe6d96c4dddd618619d64ad765844
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/upstream/references/customization.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/customization.md
+  skills/next-forge/upstream/references/packages.md:
+    sha256: fce84c439bf91b73f487887c5d36d4f1980109aac8ce1e3b585c79b4fd2cfe31
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/upstream/references/packages.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/packages.md
+  skills/next-forge/upstream/references/setup.md:
+    sha256: 2625bc7da628a8a27c32b88863d1d0c20be3963bb7920c330cddaa7d5f000556
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-forge/upstream/references/setup.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/setup.md
+  skills/next-upgrade/SKILL.md:
+    sha256: 96d79dd3cff54d5c1b00cbf3099dcafb8140de673d74ecd313eaba4b0ca1ae54
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-upgrade/SKILL.md
+  skills/next-upgrade/overlay.yaml:
+    sha256: 352d55b0977861b9f6fe9da8cf58527c3cc7dc43e00d3de827e75e3dbe351c34
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-upgrade/overlay.yaml
+  skills/next-upgrade/upstream/SKILL.md:
+    sha256: 562f9834d7c55c37498e0787fe431061f4bb766cd1dd6bb52441790593c7e1a8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/next-upgrade/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-upgrade/SKILL.md
+  skills/nextjs/SKILL.md:
+    sha256: a84d03ab8e78050515656d94984d98b37bd30d57b9e290a6b5071053dda5023f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/nextjs/SKILL.md
+  skills/nextjs/overlay.yaml:
+    sha256: 87c8edfe8c9731598e2d924a80d3766f42cdc8d29ccb1cdd0986ef6ef5a19d41
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/nextjs/overlay.yaml
+  skills/nextjs/references/app-router-files.md:
+    sha256: d11b45d535b41d047fbe22e062de5c72716d64b39b85e9c259cc8e1f5362a567
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/app-router-files.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/app-router-files.md
+  skills/nextjs/references/async-patterns.md:
+    sha256: 3a5e4a91d8399f0922c4a3b15b3490fbeb7396f976139a92311ea34cfa300584
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/async-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/async-patterns.md
+  skills/nextjs/references/bundling.md:
+    sha256: 5496b337073985068c61527e0a89fbf7088faa47b9f92d2dd09a7d070cb48a7c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/bundling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/bundling.md
+  skills/nextjs/references/data-patterns.md:
+    sha256: 538c8e24cd60eded9825a9461f2c644f5e6e5203d95aa4bf7c9486412bcc7aa1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/data-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/data-patterns.md
+  skills/nextjs/references/debug-tricks.md:
+    sha256: 62617a7cb131a2111f9f033617404fadb3458d56aeb0643f75aa5b2e43abf192
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/debug-tricks.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/debug-tricks.md
+  skills/nextjs/references/directives.md:
+    sha256: 60b82ee24a8d43631da59beeec11f46ab25ce83c8000578f2222ecb6b6cadf4d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/directives.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/directives.md
+  skills/nextjs/references/error-handling.md:
+    sha256: 30b4e825b625df01d4a7c441591ac46782aab4f913432e96f408153d5fa62098
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/error-handling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/error-handling.md
+  skills/nextjs/references/file-conventions.md:
+    sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/file-conventions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/file-conventions.md
+  skills/nextjs/references/font.md:
+    sha256: cb1f8d43e8fbca39839056b4621724837858bdace13e73bf3faf69abca318a21
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/font.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/font.md
+  skills/nextjs/references/functions.md:
+    sha256: 39a8a418af501d7132d289f4b5dd6cae59d1bfa6fda941d502fc29bb0204e079
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/functions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/functions.md
+  skills/nextjs/references/hydration-error.md:
+    sha256: d4baec07ab818045e284c45dd24422685ac934a38ea325139651f664a94eff57
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/hydration-error.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/hydration-error.md
+  skills/nextjs/references/image.md:
+    sha256: 231a15ddea67fe0b965762cc89993ca5aaeb0c35c0e67767bd53ca138ec04c05
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/image.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/image.md
+  skills/nextjs/references/metadata.md:
+    sha256: 19b00274877056f222f2284be5ade2479690e79e86af9a0466bc9d209506a95d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/metadata.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/metadata.md
+  skills/nextjs/references/parallel-routes.md:
+    sha256: d8a1c2546d90af2b37e22a4a56a1978555af0d62a7683e349ce3e3287ab8a4af
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/parallel-routes.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/parallel-routes.md
+  skills/nextjs/references/route-handlers.md:
+    sha256: 976a17de8024b3a65063350ae0fb6b9b617293f06358305800c858f58b015680
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/route-handlers.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/route-handlers.md
+  skills/nextjs/references/rsc-boundaries.md:
+    sha256: 2b50b0310884609efc9f2620fbb81ef83a30a810544e449ff669c55935d5b920
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/rsc-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/rsc-boundaries.md
+  skills/nextjs/references/runtime-selection.md:
+    sha256: 7abb95f9af0f4769e7e9e91aba94a5787ed16e2c4009a140c8577a3a49828060
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/runtime-selection.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/runtime-selection.md
+  skills/nextjs/references/scripts.md:
+    sha256: fff3bc7530d5af472e2825fde69a26218c9e58acba74d60913f403baab4628a3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/scripts.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/scripts.md
+  skills/nextjs/references/self-hosting.md:
+    sha256: f59e9afa0ff4dcbe20374dff13517ccec3ac6a239ef6d02e0ee8863cf9fc7082
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/self-hosting.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/self-hosting.md
+  skills/nextjs/references/suspense-boundaries.md:
+    sha256: 63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/references/suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/suspense-boundaries.md
+  skills/nextjs/upstream/SKILL.md:
+    sha256: c78f952d4e98bf3694856dbf70c03a6037d4e258ff3701f2642bfdf108549a25
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/SKILL.md
+  skills/nextjs/upstream/references/app-router-files.md:
+    sha256: d11b45d535b41d047fbe22e062de5c72716d64b39b85e9c259cc8e1f5362a567
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/app-router-files.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/app-router-files.md
+  skills/nextjs/upstream/references/async-patterns.md:
+    sha256: 3a5e4a91d8399f0922c4a3b15b3490fbeb7396f976139a92311ea34cfa300584
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/async-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/async-patterns.md
+  skills/nextjs/upstream/references/bundling.md:
+    sha256: 5496b337073985068c61527e0a89fbf7088faa47b9f92d2dd09a7d070cb48a7c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/bundling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/bundling.md
+  skills/nextjs/upstream/references/data-patterns.md:
+    sha256: 538c8e24cd60eded9825a9461f2c644f5e6e5203d95aa4bf7c9486412bcc7aa1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/data-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/data-patterns.md
+  skills/nextjs/upstream/references/debug-tricks.md:
+    sha256: 62617a7cb131a2111f9f033617404fadb3458d56aeb0643f75aa5b2e43abf192
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/debug-tricks.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/debug-tricks.md
+  skills/nextjs/upstream/references/directives.md:
+    sha256: 60b82ee24a8d43631da59beeec11f46ab25ce83c8000578f2222ecb6b6cadf4d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/directives.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/directives.md
+  skills/nextjs/upstream/references/error-handling.md:
+    sha256: 30b4e825b625df01d4a7c441591ac46782aab4f913432e96f408153d5fa62098
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/error-handling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/error-handling.md
+  skills/nextjs/upstream/references/file-conventions.md:
+    sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/file-conventions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/file-conventions.md
+  skills/nextjs/upstream/references/font.md:
+    sha256: cb1f8d43e8fbca39839056b4621724837858bdace13e73bf3faf69abca318a21
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/font.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/font.md
+  skills/nextjs/upstream/references/functions.md:
+    sha256: 39a8a418af501d7132d289f4b5dd6cae59d1bfa6fda941d502fc29bb0204e079
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/functions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/functions.md
+  skills/nextjs/upstream/references/hydration-error.md:
+    sha256: d4baec07ab818045e284c45dd24422685ac934a38ea325139651f664a94eff57
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/hydration-error.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/hydration-error.md
+  skills/nextjs/upstream/references/image.md:
+    sha256: 231a15ddea67fe0b965762cc89993ca5aaeb0c35c0e67767bd53ca138ec04c05
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/image.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/image.md
+  skills/nextjs/upstream/references/metadata.md:
+    sha256: 19b00274877056f222f2284be5ade2479690e79e86af9a0466bc9d209506a95d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/metadata.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/metadata.md
+  skills/nextjs/upstream/references/parallel-routes.md:
+    sha256: d8a1c2546d90af2b37e22a4a56a1978555af0d62a7683e349ce3e3287ab8a4af
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/parallel-routes.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/parallel-routes.md
+  skills/nextjs/upstream/references/route-handlers.md:
+    sha256: 976a17de8024b3a65063350ae0fb6b9b617293f06358305800c858f58b015680
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/route-handlers.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/route-handlers.md
+  skills/nextjs/upstream/references/rsc-boundaries.md:
+    sha256: 2b50b0310884609efc9f2620fbb81ef83a30a810544e449ff669c55935d5b920
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/rsc-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/rsc-boundaries.md
+  skills/nextjs/upstream/references/runtime-selection.md:
+    sha256: 7abb95f9af0f4769e7e9e91aba94a5787ed16e2c4009a140c8577a3a49828060
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/runtime-selection.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/runtime-selection.md
+  skills/nextjs/upstream/references/scripts.md:
+    sha256: fff3bc7530d5af472e2825fde69a26218c9e58acba74d60913f403baab4628a3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/scripts.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/scripts.md
+  skills/nextjs/upstream/references/self-hosting.md:
+    sha256: f59e9afa0ff4dcbe20374dff13517ccec3ac6a239ef6d02e0ee8863cf9fc7082
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/self-hosting.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/self-hosting.md
+  skills/nextjs/upstream/references/suspense-boundaries.md:
+    sha256: 63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/nextjs/upstream/references/suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/suspense-boundaries.md
+  skills/queues/SKILL.md:
+    sha256: a958abbed69e2b25b6364b66aa531a305cf81c775a80b810e4569f6f1be1bfac
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/queues/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/queues/SKILL.md
+  skills/react-best-practices/AGENTS.md:
+    sha256: 6327efcce0c631580cee5bf2dcac8f884a81172a0261fa3c8ca458a72f603165
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/AGENTS.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/AGENTS.md
+  skills/react-best-practices/SKILL.md:
+    sha256: 1f5a862b4c60fbf157dc98931606a41485223e616840393a00d0a9f053f10f28
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/SKILL.md
+  skills/react-best-practices/overlay.yaml:
+    sha256: 43032c7c1e409d7a27d2c7ff9230b1160f7319a03cdcfcafdace6f6ab46a3383
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/overlay.yaml
+  skills/react-best-practices/rules/_sections.md:
+    sha256: 01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/_sections.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_sections.md
+  skills/react-best-practices/rules/_template.md:
+    sha256: 99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/_template.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_template.md
+  skills/react-best-practices/rules/advanced-event-handler-refs.md:
+    sha256: a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/advanced-event-handler-refs.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md
+  skills/react-best-practices/rules/advanced-init-once.md:
+    sha256: 3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/advanced-init-once.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-init-once.md
+  skills/react-best-practices/rules/advanced-use-latest.md:
+    sha256: 8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/advanced-use-latest.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-use-latest.md
+  skills/react-best-practices/rules/async-api-routes.md:
+    sha256: 523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/async-api-routes.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-api-routes.md
+  skills/react-best-practices/rules/async-defer-await.md:
+    sha256: 9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/async-defer-await.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/async-defer-await.md
+  skills/react-best-practices/rules/async-dependencies.md:
+    sha256: 16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/async-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-dependencies.md
+  skills/react-best-practices/rules/async-parallel.md:
+    sha256: 6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/async-parallel.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-parallel.md
+  skills/react-best-practices/rules/async-suspense-boundaries.md:
+    sha256: de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/async-suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md
+  skills/react-best-practices/rules/bundle-barrel-imports.md:
+    sha256: 9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/bundle-barrel-imports.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/bundle-barrel-imports.md
+  skills/react-best-practices/rules/bundle-conditional.md:
+    sha256: 09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/bundle-conditional.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-conditional.md
+  skills/react-best-practices/rules/bundle-defer-third-party.md:
+    sha256: 3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/bundle-defer-third-party.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md
+  skills/react-best-practices/rules/bundle-dynamic-imports.md:
+    sha256: 401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/bundle-dynamic-imports.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md
+  skills/react-best-practices/rules/bundle-preload.md:
+    sha256: d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/bundle-preload.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-preload.md
+  skills/react-best-practices/rules/client-event-listeners.md:
+    sha256: 242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/client-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-event-listeners.md
+  skills/react-best-practices/rules/client-localstorage-schema.md:
+    sha256: 0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/client-localstorage-schema.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-localstorage-schema.md
+  skills/react-best-practices/rules/client-passive-event-listeners.md:
+    sha256: 1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/client-passive-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md
+  skills/react-best-practices/rules/client-swr-dedup.md:
+    sha256: 644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/client-swr-dedup.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-swr-dedup.md
+  skills/react-best-practices/rules/js-batch-dom-css.md:
+    sha256: 480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-batch-dom-css.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-batch-dom-css.md
+  skills/react-best-practices/rules/js-cache-function-results.md:
+    sha256: 3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-cache-function-results.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-function-results.md
+  skills/react-best-practices/rules/js-cache-property-access.md:
+    sha256: 73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-cache-property-access.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-property-access.md
+  skills/react-best-practices/rules/js-cache-storage.md:
+    sha256: 11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-cache-storage.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-storage.md
+  skills/react-best-practices/rules/js-combine-iterations.md:
+    sha256: 71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-combine-iterations.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-combine-iterations.md
+  skills/react-best-practices/rules/js-early-exit.md:
+    sha256: 925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-early-exit.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-early-exit.md
+  skills/react-best-practices/rules/js-flatmap-filter.md:
+    sha256: 9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-flatmap-filter.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-flatmap-filter.md
+  skills/react-best-practices/rules/js-hoist-regexp.md:
+    sha256: f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-hoist-regexp.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-hoist-regexp.md
+  skills/react-best-practices/rules/js-index-maps.md:
+    sha256: 5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-index-maps.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-index-maps.md
+  skills/react-best-practices/rules/js-length-check-first.md:
+    sha256: 8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-length-check-first.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-length-check-first.md
+  skills/react-best-practices/rules/js-min-max-loop.md:
+    sha256: 87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-min-max-loop.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-min-max-loop.md
+  skills/react-best-practices/rules/js-set-map-lookups.md:
+    sha256: a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-set-map-lookups.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-set-map-lookups.md
+  skills/react-best-practices/rules/js-tosorted-immutable.md:
+    sha256: d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/js-tosorted-immutable.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md
+  skills/react-best-practices/rules/rendering-activity.md:
+    sha256: 1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-activity.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-activity.md
+  skills/react-best-practices/rules/rendering-animate-svg-wrapper.md:
+    sha256: 9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md
+  skills/react-best-practices/rules/rendering-conditional-render.md:
+    sha256: 2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-conditional-render.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-conditional-render.md
+  skills/react-best-practices/rules/rendering-content-visibility.md:
+    sha256: 64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-content-visibility.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-content-visibility.md
+  skills/react-best-practices/rules/rendering-hoist-jsx.md:
+    sha256: 93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-hoist-jsx.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md
+  skills/react-best-practices/rules/rendering-hydration-no-flicker.md:
+    sha256: dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-hydration-no-flicker.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md
+  skills/react-best-practices/rules/rendering-hydration-suppress-warning.md:
+    sha256: 915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-hydration-suppress-warning.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md
+  skills/react-best-practices/rules/rendering-resource-hints.md:
+    sha256: 351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-resource-hints.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-resource-hints.md
+  skills/react-best-practices/rules/rendering-script-defer-async.md:
+    sha256: 4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-script-defer-async.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md
+  skills/react-best-practices/rules/rendering-svg-precision.md:
+    sha256: ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-svg-precision.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-svg-precision.md
+  skills/react-best-practices/rules/rendering-usetransition-loading.md:
+    sha256: 3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rendering-usetransition-loading.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md
+  skills/react-best-practices/rules/rerender-defer-reads.md:
+    sha256: 234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-defer-reads.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-defer-reads.md
+  skills/react-best-practices/rules/rerender-dependencies.md:
+    sha256: 17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-dependencies.md
+  skills/react-best-practices/rules/rerender-derived-state-no-effect.md:
+    sha256: cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-derived-state-no-effect.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md
+  skills/react-best-practices/rules/rerender-derived-state.md:
+    sha256: 1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-derived-state.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state.md
+  skills/react-best-practices/rules/rerender-functional-setstate.md:
+    sha256: 5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-functional-setstate.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md
+  skills/react-best-practices/rules/rerender-lazy-state-init.md:
+    sha256: 4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-lazy-state-init.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md
+  skills/react-best-practices/rules/rerender-memo-with-default-value.md:
+    sha256: 81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-memo-with-default-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md
+  skills/react-best-practices/rules/rerender-memo.md:
+    sha256: 1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo.md
+  skills/react-best-practices/rules/rerender-move-effect-to-event.md:
+    sha256: abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-move-effect-to-event.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md
+  skills/react-best-practices/rules/rerender-no-inline-components.md:
+    sha256: 1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-no-inline-components.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md
+  skills/react-best-practices/rules/rerender-simple-expression-in-memo.md:
+    sha256: 5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-simple-expression-in-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md
+  skills/react-best-practices/rules/rerender-split-combined-hooks.md:
+    sha256: 6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-split-combined-hooks.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md
+  skills/react-best-practices/rules/rerender-transitions.md:
+    sha256: 60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-transitions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-transitions.md
+  skills/react-best-practices/rules/rerender-use-deferred-value.md:
+    sha256: 8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-use-deferred-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md
+  skills/react-best-practices/rules/rerender-use-ref-transient-values.md:
+    sha256: f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/rerender-use-ref-transient-values.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md
+  skills/react-best-practices/rules/server-after-nonblocking.md:
+    sha256: d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-after-nonblocking.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-after-nonblocking.md
+  skills/react-best-practices/rules/server-auth-actions.md:
+    sha256: a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-auth-actions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-auth-actions.md
+  skills/react-best-practices/rules/server-cache-lru.md:
+    sha256: 1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-cache-lru.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-lru.md
+  skills/react-best-practices/rules/server-cache-react.md:
+    sha256: fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-cache-react.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-react.md
+  skills/react-best-practices/rules/server-dedup-props.md:
+    sha256: c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-dedup-props.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-dedup-props.md
+  skills/react-best-practices/rules/server-hoist-static-io.md:
+    sha256: f90610d0f0db0fa8da5cf99790ed3369544a5b9b671bc4198347c95ec3325db4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-hoist-static-io.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/server-hoist-static-io.md
+  skills/react-best-practices/rules/server-parallel-fetching.md:
+    sha256: 569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-parallel-fetching.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-parallel-fetching.md
+  skills/react-best-practices/rules/server-serialization.md:
+    sha256: f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/rules/server-serialization.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-serialization.md
+  skills/react-best-practices/upstream/AGENTS.md:
+    sha256: 6327efcce0c631580cee5bf2dcac8f884a81172a0261fa3c8ca458a72f603165
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/AGENTS.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/AGENTS.md
+  skills/react-best-practices/upstream/SKILL.md:
+    sha256: d7b0ec66ea66a17e882f824081ef1d79d5a7c4b0a0304046fde7345482b8cc06
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/upstream/SKILL.md
+  skills/react-best-practices/upstream/rules/_sections.md:
+    sha256: 01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/_sections.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_sections.md
+  skills/react-best-practices/upstream/rules/_template.md:
+    sha256: 99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/_template.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_template.md
+  skills/react-best-practices/upstream/rules/advanced-event-handler-refs.md:
+    sha256: a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/advanced-event-handler-refs.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md
+  skills/react-best-practices/upstream/rules/advanced-init-once.md:
+    sha256: 3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/advanced-init-once.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-init-once.md
+  skills/react-best-practices/upstream/rules/advanced-use-latest.md:
+    sha256: 8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/advanced-use-latest.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-use-latest.md
+  skills/react-best-practices/upstream/rules/async-api-routes.md:
+    sha256: 523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/async-api-routes.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-api-routes.md
+  skills/react-best-practices/upstream/rules/async-defer-await.md:
+    sha256: 9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/async-defer-await.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/async-defer-await.md
+  skills/react-best-practices/upstream/rules/async-dependencies.md:
+    sha256: 16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/async-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-dependencies.md
+  skills/react-best-practices/upstream/rules/async-parallel.md:
+    sha256: 6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/async-parallel.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-parallel.md
+  skills/react-best-practices/upstream/rules/async-suspense-boundaries.md:
+    sha256: de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/async-suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md
+  skills/react-best-practices/upstream/rules/bundle-barrel-imports.md:
+    sha256: 9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/bundle-barrel-imports.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/bundle-barrel-imports.md
+  skills/react-best-practices/upstream/rules/bundle-conditional.md:
+    sha256: 09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/bundle-conditional.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-conditional.md
+  skills/react-best-practices/upstream/rules/bundle-defer-third-party.md:
+    sha256: 3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/bundle-defer-third-party.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md
+  skills/react-best-practices/upstream/rules/bundle-dynamic-imports.md:
+    sha256: 401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/bundle-dynamic-imports.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md
+  skills/react-best-practices/upstream/rules/bundle-preload.md:
+    sha256: d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/bundle-preload.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-preload.md
+  skills/react-best-practices/upstream/rules/client-event-listeners.md:
+    sha256: 242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/client-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-event-listeners.md
+  skills/react-best-practices/upstream/rules/client-localstorage-schema.md:
+    sha256: 0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/client-localstorage-schema.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-localstorage-schema.md
+  skills/react-best-practices/upstream/rules/client-passive-event-listeners.md:
+    sha256: 1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/client-passive-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md
+  skills/react-best-practices/upstream/rules/client-swr-dedup.md:
+    sha256: 644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/client-swr-dedup.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-swr-dedup.md
+  skills/react-best-practices/upstream/rules/js-batch-dom-css.md:
+    sha256: 480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-batch-dom-css.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-batch-dom-css.md
+  skills/react-best-practices/upstream/rules/js-cache-function-results.md:
+    sha256: 3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-cache-function-results.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-function-results.md
+  skills/react-best-practices/upstream/rules/js-cache-property-access.md:
+    sha256: 73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-cache-property-access.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-property-access.md
+  skills/react-best-practices/upstream/rules/js-cache-storage.md:
+    sha256: 11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-cache-storage.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-storage.md
+  skills/react-best-practices/upstream/rules/js-combine-iterations.md:
+    sha256: 71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-combine-iterations.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-combine-iterations.md
+  skills/react-best-practices/upstream/rules/js-early-exit.md:
+    sha256: 925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-early-exit.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-early-exit.md
+  skills/react-best-practices/upstream/rules/js-flatmap-filter.md:
+    sha256: 9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-flatmap-filter.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-flatmap-filter.md
+  skills/react-best-practices/upstream/rules/js-hoist-regexp.md:
+    sha256: f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-hoist-regexp.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-hoist-regexp.md
+  skills/react-best-practices/upstream/rules/js-index-maps.md:
+    sha256: 5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-index-maps.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-index-maps.md
+  skills/react-best-practices/upstream/rules/js-length-check-first.md:
+    sha256: 8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-length-check-first.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-length-check-first.md
+  skills/react-best-practices/upstream/rules/js-min-max-loop.md:
+    sha256: 87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-min-max-loop.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-min-max-loop.md
+  skills/react-best-practices/upstream/rules/js-set-map-lookups.md:
+    sha256: a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-set-map-lookups.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-set-map-lookups.md
+  skills/react-best-practices/upstream/rules/js-tosorted-immutable.md:
+    sha256: d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/js-tosorted-immutable.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md
+  skills/react-best-practices/upstream/rules/rendering-activity.md:
+    sha256: 1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-activity.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-activity.md
+  skills/react-best-practices/upstream/rules/rendering-animate-svg-wrapper.md:
+    sha256: 9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-animate-svg-wrapper.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md
+  skills/react-best-practices/upstream/rules/rendering-conditional-render.md:
+    sha256: 2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-conditional-render.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-conditional-render.md
+  skills/react-best-practices/upstream/rules/rendering-content-visibility.md:
+    sha256: 64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-content-visibility.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-content-visibility.md
+  skills/react-best-practices/upstream/rules/rendering-hoist-jsx.md:
+    sha256: 93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-hoist-jsx.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md
+  skills/react-best-practices/upstream/rules/rendering-hydration-no-flicker.md:
+    sha256: dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-hydration-no-flicker.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md
+  skills/react-best-practices/upstream/rules/rendering-hydration-suppress-warning.md:
+    sha256: 915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-hydration-suppress-warning.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md
+  skills/react-best-practices/upstream/rules/rendering-resource-hints.md:
+    sha256: 351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-resource-hints.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-resource-hints.md
+  skills/react-best-practices/upstream/rules/rendering-script-defer-async.md:
+    sha256: 4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-script-defer-async.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md
+  skills/react-best-practices/upstream/rules/rendering-svg-precision.md:
+    sha256: ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-svg-precision.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-svg-precision.md
+  skills/react-best-practices/upstream/rules/rendering-usetransition-loading.md:
+    sha256: 3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rendering-usetransition-loading.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md
+  skills/react-best-practices/upstream/rules/rerender-defer-reads.md:
+    sha256: 234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-defer-reads.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-defer-reads.md
+  skills/react-best-practices/upstream/rules/rerender-dependencies.md:
+    sha256: 17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-dependencies.md
+  skills/react-best-practices/upstream/rules/rerender-derived-state-no-effect.md:
+    sha256: cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-derived-state-no-effect.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md
+  skills/react-best-practices/upstream/rules/rerender-derived-state.md:
+    sha256: 1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-derived-state.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state.md
+  skills/react-best-practices/upstream/rules/rerender-functional-setstate.md:
+    sha256: 5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-functional-setstate.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md
+  skills/react-best-practices/upstream/rules/rerender-lazy-state-init.md:
+    sha256: 4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-lazy-state-init.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md
+  skills/react-best-practices/upstream/rules/rerender-memo-with-default-value.md:
+    sha256: 81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-memo-with-default-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md
+  skills/react-best-practices/upstream/rules/rerender-memo.md:
+    sha256: 1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo.md
+  skills/react-best-practices/upstream/rules/rerender-move-effect-to-event.md:
+    sha256: abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-move-effect-to-event.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md
+  skills/react-best-practices/upstream/rules/rerender-no-inline-components.md:
+    sha256: 1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-no-inline-components.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md
+  skills/react-best-practices/upstream/rules/rerender-simple-expression-in-memo.md:
+    sha256: 5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-simple-expression-in-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md
+  skills/react-best-practices/upstream/rules/rerender-split-combined-hooks.md:
+    sha256: 6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-split-combined-hooks.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md
+  skills/react-best-practices/upstream/rules/rerender-transitions.md:
+    sha256: 60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-transitions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-transitions.md
+  skills/react-best-practices/upstream/rules/rerender-use-deferred-value.md:
+    sha256: 8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-use-deferred-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md
+  skills/react-best-practices/upstream/rules/rerender-use-ref-transient-values.md:
+    sha256: f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/rerender-use-ref-transient-values.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md
+  skills/react-best-practices/upstream/rules/server-after-nonblocking.md:
+    sha256: d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-after-nonblocking.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-after-nonblocking.md
+  skills/react-best-practices/upstream/rules/server-auth-actions.md:
+    sha256: a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-auth-actions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-auth-actions.md
+  skills/react-best-practices/upstream/rules/server-cache-lru.md:
+    sha256: 1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-cache-lru.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-lru.md
+  skills/react-best-practices/upstream/rules/server-cache-react.md:
+    sha256: fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-cache-react.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-react.md
+  skills/react-best-practices/upstream/rules/server-dedup-props.md:
+    sha256: c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-dedup-props.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-dedup-props.md
+  skills/react-best-practices/upstream/rules/server-hoist-static-io.md:
+    sha256: f90610d0f0db0fa8da5cf99790ed3369544a5b9b671bc4198347c95ec3325db4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-hoist-static-io.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/server-hoist-static-io.md
+  skills/react-best-practices/upstream/rules/server-parallel-fetching.md:
+    sha256: 569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-parallel-fetching.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-parallel-fetching.md
+  skills/react-best-practices/upstream/rules/server-serialization.md:
+    sha256: f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/react-best-practices/upstream/rules/server-serialization.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-serialization.md
+  skills/routing-middleware/SKILL.md:
+    sha256: 9003a1cf8e0493b8c545b15d3ba5557a077d3845e7775c996951eb73acabc583
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/routing-middleware/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/routing-middleware/SKILL.md
+  skills/runtime-cache/SKILL.md:
+    sha256: 22fb4be9b3b2e39ed5514467c44f5a809a0ccfccc4ebaac64273e8918b47a1c2
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/runtime-cache/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/runtime-cache/SKILL.md
+  skills/shadcn/SKILL.md:
+    sha256: 4a24abf22a6d10a6e4a0917b0cfb73e45dfa15cd5eec502ec19c661863d8c5f1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/shadcn/SKILL.md
+  skills/turbopack/SKILL.md:
+    sha256: 8ef65187c42680aae178288baa02ee8328ad72995cfa7ead960e12389297ef1c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/turbopack/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/turbopack/SKILL.md
+  skills/vercel-agent/SKILL.md:
+    sha256: a4daee44ddb12782d6e320a3d5d732e02ae391061404306ace4ceb1ba604f31f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-agent/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-agent/SKILL.md
+  skills/vercel-cli/SKILL.md:
+    sha256: 6399a7d4f2fc8b7202c46ae4a63380c32ff8a994bd952985ee3f9b0fbf25b756
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/SKILL.md
+  skills/vercel-cli/command/vercel.md:
+    sha256: 507c784f205f1ada9381dd08c7e9455fa7974da218a21da356ea19b28e775832
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/command/vercel.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/command/vercel.md
+  skills/vercel-cli/overlay.yaml:
+    sha256: 9848383937004d511665db3f97f933a638e619902b61564ce38208cd30940e39
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/overlay.yaml
+  skills/vercel-cli/references/advanced.md:
+    sha256: 091f15f35732347c93a3b838cd55a9863fa5ad1755c513f407cd6a357ef8ba5d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/advanced.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/advanced.md
+  skills/vercel-cli/references/agent-and-ai.md:
+    sha256: 015963f1ecd320f86cb58677bc5ed6adc6ec51295a844dca5940afdd07ccd2f3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/agent-and-ai.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/agent-and-ai.md
+  skills/vercel-cli/references/bun.md:
+    sha256: ad009b1eb8da4890f32f482330832e3eb3b33aac7c30ab05c3ce5a546fb0de9f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/bun.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/bun.md
+  skills/vercel-cli/references/ci-automation.md:
+    sha256: c93ac7152a0de55fc8dd000d6c655a71fc9f00c30ec31f98fbc143e1afa3973c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/ci-automation.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/ci-automation.md
+  skills/vercel-cli/references/comments.md:
+    sha256: 2bb52fa31b2598853594486b5a7f2b901171f7cc786aaf4bc7f8a96b7c612075
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/comments.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/comments.md
+  skills/vercel-cli/references/connectors.md:
+    sha256: 858331eaf0d5fc3ce7587e140216e96f7577fc239a1f8df6b42a2bd38945f155
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/connectors.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/connectors.md
+  skills/vercel-cli/references/container-registry.md:
+    sha256: 44dd6bcc134126dec2cd6772de09e58182290a5f7282ad6ae99b23eab5006f5a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/container-registry.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/container-registry.md
+  skills/vercel-cli/references/deployment.md:
+    sha256: a3778131495136519290b1dea5e1d5a7f59e497910e49e0593105ad3085e636f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/deployment.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/deployment.md
+  skills/vercel-cli/references/domains-and-dns.md:
+    sha256: 120afc2b6d2ba025d5be74a89d88d8b3fc6c1736e4034eeae9d166164e482170
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/domains-and-dns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/domains-and-dns.md
+  skills/vercel-cli/references/environment-variables.md:
+    sha256: 56d5c915153cbc8a4ee6a44b858b03f5afd74bf3d5e3d0fc9007b20b6cd7e6f0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/environment-variables.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/environment-variables.md
+  skills/vercel-cli/references/firewall.md:
+    sha256: 587146cb57561a73f5bde7595aad60408171a326411704e34f9278b5a3e875e8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/firewall.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/firewall.md
+  skills/vercel-cli/references/flags.md:
+    sha256: e7e9b695d04092e05b0aa2d6afff42ae051ec84d71f403ffa376461dcbe61c7a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/flags.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/flags.md
+  skills/vercel-cli/references/getting-started.md:
+    sha256: 24e464d4693e43c2e168dfec10753481a4027714507d0fe4464394aa1639ce67
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/getting-started.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/getting-started.md
+  skills/vercel-cli/references/global-options.md:
+    sha256: 61e986b3498d754f49aba94ac9aaf7e2fd585f03083819ad0a177e0845519b2e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/global-options.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/global-options.md
+  skills/vercel-cli/references/integrations.md:
+    sha256: 1f429646f546ad67c9c45580e0ccd52c7045ef1a77b637e5cdc997397eb6f335
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/integrations.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/integrations.md
+  skills/vercel-cli/references/local-development.md:
+    sha256: c800d24d89201a979fb2d338bcedbcd87e50a8c6724be5c51fff12e3e1a365e4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/local-development.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/local-development.md
+  skills/vercel-cli/references/microfrontends.md:
+    sha256: bd9dd101ac78035312f72bf363d181723967b00c1485b662af88090c253c33dc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/microfrontends.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/microfrontends.md
+  skills/vercel-cli/references/monitoring-and-debugging.md:
+    sha256: fac6445e70afcadf77ba306f388fcd9f9807563db7ee493d49ee4fb2d19a6c32
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/monitoring-and-debugging.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/monitoring-and-debugging.md
+  skills/vercel-cli/references/monorepos.md:
+    sha256: 07dad4cbec06980fa9d097dfe7b209fb079c2b4047f935fc4b94147cb95e0eb1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/monorepos.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/monorepos.md
+  skills/vercel-cli/references/node-backends.md:
+    sha256: f28175cbd4ddc00473a3d1565819e5069a57fdc186ae4010f2535715c61769cb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/node-backends.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/node-backends.md
+  skills/vercel-cli/references/platform-ops.md:
+    sha256: 403983b064474a14f81104366c0300e92bc67c7185154af60bdfc29f0fc6fb52
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/platform-ops.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/platform-ops.md
+  skills/vercel-cli/references/project-infra.md:
+    sha256: f6c3d2ab23b13b9d5d3ccff05680b97d124971fad075b93a98ddbcf3ca895a30
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/project-infra.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/project-infra.md
+  skills/vercel-cli/references/projects-and-teams.md:
+    sha256: 4be92d2cba1a30bf87e864522527aa90205e60a7b380e098fe0f063e4a0502b3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/projects-and-teams.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/projects-and-teams.md
+  skills/vercel-cli/references/routing.md:
+    sha256: 56ede41767fc9d6dbd07075d15cddbbbaac50b45825a0995ffb0e580d08997b1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/routing.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/routing.md
+  skills/vercel-cli/references/sandbox.md:
+    sha256: cfad30d79d16ab0e75fbdec15d0fdbbbe106599ee9181a6798b4d184d60b50c5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/sandbox.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/sandbox.md
+  skills/vercel-cli/references/storage.md:
+    sha256: e39a8a91b818de4aa79661b39e1396d37aa17dd683920a40c0cbaf584cd3c1bf
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/references/storage.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/storage.md
+  skills/vercel-cli/upstream/SKILL.md:
+    sha256: 002ab07820a2e0109cb3d28e30a6d7d9dfe4fd132eef66efd652343d939dcdea
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/SKILL.md
+  skills/vercel-cli/upstream/command/vercel.md:
+    sha256: 507c784f205f1ada9381dd08c7e9455fa7974da218a21da356ea19b28e775832
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/command/vercel.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/command/vercel.md
+  skills/vercel-cli/upstream/references/advanced.md:
+    sha256: 091f15f35732347c93a3b838cd55a9863fa5ad1755c513f407cd6a357ef8ba5d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/advanced.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/advanced.md
+  skills/vercel-cli/upstream/references/agent-and-ai.md:
+    sha256: 015963f1ecd320f86cb58677bc5ed6adc6ec51295a844dca5940afdd07ccd2f3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/agent-and-ai.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/agent-and-ai.md
+  skills/vercel-cli/upstream/references/bun.md:
+    sha256: ad009b1eb8da4890f32f482330832e3eb3b33aac7c30ab05c3ce5a546fb0de9f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/bun.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/bun.md
+  skills/vercel-cli/upstream/references/ci-automation.md:
+    sha256: c93ac7152a0de55fc8dd000d6c655a71fc9f00c30ec31f98fbc143e1afa3973c
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/ci-automation.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/ci-automation.md
+  skills/vercel-cli/upstream/references/comments.md:
+    sha256: 2bb52fa31b2598853594486b5a7f2b901171f7cc786aaf4bc7f8a96b7c612075
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/comments.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/comments.md
+  skills/vercel-cli/upstream/references/connectors.md:
+    sha256: 858331eaf0d5fc3ce7587e140216e96f7577fc239a1f8df6b42a2bd38945f155
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/connectors.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/connectors.md
+  skills/vercel-cli/upstream/references/container-registry.md:
+    sha256: 44dd6bcc134126dec2cd6772de09e58182290a5f7282ad6ae99b23eab5006f5a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/container-registry.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/container-registry.md
+  skills/vercel-cli/upstream/references/deployment.md:
+    sha256: a3778131495136519290b1dea5e1d5a7f59e497910e49e0593105ad3085e636f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/deployment.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/deployment.md
+  skills/vercel-cli/upstream/references/domains-and-dns.md:
+    sha256: 120afc2b6d2ba025d5be74a89d88d8b3fc6c1736e4034eeae9d166164e482170
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/domains-and-dns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/domains-and-dns.md
+  skills/vercel-cli/upstream/references/environment-variables.md:
+    sha256: 56d5c915153cbc8a4ee6a44b858b03f5afd74bf3d5e3d0fc9007b20b6cd7e6f0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/environment-variables.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/environment-variables.md
+  skills/vercel-cli/upstream/references/firewall.md:
+    sha256: 587146cb57561a73f5bde7595aad60408171a326411704e34f9278b5a3e875e8
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/firewall.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/firewall.md
+  skills/vercel-cli/upstream/references/flags.md:
+    sha256: e7e9b695d04092e05b0aa2d6afff42ae051ec84d71f403ffa376461dcbe61c7a
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/flags.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/flags.md
+  skills/vercel-cli/upstream/references/getting-started.md:
+    sha256: 24e464d4693e43c2e168dfec10753481a4027714507d0fe4464394aa1639ce67
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/getting-started.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/getting-started.md
+  skills/vercel-cli/upstream/references/global-options.md:
+    sha256: 61e986b3498d754f49aba94ac9aaf7e2fd585f03083819ad0a177e0845519b2e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/global-options.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/global-options.md
+  skills/vercel-cli/upstream/references/integrations.md:
+    sha256: 1f429646f546ad67c9c45580e0ccd52c7045ef1a77b637e5cdc997397eb6f335
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/integrations.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/integrations.md
+  skills/vercel-cli/upstream/references/local-development.md:
+    sha256: c800d24d89201a979fb2d338bcedbcd87e50a8c6724be5c51fff12e3e1a365e4
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/local-development.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/local-development.md
+  skills/vercel-cli/upstream/references/microfrontends.md:
+    sha256: bd9dd101ac78035312f72bf363d181723967b00c1485b662af88090c253c33dc
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/microfrontends.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/microfrontends.md
+  skills/vercel-cli/upstream/references/monitoring-and-debugging.md:
+    sha256: fac6445e70afcadf77ba306f388fcd9f9807563db7ee493d49ee4fb2d19a6c32
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/monitoring-and-debugging.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/monitoring-and-debugging.md
+  skills/vercel-cli/upstream/references/monorepos.md:
+    sha256: 07dad4cbec06980fa9d097dfe7b209fb079c2b4047f935fc4b94147cb95e0eb1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/monorepos.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/monorepos.md
+  skills/vercel-cli/upstream/references/node-backends.md:
+    sha256: f28175cbd4ddc00473a3d1565819e5069a57fdc186ae4010f2535715c61769cb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/node-backends.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/node-backends.md
+  skills/vercel-cli/upstream/references/platform-ops.md:
+    sha256: 403983b064474a14f81104366c0300e92bc67c7185154af60bdfc29f0fc6fb52
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/platform-ops.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/platform-ops.md
+  skills/vercel-cli/upstream/references/project-infra.md:
+    sha256: f6c3d2ab23b13b9d5d3ccff05680b97d124971fad075b93a98ddbcf3ca895a30
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/project-infra.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/project-infra.md
+  skills/vercel-cli/upstream/references/projects-and-teams.md:
+    sha256: 4be92d2cba1a30bf87e864522527aa90205e60a7b380e098fe0f063e4a0502b3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/projects-and-teams.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/projects-and-teams.md
+  skills/vercel-cli/upstream/references/routing.md:
+    sha256: 56ede41767fc9d6dbd07075d15cddbbbaac50b45825a0995ffb0e580d08997b1
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/routing.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/routing.md
+  skills/vercel-cli/upstream/references/sandbox.md:
+    sha256: cfad30d79d16ab0e75fbdec15d0fdbbbe106599ee9181a6798b4d184d60b50c5
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/sandbox.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/sandbox.md
+  skills/vercel-cli/upstream/references/storage.md:
+    sha256: e39a8a91b818de4aa79661b39e1396d37aa17dd683920a40c0cbaf584cd3c1bf
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-cli/upstream/references/storage.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-cli/references/storage.md
+  skills/vercel-connect/SKILL.md:
+    sha256: e912490c851afc1d6892717fa06655bae67022326c2c216a65d2f31980881e8b
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-connect/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-connect/SKILL.md
+  skills/vercel-firewall/SKILL.md:
+    sha256: 04869e0db25bf5bf1f0d26c541dc952bd37fc512786fd6838a7c9ef5dc630918
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-firewall/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-firewall/SKILL.md
+  skills/vercel-functions/SKILL.md:
+    sha256: 62bfb2dc4ba0236248ad9020ca39acd43ee43c2d4f1f2f29e162095442f36e92
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-functions/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-functions/SKILL.md
+  skills/vercel-sandbox/SKILL.md:
+    sha256: 618fa0987741ba12fbe3e98b7e99bf355fefc8d3e2d025d7ec885eaf6978fa49
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-sandbox/SKILL.md
+  skills/vercel-sandbox/overlay.yaml:
+    sha256: 1c53bb552197fabb8ccdaace5340de08e86d8aba2e39dedd5433e5558a6454fb
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-sandbox/overlay.yaml
+  skills/vercel-sandbox/upstream/SKILL.md:
+    sha256: 49030adf409304dca1ea3849e378614ae9de5be9148973a1cc1adcec29341d1e
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-sandbox/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-sandbox/SKILL.md
+  skills/vercel-services/SKILL.md:
+    sha256: 362494410f18d397b4763459784704617007c0ca403d6df6eb9dbbca5b08937f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-services/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-services/SKILL.md
+  skills/vercel-storage/SKILL.md:
+    sha256: 3ffb6492aa23bfe3b0c4d4d9616c82759925e16babcdfc8658237db4988b25dd
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/vercel-storage/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/vercel-storage/SKILL.md
+  skills/verification/SKILL.md:
+    sha256: 1dd50aa65a4f8a287f8d8e2fbbaf4e52a3998451a9011659ab0ab38d19539932
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/verification/SKILL.md
+  skills/workflow/SKILL.md:
+    sha256: 3b46cc643584e50d67a6bef8e44cb4a3a2fc2ac55ae071a66b587c0ec0abe9a0
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/workflow/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/workflow/SKILL.md
+  skills/workflow/overlay.yaml:
+    sha256: 501e7c437db9954906439053a8007e8b3c336ccd39008cbe0b7c540c64107a1d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/workflow/overlay.yaml
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/workflow/overlay.yaml
+  skills/workflow/upstream/SKILL.md:
+    sha256: 8ecc3a5acdc68a66b56475bfa7dcb97ca49ab2f7f9deca279c5ae170de2cae22
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/skills/workflow/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/workflow/upstream/SKILL.md
+  notices/931751d5bea8-plugin.json:
+    sha256: 931751d5bea8a6d96d2c7829fce849345fba758ada9b1517a9014eb21e86e69f
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-claude-plugins-official-vercel-0.50.0/.claude-plugin/plugin.json
+  notices/10c0ef5283f5-package.json:
+    sha256: 10c0ef5283f5c4b0a79d70142f451c129fb7ed678dd2c5a9deaec7b454abbf1d
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/package.json
+  notices/5c67ad692a46-LICENSE:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/LICENSE
+  notices/a95808182a98-README.md:
+    sha256: a95808182a98caa12b4b3ce5e7bc74bc9a1f05ec5a245b359f79ce63601db6d3
+    copied_from: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/README.md
+notices:
+- LICENSE
+- notices/931751d5bea8-plugin.json
+- notices/10c0ef5283f5-package.json
+- notices/5c67ad692a46-LICENSE
+- notices/a95808182a98-README.md
+excluded:
+- source: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/benchmark-agents/SKILL.md
+  reason: identifiable personal home path; excluded unchanged
+- source: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/plugin-audit/references/log-format.md
+  reason: identifiable personal home path; excluded unchanged
+- source: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/.claude/skills/vercel-plugin-eval/SKILL.md
+  reason: identifiable personal home path; excluded unchanged
+- source: ~/.claude/plugins/cache/claude-plugins-official/vercel/0.50.0/scripts/benchmark-analyze.ts
+  reason: identifiable personal home path; excluded unchanged

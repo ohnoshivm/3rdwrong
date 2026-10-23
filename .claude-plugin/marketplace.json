@@ -1,0 +1,69 @@
+{
+  "description": "3RDWRONGS studio toolkit: one plugin per department plus the studio core skills",
+  "name": "3rdwrong",
+  "owner": {
+    "name": "3RDWRONGS"
+  },
+  "plugins": [
+    {
+      "description": "3RDWRONGS design: active leads and specialists",
+      "name": "3rdwrong-design",
+      "source": "./toolkit/plugins/3rdwrong-design"
+    },
+    {
+      "description": "3RDWRONGS engineering: active leads and specialists",
+      "name": "3rdwrong-engineering",
+      "source": "./toolkit/plugins/3rdwrong-engineering"
+    },
+    {
+      "description": "3RDWRONGS labs: active leads and specialists",
+      "name": "3rdwrong-labs",
+      "source": "./toolkit/plugins/3rdwrong-labs"
+    },
+    {
+      "description": "3RDWRONGS strategy: active leads and specialists",
+      "name": "3rdwrong-strategy",
+      "source": "./toolkit/plugins/3rdwrong-strategy"
+    },
+    {
+      "description": "3RDWRONGS production: active leads and specialists",
+      "name": "3rdwrong-production",
+      "source": "./toolkit/plugins/3rdwrong-production"
+    },
+    {
+      "description": "3RDWRONGS media: active leads and specialists",
+      "name": "3rdwrong-media",
+      "source": "./toolkit/plugins/3rdwrong-media"
+    },
+    {
+      "description": "3RDWRONGS marketing: active leads and specialists",
+      "name": "3rdwrong-marketing",
+      "source": "./toolkit/plugins/3rdwrong-marketing"
+    },
+    {
+      "description": "3RDWRONGS advertising: active leads and specialists",
+      "name": "3rdwrong-advertising",
+      "source": "./toolkit/plugins/3rdwrong-advertising"
+    },
+    {
+      "description": "3RDWRONGS outbound: active leads and specialists",
+      "name": "3rdwrong-outbound",
+      "source": "./toolkit/plugins/3rdwrong-outbound"
+    },
+    {
+      "description": "3RDWRONGS sales: active leads and specialists",
+      "name": "3rdwrong-sales",
+      "source": "./toolkit/plugins/3rdwrong-sales"
+    },
+    {
+      "description": "3RDWRONGS operations: active leads and specialists",
+      "name": "3rdwrong-operations",
+      "source": "./toolkit/plugins/3rdwrong-operations"
+    },
+    {
+      "description": "3RDWRONGS core: active leads and specialists",
+      "name": "3rdwrong-core",
+      "source": "./toolkit/plugins/3rdwrong-core"
+    }
+  ]
+}

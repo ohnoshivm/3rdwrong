@@ -5,8 +5,8 @@ proposed and hypothesis entries are not approved policy.
 
 | Link | ID | Title | Status | Date |
 | --- | --- | --- | --- | --- |
-| [Strategic positioning](0001-strategic-positioning.md) | D-0001 | Strategic positioning | approved | 2026-10-22 |
-| [Flagship offer scope and exclusions](0002-identity-system-scope.md) | D-0002 | Flagship offer scope and exclusions | approved | 2026-10-22 |
+| [Strategic positioning](0001-strategic-positioning.md) | D-0001 | Strategic positioning | superseded | 2026-10-22 |
+| [Flagship offer scope and exclusions](0002-identity-system-scope.md) | D-0002 | Flagship offer scope and exclusions | superseded | 2026-10-22 |
 | [Operating philosophy](0003-operating-philosophy.md) | D-0003 | Operating philosophy | approved | 2026-10-22 |
 | [Initial ICP and secondary market](0004-initial-ideal-customer-profile.md) | D-0004 | Initial ICP and secondary market | hypothesis | 2026-10-22 |
 | [Complete identity pricing hypothesis](0005-pricing-hypothesis.md) | D-0005 | Complete identity pricing hypothesis | hypothesis | 2026-10-22 |
@@ -22,3 +22,9 @@ proposed and hypothesis entries are not approved policy.
 | [Founder-led practice with specialists](0015-founder-led-practice-with-specialists.md) | D-0015 | Founder-led practice with specialists | proposed | 2026-10-22 |
 | [Agency Agents catalogue](0016-agency-agents-catalogue.md) | D-0016 | Agency Agents catalogue | approved | 2026-10-22 |
 | [Fully open repository](0017-fully-open-repository.md) | D-0017 | Fully open repository | approved | 2026-10-22 |
+| [Design-engineering studio](0018-design-engineering-studio.md) | D-0018 | Design-engineering studio | approved | 2026-10-23 |
+| [Organisation and loading policy](0019-organisation-and-loading-policy.md) | D-0019 | Organisation and loading policy | approved | 2026-10-23 |
+
+D-0018 supersedes D-0001 and D-0002; their original text is retained as history.
+Approved direction does not promote the related positioning, offer, ICP,
+pricing, methods or roadmap proposals to approved or validated status.

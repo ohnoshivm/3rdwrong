@@ -3,19 +3,25 @@ title: The 3RDWRONGS Identity System
 type: guide
 status: proposed
 owner: founder
-last_reviewed: 2026-10-22
+last_reviewed: 2026-10-23
 review_every_days: 180
 ---
 # The 3RDWRONGS Identity System
 
-The **approved flagship offer** is a focused strategic and creative engagement
-taking a brand from unclear positioning to a distinctive, deployable identity.
-Only the scope and exclusions below are approved. Workflow, checkpoints,
-acceptance, handover and change handling are proposed operating details.
+Identity remains the **core offer** under
+[D-0018](decisions/0018-design-engineering-studio.md): a focused strategic and
+creative engagement taking a brand from unclear positioning to a distinctive,
+deployable identity. The scope below is carried forward from superseded
+[D-0002](decisions/0002-identity-system-scope.md) for founder review. Exclusions
+are now governed by D-0018: websites and interactive/3D experiences are
+available through the separately scoped [Digital Experience offer](digital-experience-offer.md),
+not automatically included in this engagement. The historical exclusion list
+below describes the standard identity package, not the studio's full practice.
+Workflow, checkpoints, acceptance, handover and change handling remain proposed.
 The additional delivery range and pilot guidance below are proposed from
 *Founding Blueprint v1.0, 22 October 2026 ([founding source archive](archive/founding-blueprint-v1.0.md))*.
 
-## Approved scope
+## Carried-forward identity scope
 
 > Standard scope:
 >

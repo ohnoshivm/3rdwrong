@@ -17,6 +17,7 @@ try:
     from .oscheck.secrets import check_secrets
     from .oscheck.skills import check_skills
     from .oscheck.stale import check_stale
+    from .oscheck.toolkit import check_toolkit
 except ImportError:
     from oscheck.agents import check_agents
     from oscheck.common import Issue
@@ -28,6 +29,7 @@ except ImportError:
     from oscheck.secrets import check_secrets
     from oscheck.skills import check_skills
     from oscheck.stale import check_stale
+    from oscheck.toolkit import check_toolkit
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
@@ -39,6 +41,7 @@ CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
     "required": check_required,
     "secrets": check_secrets,
     "index": check_index,
+    "toolkit": check_toolkit,
 }
 ALL_CHECKS = (*CHECKS, "stale")
 

@@ -1,0 +1,406 @@
+package: plugin-local-desktop-app-uploads-x-skills-marketplace
+upstream_url: https://github.com/sergebulaev/x-skills
+pinned_ref:
+- 1.0.31
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-local-desktop-app-uploads-x-skills-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills
+copied_on: '2026-10-23'
+files:
+  skills/x-skills/.agents/plugins/marketplace.json:
+    sha256: 00687ff087701a44d0944b06696aeef6de13038fe6f53c52c28c9048fd9f0adc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.agents/plugins/marketplace.json
+  skills/x-skills/.claude-plugin/marketplace.json:
+    sha256: 853df4b1b33307d04b31d2f78c09241ced2620d23619b01f3ca057c5b13ab584
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.claude-plugin/marketplace.json
+  skills/x-skills/.claude-plugin/plugin.json:
+    sha256: 0d58f0e5b04d0d4743321d16d1a087e65292cae94283b01d505224193483f059
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.claude-plugin/plugin.json
+  skills/x-skills/.codex-marketplace/x-skills/.codex-plugin/plugin.json:
+    sha256: 31c16427d6d6bee85f19364996af9ae3262b195b546f5ad16e9b7b0c705ab16c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/.codex-plugin/plugin.json
+  skills/x-skills/.codex-marketplace/x-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/LICENSE
+  skills/x-skills/.codex-marketplace/x-skills/README.md:
+    sha256: 3029b2a7d26043efe4485e374c9803873950dc8122b63ba199e0f0e4000c0528
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/README.md
+  skills/x-skills/.codex-marketplace/x-skills/SKILL.md:
+    sha256: c8b83b9c94c814c4f23d558055e15097dced6884909e7a41db98dbbc49770879
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/assets/icon.svg:
+    sha256: 4eaeb060fab0299223722b52e8d00c7b5af9da1f87852c3e4d0c902b4d51067e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/assets/icon.svg
+  skills/x-skills/.codex-marketplace/x-skills/lib/__init__.py:
+    sha256: ddf48fbdd1e99a3de28232cbe58b6364a8807e31997c3620a33f750391b0c9ac
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/__init__.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/_env.py:
+    sha256: 3f307c8dadac85ca6c96d2053f8ff4e8e3ffee20f08c1882f3ab57ea2135b336
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/_env.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/apify_client.py:
+    sha256: 2a6ef135b50456bba0fe9befca8bcb3b07a48ab1513af5c8bcf173cb770f4617
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/apify_client.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/approval.py:
+    sha256: d8499fa4fa1d3ff7419965180557dc1f4859a6498a204033b7de6355035d9ab8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/approval.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/backend_selector.py:
+    sha256: c29497f2bd4f198df2b8b12d89c05ad75377b58966934873744bc4db8ed4386c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/backend_selector.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/pixfaro_client.py:
+    sha256: 1128e294b3301fa4adefea41300d605b799531319e0f383beaabbce217476e4b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/pixfaro_client.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/publora_client.py:
+    sha256: 8b63dd88e78beeeac21020f8d52dd2a3514e204741478f98398296a3e93e09c9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/publora_client.py
+  skills/x-skills/.codex-marketplace/x-skills/lib/url_parser.py:
+    sha256: d016683560f95cd176c77c845e5b470e0d59b7c31a351dd0cf57ccbd880592b5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/lib/url_parser.py
+  skills/x-skills/.codex-marketplace/x-skills/references/algorithm-heuristics.md:
+    sha256: 7a003cea1bbdb1c30ec08b610be81c67360928847181430c3d96043e5a8d0b67
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/references/algorithm-heuristics.md
+  skills/x-skills/.codex-marketplace/x-skills/references/hook-formulas.md:
+    sha256: 4f65f030bafdee7608d87bbef1b221b5ad684e6281d892f54aebe41d699d97f7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/references/hook-formulas.md
+  skills/x-skills/.codex-marketplace/x-skills/references/story-bank.md:
+    sha256: f085758dce108335d52de0bb71e22e2f97864801e454ffa742f62cd9a097c2fd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/references/story-bank.md
+  skills/x-skills/.codex-marketplace/x-skills/references/voice-profile.md:
+    sha256: 69ad0b041ed830b5b4c4fde6d2aec595289257672d53f2aa3fd5ffd7288ca3d0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/references/voice-profile.md
+  skills/x-skills/.codex-marketplace/x-skills/references/voice-rules.md:
+    sha256: 85765de129294a7d7a3a9277d05148c507544b2090a6517fb88549955b8c61cf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/references/voice-rules.md
+  skills/x-skills/.codex-marketplace/x-skills/requirements.txt:
+    sha256: 64519d5ee5afc7b906f7a3ef1ff00042ee2c66b4d95a79aa224bf808c3b3b5fd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/requirements.txt
+  skills/x-skills/.codex-marketplace/x-skills/scripts/check_actor_inputs.py:
+    sha256: ce9e6d32e57a4c87a61727ff1b19a6d4dd358ce81f6a9dcae17c6c0d7b92ffc7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/scripts/check_actor_inputs.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py
+  skills/x-skills/.codex-marketplace/x-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/x-skills/.codex-marketplace/x-skills/scripts/check_no_secrets.py:
+    sha256: 199c5223ed7480fef30e18666564066baac8e46190ae39577216e0890af0e150
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/scripts/check_no_secrets.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-audience-insights/SKILL.md:
+    sha256: 5fbb95096ce53e6d7820c02d70c1cd47b9cb68e455296b8efc51edd1610bf714
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-audience-insights/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/SKILL.md:
+    sha256: 7c410f93bcb1128f86002151d93ce1f7ece24a5262f712294d385bc00774cb0b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/references/example-week.md:
+    sha256: 975e3e5e4074f2e64cceeeb1b9d19199ad174a8166bd03073e911637277569be
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/references/example-week.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/references/pillars-framework.md:
+    sha256: 5ac54adee817a6f50a7968130592586b68e756817a5556955e54f82356b1aefc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/references/pillars-framework.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/SKILL.md:
+    sha256: 154f4e0219349778ad2ab498ad646655ff9b6c6f8a43aebf16559a1f26ea2144
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/references/classification-rules.md:
+    sha256: c04aba1ef386654b8e559fedca19fbc43bde218cb5cd35fcb52e4d2fb4676a81
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/references/classification-rules.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/references/examples.md:
+    sha256: a6901a49231b536475e18c940dc975f31d6052a58dc848ed83da6a06efb5fc04
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/references/examples.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/SKILL.md:
+    sha256: 76aef7f64f5fe0911d118c3f9528294d8fcba3c96a2a3b0514aef88b21313397
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/audit-checklist.md:
+    sha256: e5810ebda58b33e1f33431fff3ea74dd8272af518b2df55b0e5d7b5a26a2f11e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/audit-checklist.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/examples.md:
+    sha256: 315bd544a52468be842dfc9c5f0e68b81ba5851b58f13c80600c7fd2f2d77a05
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/examples.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/scrub-rules.md:
+    sha256: 5b38aaf65115e0ed82a7d8681e7d09ec05fdfa15f4c9834e7e40ba59a45b8f5c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/scrub-rules.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/illustration.md:
+    sha256: 0156ff76a5ddac369caf301d7a7f1c7d6252a8b27406f54d2686d4b5a64207b3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/illustration.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/post-audit.md:
+    sha256: 5bd4b4f483a4ff6e7fb17a23dc7ea9accb6ae043ec4ab9b2ed6c3788faf7e836
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/post-audit.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/story-bank-interview.md:
+    sha256: 4a0ff5794e5491c56f60849f65f5ae3a0c49213cd133e6378970cbf0a593442e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/story-bank-interview.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/voice-profile.md:
+    sha256: ff808aeac00309e7a3c1af5562a5b48245171a6ebf1fa9bfa4b659835100d87f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/voice-profile.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-post-writer/SKILL.md:
+    sha256: 0be6f448eebe345e2c823612685f8ac24df48fb691d2ba8bed0f98285b2d63b5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-post-writer/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-post-writer/references/single-tweet-checklist.md:
+    sha256: 8b5e8a3c18c4c33da24e72e777c194c934206c9a9d1cdeacb3491da52dcb6f31
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-post-writer/references/single-tweet-checklist.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-profile-optimizer/SKILL.md:
+    sha256: fa49d9cb4c4329ef47af4b960eaaed2108d27247a2c8f7ed8fd49745200fa0e4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-profile-optimizer/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-reply-drafter/SKILL.md:
+    sha256: 8201dd68d646eeac87af084a9ba526c510ba59338fb206171803cad017df0fe9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-reply-drafter/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-reply-drafter/references/reply-templates.md:
+    sha256: 32e21cfa35124310c9989edf7bb606f85db27326714c214a0c5c32c6fb1f12d6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-reply-drafter/references/reply-templates.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-repurposer/SKILL.md:
+    sha256: 30720e51aaacdebe53a2e097e7cbc2115f7ef284dc4822bce0033fc338e31cfb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-repurposer/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder/SKILL.md:
+    sha256: e3a6c1322d73bb856c3ecfefe021053cc6aedf798d92db66d0f1e48db927c203
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder/SKILL.md
+  skills/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder/references/thread-structure.md:
+    sha256: d824b25da3ed309dd34e4da8db4e024957aeb913e0da0ab3662d6ea938fd0f80
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder/references/thread-structure.md
+  skills/x-skills/.codex-plugin/plugin.json:
+    sha256: 31c16427d6d6bee85f19364996af9ae3262b195b546f5ad16e9b7b0c705ab16c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/.codex-plugin/plugin.json
+  skills/x-skills/.codexignore:
+    sha256: c20141a93a479c7a544c7e4ebaae520c70c85be9c1248e082187ae4b8f15d9dc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codexignore
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codexignore
+  skills/x-skills/.github/dependabot.yml:
+    sha256: e355c2fd8769e2be7ea27a63ea574fa64dd24254d92ddd547456b53712283ccd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.github/dependabot.yml
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.github/dependabot.yml
+  skills/x-skills/.github/workflows/hol-plugin-scanner.yml:
+    sha256: 4596607569489381463bda5b9dd0f1700e527e4c02019fd8fd9aff530ac98cc2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.github/workflows/hol-plugin-scanner.yml
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/.github/workflows/hol-plugin-scanner.yml
+  skills/x-skills/.github/workflows/verify-references.yml:
+    sha256: 93364036709bd1393cc7dcac3cd80e506defe7560cbd27e9e63d0d7494ec47a7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.github/workflows/verify-references.yml
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.github/workflows/verify-references.yml
+  skills/x-skills/AGENTS.md:
+    sha256: 1d815a017f8715f6b2a8ff3a5752092f1b8c742382656204354ce1d2fee40bb2
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/AGENTS.md
+  skills/x-skills/CLAUDE.md:
+    sha256: d2616e9000b2b5769746e4bc5175d014c99391026fe66afcef4e0286b9da4067
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/CLAUDE.md
+  skills/x-skills/LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/LICENSE
+  skills/x-skills/README.md:
+    sha256: 3029b2a7d26043efe4485e374c9803873950dc8122b63ba199e0f0e4000c0528
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/README.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/README.md
+  skills/x-skills/SECURITY.md:
+    sha256: 0fe2f9213b274582786ed4fb4982970ffd303355ced38befff6baa125c272472
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/SECURITY.md
+  skills/x-skills/SKILL.md:
+    sha256: c8b83b9c94c814c4f23d558055e15097dced6884909e7a41db98dbbc49770879
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/SKILL.md
+  skills/x-skills/assets/icon.svg:
+    sha256: 4eaeb060fab0299223722b52e8d00c7b5af9da1f87852c3e4d0c902b4d51067e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/assets/icon.svg
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/assets/icon.svg
+  skills/x-skills/lib/__init__.py:
+    sha256: ddf48fbdd1e99a3de28232cbe58b6364a8807e31997c3620a33f750391b0c9ac
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/__init__.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/__init__.py
+  skills/x-skills/lib/_env.py:
+    sha256: 3f307c8dadac85ca6c96d2053f8ff4e8e3ffee20f08c1882f3ab57ea2135b336
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/_env.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/lib/_env.py
+  skills/x-skills/lib/apify_client.py:
+    sha256: 2a6ef135b50456bba0fe9befca8bcb3b07a48ab1513af5c8bcf173cb770f4617
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/apify_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/apify_client.py
+  skills/x-skills/lib/approval.py:
+    sha256: d8499fa4fa1d3ff7419965180557dc1f4859a6498a204033b7de6355035d9ab8
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/approval.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/approval.py
+  skills/x-skills/lib/backend_selector.py:
+    sha256: c29497f2bd4f198df2b8b12d89c05ad75377b58966934873744bc4db8ed4386c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/backend_selector.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/backend_selector.py
+  skills/x-skills/lib/pixfaro_client.py:
+    sha256: 1128e294b3301fa4adefea41300d605b799531319e0f383beaabbce217476e4b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/pixfaro_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/pixfaro_client.py
+  skills/x-skills/lib/publora_client.py:
+    sha256: 8b63dd88e78beeeac21020f8d52dd2a3514e204741478f98398296a3e93e09c9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/publora_client.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/publora_client.py
+  skills/x-skills/lib/url_parser.py:
+    sha256: d016683560f95cd176c77c845e5b470e0d59b7c31a351dd0cf57ccbd880592b5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/lib/url_parser.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/lib/url_parser.py
+  skills/x-skills/references/algorithm-heuristics.md:
+    sha256: 7a003cea1bbdb1c30ec08b610be81c67360928847181430c3d96043e5a8d0b67
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/references/algorithm-heuristics.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/references/algorithm-heuristics.md
+  skills/x-skills/references/hook-formulas.md:
+    sha256: 4f65f030bafdee7608d87bbef1b221b5ad684e6281d892f54aebe41d699d97f7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/references/hook-formulas.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/references/hook-formulas.md
+  skills/x-skills/references/story-bank.md:
+    sha256: f085758dce108335d52de0bb71e22e2f97864801e454ffa742f62cd9a097c2fd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/references/story-bank.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/references/story-bank.md
+  skills/x-skills/references/voice-profile.md:
+    sha256: 69ad0b041ed830b5b4c4fde6d2aec595289257672d53f2aa3fd5ffd7288ca3d0
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/references/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/references/voice-profile.md
+  skills/x-skills/references/voice-rules.md:
+    sha256: 85765de129294a7d7a3a9277d05148c507544b2090a6517fb88549955b8c61cf
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/references/voice-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/references/voice-rules.md
+  skills/x-skills/requirements-lock.txt:
+    sha256: 97814cc0a1d9da865ac5f1629f868382ff867761295f101b1577d57662f5b29a
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/requirements-lock.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-instagram-skills-marketplace/skills/instagram-skills/requirements-lock.txt
+  skills/x-skills/requirements.txt:
+    sha256: 64519d5ee5afc7b906f7a3ef1ff00042ee2c66b4d95a79aa224bf808c3b3b5fd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/requirements.txt
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/requirements.txt
+  skills/x-skills/scripts/check_actor_inputs.py:
+    sha256: ce9e6d32e57a4c87a61727ff1b19a6d4dd358ce81f6a9dcae17c6c0d7b92ffc7
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/scripts/check_actor_inputs.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_actor_inputs.py
+  skills/x-skills/scripts/check_frontmatter.py:
+    sha256: f52ca33a25571e48acd6456f6e480eb069963fda585d06a741df0c21700b19ef
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/scripts/check_frontmatter.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_frontmatter.py
+  skills/x-skills/scripts/check_markdown_references.py:
+    sha256: 12893654b48eca05311d745a8c626b50632d21bebd5319cb93326049e5f179d4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/scripts/check_markdown_references.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/scripts/check_markdown_references.py
+  skills/x-skills/scripts/check_no_secrets.py:
+    sha256: 199c5223ed7480fef30e18666564066baac8e46190ae39577216e0890af0e150
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/scripts/check_no_secrets.py
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-facebook-skills-marketplace/skills/facebook-skills/.codex-marketplace/facebook-skills/scripts/check_no_secrets.py
+  skills/x-skills/scripts/sync_codex_marketplace.py:
+    sha256: 35c63fcd25183bb54b1565c8747d766806e42c74717c48c93ad09698983d51cd
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/scripts/sync_codex_marketplace.py
+  skills/x-skills/skills/x-audience-insights/SKILL.md:
+    sha256: 5fbb95096ce53e6d7820c02d70c1cd47b9cb68e455296b8efc51edd1610bf714
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-audience-insights/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-audience-insights/SKILL.md
+  skills/x-skills/skills/x-content-planner/SKILL.md:
+    sha256: 7c410f93bcb1128f86002151d93ce1f7ece24a5262f712294d385bc00774cb0b
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-content-planner/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/SKILL.md
+  skills/x-skills/skills/x-content-planner/references/example-week.md:
+    sha256: 975e3e5e4074f2e64cceeeb1b9d19199ad174a8166bd03073e911637277569be
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-content-planner/references/example-week.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/references/example-week.md
+  skills/x-skills/skills/x-content-planner/references/pillars-framework.md:
+    sha256: 5ac54adee817a6f50a7968130592586b68e756817a5556955e54f82356b1aefc
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-content-planner/references/pillars-framework.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-content-planner/references/pillars-framework.md
+  skills/x-skills/skills/x-hook-extractor/SKILL.md:
+    sha256: 154f4e0219349778ad2ab498ad646655ff9b6c6f8a43aebf16559a1f26ea2144
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-hook-extractor/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/SKILL.md
+  skills/x-skills/skills/x-hook-extractor/references/classification-rules.md:
+    sha256: c04aba1ef386654b8e559fedca19fbc43bde218cb5cd35fcb52e4d2fb4676a81
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-hook-extractor/references/classification-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/references/classification-rules.md
+  skills/x-skills/skills/x-hook-extractor/references/examples.md:
+    sha256: a6901a49231b536475e18c940dc975f31d6052a58dc848ed83da6a06efb5fc04
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-hook-extractor/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-hook-extractor/references/examples.md
+  skills/x-skills/skills/x-humanizer/SKILL.md:
+    sha256: 76aef7f64f5fe0911d118c3f9528294d8fcba3c96a2a3b0514aef88b21313397
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/SKILL.md
+  skills/x-skills/skills/x-humanizer/references/audit-checklist.md:
+    sha256: e5810ebda58b33e1f33431fff3ea74dd8272af518b2df55b0e5d7b5a26a2f11e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/references/audit-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/audit-checklist.md
+  skills/x-skills/skills/x-humanizer/references/examples.md:
+    sha256: 315bd544a52468be842dfc9c5f0e68b81ba5851b58f13c80600c7fd2f2d77a05
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/references/examples.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/examples.md
+  skills/x-skills/skills/x-humanizer/references/scrub-rules.md:
+    sha256: 5b38aaf65115e0ed82a7d8681e7d09ec05fdfa15f4c9834e7e40ba59a45b8f5c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/references/scrub-rules.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/references/scrub-rules.md
+  skills/x-skills/skills/x-humanizer/sub-skills/illustration.md:
+    sha256: 0156ff76a5ddac369caf301d7a7f1c7d6252a8b27406f54d2686d4b5a64207b3
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/sub-skills/illustration.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/illustration.md
+  skills/x-skills/skills/x-humanizer/sub-skills/post-audit.md:
+    sha256: 5bd4b4f483a4ff6e7fb17a23dc7ea9accb6ae043ec4ab9b2ed6c3788faf7e836
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/sub-skills/post-audit.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/post-audit.md
+  skills/x-skills/skills/x-humanizer/sub-skills/story-bank-interview.md:
+    sha256: 4a0ff5794e5491c56f60849f65f5ae3a0c49213cd133e6378970cbf0a593442e
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/sub-skills/story-bank-interview.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/story-bank-interview.md
+  skills/x-skills/skills/x-humanizer/sub-skills/voice-profile.md:
+    sha256: ff808aeac00309e7a3c1af5562a5b48245171a6ebf1fa9bfa4b659835100d87f
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-humanizer/sub-skills/voice-profile.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-humanizer/sub-skills/voice-profile.md
+  skills/x-skills/skills/x-post-writer/SKILL.md:
+    sha256: 0be6f448eebe345e2c823612685f8ac24df48fb691d2ba8bed0f98285b2d63b5
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-post-writer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-post-writer/SKILL.md
+  skills/x-skills/skills/x-post-writer/references/single-tweet-checklist.md:
+    sha256: 8b5e8a3c18c4c33da24e72e777c194c934206c9a9d1cdeacb3491da52dcb6f31
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-post-writer/references/single-tweet-checklist.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-post-writer/references/single-tweet-checklist.md
+  skills/x-skills/skills/x-profile-optimizer/SKILL.md:
+    sha256: fa49d9cb4c4329ef47af4b960eaaed2108d27247a2c8f7ed8fd49745200fa0e4
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-profile-optimizer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-profile-optimizer/SKILL.md
+  skills/x-skills/skills/x-reply-drafter/SKILL.md:
+    sha256: 8201dd68d646eeac87af084a9ba526c510ba59338fb206171803cad017df0fe9
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-reply-drafter/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-reply-drafter/SKILL.md
+  skills/x-skills/skills/x-reply-drafter/references/reply-templates.md:
+    sha256: 32e21cfa35124310c9989edf7bb606f85db27326714c214a0c5c32c6fb1f12d6
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-reply-drafter/references/reply-templates.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-reply-drafter/references/reply-templates.md
+  skills/x-skills/skills/x-repurposer/SKILL.md:
+    sha256: 30720e51aaacdebe53a2e097e7cbc2115f7ef284dc4822bce0033fc338e31cfb
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-repurposer/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-repurposer/SKILL.md
+  skills/x-skills/skills/x-thread-builder/SKILL.md:
+    sha256: e3a6c1322d73bb856c3ecfefe021053cc6aedf798d92db66d0f1e48db927c203
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-thread-builder/SKILL.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder/SKILL.md
+  skills/x-skills/skills/x-thread-builder/references/thread-structure.md:
+    sha256: d824b25da3ed309dd34e4da8db4e024957aeb913e0da0ab3662d6ea938fd0f80
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/skills/x-thread-builder/references/thread-structure.md
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder/references/thread-structure.md
+  notices/0d58f0e5b04d-plugin.json:
+    sha256: 0d58f0e5b04d0d4743321d16d1a087e65292cae94283b01d505224193483f059
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.claude-plugin/plugin.json
+  notices/31c16427d6d6-plugin.json:
+    sha256: 31c16427d6d6bee85f19364996af9ae3262b195b546f5ad16e9b7b0c705ab16c
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/.codex-plugin/plugin.json
+  notices/1a21cf7c2089-LICENSE:
+    sha256: 1a21cf7c208981ef516dcf2edb4517dab907b8dc94c2cfc523565c794ea8e148
+    copied_from: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/LICENSE
+notices:
+- skills/x-skills/.codex-marketplace/x-skills/LICENSE
+- skills/x-skills/LICENSE
+- notices/0d58f0e5b04d-plugin.json
+- notices/31c16427d6d6-plugin.json
+- notices/1a21cf7c2089-LICENSE
+excluded:
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/assets/hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.codex-marketplace/x-skills/assets/social-preview.jpg
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.env.example
+  reason: secret-bearing filename, cache or generated lock/map
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/assets/hero.png
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/assets/social-preview.jpg
+  reason: binary/non-UTF8 or unreadable; never distributed
+- source: ~/.claude/plugins/marketplaces/local-desktop-app-uploads/x-skills/.gitignore
+  reason: git repository metadata (.gitignore/.gitattributes) would change this repository's
+    own git behaviour; not tool material, excluded unchanged

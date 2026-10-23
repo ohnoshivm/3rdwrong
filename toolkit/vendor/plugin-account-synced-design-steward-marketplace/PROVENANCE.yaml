@@ -1,0 +1,145 @@
+package: plugin-account-synced-design-steward-marketplace
+upstream_url: https://github.com/enoevol81/enoevol-plugins
+pinned_ref:
+- 0.2.4
+licence: MIT
+evidence_path: toolkit/sources/packages.json#plugin-account-synced-design-steward-marketplace
+copied_from:
+- ~/.claude/plugins/synced/ACCOUNT/PLUGIN
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/icon.svg:
+    sha256: 9c8f2271f9abc0067034b9b7e6bc971323766f7b1351e62baf1331a00cc7ba47
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/icon.svg
+  .claude-plugin/plugin.json:
+    sha256: f399f3d5310c022746dd4990714a4473e72e0cb537ba2ffffe5faf47b0ca7792
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: 91baf9c6f43c8eb94afe03c2fa3b7aae5efcf1ee4252d37a6d3143f35f76cbe5
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+  components/canon-check/skills/canon-check/SKILL.md:
+    sha256: 35046da80609f8882e755c56af121294a2c298fb6d008050397f855ba4dc2e8e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/canon-check/skills/canon-check/SKILL.md
+  components/canon-check/skills/canon-check/references/report-format.md:
+    sha256: fe08ef811bc0aaeb415a8c6c27e3e1666cf67059cbf7d9873a22dd0ff91c22b6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/canon-check/skills/canon-check/references/report-format.md
+  components/canon-check/skills/canon-check/references/sources.md:
+    sha256: 23536ad4138125cde1812e4b273c06a32c21a3a89715275291f676cfadcd33b7
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/canon-check/skills/canon-check/references/sources.md
+  components/canon-check/skills/canon-check/scripts/scan_tokens.py:
+    sha256: 8fe6a17135c7a94b683cbbd5bfec10284e7ba21e8f191128ff9061cf6a7c6147
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/canon-check/skills/canon-check/scripts/scan_tokens.py
+  components/canon-check/skills/canon-update/SKILL.md:
+    sha256: debf83ef3295749472cbf50c1cc74e5c511bc8e54514f3c9c14b157f069ccdbe
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/canon-check/skills/canon-update/SKILL.md
+  components/canon-check/skills/canon-update/references/doc-playbook.md:
+    sha256: f2800fb40ef2a8568f20768d970757775fd988c90feacbeb9d3be98f0a65effa
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/canon-check/skills/canon-update/references/doc-playbook.md
+  components/critic-layer/skills/brief/SKILL.md:
+    sha256: b4a08deae617942b71f2c667f25476f5f9013f81a39a3a6b332c54564e122ad9
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/brief/SKILL.md
+  components/critic-layer/skills/critic-layer/SKILL.md:
+    sha256: 476eab4a734935b65204fef8bc59b178c182f77dda62c15b8466f72766098fd2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/critic-layer/SKILL.md
+  components/critic-layer/skills/critic-layer/references/capture.md:
+    sha256: 6a0150965a778761a1c488ac45873537d6f33c91c8a4b59ba43a5881916f2b80
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/critic-layer/references/capture.md
+  components/critic-layer/skills/critic-layer/references/output.md:
+    sha256: 6cf0deb04fb21934dfedb44d21cf3088b719ab3b106e73f54df0c342812b701f
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/critic-layer/references/output.md
+  components/critic-layer/skills/critic-layer/references/synthesis.md:
+    sha256: e463eeb1569c579165d340c75a5bdbcd899784ac4e0861a5e698e30e6d9601e3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/critic-layer/references/synthesis.md
+  components/critic-layer/skills/critic-layer/scripts/critic-overlay.js:
+    sha256: 0b27dfb92205d2ff7ec7b75fa6bb26d6656a44982650f06c859d1afcd3c97c29
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/critic-layer/scripts/critic-overlay.js
+  components/critic-layer/skills/verify/SKILL.md:
+    sha256: 13e9c984997e8fb7a851215012b3e8dfff4622056f9fb0a3f0d99cf8f75faa29
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/critic-layer/skills/verify/SKILL.md
+  components/cut-weight/skills/cut-weight/SKILL.md:
+    sha256: ca7215dc2e80057114a1ee305cc5e2feb47d3ceb76dabe46062becfeb06ab5db
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/SKILL.md
+  components/cut-weight/skills/cut-weight/references/agent-artifacts.md:
+    sha256: 761ad0ae6810ea5a95074f95f93107ada43958636a7a51041bd9d1ea0e6b7369
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/agent-artifacts.md
+  components/cut-weight/skills/cut-weight/references/entry-points.md:
+    sha256: 6383c9f6aa85dbe05aa88f56ad420e7a0ee2838ec4a4e3ff0e64fcdd67b0000d
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/entry-points.md
+  components/cut-weight/skills/cut-weight/references/evidence-signals.md:
+    sha256: 8b92c1a71674549026dac2355eaba427c946f9985cb5b3a957319579a9305304
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/evidence-signals.md
+  components/cut-weight/skills/cut-weight/references/intent-review.md:
+    sha256: a03fb8be1fea03bd13b7d93b0123e5cf2e79a80035b622980a3dfa191e830745
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/intent-review.md
+  components/cut-weight/skills/cut-weight/references/quarantine-protocol.md:
+    sha256: 90fb0d6b896dfe6ae5f95cde020d9206fb6ce96d2d67861a2cb83c364d3f61bc
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/quarantine-protocol.md
+  components/cut-weight/skills/cut-weight/references/review-loop.md:
+    sha256: 6ed2db0ede0cd7044826752779e900be4f9297b098880c436727a84f478320d5
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/review-loop.md
+  components/cut-weight/skills/cut-weight/references/workflow-handoff.md:
+    sha256: c501dfb57879934229a6302f1403ce2d297b139212ec226f445e71b33412d97a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/references/workflow-handoff.md
+  components/cut-weight/skills/cut-weight/scripts/inventory.py:
+    sha256: 2fda5e7cad9e533a09f5841b464368bf8c95be452530f1a2f11c0b08a6aae3d2
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/cut-weight/skills/cut-weight/scripts/inventory.py
+  components/hands-free/skills/execute/SKILL.md:
+    sha256: ad79b2d86d053f8a3a65b20453ae42f34e54afb75909bb92d26328b67aa12584
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/hands-free/skills/execute/SKILL.md
+  components/hands-free/skills/hands-free/SKILL.md:
+    sha256: 4f54934718d0cc5a35e6d244e8e9babf2e02e2325bc7573de03fd6bce49650ca
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/hands-free/skills/hands-free/SKILL.md
+  components/hands-free/skills/hands-free/examples/example-run.md:
+    sha256: a5dbd9cd8e5c9f3e6ada4312a9733787d6c0a306a6110c2d79de106aa10c39da
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/hands-free/skills/hands-free/examples/example-run.md
+  components/hands-free/skills/hands-free/references/agent-roster.md:
+    sha256: f58c2f8c99f650568b9cf36bfd2a69a02e30b3ec04035cb517de8a903966d3a3
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/hands-free/skills/hands-free/references/agent-roster.md
+  components/hands-free/skills/hands-free/references/exploration.md:
+    sha256: 6eec1760007b2bdc7f89749f7dd4fc6f0fdcb8c56a1bdd57b7abc074674e76a7
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/hands-free/skills/hands-free/references/exploration.md
+  components/hands-free/skills/resume/SKILL.md:
+    sha256: 821236538c2de1ae7536cc91fcdf128c524bab6d5697da58fd8354573381d84a
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/components/hands-free/skills/resume/SKILL.md
+  scripts/run_state.py:
+    sha256: 7d8c128f8b722ad18de7c96170495a50e406ef7d2131994ec02c2dc38114a6a6
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/scripts/run_state.py
+  scripts/source_candidates.py:
+    sha256: 642d5e5d91ad211d9081503a9e7fb98512b5f086e6e8cca57b75d5b0a0fbaaf4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/scripts/source_candidates.py
+  scripts/source_snapshot.py:
+    sha256: a5e0e6cd9b633137e3f834287d6f6a4d4e4f0855a970479d4155801c04a387d4
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/scripts/source_snapshot.py
+  skills/align/SKILL.md:
+    sha256: 21fd0bac8f3bfd8a678c7a2bd9a871b93ebdf7d4445e0b16b34386a516ea64fe
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/align/SKILL.md
+  skills/audit/SKILL.md:
+    sha256: 90050ef0030f5b92b7f6c05e538c9a205a3fb4e93fbedd51553be24d654c5d71
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/audit/SKILL.md
+  skills/brief/SKILL.md:
+    sha256: e7c0f295efec0f48bd2e56e864343f3cae2afd429264943968a586acf60a996e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/brief/SKILL.md
+  skills/cleanup/SKILL.md:
+    sha256: 62fec3fe888491608c7c2733bc6724bf29e9c19ba328e75d6087a7e3dc2bde65
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/cleanup/SKILL.md
+  skills/execute/SKILL.md:
+    sha256: 53a381105a94c51a212fd556530b95eda65fe21774be0bdc42310c3868d05373
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/execute/SKILL.md
+  skills/review/SKILL.md:
+    sha256: ef8c6b468ea38a0767ebf209f3f7dfe00a03b225466f030be56af211ef44202e
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/review/SKILL.md
+  skills/verify/SKILL.md:
+    sha256: 513eb28c134eb6c5dc572b0286ac60fa8e2c58da265c4a8c20735ceb2082b453
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/skills/verify/SKILL.md
+  notices/f399f3d5310c-plugin.json:
+    sha256: f399f3d5310c022746dd4990714a4473e72e0cb537ba2ffffe5faf47b0ca7792
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/.claude-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-account-synced-design-steward-marketplace/.claude-plugin/plugin.json
+  notices/91baf9c6f43c-LICENSE:
+    sha256: 91baf9c6f43c8eb94afe03c2fa3b7aae5efcf1ee4252d37a6d3143f35f76cbe5
+    copied_from: ~/.claude/plugins/synced/ACCOUNT/PLUGIN/LICENSE
+notices:
+- LICENSE
+- notices/f399f3d5310c-plugin.json
+- notices/91baf9c6f43c-LICENSE
+excluded: []

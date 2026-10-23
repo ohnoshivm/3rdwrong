@@ -1,0 +1,215 @@
+package: plugin-openai-curated-remote-hyperframes-0.1.2
+upstream_url: https://github.com/heygen-com/hyperframes
+pinned_ref:
+- 0.1.2
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-openai-curated-remote-hyperframes-0.1.2
+copied_from:
+- ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2
+copied_on: '2026-10-23'
+files:
+  .codex-plugin/plugin.json:
+    sha256: 28a2ad5117484ea7230aa1753a1912b70e147f1c1d04dd03f7f8a1d496bdf719
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/.codex-plugin/plugin.json
+  skills/gsap/SKILL.md:
+    sha256: 730476ba02cc56c8a59b3e4a897801923f463289cd386bccb56d01833be4441f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/gsap/SKILL.md
+  skills/gsap/agents/openai.yaml:
+    sha256: f2caa72170ada902c73f013f24d6018a143ddd9afd6dc8ae805f4292d621c35e
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/gsap/agents/openai.yaml
+  skills/gsap/references/effects.md:
+    sha256: e4a3e157c746963d341d7fb9a5a721ff5952b51a52a1d79843a749a8de8b6693
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/gsap/references/effects.md
+  skills/gsap/scripts/extract-audio-data.py:
+    sha256: 7709b60d42730fc93a348c205ab565158d240b70051d109fcc844b215d56fa4f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/gsap/scripts/extract-audio-data.py
+  skills/hyperframes/SKILL.md:
+    sha256: ce7dbbc9229a8fbf3e0dea8724bd8bbf8b059c031ac8be717a283a246b5355d8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/SKILL.md
+  skills/hyperframes/agents/openai.yaml:
+    sha256: efd2f921a3c0844e0adaa44deeb59599585ac33a8fdf288de5347983e89e1cd2
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/agents/openai.yaml
+  skills/hyperframes/data-in-motion.md:
+    sha256: 22084b4460a8f815d923b972a908f937c1e573bbbc7a865f6f2979ec2ae7ff15
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/data-in-motion.md
+  skills/hyperframes/house-style.md:
+    sha256: e0719895b369d7ee5203850250e605b3a1c15dbe43a367dd54e396f2b439f838
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/house-style.md
+  skills/hyperframes/palettes/bold-energetic.md:
+    sha256: 17bc6b7889302151b4e5c84c0c6a33df676647078011d9decb2b68810e3baa7f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/bold-energetic.md
+  skills/hyperframes/palettes/clean-corporate.md:
+    sha256: d0c8c86838abb77985609629afe600d0ca365eccd835820f309959e8a85cba9d
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/clean-corporate.md
+  skills/hyperframes/palettes/dark-premium.md:
+    sha256: abfecbf7e8dca3b674376590a0467aac3e13b2135022ae4ec519c4b27c2303b1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/dark-premium.md
+  skills/hyperframes/palettes/jewel-rich.md:
+    sha256: 17c8f7506469f66bca4e27ef78c19f0bcbf250f88fe840e3043816b7041c4fc5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/jewel-rich.md
+  skills/hyperframes/palettes/monochrome.md:
+    sha256: fe8586f6d70707098859063bdef34d68084f02cf7d5aaa436d4c9915a7ae3748
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/monochrome.md
+  skills/hyperframes/palettes/nature-earth.md:
+    sha256: 9710549b17487787fef3c7cb459cfd6e4ac28c1593bf471fcf55a3b4e546beed
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/nature-earth.md
+  skills/hyperframes/palettes/neon-electric.md:
+    sha256: 35225bf8d2cd37223e88e0bc59b0a96bc8adeda7225389b3df97b675cfd33dfb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/neon-electric.md
+  skills/hyperframes/palettes/pastel-soft.md:
+    sha256: ed4e25bb5f4953c002e55a53320249621437e03b5a11d43e3c1bd32c869b6d95
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/pastel-soft.md
+  skills/hyperframes/palettes/warm-editorial.md:
+    sha256: c467ee3cc0bbf4b2bedccc8106e18293b8a06dbac8f092b10300492da0e0559a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/palettes/warm-editorial.md
+  skills/hyperframes/patterns.md:
+    sha256: 9a31458068668a168ee3f4180e06fb2d5768afe1f84b8878f5c56c72e4ab7253
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/patterns.md
+  skills/hyperframes/references/audio-reactive.md:
+    sha256: f0d83c24fa40d42a74f972ccf3b5254d7706cb063d16b8b41f87dc668a418f49
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/audio-reactive.md
+  skills/hyperframes/references/captions.md:
+    sha256: 9e35e0d8618e392906a0c542571af9f070350a17007c8449c69ff31384f3b195
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/captions.md
+  skills/hyperframes/references/css-patterns.md:
+    sha256: 39c4af128cdd3ed9d1be652a88c3e4d01cb0daf744dfde3db7197014cd1a38d8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/css-patterns.md
+  skills/hyperframes/references/dynamic-techniques.md:
+    sha256: f48f666acb270daf2ac57fede5efc96ff3f168fa4f41db611de0310452e6d7e3
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/dynamic-techniques.md
+  skills/hyperframes/references/motion-principles.md:
+    sha256: 68f4ba410addc4c07347025ed688029d69cf71c37cc2c5da4788600ccd5d756c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/motion-principles.md
+  skills/hyperframes/references/transcript-guide.md:
+    sha256: e52bf99b88d5d75cb715376edc67dc86e824d54ede65815b1aa6f7582a1b166c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transcript-guide.md
+  skills/hyperframes/references/transitions/catalog.md:
+    sha256: 557b5b30be7b68f95d8481209b1a2f0a0e1df23f65de9b08f86697d0e6159a54
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/catalog.md
+  skills/hyperframes/references/transitions/css-3d.md:
+    sha256: e1c3888dd0a2d4b36d25200c1e5ef9038649ae63953865e4b2c4c40fb028d7dd
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-3d.md
+  skills/hyperframes/references/transitions/css-blur.md:
+    sha256: fd3eef889a517e1dd985ca816f36f1abfb43420a4b664d4fcc453554cdf561f9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-blur.md
+  skills/hyperframes/references/transitions/css-cover.md:
+    sha256: ba4e5926791c9e6a0a069e20afc91324acb018903f43b4b3f2866d9654f5b7eb
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-cover.md
+  skills/hyperframes/references/transitions/css-destruction.md:
+    sha256: 7cce7bbd9ebc64176c9ff4fe40ec97273c9c171524d89f853c0651e713949361
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-destruction.md
+  skills/hyperframes/references/transitions/css-dissolve.md:
+    sha256: 47c11ca0a715675c2788aa4a162a652b5dc5f1773b058ea93e9907af56a4eb7c
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-dissolve.md
+  skills/hyperframes/references/transitions/css-distortion.md:
+    sha256: 7140650692926959bd5459ca5c478a9b4f137cc76fb92b9138e3b0d353677c06
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-distortion.md
+  skills/hyperframes/references/transitions/css-grid.md:
+    sha256: c62b17058aa7ba42d34df29436b6b4233e47ff2b72f2c7ce0963c75bdec45144
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-grid.md
+  skills/hyperframes/references/transitions/css-light.md:
+    sha256: 53f0422d3f6dd2584a30501f84e4f09c9b515f605d51ed264a2061567dda15db
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-light.md
+  skills/hyperframes/references/transitions/css-mechanical.md:
+    sha256: 4fed48fa659a4b215a996beeea619d244e6c893700178b1f969c17f2ee0a8612
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-mechanical.md
+  skills/hyperframes/references/transitions/css-other.md:
+    sha256: 2156e4fcc3b42cba9e0d9e268944269057fb48ff15fc1983e3ff9386fa2a8cf8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-other.md
+  skills/hyperframes/references/transitions/css-push.md:
+    sha256: d526a9612483472de4d865ae27061c98842a5155973dd0cec37fac4998dc1b97
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-push.md
+  skills/hyperframes/references/transitions/css-radial.md:
+    sha256: 5d8f20de439e3f2c8d45df11c8acbe31dc1b9342e2d54bbe66b451cf81ca0a1b
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-radial.md
+  skills/hyperframes/references/transitions/css-scale.md:
+    sha256: 3c0cb33d6c844a7265379225f3241d8964afcc908ee757a1ebfb1700a5320ea7
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions/css-scale.md
+  skills/hyperframes/references/transitions.md:
+    sha256: 302fab350697e210a763ba7e3b2acbde9aadac37bd49cb9814a12e60983294ce
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/transitions.md
+  skills/hyperframes/references/tts.md:
+    sha256: 9f7f8faa49e95cf8fbc373b722c57e61f689b3760a38e67c7aeeb36f3b05de28
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/tts.md
+  skills/hyperframes/references/typography.md:
+    sha256: d0ef1c5666a5b7a5f2af0c5701d17e63017eafc07499830c6616ccdcb21befc8
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/references/typography.md
+  skills/hyperframes/scripts/animation-map.mjs:
+    sha256: 6840bf5c08b8b1eab234dec3e19fe6988abdb53d2ad98560f8da05f4c6cca74f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/scripts/animation-map.mjs
+  skills/hyperframes/scripts/contrast-report.mjs:
+    sha256: 84c9cdec6242845c625af041d8fe94d48fdde89b77ea32ec241af99deda03ad1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/scripts/contrast-report.mjs
+  skills/hyperframes/visual-styles.md:
+    sha256: d173663b4342d830e46c5cc14a1ffafe6dbc6daca0702b0a451db3ce914693cc
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/visual-styles.md
+  skills/hyperframes-cli/SKILL.md:
+    sha256: 253ff75cd896b2290e5247c4ec63fc1341ac14d891fd5fb06ba04e59e49e4ab5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-cli/SKILL.md
+  skills/hyperframes-cli/agents/openai.yaml:
+    sha256: b5af096b2d61abeefd0e545f62666a3c11bfa99f910c4c51a2214a84151ae238
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-cli/agents/openai.yaml
+  skills/hyperframes-registry/SKILL.md:
+    sha256: 0248bfb9968d53ea8f9e4b5f7f5a8eb9e72f21108022580f7eba2fba7e26b234
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/SKILL.md
+  skills/hyperframes-registry/agents/openai.yaml:
+    sha256: 69962305f52ed1be03af946e787366ccd838ac2af95890e3c86a52a8b979be21
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/agents/openai.yaml
+  skills/hyperframes-registry/examples/add-block.md:
+    sha256: 0e3353755c4ef55e53570d1266a4a43b2c5aef9bbe41276430e38cfa6580b83a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/examples/add-block.md
+  skills/hyperframes-registry/examples/add-component.md:
+    sha256: d06992d31eec617a91f5c34630c9274c52dd07898bd24f10a869d0d1cab5af29
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/examples/add-component.md
+  skills/hyperframes-registry/references/demo-html-pattern.md:
+    sha256: dfc50cd33eff2c2be75437786fc3e851ab0085f7d453fb35b3380ecf9a6e9f04
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/references/demo-html-pattern.md
+  skills/hyperframes-registry/references/discovery.md:
+    sha256: fdc924e4b9103d66880317e75bdc54e842713460ed64a7fd74d891b4b64097d5
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/references/discovery.md
+  skills/hyperframes-registry/references/install-locations.md:
+    sha256: 83793e7d6aeea9a751755e4bd23ea48182ff9af082287b98a1192343d2571dd1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/references/install-locations.md
+  skills/hyperframes-registry/references/wiring-blocks.md:
+    sha256: c2045d3f31772d211bb92668264402a5c21d208870fa64398481212a645c9eb9
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/references/wiring-blocks.md
+  skills/hyperframes-registry/references/wiring-components.md:
+    sha256: fbde46726debef9d61286ae54b3b2491e0df51e87416c1b059106bb076a346ce
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/references/wiring-components.md
+  skills/website-to-hyperframes/SKILL.md:
+    sha256: 482afa42349ff391de892565334b17f68f7d52f4f32e5266c05065b574c860ee
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/SKILL.md
+  skills/website-to-hyperframes/agents/openai.yaml:
+    sha256: abf85ccb34b9cad591eef7541f752443b16757ff825d7d62ccc10dcb35d06b3f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/agents/openai.yaml
+  skills/website-to-hyperframes/references/step-1-capture.md:
+    sha256: b9da43ac0f111d2b09e480ce854b7beb4d52d1e41bc61fc378284f9759b783d7
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-1-capture.md
+  skills/website-to-hyperframes/references/step-2-design.md:
+    sha256: 24e39091967de105429460c4f1579ede13f41e6999b59c942434eff401ae6c8a
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-2-design.md
+  skills/website-to-hyperframes/references/step-3-script.md:
+    sha256: 84c50d1ca4757020dfaf8c6319bed60c137575b68d678442176dfeb0ed941f11
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-3-script.md
+  skills/website-to-hyperframes/references/step-4-storyboard.md:
+    sha256: b3ffb11d1d2d838bd14eb08544117c25451f7ecf349250b99ffe6e8d81380fe2
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-4-storyboard.md
+  skills/website-to-hyperframes/references/step-5-vo.md:
+    sha256: e9c1f4c05da36f2b9e0bc86b3f8f6460c036f140aab9a6e5c9ca42a21f15dc0f
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-5-vo.md
+  skills/website-to-hyperframes/references/step-6-build.md:
+    sha256: 4b497e94ea9c8b4f8ffe35ad93fcfabe537112ae19c390a5362c784145589b52
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-6-build.md
+  skills/website-to-hyperframes/references/step-7-validate.md:
+    sha256: d4ab8d3693454336a714a61fe9e1d864e5974eb4870e37668580bc59c15eabb1
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/step-7-validate.md
+  skills/website-to-hyperframes/references/techniques.md:
+    sha256: 8485b1d29efda243ac197feb5f60f77b38cc75e4a19dbd56b7b4bf172587e261
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/references/techniques.md
+  notices/28a2ad511748-plugin.json:
+    sha256: 28a2ad5117484ea7230aa1753a1912b70e147f1c1d04dd03f7f8a1d496bdf719
+    copied_from: ~/.codex/plugins/cache/openai-curated-remote/hyperframes/0.1.2/.codex-plugin/plugin.json
+    alias_of: toolkit/vendor/plugin-openai-curated-remote-hyperframes-0.1.2/.codex-plugin/plugin.json
+notices:
+- notices/28a2ad511748-plugin.json
+excluded: []

@@ -1,0 +1,1 @@
+../../../pack-21st-dev-magic-mcp-isc/skills/21st-ui/SKILL.md

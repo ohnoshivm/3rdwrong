@@ -1,0 +1,1 @@
+../.codex-marketplace/linkedin-skills/scripts/check_actor_inputs.py

@@ -1,0 +1,1 @@
+../../banner-design/references/banner-sizes-and-styles.md

@@ -1,0 +1,1 @@
+../../../next-best-practices/references/data-patterns.md

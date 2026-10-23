@@ -1,0 +1,1 @@
+../../../.codex-marketplace/instagram-skills/skills/ig-hook-extractor/references/examples.md

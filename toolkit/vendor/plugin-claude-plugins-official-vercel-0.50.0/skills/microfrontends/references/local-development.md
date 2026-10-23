@@ -1,0 +1,1 @@
+../../../../pack-vercel-vercel-plugin-apache-2.0/skills/microfrontends/references/local-development.md

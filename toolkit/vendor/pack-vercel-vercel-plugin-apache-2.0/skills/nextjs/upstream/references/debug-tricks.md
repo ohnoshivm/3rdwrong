@@ -1,0 +1,1 @@
+../../../next-best-practices/references/debug-tricks.md

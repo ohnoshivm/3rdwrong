@@ -1,6 +1,6 @@
 # Agent instructions
 
-3RDWRONGS OS is the public working knowledge base for a founder-led identity studio. It holds reviewed strategy, methods, research, templates, and experimental AI skills.
+3RDWRONGS OS is the public working knowledge base for a founder-led design-engineering studio with brand identity at the core and digital experience as the second pillar. It holds reviewed strategy, methods, research, templates, and experimental AI skills.
 
 It is not a client archive: client information, personal data, credentials, and confidential material stay outside this repository.
 
@@ -12,7 +12,7 @@ Read [`INDEX.md`](INDEX.md) first to locate current knowledge. Then read the clo
 
 When sources conflict, use this order and flag the conflict for a human:
 
-1. `studio/decisions/` — the decision log wins over other pages.
+1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading; related proposals and hypotheses retain their statuses.
 2. `studio/` — current studio strategy and operating facts.
 3. `methods/` — proposed and reviewed ways of working.
 4. `intelligence/` — source-based research and design references.
@@ -26,6 +26,16 @@ When sources conflict, use this order and flag the conflict for a human:
 - Label evidence exactly: **Documented**, **Interpretation**, **Hypothesis**, or **Unknown**. Cite sources for documented claims and keep interpretation distinct from observation.
 - 3RDWRONGS' visual identity is not approved. A rejected exploration used black backgrounds, heavy grotesk typography, and neon accents. Do not reuse that direction as guidance.
 - Everything committed here is public and open source. Never commit personal data, third-party contracts, credentials or NDA-bound assets. Choose a non-public store before collecting client or interview data; follow the [publication rules](docs/public-private-boundary.md). Studio pricing hypotheses and the founding source are public, with their evidence/status limits intact.
+
+## Department and toolkit loading
+
+Follow [D-0019](studio/decisions/0019-organisation-and-loading-policy.md) and the [eleven-department index](studio/departments/README.md): Craft (Design, Engineering, Labs), Delivery (Strategy, Production, Media), Growth (Marketing, Advertising, Outbound, Sales), Studio (Operations). Read the job lead first and specialists only on their triggers. Bench and parked entries stay in the library; tool inventory is not proof of quality or connectivity.
+
+[toolkit/sources/registry.json](toolkit/sources/registry.json) is the current routing source. VENDOR snapshots live in `toolkit/vendor/`; FETCH uses [pinned commits](toolkit/fetch.yaml); MANUAL setup lives in [toolkit/manual.md](toolkit/manual.md). The v1 Design YAML is legacy scanner input only. See the [registry summary](studio/departments/registry-summary.md), [Third-party toolkit licensing](LICENSING.md#third-party-toolkit) and [notices](THIRD_PARTY_NOTICES.md).
+
+Use `scripts/install.sh --profile full --tools both` after reviewing the [installation guide](README.md#one-command-install). Profiles are `full|design-engineering|growth|studio|minimal`; tools are `claude|codex|both`. Preview with `--dry-run`; `--skip-fetch` omits network fetches; `--uninstall` removes unchanged installer-owned entries. `TOOLKIT_FETCH_TIMEOUT` controls fetch timeout. Skills link to `~/.claude/skills/` or `~/.agents/skills/`, agents to `~/.claude/agents/`, and library entries to `~/.claude/skills-library/3rdwrong/`, without overwriting user folders.
+
+The [Claude marketplace](.claude-plugin/marketplace.json) has 12 plugins. Register with `/plugin marketplace add ohnoshivm/3rdwrong#system/v0.3-departments`, then `/plugin install 3rdwrong-core@3rdwrong` or a named department plugin such as `/plugin install 3rdwrong-engineering@3rdwrong`. See the README for shell equivalents and the [verified command reference](https://code.claude.com/docs/en/discover-plugins). Installation does not approve routing or verify connected services.
 
 ## Context router
 

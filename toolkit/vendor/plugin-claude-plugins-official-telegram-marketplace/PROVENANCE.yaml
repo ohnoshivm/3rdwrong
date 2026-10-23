@@ -1,0 +1,33 @@
+package: plugin-claude-plugins-official-telegram-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- 0.0.1
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-telegram-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 6df50f47d8f57b50cedbf034e2a7a5ec5fe49295cd530ff4d351803490f2f0b0
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: dfd016a63459229ceb791be757c3bede084fb22303c36b61342db1b8f58cc450
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/LICENSE
+  skills/access/SKILL.md:
+    sha256: 6c87f59841c55a4a4f1b732c7427959581e47234f1b8c6fd633e4a5256ce6a3c
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/access/SKILL.md
+  skills/configure/SKILL.md:
+    sha256: 16b06bf2ac5ede250d0c620ce4e6cf3878c9704246b8f52390fde5f280a17f73
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/skills/configure/SKILL.md
+  notices/5e8b32eab6f4-package.json:
+    sha256: 5e8b32eab6f4e168524204955a9458158401bc1c369816076b1a8dc9f9727c72
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/package.json
+  notices/dfd016a63459-LICENSE:
+    sha256: dfd016a63459229ceb791be757c3bede084fb22303c36b61342db1b8f58cc450
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/LICENSE
+notices:
+- LICENSE
+- notices/5e8b32eab6f4-package.json
+- notices/dfd016a63459-LICENSE
+excluded: []

@@ -1,0 +1,1 @@
+../../../.codex-marketplace/facebook-skills/skills/fb-humanizer/sub-skills/story-bank-interview.md

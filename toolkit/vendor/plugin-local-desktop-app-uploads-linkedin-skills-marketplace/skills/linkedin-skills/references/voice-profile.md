@@ -1,0 +1,1 @@
+../.codex-marketplace/linkedin-skills/references/voice-profile.md

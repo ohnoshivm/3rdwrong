@@ -1,0 +1,1 @@
+../../../../../../pack-nextlevelbuilder-ui-ux-pro-max-skill-mit/skills/brand/scripts/validate-asset.cjs

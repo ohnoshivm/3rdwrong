@@ -1,0 +1,1 @@
+../.codex-marketplace/x-skills/references/voice-rules.md

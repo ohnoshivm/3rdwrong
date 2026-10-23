@@ -1,0 +1,1 @@
+../../../../../../.claude/skills/design/scripts/cip/generate.py

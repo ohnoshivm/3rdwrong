@@ -1,0 +1,1 @@
+../../../../../../.claude/skills/brand/scripts/tests/test_sync_brand_to_tokens.py

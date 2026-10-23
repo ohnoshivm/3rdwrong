@@ -1,0 +1,1 @@
+.codex-marketplace/instagram-skills/SKILL.md

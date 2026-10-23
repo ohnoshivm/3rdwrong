@@ -1,0 +1,1 @@
+../../../../pack-obra-superpowers-mit/skills/writing-skills/examples/CLAUDE_MD_TESTING.md

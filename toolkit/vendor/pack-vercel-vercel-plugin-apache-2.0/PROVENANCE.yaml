@@ -1,0 +1,1347 @@
+package: pack-vercel-vercel-plugin-apache-2.0
+upstream_url: https://github.com/vercel/vercel-plugin
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#pack-vercel-vercel-plugin-apache-2.0
+copied_from:
+- ~/creative-engineering-os/library/skills/access-protected-vercel-deployment
+- ~/creative-engineering-os/library/skills/ai-gateway
+- ~/creative-engineering-os/library/skills/ai-sdk
+- ~/creative-engineering-os/library/skills/auth
+- ~/creative-engineering-os/library/skills/benchmark-agents
+- ~/creative-engineering-os/library/skills/benchmark-e2e
+- ~/creative-engineering-os/library/skills/benchmark-sandbox
+- ~/creative-engineering-os/library/skills/benchmark-testing
+- ~/creative-engineering-os/library/skills/bootstrap
+- ~/creative-engineering-os/library/skills/build-agents
+- ~/creative-engineering-os/library/skills/cdn-caching
+- ~/creative-engineering-os/library/skills/chat-sdk
+- ~/creative-engineering-os/library/skills/create-a-backend
+- ~/creative-engineering-os/library/skills/custom-metrics
+- ~/creative-engineering-os/library/skills/deployments-cicd
+- ~/creative-engineering-os/library/skills/env-vars
+- ~/creative-engineering-os/library/skills/eve
+- ~/creative-engineering-os/library/skills/flags-sdk
+- ~/creative-engineering-os/library/skills/knowledge-update
+- ~/creative-engineering-os/library/skills/marketplace
+- ~/creative-engineering-os/library/skills/microfrontends
+- ~/creative-engineering-os/library/skills/next-best-practices
+- ~/creative-engineering-os/library/skills/next-cache-components
+- ~/creative-engineering-os/library/skills/next-forge
+- ~/creative-engineering-os/library/skills/next-upgrade
+- ~/creative-engineering-os/library/skills/nextjs
+- ~/creative-engineering-os/library/skills/plugin-audit
+- ~/creative-engineering-os/library/skills/queues
+- ~/creative-engineering-os/library/skills/react-best-practices
+- ~/creative-engineering-os/library/skills/release
+- ~/creative-engineering-os/library/skills/routing-middleware
+- ~/creative-engineering-os/library/skills/runtime-cache
+- ~/creative-engineering-os/library/skills/turbopack
+- ~/creative-engineering-os/library/skills/vercel-agent
+- ~/creative-engineering-os/library/skills/vercel-cli
+- ~/creative-engineering-os/library/skills/vercel-connect
+- ~/creative-engineering-os/library/skills/vercel-firewall
+- ~/creative-engineering-os/library/skills/vercel-functions
+- ~/creative-engineering-os/library/skills/vercel-plugin-eval
+- ~/creative-engineering-os/library/skills/vercel-sandbox
+- ~/creative-engineering-os/library/skills/vercel-services
+- ~/creative-engineering-os/library/skills/vercel-storage
+- ~/creative-engineering-os/library/skills/workflow
+copied_on: '2026-10-23'
+files:
+  skills/access-protected-vercel-deployment/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/access-protected-vercel-deployment/LICENSE.upstream
+  skills/access-protected-vercel-deployment/SKILL.md:
+    sha256: 24d295fa893a22b318f19d87fc52865fc0e26fe43abea62ce787769d00a79fc6
+    copied_from: ~/creative-engineering-os/library/skills/access-protected-vercel-deployment/SKILL.md
+  skills/ai-gateway/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/ai-gateway/LICENSE.upstream
+  skills/ai-gateway/SKILL.md:
+    sha256: b23ff37171dae9f3f9ea0c35ca60df9197b7cc4c3ed62f707f8e46e998b7abbe
+    copied_from: ~/creative-engineering-os/library/skills/ai-gateway/SKILL.md
+  skills/ai-gateway/references/coding-agents.md:
+    sha256: c95325c90c26201b4bc7ce24b8f70d5128d2d49383d61a8c98a00c6483f63061
+    copied_from: ~/creative-engineering-os/library/skills/ai-gateway/references/coding-agents.md
+  skills/ai-gateway/references/routing.md:
+    sha256: ff4eab3f0dd715286146d77666e13ff392913b9135bbfe9fb28dfc724a8ba3cc
+    copied_from: ~/creative-engineering-os/library/skills/ai-gateway/references/routing.md
+  skills/ai-gateway/references/setup.md:
+    sha256: 9d20f576423ca6dabfe2aa8d42724c04dae70f788b0766778f16bc6a15dd610e
+    copied_from: ~/creative-engineering-os/library/skills/ai-gateway/references/setup.md
+  skills/ai-gateway/references/spend-observability.md:
+    sha256: a51fddd40f1d3c0b38a2c1532dc3128fcf5c5ce3202f7348e015420dae7e3f5d
+    copied_from: ~/creative-engineering-os/library/skills/ai-gateway/references/spend-observability.md
+  skills/ai-sdk/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/ai-sdk/LICENSE.upstream
+  skills/ai-sdk/SKILL.md:
+    sha256: 18565cbd3c95240758683328b77cb5e0a6a065a1588a326495cee5d0afcf7047
+    copied_from: ~/creative-engineering-os/library/skills/ai-sdk/SKILL.md
+  skills/ai-sdk/overlay.yaml:
+    sha256: 0b00426871356d74258fe976501ce5132b3e080ddc84d3009cca549c80e113af
+    copied_from: ~/creative-engineering-os/library/skills/ai-sdk/overlay.yaml
+  skills/ai-sdk/upstream/SKILL.md:
+    sha256: 864e110a36c00975e5c5ddec68163dd0b5347b126a46d84d7369a2bbdbdb7754
+    copied_from: ~/creative-engineering-os/library/skills/ai-sdk/upstream/SKILL.md
+  skills/auth/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/auth/LICENSE.upstream
+  skills/auth/SKILL.md:
+    sha256: 84a656a2dc0b2bfc39a36ed3dc55c43dae754e50513faecf8529675f1bb52591
+    copied_from: ~/creative-engineering-os/library/skills/auth/SKILL.md
+  skills/benchmark-agents/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-agents/LICENSE.upstream
+  skills/benchmark-agents/SKILL.md:
+    sha256: 2f94d7bf54b7ee66e623ca0578962a2f3c1f3a2d27ea26137354852a63e17fa8
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-agents/SKILL.md
+  skills/benchmark-agents/prompts.md:
+    sha256: ef24df26688c884d4e020ea62c34f86bb980f07f11d59d90c32d288b7b689c91
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-agents/prompts.md
+  skills/benchmark-e2e/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-e2e/LICENSE.upstream
+  skills/benchmark-e2e/SKILL.md:
+    sha256: 1f18ec33990b765e7235bfec8e28b41f088aad5c5ea977b041c4657465ce624b
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-e2e/SKILL.md
+  skills/benchmark-sandbox/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/LICENSE.upstream
+  skills/benchmark-sandbox/SKILL.md:
+    sha256: 2588bbda779e1843d131be656dd89fdcb8599d626b84366ff10f98e13733d4a4
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/SKILL.md
+  skills/benchmark-sandbox/logger.ts:
+    sha256: 4e1103746775b3cd3e1f0e45d308d145bb22b5d893b89c8b6f707d95900cd0c8
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/logger.ts
+  skills/benchmark-sandbox/run-eval.ts:
+    sha256: 238ee44860ec352f6c24a7f0fa829738ff7de73597c2accb39a586c90b0a463e
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/run-eval.ts
+  skills/benchmark-sandbox/sandbox-analyze.ts:
+    sha256: 158a36d0a0cf52f3ce7c5136a776eeea19e0a297f3d4a2ce14fc2d15bce117c1
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/sandbox-analyze.ts
+  skills/benchmark-sandbox/sandbox-runner.ts:
+    sha256: 091a48b9165c343db4dbb249e675449a35494c497fc057c87ebb718da5cbf20e
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/sandbox-runner.ts
+  skills/benchmark-sandbox/spike/create-snapshot.ts:
+    sha256: 3221934f437ff693da74506718e3dbdcdcb9302309435984b7889de6aee1191f
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/spike/create-snapshot.ts
+  skills/benchmark-sandbox/spike/interactive-proof.ts:
+    sha256: 89c1ff038f6c5979130af63a70df21545d699b5bb5557d51f8cf08616128efc0
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/spike/interactive-proof.ts
+  skills/benchmark-sandbox/spike/provision.ts:
+    sha256: a2e99efab217dce4607ddd4814839c08227b95ee7b3841601c7e161a9fa6480f
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/spike/provision.ts
+  skills/benchmark-sandbox/types.ts:
+    sha256: a16d3745cf7b4c5dafb5718f9ff3feded095350659a2863b2028a805f2ac4fb1
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-sandbox/types.ts
+  skills/benchmark-testing/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-testing/LICENSE.upstream
+  skills/benchmark-testing/SKILL.md:
+    sha256: 9d5ead7eed4f56a57cbfbf475614c970589131ff8c279d85738eaa94979152b0
+    copied_from: ~/creative-engineering-os/library/skills/benchmark-testing/SKILL.md
+  skills/bootstrap/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/bootstrap/LICENSE.upstream
+  skills/bootstrap/SKILL.md:
+    sha256: a53426f5637621c248c2ba4de1190fe7de6bed2d9033c5f3d37af49e71334c18
+    copied_from: ~/creative-engineering-os/library/skills/bootstrap/SKILL.md
+  skills/build-agents/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/build-agents/LICENSE.upstream
+  skills/build-agents/SKILL.md:
+    sha256: 00f78306ddf38c2bdc8b6ab777a713ea5a4cb4c6118b1138c420eaac455728d5
+    copied_from: ~/creative-engineering-os/library/skills/build-agents/SKILL.md
+  skills/cdn-caching/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/cdn-caching/LICENSE.upstream
+  skills/cdn-caching/SKILL.md:
+    sha256: 81457e8c938232b2dd63168c712ae34276f45123c0970ece57e1e5cefed4d9fd
+    copied_from: ~/creative-engineering-os/library/skills/cdn-caching/SKILL.md
+  skills/chat-sdk/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/chat-sdk/LICENSE.upstream
+  skills/chat-sdk/SKILL.md:
+    sha256: 3230728922e2e8880d6ab308726225a6c4fbfee880ed7af4381b7eb07c5c9021
+    copied_from: ~/creative-engineering-os/library/skills/chat-sdk/SKILL.md
+  skills/chat-sdk/overlay.yaml:
+    sha256: f70d77070189e911d6cbe527bc5849eb07dba0a181efde2335609b2aa0f8186c
+    copied_from: ~/creative-engineering-os/library/skills/chat-sdk/overlay.yaml
+  skills/chat-sdk/upstream/SKILL.md:
+    sha256: d6d1224c2d01aa145d34fdb4e7877b61dc9de18315f6ba0344cad21e5df1dbec
+    copied_from: ~/creative-engineering-os/library/skills/chat-sdk/upstream/SKILL.md
+  skills/create-a-backend/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/create-a-backend/LICENSE.upstream
+  skills/create-a-backend/SKILL.md:
+    sha256: e4a4b368076d73573d3f74f8bd0c7ea8cb205cceace160f36f87a2ba976c1329
+    copied_from: ~/creative-engineering-os/library/skills/create-a-backend/SKILL.md
+  skills/create-a-backend/agents/openai.yaml:
+    sha256: f5bd71e15004e4a8ef9b8baca09200876f12b7a1158efef4e401f3e728fd04a7
+    copied_from: ~/creative-engineering-os/library/skills/create-a-backend/agents/openai.yaml
+  skills/custom-metrics/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/custom-metrics/LICENSE.upstream
+  skills/custom-metrics/SKILL.md:
+    sha256: dda9871df28f58001367e6ee923912c3b41d3ed77a4ef665ce0552227760d4f1
+    copied_from: ~/creative-engineering-os/library/skills/custom-metrics/SKILL.md
+  skills/deployments-cicd/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/deployments-cicd/LICENSE.upstream
+  skills/deployments-cicd/SKILL.md:
+    sha256: 0d9ffe3554d5b44f45d797c7f26b98ba0fd63fab6e650c4d3e07e847d61ed04d
+    copied_from: ~/creative-engineering-os/library/skills/deployments-cicd/SKILL.md
+  skills/env-vars/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/env-vars/LICENSE.upstream
+  skills/env-vars/SKILL.md:
+    sha256: aaca226ca808d08a62f80e72543a862ba214160d5dd3d8b4b6d61f38bad76a0e
+    copied_from: ~/creative-engineering-os/library/skills/env-vars/SKILL.md
+  skills/eve/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/eve/LICENSE.upstream
+  skills/eve/SKILL.md:
+    sha256: 73e515d45071a987ace13cce18b690280b878c263eb1a15559f0d7965a041eda
+    copied_from: ~/creative-engineering-os/library/skills/eve/SKILL.md
+  skills/eve/overlay.yaml:
+    sha256: 41839d08621dec59592004c047081a4e42a9be7b3cd0e6f4245c49dd7ac4e270
+    copied_from: ~/creative-engineering-os/library/skills/eve/overlay.yaml
+  skills/eve/upstream/SKILL.md:
+    sha256: e467a328d14991a6486a7a2010046fd89d187258806820d569bfac2e135d1725
+    copied_from: ~/creative-engineering-os/library/skills/eve/upstream/SKILL.md
+  skills/flags-sdk/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/flags-sdk/LICENSE.upstream
+  skills/flags-sdk/SKILL.md:
+    sha256: 0f9b3946959fccc21a8ac01b568bbf0100bf1f927075470f190361076b7139df
+    copied_from: ~/creative-engineering-os/library/skills/flags-sdk/SKILL.md
+  skills/flags-sdk/references/api.md:
+    sha256: 94d6517b9d4d34be91dc33145f071a240e53d64e22d8e807995f549221376771
+    copied_from: ~/creative-engineering-os/library/skills/flags-sdk/references/api.md
+  skills/flags-sdk/references/nextjs.md:
+    sha256: 2d932468ed5fd86492c1c15476c9321d0a7c5df44f1f4c8bfe2b9378f8868f01
+    copied_from: ~/creative-engineering-os/library/skills/flags-sdk/references/nextjs.md
+  skills/flags-sdk/references/providers.md:
+    sha256: 5fd1c6826ed67035351e6dcc5cb73987532ef03d15fb17d402d8879a1d1fc3c3
+    copied_from: ~/creative-engineering-os/library/skills/flags-sdk/references/providers.md
+  skills/flags-sdk/references/sveltekit.md:
+    sha256: 2b52b5599e5b56ac0e58dec09232a08cae3d457533b69dd3b398b12b7aff6c1f
+    copied_from: ~/creative-engineering-os/library/skills/flags-sdk/references/sveltekit.md
+  skills/knowledge-update/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/knowledge-update/LICENSE.upstream
+  skills/knowledge-update/SKILL.md:
+    sha256: b66f1c3ceebba4ed24cf118013322bb8eb2bb59f5428984cecec0c38fe13904d
+    copied_from: ~/creative-engineering-os/library/skills/knowledge-update/SKILL.md
+  skills/marketplace/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/marketplace/LICENSE.upstream
+  skills/marketplace/SKILL.md:
+    sha256: a40c777113e78dfc8a3f430e53d850b5bda03ee724691e732a205accd0004843
+    copied_from: ~/creative-engineering-os/library/skills/marketplace/SKILL.md
+  skills/microfrontends/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/LICENSE.upstream
+  skills/microfrontends/SKILL.md:
+    sha256: 2b846d0e875117919e1720f6e086b09560b9f3efc5c3b17575d0f23adf173c1a
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/SKILL.md
+  skills/microfrontends/references/configuration.md:
+    sha256: 4cf0bed8c766825f226ae7e1189277b87fb56ba3a81dd79a1d819c7aba12ccd2
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/references/configuration.md
+  skills/microfrontends/references/local-development.md:
+    sha256: a3eedaa76060afa7c0b8d8fb4904127582631d881e3366e122ed5257316aaf3c
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/references/local-development.md
+  skills/microfrontends/references/managing-microfrontends.md:
+    sha256: 0523de85aa1765ce22dc344074fe3be50b75377a5d802704d3ac391da9016fc3
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/references/managing-microfrontends.md
+  skills/microfrontends/references/path-routing.md:
+    sha256: f9b8f897e6ba0c24090012970de9aa6a638214caafddbeffc0fe91d0f27e643b
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/references/path-routing.md
+  skills/microfrontends/references/security.md:
+    sha256: 14947f8ba4487fd0478e7c0ad6802c060ffdc21171981d3e33d0b6e02c45986c
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/references/security.md
+  skills/microfrontends/references/troubleshooting.md:
+    sha256: 88a972602f070a860e2017e067eef2220cd88cc57b14bc830bb0d18648895f17
+    copied_from: ~/creative-engineering-os/library/skills/microfrontends/references/troubleshooting.md
+  skills/next-best-practices/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/LICENSE.upstream
+  skills/next-best-practices/SKILL.md:
+    sha256: c78f952d4e98bf3694856dbf70c03a6037d4e258ff3701f2642bfdf108549a25
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/SKILL.md
+  skills/next-best-practices/references/app-router-files.md:
+    sha256: d11b45d535b41d047fbe22e062de5c72716d64b39b85e9c259cc8e1f5362a567
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/app-router-files.md
+  skills/next-best-practices/references/async-patterns.md:
+    sha256: 3a5e4a91d8399f0922c4a3b15b3490fbeb7396f976139a92311ea34cfa300584
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/async-patterns.md
+  skills/next-best-practices/references/bundling.md:
+    sha256: 5496b337073985068c61527e0a89fbf7088faa47b9f92d2dd09a7d070cb48a7c
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/bundling.md
+  skills/next-best-practices/references/data-patterns.md:
+    sha256: 538c8e24cd60eded9825a9461f2c644f5e6e5203d95aa4bf7c9486412bcc7aa1
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/data-patterns.md
+  skills/next-best-practices/references/debug-tricks.md:
+    sha256: 62617a7cb131a2111f9f033617404fadb3458d56aeb0643f75aa5b2e43abf192
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/debug-tricks.md
+  skills/next-best-practices/references/directives.md:
+    sha256: 60b82ee24a8d43631da59beeec11f46ab25ce83c8000578f2222ecb6b6cadf4d
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/directives.md
+  skills/next-best-practices/references/error-handling.md:
+    sha256: 30b4e825b625df01d4a7c441591ac46782aab4f913432e96f408153d5fa62098
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/error-handling.md
+  skills/next-best-practices/references/file-conventions.md:
+    sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/file-conventions.md
+  skills/next-best-practices/references/font.md:
+    sha256: cb1f8d43e8fbca39839056b4621724837858bdace13e73bf3faf69abca318a21
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/font.md
+  skills/next-best-practices/references/functions.md:
+    sha256: 39a8a418af501d7132d289f4b5dd6cae59d1bfa6fda941d502fc29bb0204e079
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/functions.md
+  skills/next-best-practices/references/hydration-error.md:
+    sha256: d4baec07ab818045e284c45dd24422685ac934a38ea325139651f664a94eff57
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/hydration-error.md
+  skills/next-best-practices/references/image.md:
+    sha256: 231a15ddea67fe0b965762cc89993ca5aaeb0c35c0e67767bd53ca138ec04c05
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/image.md
+  skills/next-best-practices/references/metadata.md:
+    sha256: 19b00274877056f222f2284be5ade2479690e79e86af9a0466bc9d209506a95d
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/metadata.md
+  skills/next-best-practices/references/parallel-routes.md:
+    sha256: d8a1c2546d90af2b37e22a4a56a1978555af0d62a7683e349ce3e3287ab8a4af
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/parallel-routes.md
+  skills/next-best-practices/references/route-handlers.md:
+    sha256: 976a17de8024b3a65063350ae0fb6b9b617293f06358305800c858f58b015680
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/route-handlers.md
+  skills/next-best-practices/references/rsc-boundaries.md:
+    sha256: 2b50b0310884609efc9f2620fbb81ef83a30a810544e449ff669c55935d5b920
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/rsc-boundaries.md
+  skills/next-best-practices/references/runtime-selection.md:
+    sha256: 7abb95f9af0f4769e7e9e91aba94a5787ed16e2c4009a140c8577a3a49828060
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/runtime-selection.md
+  skills/next-best-practices/references/scripts.md:
+    sha256: fff3bc7530d5af472e2825fde69a26218c9e58acba74d60913f403baab4628a3
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/scripts.md
+  skills/next-best-practices/references/self-hosting.md:
+    sha256: f59e9afa0ff4dcbe20374dff13517ccec3ac6a239ef6d02e0ee8863cf9fc7082
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/self-hosting.md
+  skills/next-best-practices/references/suspense-boundaries.md:
+    sha256: 63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a
+    copied_from: ~/creative-engineering-os/library/skills/next-best-practices/references/suspense-boundaries.md
+  skills/next-cache-components/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/next-cache-components/LICENSE.upstream
+  skills/next-cache-components/SKILL.md:
+    sha256: 4c296aa985079c913f68e5bc0f603c0054fabd2dd7dfdfcc7000198fc5a4b99e
+    copied_from: ~/creative-engineering-os/library/skills/next-cache-components/SKILL.md
+  skills/next-cache-components/overlay.yaml:
+    sha256: a79036f0f25d87bd0481954ec200e58826291138fa07d7d9db0488ffb2b35fe1
+    copied_from: ~/creative-engineering-os/library/skills/next-cache-components/overlay.yaml
+  skills/next-cache-components/upstream/SKILL.md:
+    sha256: 92fc6ac94c5cabdcd13c7dc7aabd6a4d04921e6295dfc00dd9888e375fd1ff4c
+    copied_from: ~/creative-engineering-os/library/skills/next-cache-components/upstream/SKILL.md
+  skills/next-forge/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/LICENSE.upstream
+  skills/next-forge/SKILL.md:
+    sha256: 97fcefaa3f0a5174cceefeaea30e92aa7ec5f34d67730649eecad373ef0849d3
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/SKILL.md
+  skills/next-forge/overlay.yaml:
+    sha256: 91acc51b7acd25c7387b528f37a6da26473b36f301b9ce7e68e943a33afa0f7d
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/overlay.yaml
+  skills/next-forge/references/architecture.md:
+    sha256: b9ea72e475e747797dda1413e89843e218e850f43d9e0c597712cd53cfe7aa05
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/references/architecture.md
+  skills/next-forge/references/customization.md:
+    sha256: cf45ac1c0f4fe30b37ededb4bab2f915851fe6d96c4dddd618619d64ad765844
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/references/customization.md
+  skills/next-forge/references/packages.md:
+    sha256: fce84c439bf91b73f487887c5d36d4f1980109aac8ce1e3b585c79b4fd2cfe31
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/references/packages.md
+  skills/next-forge/references/setup.md:
+    sha256: 2625bc7da628a8a27c32b88863d1d0c20be3963bb7920c330cddaa7d5f000556
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/references/setup.md
+  skills/next-forge/upstream/SKILL.md:
+    sha256: be76e0d67cfd50860e2014643fa085977d73e9d9f775f8132791b8e5d1ed5ac6
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/upstream/SKILL.md
+  skills/next-forge/upstream/references/architecture.md:
+    sha256: b9ea72e475e747797dda1413e89843e218e850f43d9e0c597712cd53cfe7aa05
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/upstream/references/architecture.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/architecture.md
+  skills/next-forge/upstream/references/customization.md:
+    sha256: cf45ac1c0f4fe30b37ededb4bab2f915851fe6d96c4dddd618619d64ad765844
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/upstream/references/customization.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/customization.md
+  skills/next-forge/upstream/references/packages.md:
+    sha256: fce84c439bf91b73f487887c5d36d4f1980109aac8ce1e3b585c79b4fd2cfe31
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/upstream/references/packages.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/packages.md
+  skills/next-forge/upstream/references/setup.md:
+    sha256: 2625bc7da628a8a27c32b88863d1d0c20be3963bb7920c330cddaa7d5f000556
+    copied_from: ~/creative-engineering-os/library/skills/next-forge/upstream/references/setup.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-forge/references/setup.md
+  skills/next-upgrade/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/next-upgrade/LICENSE.upstream
+  skills/next-upgrade/SKILL.md:
+    sha256: 562f9834d7c55c37498e0787fe431061f4bb766cd1dd6bb52441790593c7e1a8
+    copied_from: ~/creative-engineering-os/library/skills/next-upgrade/SKILL.md
+  skills/nextjs/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/LICENSE.upstream
+  skills/nextjs/SKILL.md:
+    sha256: a84d03ab8e78050515656d94984d98b37bd30d57b9e290a6b5071053dda5023f
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/SKILL.md
+  skills/nextjs/overlay.yaml:
+    sha256: 87c8edfe8c9731598e2d924a80d3766f42cdc8d29ccb1cdd0986ef6ef5a19d41
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/overlay.yaml
+  skills/nextjs/references/app-router-files.md:
+    sha256: d11b45d535b41d047fbe22e062de5c72716d64b39b85e9c259cc8e1f5362a567
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/app-router-files.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/app-router-files.md
+  skills/nextjs/references/async-patterns.md:
+    sha256: 3a5e4a91d8399f0922c4a3b15b3490fbeb7396f976139a92311ea34cfa300584
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/async-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/async-patterns.md
+  skills/nextjs/references/bundling.md:
+    sha256: 5496b337073985068c61527e0a89fbf7088faa47b9f92d2dd09a7d070cb48a7c
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/bundling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/bundling.md
+  skills/nextjs/references/data-patterns.md:
+    sha256: 538c8e24cd60eded9825a9461f2c644f5e6e5203d95aa4bf7c9486412bcc7aa1
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/data-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/data-patterns.md
+  skills/nextjs/references/debug-tricks.md:
+    sha256: 62617a7cb131a2111f9f033617404fadb3458d56aeb0643f75aa5b2e43abf192
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/debug-tricks.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/debug-tricks.md
+  skills/nextjs/references/directives.md:
+    sha256: 60b82ee24a8d43631da59beeec11f46ab25ce83c8000578f2222ecb6b6cadf4d
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/directives.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/directives.md
+  skills/nextjs/references/error-handling.md:
+    sha256: 30b4e825b625df01d4a7c441591ac46782aab4f913432e96f408153d5fa62098
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/error-handling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/error-handling.md
+  skills/nextjs/references/file-conventions.md:
+    sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/file-conventions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/file-conventions.md
+  skills/nextjs/references/font.md:
+    sha256: cb1f8d43e8fbca39839056b4621724837858bdace13e73bf3faf69abca318a21
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/font.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/font.md
+  skills/nextjs/references/functions.md:
+    sha256: 39a8a418af501d7132d289f4b5dd6cae59d1bfa6fda941d502fc29bb0204e079
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/functions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/functions.md
+  skills/nextjs/references/hydration-error.md:
+    sha256: d4baec07ab818045e284c45dd24422685ac934a38ea325139651f664a94eff57
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/hydration-error.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/hydration-error.md
+  skills/nextjs/references/image.md:
+    sha256: 231a15ddea67fe0b965762cc89993ca5aaeb0c35c0e67767bd53ca138ec04c05
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/image.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/image.md
+  skills/nextjs/references/metadata.md:
+    sha256: 19b00274877056f222f2284be5ade2479690e79e86af9a0466bc9d209506a95d
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/metadata.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/metadata.md
+  skills/nextjs/references/parallel-routes.md:
+    sha256: d8a1c2546d90af2b37e22a4a56a1978555af0d62a7683e349ce3e3287ab8a4af
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/parallel-routes.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/parallel-routes.md
+  skills/nextjs/references/route-handlers.md:
+    sha256: 976a17de8024b3a65063350ae0fb6b9b617293f06358305800c858f58b015680
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/route-handlers.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/route-handlers.md
+  skills/nextjs/references/rsc-boundaries.md:
+    sha256: 2b50b0310884609efc9f2620fbb81ef83a30a810544e449ff669c55935d5b920
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/rsc-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/rsc-boundaries.md
+  skills/nextjs/references/runtime-selection.md:
+    sha256: 7abb95f9af0f4769e7e9e91aba94a5787ed16e2c4009a140c8577a3a49828060
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/runtime-selection.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/runtime-selection.md
+  skills/nextjs/references/scripts.md:
+    sha256: fff3bc7530d5af472e2825fde69a26218c9e58acba74d60913f403baab4628a3
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/scripts.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/scripts.md
+  skills/nextjs/references/self-hosting.md:
+    sha256: f59e9afa0ff4dcbe20374dff13517ccec3ac6a239ef6d02e0ee8863cf9fc7082
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/self-hosting.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/self-hosting.md
+  skills/nextjs/references/suspense-boundaries.md:
+    sha256: 63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/references/suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/suspense-boundaries.md
+  skills/nextjs/upstream/SKILL.md:
+    sha256: c78f952d4e98bf3694856dbf70c03a6037d4e258ff3701f2642bfdf108549a25
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/SKILL.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/SKILL.md
+  skills/nextjs/upstream/references/app-router-files.md:
+    sha256: d11b45d535b41d047fbe22e062de5c72716d64b39b85e9c259cc8e1f5362a567
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/app-router-files.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/app-router-files.md
+  skills/nextjs/upstream/references/async-patterns.md:
+    sha256: 3a5e4a91d8399f0922c4a3b15b3490fbeb7396f976139a92311ea34cfa300584
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/async-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/async-patterns.md
+  skills/nextjs/upstream/references/bundling.md:
+    sha256: 5496b337073985068c61527e0a89fbf7088faa47b9f92d2dd09a7d070cb48a7c
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/bundling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/bundling.md
+  skills/nextjs/upstream/references/data-patterns.md:
+    sha256: 538c8e24cd60eded9825a9461f2c644f5e6e5203d95aa4bf7c9486412bcc7aa1
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/data-patterns.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/data-patterns.md
+  skills/nextjs/upstream/references/debug-tricks.md:
+    sha256: 62617a7cb131a2111f9f033617404fadb3458d56aeb0643f75aa5b2e43abf192
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/debug-tricks.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/debug-tricks.md
+  skills/nextjs/upstream/references/directives.md:
+    sha256: 60b82ee24a8d43631da59beeec11f46ab25ce83c8000578f2222ecb6b6cadf4d
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/directives.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/directives.md
+  skills/nextjs/upstream/references/error-handling.md:
+    sha256: 30b4e825b625df01d4a7c441591ac46782aab4f913432e96f408153d5fa62098
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/error-handling.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/error-handling.md
+  skills/nextjs/upstream/references/file-conventions.md:
+    sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/file-conventions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/file-conventions.md
+  skills/nextjs/upstream/references/font.md:
+    sha256: cb1f8d43e8fbca39839056b4621724837858bdace13e73bf3faf69abca318a21
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/font.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/font.md
+  skills/nextjs/upstream/references/functions.md:
+    sha256: 39a8a418af501d7132d289f4b5dd6cae59d1bfa6fda941d502fc29bb0204e079
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/functions.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/functions.md
+  skills/nextjs/upstream/references/hydration-error.md:
+    sha256: d4baec07ab818045e284c45dd24422685ac934a38ea325139651f664a94eff57
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/hydration-error.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/hydration-error.md
+  skills/nextjs/upstream/references/image.md:
+    sha256: 231a15ddea67fe0b965762cc89993ca5aaeb0c35c0e67767bd53ca138ec04c05
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/image.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/image.md
+  skills/nextjs/upstream/references/metadata.md:
+    sha256: 19b00274877056f222f2284be5ade2479690e79e86af9a0466bc9d209506a95d
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/metadata.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/metadata.md
+  skills/nextjs/upstream/references/parallel-routes.md:
+    sha256: d8a1c2546d90af2b37e22a4a56a1978555af0d62a7683e349ce3e3287ab8a4af
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/parallel-routes.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/parallel-routes.md
+  skills/nextjs/upstream/references/route-handlers.md:
+    sha256: 976a17de8024b3a65063350ae0fb6b9b617293f06358305800c858f58b015680
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/route-handlers.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/route-handlers.md
+  skills/nextjs/upstream/references/rsc-boundaries.md:
+    sha256: 2b50b0310884609efc9f2620fbb81ef83a30a810544e449ff669c55935d5b920
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/rsc-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/rsc-boundaries.md
+  skills/nextjs/upstream/references/runtime-selection.md:
+    sha256: 7abb95f9af0f4769e7e9e91aba94a5787ed16e2c4009a140c8577a3a49828060
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/runtime-selection.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/runtime-selection.md
+  skills/nextjs/upstream/references/scripts.md:
+    sha256: fff3bc7530d5af472e2825fde69a26218c9e58acba74d60913f403baab4628a3
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/scripts.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/scripts.md
+  skills/nextjs/upstream/references/self-hosting.md:
+    sha256: f59e9afa0ff4dcbe20374dff13517ccec3ac6a239ef6d02e0ee8863cf9fc7082
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/self-hosting.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/self-hosting.md
+  skills/nextjs/upstream/references/suspense-boundaries.md:
+    sha256: 63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a
+    copied_from: ~/creative-engineering-os/library/skills/nextjs/upstream/references/suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/next-best-practices/references/suspense-boundaries.md
+  skills/plugin-audit/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/plugin-audit/LICENSE.upstream
+  skills/plugin-audit/SKILL.md:
+    sha256: 3179280ffb97921cb5e91fdce5bb45003db9b15e76f9f9887a519ccb603ea32a
+    copied_from: ~/creative-engineering-os/library/skills/plugin-audit/SKILL.md
+  skills/plugin-audit/references/log-format.md:
+    sha256: e813043665b82f874e568a18efd6c458ebf87f7ace40a3dcafef743588e3173a
+    copied_from: ~/creative-engineering-os/library/skills/plugin-audit/references/log-format.md
+  skills/plugin-audit/scripts/batch-match.mjs:
+    sha256: c1bf2295d1975db8706c8131f1f7ceb163ab29a4ba9ea01d7cb0afab0283ae49
+    copied_from: ~/creative-engineering-os/library/skills/plugin-audit/scripts/batch-match.mjs
+  skills/queues/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/queues/LICENSE.upstream
+  skills/queues/SKILL.md:
+    sha256: a958abbed69e2b25b6364b66aa531a305cf81c775a80b810e4569f6f1be1bfac
+    copied_from: ~/creative-engineering-os/library/skills/queues/SKILL.md
+  skills/react-best-practices/AGENTS.md:
+    sha256: 6327efcce0c631580cee5bf2dcac8f884a81172a0261fa3c8ca458a72f603165
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/AGENTS.md
+  skills/react-best-practices/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/LICENSE.upstream
+  skills/react-best-practices/SKILL.md:
+    sha256: 1f5a862b4c60fbf157dc98931606a41485223e616840393a00d0a9f053f10f28
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/SKILL.md
+  skills/react-best-practices/overlay.yaml:
+    sha256: 43032c7c1e409d7a27d2c7ff9230b1160f7319a03cdcfcafdace6f6ab46a3383
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/overlay.yaml
+  skills/react-best-practices/rules/_sections.md:
+    sha256: 01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/_sections.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_sections.md
+  skills/react-best-practices/rules/_template.md:
+    sha256: 99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/_template.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_template.md
+  skills/react-best-practices/rules/advanced-event-handler-refs.md:
+    sha256: a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/advanced-event-handler-refs.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md
+  skills/react-best-practices/rules/advanced-init-once.md:
+    sha256: 3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/advanced-init-once.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-init-once.md
+  skills/react-best-practices/rules/advanced-use-latest.md:
+    sha256: 8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/advanced-use-latest.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-use-latest.md
+  skills/react-best-practices/rules/async-api-routes.md:
+    sha256: 523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/async-api-routes.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-api-routes.md
+  skills/react-best-practices/rules/async-defer-await.md:
+    sha256: 9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/async-defer-await.md
+  skills/react-best-practices/rules/async-dependencies.md:
+    sha256: 16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/async-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-dependencies.md
+  skills/react-best-practices/rules/async-parallel.md:
+    sha256: 6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/async-parallel.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-parallel.md
+  skills/react-best-practices/rules/async-suspense-boundaries.md:
+    sha256: de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/async-suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md
+  skills/react-best-practices/rules/bundle-barrel-imports.md:
+    sha256: 9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/bundle-barrel-imports.md
+  skills/react-best-practices/rules/bundle-conditional.md:
+    sha256: 09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/bundle-conditional.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-conditional.md
+  skills/react-best-practices/rules/bundle-defer-third-party.md:
+    sha256: 3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/bundle-defer-third-party.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md
+  skills/react-best-practices/rules/bundle-dynamic-imports.md:
+    sha256: 401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/bundle-dynamic-imports.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md
+  skills/react-best-practices/rules/bundle-preload.md:
+    sha256: d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/bundle-preload.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-preload.md
+  skills/react-best-practices/rules/client-event-listeners.md:
+    sha256: 242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/client-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-event-listeners.md
+  skills/react-best-practices/rules/client-localstorage-schema.md:
+    sha256: 0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/client-localstorage-schema.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-localstorage-schema.md
+  skills/react-best-practices/rules/client-passive-event-listeners.md:
+    sha256: 1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/client-passive-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md
+  skills/react-best-practices/rules/client-swr-dedup.md:
+    sha256: 644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/client-swr-dedup.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-swr-dedup.md
+  skills/react-best-practices/rules/js-batch-dom-css.md:
+    sha256: 480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-batch-dom-css.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-batch-dom-css.md
+  skills/react-best-practices/rules/js-cache-function-results.md:
+    sha256: 3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-cache-function-results.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-function-results.md
+  skills/react-best-practices/rules/js-cache-property-access.md:
+    sha256: 73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-cache-property-access.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-property-access.md
+  skills/react-best-practices/rules/js-cache-storage.md:
+    sha256: 11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-cache-storage.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-storage.md
+  skills/react-best-practices/rules/js-combine-iterations.md:
+    sha256: 71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-combine-iterations.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-combine-iterations.md
+  skills/react-best-practices/rules/js-early-exit.md:
+    sha256: 925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-early-exit.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-early-exit.md
+  skills/react-best-practices/rules/js-flatmap-filter.md:
+    sha256: 9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-flatmap-filter.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-flatmap-filter.md
+  skills/react-best-practices/rules/js-hoist-regexp.md:
+    sha256: f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-hoist-regexp.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-hoist-regexp.md
+  skills/react-best-practices/rules/js-index-maps.md:
+    sha256: 5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-index-maps.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-index-maps.md
+  skills/react-best-practices/rules/js-length-check-first.md:
+    sha256: 8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-length-check-first.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-length-check-first.md
+  skills/react-best-practices/rules/js-min-max-loop.md:
+    sha256: 87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-min-max-loop.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-min-max-loop.md
+  skills/react-best-practices/rules/js-set-map-lookups.md:
+    sha256: a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-set-map-lookups.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-set-map-lookups.md
+  skills/react-best-practices/rules/js-tosorted-immutable.md:
+    sha256: d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/js-tosorted-immutable.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md
+  skills/react-best-practices/rules/rendering-activity.md:
+    sha256: 1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-activity.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-activity.md
+  skills/react-best-practices/rules/rendering-animate-svg-wrapper.md:
+    sha256: 9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md
+  skills/react-best-practices/rules/rendering-conditional-render.md:
+    sha256: 2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-conditional-render.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-conditional-render.md
+  skills/react-best-practices/rules/rendering-content-visibility.md:
+    sha256: 64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-content-visibility.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-content-visibility.md
+  skills/react-best-practices/rules/rendering-hoist-jsx.md:
+    sha256: 93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-hoist-jsx.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md
+  skills/react-best-practices/rules/rendering-hydration-no-flicker.md:
+    sha256: dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-hydration-no-flicker.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md
+  skills/react-best-practices/rules/rendering-hydration-suppress-warning.md:
+    sha256: 915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-hydration-suppress-warning.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md
+  skills/react-best-practices/rules/rendering-resource-hints.md:
+    sha256: 351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-resource-hints.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-resource-hints.md
+  skills/react-best-practices/rules/rendering-script-defer-async.md:
+    sha256: 4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-script-defer-async.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md
+  skills/react-best-practices/rules/rendering-svg-precision.md:
+    sha256: ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-svg-precision.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-svg-precision.md
+  skills/react-best-practices/rules/rendering-usetransition-loading.md:
+    sha256: 3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rendering-usetransition-loading.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md
+  skills/react-best-practices/rules/rerender-defer-reads.md:
+    sha256: 234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-defer-reads.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-defer-reads.md
+  skills/react-best-practices/rules/rerender-dependencies.md:
+    sha256: 17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-dependencies.md
+  skills/react-best-practices/rules/rerender-derived-state-no-effect.md:
+    sha256: cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-derived-state-no-effect.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md
+  skills/react-best-practices/rules/rerender-derived-state.md:
+    sha256: 1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-derived-state.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state.md
+  skills/react-best-practices/rules/rerender-functional-setstate.md:
+    sha256: 5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-functional-setstate.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md
+  skills/react-best-practices/rules/rerender-lazy-state-init.md:
+    sha256: 4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-lazy-state-init.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md
+  skills/react-best-practices/rules/rerender-memo-with-default-value.md:
+    sha256: 81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-memo-with-default-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md
+  skills/react-best-practices/rules/rerender-memo.md:
+    sha256: 1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo.md
+  skills/react-best-practices/rules/rerender-move-effect-to-event.md:
+    sha256: abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-move-effect-to-event.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md
+  skills/react-best-practices/rules/rerender-no-inline-components.md:
+    sha256: 1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-no-inline-components.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md
+  skills/react-best-practices/rules/rerender-simple-expression-in-memo.md:
+    sha256: 5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-simple-expression-in-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md
+  skills/react-best-practices/rules/rerender-split-combined-hooks.md:
+    sha256: 6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-split-combined-hooks.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md
+  skills/react-best-practices/rules/rerender-transitions.md:
+    sha256: 60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-transitions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-transitions.md
+  skills/react-best-practices/rules/rerender-use-deferred-value.md:
+    sha256: 8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-use-deferred-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md
+  skills/react-best-practices/rules/rerender-use-ref-transient-values.md:
+    sha256: f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/rerender-use-ref-transient-values.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md
+  skills/react-best-practices/rules/server-after-nonblocking.md:
+    sha256: d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-after-nonblocking.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-after-nonblocking.md
+  skills/react-best-practices/rules/server-auth-actions.md:
+    sha256: a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-auth-actions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-auth-actions.md
+  skills/react-best-practices/rules/server-cache-lru.md:
+    sha256: 1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-cache-lru.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-lru.md
+  skills/react-best-practices/rules/server-cache-react.md:
+    sha256: fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-cache-react.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-react.md
+  skills/react-best-practices/rules/server-dedup-props.md:
+    sha256: c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-dedup-props.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-dedup-props.md
+  skills/react-best-practices/rules/server-hoist-static-io.md:
+    sha256: f90610d0f0db0fa8da5cf99790ed3369544a5b9b671bc4198347c95ec3325db4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-hoist-static-io.md
+  skills/react-best-practices/rules/server-parallel-fetching.md:
+    sha256: 569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-parallel-fetching.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-parallel-fetching.md
+  skills/react-best-practices/rules/server-serialization.md:
+    sha256: f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/rules/server-serialization.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-serialization.md
+  skills/react-best-practices/upstream/AGENTS.md:
+    sha256: 6327efcce0c631580cee5bf2dcac8f884a81172a0261fa3c8ca458a72f603165
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/AGENTS.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/AGENTS.md
+  skills/react-best-practices/upstream/SKILL.md:
+    sha256: d7b0ec66ea66a17e882f824081ef1d79d5a7c4b0a0304046fde7345482b8cc06
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/SKILL.md
+  skills/react-best-practices/upstream/rules/_sections.md:
+    sha256: 01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/_sections.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_sections.md
+  skills/react-best-practices/upstream/rules/_template.md:
+    sha256: 99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/_template.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/_template.md
+  skills/react-best-practices/upstream/rules/advanced-event-handler-refs.md:
+    sha256: a3097edeecfb2ff6851cd66ed8cdf0617c3c88180504bee824aa6e75a215bbbc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/advanced-event-handler-refs.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-event-handler-refs.md
+  skills/react-best-practices/upstream/rules/advanced-init-once.md:
+    sha256: 3e4dc22173eb0e2b6dcf583e3babd862b8696328f8f59aee7c4d746c5bc05f6c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/advanced-init-once.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-init-once.md
+  skills/react-best-practices/upstream/rules/advanced-use-latest.md:
+    sha256: 8a3f64dfe5a77d1564248faf17fe662ae75b55d497a243cb30b38eb07ccbbf9a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/advanced-use-latest.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/advanced-use-latest.md
+  skills/react-best-practices/upstream/rules/async-api-routes.md:
+    sha256: 523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/async-api-routes.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-api-routes.md
+  skills/react-best-practices/upstream/rules/async-defer-await.md:
+    sha256: 9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/async-defer-await.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/async-defer-await.md
+  skills/react-best-practices/upstream/rules/async-dependencies.md:
+    sha256: 16ef469f877e30c6b8e1e1b4bc3e527312fa3c6318cb785a4eca186ea236131a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/async-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-dependencies.md
+  skills/react-best-practices/upstream/rules/async-parallel.md:
+    sha256: 6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/async-parallel.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-parallel.md
+  skills/react-best-practices/upstream/rules/async-suspense-boundaries.md:
+    sha256: de05fedac2eb7ae563b887b5a424464ec3dfaf84e5b7797467ebe2a796ac8afc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/async-suspense-boundaries.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/async-suspense-boundaries.md
+  skills/react-best-practices/upstream/rules/bundle-barrel-imports.md:
+    sha256: 9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/bundle-barrel-imports.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/bundle-barrel-imports.md
+  skills/react-best-practices/upstream/rules/bundle-conditional.md:
+    sha256: 09c8259c3efb04fc0abb8e412ccbda217c222ae8118516283e571c995fe3a7d4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/bundle-conditional.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-conditional.md
+  skills/react-best-practices/upstream/rules/bundle-defer-third-party.md:
+    sha256: 3719fb47b191e8db4fe22686ec88448ad5af9e6838585425abbe103d0b642e37
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/bundle-defer-third-party.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-defer-third-party.md
+  skills/react-best-practices/upstream/rules/bundle-dynamic-imports.md:
+    sha256: 401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/bundle-dynamic-imports.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-dynamic-imports.md
+  skills/react-best-practices/upstream/rules/bundle-preload.md:
+    sha256: d1f7cc28da7cd5ab249acd287edc5b761afcfb194e9cb62cd44c5f3543db2de2
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/bundle-preload.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/bundle-preload.md
+  skills/react-best-practices/upstream/rules/client-event-listeners.md:
+    sha256: 242a873349febc1ce685e85617994784dbab92c2eaa68aed7fed5a83e7680e93
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/client-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-event-listeners.md
+  skills/react-best-practices/upstream/rules/client-localstorage-schema.md:
+    sha256: 0fb7cdf9dc93fdf22f87e3669f953fb9d4ac9b0be42eec4a29fe9a2560610b88
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/client-localstorage-schema.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-localstorage-schema.md
+  skills/react-best-practices/upstream/rules/client-passive-event-listeners.md:
+    sha256: 1f35016f9053de69e884ee9be00654e37979c2ca85f5e57764dc2626ff7acb4b
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/client-passive-event-listeners.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-passive-event-listeners.md
+  skills/react-best-practices/upstream/rules/client-swr-dedup.md:
+    sha256: 644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/client-swr-dedup.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/client-swr-dedup.md
+  skills/react-best-practices/upstream/rules/js-batch-dom-css.md:
+    sha256: 480b891b9eaf96e929dc1e964274a4828e3a78009b7d00ccd965a0d425215959
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-batch-dom-css.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-batch-dom-css.md
+  skills/react-best-practices/upstream/rules/js-cache-function-results.md:
+    sha256: 3daaa11d24f4295cb6be8bc6f407f2ce83cc7b5bd1f0e68891ea8ab835721dc7
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-cache-function-results.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-function-results.md
+  skills/react-best-practices/upstream/rules/js-cache-property-access.md:
+    sha256: 73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-cache-property-access.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-property-access.md
+  skills/react-best-practices/upstream/rules/js-cache-storage.md:
+    sha256: 11b826b0433898c1ece2d3547010d8e77db9fb240185748c45db91493de9b6cc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-cache-storage.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-cache-storage.md
+  skills/react-best-practices/upstream/rules/js-combine-iterations.md:
+    sha256: 71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-combine-iterations.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-combine-iterations.md
+  skills/react-best-practices/upstream/rules/js-early-exit.md:
+    sha256: 925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-early-exit.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-early-exit.md
+  skills/react-best-practices/upstream/rules/js-flatmap-filter.md:
+    sha256: 9e5b166a41914d975bef7635467f8fb32cd98b5c3126c0bc6f163490812fb5f0
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-flatmap-filter.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-flatmap-filter.md
+  skills/react-best-practices/upstream/rules/js-hoist-regexp.md:
+    sha256: f9e9aef2f7c2307dd7310f283df85dcada45fc43e9bb941b0c3aa414dec21ec4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-hoist-regexp.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-hoist-regexp.md
+  skills/react-best-practices/upstream/rules/js-index-maps.md:
+    sha256: 5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-index-maps.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-index-maps.md
+  skills/react-best-practices/upstream/rules/js-length-check-first.md:
+    sha256: 8b54a311c826b299272f29187fc58bc55772a04c4a72eeb29456ee96dc9fc624
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-length-check-first.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-length-check-first.md
+  skills/react-best-practices/upstream/rules/js-min-max-loop.md:
+    sha256: 87dfb67e2f39df6ad8bcfb5b78c5fb364d3c07554ad188a202408d99f3763421
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-min-max-loop.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-min-max-loop.md
+  skills/react-best-practices/upstream/rules/js-set-map-lookups.md:
+    sha256: a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-set-map-lookups.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-set-map-lookups.md
+  skills/react-best-practices/upstream/rules/js-tosorted-immutable.md:
+    sha256: d0a5e1b0fec48a0a81397957e2f068e224329f7c42cb5feeed8aae6fa64025e8
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/js-tosorted-immutable.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/js-tosorted-immutable.md
+  skills/react-best-practices/upstream/rules/rendering-activity.md:
+    sha256: 1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-activity.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-activity.md
+  skills/react-best-practices/upstream/rules/rendering-animate-svg-wrapper.md:
+    sha256: 9c6ae0ca7a51434e803887c64cded760956579a1452ccb80a461a03f9c937c77
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-animate-svg-wrapper.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-animate-svg-wrapper.md
+  skills/react-best-practices/upstream/rules/rendering-conditional-render.md:
+    sha256: 2ec2fa23c4148285144687050c52369adba3da2fbe3d486f8d3e0aad8f06f2bc
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-conditional-render.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-conditional-render.md
+  skills/react-best-practices/upstream/rules/rendering-content-visibility.md:
+    sha256: 64eee6d5b916fe74df33363994b27fc7f71bea3bcedc7ee04bda23107ca3e6e4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-content-visibility.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-content-visibility.md
+  skills/react-best-practices/upstream/rules/rendering-hoist-jsx.md:
+    sha256: 93b229560fae92005ed9a2a829064607b39b2e984e92d221d05b2d41df2b7c0e
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-hoist-jsx.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hoist-jsx.md
+  skills/react-best-practices/upstream/rules/rendering-hydration-no-flicker.md:
+    sha256: dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-hydration-no-flicker.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-no-flicker.md
+  skills/react-best-practices/upstream/rules/rendering-hydration-suppress-warning.md:
+    sha256: 915bacb934e2927d84b37a3f3d225a47b309ac8f9e494ed2bcb66ce07c5676a2
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-hydration-suppress-warning.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-hydration-suppress-warning.md
+  skills/react-best-practices/upstream/rules/rendering-resource-hints.md:
+    sha256: 351b1095d641717b930f1b2253282b7120af3023bc74e06c17675168d4286864
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-resource-hints.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-resource-hints.md
+  skills/react-best-practices/upstream/rules/rendering-script-defer-async.md:
+    sha256: 4cea07b7875ba7fc2c7465ff23b63a2bb334f90aaf2d9293d38d67b05fdb32ab
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-script-defer-async.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-script-defer-async.md
+  skills/react-best-practices/upstream/rules/rendering-svg-precision.md:
+    sha256: ed468533f6e95f622859c884b122cf21f9f593ed6bb3d500a54de4b9f9bcb9fb
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-svg-precision.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-svg-precision.md
+  skills/react-best-practices/upstream/rules/rendering-usetransition-loading.md:
+    sha256: 3a1249c3f13026b6f54ab5712c388df219d6af01b12aa542749acd99a46f4bc1
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rendering-usetransition-loading.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rendering-usetransition-loading.md
+  skills/react-best-practices/upstream/rules/rerender-defer-reads.md:
+    sha256: 234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-defer-reads.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-defer-reads.md
+  skills/react-best-practices/upstream/rules/rerender-dependencies.md:
+    sha256: 17eb5830956fb56486fd3cfc7431f5849d39751730c05ad9e77dd4f0c27169c5
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-dependencies.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-dependencies.md
+  skills/react-best-practices/upstream/rules/rerender-derived-state-no-effect.md:
+    sha256: cb11ec76f50aa7b6847269f02d79b120c889a30d9ecd2c1d578f75144419c77a
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-derived-state-no-effect.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state-no-effect.md
+  skills/react-best-practices/upstream/rules/rerender-derived-state.md:
+    sha256: 1c326bb67b01fb084eb00c8911b0a7cff54681c2315b629f88e49b64eaa6481d
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-derived-state.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-derived-state.md
+  skills/react-best-practices/upstream/rules/rerender-functional-setstate.md:
+    sha256: 5e68df6b2ae8058e67f476ff1ac67bde159f5a9d18df439e46eabcdeb7b52e58
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-functional-setstate.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-functional-setstate.md
+  skills/react-best-practices/upstream/rules/rerender-lazy-state-init.md:
+    sha256: 4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-lazy-state-init.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-lazy-state-init.md
+  skills/react-best-practices/upstream/rules/rerender-memo-with-default-value.md:
+    sha256: 81c47476564ad8a79fc68fc442734255ca7d6829424359464503fda0a9f9a0dd
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-memo-with-default-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo-with-default-value.md
+  skills/react-best-practices/upstream/rules/rerender-memo.md:
+    sha256: 1f258990c2f27ff6256b3cc5c43300631bb3f0d81f749aed08d07fcdcc131dd1
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-memo.md
+  skills/react-best-practices/upstream/rules/rerender-move-effect-to-event.md:
+    sha256: abc2cbf167bee056743023351e96806a411d3398da8802093620aecf0721f029
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-move-effect-to-event.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-move-effect-to-event.md
+  skills/react-best-practices/upstream/rules/rerender-no-inline-components.md:
+    sha256: 1cc32907a770272524ba682eef9e7efdd8ad4533b6f89b718a1fcd7d1d0eb6a3
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-no-inline-components.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-no-inline-components.md
+  skills/react-best-practices/upstream/rules/rerender-simple-expression-in-memo.md:
+    sha256: 5bdcf2d1558ba5204e643c887b7b4060f89630969425651eb68e96427d97f800
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-simple-expression-in-memo.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md
+  skills/react-best-practices/upstream/rules/rerender-split-combined-hooks.md:
+    sha256: 6f45d703343484ef9acef9388397f3642966ae6a5a258899a0cf1f9977cfbf6c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-split-combined-hooks.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-split-combined-hooks.md
+  skills/react-best-practices/upstream/rules/rerender-transitions.md:
+    sha256: 60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-transitions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-transitions.md
+  skills/react-best-practices/upstream/rules/rerender-use-deferred-value.md:
+    sha256: 8c3579576a61a949884167745dcfaf1d5426ba305cc61fd0a79602d70fda4909
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-use-deferred-value.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-deferred-value.md
+  skills/react-best-practices/upstream/rules/rerender-use-ref-transient-values.md:
+    sha256: f1a649af9d1d0b5c762f6c9c4c1c70c90d7df82aa10296ee87aadb78c1b76c54
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/rerender-use-ref-transient-values.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/rerender-use-ref-transient-values.md
+  skills/react-best-practices/upstream/rules/server-after-nonblocking.md:
+    sha256: d0b8d24a3db9f0f65f9e2bddbf230b0e03a5f60e1229d93a4a18f5e7a991c7c2
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-after-nonblocking.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-after-nonblocking.md
+  skills/react-best-practices/upstream/rules/server-auth-actions.md:
+    sha256: a2ca8aa102839251c7971ec784560fab943c20b36fe6f80365d4110c13260c23
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-auth-actions.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-auth-actions.md
+  skills/react-best-practices/upstream/rules/server-cache-lru.md:
+    sha256: 1924b64561841923b88a657085097a0aeba3e0ba2d5470b9f5c15cc10d6ae70f
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-cache-lru.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-lru.md
+  skills/react-best-practices/upstream/rules/server-cache-react.md:
+    sha256: fddeea6c870bb3da4134b61d54b7d09b83d2603f929b7547cd3dc1dc269edd5c
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-cache-react.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-cache-react.md
+  skills/react-best-practices/upstream/rules/server-dedup-props.md:
+    sha256: c2747424cdac46be62f835f245a0aa887b0090b416d28e2ac8676702645eeb37
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-dedup-props.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-dedup-props.md
+  skills/react-best-practices/upstream/rules/server-hoist-static-io.md:
+    sha256: f90610d0f0db0fa8da5cf99790ed3369544a5b9b671bc4198347c95ec3325db4
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-hoist-static-io.md
+    alias_of: toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/react-best-practices/rules/server-hoist-static-io.md
+  skills/react-best-practices/upstream/rules/server-parallel-fetching.md:
+    sha256: 569a2e9fc04f9606686cd75c5894ef8781b502786a7fffe241396846c7733472
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-parallel-fetching.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-parallel-fetching.md
+  skills/react-best-practices/upstream/rules/server-serialization.md:
+    sha256: f4c7d68b29c82381baad059c4a7f09e868e71ec9c3115a26ad3ae7d24c0dfe1f
+    copied_from: ~/creative-engineering-os/library/skills/react-best-practices/upstream/rules/server-serialization.md
+    alias_of: toolkit/vendor/pack-vercel-labs-agent-skills-mit/skills/vercel-react-best-practices/rules/server-serialization.md
+  skills/release/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/release/LICENSE.upstream
+  skills/release/SKILL.md:
+    sha256: 8124ee02d88eca6e455092e35637e37f96d2f37ce05b9694282bfe40fa1f4945
+    copied_from: ~/creative-engineering-os/library/skills/release/SKILL.md
+  skills/routing-middleware/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/routing-middleware/LICENSE.upstream
+  skills/routing-middleware/SKILL.md:
+    sha256: 9003a1cf8e0493b8c545b15d3ba5557a077d3845e7775c996951eb73acabc583
+    copied_from: ~/creative-engineering-os/library/skills/routing-middleware/SKILL.md
+  skills/runtime-cache/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/runtime-cache/LICENSE.upstream
+  skills/runtime-cache/SKILL.md:
+    sha256: 22fb4be9b3b2e39ed5514467c44f5a809a0ccfccc4ebaac64273e8918b47a1c2
+    copied_from: ~/creative-engineering-os/library/skills/runtime-cache/SKILL.md
+  skills/turbopack/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/turbopack/LICENSE.upstream
+  skills/turbopack/SKILL.md:
+    sha256: 8ef65187c42680aae178288baa02ee8328ad72995cfa7ead960e12389297ef1c
+    copied_from: ~/creative-engineering-os/library/skills/turbopack/SKILL.md
+  skills/vercel-agent/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-agent/LICENSE.upstream
+  skills/vercel-agent/SKILL.md:
+    sha256: a4daee44ddb12782d6e320a3d5d732e02ae391061404306ace4ceb1ba604f31f
+    copied_from: ~/creative-engineering-os/library/skills/vercel-agent/SKILL.md
+  skills/vercel-cli/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/LICENSE.upstream
+  skills/vercel-cli/SKILL.md:
+    sha256: 002ab07820a2e0109cb3d28e30a6d7d9dfe4fd132eef66efd652343d939dcdea
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/SKILL.md
+  skills/vercel-cli/command/vercel.md:
+    sha256: 507c784f205f1ada9381dd08c7e9455fa7974da218a21da356ea19b28e775832
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/command/vercel.md
+  skills/vercel-cli/references/advanced.md:
+    sha256: 091f15f35732347c93a3b838cd55a9863fa5ad1755c513f407cd6a357ef8ba5d
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/advanced.md
+  skills/vercel-cli/references/agent-and-ai.md:
+    sha256: 015963f1ecd320f86cb58677bc5ed6adc6ec51295a844dca5940afdd07ccd2f3
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/agent-and-ai.md
+  skills/vercel-cli/references/bun.md:
+    sha256: ad009b1eb8da4890f32f482330832e3eb3b33aac7c30ab05c3ce5a546fb0de9f
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/bun.md
+  skills/vercel-cli/references/ci-automation.md:
+    sha256: c93ac7152a0de55fc8dd000d6c655a71fc9f00c30ec31f98fbc143e1afa3973c
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/ci-automation.md
+  skills/vercel-cli/references/comments.md:
+    sha256: 2bb52fa31b2598853594486b5a7f2b901171f7cc786aaf4bc7f8a96b7c612075
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/comments.md
+  skills/vercel-cli/references/connectors.md:
+    sha256: 858331eaf0d5fc3ce7587e140216e96f7577fc239a1f8df6b42a2bd38945f155
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/connectors.md
+  skills/vercel-cli/references/container-registry.md:
+    sha256: 44dd6bcc134126dec2cd6772de09e58182290a5f7282ad6ae99b23eab5006f5a
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/container-registry.md
+  skills/vercel-cli/references/deployment.md:
+    sha256: a3778131495136519290b1dea5e1d5a7f59e497910e49e0593105ad3085e636f
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/deployment.md
+  skills/vercel-cli/references/domains-and-dns.md:
+    sha256: 120afc2b6d2ba025d5be74a89d88d8b3fc6c1736e4034eeae9d166164e482170
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/domains-and-dns.md
+  skills/vercel-cli/references/environment-variables.md:
+    sha256: 56d5c915153cbc8a4ee6a44b858b03f5afd74bf3d5e3d0fc9007b20b6cd7e6f0
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/environment-variables.md
+  skills/vercel-cli/references/firewall.md:
+    sha256: 587146cb57561a73f5bde7595aad60408171a326411704e34f9278b5a3e875e8
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/firewall.md
+  skills/vercel-cli/references/flags.md:
+    sha256: e7e9b695d04092e05b0aa2d6afff42ae051ec84d71f403ffa376461dcbe61c7a
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/flags.md
+  skills/vercel-cli/references/getting-started.md:
+    sha256: 24e464d4693e43c2e168dfec10753481a4027714507d0fe4464394aa1639ce67
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/getting-started.md
+  skills/vercel-cli/references/global-options.md:
+    sha256: 61e986b3498d754f49aba94ac9aaf7e2fd585f03083819ad0a177e0845519b2e
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/global-options.md
+  skills/vercel-cli/references/integrations.md:
+    sha256: 1f429646f546ad67c9c45580e0ccd52c7045ef1a77b637e5cdc997397eb6f335
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/integrations.md
+  skills/vercel-cli/references/local-development.md:
+    sha256: c800d24d89201a979fb2d338bcedbcd87e50a8c6724be5c51fff12e3e1a365e4
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/local-development.md
+  skills/vercel-cli/references/microfrontends.md:
+    sha256: bd9dd101ac78035312f72bf363d181723967b00c1485b662af88090c253c33dc
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/microfrontends.md
+  skills/vercel-cli/references/monitoring-and-debugging.md:
+    sha256: fac6445e70afcadf77ba306f388fcd9f9807563db7ee493d49ee4fb2d19a6c32
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/monitoring-and-debugging.md
+  skills/vercel-cli/references/monorepos.md:
+    sha256: 07dad4cbec06980fa9d097dfe7b209fb079c2b4047f935fc4b94147cb95e0eb1
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/monorepos.md
+  skills/vercel-cli/references/node-backends.md:
+    sha256: f28175cbd4ddc00473a3d1565819e5069a57fdc186ae4010f2535715c61769cb
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/node-backends.md
+  skills/vercel-cli/references/platform-ops.md:
+    sha256: 403983b064474a14f81104366c0300e92bc67c7185154af60bdfc29f0fc6fb52
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/platform-ops.md
+  skills/vercel-cli/references/project-infra.md:
+    sha256: f6c3d2ab23b13b9d5d3ccff05680b97d124971fad075b93a98ddbcf3ca895a30
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/project-infra.md
+  skills/vercel-cli/references/projects-and-teams.md:
+    sha256: 4be92d2cba1a30bf87e864522527aa90205e60a7b380e098fe0f063e4a0502b3
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/projects-and-teams.md
+  skills/vercel-cli/references/routing.md:
+    sha256: 56ede41767fc9d6dbd07075d15cddbbbaac50b45825a0995ffb0e580d08997b1
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/routing.md
+  skills/vercel-cli/references/sandbox.md:
+    sha256: cfad30d79d16ab0e75fbdec15d0fdbbbe106599ee9181a6798b4d184d60b50c5
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/sandbox.md
+  skills/vercel-cli/references/storage.md:
+    sha256: e39a8a91b818de4aa79661b39e1396d37aa17dd683920a40c0cbaf584cd3c1bf
+    copied_from: ~/creative-engineering-os/library/skills/vercel-cli/references/storage.md
+  skills/vercel-connect/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-connect/LICENSE.upstream
+  skills/vercel-connect/SKILL.md:
+    sha256: e912490c851afc1d6892717fa06655bae67022326c2c216a65d2f31980881e8b
+    copied_from: ~/creative-engineering-os/library/skills/vercel-connect/SKILL.md
+  skills/vercel-firewall/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-firewall/LICENSE.upstream
+  skills/vercel-firewall/SKILL.md:
+    sha256: 04869e0db25bf5bf1f0d26c541dc952bd37fc512786fd6838a7c9ef5dc630918
+    copied_from: ~/creative-engineering-os/library/skills/vercel-firewall/SKILL.md
+  skills/vercel-functions/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-functions/LICENSE.upstream
+  skills/vercel-functions/SKILL.md:
+    sha256: 62bfb2dc4ba0236248ad9020ca39acd43ee43c2d4f1f2f29e162095442f36e92
+    copied_from: ~/creative-engineering-os/library/skills/vercel-functions/SKILL.md
+  skills/vercel-plugin-eval/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-plugin-eval/LICENSE.upstream
+  skills/vercel-plugin-eval/SKILL.md:
+    sha256: 8b28de8025cfa8c576c6604ca187ce7b4ae10c621aece34d5dccc98b0af3d25c
+    copied_from: ~/creative-engineering-os/library/skills/vercel-plugin-eval/SKILL.md
+  skills/vercel-sandbox/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-sandbox/LICENSE.upstream
+  skills/vercel-sandbox/SKILL.md:
+    sha256: 49030adf409304dca1ea3849e378614ae9de5be9148973a1cc1adcec29341d1e
+    copied_from: ~/creative-engineering-os/library/skills/vercel-sandbox/SKILL.md
+  skills/vercel-services/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-services/LICENSE.upstream
+  skills/vercel-services/SKILL.md:
+    sha256: 362494410f18d397b4763459784704617007c0ca403d6df6eb9dbbca5b08937f
+    copied_from: ~/creative-engineering-os/library/skills/vercel-services/SKILL.md
+  skills/vercel-storage/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/vercel-storage/LICENSE.upstream
+  skills/vercel-storage/SKILL.md:
+    sha256: 3ffb6492aa23bfe3b0c4d4d9616c82759925e16babcdfc8658237db4988b25dd
+    copied_from: ~/creative-engineering-os/library/skills/vercel-storage/SKILL.md
+  skills/workflow/LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/workflow/LICENSE.upstream
+  skills/workflow/SKILL.md:
+    sha256: 3b46cc643584e50d67a6bef8e44cb4a3a2fc2ac55ae071a66b587c0ec0abe9a0
+    copied_from: ~/creative-engineering-os/library/skills/workflow/SKILL.md
+  skills/workflow/overlay.yaml:
+    sha256: 501e7c437db9954906439053a8007e8b3c336ccd39008cbe0b7c540c64107a1d
+    copied_from: ~/creative-engineering-os/library/skills/workflow/overlay.yaml
+  skills/workflow/upstream/SKILL.md:
+    sha256: 8ecc3a5acdc68a66b56475bfa7dcb97ca49ab2f7f9deca279c5ae170de2cae22
+    copied_from: ~/creative-engineering-os/library/skills/workflow/upstream/SKILL.md
+  notices/5c67ad692a46-LICENSE.upstream:
+    sha256: 5c67ad692a469fa14d325db4c1e392f9343a77b9ac82ae87f70cfb47b2387c22
+    copied_from: ~/creative-engineering-os/library/skills/access-protected-vercel-deployment/LICENSE.upstream
+notices:
+- skills/access-protected-vercel-deployment/LICENSE.upstream
+- skills/ai-gateway/LICENSE.upstream
+- skills/ai-sdk/LICENSE.upstream
+- skills/auth/LICENSE.upstream
+- skills/benchmark-agents/LICENSE.upstream
+- skills/benchmark-e2e/LICENSE.upstream
+- skills/benchmark-sandbox/LICENSE.upstream
+- skills/benchmark-testing/LICENSE.upstream
+- skills/bootstrap/LICENSE.upstream
+- skills/build-agents/LICENSE.upstream
+- skills/cdn-caching/LICENSE.upstream
+- skills/chat-sdk/LICENSE.upstream
+- skills/create-a-backend/LICENSE.upstream
+- skills/custom-metrics/LICENSE.upstream
+- skills/deployments-cicd/LICENSE.upstream
+- skills/env-vars/LICENSE.upstream
+- skills/eve/LICENSE.upstream
+- skills/flags-sdk/LICENSE.upstream
+- skills/knowledge-update/LICENSE.upstream
+- skills/marketplace/LICENSE.upstream
+- skills/microfrontends/LICENSE.upstream
+- skills/next-best-practices/LICENSE.upstream
+- skills/next-cache-components/LICENSE.upstream
+- skills/next-forge/LICENSE.upstream
+- skills/next-upgrade/LICENSE.upstream
+- skills/nextjs/LICENSE.upstream
+- skills/plugin-audit/LICENSE.upstream
+- skills/queues/LICENSE.upstream
+- skills/react-best-practices/LICENSE.upstream
+- skills/release/LICENSE.upstream
+- skills/routing-middleware/LICENSE.upstream
+- skills/runtime-cache/LICENSE.upstream
+- skills/turbopack/LICENSE.upstream
+- skills/vercel-agent/LICENSE.upstream
+- skills/vercel-cli/LICENSE.upstream
+- skills/vercel-connect/LICENSE.upstream
+- skills/vercel-firewall/LICENSE.upstream
+- skills/vercel-functions/LICENSE.upstream
+- skills/vercel-plugin-eval/LICENSE.upstream
+- skills/vercel-sandbox/LICENSE.upstream
+- skills/vercel-services/LICENSE.upstream
+- skills/vercel-storage/LICENSE.upstream
+- skills/workflow/LICENSE.upstream
+- notices/5c67ad692a46-LICENSE.upstream
+excluded: []

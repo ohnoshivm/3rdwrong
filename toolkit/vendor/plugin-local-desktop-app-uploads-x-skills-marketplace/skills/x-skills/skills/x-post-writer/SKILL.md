@@ -1,0 +1,1 @@
+../../.codex-marketplace/x-skills/skills/x-post-writer/SKILL.md

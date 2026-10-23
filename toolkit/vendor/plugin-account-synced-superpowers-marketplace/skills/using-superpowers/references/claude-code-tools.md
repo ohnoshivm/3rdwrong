@@ -1,0 +1,1 @@
+../../../../pack-obra-superpowers-mit/skills/using-superpowers/references/claude-code-tools.md

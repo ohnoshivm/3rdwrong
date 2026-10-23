@@ -1,0 +1,1 @@
+../remotion-best-practices/remotion-captions/display-captions.md

@@ -1,0 +1,1 @@
+../../../../../.claude/skills/ui-styling/scripts/tailwind_config_gen.py

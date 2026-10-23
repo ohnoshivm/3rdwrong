@@ -1,0 +1,41 @@
+package: plugin-claude-plugins-official-math-proof-marketplace
+upstream_url: https://github.com/anthropics/claude-plugins-official
+pinned_ref:
+- unresolved
+licence: Apache-2.0
+evidence_path: toolkit/sources/packages.json#plugin-claude-plugins-official-math-proof-marketplace
+copied_from:
+- ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof
+copied_on: '2026-10-23'
+files:
+  .claude-plugin/plugin.json:
+    sha256: 4cfc3614d3da1bdcafdb53086e28430e4cca1b21adec160d051171a133628f49
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/.claude-plugin/plugin.json
+  LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/LICENSE
+  agents/math-proof-judge.md:
+    sha256: 2d2bdae55381d1022e89e08e3b95b090f0f0279feebdfa24a56305ca20b9909d
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/agents/math-proof-judge.md
+  agents/math-proof-worker-deep.md:
+    sha256: b71ef06f2ad0f5c8ef9cb2402af8abf552595ab1f4484383adc39467c5e13128
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/agents/math-proof-worker-deep.md
+  agents/math-proof-worker.md:
+    sha256: d81aceb59e354480eff7a24479d79c544f47e6cd573d45868f20ed1792317e9b
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/agents/math-proof-worker.md
+  skills/siege/SKILL.md:
+    sha256: f40134d3b418b256656777ad89d1cee93ad9b8a8a1aa84754262752e91d6b542
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/skills/siege/SKILL.md
+  skills/siege/scripts/ledger.py:
+    sha256: 432a6f61ba5712a2709845e6c1f559ebc010998aa0738287614cca958cb61562
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/skills/siege/scripts/ledger.py
+  skills/solo/SKILL.md:
+    sha256: 2b6ecb93b01471142f928dd0fa4abd7e35782ed8f1058d498521039564387305
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/skills/solo/SKILL.md
+  notices/cfc7749b96f6-LICENSE:
+    sha256: cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30
+    copied_from: ~/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-proof/LICENSE
+notices:
+- LICENSE
+- notices/cfc7749b96f6-LICENSE
+excluded: []

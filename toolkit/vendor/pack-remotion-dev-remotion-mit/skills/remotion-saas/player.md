@@ -1,0 +1,1 @@
+../remotion-best-practices/remotion-saas/player.md

@@ -1,0 +1,2392 @@
+schema_version: 1
+packages:
+- id: account-claude-synced-skills
+  tool_ids:
+  - skill:ai-ugc-marketing
+  - skill:atomic-essay
+  - skill:built-in-browser
+  - skill:business-growth-partner
+  - skill:chrome-browser
+  - skill:computer-use
+  - skill:deep-research
+  - skill:docs
+  - skill:docx
+  - skill:google-workspace
+  - skill:gpt-image-2-director
+  - skill:import-memory
+  - skill:marketing-studio-director
+  - skill:morning
+  - skill:motionmaxxing
+  - skill:pdf
+  - skill:pptx
+  - skill:spec-creative-post-machine
+  - skill:viral-clip-extractor
+  - skill:world-class-copywriter
+  - skill:xlsx
+  licence: unknown
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: archive-master-of-20261021-untraced
+  tool_ids:
+  - skill:add-mouse-driven-orbit
+  - skill:add-shader-cursor-trail
+  - skill:agency-grid-layout-minimal
+  - skill:agent-reach
+  - skill:ai-seo
+  - skill:ambient-section-particles
+  - skill:animation-on-scroll
+  - skill:article-prompts-to-skills
+  - skill:atmosphere-background
+  - skill:audit-ai-design-slop
+  - skill:audit-verify-explain-grade-5
+  - skill:aura-asset-images
+  - skill:author-game-levels
+  - skill:background-grid-webgl
+  - skill:beam-glow-states
+  - skill:beautiful-shadows
+  - skill:blue-cloudy-clean-modern
+  - skill:blue-laser-clean-glass-layout
+  - skill:book-serif-index
+  - skill:bright-green-tech-system-webgl
+  - skill:browser-video-recording
+  - skill:build-daily-inspiration-sites
+  - skill:build-game-audio-feedback
+  - skill:build-game-camera-controls
+  - skill:build-game-changelog
+  - skill:build-game-inventory
+  - skill:build-game-map-editor
+  - skill:build-game-monster-system
+  - skill:build-hybrid-game-assets
+  - skill:build-interactive-particle-trail
+  - skill:build-isometric-arpg
+  - skill:build-mobile-threejs-games
+  - skill:build-rigged-game-assets
+  - skill:build-threejs-enemy-systems
+  - skill:build-threejs-scroll-worlds
+  - skill:build-vesperfall-review-assets
+  - skill:build-wireframe-scan-reveal
+  - skill:chatcut-app-promo-guide
+  - skill:chatcut-create-motion-graphics
+  - skill:chatcut-digital-human
+  - skill:chatcut-image-gen
+  - skill:chatcut-multicam-sync
+  - skill:chatcut-music
+  - skill:chatcut-product-help
+  - skill:chatcut-shader-gen
+  - skill:chatcut-skill-creator
+  - skill:chatcut-talking-head-guide
+  - skill:chatcut-transcription
+  - skill:chatcut-ugc-ad-guide
+  - skill:chatcut-video-gen
+  - skill:chatcut-video-translation
+  - skill:chatcut-visual-analysis
+  - skill:chatcut-voice
+  - skill:chatcut-voice-isolation
+  - skill:chatcut-web-browser
+  - skill:chatcut-widget-forms
+  - skill:clean-minimal-beige-light-mode
+  - skill:cobejs
+  - skill:codex-gpt-image-2-5-flare
+  - skill:company-logos
+  - skill:container-lines
+  - skill:corner-diagonals
+  - skill:corner-lasers
+  - skill:create-game-vfx
+  - skill:css-alpha-masking
+  - skill:css-border-gradient
+  - skill:dark-blue-contrasting-clean
+  - skill:dark-glass-clean-layout
+  - skill:design-action-combat
+  - skill:design-game-encounters
+  - skill:dither-background
+  - skill:dither-laser-dark-mode
+  - skill:documentary-brutalist-agency
+  - skill:editorial-portfolio-chapters
+  - skill:editorial-service-booking
+  - skill:editorial-tech
+  - skill:elevenlabs-tts
+  - skill:falling-leaves
+  - skill:framed-grid-layout
+  - skill:framed-tech-dark-border-gradient
+  - skill:funky-purple-container-tech
+  - skill:generate-reference-inspired-brand-worlds
+  - skill:glass-dark-mode-clock
+  - skill:glass-dark-ui
+  - skill:globe-gl
+  - skill:globe-particles
+  - skill:gooey-blob-system
+  - skill:gstack-connect-chrome
+  - skill:high-contrast-skeuomorphic-clean
+  - skill:html-to-interaction-prompts
+  - skill:image-first-grid-layout
+  - skill:implement-fog-of-war
+  - skill:iterate-until-verified
+  - skill:landing-page
+  - skill:light-mode-paper-technical
+  - skill:liquid-metal-border
+  - skill:marquee-loop
+  - skill:masked-reveal
+  - skill:matterjs
+  - skill:mesh-gradient-dark-blue-clean
+  - skill:nested-container-clean-agency
+  - skill:nested-container-frames
+  - skill:nextphase-persa-shorts
+  - skill:no-ai-design-slop
+  - skill:number-details
+  - skill:operational-enterprise-ai
+  - skill:optimize-threejs-games
+  - skill:orange-clean-paper-saas
+  - skill:performance-profiling
+  - skill:pointer-trail-emitter
+  - skill:pricing-page
+  - skill:product-proof-saas
+  - skill:programmatic-seo
+  - skill:progressive-blur
+  - skill:publish-project-to-github
+  - skill:reveal-hover-effect
+  - skill:reverse-engineer-anything
+  - skill:scroll-progress-timeline
+  - skill:scroll-scrubbed-visual-sequence
+  - skill:scroll-scrubbed-word-reveal
+  - skill:scroll-world-storytelling
+  - skill:shaders-cursor-ripples
+  - skill:ship-web-games
+  - skill:site-architecture
+  - skill:skeuomorphic-ui
+  - skill:solar-duotone-bold
+  - skill:split-layout-technical
+  - skill:staggered-word-reveal
+  - skill:tailwindcss
+  - skill:tech-green-dark-mode-modern
+  - skill:technical-wireframe-info-layout
+  - skill:test-playable-web-games
+  - skill:thinking-orbs
+  - skill:threejs-landscape
+  - skill:threejs-towers
+  - skill:threejs-weather
+  - skill:tune-enemy-ai
+  - skill:unicorn-studio
+  - skill:unsplash-asset-images
+  - skill:vantajs
+  - skill:web-technique-to-skill
+  - skill:webgl-3d-object
+  - skill:webgl-landing-steering
+  - skill:webgl-laser
+  - skill:workflow-progress-screenshots
+  - skill:workflow-score-to-target
+  - skill:workflow-ship-change
+  - skill:workflow-threads-manager
+  - skill:write-like-meng-on-x
+  - skill:x-bookmark-quote-posts
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: 'Explicitly excluded: unknown origin archive; parent handles separately'
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: mcp-21st
+  tool_ids:
+  - mcp:21st
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-agency-mcp
+  tool_ids:
+  - mcp:agency-mcp
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-asana
+  tool_ids:
+  - mcp:asana
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-atlassian
+  tool_ids:
+  - mcp:atlassian
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-chatcut_desktop
+  tool_ids:
+  - mcp:chatcut_desktop
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-code-review
+  tool_ids:
+  - mcp:code-review
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-codex_app
+  tool_ids:
+  - mcp:codex_app
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-context7
+  tool_ids:
+  - mcp:context7
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-creative_production_mcp
+  tool_ids:
+  - mcp:creative_production_mcp
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-cua_repl
+  tool_ids:
+  - mcp:cua_repl
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-datadog
+  tool_ids:
+  - mcp:datadog
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-dataforseo
+  tool_ids:
+  - mcp:dataforseo
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-discord
+  tool_ids:
+  - mcp:discord
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-example-server
+  tool_ids:
+  - mcp:example-server
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-fakechat
+  tool_ids:
+  - mcp:fakechat
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-figma
+  tool_ids:
+  - mcp:figma
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-firebase
+  tool_ids:
+  - mcp:firebase
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-github
+  tool_ids:
+  - mcp:github
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-gitlab
+  tool_ids:
+  - mcp:gitlab
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-gmail
+  tool_ids:
+  - mcp:gmail
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-google-calendar
+  tool_ids:
+  - mcp:google-calendar
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-heygen
+  tool_ids:
+  - mcp:heygen
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-imessage
+  tool_ids:
+  - mcp:imessage
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-intercom
+  tool_ids:
+  - mcp:intercom
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-laravel-boost
+  tool_ids:
+  - mcp:laravel-boost
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-linear
+  tool_ids:
+  - mcp:linear
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-mobbin
+  tool_ids:
+  - mcp:mobbin
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-node_repl
+  tool_ids:
+  - mcp:node_repl
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-notion
+  tool_ids:
+  - mcp:notion
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-pagerduty
+  tool_ids:
+  - mcp:pagerduty
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-serena
+  tool_ids:
+  - mcp:serena
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-shopify
+  tool_ids:
+  - mcp:shopify
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-slack
+  tool_ids:
+  - mcp:slack
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-stitch
+  tool_ids:
+  - mcp:stitch
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-telegram
+  tool_ids:
+  - mcp:telegram
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-terraform
+  tool_ids:
+  - mcp:terraform
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-vercel
+  tool_ids:
+  - mcp:vercel
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: mcp-wix-mcp
+  tool_ids:
+  - mcp:wix-mcp
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: plugin-account-synced-design-marketplace
+  tool_ids:
+  - design:accessibility-review
+  - design:design-critique
+  - design:design-handoff
+  - design:design-system
+  - design:research-synthesis
+  - design:user-research
+  - design:ux-copy
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: plugin-account-synced-engineering-marketplace
+  tool_ids:
+  - engineering:architecture
+  - engineering:code-review
+  - engineering:debug
+  - engineering:deploy-checklist
+  - engineering:documentation
+  - engineering:incident-response
+  - engineering:standup
+  - engineering:system-design
+  - engineering:tech-debt
+  - engineering:testing-strategy
+  licence: none-found
+  group: Account-managed connectors and skills
+  reason: Account-linked or user-specific configuration; recreate through provider
+    sign-in
+  upstream_url: null
+  steps: Open the provider application, sign in with your own account, then enable
+    this named connector/skill in Settings > Apps or Plugins. Authorise only the accounts
+    you own. No verified public installer exists; use the original provider UI. Do
+    not copy another user’s configuration.
+- id: plugin-openai-bundled-visualize-1.0.50
+  tool_ids:
+  - visualize:visualize
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Sign in to the provider where this plugin was purchased or enabled. Open
+    Plugins/Marketplace, search for this exact package name and enable it under your
+    own entitlement. No public installation command was verified.
+- id: plugin-openai-curated-remote-creative-production-0.1.25
+  tool_ids:
+  - creative-production:intake
+  - creative-production:produce
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/oai-maintained-plugins
+  steps: Review the publisher terms at https://github.com/openai/oai-maintained-plugins;
+    sign in to the original provider and install the named plugin from its marketplace.
+    If that repository advertises a Claude marketplace, run /plugin marketplace add
+    https://github.com/openai/oai-maintained-plugins, then /plugin install <publisher-plugin-name>@<publisher-marketplace-name>
+    using the names in that publisher’s manifest. The audit does not verify those
+    catalogue names.
+- id: plugin-openai-curated-remote-data-analytics-1.0.11
+  tool_ids:
+  - data-analytics:analyze-data-quality
+  - data-analytics:build-dashboard
+  - data-analytics:build-report
+  - data-analytics:convert-to-doc
+  - data-analytics:convert-to-slides
+  - data-analytics:create-data-context
+  - data-analytics:design-kpis
+  - data-analytics:gather-business-context
+  - data-analytics:index
+  - data-analytics:jupyter-notebooks
+  - data-analytics:kpi-reporting
+  - data-analytics:market-sizing
+  - data-analytics:metric-diagnostics
+  - data-analytics:product-business-analysis
+  - data-analytics:publish-artifact-to-sites
+  - data-analytics:report-to-pdf
+  - data-analytics:schedule-refresh-jobs
+  - data-analytics:share-artifact-summary
+  - data-analytics:validate-data
+  - data-analytics:visualize-data
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Sign in to the provider where this plugin was purchased or enabled. Open
+    Plugins/Marketplace, search for this exact package name and enable it under your
+    own entitlement. No public installation command was verified.
+- id: plugin-openai-curated-remote-heygen-4.1.0
+  tool_ids:
+  - heygen:heygen-workflows
+  licence: none-found
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Sign in to the provider where this plugin was purchased or enabled. Open
+    Plugins/Marketplace, search for this exact package name and enable it under your
+    own entitlement. No public installation command was verified.
+- id: plugin-openai-curated-remote-juicylucy-ads-0.27.0
+  tool_ids:
+  - juicylucy-ads:ad-naming
+  - juicylucy-ads:ad-platform
+  - juicylucy-ads:captions-overlay
+  - juicylucy-ads:cut-the-curve
+  - juicylucy-ads:hyperframes-animation
+  - juicylucy-ads:hyperframes-audio
+  - juicylucy-ads:hyperframes-cli
+  - juicylucy-ads:hyperframes-core
+  - juicylucy-ads:hyperframes-keyframes
+  - juicylucy-ads:juicy-cli
+  - juicylucy-ads:juicylucy
+  - juicylucy-ads:juicylucy-setup
+  - juicylucy-ads:media-use
+  - juicylucy-ads:motion-doctrine
+  - juicylucy-ads:oversized-cursor
+  - juicylucy-ads:seam-craft
+  - juicylucy-ads:static-ad-production
+  - juicylucy-ads:static-copywriting
+  - juicylucy-ads:static-formats
+  - juicylucy-ads:static-image-craft
+  - juicylucy-ads:static-localization
+  - juicylucy-ads:static-winner-analysis
+  - juicylucy-ads:video-ad-production
+  licence: unknown
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/Juicy-Lucy-AI/juicylucy-plugin
+  steps: Review the publisher terms at https://github.com/Juicy-Lucy-AI/juicylucy-plugin;
+    sign in to the original provider and install the named plugin from its marketplace.
+    If that repository advertises a Claude marketplace, run /plugin marketplace add
+    https://github.com/Juicy-Lucy-AI/juicylucy-plugin, then /plugin install <publisher-plugin-name>@<publisher-marketplace-name>
+    using the names in that publisher’s manifest. The audit does not verify those
+    catalogue names.
+- id: plugin-openai-curated-remote-openai-templates-0.1.1
+  tool_ids:
+  - openai-templates:artifact-template-analytics-dashboard
+  - openai-templates:artifact-template-business-review
+  - openai-templates:artifact-template-design-report
+  - openai-templates:artifact-template-experiment-analysis
+  - openai-templates:artifact-template-financial-budget
+  - openai-templates:artifact-template-investment-committee-memo
+  - openai-templates:artifact-template-legal-memorandum
+  - openai-templates:artifact-template-market-trends-report
+  - openai-templates:artifact-template-minimal-letterhead
+  - openai-templates:artifact-template-operating-calendar
+  - openai-templates:artifact-template-operating-review
+  - openai-templates:artifact-template-project-kickoff
+  - openai-templates:artifact-template-project-tracker
+  - openai-templates:artifact-template-sales-pipeline
+  - openai-templates:artifact-template-simple-dark-mode
+  - openai-templates:artifact-template-simple-light-mode
+  - openai-templates:artifact-template-strategy-memorandum
+  - openai-templates:artifact-template-system-design
+  - openai-templates:artifact-template-team-alignment
+  - openai-templates:artifact-template-three-statement-forecast
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/oai-maintained-plugins
+  steps: Review the publisher terms at https://github.com/openai/oai-maintained-plugins;
+    sign in to the original provider and install the named plugin from its marketplace.
+    If that repository advertises a Claude marketplace, run /plugin marketplace add
+    https://github.com/openai/oai-maintained-plugins, then /plugin install <publisher-plugin-name>@<publisher-marketplace-name>
+    using the names in that publisher’s manifest. The audit does not verify those
+    catalogue names.
+- id: plugin-openai-curated-remote-plugin-management-0.1.0
+  tool_ids:
+  - plugin-management:plugin-management
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/openai
+  steps: Review the publisher terms at https://github.com/openai/openai; sign in to
+    the original provider and install the named plugin from its marketplace. If that
+    repository advertises a Claude marketplace, run /plugin marketplace add https://github.com/openai/openai,
+    then /plugin install <publisher-plugin-name>@<publisher-marketplace-name> using
+    the names in that publisher’s manifest. The audit does not verify those catalogue
+    names.
+- id: plugin-openai-curated-remote-product-design-0.1.56
+  tool_ids:
+  - product-design:audit
+  - product-design:design-qa
+  - product-design:get-context
+  - product-design:ideate
+  - product-design:image-to-code
+  - product-design:index
+  - product-design:research
+  - product-design:share
+  - product-design:url-to-code
+  - product-design:user-context
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/openai
+  steps: Review the publisher terms at https://github.com/openai/openai; sign in to
+    the original provider and install the named plugin from its marketplace. If that
+    repository advertises a Claude marketplace, run /plugin marketplace add https://github.com/openai/openai,
+    then /plugin install <publisher-plugin-name>@<publisher-marketplace-name> using
+    the names in that publisher’s manifest. The audit does not verify those catalogue
+    names.
+- id: plugin-openai-curated-remote-sales-1.1.3
+  tool_ids:
+  - sales:analyze-account-signals
+  - sales:build-business-case
+  - sales:build-competitive-brief
+  - sales:demo-exec-and-seller-dash
+  - sales:enrich-company-and-contact-data
+  - sales:find-customer-quotes
+  - sales:find-key-internal-sources
+  - sales:follow-up-after-call
+  - sales:get-rep-call-feedback
+  - sales:index
+  - sales:plan-deal-strategy
+  - sales:prepare-for-meeting
+  - sales:review-forecast
+  - sales:review-rep-call-trends
+  - sales:sales-company-research
+  - sales:sales-leadership-dashboard
+  - sales:sales-presentations
+  - sales:seller-account-dashboard
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/openai
+  steps: Review the publisher terms at https://github.com/openai/openai; sign in to
+    the original provider and install the named plugin from its marketplace. If that
+    repository advertises a Claude marketplace, run /plugin marketplace add https://github.com/openai/openai,
+    then /plugin install <publisher-plugin-name>@<publisher-marketplace-name> using
+    the names in that publisher’s manifest. The audit does not verify those catalogue
+    names.
+- id: plugin-openai-curated-remote-sites-1.1.1
+  tool_ids:
+  - sites:sites
+  - sites:sites-remix
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Sign in to the provider where this plugin was purchased or enabled. Open
+    Plugins/Marketplace, search for this exact package name and enable it under your
+    own entitlement. No public installation command was verified.
+- id: plugin-openai-curated-remote-wix-12.0.0
+  tool_ids:
+  - wix:wix-app
+  - wix:wix-design-system
+  - wix:wix-docs
+  - wix:wix-headless-kit
+  - wix:wix-headless-templates
+  - wix:wix-manage
+  licence: none-found
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Sign in to the provider where this plugin was purchased or enabled. Open
+    Plugins/Marketplace, search for this exact package name and enable it under your
+    own entitlement. No public installation command was verified.
+- id: plugin-openai-curated-remote-work-pets-0.1.6
+  tool_ids:
+  - work-pets:create-pet
+  - work-pets:pets
+  - work-pets:update-pet
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/openai
+  steps: Review the publisher terms at https://github.com/openai/openai; sign in to
+    the original provider and install the named plugin from its marketplace. If that
+    repository advertises a Claude marketplace, run /plugin marketplace add https://github.com/openai/openai,
+    then /plugin install <publisher-plugin-name>@<publisher-marketplace-name> using
+    the names in that publisher’s manifest. The audit does not verify those catalogue
+    names.
+- id: plugin-openai-primary-runtime-documents-26.1020.11127
+  tool_ids:
+  - documents:documents
+  licence: MIT
+  group: Proprietary or separately licensed marketplaces
+  reason: Nested non-permissive licence detected; package requires scope review before
+    copying
+  upstream_url: https://github.com/openai/openai
+  steps: Review the publisher terms at https://github.com/openai/openai; sign in to
+    the original provider and install the named plugin from its marketplace. If that
+    repository advertises a Claude marketplace, run /plugin marketplace add https://github.com/openai/openai,
+    then /plugin install <publisher-plugin-name>@<publisher-marketplace-name> using
+    the names in that publisher’s manifest. The audit does not verify those catalogue
+    names.
+- id: plugin-openai-primary-runtime-template-creator-26.1020.11127
+  tool_ids:
+  - template-creator:template-creator
+  licence: proprietary
+  group: Proprietary or separately licensed marketplaces
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: https://github.com/openai/openai
+  steps: Review the publisher terms at https://github.com/openai/openai; sign in to
+    the original provider and install the named plugin from its marketplace. If that
+    repository advertises a Claude marketplace, run /plugin marketplace add https://github.com/openai/openai,
+    then /plugin install <publisher-plugin-name>@<publisher-marketplace-name> using
+    the names in that publisher’s manifest. The audit does not verify those catalogue
+    names.
+- id: standalone-3d-falling-leaves-ca76a7cb
+  tool_ids:
+  - skill:3d-falling-leaves
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-four-seasons-7a94a571
+  tool_ids:
+  - skill:3d-four-seasons
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-high-poly-models-0055bf03
+  tool_ids:
+  - skill:3d-high-poly-models
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-high-resolution-textures-5779e540
+  tool_ids:
+  - skill:3d-high-resolution-textures
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-retina-resolution-15d0677c
+  tool_ids:
+  - skill:3d-retina-resolution
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-sky-background-5419e2ad
+  tool_ids:
+  - skill:3d-sky-background
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-sky-rays-afcd3c96
+  tool_ids:
+  - skill:3d-sky-rays
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-ultra-realistic-water-226d6b1d
+  tool_ids:
+  - skill:3d-ultra-realistic-water
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-3d-virtual-tour-3affce44
+  tool_ids:
+  - skill:3d-virtual-tour
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-_gstack-command-f7dde0aa
+  tool_ids:
+  - skill:_gstack-command
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ab-testing-312146b4
+  tool_ids:
+  - skill:ab-testing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-accessibility-f71deaa3
+  tool_ids:
+  - skill:accessibility
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ad-creative-c5109237
+  tool_ids:
+  - skill:ad-creative
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-add-postprocessing-41c8b515
+  tool_ids:
+  - skill:add-postprocessing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ads-45dcfd23
+  tool_ids:
+  - skill:ads
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ai-governors-7cc73741
+  tool_ids:
+  - skill:ai-governors
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ai-identifiers-cc5ebb5a
+  tool_ids:
+  - skill:ai-identifiers
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ai-inputs-f3ae1ad2
+  tool_ids:
+  - skill:ai-inputs
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ai-trust-builders-23e368c7
+  tool_ids:
+  - skill:ai-trust-builders
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ai-tuners-519a52f6
+  tool_ids:
+  - skill:ai-tuners
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ai-wayfinders-1876df19
+  tool_ids:
+  - skill:ai-wayfinders
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-alina-head-of-website-department-9d6eb2a9
+  tool_ids:
+  - skill:alina-head-of-website-department
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-analytics-9253c8a7
+  tool_ids:
+  - skill:analytics
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-applying-themes-3907d704
+  tool_ids:
+  - skill:applying-themes
+  licence: Apache-2.0
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-aso-e8755c6c
+  tool_ids:
+  - skill:aso
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-attribution-ec67c265
+  tool_ids:
+  - skill:attribution
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-best-practices-c72ea3a6
+  tool_ids:
+  - skill:best-practices
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-brutalist-skill-70112b74
+  tool_ids:
+  - skill:brutalist-skill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-building-accessible-interfaces-5333fb1d
+  tool_ids:
+  - skill:building-accessible-interfaces
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-building-web-artifacts-a73a074f
+  tool_ids:
+  - skill:building-web-artifacts
+  licence: Apache-2.0
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-churn-prevention-ded9c961
+  tool_ids:
+  - skill:churn-prevention
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-co-marketing-4d91caa2
+  tool_ids:
+  - skill:co-marketing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-codeql-2b434a51
+  tool_ids:
+  - skill:codeql
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-cognitive-load-conversion-556e7bd5
+  tool_ids:
+  - skill:cognitive-load-conversion
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-cold-email-f2e3ec24
+  tool_ids:
+  - skill:cold-email
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-community-marketing-c4c3e24f
+  tool_ids:
+  - skill:community-marketing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-competitor-profiling-f5aaca6b
+  tool_ids:
+  - skill:competitor-profiling
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-competitors-24b801f2
+  tool_ids:
+  - skill:competitors
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-content-strategy-17ae6ae6
+  tool_ids:
+  - skill:content-strategy
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-copy-editing-653f8dd6
+  tool_ids:
+  - skill:copy-editing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-copywriting-223b7cd4
+  tool_ids:
+  - skill:copywriting
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-core-web-vitals-d28efdc6
+  tool_ids:
+  - skill:core-web-vitals
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-craft-e0c17c64
+  tool_ids:
+  - skill:craft
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-creating-algorithmic-art-de51ecc6
+  tool_ids:
+  - skill:creating-algorithmic-art
+  licence: Apache-2.0
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-creative-engineering-os-c5ab9811
+  tool_ids:
+  - skill:upstream
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-cro-bc20bcf9
+  tool_ids:
+  - skill:cro
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-customer-research-902971b6
+  tool_ids:
+  - skill:customer-research
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-deploy-to-vercel-c14af885
+  tool_ids:
+  - skill:deploy-to-vercel
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-design-analysis-caf00881
+  tool_ids:
+  - skill:design-analysis
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-designing-frontend-interfaces-7dbc9ce2
+  tool_ids:
+  - skill:designing-frontend-interfaces
+  licence: Apache-2.0
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-designing-user-experience-f85f110e
+  tool_ids:
+  - skill:designing-user-experience
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-dieter-rams-principles-6734154a
+  tool_ids:
+  - skill:dieter-rams-principles
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-differential-review-1ed1a858
+  tool_ids:
+  - skill:differential-review
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-directory-submissions-e127183d
+  tool_ids:
+  - skill:directory-submissions
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-documents-97cfc769
+  tool_ids:
+  - skill:documents
+  licence: proprietary
+  group: Unknown origin or unverified redistribution rights
+  reason: No verified public source and no sufficient redistribution evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-double-diamond-705c7237
+  tool_ids:
+  - skill:double-diamond
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-emails-19e92895
+  tool_ids:
+  - skill:emails
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-empathy-mapping-087833eb
+  tool_ids:
+  - skill:empathy-mapping
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-events-b3858a89
+  tool_ids:
+  - skill:events
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-evolving-apis-and-schemas-5d9d54fa
+  tool_ids:
+  - skill:evolving-apis-and-schemas
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-feature-prioritization-c4f112df
+  tool_ids:
+  - skill:feature-prioritization
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-free-tools-9b56b9b9
+  tool_ids:
+  - skill:free-tools
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-gemini-intern-1ecee1d0
+  tool_ids:
+  - skill:gemini-intern
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-general-design-review-0427d8cf
+  tool_ids:
+  - skill:general-design-review
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-gpt-tasteskill-0fedd877
+  tool_ids:
+  - skill:gpt-tasteskill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-gsap-25764041
+  tool_ids:
+  - skill:gsap
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-gsap-scrolltrigger-storytelling-1e35f5f5
+  tool_ids:
+  - skill:gsap-scrolltrigger-storytelling
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-gsc-seo-a6828810
+  tool_ids:
+  - skill:gsc-seo
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-image-dad814e3
+  tool_ids:
+  - skill:image
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-image-to-code-skill-8f08c5d7
+  tool_ids:
+  - skill:image-to-code-skill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-imagegen-frontend-mobile-0afa7ac2
+  tool_ids:
+  - skill:imagegen-frontend-mobile
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-imagegen-frontend-web-5cec24a9
+  tool_ids:
+  - skill:imagegen-frontend-web
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-influencer-marketing-ba273078
+  tool_ids:
+  - skill:influencer-marketing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-investigating-performance-257bff01
+  tool_ids:
+  - skill:investigating-performance
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-journey-mapping-4907196e
+  tool_ids:
+  - skill:journey-mapping
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-launch-9f83c01a
+  tool_ids:
+  - skill:launch
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-lead-magnets-20a1d13d
+  tool_ids:
+  - skill:lead-magnets
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-like-wish-what-if-d5392486
+  tool_ids:
+  - skill:like-wish-what-if
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-low-effort-high-reward-51584b5b
+  tool_ids:
+  - skill:low-effort-high-reward
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-marketing-council-7e407542
+  tool_ids:
+  - skill:marketing-council
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-marketing-ideas-d7594ff6
+  tool_ids:
+  - skill:marketing-ideas
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-marketing-loops-55a41d79
+  tool_ids:
+  - skill:marketing-loops
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-marketing-plan-e997b864
+  tool_ids:
+  - skill:marketing-plan
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-marketing-psychology-9c744627
+  tool_ids:
+  - skill:marketing-psychology
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-1d9ae22f
+  tool_ids:
+  - skill:master-of
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-effects-3d-0fce762b
+  tool_ids:
+  - skill:master-of-effects-3d
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-engineering-1a323f03
+  tool_ids:
+  - skill:master-of-engineering
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-games-6b3b74a6
+  tool_ids:
+  - skill:master-of-games
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-growth-business-11eb4f14
+  tool_ids:
+  - skill:master-of-growth-business
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-gstack-ops-84b5b31d
+  tool_ids:
+  - skill:master-of-gstack-ops
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-media-4406a90e
+  tool_ids:
+  - skill:master-of-media
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-research-tools-e2a11e0d
+  tool_ids:
+  - skill:master-of-research-tools
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-master-of-visual-design-92f65880
+  tool_ids:
+  - skill:master-of-visual-design
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-minimalist-skill-e5f205b5
+  tool_ids:
+  - skill:minimalist-skill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-motion-3ac82b36
+  tool_ids:
+  - skill:motion
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-next-bundle-optimizer-58c97e70
+  tool_ids:
+  - skill:next-bundle-optimizer
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-next-cache-components-adoption-55173dcc
+  tool_ids:
+  - skill:next-cache-components-adoption
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-next-cache-components-optimizer-cfe7ddd0
+  tool_ids:
+  - skill:next-cache-components-optimizer
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-next-dev-loop-27c4dfb6
+  tool_ids:
+  - skill:next-dev-loop
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-next-partial-prefetching-adoption-0ac68143
+  tool_ids:
+  - skill:next-partial-prefetching-adoption
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-next-partial-prefetching-optimizer-d874e1db
+  tool_ids:
+  - skill:next-partial-prefetching-optimizer
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-offers-d30cfb4c
+  tool_ids:
+  - skill:offers
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-onboarding-a076f05f
+  tool_ids:
+  - skill:onboarding
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-optimize-3d-assets-aa7c240a
+  tool_ids:
+  - skill:optimize-3d-assets
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-paywalls-f46cfc35
+  tool_ids:
+  - skill:paywalls
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-performance-dfd0c040
+  tool_ids:
+  - skill:performance
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-persuasive-ux-547b7d2b
+  tool_ids:
+  - skill:persuasive-ux
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-popups-46973b79
+  tool_ids:
+  - skill:popups
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-pricing-2fb310d3
+  tool_ids:
+  - skill:pricing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-product-marketing-825cd59d
+  tool_ids:
+  - skill:product-marketing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-prospecting-cdfd9492
+  tool_ids:
+  - skill:prospecting
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-public-relations-9151203e
+  tool_ids:
+  - skill:public-relations
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-redesign-skill-0cf7b987
+  tool_ids:
+  - skill:redesign-skill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-referrals-0ff84f0e
+  tool_ids:
+  - skill:referrals
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-review-agent-e5851434
+  tool_ids:
+  - skill:review-agent
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-reviewing-interface-quality-affb902d
+  tool_ids:
+  - skill:reviewing-interface-quality
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-reviewing-security-d5f81c43
+  tool_ids:
+  - skill:reviewing-security
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-revops-efc7a889
+  tool_ids:
+  - skill:revops
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-sales-enablement-29468c8e
+  tool_ids:
+  - skill:sales-enablement
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-sarif-parsing-c53318c2
+  tool_ids:
+  - skill:sarif-parsing
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-scaffold-3d-site-1f3c4b87
+  tool_ids:
+  - skill:scaffold-3d-site
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-schema-1636c11f
+  tool_ids:
+  - skill:schema
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-scroll-3d-scene-d625c793
+  tool_ids:
+  - skill:scroll-3d-scene
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-semgrep-be400b61
+  tool_ids:
+  - skill:semgrep
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-seo-8a0893bc
+  tool_ids:
+  - skill:seo
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-signup-945f174f
+  tool_ids:
+  - skill:signup
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-sms-9503f4b7
+  tool_ids:
+  - skill:sms
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-social-e29f3d5f
+  tool_ids:
+  - skill:social
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-soft-skill-30d6abd0
+  tool_ids:
+  - skill:soft-skill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-stitch-skill-9b13506f
+  tool_ids:
+  - skill:stitch-skill
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-supply-chain-risk-auditor-3547650c
+  tool_ids:
+  - skill:supply-chain-risk-auditor
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-testing-webapps-d77e7b2e
+  tool_ids:
+  - skill:testing-webapps
+  licence: Apache-2.0
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ui-ux-pro-max-98ccf02e
+  tool_ids:
+  - skill:ui-ux-pro-max
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ultimate-web-design-motion-01eaa715
+  tool_ids:
+  - skill:ultimate-web-design-motion
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ux-heuristics-review-18e202ad
+  tool_ids:
+  - skill:ux-heuristics-review
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ux-personas-ab417723
+  tool_ids:
+  - skill:ux-personas
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ux-research-methods-e4c78b10
+  tool_ids:
+  - skill:ux-research-methods
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-ux-storyboard-70cbfb92
+  tool_ids:
+  - skill:ux-storyboard
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-vercel-composition-patterns-3044fced
+  tool_ids:
+  - skill:vercel-composition-patterns
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-vercel-optimize-010cbe03
+  tool_ids:
+  - skill:vercel-optimize
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-vercel-react-view-transitions-b5819ddb
+  tool_ids:
+  - skill:vercel-react-view-transitions
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-video-8d320dca
+  tool_ids:
+  - skill:video
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-web-accessibility-66d34f69
+  tool_ids:
+  - skill:web-accessibility
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-web-quality-audit-c8fc6d78
+  tool_ids:
+  - skill:web-quality-audit
+  licence: MIT
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.
+- id: standalone-writing-release-notes-7ce7801c
+  tool_ids:
+  - skill:writing-release-notes
+  licence: none-found
+  group: Unknown origin or unverified redistribution rights
+  reason: Unknown authorship/origin; no reliable upstream evidence
+  upstream_url: null
+  steps: Do not copy or install from the founder’s archive. Ask the original author
+    for the source, a licence covering the installed files and a pinned public release;
+    then rerun the licence audit before enabling this tool.

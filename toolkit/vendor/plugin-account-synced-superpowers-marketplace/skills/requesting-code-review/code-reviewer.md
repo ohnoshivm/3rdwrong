@@ -1,0 +1,1 @@
+../../../pack-obra-superpowers-mit/skills/requesting-code-review/code-reviewer.md
