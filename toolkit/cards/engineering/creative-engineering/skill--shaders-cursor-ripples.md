@@ -45,6 +45,12 @@ Shaders Cursor Ripples is the specialist when The approved concept specifically 
 - Relevant design, code, platform, device and integration context named by the source.
 - Constraints and reference artefacts; mark unsupported assumptions Unknown.
 
+## Technology choice
+
+**Documented** — [D-0025](../../../../studio/decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](../../../../methods/creative-technology/selection-policy.md).
+This source selects a WebGPU effect. First compare CSS/SVG, OGL or another smaller approach; retain WebGPU only for a recorded requirement with device and fallback evidence. Source availability is not a verified runtime connection. D-0023 remains binding; preserve HTML, keyboard access and reduced motion.
+
 ## How to run it
 
 1. Check that the brief matches the registry trigger and the source's documented scope.

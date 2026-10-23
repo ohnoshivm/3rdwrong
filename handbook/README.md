@@ -31,16 +31,16 @@ Coverage counts cards against registry leads and specialists, including aliases 
 | Department | Cards | Lead/specialist tools | Coverage |
 | --- | ---: | ---: | ---: |
 | [Advertising](advertising.md) | 31 | 31 | 100.0% |
-| [Design](design.md) | 174 | 174 | 100.0% |
+| [Design](design.md) | 179 | 179 | 100.0% |
 | [Engineering](engineering.md) | 200 | 200 | 100.0% |
-| [Labs](labs.md) | 5 | 5 | 100.0% |
-| [Marketing](marketing.md) | 98 | 98 | 100.0% |
-| [Media](media.md) | 45 | 45 | 100.0% |
+| [Labs](labs.md) | 9 | 9 | 100.0% |
+| [Marketing](marketing.md) | 99 | 99 | 100.0% |
+| [Media](media.md) | 47 | 47 | 100.0% |
 | [Operations](operations.md) | 177 | 177 | 100.0% |
-| [Outbound](outbound.md) | 13 | 13 | 100.0% |
-| [Production](production.md) | 19 | 19 | 100.0% |
+| [Outbound](outbound.md) | 15 | 15 | 100.0% |
+| [Production](production.md) | 20 | 20 | 100.0% |
 | [Sales](sales.md) | 19 | 19 | 100.0% |
-| [Strategy](strategy.md) | 27 | 27 | 100.0% |
+| [Strategy](strategy.md) | 29 | 29 | 100.0% |
 
 ## Updating the handbook
 

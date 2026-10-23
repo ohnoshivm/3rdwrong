@@ -8,8 +8,8 @@ tool_id: agent:visual-designer
 department: design
 sub_department: identity-craft
 job: typography
-role: lead
-trigger: ""
+role: specialist
+trigger: "An approved brand type and colour system must be converted into digital tokens, a type ramp, measured contrast table and grid specification for a build."
 kind: agent
 availability: claude
 distribution: vendor
@@ -19,7 +19,7 @@ pairs_with: [vectorlab-ux-skills:typography]
 ---
 # Visual Designer
 
-The Visual Designer is 3RDWRONG’s lead for typography.
+The Visual Designer converts an approved brand type and colour system into digital tokens, a type ramp, a measured contrast table and a grid specification. The [brand typography skill](../../../../skills/3w-typography-system/SKILL.md) leads type selection.
 
 ## What it does
 
@@ -30,7 +30,7 @@ The Visual Designer is 3RDWRONG’s lead for typography.
 ## When to use
 
 - Phase 03 Design System, when the approved direction and the source artefact are ready for typography.
-- Use it to lead this job; keep the founder’s decision and an independent check separate from its output.
+- Load only when the registry trigger applies; keep the founder’s decision and an independent check separate from its output.
 
 ## When not to use
 

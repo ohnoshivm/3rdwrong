@@ -12,13 +12,17 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/outbound.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **13/13 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **15/15 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Outreach sequences
 
 ### Outreach copy
 
 - **Lead:** [`agency:sales-outreach`](../toolkit/cards/outbound/outreach-sequences/agency--sales-outreach.md) — The studio lead for outreach-copy: use this tool to handle outreach copy work with a source-grounded draft for human review.
+
+### Reply triage
+
+- **Lead:** [`skill:3w-reply-triage`](../toolkit/cards/outbound/outreach-sequences/skill--3w-reply-triage.md) — The studio's lead tool for reply triage: every outbound reply classified, answered within a working day, opt-outs honoured the same day.
 
 ### Sequence design
 
@@ -59,6 +63,10 @@ Card coverage: **13/13 (100.0%)** lead/specialist tools. Start with the lead; ma
 - **Lead:** [`skill:prospecting`](../toolkit/cards/outbound/prospecting-research/skill--prospecting.md) — The studio lead for prospect-discovery: use this tool to handle prospect discovery work with a source-grounded draft for human review.
 - **Specialist:** [`agency:sales-offer-lead-gen-strategist`](../toolkit/cards/outbound/prospecting-research/agency--sales-offer-lead-gen-strategist.md) — The studio specialist for prospect-discovery: Use for outbound/prospecting-research/prospect-discovery when the brief specifically requires: Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale .
   Trigger: Use for outbound/prospecting-research/prospect-discovery when the brief specifically requires: Top-of-funnel architect who designs irresistible offers and lead magnets that attract qualified buyers at scale .
+
+### Prospect qualification
+
+- **Lead:** [`skill:3w-prospect-qualification`](../toolkit/cards/outbound/prospecting-research/skill--3w-prospect-qualification.md) — The studio's lead tool for prospect qualification: contact, watch or exclude each researched account before outbound.
 
 ## Bench and parked
 

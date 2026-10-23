@@ -13,7 +13,7 @@ Produce scoped client work: plans, timelines, client communication, handover and
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-33 tools; 8 lead, 11 specialist, 11 bench, 3 parked, 0 excluded; 19 active / 14 library.
+34 tools; 9 lead, 11 specialist, 11 bench, 3 parked, 0 excluded; 20 active / 14 library.
 
 ## Sub-departments → jobs → leads
 
@@ -39,7 +39,7 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | --- | --- |
 | `client-success` | `agency:customer-success-manager` |
 | `delivery-handover` | `skill:writing-release-notes` |
-| `retention-programmes` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `retention-programmes` | `skill:3w-care-retention` |
 
 ## Specialists with activation triggers
 
@@ -67,7 +67,13 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `handover-retention/retention-programmes` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
+The previous lead gaps now have experimental studio methods:
+
+- `handover-retention/retention-programmes` — [`skill:3w-care-retention`](../../skills/3w-care-retention/SKILL.md).
+
+Routing closes the ownership gap; it does not prove output quality, human
+approval, installed prerequisites or completed delivery. Independent evidence
+and the charter gates remain required.
 
 ## Counts by sub-department and role
 
@@ -75,7 +81,7 @@ Individual reasons and activation requirements are in the [canonical registry](.
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | producing-pm | 3 | 7 | 3 | 2 | 0 | 10 | 5 | 15 |
 | client-experience | 3 | 3 | 8 | 1 | 0 | 6 | 9 | 15 |
-| handover-retention | 2 | 1 | 0 | 0 | 0 | 3 | 0 | 3 |
+| handover-retention | 3 | 1 | 0 | 0 | 0 | 4 | 0 | 4 |
 
 ## Operating contract
 

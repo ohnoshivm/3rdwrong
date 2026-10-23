@@ -4199,10 +4199,10 @@
       "job": "typography",
       "kind": "agent",
       "load": "active",
-      "reason": "Retained source-reviewed v1 capability under the v2 primary-output boundary.",
-      "role": "lead",
+      "reason": "Demoted from typography lead: its own file covers token, ramp, contrast and grid execution for web builds (handoff from creative-director to frontend-architect), not brand type selection, licensing or script support. Lead is now skill:3w-typography-system.",
+      "role": "specialist",
       "sub_department": "identity-craft",
-      "trigger": ""
+      "trigger": "An approved brand type and colour system must be converted into digital tokens, a type ramp, measured contrast table and grid specification for a build."
     },
     {
       "aliases": [
@@ -9232,6 +9232,34 @@
     },
     {
       "aliases": [
+        "skill:3w-awards-submission"
+      ],
+      "department": "marketing",
+      "id": "skill:3w-awards-submission",
+      "job": "awards-submissions",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the marketing/awards-submissions gap. agency:marketing-pr-communications-manager's award template is results-led business awards (win-rate target, quantified outcomes) and conflicts with growth/proof/awards.md; it stays earned-media specialist. This skill applies the awards strategy and D-0024 free-only rule.",
+      "role": "lead",
+      "sub_department": "pr-awards",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-behavioural-lens"
+      ],
+      "department": "strategy",
+      "id": "skill:3w-behavioural-lens",
+      "job": "behavioural-theory",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the strategy/behavioural-theory gap. agency:academic-psychologist is written for fictional character psychology; agency:product-behavioral-nudge-engine optimises engagement. This skill applies the perception-to-identity map's cited-research rule with an ethics screen.",
+      "role": "lead",
+      "sub_department": "culture-behaviour",
+      "trigger": ""
+    },
+    {
+      "aliases": [
         "skill:3w-brand-consistency-qa"
       ],
       "department": "design",
@@ -9260,6 +9288,20 @@
     },
     {
       "aliases": [
+        "skill:3w-care-retention"
+      ],
+      "department": "production",
+      "id": "skill:3w-care-retention",
+      "job": "retention-programmes",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the production/retention-programmes gap. agency:customer-success-manager is SaaS retainer/NRR-focused and already leads client-success. This skill implements methods/handover-and-care.md plus once-only testimonial and referral asks.",
+      "role": "lead",
+      "sub_department": "handover-retention",
+      "trigger": ""
+    },
+    {
+      "aliases": [
         "skill:3w-category-code-audit"
       ],
       "department": "design",
@@ -9270,6 +9312,34 @@
       "reason": "Retained source-reviewed v1 capability under the v2 primary-output boundary.",
       "role": "lead",
       "sub_department": "direction",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-colour-system"
+      ],
+      "department": "design",
+      "id": "skill:3w-colour-system",
+      "job": "colour",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio method for perception-aware colour: roles, category colour codes, sourced cultural notes, WCAG 2.2 contrast pass/fail; APCA is not shipped and may be checked manually with the official tool, subject to its licence, colour-vision screening with declared threshold, light/dark, CMYK per printer profile with proofs on the real substrate, tokens, application tests. Experimental; human sets direction. Closes the colour gap.",
+      "role": "lead",
+      "sub_department": "identity-craft",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-composition-system"
+      ],
+      "department": "design",
+      "id": "skill:3w-composition-system",
+      "job": "composition-layout",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio method for brand-wide composition: invariants vs variables, derived grids, hierarchy and give-way rules, type-image rules, behaviour across digital, print, social, environmental and motion formats, identity-system-testing, unfamiliar-colleague test, templates. Experimental; human-led. Closes the composition-layout gap.",
+      "role": "lead",
+      "sub_department": "identity-craft",
       "trigger": ""
     },
     {
@@ -9288,6 +9358,48 @@
     },
     {
       "aliases": [
+        "skill:3w-demo-publishing"
+      ],
+      "department": "labs",
+      "id": "skill:3w-demo-publishing",
+      "job": "demo-publishing",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the labs/demo-publishing gap. skill:publish-project-to-github packages but does not check licences, client material, AI disclosure or budget. This skill is the pre-release gate.",
+      "role": "lead",
+      "sub_department": "open-source-showcase",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-effect-study"
+      ],
+      "department": "labs",
+      "id": "skill:3w-effect-study",
+      "job": "effect-studies",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the labs/effect-studies gap. Parked recipes are narrow presets; no reviewed tool owned the whole study method. This skill re-authors techniques under the Labs contract, D-0023 budget and reduced-motion rule.",
+      "role": "lead",
+      "sub_department": "experiments",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-engine-validation"
+      ],
+      "department": "labs",
+      "id": "skill:3w-engine-validation",
+      "job": "engine-validation",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the labs/engine-validation gap. No tool owned the gate between a technique and project reuse. This skill validates kits against web standards, D-0023 and licences.",
+      "role": "lead",
+      "sub_department": "house-engine",
+      "trigger": ""
+    },
+    {
+      "aliases": [
         "skill:3w-identity-system-critic"
       ],
       "department": "design",
@@ -9298,6 +9410,132 @@
       "reason": "Retained source-reviewed v1 capability under the v2 primary-output boundary.",
       "role": "lead",
       "sub_department": "design-qa",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-image-production"
+      ],
+      "department": "media",
+      "id": "skill:3w-image-production",
+      "job": "image-production-workflow",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the media/image-production-workflow gap. skill:imagegen and other image tools generate but do not run brief → route → rights/AI consent → export → register. This skill implements the IP guide and D-0023 AI consent.",
+      "role": "lead",
+      "sub_department": "image-photo-direction",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-image-qa"
+      ],
+      "department": "media",
+      "id": "skill:3w-image-qa",
+      "job": "image-quality-check",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the media/image-quality-check gap. No reviewed tool checks rights, likeness/property releases and AI consent before release. This skill is the independent image gate.",
+      "role": "lead",
+      "sub_department": "image-photo-direction",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-labs-benchmark"
+      ],
+      "department": "labs",
+      "id": "skill:3w-labs-benchmark",
+      "job": "research-benchmarks",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the labs/research-benchmarks gap. Bench math-proof and parked vercel benchmark tools target other domains; agency:testing-performance-benchmarker has its home in engineering. This skill gives a reproducible comparison protocol tied to a decision.",
+      "role": "lead",
+      "sub_department": "experiments",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-mark-exploration"
+      ],
+      "department": "design",
+      "id": "skill:3w-mark-exploration",
+      "job": "mark-logo",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio method for mark/logo from adjective-free idea to production vector: three distinct routes, optical-correction checklist, 16-48 px and media tests, reverse versions, clear space, distinctiveness vs category audit, registrability caution (legal step). Experimental; human-led decisions. Closes the mark-logo gap.",
+      "role": "lead",
+      "sub_department": "identity-craft",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-narrative-analysis"
+      ],
+      "department": "strategy",
+      "id": "skill:3w-narrative-analysis",
+      "job": "narrative-analysis",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the strategy/narrative-analysis gap. agency:academic-narratologist is fiction-focused (registry reason already says so); skill:category-narrative-mapper covers competitor messaging. This skill analyses sourced brand, founder, customer and cultural stories.",
+      "role": "lead",
+      "sub_department": "culture-behaviour",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-prospect-qualification"
+      ],
+      "department": "outbound",
+      "id": "skill:3w-prospect-qualification",
+      "job": "prospect-qualification",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the outbound/prospect-qualification gap. skill:fit-scorer scores influencers; sales qualification tools act after a conversation. This skill qualifies accounts before contact from public evidence, ICP pre-score, disqualifiers and compliance.",
+      "role": "lead",
+      "sub_department": "prospecting-research",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-reply-triage"
+      ],
+      "department": "outbound",
+      "id": "skill:3w-reply-triage",
+      "job": "reply-triage",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead closing the outbound/reply-triage gap. skill:engagement-inbox-manager and linkedin-skills:linkedin-reply-handler handle social comments; neither applies the outbound reply table, same-day suppression or L0 lead creation. This skill does.",
+      "role": "lead",
+      "sub_department": "outreach-sequences",
+      "trigger": ""
+    },
+    {
+      "aliases": [
+        "skill:3w-taste-graph"
+      ],
+      "department": "design",
+      "id": "skill:3w-taste-graph",
+      "job": "inspiration-taste",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Existing studio skill required before creative work but absent from the canonical registry; records the prerequisite without displacing the current inspiration-taste lead.",
+      "role": "specialist",
+      "sub_department": "direction",
+      "trigger": "Before any creative-output task, load a Taste Graph reference pack for the brief (AGENTS.md; D-0020)."
+    },
+    {
+      "aliases": [
+        "skill:3w-typography-system"
+      ],
+      "department": "design",
+      "id": "skill:3w-typography-system",
+      "job": "typography",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio method for brand typography: selection against the idea, licence per medium (desktop/web/app/broadcast/logo/transfer), Latin and Indian-script shaping with a fluent reviewer, pairing, hierarchy, optical sizes, kerning, web fonts within web-standards and D-0023 budgets, metric-matched fallbacks, specimen. Experimental; human-led.",
+      "role": "lead",
+      "sub_department": "identity-craft",
       "trigger": ""
     },
     {

@@ -13,7 +13,7 @@ Build the studio brand through voice, content, social, PR, awards and search/AEO
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-217 tools; 23 lead, 75 specialist, 115 bench, 4 parked, 0 excluded; 98 active / 119 library.
+218 tools; 24 lead, 75 specialist, 115 bench, 4 parked, 0 excluded; 99 active / 119 library.
 
 ## Sub-departments → jobs → leads
 
@@ -44,7 +44,7 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | Job | Lead(s) |
 | --- | --- |
 | `earned-media` | `skill:press-media-relations` |
-| `awards-submissions` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `awards-submissions` | `skill:3w-awards-submission` |
 | `launch-planning` | `skill:launch-window-planner` |
 | `launch-assets` | `skill:launch-asset-packager` |
 | `launch-gate` | `skill:launch-readiness-auditor` |
@@ -151,7 +151,13 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `pr-awards/awards-submissions` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
+The previous lead gaps now have experimental studio methods:
+
+- `pr-awards/awards-submissions` — [`skill:3w-awards-submission`](../../skills/3w-awards-submission/SKILL.md).
+
+Routing closes the ownership gap; it does not prove output quality, human
+approval, installed prerequisites or completed delivery. Independent evidence
+and the charter gates remain required.
 
 ## Counts by sub-department and role
 
@@ -159,7 +165,7 @@ Individual reasons and activation requirements are in the [canonical registry](.
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | studio-brand-voice | 4 | 4 | 18 | 0 | 0 | 8 | 18 | 26 |
 | content-social | 8 | 38 | 70 | 4 | 0 | 46 | 74 | 120 |
-| pr-awards | 5 | 5 | 7 | 0 | 0 | 10 | 7 | 17 |
+| pr-awards | 6 | 5 | 7 | 0 | 0 | 11 | 7 | 18 |
 | search-aeo | 6 | 28 | 20 | 0 | 0 | 34 | 20 | 54 |
 
 ## Operating contract

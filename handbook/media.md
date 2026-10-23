@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/media.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **45/45 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **47/47 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Film motion graphics
 
@@ -113,6 +113,14 @@ Card coverage: **45/45 (100.0%)** lead/specialist tools. Start with the lead; ma
   Trigger: Use when the task explicitly calls for this image generation workflow or host.
 - **Specialist:** [`skill:image`](../toolkit/cards/media/image-photo-direction/skill--image.md) — The studio's specialist for brand-image-assets; activate when Use when the task explicitly calls for this image generation workflow or host
   Trigger: Use when the task explicitly calls for this image generation workflow or host.
+
+### Image production workflow
+
+- **Lead:** [`skill:3w-image-production`](../toolkit/cards/media/image-photo-direction/skill--3w-image-production.md) — The studio's lead tool for the image production workflow: brief, route, rights and AI consent before making, then selection, export and a rights register.
+
+### Image quality check
+
+- **Lead:** [`skill:3w-image-qa`](../toolkit/cards/media/image-photo-direction/skill--3w-image-qa.md) — The studio's lead tool for image quality checks: the independent rights, likeness, AI-consent, fit, technical and accessibility gate before release.
 
 ## Sound voice
 

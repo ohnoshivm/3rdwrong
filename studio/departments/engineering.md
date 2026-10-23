@@ -261,6 +261,16 @@ No lead coverage gaps.
 | platform-performance | 7 | 41 | 16 | 36 | 0 | 48 | 52 | 100 |
 | engineering-qa-security | 10 | 42 | 12 | 32 | 0 | 52 | 44 | 96 |
 
+## Creative Technology ownership
+
+**Documented** — [D-0025](../decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](../../methods/creative-technology/selection-policy.md).
+Creative-engineering owns its maintenance with Design's creative-intent review.
+Use the [matrix](../../methods/creative-technology/selection-matrix.md) and require
+a stack decision record for every digital project before production build.
+Native first; specialist dependencies need a recorded reason and prototype proof.
+D-0023 remains the binding budget. Registry roles and triggers remain unchanged.
+
 ## Operating contract
 
 Use the job lead first and a specialist only on its trigger. Maker and checker must be separate people/agent instances; a reviewer never approves its own department alone. Proposed `load: active` is the desired loading policy, while the source inventory records installation presence. No physical activation was performed.
