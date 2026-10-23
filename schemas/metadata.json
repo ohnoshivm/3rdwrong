@@ -13,7 +13,8 @@
     "experiment",
     "guide",
     "policy",
-    "inbox"
+    "inbox",
+    "tool-card"
   ],
   "statuses": [
     "approved",
@@ -45,7 +46,8 @@
     "project": 90,
     "experiment": 30,
     "guide": 180,
-    "policy": 365
+    "policy": 365,
+    "tool-card": 90
   },
   "required_files": [
     "README.md",

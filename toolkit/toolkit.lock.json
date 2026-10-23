@@ -1316,6 +1316,20 @@
       "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
     },
     {
+      "bytes": 4986,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-awards-submission/SKILL.md",
+      "sha256": "0f22a50f2d36280e2754f4905ecb044aea18dd70d34ed15b6c110cc432344e16"
+    },
+    {
+      "bytes": 5303,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-behavioural-lens/SKILL.md",
+      "sha256": "cc27ab71e746d443d52af3f2ce5008d14850248f6e6a7ec6555ddf0a5ceac394"
+    },
+    {
       "bytes": 6999,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
@@ -1328,6 +1342,13 @@
       "package": "3rdwrong-core",
       "path": "toolkit/plugins/3rdwrong-core/skills/3w-brand-discovery/SKILL.md",
       "sha256": "c64c94043d04fe9b61fe63a58df3aba0a79fd35c1c2ffca5f0f35547602cfcf1"
+    },
+    {
+      "bytes": 5108,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-care-retention/SKILL.md",
+      "sha256": "08be293a49ff3a6b6b950e45dff108d3fdc3f9f4a7d4ea9aaaa48307aaae3ec2"
     },
     {
       "bytes": 6816,
@@ -1344,11 +1365,74 @@
       "sha256": "57a7f3a405746f90ebfac850c13e5407c7e8e838cd2a133a2af5a93fbdf8d28e"
     },
     {
+      "bytes": 5440,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-demo-publishing/SKILL.md",
+      "sha256": "b74996e9f75963a927f4c2cafef0858108cd534bb6fe407c67cdada4a850202d"
+    },
+    {
+      "bytes": 5984,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-effect-study/SKILL.md",
+      "sha256": "f747d9707b92c798b4f0d12b0b012113f118fa50303c310ef03047e2015aa716"
+    },
+    {
+      "bytes": 4957,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-engine-validation/SKILL.md",
+      "sha256": "137a1e633b5e46aeda3a725f5e5f7a22c133cb7757d76ff4760ceb080a649f18"
+    },
+    {
       "bytes": 8016,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
       "path": "toolkit/plugins/3rdwrong-core/skills/3w-identity-system-critic/SKILL.md",
       "sha256": "a44d388187ff244b2be5926b456b705667e79fddd285c40e265fc42a6ab5e3be"
+    },
+    {
+      "bytes": 5006,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-image-production/SKILL.md",
+      "sha256": "1f6162cedb6001992d7106e37bad8899c713042899cdc8df9fd6182b2288f97e"
+    },
+    {
+      "bytes": 4688,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-image-qa/SKILL.md",
+      "sha256": "388f4208197b039e726624e6766abc7fd6276d238e6548660e7f4eb4599c1e16"
+    },
+    {
+      "bytes": 4817,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-labs-benchmark/SKILL.md",
+      "sha256": "5f99008c58c48f2536e548c8651c0a30c3acc1b0b9b3ff3ced383c0ea60c3dce"
+    },
+    {
+      "bytes": 5005,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-narrative-analysis/SKILL.md",
+      "sha256": "39a3537dc4d3d763da2b92bc03613d16a83cda0f3bfadb09900b881370a8143d"
+    },
+    {
+      "bytes": 5089,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-prospect-qualification/SKILL.md",
+      "sha256": "6d0760176a9992c331c3cf18d325f3b85c8355508f8d37407282bf8867d8172e"
+    },
+    {
+      "bytes": 4249,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-reply-triage/SKILL.md",
+      "sha256": "c1c440fb1784d05b67d620bf34b71867aaa8c9a2548147eb04b4595f15f3378a"
     },
     {
       "bytes": 7160,
@@ -56936,9 +57020,9 @@
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
     "THIRD_PARTY_NOTICES.md": "8c3abfca9e24b17ed6851bb804e426c5cc27d28ff556cbd9dff5b7e49c15ac07",
-    "toolkit/coverage.json": "4602ffef8664e0fdb2bedc94af8bf0d96fe256d603300df3fc2484980690ea90",
+    "toolkit/coverage.json": "140c4163568abd36053c9b450072e5367a50454610ed4fd29b697721c3837697",
     "toolkit/fetch.yaml": "04eaf42499bca02f9db6ee0a505214e14fba46c7b86ec857f5a25b786b409c1f",
-    "toolkit/install-plan.json": "3b8c5f8389b93125b7a065a3f09c611be026dc0b6930d799a35cd6296e9b4df7",
+    "toolkit/install-plan.json": "f2823e966c3880722b3d18eebbdd5deed25ee44f32f097cc4a5a721568f00a71",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
     "toolkit/secret-allowlist.json": "aebcb912c20c41908ee1ce94aa8b057168154e57c3c7a05d738385d8c25533d9"
