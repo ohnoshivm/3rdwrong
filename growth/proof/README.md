@@ -35,7 +35,7 @@ and on the monthly portfolio review.
 
 ## Inputs
 
-The project's contract clearance status (D-0021), the retrospective, project
+The project's contract clearance status ([D-0021](../../studio/decisions/0021-client-work-public-anonymised.md)), the retrospective, project
 files (vault), the client's feedback and the studio's publication rules.
 
 ## Steps

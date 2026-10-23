@@ -122,6 +122,18 @@ class SharedFormatTests(ThreewTestCase):
             code = threew.main(list(argv))
         return code, err.getvalue()
 
+    def test_mapping_variables_are_rejected(self) -> None:
+        directory = self.bundles / "legacy"
+        directory.mkdir(parents=True)
+        (directory / "note.md.tmpl").write_text("{{slug}}", encoding="utf-8")
+        (directory / "bundle.yaml").write_text(yaml.safe_dump({
+            "kind": "note", "description": "legacy format", "template": "note.md.tmpl",
+            "target": "notes/{slug}.md", "variables": {"slug": {"example": "example"}},
+        }), encoding="utf-8")
+        with self.assertRaisesRegex(threew.CliError, "variables.*list"):
+            self.create("legacy", values={"slug": "example"}, bundles=self.bundles)
+        self.assertFalse((self.root / "notes").exists())
+
     def test_vault_target_single_file_via_cli(self) -> None:
         self.bundle(
             "invoice", "{vault}/{codename}/finance/invoice-{number}.md",
@@ -223,6 +235,15 @@ class CodenameAndRoutingTests(ThreewTestCase):
     def test_private_requires_initialised_vault(self) -> None:
         with self.assertRaisesRegex(threew.CliError, "vault init"):
             self.create(codename="pale-river", private=True)
+
+    def test_cleared_rejects_vault_inside_git_before_any_write(self) -> None:
+        git_init(self.root)
+        unsafe = self.root / "private-vault"
+        unsafe.mkdir()
+        with self.assertRaisesRegex(threew.CliError, "inside a git work tree"):
+            self.create(codename="quiet-harbour", cleared=True, vault=unsafe)
+        self.assertEqual(list(unsafe.iterdir()), [])
+        self.assertEqual(list((self.root / "projects").iterdir()), [])
 
     def test_cleared_creates_private_folders_when_vault_exists(self) -> None:
         threew.init_vault(self.vault)

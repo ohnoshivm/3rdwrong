@@ -10,7 +10,7 @@ review_every_days: 90
 # Growth metrics
 
 **Proposed.** Definitions, formulas, cadence and owners for the growth
-engine's measures. Feeds the Business engine's scorecard (business/scorecard.md)
+engine's measures. Feeds the [Business engine](../business/README.md)'s scorecard ([business/scorecard.md](../business/scorecard.md))
 and monthly business review.
 
 ## Purpose
@@ -121,4 +121,4 @@ Share of months with the growth review completed on time.
 
 - [Pipeline and follow-up](sales/pipeline.md)
 - [Growth engine](README.md)
-- The Business engine's scorecard (business/scorecard.md)
+- The [Business engine](../business/README.md)'s scorecard ([business/scorecard.md](../business/scorecard.md))

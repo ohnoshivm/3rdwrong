@@ -9,7 +9,7 @@ review_every_days: 90
 
 # Digital experience method
 
-How the studio delivers the second pillar, Digital Experience (D-0018):
+How the studio delivers the second pillar, Digital Experience ([D-0018](../../studio/decisions/0018-design-engineering-studio.md)):
 award-level websites, WebGL/3D, motion and creative engineering grounded in an
 identity system. It runs inside lifecycle stage L6 Deliver, with stages 09 and
 10 carrying into L7 and L8. Scope, exclusions and acceptance criteria come from
@@ -30,7 +30,7 @@ identity engagement first; do not hide a rebrand inside a website build.
 
 ## Roles
 
-The paired pod from D-0019 works together from day one. **Design** owns what
+The paired pod from [D-0019](../../studio/decisions/0019-organisation-and-loading-policy.md) works together from day one. **Design** owns what
 and why: concept, art direction, UX/UI, interaction and motion design, design
 QA. **Engineering** owns how: implementation, 3D/WebGL, CMS, deployment,
 performance, code QA and security. **Production** coordinates, **Strategy**
@@ -98,4 +98,4 @@ p75 Core Web Vitals 28 days after launch where field data exists.
 - [Handover and care](../handover-and-care.md)
 - [Living identities](../living-identities.md) for motion, generative and
   interactive extensions of an identity
-- Project workspace: `bin/3w new project-digital` ([template bundles](../../templates/bundles/README.md))
+- Project workspace: [bin/3w new project-digital](../../bin/3w) ([template bundles](../../templates/bundles/README.md))

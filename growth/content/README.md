@@ -38,7 +38,7 @@ profiles, the studio journal and site. Client channels are out of scope.
 
 [Positioning](../../studio/positioning.md), the offer pages, the
 [creative philosophy](../../studio/creative-philosophy.md), cleared project
-material ([proof engine](../proof/README.md)), the Taste Graph reference packs
+material ([proof engine](../proof/README.md)), the [Taste Graph](../../skills/3w-taste-graph/SKILL.md) reference packs
 and [taste references](../../taste/README.md), and the
 [publication rules](../../docs/public-private-boundary.md).
 
@@ -54,13 +54,13 @@ and [taste references](../../taste/README.md), and the
 
 | Pillar | From the positioning | What it shows | Example pieces |
 | --- | --- | --- | --- |
-| Identity systems | Core offer (D-0018): distinctive, coherent identity systems that work in the real world | How an identity idea becomes rules that hold across uses | System breakdowns; "one rule, ten applications"; type and colour decisions explained |
-| Digital experience | Second pillar (D-0018): authored websites, motion, WebGL/3D grounded in an identity | Engineering as a design material, with performance and accessibility | Interaction studies; build notes; before/after performance; motion principles |
+| Identity systems | Core offer ([D-0018](../../studio/decisions/0018-design-engineering-studio.md)): distinctive, coherent identity systems that work in the real world | How an identity idea becomes rules that hold across uses | System breakdowns; "one rule, ten applications"; type and colour decisions explained |
+| Digital experience | Second pillar ([D-0018](../../studio/decisions/0018-design-engineering-studio.md)): authored websites, motion, WebGL/3D grounded in an identity | Engineering as a design material, with performance and accessibility | Interaction studies; build notes; before/after performance; motion principles |
 | Process and craft | Perception-led method; strategy before style | How the studio thinks: discovery, critique, alternatives, QA | Discovery frameworks; critique notes; rejected routes and why; QA checklists |
 | Studio point of view | Creative philosophy; the studio's stance on originality and AI (D-0011) | Considered opinions that help buyers decide | Essays; reference teardowns that extract principles; notes on category conventions |
 
 Rules: every piece belongs to one pillar; self-initiated or fictional work is
-labelled as such; no client work appears without clearance under D-0021;
+labelled as such; no client work appears without clearance under [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md);
 AI- and technology-first framing stays out of primary positioning (D-0011).
 
 ### Channels and formats

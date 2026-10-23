@@ -35,7 +35,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | Path | Title | Type | Status | Last reviewed | Summary |
 | --- | --- | --- | --- | --- | --- |
 | [docs/ai-integration.md](docs/ai-integration.md) | AI integration | guide | proposed | 2026-10-22 | AI tools help retrieve, structure, compare, and critique public studio knowledge. |
-| [docs/architecture.md](docs/architecture.md) | Repository architecture | guide | proposed | 2026-10-22 | The repository is a version-controlled second brain for durable studio knowledge. |
+| [docs/architecture.md](docs/architecture.md) | Repository architecture | guide | proposed | 2026-10-23 | The repository is a version-controlled second brain for durable studio knowledge. |
 | [docs/getting-started.md](docs/getting-started.md) | Getting started | guide | proposed | 2026-10-22 | Use this page to open the OS locally, make a first contribution, or start a fresh Claude Code session. |
 | [docs/knowledge-governance.md](docs/knowledge-governance.md) | Knowledge governance | guide | proposed | 2026-10-22 | Status makes the evidence and review state of a document visible. |
 | [docs/maintenance.md](docs/maintenance.md) | Repository maintenance | guide | proposed | 2026-10-22 | Keep the repository small and current. |

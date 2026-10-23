@@ -45,12 +45,13 @@ class BundleTests(unittest.TestCase):
                 self.assertEqual(spec["kind"], name)
                 self.assertTrue(spec["template"].endswith(".tmpl"))
                 template = (folder / spec["template"]).read_text(encoding="utf-8")
-                declared = set(spec["variables"])
+                self.assertIsInstance(spec["variables"], list)
+                declared = {item["name"] for item in spec["variables"]}
                 used = set(PLACEHOLDER.findall(template))
                 self.assertEqual(used, declared, "placeholders and declared variables differ")
                 self.assertTrue(set(TARGET_VAR.findall(spec["target"])) - {"vault"} <= declared)
                 self.assertIsNone(MONEY.search(template), "templates must not carry money amounts")
-                values = {key: str(var["example"]) for key, var in spec["variables"].items()}
+                values = {var["name"]: str(var["example"]) for var in spec["variables"]}
                 output = render(template, values)
                 self.assertNotIn("{{", output)
                 target = spec["target"].format(vault="VAULT", **values)

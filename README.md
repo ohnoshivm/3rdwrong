@@ -17,11 +17,12 @@ This repository is the studio's version-controlled second brain: a public operat
 | [`intelligence/`](intelligence/README.md) | Cited agency, project, visual-system, and research studies. |
 | [`taste/`](taste/README.md) | Curated aesthetic and experiential references only; no policy or offer change. |
 | [`templates/`](templates/README.md) | Reusable project, research, learning, strategy, and critique documents. |
-| [`skills/`](skills/README.md) | Five `3w-` experimental AI workflows with evidence and human-review requirements. |
+| [`skills/`](skills/README.md) | Six `3w-` experimental AI workflows with evidence and human-review requirements. |
 | [`agents/`](agents/README.md) | Upstream Agency Agents catalogue minus founder exclusions, provenance, lock and repo-level update instructions. |
-| [`projects/`](projects/README.md) | Internal identity exploration and sanitised examples. |
+| [`projects/`](projects/README.md) | Codenamed, contract-cleared anonymised project records and internal exploration. |
 | [`experiments/`](experiments/README.md) | Small, explicit tests of creative and operating hypotheses. |
-| [`business/`](business/engagement-operations.md) | Proposed engagement operations. |
+| [`growth/`](growth/README.md) | Sales, content, outbound, proof and acquisition metrics; identities and money stay in the vault. |
+| [`business/`](business/README.md) | Pricing, proposals, legal/finance methods, operations and founder reviews. |
 | [`docs/`](docs/architecture.md) | Governance, onboarding, workflows, maintenance, and publication rules. |
 | [`scripts/validate.py`](scripts/validate.py) and [`schemas/metadata.json`](schemas/metadata.json) | Repository checks and their single source of truth. |
 | [`.github/`](.github/workflows/validate.yml) | Contribution workflow, labels, repository ownership, and CI. |
@@ -71,7 +72,7 @@ Shell equivalents are `claude plugin marketplace add ohnoshivm/3rdwrong#system/v
 ## Using with Claude Code
 
 1. Open Claude Code at the repository root so it can read `AGENTS.md` and the task router.
-2. Have it read `INDEX.md` first, then follow the closest task route in `AGENTS.md`. Claude Code can discover the five `3w-` skills through `.claude/skills` and the 229-agent catalogue (53 founder exclusions) through `.claude/agents`; route to studio skills first.
+2. Have it read `INDEX.md` first, then follow the closest task route in `AGENTS.md`. Claude Code can discover the six `3w-` skills through `.claude/skills` and the 229-agent catalogue (53 founder exclusions) through `.claude/agents`; route to studio skills first.
 3. Review every proposed change and keep speculative material in its correct status.
 
 Example prompts:
@@ -79,6 +80,32 @@ Example prompts:
 - “Read the route for starting a client identity project and prepare a proposed discovery brief from the files I provide. Do not invent research findings.”
 - “Use the 3w-identity-system-critic skill to critique this supplied design. Separate documented evidence, interpretation, hypothesis, and unknowns.”
 - “Review this agency's public work using the agency-study template. Link each observation to a source and keep the study at reference status.”
+
+## Taste Graph
+
+The [Taste Graph](taste/graph/README.md) is local PostgreSQL reference memory: public-source seeds, curated examples, principles and anti-patterns. Before creative work, use [3w-taste-graph](skills/3w-taste-graph/SKILL.md) and `uv run scripts/taste_graph.py pack "<brief>"`; state the principles and don'ts you will apply. Media and database backups stay outside this repo. Setup, capture and curation are in the guide ([D-0020](studio/decisions/0020-taste-graph.md)).
+
+## Delivery engine
+
+The [lifecycle](methods/lifecycle.md) connects discovery, scope, contract, production, QA, launch and care. [Digital Experience](methods/digital-experience/README.md) includes web standards, measured quality and launch gates; [handover and care](methods/handover-and-care.md) carries the work after release. [D-0021](studio/decisions/0021-client-work-public-anonymised.md) permits codenamed public records only when the contract clears them; names, people, contacts, domains, money and client files stay in the private vault.
+
+[bin/3w](bin/3w) renders [bundles](templates/bundles/README.md) and checks publication:
+
+```bash
+bin/3w new project-digital --cleared --codename quiet-harbour
+# Or --private to create the whole workspace in an existing private vault.
+bin/3w check
+```
+
+Choose `THREEW_VAULT` outside all Git worktrees and run `bin/3w vault init` before creating private records. Only run these creation commands when you intend to create a workspace.
+
+## Business engine
+
+The [business guide](business/README.md) covers pricing, proposals/SOWs, legal/IP, invoicing/tax, collaborators and operating rhythm. `uv run python scripts/pricing.py "$THREEW_VAULT/<codename>/finance/estimate.yaml"` reads private rates and an estimate and prints a private pricing check. Never paste monetary output into this repo. `uv run python scripts/review_queue.py --limit 8` prints the founder's next proposed/hypothesis documents to review. Methods and commercial defaults remain proposed.
+
+## Growth engine
+
+The [Growth engine](growth/README.md) connects [qualification and discovery](growth/sales/README.md), [content production](growth/content/README.md), [outbound](growth/outbound/README.md), [proof](growth/proof/README.md) and [metrics](growth/metrics.md). It feeds qualified opportunities into the Business engine and turns cleared delivery evidence into case studies, testimonials, referrals and award decisions. Prospect identities, outreach records, discovery notes and money stay in the vault. [Client acquisition](business/client-acquisition.md) is the short route into these methods.
 
 ## Validation
 

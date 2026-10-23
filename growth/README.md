@@ -20,7 +20,7 @@ better-qualified pipeline is the goal, not volume.
 
 ## The rule: public method, private names and money
 
-Under D-0021 (founder decision, 2026-10-23), client work in this repository is
+Under [D-0021](../studio/decisions/0021-client-work-public-anonymised.md) (founder decision, 2026-10-23), client work in this repository is
 public and anonymised. Growth methods, templates and anonymised counts live
 here. Prospect lists, the pipeline with names and deal values, outreach to
 named people, discovery notes, testimonials before written permission, ad
@@ -58,7 +58,7 @@ positioning ──► proof ──► reach ──► conversations ──► pr
 
 1. **Positioning** says who the studio is for and what it does:
    [positioning](../studio/positioning.md), [initial ICP](../studio/initial-icp.md),
-   the Identity System offer and the Digital Experience offer (D-0018). Growth
+   the [Identity System offer](../studio/identity-system-offer.md) and the [Digital Experience offer](../studio/digital-experience-offer.md) ([D-0018](../studio/decisions/0018-design-engineering-studio.md)). Growth
    does not change positioning; it reports evidence back to it.
 2. **Proof** shows the studio can do it: case studies, testimonials, awards and
    the portfolio — [proof engine](proof/README.md).
@@ -67,13 +67,13 @@ positioning ──► proof ──► reach ──► conversations ──► pr
    and, later, [advertising](advertising.md).
 4. **Conversations** turn interest into qualified opportunities: the
    [sales system](sales/README.md), lifecycle stages L0–L2.
-5. **Proposals** are the Business engine's L3 Propose and L4 Contract &
-   deposit (business/proposals.md in the Business engine). Growth hands over a
+5. **Proposals** are the [Business engine](../business/README.md)'s L3 Propose and L4 Contract &
+   deposit ([business/proposals.md](../business/proposals.md) in the [Business engine](../business/README.md)). Growth hands over a
    complete discovery record.
 
 ## Lifecycle stages served
 
-The canonical client lifecycle (the Delivery engine's methods/lifecycle.md)
+The canonical client lifecycle (the [Delivery engine](../methods/lifecycle.md)'s [methods/lifecycle.md](../methods/lifecycle.md))
 has ten stages. Growth owns four of them, fully or in part.
 
 | Stage | Growth material | Exit gate (summary) |
@@ -83,16 +83,16 @@ has ten stages. Growth owns four of them, fully or in part.
 | L2 Discover & scope | [Discovery call](sales/discovery-call.md), discovery-notes bundle | Problem, scope boundary, decision process, timing, budget band and risks confirmed; client confirms the summary in writing; Business hand-off pack complete |
 | L9 Close-out (growth parts) | [Case studies](proof/case-studies.md), [testimonials](proof/testimonials.md), [referrals](partnerships-and-referrals.md), [awards](proof/awards.md) | Clearance checked; case study published or parked with a reason; testimonial and referral asked; award decision logged |
 
-L3–L4 belong to the Business engine; the backbone and L5–L8 belong to the
-Delivery engine.
+L3–L4 belong to the [Business engine](../business/README.md); the backbone and L5–L8 belong to the
+[Delivery engine](../methods/lifecycle.md).
 
 ## Who owns what
 
-Departments follow D-0019. They are accountability structures, not headcount:
+Departments follow [D-0019](../studio/decisions/0019-organisation-and-loading-policy.md). They are accountability structures, not headcount:
 in a founder-led studio one person may hold several. The founder signs off
 everything that leaves the studio under its name.
 
-| Department (D-0019) | Sub-departments | Growth responsibility |
+| Department ([D-0019](../studio/decisions/0019-organisation-and-loading-policy.md)) | Sub-departments | Growth responsibility |
 | --- | --- | --- |
 | Marketing | studio-brand-voice, content-social, pr-awards, search-aeo | Content system, studio site and portfolio updates, case-study writing, awards, inbound first response |
 | Advertising | paid-social, search-programmatic, ad-creative-measurement | Paid tests only when the gate in [advertising](advertising.md) is met |
@@ -103,8 +103,8 @@ everything that leaves the studio under its name.
 
 ## Weekly growth rhythm
 
-Feeds the Business engine's operating rhythm (business/operating-rhythm.md)
-and scorecard (business/scorecard.md). Time boxes assume a founder doing
+Feeds the [Business engine](../business/README.md)'s operating rhythm ([business/operating-rhythm.md](../business/operating-rhythm.md))
+and scorecard ([business/scorecard.md](../business/scorecard.md)). Time boxes assume a founder doing
 client work most of the week; protect craft blocks first.
 
 | When | Time | What | Department |
@@ -138,7 +138,7 @@ client work most of the week; protect craft blocks first.
 | [`content-brief`](../templates/bundles/content-brief/) | `growth/content/briefs/{date}-{slug}.md` | Content workflow |
 | [`case-study`](../templates/bundles/case-study/) | `projects/{codename}/case-study.md` (cleared projects only) | L9 |
 
-Render them with the Delivery engine's `3w new <bundle>` command.
+Render them with the [Delivery engine](../methods/lifecycle.md)'s [`3w new <bundle>`](../bin/3w) command.
 
 ## Related
 

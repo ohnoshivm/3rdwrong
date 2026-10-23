@@ -9,7 +9,7 @@ review_every_days: 180
 
 # Rates and estimates format
 
-**Proposed.** The file formats read by `scripts/pricing.py`. Both files live
+**Proposed.** The file formats read by [scripts/pricing.py](../../scripts/pricing.py). Both files live
 in the vault and never in this repository. Render starting points from the
 [rates](../../templates/bundles/rates/) and [estimate](../../templates/bundles/estimate/)
 bundles.
@@ -40,7 +40,7 @@ floor margins, the tax set-aside agreed with the chartered accountant.
    zero.
 2. Render one estimate per opportunity to
    `$THREEW_VAULT/<codename>/finance/estimate.yaml`.
-3. Run `uv run python scripts/pricing.py <estimate>`; add `--rates PATH` to
+3. Run [`uv run python scripts/pricing.py <estimate>`](../../scripts/pricing.py); add `--rates PATH` to
    test alternative rates. The script prints to standard output only and
    warns if either file sits inside the repository.
 

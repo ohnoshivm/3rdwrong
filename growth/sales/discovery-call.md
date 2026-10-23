@@ -10,7 +10,7 @@ review_every_days: 90
 # Discovery call
 
 **Proposed.** Lifecycle stage **L2 Discover & scope**: understand the problem
-well enough to scope it, then hand a complete record to the Business engine
+well enough to scope it, then hand a complete record to the [Business engine](../../business/README.md)
 for L3 Propose.
 
 ## Purpose
@@ -50,7 +50,7 @@ System, Digital Experience or [Brand Direction Sprint](../../studio/brand-direct
    buyer's words. Ask permission before recording; store any recording only
    in the vault.
 3. **Book the next step before leaving:** the written summary date and,
-   if the fit is good, the proposal presentation (the Business engine
+   if the fit is good, the proposal presentation (the [Business engine](../../business/README.md)
    presents live within about five working days).
 4. **Send the written summary within one working day:** problem, outcomes,
    scope boundary (in, out, assumptions), client inputs and dates, decision
@@ -120,7 +120,7 @@ Pick, do not recite. Follow the buyer's answers.
 
 ### Hand-off to L3: what Business needs
 
-The Business engine's proposals method expects these before it drafts:
+The [Business engine](../../business/README.md)'s proposals method expects these before it drafts:
 
 - [ ] Problem statement in the client's words, and the decision question.
 - [ ] Three outcomes with observable signals.
@@ -167,5 +167,5 @@ accepted without correction.
 - [Qualification](qualification.md)
 - [Pipeline and follow-up](pipeline.md)
 - [Perception-to-identity map](../../methods/perception-to-identity-map.md)
-- The Business engine's proposals method (business/proposals.md) and
-  estimation guide (business/pricing/estimation-guide.md)
+- The [Business engine](../../business/README.md)'s proposals method ([business/proposals.md](../../business/proposals.md)) and
+  estimation guide ([business/pricing/estimation-guide.md](../../business/pricing/estimation-guide.md))

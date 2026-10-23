@@ -31,7 +31,7 @@ does not decide.
 
 ## Inputs
 
-The queue from `uv run python scripts/review_queue.py`, ranked:
+The queue from [`uv run python scripts/review_queue.py`](../scripts/review_queue.py), ranked:
 
 1. operating-critical areas first, in this order: decisions, studio strategy
    and offers, business engine, methods, growth, skills, projects, templates,
@@ -60,7 +60,7 @@ Use `--limit 8` to print one session's worth.
 4. **Record.** The founder, or someone acting on the founder's explicit
    instruction, edits the frontmatter in a pull request that names the
    session date. Agents never set `approved` on their own initiative.
-5. **Rebuild the index** with `uv run python scripts/build_index.py` and run
+5. **Rebuild the index** with [`uv run python scripts/build_index.py`](../scripts/build_index.py) and run
    the validator.
 
 ### What approval means

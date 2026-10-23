@@ -15,7 +15,7 @@ Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/fou
 
 ## Where to go
 
-| Need | Growth engine page | Lifecycle stage |
+| Need | [Growth engine](../growth/README.md) page | Lifecycle stage |
 | --- | --- | --- |
 | Capture a lead | [Lead sources](../growth/sales/lead-sources.md) | L0 Lead |
 | Decide whether to pursue | [Qualification](../growth/sales/qualification.md) | L1 Qualify |
@@ -39,7 +39,7 @@ Blueprint v1.0, 22 October 2026 ([founding source archive](../studio/archive/fou
   ([D-0010](../studio/decisions/0010-beauty-personal-care-discovery-focus.md));
   partner agencies remain a category to test. These are hypotheses, not
   market claims.
-- Under D-0021, prospect identities, notes, deal values and outreach to named
+- Under [D-0021](../studio/decisions/0021-client-work-public-anonymised.md), prospect identities, notes, deal values and outreach to named
   people live in the private vault; only anonymised, aggregated learning
   returns here.
 

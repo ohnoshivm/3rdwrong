@@ -10,7 +10,7 @@ review_every_days: 180
 # People and roles
 
 **Proposed.** Who does what in a founder-led studio that works with
-collaborators and AI agents, mapped to the 11 departments of D-0019, and how
+collaborators and AI agents, mapped to the 11 departments of [D-0019](../../studio/decisions/0019-organisation-and-loading-policy.md), and how
 the studio would grow into hiring. Departments are accountability
 structures, not headcount.
 
@@ -30,7 +30,7 @@ quarterly review of the bench.
 
 Holds every department head role until delegated. Always retained:
 
-- strategic, creative and release approval (D-0019);
+- strategic, creative and release approval ([D-0019](../../studio/decisions/0019-organisation-and-loading-policy.md));
 - price, proposal, contract and payment decisions;
 - the client relationship at decision-maker level;
 - the review queue and every `approved` status;
@@ -53,7 +53,7 @@ Holds every department head role until delegated. Always retained:
 | Lawyer | Operations (Studio) | Template review, disputes | Founder |
 
 Growth roles (Marketing, Advertising, Outbound, Sales) are defined by the
-Growth engine; the founder holds Sales sign-off.
+[Growth engine](../../growth/README.md); the founder holds Sales sign-off.
 
 ### AI agents
 
@@ -64,7 +64,7 @@ specific task, and never contact clients.
 
 ## Inputs
 
-D-0019 department map, the current bench (vault), project staffing needs.
+[D-0019](../../studio/decisions/0019-organisation-and-loading-policy.md) department map, the current bench (vault), project staffing needs.
 
 ## Steps
 

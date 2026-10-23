@@ -1,23 +1,22 @@
 kind: invoice
-description: >-
-  Private invoice record for a payment milestone (L4–L9). Renders into the
-  vault only. Fields follow the invoice must-haves in
-  business/finance/india-tax-basics.md; confirm with a chartered accountant.
+description: Private invoice record for a payment milestone (L4–L9). Renders into the vault only. Fields
+  follow the invoice must-haves in business/finance/india-tax-basics.md; confirm with a chartered accountant.
 template: invoice.md.tmpl
-target: "{vault}/{codename}/finance/invoices/{invoice_number}.md"
+target: '{vault}/{codename}/finance/invoices/{invoice_number}.md'
 variables:
-  codename:
-    description: Project codename.
-    example: stillsoil-atelier
-  invoice_number:
-    description: Consecutive, unique-per-financial-year serial (letters, digits, hyphen or slash; at most 16 characters).
-    example: 3W-2627-007
-  invoice_date:
-    description: Invoice date (YYYY-MM-DD).
-    example: "2026-10-30"
-  milestone:
-    description: Payment milestone from the statement of work.
-    example: Deposit
-  due_date:
-    description: Due date under the agreed payment terms (YYYY-MM-DD).
-    example: "2026-11-06"
+- name: codename
+  description: Project codename.
+  example: stillsoil-atelier
+- name: invoice_number
+  description: Consecutive, unique-per-financial-year serial (letters, digits, hyphen or slash; at most
+    16 characters).
+  example: 3W-2627-007
+- name: invoice_date
+  description: Invoice date (YYYY-MM-DD).
+  example: '2026-10-30'
+- name: milestone
+  description: Payment milestone from the statement of work.
+  example: Deposit
+- name: due_date
+  description: Due date under the agreed payment terms (YYYY-MM-DD).
+  example: '2026-11-06'

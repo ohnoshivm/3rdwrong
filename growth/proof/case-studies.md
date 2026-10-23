@@ -39,7 +39,7 @@ project decisions, routes and QA records; the client's feedback; project files.
 
 ## Steps
 
-1. **Clearance check (D-0021).** Confirm the contract permits publication
+1. **Clearance check ([D-0021](../../studio/decisions/0021-client-work-public-anonymised.md)).** Confirm the contract permits publication
    ("cleared") and what it covers: anonymised only, or named with separate
    written permission; embargo date; assets excluded. If not cleared, stop:
    keep the material in the vault and record "parked: not cleared". If the
@@ -59,8 +59,8 @@ project decisions, routes and QA records; the client's feedback; project files.
    "before" only if the client agrees. Remove anything identifying from
    anonymised cases (logos, names, addresses, people, distinctive products).
 5. **Review.** Craft leads check accuracy; a second reader checks for
-   identifying combinations; the anonymity guard (the Delivery engine's
-   `3w check`) passes; the founder approves. If the case names the client,
+   identifying combinations; the anonymity guard (the [Delivery engine](../../methods/lifecycle.md)'s
+   [`3w check`](../../bin/3w)) passes; the founder approves. If the case names the client,
    send the client the final draft for factual review.
 6. **Publish** on the studio site or journal first; then Behance.
 7. **Distribute** through the [repurposing ladder](../content/production-workflow.md#repurposing-ladder-one-project-many-assets)

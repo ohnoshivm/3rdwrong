@@ -45,7 +45,7 @@ The enquiry or reply itself; the source; any referrer (recorded privately).
    them, and propose a short call or ask one or two clarifying questions. Do
    not send a price list or a capability deck as the first reply.
 3. **Assign a codename.** Two lowercase words joined by a hyphen, neutral and
-   unrelated to the business (the Delivery engine's codename rules apply).
+   unrelated to the business (the [Delivery engine](../../methods/lifecycle.md)'s codename rules apply).
    Record the real identity against it in the vault's `clients.yaml`.
 4. **Record in the vault pipeline** (`growth/pipeline.yaml`, format in
    [pipeline](pipeline.md)): codename, date, source (from the table below),

@@ -34,7 +34,7 @@ Operations — finance-legal brings cash.
 
 ## Inputs
 
-The project boards (Delivery engine), the pipeline (Growth engine), the vault
+The project boards ([Delivery engine](../methods/lifecycle.md)), the pipeline ([Growth engine](../growth/README.md)), the vault
 finance records, the [scorecard](scorecard.md), the [review queue](review-queue.md).
 
 ## Steps

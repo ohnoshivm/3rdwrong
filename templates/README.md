@@ -35,6 +35,16 @@ honest. Do not invent source material to complete a field.
 - [Motion system analysis](research/motion-system-analysis.md)
 - [Design principle](research/design-principle.md)
 
+## Bundles
+
+Use [template bundles](bundles/README.md) with `bin/3w new` for complete workspaces and operating records. Repository targets require contract clearance and anonymisation; `--private` moves a client record to the vault.
+
+| Target | Bundles |
+| --- | --- |
+| Repository (or vault with `--private`) | `project-identity`, `project-digital`, `proposal`, `sow`, `change-order`, `case-study` |
+| Repository studio content | `content-brief` |
+| Vault only | `invoice`, `finance-review`, `weekly-review`, `rates`, `estimate`, `discovery-notes`, `outreach-sequence`, `win-loss` |
+
 ## Create a document
 
 If the repository helper is available, run:

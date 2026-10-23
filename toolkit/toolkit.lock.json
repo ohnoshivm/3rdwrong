@@ -1351,6 +1351,13 @@
       "sha256": "a44d388187ff244b2be5926b456b705667e79fddd285c40e265fc42a6ab5e3be"
     },
     {
+      "bytes": 7160,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-taste-graph/SKILL.md",
+      "sha256": "34b3b3bc1e9419b90d8829f085cc21838d9207da3e901cb42c70dfee2ea5ed16"
+    },
+    {
       "bytes": 243,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
@@ -56929,9 +56936,9 @@
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "8d54712fb55082b72cc631681e87711e9e0eb9fd7d24e67ed06d41f649211638",
     "THIRD_PARTY_NOTICES.md": "8c3abfca9e24b17ed6851bb804e426c5cc27d28ff556cbd9dff5b7e49c15ac07",
-    "toolkit/coverage.json": "818faa701ada4e3862368df7de54f72e37a017f8b964373f300a2347c304c994",
+    "toolkit/coverage.json": "4602ffef8664e0fdb2bedc94af8bf0d96fe256d603300df3fc2484980690ea90",
     "toolkit/fetch.yaml": "04eaf42499bca02f9db6ee0a505214e14fba46c7b86ec857f5a25b786b409c1f",
-    "toolkit/install-plan.json": "f9a533bc1a581d7f1301a20a2666d0b626c6abde492762c18d92ccef7e288e13",
+    "toolkit/install-plan.json": "3b8c5f8389b93125b7a065a3f09c611be026dc0b6930d799a35cd6296e9b4df7",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
     "toolkit/secret-allowlist.json": "aebcb912c20c41908ee1ce94aa8b057168154e57c3c7a05d738385d8c25533d9"

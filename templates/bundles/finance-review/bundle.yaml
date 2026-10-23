@@ -1,13 +1,12 @@
 kind: finance-review
-description: >-
-  Private monthly finance review used in the monthly business review.
-  Renders into the vault only; money metrics follow business/scorecard.md.
+description: Private monthly finance review used in the monthly business review. Renders into the vault
+  only; money metrics follow business/scorecard.md.
 template: finance-review.md.tmpl
-target: "{vault}/finance/reviews/{month}.md"
+target: '{vault}/finance/reviews/{month}.md'
 variables:
-  month:
-    description: Month under review (YYYY-MM).
-    example: 2026-10
-  date:
-    description: Date of the review (YYYY-MM-DD).
-    example: "2026-11-03"
+- name: month
+  description: Month under review (YYYY-MM).
+  example: 2026-10
+- name: date
+  description: Date of the review (YYYY-MM-DD).
+  example: '2026-11-03'

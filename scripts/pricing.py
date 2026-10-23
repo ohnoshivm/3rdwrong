@@ -157,6 +157,8 @@ def price_estimate(rates: dict, estimate: dict) -> list[Option]:
             price = _number(spec["price"], f"estimate: option '{name}' price", low=0.01)
         else:
             price = round_up(max(rate_price, floor_price), step)
+        if price <= 0:
+            raise PricingError(f"estimate: option '{name}' needs a positive price; fill the vault rates and effort estimate first")
         first = include[0]
         first_stage_cash = option_expenses + sum(
             stages[first][r] * (1 + buffer) * roles[r]["cost_per_hour"]

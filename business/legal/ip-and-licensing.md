@@ -103,12 +103,12 @@ the [collaborator agreement](collaborator-agreement.md) first.
   under the repository's licences; client code is never published without
   written permission.
 
-### 6. Portfolio and anonymised publication (D-0021)
+### 6. Portfolio and anonymised publication ([D-0021](../../studio/decisions/0021-client-work-public-anonymised.md))
 
 - Default: client work enters this public repository only anonymised —
   codename, no client name, people, contacts, money, client files or
-  identifying combinations — after the D-0021 clearance check run by the
-  Delivery engine.
+  identifying combinations — after the [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md) clearance check run by the
+  [Delivery engine](../../methods/lifecycle.md).
 - Named portfolio use, award entries and case studies follow the MSA's
   clause 7 option chosen for the client, and only after public launch.
 - Never publish unreleased work, confidential information, or material
@@ -132,7 +132,7 @@ records in the vault.
 - [ ] No AI-generated material in marks or exclusive elements.
 - [ ] AI use disclosed in the handover.
 - [ ] No copyleft code without written client agreement.
-- [ ] Publication cleared under D-0021 and the client's portfolio option.
+- [ ] Publication cleared under [D-0021](../../studio/decisions/0021-client-work-public-anonymised.md) and the client's portfolio option.
 
 ## Metrics
 

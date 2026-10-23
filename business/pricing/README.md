@@ -44,7 +44,7 @@ In a founder-only week the founder holds every role; the steps still apply.
 - Discovery output: problem, outcomes, decision-maker, constraints, scope boundary.
 - The offer page: [Identity System](../../studio/identity-system-offer.md),
   [Brand Direction Sprint](../../studio/brand-direction-sprint.md), the
-  Digital Experience offer (v0.3 studio release) or a care plan.
+  [Digital Experience offer](../../studio/digital-experience-offer.md) or a care plan.
 - The published ranges in [pricing hypotheses](../../studio/pricing.md) as a
   public sanity check only; they are unvalidated.
 - Vault `rates.yaml` ([format](rates-and-estimates.md)) and a new estimate
@@ -71,7 +71,7 @@ In a founder-only week the founder holds every role; the steps still apply.
      example applications, motion, a prototype, a care plan).
    Each option gets a value price set by the founder within the value range.
 5. **Check margin and cash.** Run
-   `uv run python scripts/pricing.py "$THREEW_VAULT/<codename>/finance/estimate.yaml"`.
+   [`uv run python scripts/pricing.py "$THREEW_VAULT/<codename>/finance/estimate.yaml"`](../../scripts/pricing.py).
    For each option the calculator prints cost, the floor price that meets
    target margin, the rate-card price, gross margin, effective hourly rate,
    payment schedule, tax set-aside and a verdict:

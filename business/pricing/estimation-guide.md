@@ -71,7 +71,7 @@ availability and the vault history of estimated versus actual hours.
 | validate-deliver | designer, producer | guideline depth, asset formats, languages and scripts |
 | management | founder, producer | duration, meetings, reporting cadence |
 
-**Digital Experience** (Digital Experience offer, v0.3 studio release):
+**Digital Experience** ([Digital Experience offer](../../studio/digital-experience-offer.md)):
 
 | Stage | Typical roles | Effort drivers |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ prototype phase.
 ## Outputs
 
 The vault estimate file, confirmed by each craft lead and ready for
-`scripts/pricing.py`.
+[scripts/pricing.py](../../scripts/pricing.py).
 
 ## Quality gate
 

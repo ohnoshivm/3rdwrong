@@ -186,6 +186,8 @@ def render_bundle(
     elif cleared or private:
         raise CliError(f"'{bundle}' is not a client record; --cleared and --private do not apply")
     in_vault = pattern.startswith("{vault}/")
+    if codename is None:
+        codename = (values or {}).get("codename")
     if codename is None and ("codename" in fields or is_project):
         if not is_project:
             raise CliError(f"'{bundle}' needs --codename (the client's existing codename)")
@@ -204,8 +206,11 @@ def render_bundle(
     unsafe = sorted(f for f in fields - {"vault"} if re.search(r"[/\\]|\.\.", filled[f]))
     if unsafe:
         raise CliError(f"target variable(s) {', '.join(unsafe)} must not contain path separators or '..'")
-    if in_vault:
+    # Cleared project workspaces also create private sidecar directories.
+    # Validate their vault before writing any public or private output.
+    if in_vault or (is_project and vault.is_dir()):
         require_safe_vault(vault)
+    if in_vault:
         if not vault.is_dir():
             raise CliError(f"vault {vault} does not exist; run `bin/3w vault init` first")
     base = (vault if in_vault else root).resolve()

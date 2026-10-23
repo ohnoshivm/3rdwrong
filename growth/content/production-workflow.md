@@ -33,7 +33,7 @@ Every piece of studio content in the [content system](README.md).
 
 ## Inputs
 
-Ideas backlog; cleared project material; the Taste Graph; the
+Ideas backlog; cleared project material; the [Taste Graph](../../skills/3w-taste-graph/SKILL.md); the
 [content pillars](README.md#content-pillars).
 
 ## Steps
@@ -46,11 +46,12 @@ Ideas backlog; cleared project material; the Taste Graph; the
    `growth/content/briefs/<date>-<slug>.md`: pillar, channel, audience,
    takeaway, evidence and sources, clearance status, format, references,
    due date, owner.
-3. **Reference pack.** Pull a pack from the Taste Graph for the format
-   (`taste_graph.py pack "<brief>"`, from the Taste Graph engine) or use the
-   [taste references](../../taste/README.md). Record which references were
-   used and the principle taken from each. Extract principles; never copy
-   layouts, copy or distinctive sequences.
+3. **Reference pack.** Load [3w-taste-graph](../../skills/3w-taste-graph/SKILL.md)
+   and run `uv run scripts/taste_graph.py pack "<brief>"` for this format.
+   State which principles you will apply and which don'ts you will avoid.
+   Record the references used; extract principles rather than copying layouts,
+   assets, copy or distinctive sequences. If the pack is unavailable, stop and
+   report the gap; never fabricate a pack.
 4. **Produce.** Make the piece at the channel's native format. Write alt text
    and captions as you go.
 5. **Review.** Craft lead checks accuracy; voice reviewer checks clarity and
@@ -86,7 +87,7 @@ generalised and nothing identifies the client; the founder decides.
 ### Content calendar
 
 Keep a single calendar (a table in the monthly content log or the studio's
-planning tool, per business/tooling.md). Plan a month ahead and fix one week
+planning tool, per [business/tooling.md](../../business/tooling.md)). Plan a month ahead and fix one week
 ahead.
 
 | Column | Meaning |

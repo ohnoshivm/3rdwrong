@@ -69,7 +69,7 @@ costs. Repository: project status and lifecycle stage by codename.
 | Share of invoices paid on time | Invoices paid by due date ÷ invoices due | Invoices | Monthly | Operations — finance-legal |
 | Absorbed change hours | Hours of change work not billed, per project | Time records | At close-out | Production — producing-pm |
 | Checkpoints on time | Sign-offs reached by the SOW date ÷ sign-offs due | Project boards | Monthly | Production — producing-pm |
-| Review queue age | Days since the oldest proposed operating-critical document was reviewed | `scripts/review_queue.py` | Monthly | Operations — knowledge-systems |
+| Review queue age | Days since the oldest proposed operating-critical document was reviewed | [scripts/review_queue.py](../scripts/review_queue.py) | Monthly | Operations — knowledge-systems |
 
 Ratios computed from money (margin as a percentage, for example) are still
 money metrics: keep them in the vault unless the founder approves publishing

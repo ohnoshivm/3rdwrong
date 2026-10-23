@@ -1,14 +1,12 @@
 kind: rates
-description: >-
-  Private studio rates for scripts/pricing.py. Renders into the vault root.
-  Every number starts at zero; the founder fills them in the vault, never
-  in the repository. Format: business/pricing/rates-and-estimates.md.
+description: 'Private studio rates for scripts/pricing.py. Renders into the vault root. Every number starts
+  at zero; the founder fills them in the vault, never in the repository. Format: business/pricing/rates-and-estimates.md.'
 template: rates.yaml.tmpl
-target: "{vault}/rates.yaml"
+target: '{vault}/rates.yaml'
 variables:
-  currency_label:
-    description: Label printed with amounts (for example the ISO code of the invoicing currency).
-    example: XYZ
-  date:
-    description: Date these rates take effect (YYYY-MM-DD).
-    example: "2026-11-01"
+- name: currency_label
+  description: Label printed with amounts (for example the ISO code of the invoicing currency).
+  example: XYZ
+- name: date
+  description: Date these rates take effect (YYYY-MM-DD).
+  example: '2026-11-01'

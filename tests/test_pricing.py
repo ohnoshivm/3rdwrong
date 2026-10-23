@@ -94,6 +94,14 @@ class PriceEstimateTests(unittest.TestCase):
         schedule = pricing.schedule_for(good, copy(RATES), copy(ESTIMATE))
         self.assertEqual(schedule, [("Deposit", 350.0, 70.0), ("Final", 350.0, 70.0)])
 
+    def test_unfilled_rates_and_estimate_report_error_instead_of_dividing_by_zero(self) -> None:
+        rates, estimate = copy(RATES), copy(ESTIMATE)
+        for role in rates["roles"].values():
+            role.update(cost_per_hour=0, rate_per_hour=0)
+        estimate["expenses"] = []
+        with self.assertRaisesRegex(pricing.PricingError, "positive.*fill"):
+            pricing.price_estimate(rates, estimate)
+
     def test_rejects_bad_inputs(self) -> None:
         cases = [
             ({"payment_schedule": [{"milestone": "Deposit", "share": 0.4}]}, {}, "sum to 1"),

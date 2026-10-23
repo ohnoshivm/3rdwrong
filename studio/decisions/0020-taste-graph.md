@@ -50,7 +50,7 @@ Reversible implementation defaults:
 - No login, cookies, stored credentials, paywall or anti-bot circumvention.
 - Governance: agent captures enter as `inbox`; only the founder curates. Re-adding a reference never overwrites existing analysis.
 
-Studio rule unchanged: references are inspiration only. Extract principles; never copy layouts, assets, copy or brand identity. [D-0002](0002-identity-system-scope.md) and [D-0006](0006-rejected-own-identity-direction.md) still apply.
+Studio rule unchanged: references are inspiration only. Extract principles; never copy layouts, assets, copy or brand identity. [D-0018](0018-design-engineering-studio.md) governs offer scope (superseding D-0002), and [D-0006](0006-rejected-own-identity-direction.md) still governs the rejected own-identity direction.
 
 ## Revision triggers
 

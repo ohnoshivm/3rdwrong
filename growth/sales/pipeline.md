@@ -34,7 +34,7 @@ From the first L0 record until an opportunity is won, lost or parked.
 ## Inputs
 
 Lead, qualification and discovery records; proposal and contract status from
-the Business engine.
+the [Business engine](../../business/README.md).
 
 ## Steps
 
@@ -129,5 +129,5 @@ definitions in [growth metrics](../metrics.md).
 
 - [Sales system](README.md)
 - [Win/loss review](win-loss.md)
-- The Business engine's scorecard (business/scorecard.md) and operating
-  rhythm (business/operating-rhythm.md)
+- The [Business engine](../../business/README.md)'s scorecard ([business/scorecard.md](../../business/scorecard.md)) and operating
+  rhythm ([business/operating-rhythm.md](../../business/operating-rhythm.md))

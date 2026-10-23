@@ -12,7 +12,7 @@ review_every_days: 90
 The backbone every client engagement runs on, from first contact to case
 study: ten stages, each closed by a gate with a named decision. Offer methods
 run inside L6; commercial documents and invoicing belong to the Business
-engine; lead generation belongs to the Growth engine. This page owns the
+engine; lead generation belongs to the [Growth engine](../growth/README.md). This page owns the
 sequence, the gates and the client's view of them.
 
 ## Purpose
@@ -24,13 +24,13 @@ offer. A gate is a decision with evidence, not a date on a calendar.
 ## When it applies
 
 Every client engagement for either pillar: the Identity System (core offer)
-and Digital Experience (second pillar, approved in D-0018). Internal and
+and Digital Experience (second pillar, approved in [D-0018](../studio/decisions/0018-design-engineering-studio.md)). Internal and
 speculative projects use L5–L9 only. Fictional examples in
 `projects/examples/` may use any stage to exercise methods.
 
 ## Roles
 
-Departments follow D-0019 (Craft: Design, Engineering, Labs; Delivery:
+Departments follow [D-0019](../studio/decisions/0019-organisation-and-loading-policy.md) (Craft: Design, Engineering, Labs; Delivery:
 Strategy, Production, Media; Growth: Marketing, Advertising, Outbound, Sales;
 Studio: Operations). The founder holds strategic, creative and release
 approval on every project. The client names one decision-maker, recorded as
@@ -67,11 +67,11 @@ artefacts. A stage cannot start until the previous exit gate is logged as
 
 ### L0 Lead
 
-- **Owner:** Growth engine (Outbound, Marketing). **Entry:** any inbound or
+- **Owner:** [Growth engine](../growth/README.md) (Outbound, Marketing). **Entry:** any inbound or
   outbound contact.
-- **Exit gate:** contact recorded in the Growth engine's pipeline with source,
+- **Exit gate:** contact recorded in the [Growth engine](../growth/README.md)'s pipeline with source,
   need in one line and next action; no personal data in the public repository.
-- **Artefacts:** pipeline record (Growth engine).
+- **Artefacts:** pipeline record ([Growth engine](../growth/README.md)).
 - **Client's view:** a prompt, specific reply.
 
 ### L1 Qualify
@@ -79,10 +79,10 @@ artefacts. A stage cannot start until the previous exit gate is logged as
 - **Owner:** Sales. **Entry:** L0 record.
 - **Exit gate:**
   - [ ] Buyer, problem, authority, timing, content readiness, budget fit and
-        maintenance owner assessed (Growth engine qualification).
+        maintenance owner assessed ([Growth engine](../growth/README.md) qualification).
   - [ ] Fit with an offer pillar, or a clear decline with a reason.
   - [ ] Founder decision: pursue or decline.
-- **Artefacts:** qualification note (Growth engine).
+- **Artefacts:** qualification note ([Growth engine](../growth/README.md)).
 - **Client's view:** a short call; a clear yes, no or "not yet" with a reason.
 
 ### L2 Discover & scope
@@ -93,7 +93,7 @@ artefacts. A stage cannot start until the previous exit gate is logged as
   - [ ] Scope boundary: in, out, assumptions, client inputs and their dates.
   - [ ] Feasibility and capacity confirmed by Design and Engineering leads.
   - [ ] Client confirms the problem and scope summary in writing.
-- **Artefacts:** scoping notes and scope summary (Growth engine); confidential
+- **Artefacts:** scoping notes and scope summary ([Growth engine](../growth/README.md)); confidential
   notes in the vault.
 - **Client's view:** a working session; a one-page scope summary to confirm.
 
@@ -103,10 +103,10 @@ artefacts. A stage cannot start until the previous exit gate is logged as
 - **Exit gate:**
   - [ ] Proposal states scope, deliverables, method stages, review rounds per
         stage, timeline, exclusions, change control, acceptance criteria,
-        ownership and price (Business engine proposal).
+        ownership and price ([Business engine](../business/README.md) proposal).
   - [ ] Publication clause offered: anonymised publication permitted or not.
   - [ ] Founder approves before sending; client accepts.
-- **Artefacts:** proposal (Business engine; the sent copy lives in the vault).
+- **Artefacts:** proposal ([Business engine](../business/README.md); the sent copy lives in the vault).
 - **Client's view:** a proposal walkthrough; one round of questions.
 
 ### L4 Contract & deposit
@@ -114,12 +114,12 @@ artefacts. A stage cannot start until the previous exit gate is logged as
 - **Owner:** Sales with Operations (finance-legal).
 - **Exit gate:**
   - [ ] Contract signed by both parties, filed in `<vault>/<codename>/contracts/`.
-  - [ ] Deposit received (Business engine invoicing).
+  - [ ] Deposit received ([Business engine](../business/README.md) invoicing).
   - [ ] Codename assigned and the client recorded in the vault's `clients.yaml`.
   - [ ] Clearance recorded: **cleared** (anonymised publication permitted) or
         **private**.
 - **Artefacts:** contract and invoice (vault); workspace created with
-  `bin/3w new <bundle> --cleared` or `--private`.
+  [bin/3w new <bundle> --cleared](../bin/3w) or `--private`.
 - **Client's view:** a contract to sign, a deposit invoice and a kickoff date.
 
 ### L5 Onboard & kickoff
@@ -165,7 +165,7 @@ artefacts. A stage cannot start until the previous exit gate is logged as
   - [ ] Handover pack delivered and walked through
         ([handover and care](handover-and-care.md)).
   - [ ] Client confirms final acceptance and, separately, receipt and access.
-  - [ ] Final or milestone invoice issued (Business engine).
+  - [ ] Final or milestone invoice issued ([Business engine](../business/README.md)).
 - **Artefacts:** handover pack; handover record; acceptance in the decision log.
 - **Client's view:** a launch, a walkthrough, a handover pack they can use
   without the studio.
@@ -184,17 +184,17 @@ artefacts. A stage cannot start until the previous exit gate is logged as
 ### L9 Close-out & case study
 
 - **Owner:** Production (retro, learning loop, clearance); Marketing (case
-  study, Growth engine); Operations (final invoice, archive, Business engine).
+  study, [Growth engine](../growth/README.md)); Operations (final invoice, archive, [Business engine](../business/README.md)).
 - **Exit gate:**
   - [ ] Retrospective held within two weeks of acceptance; lessons routed
         through the [learning loop](learning-loop.md) with owners.
   - [ ] Publication clearance re-checked: anonymity guard passes, a human has
         reviewed for identifying combinations, and any case study naming the
         client has separate written permission.
-  - [ ] Final invoice paid and the vault archived (Business engine).
+  - [ ] Final invoice paid and the vault archived ([Business engine](../business/README.md)).
   - [ ] Project README marked closed; gate log complete.
 - **Artefacts:** `retro.md`; method or template change proposals; case study
-  (Growth engine) if permitted.
+  ([Growth engine](../growth/README.md)) if permitted.
 - **Client's view:** a short close-out call or note, a request for feedback and,
   if they wish, a case-study conversation.
 
@@ -223,7 +223,7 @@ past row; correct it with a new row.
 - [ ] No stage starts before the previous exit gate is logged.
 - [ ] Every gate names its approver role and evidence.
 - [ ] Client approvals are explicit; silence is never logged as approval.
-- [ ] Public records pass `bin/3w check` and a human anonymity review.
+- [ ] Public records pass [bin/3w check](../bin/3w) and a human anonymity review.
 
 ## Metrics
 
@@ -252,5 +252,4 @@ review. These are proposed measures with no baselines yet.
 - [Identity engagement method](identity-engagement/README.md) and
   [digital experience method](digital-experience/README.md)
 - [Publication rules](../docs/public-private-boundary.md)
-- Growth engine (L0–L2) and Business engine (L3–L4, invoicing): see their
-  folders once integrated.
+- [Growth engine](../growth/README.md) (L0–L2) and [Business engine](../business/README.md) (L3–L4, invoicing): see their linked guides.

@@ -46,7 +46,7 @@ The live work, the case study, client permission, the
    recognition there reach people the studio wants to reach? If either
    answer is no, skip.
 2. **Permission.** Client work needs the client's agreement to be entered and
-   credited; record it with the clearance (D-0021).
+   credited; record it with the clearance ([D-0021](../../studio/decisions/0021-client-work-public-anonymised.md)).
 3. **Cost decision.** Record the fee, the expected value (peer credibility,
    discovery, team morale) and the decision in the vault's `budgets.yaml`.
    The annual awards budget is a **founder decision**.

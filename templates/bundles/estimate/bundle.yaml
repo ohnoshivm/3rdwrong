@@ -1,17 +1,15 @@
 kind: estimate
-description: >-
-  Private effort estimate for one opportunity (L2–L3), priced by
-  scripts/pricing.py. Renders into the client's vault folder. Stage and role
-  structure: business/pricing/estimation-guide.md.
+description: 'Private effort estimate for one opportunity (L2–L3), priced by scripts/pricing.py. Renders
+  into the client''s vault folder. Stage and role structure: business/pricing/estimation-guide.md.'
 template: estimate.yaml.tmpl
-target: "{vault}/{codename}/finance/estimate.yaml"
+target: '{vault}/{codename}/finance/estimate.yaml'
 variables:
-  codename:
-    description: Project codename.
-    example: stillsoil-atelier
-  offer:
-    description: Offer being estimated.
-    example: identity-system
-  date:
-    description: Estimate date (YYYY-MM-DD).
-    example: "2026-10-23"
+- name: codename
+  description: Project codename.
+  example: stillsoil-atelier
+- name: offer
+  description: Offer being estimated.
+  example: identity-system
+- name: date
+  description: Estimate date (YYYY-MM-DD).
+  example: '2026-10-23'

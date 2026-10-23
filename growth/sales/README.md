@@ -24,11 +24,11 @@ every outcome.
   discounts for signing quickly. Real constraints (studio capacity, a launch
   date the client named) may be stated plainly.
 - **Names and money stay in the vault.** Public material uses codenames and
-  anonymised counts only (D-0021).
+  anonymised counts only ([D-0021](../../studio/decisions/0021-client-work-public-anonymised.md)).
 
 ## Flow
 
-| Stage | Document | Owner (D-0019) | Founder sign-off | Exit gate |
+| Stage | Document | Owner ([D-0019](../../studio/decisions/0019-organisation-and-loading-policy.md)) | Founder sign-off | Exit gate |
 | --- | --- | --- | --- | --- |
 | L0 Lead | [Lead sources](lead-sources.md) | Outbound, Marketing → Sales | — | Pipeline record with codename, source, one-line need, next action and date |
 | L1 Qualify | [Qualification](qualification.md) | Sales — discovery-qualification | Pursue, not yet or decline | Scorecard scored, disqualifiers checked, decision logged |
@@ -41,4 +41,4 @@ every outcome.
 - [Growth engine](../README.md)
 - [Growth metrics](../metrics.md)
 - [Initial ICP](../../studio/initial-icp.md)
-- The Business engine's proposals method (business/proposals.md) for L3–L4
+- The [Business engine](../../business/README.md)'s proposals method ([business/proposals.md](../../business/proposals.md)) for L3–L4

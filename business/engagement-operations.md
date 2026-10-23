@@ -13,7 +13,7 @@ The studio's standard for running a client project day to day, from kickoff
 (L5) to close-out (L9) in the [client lifecycle](../methods/lifecycle.md).
 Offer methods say what to make; this page says how the project is run around
 them. Commercial terms, proposals, change orders and invoices belong to the
-Business engine; this page hands off to them by name.
+[Business engine](README.md); this page hands off to them by name.
 
 ## Purpose
 
@@ -61,7 +61,7 @@ R = responsible, A = accountable, C = consulted, I = informed.
 ## Inputs
 
 - Signed contract and clearance (L4), recorded in the vault.
-- The project workspace from `bin/3w new` ([template bundles](../templates/bundles/README.md)).
+- The project workspace from [bin/3w new](../bin/3w) ([template bundles](../templates/bundles/README.md)).
 - The offer method: [identity engagement](../methods/identity-engagement/README.md)
   or [digital experience](../methods/digital-experience/README.md).
 
@@ -153,7 +153,7 @@ sees the work.
    changes and why.
 2. The producer and leads assess the effect on scope, timeline, quality and
    risk.
-3. The Business engine issues a change order covering scope, fee and schedule.
+3. The [Business engine](README.md) issues a change order covering scope, fee and schedule.
 4. No work on the change starts until the change order is signed; the original
    plan continues meanwhile.
 5. The plan, brief and gate log are updated; the change-order reference (not
@@ -228,7 +228,7 @@ accepted; risks that became issues.
   [handover and care](../methods/handover-and-care.md)
 - [Critique protocol](../methods/quality/critique-protocol.md)
 - [Publication rules](../docs/public-private-boundary.md)
-- Business engine: proposal, change order, contract and invoicing templates.
+- [Business engine](README.md): proposal, change order, contract and invoicing templates.
 - The [AIGA Standard Form of Agreement for Design Services](https://www.aiga.org/sites/default/files/2023-11/Standardformofagreement_2022update.pdf)
   is a professional reference for contract architecture; adapt any agreement
   with an Indian legal professional.

@@ -20,10 +20,21 @@ and the [publication rules](../../docs/public-private-boundary.md).
 | --- | --- | --- |
 | `project-identity` | `projects/{codename}/` | Identity System engagement, [identity engagement method](../../methods/identity-engagement/README.md) |
 | `project-digital` | `projects/{codename}/` | Digital Experience engagement, [digital experience method](../../methods/digital-experience/README.md) |
+| `proposal` | `projects/{codename}/proposal.md` | Public anonymised proposal; investment stays in vault |
+| `sow` | `projects/{codename}/sow.md` | Public anonymised scope; signed contract stays in vault |
+| `change-order` | `projects/{codename}/change-orders/{change_id}.md` | Public anonymised change record |
+| `invoice` | `{vault}/{codename}/finance/invoices/` | Private invoice record |
+| `finance-review` | `{vault}/finance/reviews/` | Private monthly review |
+| `weekly-review` | `{vault}/reviews/weekly/` | Private weekly operating review |
+| `rates` | `{vault}/rates.yaml` | Private pricing inputs |
+| `estimate` | `{vault}/{codename}/finance/estimate.yaml` | Private opportunity estimate |
+| `case-study` | `projects/{codename}/case-study.md` | Contract-cleared anonymised case study |
+| `content-brief` | `growth/content/briefs/{date}-{slug}.md` | Public studio content brief |
+| `discovery-notes` | `{vault}/{codename}/private-notes/discovery-{date}.md` | Private opportunity discovery |
+| `outreach-sequence` | `{vault}/growth/outreach/{codename}.md` | Private personalised outreach |
+| `win-loss` | `{vault}/growth/win-loss/{codename}-{date}.md` | Private opportunity review |
 
-The Business engine adds `proposal`, `sow` and `change-order` (repository
-targets) and `invoice`, `finance-review`, `weekly-review`, `rates` and
-`estimate` (vault targets) in the same format.
+All client repository targets also support `--private`.
 
 ## Format
 
@@ -94,7 +105,7 @@ Rules the CLI enforces:
 - A repository target that contains `{codename}`, and every `project` bundle,
   needs `--cleared` or `--private`; there is no default. Vault targets reject
   `--cleared`; other repository targets reject both flags.
-- Codenames are two lowercase words joined by a hyphen. A `project` bundle
+- Codenames are two lowercase words joined by a hyphen, supplied by `--codename` or `--set codename=two-words`. A `project` bundle
   generates one from a neutral built-in word list when it is omitted, checked
   against existing public and vault workspaces; other bundles require the
   client's existing codename.

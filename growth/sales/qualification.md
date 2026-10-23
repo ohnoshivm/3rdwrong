@@ -59,7 +59,7 @@ short written exchange if a call is not possible.
 ### ICP-fit scorecard
 
 Aligned to the [initial ICP](../../studio/initial-icp.md) (a hypothesis) and
-to D-0018's two pillars. Score each criterion 0–3, multiply by its weight and
+to [D-0018](../../studio/decisions/0018-design-engineering-studio.md)'s two pillars. Score each criterion 0–3, multiply by its weight and
 sum; the maximum is 300.
 
 | Criterion | Weight | 0 | 3 |

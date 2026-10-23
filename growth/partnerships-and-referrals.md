@@ -30,7 +30,7 @@ studio contributes before it asks.
 | Role | Department | Responsibility |
 | --- | --- | --- |
 | Referrals and partners | Outbound — partnerships-referrals | Asks, partner pipeline, community plan |
-| Partner delivery terms | Sales — proposals-pitches; Operations — finance-legal | Scope, credit, confidentiality and contract terms (Business engine) |
+| Partner delivery terms | Sales — proposals-pitches; Operations — finance-legal | Scope, credit, confidentiality and contract terms ([Business engine](../business/README.md)) |
 | **Founder** | Sign-off | Approves every partnership and its credit terms |
 
 ## Inputs
@@ -66,7 +66,7 @@ Steps:
 1. **Qualify the partner** like a client ([qualification](sales/qualification.md)):
    quality of their work, how they treat collaborators, payment reliability,
    fit with the studio's standards.
-2. **Agree terms in writing before work starts** (Business engine contracts):
+2. **Agree terms in writing before work starts** ([Business engine](../business/README.md) contracts):
    white-label or credited, portfolio rights, end-client contact rules.
 3. **Start with one bounded project**, then review the relationship.
 4. **Track** partner leads with source `partner-agency`.

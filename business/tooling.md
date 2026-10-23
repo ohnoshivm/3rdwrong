@@ -43,9 +43,9 @@ choice in the vault, not here.
 
 | Capability | Role in the engine | Requirement |
 | --- | --- | --- |
-| Private vault | Clients, contracts, rates, estimates, invoices, reviews (D-0021) | Outside this repository; encrypted at rest and backed up; created by the Delivery engine's `3w vault init` |
-| `scripts/pricing.py` | Prices vault estimates against vault rates | In this repository; prints only, never writes files |
-| `scripts/review_queue.py` | Ranked founder review queue | In this repository; reads frontmatter only |
+| Private vault | Clients, contracts, rates, estimates, invoices, reviews ([D-0021](../studio/decisions/0021-client-work-public-anonymised.md)) | Outside this repository; encrypted at rest and backed up; created by the [Delivery engine](../methods/lifecycle.md)'s [`3w vault init`](../bin/3w) |
+| [scripts/pricing.py](../scripts/pricing.py) | Prices vault estimates against vault rates | In this repository; prints only, never writes files |
+| [scripts/review_queue.py](../scripts/review_queue.py) | Ranked founder review queue | In this repository; reads frontmatter only |
 | Accounting and invoicing tool | Formal GST invoices, books, receivables | Supports the invoice must-haves in [Indian tax basics](finance/india-tax-basics.md); export for the chartered accountant |
 | Separate bank accounts | Operating, tax and reserve | See [finance](finance/README.md) |
 | Electronic signature | MSA, SOW, NDA, collaborator agreements | Audit trail; valid under the Information Technology Act, 2000 for the document type |
