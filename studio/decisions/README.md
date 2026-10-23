@@ -29,6 +29,7 @@ proposed and hypothesis entries are not approved policy.
 | [Studio name](0022-studio-name.md) | D-0022 | Studio name | approved | 2026-10-23 |
 | [Commercial and delivery defaults](0023-commercial-and-delivery-defaults.md) | D-0023 | Commercial and delivery defaults | approved | 2026-10-23 |
 | [Growth defaults](0024-growth-defaults.md) | D-0024 | Growth defaults | approved | 2026-10-23 |
+| [Creative Technology selection policy](0025-creative-technology-selection-policy.md) | D-0025 | Creative Technology selection policy | approved | 2026-10-23 |
 
 D-0018 supersedes D-0001 and D-0002; their original text is retained as history.
 Approved direction does not promote the related positioning, offer, ICP,

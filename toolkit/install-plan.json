@@ -5765,7 +5765,7 @@
       "load": "active",
       "name": "3w-agent-visual-designer",
       "package": "pack-founder-local-agents",
-      "role": "lead",
+      "role": "specialist",
       "source": "toolkit/vendor/pack-founder-local-agents/agents/visual-designer.md"
     },
     {
@@ -8413,6 +8413,34 @@
     },
     {
       "aliases": [
+        "skill:3w-awards-submission"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-awards-submission",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-awards-submission",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-awards-submission"
+    },
+    {
+      "aliases": [
+        "skill:3w-behavioural-lens"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-behavioural-lens",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-behavioural-lens",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-behavioural-lens"
+    },
+    {
+      "aliases": [
         "skill:3w-brand-consistency-qa"
       ],
       "department": "core",
@@ -8441,6 +8469,20 @@
     },
     {
       "aliases": [
+        "skill:3w-care-retention"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-care-retention",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-care-retention",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-care-retention"
+    },
+    {
+      "aliases": [
         "skill:3w-category-code-audit"
       ],
       "department": "core",
@@ -8452,6 +8494,34 @@
       "package": "pack-founder-3rdwrong-skills",
       "role": "lead",
       "source": "skills/3w-category-code-audit"
+    },
+    {
+      "aliases": [
+        "skill:3w-colour-system"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-colour-system",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-colour-system",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-colour-system"
+    },
+    {
+      "aliases": [
+        "skill:3w-composition-system"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-composition-system",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-composition-system",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-composition-system"
     },
     {
       "aliases": [
@@ -8469,6 +8539,48 @@
     },
     {
       "aliases": [
+        "skill:3w-demo-publishing"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-demo-publishing",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-demo-publishing",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-demo-publishing"
+    },
+    {
+      "aliases": [
+        "skill:3w-effect-study"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-effect-study",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-effect-study",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-effect-study"
+    },
+    {
+      "aliases": [
+        "skill:3w-engine-validation"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-engine-validation",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-engine-validation",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-engine-validation"
+    },
+    {
+      "aliases": [
         "skill:3w-identity-system-critic"
       ],
       "department": "core",
@@ -8480,6 +8592,132 @@
       "package": "pack-founder-3rdwrong-skills",
       "role": "lead",
       "source": "skills/3w-identity-system-critic"
+    },
+    {
+      "aliases": [
+        "skill:3w-image-production"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-image-production",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-image-production",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-image-production"
+    },
+    {
+      "aliases": [
+        "skill:3w-image-qa"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-image-qa",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-image-qa",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-image-qa"
+    },
+    {
+      "aliases": [
+        "skill:3w-labs-benchmark"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-labs-benchmark",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-labs-benchmark",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-labs-benchmark"
+    },
+    {
+      "aliases": [
+        "skill:3w-mark-exploration"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-mark-exploration",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-mark-exploration",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-mark-exploration"
+    },
+    {
+      "aliases": [
+        "skill:3w-narrative-analysis"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-narrative-analysis",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-narrative-analysis",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-narrative-analysis"
+    },
+    {
+      "aliases": [
+        "skill:3w-prospect-qualification"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-prospect-qualification",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-prospect-qualification",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-prospect-qualification"
+    },
+    {
+      "aliases": [
+        "skill:3w-reply-triage"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-reply-triage",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-reply-triage",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-reply-triage"
+    },
+    {
+      "aliases": [
+        "skill:3w-taste-graph"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-taste-graph",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-taste-graph",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-taste-graph"
+    },
+    {
+      "aliases": [
+        "skill:3w-typography-system"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-typography-system",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-typography-system",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-typography-system"
     },
     {
       "aliases": [
@@ -9856,6 +10094,21 @@
       "package": "pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0",
       "role": "bench",
       "source": "toolkit/vendor/pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0/skills/dark-social-attributor"
+    },
+    {
+      "aliases": [
+        "skill:dataviz"
+      ],
+      "department": "design",
+      "distribution": "manual",
+      "id": "skill:dataviz",
+      "kind": "skill",
+      "licence_audit_class": "Not recorded",
+      "load": "active",
+      "name": "3w-skill-dataviz",
+      "package": "account-claude-synced-skills",
+      "role": "specialist",
+      "source": "toolkit/sources/managed-tool-descriptions.md"
     },
     {
       "aliases": [
@@ -14394,17 +14647,6 @@
       "package": "plugin-local-desktop-app-uploads-x-skills-marketplace",
       "role": "bench",
       "source": "toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder"
-    },
-    {
-      "department": "core",
-      "distribution": "vendor",
-      "id": "core:3w-taste-graph",
-      "kind": "skill",
-      "load": "active",
-      "name": "3w-taste-graph",
-      "package": "pack-founder-3rdwrong-skills",
-      "role": "lead",
-      "source": "skills/3w-taste-graph"
     }
   ],
   "manual": [

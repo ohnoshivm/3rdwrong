@@ -13,7 +13,7 @@ Frame client positioning with sourced audience research, perception methods and 
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-39 tools; 14 lead, 13 specialist, 12 bench, 0 parked, 0 excluded; 27 active / 12 library.
+41 tools; 16 lead, 13 specialist, 12 bench, 0 parked, 0 excluded; 29 active / 12 library.
 
 ## Sub-departments → jobs → leads
 
@@ -44,8 +44,8 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | --- | --- |
 | `cultural-systems` | `agency:specialized-cultural-intelligence-strategist` |
 | `historical-context` | `agency:academic-historian` |
-| `behavioural-theory` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
-| `narrative-analysis` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `behavioural-theory` | `skill:3w-behavioural-lens` |
+| `narrative-analysis` | `skill:3w-narrative-analysis` |
 
 ## Specialists with activation triggers
 
@@ -75,8 +75,15 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `culture-behaviour/behavioural-theory` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
-- `culture-behaviour/narrative-analysis` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
+The previous lead gaps now have experimental studio methods:
+
+- `culture-behaviour/behavioural-theory` — [`skill:3w-behavioural-lens`](../../skills/3w-behavioural-lens/SKILL.md).
+- `research-perception/brand-discovery` — [`skill:3w-brand-discovery`](../../skills/3w-brand-discovery/SKILL.md).
+- `culture-behaviour/narrative-analysis` — [`skill:3w-narrative-analysis`](../../skills/3w-narrative-analysis/SKILL.md).
+
+Routing closes the ownership gap; it does not prove output quality, human
+approval, installed prerequisites or completed delivery. Independent evidence
+and the charter gates remain required.
 
 ## Counts by sub-department and role
 
@@ -84,7 +91,7 @@ Individual reasons and activation requirements are in the [canonical registry](.
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | positioning | 3 | 3 | 1 | 0 | 0 | 6 | 1 | 7 |
 | research-perception | 9 | 9 | 9 | 0 | 0 | 18 | 9 | 27 |
-| culture-behaviour | 2 | 1 | 2 | 0 | 0 | 3 | 2 | 5 |
+| culture-behaviour | 4 | 1 | 2 | 0 | 0 | 5 | 2 | 7 |
 
 ## Operating contract
 

@@ -8,11 +8,15 @@ It is not a client archive: client information, personal data, credentials, and 
 
 Read [`INDEX.md`](INDEX.md) first to locate current knowledge. Then read the closest route below and only its named files; do not load the repository wholesale.
 
+## Using the toolkit
+
+To choose a tool for a task, read [toolkit/cards/index.json](toolkit/cards/index.json), filter by department and job, then open **only the chosen card** and follow its “How to run it” section. Start with the lead; load a specialist only when its trigger applies. Bench and parked tools require an explicit request. Humans can browse [handbook/README.md](handbook/README.md); a pending card is not evidence of readiness.
+
 ## Source order
 
 When sources conflict, use this order and flag the conflict for a human:
 
-1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records, D-0022 sets the studio name 3RDWRONG, and D-0023/D-0024 set commercial, delivery and growth defaults; related proposals and hypotheses retain their statuses.
+1. `studio/decisions/` — the decision log wins over other pages; approved D-0018 supersedes D-0001/D-0002, and approved D-0019 governs organisation/loading, D-0020 governs Taste Graph reference packs, and D-0021 governs anonymised client records, D-0022 sets the studio name 3RDWRONG, and D-0023/D-0024 set commercial, delivery and growth defaults, and D-0025 adopts Creative Technology selection and stack records; related proposals and hypotheses retain their statuses.
 2. `studio/` — current studio strategy and operating facts.
 3. `methods/` — proposed and reviewed ways of working.
 4. `intelligence/` — source-based research and design references.
@@ -43,6 +47,9 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 
 | Task | Minimum files to read |
 | --- | --- |
+| Choose a technology stack or effect technique | `methods/creative-technology/selection-policy.md`, `methods/creative-technology/selection-matrix.md` |
+| Record a stack decision | `templates/bundles/project-digital/workspace/stack-decision.md.tmpl` |
+| Choose a tool for a job | `toolkit/cards/index.json`, `handbook/<department>.md` |
 | Qualify a lead or run discovery | `growth/sales/README.md`, `growth/sales/qualification.md`, `growth/sales/discovery-call.md` |
 | Plan content | `growth/content/README.md`, `growth/content/production-workflow.md`, `taste/README.md`, `skills/3w-taste-graph/SKILL.md` |
 | Outreach | `growth/outbound/README.md`, `growth/outbound/compliance.md`, `studio/initial-icp.md` |
@@ -51,7 +58,10 @@ Read the `INDEX.md` entry first, then open the minimum files listed for the task
 | Run a client project | `methods/lifecycle.md`, `business/engagement-operations.md`, `docs/public-private-boundary.md` |
 | Test quality before a client sees it | `evals/README.md`, `evals/pilot/` |
 | Deliver a website | `methods/digital-experience/README.md`, `methods/quality/web-standards.md` |
+| Check a website build against the studio budget | `docs/web-qa-harness.md`, `methods/digital-experience/qa-budget.yaml`, `methods/digital-experience/07-qa.md` |
 | Create a workspace or vault record | `templates/bundles/README.md`, `docs/public-private-boundary.md` |
+| Run a project stage | `methods/playbooks/README.md`, then the stage's playbook: `methods/playbooks/client-lifecycle.md` (L0–L9), `methods/playbooks/identity-system.md` or `methods/playbooks/digital-experience.md` (L6), plus the method file it links |
+| Hand work to another department | `methods/handoffs/README.md`, the matching contract in `methods/handoffs/`, `studio/departments/heads.md` |
 | Launch and hand over | `methods/quality/launch-readiness-checklist.md`, `methods/handover-and-care.md` |
 | Price an opportunity | `business/pricing/README.md`, `business/pricing/estimation-guide.md`, `business/pricing/rates-and-estimates.md`, `business/pricing/commercial-rules.md` |
 | Write a proposal or SOW | `business/proposals.md`, `templates/bundles/README.md`, `templates/bundles/proposal/bundle.yaml`, `templates/bundles/sow/bundle.yaml` |

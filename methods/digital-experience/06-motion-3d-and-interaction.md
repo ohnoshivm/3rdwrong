@@ -32,8 +32,10 @@ meaning, stays within budget and has a usable alternative.
 
 1. For each motion or interaction, write one line: what it helps the user
    understand or do. Remove any that have no answer.
-2. Implement with the motion tokens; one animation system for scroll-driven
-   choreography and one smooth-scroll engine at most.
+2. Follow the [selection policy](../creative-technology/selection-policy.md)
+   and stack record: native scroll first, one scroll engine at most, separate
+   GSAP/Motion property ownership. Use motion tokens; record the reason for
+   Lenis, physics, post-processing, WebGPU or any other specialist addition.
 3. Animate compositor-friendly properties (transform, opacity); avoid layout
    thrash and long tasks on input.
 4. Build scenes within the draw-call, texture-memory and frame-time budgets;

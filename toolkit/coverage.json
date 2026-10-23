@@ -17,14 +17,14 @@
     ]
   },
   "items_by_load": {
-    "active": 569,
+    "active": 586,
     "library": 318
   },
   "items_by_role": {
     "bench": 210,
-    "lead": 130,
+    "lead": 145,
     "parked": 105,
-    "specialist": 442
+    "specialist": 444
   },
   "unmapped_registry_ids": []
 }

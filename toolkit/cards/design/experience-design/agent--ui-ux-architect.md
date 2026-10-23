@@ -1,0 +1,77 @@
+---
+title: UI/UX Architect
+type: tool-card
+status: proposed
+owner: founder
+last_reviewed: 2026-10-23
+tool_id: agent:ui-ux-architect
+department: design
+sub_department: experience-design
+job: interaction-architecture
+role: specialist
+trigger: "When structuring studio-owned interfaces, flows, states and responsive rules."
+kind: agent
+availability: claude
+distribution: vendor
+source: toolkit/vendor/pack-founder-local-agents/agents/ui-ux-architect.md
+invoke: "Claude Code Agent tool: UI/UX Architect"
+pairs_with: [skill:designing-user-experience, skill:ceos-interaction-architecture, frontend-design:frontend-design]
+---
+# UI/UX Architect
+
+The experience-design specialist for `interaction-architecture` is UI/UX Architect (trigger: “When structuring studio-owned interfaces, flows, states and responsive rules”), which defines the information architecture, flows, states and responsive rules that studio-owned interfaces need before implementation.
+
+## What it does
+
+- Maps navigation and user flows.
+- inventories components and states.
+- acts as an early visual inspection gate for unreadable screens and dead ends.
+
+## When to use
+
+- Use when structuring studio-owned interfaces, flows, states and responsive rules. Use Phase 04 Architecture / Phase 05 Prototype before implementation begins.
+- When structuring studio-owned interfaces, flows, states and responsive rules.
+
+## When not to use
+
+- Use `skill:designing-user-experience` as the method lead, and `frontend-design:frontend-design` for distinctive visual direction.
+- Do not use it to approve its own work; have an independent reviewer check the artefact.
+
+## Inputs it needs
+
+- Approved concept and content inventory, conversion goal, art direction draft, constraints and existing UI.
+- Versioned approved brief/strategy and source links; mark draft material as formative.
+
+## How to run it
+
+1. Confirm the trigger, stage and source material; keep client data in the approved private store.
+2. Run it using the invocation above and provide the required inputs.
+3. Check the output against the quality checks; hand unresolved decisions to the named human owner.
+
+```text
+Use Claude Code Agent tool: UI/UX Architect. Studio phase: {phase}. Project: {project}. Approved goal/strategy: {goal and source}. Scope: {screen, flow or interaction}. Inputs/evidence: {links and versions}. Constraints: {platform, accessibility, motion, privacy}. Produce a journey, interaction inventory, states and responsive rules that can be inspected and handed to engineering. Keep documented facts separate from interpretation and hypothesis; list unknowns and the next human decision.
+```
+
+## What good output looks like
+
+- A versioned UX contract covering routes, journeys, states, responsive behaviour and evidence gaps.
+- Evidence claims are labelled Documented, Interpretation, Hypothesis or Unknown as applicable.
+- The output names open questions, owner and next action.
+
+## Quality checks
+
+- [ ] An independent checker verifies the output against the approved scope and artefact version.
+- [ ] No unsupported user, audience, accessibility, performance or business outcome is presented as fact.
+- [ ] Responsive, keyboard/focus and reduced-motion needs are included where relevant.
+
+## Pairs with
+
+- Related tools: `skill:designing-user-experience`, `skill:ceos-interaction-architecture`, `frontend-design:frontend-design`. Use the relevant method or specialist to complete the handoff.
+- Engineering owns implementation, general testing, performance and security; Design owns experience intent and craft.
+
+## Limits and cautions
+
+- Does not own development, motion or 3D. Follow studio evidence labels; human maker/checker and founder approval remain required.
+- Respect the tool distribution: vendor copies are repo snapshots; fetch/manual sources need their stated install or sign-in.
+- Client data, personal data and credentials stay out of the public repository.
+- Motion is purposeful and honours reduced motion; avoid the rejected own-identity vocabulary in D-0006.

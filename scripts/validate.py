@@ -9,6 +9,7 @@ from typing import Callable
 try:
     from .oscheck.agents import check_agents
     from .oscheck.anonymity import check_anonymity
+    from .oscheck.cards import check_cards, check_handbook
     from .oscheck.common import Issue
     from .oscheck.decisions import check_decisions
     from .oscheck.evals import check_evals
@@ -23,6 +24,7 @@ try:
 except ImportError:
     from oscheck.agents import check_agents
     from oscheck.anonymity import check_anonymity
+    from oscheck.cards import check_cards, check_handbook
     from oscheck.common import Issue
     from oscheck.decisions import check_decisions
     from oscheck.evals import check_evals
@@ -48,6 +50,8 @@ CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
     "anonymity": check_anonymity,
     "index": check_index,
     "toolkit": check_toolkit,
+    "cards": check_cards,
+    "handbook": check_handbook,
 }
 ALL_CHECKS = (*CHECKS, "stale")
 
@@ -66,6 +70,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Validate 3RDWRONG OS documents and repository policy.")
     parser.add_argument("--check", choices=ALL_CHECKS, action="append", help="run only this check; repeat to run several")
     parser.add_argument("--stale", action="store_true", help="include the warning-only review-cadence report")
+    parser.add_argument("--strict-cards", action="store_true", help="require every lead/specialist tool to have a card")
     args = parser.parse_args(argv)
     root = ROOT
     schema_path = root / "schemas" / "metadata.json"
@@ -76,6 +81,8 @@ def main(argv: list[str] | None = None) -> int:
         print(issue.render())
         print("Validation complete: 1 error, 0 warnings.")
         return 1
+    if args.strict_cards:
+        config.setdefault("cards", {})["strict"] = True
     selected = list(args.check or CHECKS)
     if args.stale and "stale" not in selected:
         selected.append("stale")

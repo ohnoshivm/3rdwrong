@@ -53,7 +53,7 @@ class BundleTests(ThreewTestCase):
         files = sorted(p.relative_to(target).as_posix() for p in target.rglob("*") if p.is_file())
         self.assertEqual(files, [
             "README.md", "brief.md", "decisions.md", "feedback.md", "handover.md",
-            "qa/README.md", "retro.md", "risks.md", "status/README.md",
+            "qa/README.md", "retro.md", "risks.md", "stack-decision.md", "status/README.md",
         ])
         readme = (target / "README.md").read_text(encoding="utf-8")
         data = parse_frontmatter(readme).data

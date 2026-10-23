@@ -1,0 +1,15 @@
+# Proposed machine-readable application of approved D-0023, not a launch approval.
+status: proposed
+source: studio/decisions/0023-commercial-and-delivery-defaults.md
+limits:
+  lcp_ms: 2000
+  inp_ms: 200
+  cls: 0.1
+  transfer_before_input_bytes: 2000000  # Decimal MB; entire requests begun by load.
+  fps: 60
+  # Hypothesis: pre-launch proxy gate, not an INP equivalence.
+  tbt_ms: 200
+  # Proposed automated defect gates supporting web-qa-checklist.md.
+  accessibility_failures: 0
+  console_errors: 0
+  active_reduced_animations: 0

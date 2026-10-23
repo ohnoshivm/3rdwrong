@@ -28,12 +28,15 @@ on the architecture proven at the prototype, within budget.
 ## Inputs
 
 - DX-04 accepted prototype, budgets and fallbacks.
+- Completed `stack-decision.md` with final stack, alternatives, versions and
+  prototype/device evidence required by [D-0025](../../studio/decisions/0025-creative-technology-selection-policy.md).
 - Templates, tokens, component states and content per the delivery plan.
 
 ## Steps
 
-1. Record the architecture decision (framework, rendering mode, CMS, hosting)
-   in `decisions.md`; prefer the smallest stack that meets the brief.
+1. Implement the architecture proved in `stack-decision.md` (framework,
+   rendering mode, CMS, hosting), linked from `decisions.md`. Reopen the record
+   and relevant gate if changed scope or dependencies invalidate the evidence.
 2. Implement tokens, then components with all states, then templates, then
    pages.
 3. Integrate the CMS with structured content models and editor previews.

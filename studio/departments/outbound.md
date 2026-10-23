@@ -13,7 +13,7 @@ Find suitable prospects and open conversations through research, sequences and p
 
 Status: proposed registry routing. Source review does not establish live tool performance, licence clearance, runtime connectivity or founder approval.
 
-20 tools; 7 lead, 6 specialist, 7 bench, 0 parked, 0 excluded; 13 active / 7 library.
+22 tools; 9 lead, 6 specialist, 7 bench, 0 parked, 0 excluded; 15 active / 7 library.
 
 ## Sub-departments → jobs → leads
 
@@ -23,7 +23,7 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | --- | --- |
 | `prospect-discovery` | `skill:prospecting` |
 | `account-research` | `sales:sales-company-research` |
-| `prospect-qualification` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `prospect-qualification` | `skill:3w-prospect-qualification` |
 
 ### outreach-sequences
 
@@ -31,7 +31,7 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | --- | --- |
 | `sequence-design` | `agency:sales-outbound-strategist` |
 | `outreach-copy` | `agency:sales-outreach` |
-| `reply-triage` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `reply-triage` | `skill:3w-reply-triage` |
 
 ### partnerships-referrals
 
@@ -62,15 +62,21 @@ Individual reasons and activation requirements are in the [canonical registry](.
 
 ## Gaps
 
-- `prospecting-research/prospect-qualification` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
-- `outreach-sequences/reply-triage` — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method.
+The previous lead gaps now have experimental studio methods:
+
+- `prospecting-research/prospect-qualification` — [`skill:3w-prospect-qualification`](../../skills/3w-prospect-qualification/SKILL.md).
+- `outreach-sequences/reply-triage` — [`skill:3w-reply-triage`](../../skills/3w-reply-triage/SKILL.md).
+
+Routing closes the ownership gap; it does not prove output quality, human
+approval, installed prerequisites or completed delivery. Independent evidence
+and the charter gates remain required.
 
 ## Counts by sub-department and role
 
 | Sub-department | Lead | Specialist | Bench | Parked | Excluded | Active | Library | Total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| prospecting-research | 2 | 2 | 1 | 0 | 0 | 4 | 1 | 5 |
-| outreach-sequences | 2 | 2 | 0 | 0 | 0 | 4 | 0 | 4 |
+| prospecting-research | 3 | 2 | 1 | 0 | 0 | 5 | 1 | 6 |
+| outreach-sequences | 3 | 2 | 0 | 0 | 0 | 5 | 0 | 5 |
 | partnerships-referrals | 3 | 2 | 6 | 0 | 0 | 5 | 6 | 11 |
 
 ## Operating contract

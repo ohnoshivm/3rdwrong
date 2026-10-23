@@ -11,6 +11,7 @@ This repository is the studio's version-controlled second brain: a public operat
 | Area | Purpose |
 | --- | --- |
 | [`INDEX.md`](INDEX.md) | Generated retrieval index for frontmatter documents, grouped by area. |
+| [`handbook/`](handbook/README.md) | Generated tool handbook for humans and routing index for agents. |
 | [`inbox/`](inbox/README.md) | Rough public-safe notes and links awaiting weekly triage. |
 | [`studio/`](studio/README.md) | Positioning, offer, philosophy, roadmap, and decision records. |
 | [`methods/`](methods/README.md) | Proposed ways of working, quality checks, and learning loop. |

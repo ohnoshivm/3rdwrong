@@ -9,24 +9,24 @@ review_every_days: 90
 
 # Department registry summary
 
-1,364 canonical tools; 1,514 discovery aliases; 11 departments in 4 groups. Every tool has one primary home. This summary records the recut research stage; installation and distribution are documented separately in the [toolkit](../../toolkit/coverage.json).
+1,381 canonical tools; 1,531 discovery aliases; 11 departments in 4 groups. Every tool has one primary home. Current counts and leads include the v0.6 registry patches; the historical recut research is retained below; installation and distribution are documented separately in the [toolkit](../../toolkit/coverage.json).
 
 ## Department × role × load
 
 | Group | Department | Lead | Specialist | Bench | Parked | Excluded | Active | Library | Total |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| CRAFT | design | 23 | 151 | 71 | 1 | 0 | 174 | 72 | 246 |
+| CRAFT | design | 26 | 153 | 71 | 1 | 0 | 179 | 72 | 251 |
 | CRAFT | engineering | 30 | 170 | 39 | 99 | 0 | 200 | 138 | 338 |
-| CRAFT | labs | 5 | 0 | 7 | 49 | 0 | 5 | 56 | 61 |
-| DELIVERY | strategy | 14 | 13 | 12 | 0 | 0 | 27 | 12 | 39 |
-| DELIVERY | production | 8 | 11 | 11 | 3 | 0 | 19 | 14 | 33 |
-| DELIVERY | media | 12 | 33 | 6 | 15 | 0 | 45 | 21 | 66 |
-| GROWTH | marketing | 23 | 75 | 115 | 4 | 0 | 98 | 119 | 217 |
+| CRAFT | labs | 9 | 0 | 7 | 49 | 0 | 9 | 56 | 65 |
+| DELIVERY | strategy | 16 | 13 | 12 | 0 | 0 | 29 | 12 | 41 |
+| DELIVERY | production | 9 | 11 | 11 | 3 | 0 | 20 | 14 | 34 |
+| DELIVERY | media | 14 | 33 | 6 | 15 | 0 | 47 | 21 | 68 |
+| GROWTH | marketing | 24 | 75 | 115 | 4 | 0 | 99 | 119 | 218 |
 | GROWTH | advertising | 12 | 19 | 32 | 0 | 0 | 31 | 32 | 63 |
-| GROWTH | outbound | 7 | 6 | 7 | 0 | 0 | 13 | 7 | 20 |
+| GROWTH | outbound | 9 | 6 | 7 | 0 | 0 | 15 | 7 | 22 |
 | GROWTH | sales | 12 | 7 | 21 | 0 | 0 | 19 | 21 | 40 |
 | STUDIO | operations | 17 | 160 | 48 | 16 | 0 | 177 | 64 | 241 |
-| **Total** | | 163 | 645 | 369 | 187 | 0 | 808 | 556 | 1364 |
+| **Total** | | 178 | 647 | 369 | 187 | 0 | 825 | 556 | 1381 |
 
 ## All jobs and leads
 
@@ -46,10 +46,10 @@ review_every_days: 90
 
 | Job | Lead(s) |
 | --- | --- |
-| `typography` | `agent:visual-designer` |
-| `colour` | **gap** — Colour-system and contrast support exists, but no reviewed tool owns perception-aware colour decisions plus real material/print proofing; human colour/craft owner needed. |
-| `mark-logo` | **gap** — No source-reviewed method owns distinctive mark exploration, optical correction, small-size testing and production-ready vector approval; human identity specialist needed. |
-| `composition-layout` | **gap** — UI layout presets and critique rubrics exist, but no reviewed tool owns brand-wide composition across digital, print and environmental formats; a human identity composition owner is missing. |
+| `typography` | `skill:3w-typography-system` |
+| `colour` | `skill:3w-colour-system` |
+| `mark-logo` | `skill:3w-mark-exploration` |
+| `composition-layout` | `skill:3w-composition-system` |
 | `image-generation-direction` | `anthropic-skills:gpt-image-2-director` |
 | `design-system-guidelines` | `design-skills:design-systems` |
 | `handover-specs` | `design:design-handoff` |
@@ -132,9 +132,9 @@ review_every_days: 90
 
 | Job | Lead(s) |
 | --- | --- |
-| `effect-studies` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `effect-studies` | `skill:3w-effect-study` |
 | `playable-prototypes` | `skill:master-of-games` |
-| `research-benchmarks` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `research-benchmarks` | `skill:3w-labs-benchmark` |
 
 ### house-engine
 
@@ -142,13 +142,13 @@ review_every_days: 90
 | --- | --- |
 | `reusable-kits` | `skill:web-technique-to-skill` |
 | `asset-pipelines` | `skill:build-vesperfall-review-assets` |
-| `engine-validation` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `engine-validation` | `skill:3w-engine-validation` |
 
 ### open-source-showcase
 
 | Job | Lead(s) |
 | --- | --- |
-| `demo-publishing` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `demo-publishing` | `skill:3w-demo-publishing` |
 | `contributor-community` | `agency:specialized-developer-advocate` |
 | `project-packaging` | `skill:publish-project-to-github` |
 
@@ -181,8 +181,8 @@ review_every_days: 90
 | --- | --- |
 | `cultural-systems` | `agency:specialized-cultural-intelligence-strategist` |
 | `historical-context` | `agency:academic-historian` |
-| `behavioural-theory` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
-| `narrative-analysis` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `behavioural-theory` | `skill:3w-behavioural-lens` |
+| `narrative-analysis` | `skill:3w-narrative-analysis` |
 
 ## production
 
@@ -208,7 +208,7 @@ review_every_days: 90
 | --- | --- |
 | `client-success` | `agency:customer-success-manager` |
 | `delivery-handover` | `skill:writing-release-notes` |
-| `retention-programmes` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `retention-programmes` | `skill:3w-care-retention` |
 
 ## media
 
@@ -230,8 +230,8 @@ review_every_days: 90
 | Job | Lead(s) |
 | --- | --- |
 | `brand-image-assets` | `skill:imagegen` |
-| `image-production-workflow` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
-| `image-quality-check` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `image-production-workflow` | `skill:3w-image-production` |
+| `image-quality-check` | `skill:3w-image-qa` |
 
 ### sound-voice
 
@@ -270,7 +270,7 @@ review_every_days: 90
 | Job | Lead(s) |
 | --- | --- |
 | `earned-media` | `skill:press-media-relations` |
-| `awards-submissions` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `awards-submissions` | `skill:3w-awards-submission` |
 | `launch-planning` | `skill:launch-window-planner` |
 | `launch-assets` | `skill:launch-asset-packager` |
 | `launch-gate` | `skill:launch-readiness-auditor` |
@@ -324,7 +324,7 @@ review_every_days: 90
 | --- | --- |
 | `prospect-discovery` | `skill:prospecting` |
 | `account-research` | `sales:sales-company-research` |
-| `prospect-qualification` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `prospect-qualification` | `skill:3w-prospect-qualification` |
 
 ### outreach-sequences
 
@@ -332,7 +332,7 @@ review_every_days: 90
 | --- | --- |
 | `sequence-design` | `agency:sales-outbound-strategist` |
 | `outreach-copy` | `agency:sales-outreach` |
-| `reply-triage` | **gap** — No reviewed tool justifies default ownership of this complete job; existing narrow references/specialists do not establish a lead method. |
+| `reply-triage` | `skill:3w-reply-triage` |
 
 ### partnerships-referrals
 
@@ -417,10 +417,18 @@ review_every_days: 90
 
 ## Design/Engineering lead gaps
 
-- `design/identity-craft/colour` — Colour-system and contrast support exists, but no reviewed tool owns perception-aware colour decisions plus real material/print proofing; human colour/craft owner needed.
-- `design/identity-craft/mark-logo` — No source-reviewed method owns distinctive mark exploration, optical correction, small-size testing and production-ready vector approval; human identity specialist needed.
-- `design/identity-craft/composition-layout` — UI layout presets and critique rubrics exist, but no reviewed tool owns brand-wide composition across digital, print and environmental formats; a human identity composition owner is missing.
-- engineering: none.
+The three identity-craft lead gaps are closed by experimental studio methods;
+human craft approval and real production evidence remain required. Engineering
+has no unowned taxonomy job. These delivery subjobs remain gaps/limits rather
+than invented tools or additions to the approved taxonomy:
+
+- Cross-media identity export/archive coordination: the founder supplies the
+  export checklist and manifest; a mechanical executor packages it and an
+  independent Design checker opens every file.
+- Physical print/material proofing: a vendor and human craft reviewer inspect
+  actual substrate proofs; screen simulations cannot supply that evidence.
+- Fluent native-language verification: a fluent human checks actual shaping
+  and language; an agent cannot supply linguistic certification.
 
 ## Changes vs v1
 
@@ -681,6 +689,6 @@ The missing organiser record `agency:project-management-studio-producer` was rec
 
 ## Validation and limits
 
-The recut research used `departments/validate_v2.py` and `validation.json` in its external working directory for coverage, alias uniqueness, taxonomy/jobs, role/load, lead caps/gaps, path checks, read receipts and slice equality. Those research utilities are not shipped here. The integrated canonical data is [toolkit/sources/registry.json](../../toolkit/sources/registry.json); run `uv run python scripts/toolkit_build.py --check` and `uv run python scripts/validate.py` in this repository. Counts below describe the source recut, not later additions to repo-native skills.
+The recut research used `departments/validate_v2.py` and `validation.json` in its external working directory for coverage, alias uniqueness, taxonomy/jobs, role/load, lead caps/gaps, path checks, read receipts and slice equality. Those research utilities are not shipped here. The integrated canonical data is [toolkit/sources/registry.json](../../toolkit/sources/registry.json); run `uv run python scripts/toolkit_build.py --check` and `uv run python scripts/validate.py` in this repository. Historical migration tables describe the source recut; current counts and job leads above include repo-native additions.
 
 This is a registry/data migration. No app code, browser checks, dependency builds, external communications, tool execution benchmarks, MCP authentication or licence audit were performed. The source recut left `licence_class` blank for a separate audit; distribution decisions and notices now live in [coverage](../../toolkit/coverage.json), [LICENSING](../../LICENSING.md) and [third-party notices](../../THIRD_PARTY_NOTICES.md).

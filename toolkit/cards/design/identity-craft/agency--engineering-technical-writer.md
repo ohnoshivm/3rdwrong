@@ -1,0 +1,80 @@
+---
+title: Technical Writer
+type: tool-card
+status: proposed
+owner: founder
+last_reviewed: 2026-10-23
+tool_id: agency:engineering-technical-writer
+department: design
+sub_department: identity-craft
+job: handover-specs
+role: specialist
+trigger: "When the approved scope specifically requires handover specs expertise."
+kind: upstream-agent
+availability: repo
+distribution: vendor
+source: .claude/agents/engineering-technical-writer.md
+invoke: "Agent tool: Technical Writer"
+pairs_with: [design:design-handoff, design-steward:brief, figma:figma-spec]
+---
+# Technical Writer
+
+The Technical Writer is a specialist for handover specifications in 3RDWRONG’s identity-craft work.
+
+## What it does
+
+- Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.
+- **Role**: Developer documentation architect and content engineer.
+- **Personality**: Clarity-obsessed, empathy-driven, accuracy-first, reader-centric.
+- **Memory**: You remember what confused developers in the past, which docs reduced support tickets, and which README formats drove the highest adoption.
+
+## When to use
+
+- When the approved scope specifically requires handover specs expertise.
+- In practice: use it at Phase 06 Handoff when that specific operation is in the approved scope.
+
+## When not to use
+
+- When the approved direction, source artefact or required inputs are missing; ask for them before proceeding.
+- For a request outside this scope, start with the job lead `design:design-handoff` and use another specialist only when its trigger applies.
+
+## Inputs it needs
+
+- Approved direction or source material appropriate to this task.
+- The exact artefact, context, constraints and requested decision.
+
+## How to run it
+
+1. Collect the approved design artefact, implementation constraints and known decisions.
+2. Create the scoped handoff with explicit acceptance criteria and evidence locations.
+3. Return open decisions and route implementation questions to the named owner.
+
+```text
+Call the Agent tool `Technical Writer`. Approved direction: {{link and status}}. Job: handover-specs. Bounded scope: {{task}}. Source artefact: {{link or files}}. Context, audience and constraints: {{details}}. Return the documented deliverable, identify evidence and unknowns, and state checks not performed.
+```
+
+## What good output looks like
+
+- It addresses the bounded request and names its source artefacts.
+- Documented facts, interpretation, hypotheses and unknowns are separated.
+- A next owner can act on the deliverable without mistaking it for approval.
+
+## Quality checks
+
+- [ ] An independent reviewer checks the result against the supplied brief and actual artefact.
+- [ ] Source-backed claims are distinguishable from Interpretation, Hypothesis and Unknown.
+- [ ] The handoff names open issues and next owner; no tool output is treated as approval.
+
+## Pairs with
+
+- `design:design-handoff` — share the approved direction and relevant artefact; return findings for this tool’s next step.
+- `design-steward:brief` — share the approved direction and relevant artefact; return findings for this tool’s next step.
+- `figma:figma-spec` — share the approved direction and relevant artefact; return findings for this tool’s next step.
+
+## Limits and cautions
+
+- The source describes instructions, not proven runtime quality or live connectivity; confirm setup before claiming an operation ran.
+- Maker ≠ checker. Human identity, cultural, optical, material and production judgement remains with the designer; the founder decides.
+- Label evidence Documented, Interpretation, Hypothesis or Unknown. Do not claim audience response without observed research.
+- Follow D-0006, accessibility and reduced-motion requirements; use motion only when the concept needs it.
+- Keep client data out of the public repository (D-0021).

@@ -1,0 +1,120 @@
+---
+title: "{{title}} stack decision"
+type: project
+status: proposed
+owner: founder
+last_reviewed: {{date}}
+codename: {{codename}}
+---
+
+# {{title}} stack decision
+
+**Documented** — Required by [D-0025](../../studio/decisions/0025-creative-technology-selection-policy.md).
+Use the [selection policy](../../methods/creative-technology/selection-policy.md)
+and [matrix](../../methods/creative-technology/selection-matrix.md). Open at
+DX-02; prepare before prototype implementation; complete prototype/device
+results and final decision at DX-04 before production build. Record approvals
+in [decisions.md](decisions.md); silence is not approval.
+
+This is an anonymised record. No client names, people, domains, money, client
+files or identifying combinations. Use roles and codenames. Confidential URLs,
+raw reports, captures and client assets stay in the vault; reference vault
+filenames only. Follow [publication rules](../../docs/public-private-boundary.md).
+
+## Outcome and constraints
+
+- Visual concept and interaction outcome:
+- Content, audience tasks and testable success criteria:
+- Target devices, browsers, network and input modes:
+- Scope, maintenance owner and constraints:
+- Reference principles, provenance and never-copy list:
+- Evidence labels for assumptions: Documented / Interpretation / Hypothesis / Unknown:
+
+## Preferred approach and why
+
+- Preferred medium, framework, rendering mode, CMS/hosting boundary:
+- Why native HTML/CSS/SVG or a pre-rendered approach is sufficient/insufficient:
+- Required runtime interactions and fidelity:
+- Native scroll or recorded reason for an alternative; single scroll owner:
+- Animation/property/frame-loop ownership and teardown:
+
+## Alternatives and rejected choices
+
+| Approach | Fidelity and interaction | Cost / compatibility / maintenance trade-offs | Prototype needed | Decision and reason rejected or retained |
+| --- | --- | --- | --- | --- |
+| Preferred | | | | |
+| Alternative 1 | | | | |
+| Alternative 2 | | | | |
+
+## Dependencies and risks
+
+| Dependency / asset | Exact version / licence | Required or optional | Explicit reason and simpler substitute | Owner / compatibility / maintenance risk |
+| --- | --- | --- | --- | --- |
+| | | | | |
+
+Record React/R3F/Three.js/Drei/renderer/material/post-processing compatibility
+when relevant. Optional dependencies stay out until proven necessary.
+No automatic Lenis, physics, post-processing, WebGPU or full scaffold preset.
+State technology gaps, unavailable tools and unresolved risks as **Unknown**.
+
+## Mobile, performance and accessibility strategy
+
+D-0023 is binding: mobile p75 LCP ≤ 2.0 s, INP ≤ 200 ms, CLS ≤ 0.1,
+≤ 2 MB transferred before first interaction, 60 fps target on a mid-range
+phone and a complete reduced-motion path. Stricter project budgets are allowed;
+a looser budget needs a founder-approved exception in decisions.md.
+
+- HTML content, navigation, forms and text alternatives:
+- Keyboard/focus, touch, screen-reader, contrast and reflow:
+- Reduced motion, no-GPU, asset failure and missing input:
+- Progressive loading, image/video/texture/geometry budgets and cleanup:
+- Frame-time, draw-call, texture-memory and DPR limits when relevant:
+- Lab measurement plan; field p75 owner/date (Unknown before field evidence):
+- Exceptions, reason and founder decision reference, if any:
+
+## Testable prototype plan
+
+Prototype the riskiest interaction first; define pass/fail before building.
+
+- Risk / question and falsifiable hypothesis:
+- Smallest representative slice with real content and production assets:
+- Options compared, exact versions and fixtures:
+- Test device/network/browser matrix and run count:
+- Numerical budget and fidelity/accessibility acceptance criteria:
+- Stop/simplify condition, owner and review date:
+
+## Prototype result and device tests
+
+Do not fill results before running checks. Label observations and limitations.
+Run bin/3w qa run against the private preview where available; keep the URL and
+identifying raw output in the vault. Automated checks do not replace manual tests.
+
+| Check / device / browser / network / date | Result and run count | Evidence (anonymised or vault filename) | Pass / fail / not verified | Fix or limit |
+| --- | --- | --- | --- | --- |
+| Production build and interaction | | | | |
+| Desktop / tablet / mobile screenshots | | | | |
+| Mid-range mobile frame time and transfer | | | | |
+| Keyboard / focus / touch / screen reader | | | | |
+| Reduced motion / no GPU / missing assets | | | | |
+| Compatibility / teardown / long session | | | | |
+| Lab LCP / CLS / responsiveness | | | | |
+| Field p75 LCP / INP / CLS | Unknown until field data | | not verified | |
+
+## Art-direction and quality review
+
+Separate maker and checker. Review typography, composition, pacing, interaction
+feel, mobile behaviour, runtime performance, accessibility and originality.
+
+- Maker role and artefact version:
+- Independent checker role, critique evidence and verdict:
+- Defects, fixes and re-inspection:
+
+## Final decision before production build
+
+- Chosen approach and final dependency versions:
+- Prototype outcome and reason this is the simplest faithful approach:
+- Rejected alternatives and why:
+- Conditions, unresolved unknowns and owner:
+- DX-04 gate / founder decision reference in decisions.md:
+- Re-test trigger (scope, versions, assets, device mix or failed budgets):
+- Reusable learning and limits:
