@@ -35,8 +35,11 @@ real tokens. The prototype sets the budgets the rest of the project is held to.
 
 1. Choose the slice: the riskiest signature moment plus the template it lives
    in.
-2. Set up the agreed stack with one smooth-scroll engine, tokens wired in and
-   a production build from day one.
+2. Review the candidate `stack-decision.md` under
+   [D-0025](../../studio/decisions/0025-creative-technology-selection-policy.md).
+   Complete its before-implementation fields, then set up the smallest stack,
+   native scrolling first, one scroll engine at most, tokens wired in and a
+   production build from day one. Every specialist dependency needs a reason.
 3. Build the slice with real content and assets at production formats.
 4. Measure on the reference mid-range mobile and a desktop: LCP, CLS, input
    responsiveness, JavaScript and asset weight, draw calls, texture memory and
@@ -47,15 +50,22 @@ real tokens. The prototype sets the budgets the rest of the project is held to.
    starting from the defaults in [web standards](../quality/web-standards.md),
    and record any approved exception. Budgets may be stricter than the studio
    budget in [D-0023](../../studio/decisions/0023-commercial-and-delivery-defaults.md); a looser budget needs a founder-approved exception.
+8. Complete `stack-decision.md` with prototype results, rejected alternatives,
+   device tests, exact versions, independent craft review and final decision;
+   link its DX-04 acceptance from `decisions.md`. This required architecture
+   artefact must exist before the production build.
 
 ## Outputs
 
 - Running prototype on a private preview URL (URL recorded in the vault).
 - Measurement record and agreed budgets in `qa/README.md`.
+- Completed `stack-decision.md`: alternatives, prototype/device evidence,
+  versions, independent craft review and final architecture decision.
 - Fallback behaviour notes; updated risks and estimate.
 
 ## Quality gate
 
+- [ ] Stack decision record is complete with prototype/device evidence and final decision before DX-05.
 - [ ] The slice runs in a production build on the reference devices.
 - [ ] Measured values, device, network profile and date are recorded.
 - [ ] Budgets are set as numbers; exceptions are approved in `decisions.md`.

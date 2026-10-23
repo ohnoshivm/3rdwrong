@@ -1,7 +1,7 @@
 # Project workspace for a Digital Experience engagement (D-0021).
 # Render with: bin/3w new project-digital --cleared | --private [--codename two-words] [--set name=value]
 kind: project
-description: Anonymised workspace for a Digital Experience engagement with brief, gate log, decisions, risks, status, feedback, QA, handover and retro.
+description: Anonymised workspace for a Digital Experience engagement with brief, gate log, decisions, stack decision, risks, status, feedback, QA, handover and retro.
 template: workspace/
 target: projects/{codename}/
 variables:

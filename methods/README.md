@@ -12,6 +12,9 @@ Methods are proposed operating guidance. They do not create client approvals or
 prove outcomes. The identity engagement runs through
 [Discovery → Diagnosis → Strategy → Concept → Identity → System → Validation → Delivery → Learning](identity-engagement/README.md).
 
+- [Creative Technology](creative-technology/README.md) supplies the adopted
+  selection policy, technology/tool matrix, learning library and stack record
+  under D-0025.
 - [Living identities](living-identities.md) sets a decision test for motion,
   generative, adaptive and interactive extensions.
 - [Perception-to-identity map](perception-to-identity-map.md) links the

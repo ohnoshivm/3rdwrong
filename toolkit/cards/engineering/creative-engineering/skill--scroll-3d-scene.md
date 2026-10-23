@@ -45,6 +45,12 @@ Scroll 3D Scene is the specialist when The approved identity application specifi
 - Relevant design, code, platform, device and integration context named by the source.
 - Constraints and reference artefacts; mark unsupported assumptions Unknown.
 
+## Technology choice
+
+**Documented** — [D-0025](../../../../studio/decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](../../../../methods/creative-technology/selection-policy.md).
+Use native scrolling with ScrollTrigger first. Lenis or ScrollControls needs a recorded reason; choose one scroll owner and check current package APIs rather than copying legacy install commands. D-0023 remains binding; preserve HTML, keyboard access and reduced motion.
+
 ## How to run it
 
 1. Check that the brief matches the registry trigger and the source's documented scope.

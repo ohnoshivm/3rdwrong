@@ -43,6 +43,12 @@ audience tasks, and the moments where craft and interaction carry meaning.
    For each: what it means, what it costs, and its reduced-motion and
    no-WebGL alternative.
 5. Engineering rates feasibility and likely budget pressure for each moment.
+   Open `stack-decision.md` from the
+   [bundle template](../../templates/bundles/project-digital/workspace/stack-decision.md.tmpl)
+   using the [selection policy](../creative-technology/selection-policy.md):
+   outcome, preferred approach, two alternatives, dependencies, risks,
+   mobile/accessibility strategy and a testable prototype plan. This is a
+   candidate architecture; DX-04 proves it before production build.
 6. Present the selected route with consequences, not a gallery.
 
 ## Outputs

@@ -45,6 +45,12 @@ Add Postprocessing is the specialist when When the approved scope specifically r
 - Relevant design, code, platform, device and integration context named by the source.
 - Constraints and reference artefacts; mark unsupported assumptions Unknown.
 
+## Technology choice
+
+**Documented** — [D-0025](../../../../studio/decisions/0025-creative-technology-selection-policy.md)
+adopts the [selection policy](../../../../methods/creative-technology/selection-policy.md).
+Each pass needs an explicit creative reason and measured before/after cost. Do not install a multi-effect preset by default. Prove compatibility with the chosen renderer; WebGL EffectComposer recipes do not transfer to WebGPURenderer. D-0023 remains binding; preserve HTML, keyboard access and reduced motion.
+
 ## How to run it
 
 1. Check that the brief matches the registry trigger and the source's documented scope.
