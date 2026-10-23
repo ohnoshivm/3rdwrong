@@ -1,0 +1,13 @@
+kind: weekly-review
+description: >-
+  Friday weekly review from business/operating-rhythm.md. Renders into the
+  vault because it names live deals, cash and collaborators.
+template: weekly-review.md.tmpl
+target: "{vault}/reviews/weekly/{week}.md"
+variables:
+  week:
+    description: ISO week (YYYY-Www).
+    example: 2026-W43
+  date:
+    description: Date of the review (YYYY-MM-DD).
+    example: "2026-10-23"
