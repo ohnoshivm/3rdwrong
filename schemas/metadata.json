@@ -257,5 +257,8 @@
         "reason": "Reviewed standalone PEM header in the upstream pattern catalogue; no private key material follows."
       }
     ]
+  },
+  "evals": {
+    "case_schema": "schemas/eval-case.json"
   }
 }

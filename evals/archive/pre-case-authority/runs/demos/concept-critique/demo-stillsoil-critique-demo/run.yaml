@@ -1,0 +1,54 @@
+schema_version: 1
+status: proposed
+run_id: demo-stillsoil-critique-demo
+created_at: '2026-10-23T06:18:39+00:00'
+demo: true
+department: design
+job: concept-critique
+case_path: evals/cases/design/concept-critique/text-only-route.yaml
+case_sha256: abeae84b2f3eb2dfd29f41a3379990ca330e99c666c8aefcc2d6229714292b1c
+registry_sha256: 843dcfb5afef70b0e9e38ca2532c5933537c713d77b514de5c421953d635616f
+inputs:
+- source: projects/examples/stillsoil-atelier/brief.md
+  snapshot: inputs/01.txt
+  sha256: f665d6bb689841a7e7a207d34b4507cf6e501bbee312ea068e37ba87b9574635
+- source: projects/examples/stillsoil-atelier/discovery-synthesis.md
+  snapshot: inputs/02.txt
+  sha256: fd456d8a61dc03d82f5a59af80d3c8261f69fe63989ea72ae2bfee569ea12311
+- source: projects/examples/stillsoil-atelier/concept-route-a.md
+  snapshot: inputs/03.txt
+  sha256: 9f1e6ac7eda6df8426a43047f44d57ef8306f546b96fa6f3d0f2aa8bc6f59016
+- source: methods/quality/critique-protocol.md
+  snapshot: inputs/04.txt
+  sha256: d60c793ede2fce5396b9c5f0bbbb39aa77d7dfe87c13fe70cff734d0af403e5c
+- source: methods/quality/identity-system-testing.md
+  snapshot: inputs/05.txt
+  sha256: cecd562b0ae78e2d2412529cadc137eea8459dba96acd5d8e3db9ee910d5ff42
+- source: skills/3w-identity-system-critic/SKILL.md
+  snapshot: inputs/06.txt
+  sha256: a44d388187ff244b2be5926b456b705667e79fddd285c40e265fc42a6ab5e3be
+candidates:
+  A:
+    tool_id: skill:3w-identity-system-critic
+    registry_snapshot:
+      aliases:
+      - skill:3w-identity-system-critic
+      department: design
+      id: skill:3w-identity-system-critic
+      job: concept-critique
+      kind: repo-skill
+      load: active
+      reason: Retained source-reviewed v1 capability under the v2 primary-output boundary.
+      role: lead
+      sub_department: design-qa
+      trigger: ''
+    maker_model: historical-unknown
+    output: slots/A.txt
+    output_sha256: 5703afefb6c5bd3ab66fbe23ab2de42f068db886ef67e99a3246689e5273581a
+    recorded_at: '2026-10-23T06:18:39+00:00'
+    maker_canonical: unknown
+state: scored
+score_meaning: Pipeline demonstration only; not a quality verdict.
+provenance_note: Legacy demonstration migrated to class-specific storage; no new blind
+  evaluation or quality claim.
+creation_sha256: 6c73b305bd5e3e424f3b302484d936261b76c79b028159bfc7e4e75c7f9525bc

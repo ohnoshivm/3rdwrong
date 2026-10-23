@@ -40,7 +40,20 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [docs/knowledge-governance.md](docs/knowledge-governance.md) | Knowledge governance | guide | proposed | 2026-10-22 | Status makes the evidence and review state of a document visible. |
 | [docs/maintenance.md](docs/maintenance.md) | Repository maintenance | guide | proposed | 2026-10-22 | Keep the repository small and current. |
 | [docs/public-private-boundary.md](docs/public-private-boundary.md) | Publication rules | policy | approved | 2026-10-23 | Everything committed to ohnoshivm/3rdwrong is public and open source under the applicable licences. |
+| [docs/quality-lab.md](docs/quality-lab.md) | Quality Lab implementation and operation | guide | proposed | 2026-10-23 | 3RDWRONG measures task performance before trusting tools with delivery. |
 | [docs/workflows.md](docs/workflows.md) | Working workflows | guide | proposed | 2026-10-22 | Use issues to frame work, branches and pull requests for substantive changes, and status metadata to show what remains uncertain. |
+
+## evals
+
+| Path | Title | Type | Status | Last reviewed | Summary |
+| --- | --- | --- | --- | --- | --- |
+| [evals/demonstrations.md](evals/demonstrations.md) | Stillsoil pipeline demonstrations | guide | proposed | 2026-10-23 | Documented: two end-to-end CLI demonstrations reuse existing fictional Stillsoil outputs byte-for-byte. |
+| [evals/LEADERBOARD.md](evals/LEADERBOARD.md) | Quality Lab leaderboard | guide | proposed | 2026-10-23 | Documented: generated from stored evaluation records and the current registry. |
+| [evals/pilot/readiness-scorecard.md](evals/pilot/readiness-scorecard.md) | Studio Delivery Quality Index | method | proposed | 2026-10-23 | Hypothesis: a complete rehearsal with an index of 80 / 100 or above, every stage at least 4.0 / 5, and all hard gates satisfied is a usef... |
+| [evals/pilot/README.md](evals/pilot/README.md) | Pilot Delivery Dry-Run | method | proposed | 2026-10-23 | Rehearse a complete Identity System and Digital Experience on the fictional Stillsoil brief before a first real client. |
+| [evals/pilot/run-log-template.md](evals/pilot/run-log-template.md) | Pilot delivery run log template | template | proposed | 2026-10-23 | Copy this proposed template to a new pilot record. |
+| [evals/pilot/stage-matrix.md](evals/pilot/stage-matrix.md) | Pilot stage and rubric crosswalk | guide | proposed | 2026-10-23 | Documented: stage names follow the current Identity engagement and Digital Experience methods. |
+| [evals/README.md](evals/README.md) | Quality Lab | guide | proposed | 2026-10-23 | Test quality before a client sees it. |
 
 ## experiments
 

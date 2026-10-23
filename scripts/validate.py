@@ -11,6 +11,7 @@ try:
     from .oscheck.anonymity import check_anonymity
     from .oscheck.common import Issue
     from .oscheck.decisions import check_decisions
+    from .oscheck.evals import check_evals
     from .oscheck.frontmatter import check_frontmatter
     from .oscheck.index import check_index
     from .oscheck.links import check_links
@@ -24,6 +25,7 @@ except ImportError:
     from oscheck.anonymity import check_anonymity
     from oscheck.common import Issue
     from oscheck.decisions import check_decisions
+    from oscheck.evals import check_evals
     from oscheck.frontmatter import check_frontmatter
     from oscheck.index import check_index
     from oscheck.links import check_links
@@ -36,6 +38,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
     "frontmatter": check_frontmatter,
+    "evals": check_evals,
     "decisions": check_decisions,
     "skills": check_skills,
     "agents": check_agents,

@@ -1,0 +1,27 @@
+slots:
+  A:
+    criteria:
+      source-trace:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Inputs
+          and limits; example source trace score. Values assigned to exercise weighting, not an independent
+          assessment.'
+      synthesis-tensions:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Tensions
+          and interpretations; example tension score. Values assigned to exercise weighting, not an independent
+          assessment.'
+      next-research:
+        score: 3
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Questions
+          for diagnosis and strategy; example follow-up score. Values assigned to exercise weighting,
+          not an independent assessment.'
+      evidence-boundary:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Unknowns
+          and risks; example evidence score. Values assigned to exercise weighting, not an independent
+          assessment.'
+    disqualifiers: []
+    verdict: Promising but structurally unresolved
+    next_action: 'Operator: conduct a real multi-candidate bake-off using a different known judge model
+      and a human spot-check before any quality or routing claim.'

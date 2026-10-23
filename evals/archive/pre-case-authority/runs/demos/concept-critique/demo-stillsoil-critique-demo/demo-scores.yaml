@@ -1,0 +1,25 @@
+slots:
+  A:
+    criteria:
+      four-modes:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Findings;
+          example coverage score. Values assigned to exercise weighting, not an independent assessment.'
+      findings-actions:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Findings;
+          example actionability score. Values assigned to exercise weighting, not an independent assessment.'
+      verdict-gate:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Summary
+          and Next design action; example verdict-format score. Values assigned to exercise weighting,
+          not an independent assessment.'
+      evidence-boundary:
+        score: 4
+        evidence: 'Interpretation: PIPELINE DEMONSTRATION ONLY, not a quality verdict; slot A / Unknowns
+          and unsupported claims; example boundary score. Values assigned to exercise weighting, not an
+          independent assessment.'
+    disqualifiers: []
+    verdict: Promising but structurally unresolved
+    next_action: 'Operator: conduct a real multi-candidate bake-off using a different known judge model
+      and a human spot-check before any quality or routing claim.'
