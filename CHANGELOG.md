@@ -6,6 +6,9 @@ Changes to the 3RDWRONGS Creative Operating System are recorded here.
 
 ### Added
 
+- Proposed tool-card standard, registry-aware card validation with staged strict coverage, and fixture tests.
+- Deterministic human tool handbook and agent routing index, stale-output checks, and toolkit retrieval routes.
+
 - Taste Graph (D-0020): local PostgreSQL reference library, public seeds, capture/search/curation CLI and the experimental `3w-taste-graph` reference-pack skill.
 - Delivery engine: lifecycle, Digital Experience method, web quality and launch gates, handover/care, `bin/3w`, project bundles and anonymity guard.
 - Approved D-0021: contract-cleared client records are public and anonymised; confidential identities, client files and all money stay in a private vault.

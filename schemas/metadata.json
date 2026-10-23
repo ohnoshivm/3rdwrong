@@ -13,7 +13,8 @@
     "experiment",
     "guide",
     "policy",
-    "inbox"
+    "inbox",
+    "tool-card"
   ],
   "statuses": [
     "approved",
@@ -45,7 +46,8 @@
     "project": 90,
     "experiment": 30,
     "guide": 180,
-    "policy": 365
+    "policy": 365,
+    "tool-card": 90
   },
   "required_files": [
     "README.md",
@@ -175,7 +177,15 @@
     "scripts/oscheck/agents.py",
     "tests/test_agents.py",
     "THIRD_PARTY_NOTICES.md",
-    "agents/exclusions.txt"
+    "agents/exclusions.txt",
+    "docs/tool-cards.md",
+    "scripts/build_handbook.py",
+    "scripts/oscheck/cards.py",
+    "tests/test_cards.py",
+    "tests/test_build_handbook.py",
+    "handbook/README.md",
+    "toolkit/cards/README.md",
+    "toolkit/cards/index.json"
   ],
   "frontmatter_exempt_globs": [
     "README.md",
@@ -257,5 +267,27 @@
         "reason": "Reviewed standalone PEM header in the upstream pattern catalogue; no private key material follows."
       }
     ]
+  },
+  "cards": {
+    "required_fields": [
+      "title",
+      "type",
+      "status",
+      "owner",
+      "last_reviewed",
+      "tool_id",
+      "department",
+      "sub_department",
+      "job",
+      "role",
+      "trigger",
+      "kind",
+      "availability",
+      "distribution",
+      "source",
+      "invoke",
+      "pairs_with"
+    ],
+    "strict_departments": []
   }
 }
