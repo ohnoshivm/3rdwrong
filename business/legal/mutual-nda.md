@@ -87,9 +87,10 @@ addition to other remedies.
 
 ## 9. Law and disputes
 
-Governed by the laws of India. Courts at {{court_city}} have jurisdiction
-**[or: disputes go to arbitration seated at {{seat_city}} under the
-Arbitration and Conciliation Act, 1996]**.
+Governed by the laws of India. Disputes not resolved by discussion within
+{{negotiation_days}} days go to arbitration under the Arbitration and
+Conciliation Act, 1996 by a sole arbitrator. Seat: {{arbitration_seat}}.
+Language: English.
 
 ## 10. General
 
