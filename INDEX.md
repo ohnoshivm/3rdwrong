@@ -90,6 +90,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [skills/3w-category-code-audit/SKILL.md](skills/3w-category-code-audit/SKILL.md) | 3w-category-code-audit | skill | experimental | 2026-10-22 | Make category conventions inspectable. |
 | [skills/3w-creative-direction/SKILL.md](skills/3w-creative-direction/SKILL.md) | 3w-creative-direction | skill | experimental | 2026-10-22 | Translate signed strategy into meaningful identity ideas. |
 | [skills/3w-identity-system-critic/SKILL.md](skills/3w-identity-system-critic/SKILL.md) | 3w-identity-system-critic | skill | experimental | 2026-10-22 | Find consequential strengths, gaps and risks in an identity route or system. |
+| [skills/3w-taste-graph/SKILL.md](skills/3w-taste-graph/SKILL.md) | 3w-taste-graph | skill | experimental | 2026-10-23 | Make the studio's taste memory part of every creative task. |
 
 ## studio
 
@@ -115,6 +116,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | [studio/decisions/0015-founder-led-practice-with-specialists.md](studio/decisions/0015-founder-led-practice-with-specialists.md) | Founder-led practice with specialists | decision | proposed | 2026-10-22 | Propose operating as a founder-led independent practice, bringing in specialist collaborators when a project requires skills or capacity... |
 | [studio/decisions/0016-agency-agents-catalogue.md](studio/decisions/0016-agency-agents-catalogue.md) | Agency Agents catalogue | decision | approved | 2026-10-22 | Install the Agency Agents catalogue minus 53 excluded agents (229 included), at repository level only in .claude/agents/, pinned to commi... |
 | [studio/decisions/0017-fully-open-repository.md](studio/decisions/0017-fully-open-repository.md) | Fully open repository | decision | approved | 2026-10-22 | Everything in the 3RDWRONG knowledge base is public and open source under the applicable licences. |
+| [studio/decisions/0020-taste-graph.md](studio/decisions/0020-taste-graph.md) | Taste Graph | decision | approved | 2026-10-23 | Build the Taste Graph: a local PostgreSQL knowledge graph that turns the swipe file into structured, queryable taste memory. |
 | [studio/departments/design.md](studio/departments/design.md) | Design department | guide | proposed | 2026-10-22 | Interpretation — proposed operating guide. |
 | [studio/departments/README.md](studio/departments/README.md) | Department index | guide | proposed | 2026-10-22 | Interpretation — proposed operating structure. |
 | [studio/identity-system-offer.md](studio/identity-system-offer.md) | The 3RDWRONGS Identity System | guide | proposed | 2026-10-22 | The approved flagship offer is a focused strategic and creative engagement taking a brand from unclear positioning to a distinctive, depl... |
@@ -131,6 +133,7 @@ Generated from Markdown frontmatter. Read this index to locate current knowledge
 | --- | --- | --- | --- | --- | --- |
 | [taste/award-site-teardowns.md](taste/award-site-teardowns.md) | Award Site Teardowns (rickcreates.com) — primary taste resource | research | reference | 2026-10-22 | Documented — Founder judgement, recorded 2026-10-22: the founder calls Award Site Teardowns “one of our driving forces” for website inspi... |
 | [taste/discovery-sources.md](taste/discovery-sources.md) | Inspiration discovery sources | research | reference | 2026-10-22 | Documented — Founder working rule, 2026-10-22: whenever a task involves gathering inspiration or visual/interactive references, use the t... |
+| [taste/graph/proposals/seed-links.md](taste/graph/proposals/seed-links.md) | Proposed seed links for the Taste Graph | guide | proposed | 2026-10-23 | These are proposed links between seed website assets and existing principles and patterns. |
 | [taste/studio-websites.md](taste/studio-websites.md) | Studio websites — taste references only | research | reference | 2026-10-22 | Documented — Founder instruction, 2026-10-22: TASTE REFERENCE ONLY. |
 | [taste/swipe-file.md](taste/swipe-file.md) | 3RDWRONG — World-Class Website Swipe File | research | reference | 2026-10-22 | This is the founder's three-tier master list, not a quality ranking beyond the founder judgements explicitly labelled below. |
 

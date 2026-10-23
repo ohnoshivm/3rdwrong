@@ -22,3 +22,4 @@ proposed and hypothesis entries are not approved policy.
 | [Founder-led practice with specialists](0015-founder-led-practice-with-specialists.md) | D-0015 | Founder-led practice with specialists | proposed | 2026-10-22 |
 | [Agency Agents catalogue](0016-agency-agents-catalogue.md) | D-0016 | Agency Agents catalogue | approved | 2026-10-22 |
 | [Fully open repository](0017-fully-open-repository.md) | D-0017 | Fully open repository | approved | 2026-10-22 |
+| [Taste Graph](0020-taste-graph.md) | D-0020 | Taste Graph | approved | 2026-10-23 |
