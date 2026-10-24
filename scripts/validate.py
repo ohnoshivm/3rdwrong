@@ -18,6 +18,7 @@ try:
     from .oscheck.links import check_links
     from .oscheck.required import check_required
     from .oscheck.secrets import check_secrets
+    from .oscheck.skill_graph import check_skill_graph
     from .oscheck.skills import check_skills
     from .oscheck.stale import check_stale
     from .oscheck.toolkit import check_toolkit
@@ -33,6 +34,7 @@ except ImportError:
     from oscheck.links import check_links
     from oscheck.required import check_required
     from oscheck.secrets import check_secrets
+    from oscheck.skill_graph import check_skill_graph
     from oscheck.skills import check_skills
     from oscheck.stale import check_stale
     from oscheck.toolkit import check_toolkit
@@ -52,6 +54,7 @@ CHECKS: dict[str, Callable[[Path, dict], list[Issue]]] = {
     "toolkit": check_toolkit,
     "cards": check_cards,
     "handbook": check_handbook,
+    "skill-graph": check_skill_graph,
 }
 ALL_CHECKS = (*CHECKS, "stale")
 
