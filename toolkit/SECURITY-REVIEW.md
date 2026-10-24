@@ -172,7 +172,7 @@ Hits from `scripts/validate.py` in `toolkit/vendor/` are listed below. Each is a
 | `toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json` | 1069 | Aadhaar-like identifier; value redacted | `c052409a3bc76bff` | KEEP: Digits of a decimal number in upstream sample data (coordinates or scores); not an identifier |
 | `toolkit/vendor/standalone-skill-installer-9d2c16be/skills/skill-installer/scripts/install-skill-from-github.py` | 231 | email address; value redacted | `1a52f0b0c291c7bf` | KEEP: SSH remote syntax, not an email address |
 
-95 further entries bind the same reviewed lines in plugin copies. 9 reviewed placeholder-address lines in `.claude/agents/` (Agency Agents, governed by their own lock) seed only their plugin copies; their justifications are in `toolkit/sources/secret-allowlist.json`.
+113 further entries bind the same reviewed lines in plugin copies. 9 reviewed placeholder-address lines in `.claude/agents/` (Agency Agents, governed by their own lock) seed only their plugin copies; their justifications are in `toolkit/sources/secret-allowlist.json`.
 
 ## Licence-audit findings
 

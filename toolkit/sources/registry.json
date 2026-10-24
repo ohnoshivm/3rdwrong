@@ -6185,10 +6185,10 @@
       "job": "ui-design",
       "kind": "skill",
       "load": "active",
-      "reason": "Retained source-reviewed v1 capability under the v2 primary-output boundary.",
-      "role": "lead",
+      "reason": "Demoted 2026-10-24 from ui-design lead to specialist; retained source-reviewed v1 capability under the v2 primary-output boundary.",
+      "role": "specialist",
       "sub_department": "experience-design",
-      "trigger": ""
+      "trigger": "Use when building new UI or reshaping an existing one, to get distinctive, intentional visual design rather than templated defaults."
     },
     {
       "aliases": [
@@ -8573,6 +8573,20 @@
     },
     {
       "aliases": [
+        "reference:awesome-design-md-library"
+      ],
+      "id": "reference:awesome-design-md-library",
+      "kind": "reference-library",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "design-system-guidelines",
+      "role": "parked",
+      "load": "library",
+      "trigger": "Activate only for an explicit design-system-guidelines requirement after reviewing source, overlap, host prerequisites and scope.",
+      "reason": "Reference library of DESIGN.md analyses (MIT), read through the awesome-design-md wrapper; not a tool in its own right."
+    },
+    {
+      "aliases": [
         "remotion:remotion-best-practices",
         "skill:remotion-best-practices"
       ],
@@ -9862,6 +9876,21 @@
     },
     {
       "aliases": [
+        "skill:ai-website-cloner-template",
+        "skill:clone-website"
+      ],
+      "id": "skill:ai-website-cloner-template",
+      "kind": "skill",
+      "department": "labs",
+      "sub_department": "experiments",
+      "job": "effect-studies",
+      "role": "specialist",
+      "load": "active",
+      "trigger": "Use when deconstructing a reference website (cloning, replication or reverse engineering, including animated pages) for study only; never ship cloned layouts, assets or code in client work.",
+      "reason": "Reference deconstruction skill from the MIT clone template (Labs study only; client-work use prohibited by trigger)."
+    },
+    {
+      "aliases": [
         "skill:alina-head-of-website-department"
       ],
       "department": "design",
@@ -10027,6 +10056,20 @@
       "role": "specialist",
       "sub_department": "identity-craft",
       "trigger": "When the approved scope specifically requires applying or authoring a coherent visual theme and design system."
+    },
+    {
+      "aliases": [
+        "skill:archify"
+      ],
+      "department": "engineering",
+      "id": "skill:archify",
+      "job": "technical-architecture",
+      "kind": "skill",
+      "load": "active",
+      "reason": "Pinned MIT diagram skill for validated architecture, workflow, data-flow and ERD diagrams as standalone HTML; specialist for technical architecture.",
+      "role": "specialist",
+      "sub_department": "engineering-qa-security",
+      "trigger": "Use when creating validated architecture, workflow, sequence, data-flow, lifecycle, ERD or class diagrams as explorable standalone HTML."
     },
     {
       "aliases": [
@@ -10223,6 +10266,20 @@
       "role": "parked",
       "sub_department": "experiments",
       "trigger": "Activate only for the named framework, platform, or workflow described by this entry."
+    },
+    {
+      "aliases": [
+        "skill:awesome-design-md"
+      ],
+      "id": "skill:awesome-design-md",
+      "kind": "repo-skill",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "design-system-guidelines",
+      "role": "specialist",
+      "load": "active",
+      "trigger": "Use when you need a DESIGN.md reference to study a brand or product visual system; it is inspiration only, never a source to copy into client work.",
+      "reason": "Repo wrapper for the pinned awesome-design-md reference library (MIT); directs agents to study the library, not copy it."
     },
     {
       "aliases": [
@@ -12330,11 +12387,11 @@
       "id": "skill:emil-design-eng",
       "job": "ui-design",
       "kind": "skill",
-      "load": "library",
-      "reason": "Useful craft philosophy for interface polish and motion; activate for studio digital touchpoints.",
-      "role": "bench",
+      "load": "active",
+      "reason": "Promoted 2026-10-24 to active: interface polish and motion craft philosophy (MIT).",
+      "role": "specialist",
       "sub_department": "experience-design",
-      "trigger": "Activate only for an explicit ui-design requirement after reviewing source, overlap, host prerequisites and scope."
+      "trigger": "Use when the user wants UI polish, component design, animation decisions or the invisible details that make software feel great."
     },
     {
       "aliases": [
@@ -12531,6 +12588,20 @@
       "role": "bench",
       "sub_department": "studio-brand-voice",
       "trigger": "Activate only for an explicit marketing-planning requirement after reviewing source, overlap, host prerequisites and scope."
+    },
+    {
+      "aliases": [
+        "skill:frontend-slides"
+      ],
+      "id": "skill:frontend-slides",
+      "kind": "skill",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "presentation",
+      "role": "specialist",
+      "load": "active",
+      "trigger": "Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk or pitch.",
+      "reason": "Zero-dependency HTML presentation skill (MIT); presentation specialist for web slide decks."
     },
     {
       "aliases": [
@@ -13912,11 +13983,11 @@
       "id": "skill:impeccable",
       "job": "ui-design",
       "kind": "skill",
-      "load": "library",
-      "reason": "Broad UI improvement/generation overlaps with more rigorous direction and composition skills. Source-specific UI/layout reference informs experience design; it is not the identity composition lead.",
-      "role": "bench",
+      "load": "active",
+      "reason": "Promoted 2026-10-24 to active: broadest source-reviewed UI design and critique skill (Apache-2.0); lead for ui-design.",
+      "role": "lead",
       "sub_department": "experience-design",
-      "trigger": "Activate only for an explicit ui-design requirement after reviewing source, overlap, host prerequisites and scope."
+      "trigger": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface."
     },
     {
       "aliases": [
@@ -14057,6 +14128,21 @@
       "role": "bench",
       "sub_department": "research-perception",
       "trigger": "Activate only for an explicit journey-mapping requirement after reviewing source, overlap, host prerequisites and scope."
+    },
+    {
+      "aliases": [
+        "skill:karpathy-guidelines",
+        "skill:andrej-karpathy-skills"
+      ],
+      "id": "skill:karpathy-guidelines",
+      "kind": "skill",
+      "department": "engineering",
+      "sub_department": "engineering-qa-security",
+      "job": "code-review",
+      "role": "specialist",
+      "load": "active",
+      "trigger": "Use when any build agent writes, reviews or refactors code, to avoid overcomplication, make surgical changes, surface assumptions and define verifiable success criteria.",
+      "reason": "Pinned behavioural guidelines for LLM coding (MIT declared upstream); every build agent loads it for code work."
     },
     {
       "aliases": [
@@ -17721,11 +17807,11 @@
       "id": "stitch-design:generate-design",
       "job": "ui-design",
       "kind": "plugin-skill",
-      "load": "library",
-      "reason": "duplicate of frontend-design for studio web UI; tool is platform- or implementation-specific.",
-      "role": "bench",
+      "load": "active",
+      "reason": "Promoted 2026-10-24 to active: screen generation and variants via Stitch (Apache-2.0).",
+      "role": "specialist",
       "sub_department": "experience-design",
-      "trigger": "Activate only for an explicit ui-design requirement after reviewing source, overlap, host prerequisites and scope."
+      "trigger": "Use when generating new screens from text prompts or images, editing existing screens, or generating design variants with Stitch MCP."
     },
     {
       "aliases": [
@@ -17834,11 +17920,11 @@
       "id": "superdesign:superdesign",
       "job": "composition-layout",
       "kind": "skill",
-      "load": "library",
-      "reason": "Broad UI improvement/generation overlaps with more rigorous direction and composition skills.",
-      "role": "bench",
+      "load": "active",
+      "reason": "Promoted 2026-10-24 to active: composition and layout exploration on the Superdesign canvas (MIT).",
+      "role": "specialist",
       "sub_department": "identity-craft",
-      "trigger": "Activate only for an explicit composition-layout requirement after reviewing source, overlap, host prerequisites and scope."
+      "trigger": "Use when the user wants to design or redesign a page, feature, flow, slide deck or brand-new product on the Superdesign canvas, or to compare and explore visual variants."
     },
     {
       "aliases": [
@@ -18190,11 +18276,11 @@
       "id": "ui-ux-pro-max:ui-styling",
       "job": "ui-design",
       "kind": "plugin-skill",
-      "load": "library",
-      "reason": "duplicate of frontend-design for studio web UI; tool is platform- or implementation-specific.",
-      "role": "bench",
+      "load": "active",
+      "reason": "Promoted 2026-10-24 to active: accessible UI styling with Tailwind and shadcn/ui patterns (MIT).",
+      "role": "specialist",
       "sub_department": "experience-design",
-      "trigger": "Activate only for an explicit ui-design requirement after reviewing source, overlap, host prerequisites and scope."
+      "trigger": "Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components, or customising themes and dark mode."
     },
     {
       "aliases": [

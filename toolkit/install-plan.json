@@ -67,6 +67,27 @@
       "what_to_install": []
     },
     {
+      "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "component_only": false,
+      "destination": "~/.3rdwrong/fetch/pack-forrestchang-andrej-karpathy-skills-mit",
+      "id": "pack-forrestchang-andrej-karpathy-skills-mit",
+      "licence": "MIT",
+      "pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
+      "upstream_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "what_to_install": [
+        {
+          "candidates": [
+            "skills/karpathy-guidelines"
+          ],
+          "id": "skill:karpathy-guidelines",
+          "kind": "skill",
+          "role": "specialist",
+          "upstream_name": "karpathy-guidelines"
+        }
+      ]
+    },
+    {
       "commit": "d258bcffb0cb7bda5f133f3e957f932d816d282f",
       "component_only": false,
       "destination": "~/.3rdwrong/fetch/pack-garrytan-gstack-mit",
@@ -682,6 +703,27 @@
       ]
     },
     {
+      "commit": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+      "component_only": false,
+      "destination": "~/.3rdwrong/fetch/pack-jcodesmore-ai-website-cloner-template-mit",
+      "id": "pack-jcodesmore-ai-website-cloner-template-mit",
+      "licence": "MIT",
+      "pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
+      "upstream_url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "what_to_install": [
+        {
+          "candidates": [
+            ".agents/skills/clone-website"
+          ],
+          "id": "skill:ai-website-cloner-template",
+          "kind": "skill",
+          "role": "specialist",
+          "upstream_name": "clone-website"
+        }
+      ]
+    },
+    {
       "commit": "398cd41c86ba42fbb30e944ae507f463648f08b7",
       "component_only": false,
       "destination": "~/.3rdwrong/fetch/pack-mengto-skills-mit",
@@ -831,18 +873,7 @@
       "pin_basis": "audit installer_commit",
       "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
       "upstream_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "what_to_install": [
-        {
-          "candidates": [
-            ".claude/skills/ui-styling",
-            "cli/assets/skills/ui-styling"
-          ],
-          "id": "ui-ux-pro-max:ui-styling",
-          "kind": "skill",
-          "role": "bench",
-          "upstream_name": "ui-styling"
-        }
-      ]
+      "what_to_install": []
     },
     {
       "commit": "9b90db257f7395fab76ff9bfcb808456709f6af3",
@@ -887,15 +918,26 @@
       "pin_basis": "audit installer_commit",
       "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
       "upstream_url": "https://github.com/superdesigndev/superdesign-skill",
+      "what_to_install": []
+    },
+    {
+      "commit": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
+      "component_only": false,
+      "destination": "~/.3rdwrong/fetch/pack-tt-a1i-archify-mit",
+      "id": "pack-tt-a1i-archify-mit",
+      "licence": "MIT",
+      "pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
+      "upstream_url": "https://github.com/tt-a1i/archify",
       "what_to_install": [
         {
           "candidates": [
-            "skills/superdesign"
+            "archify"
           ],
-          "id": "superdesign:superdesign",
+          "id": "skill:archify",
           "kind": "skill",
-          "role": "bench",
-          "upstream_name": "superdesign"
+          "role": "specialist",
+          "upstream_name": "archify"
         }
       ]
     },
@@ -938,6 +980,48 @@
           "kind": "skill",
           "role": "specialist",
           "upstream_name": "find-skills"
+        }
+      ]
+    },
+    {
+      "commit": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "component_only": false,
+      "destination": "~/.3rdwrong/fetch/pack-voltagent-awesome-design-md-mit",
+      "id": "pack-voltagent-awesome-design-md-mit",
+      "licence": "MIT",
+      "pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
+      "upstream_url": "https://github.com/voltagent/awesome-design-md",
+      "what_to_install": [
+        {
+          "candidates": [
+            "design-md"
+          ],
+          "id": "reference:awesome-design-md-library",
+          "kind": "reference",
+          "role": "parked",
+          "upstream_name": "awesome-design-md"
+        }
+      ]
+    },
+    {
+      "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "component_only": false,
+      "destination": "~/.3rdwrong/fetch/pack-zarazhangrui-frontend-slides-mit",
+      "id": "pack-zarazhangrui-frontend-slides-mit",
+      "licence": "MIT",
+      "pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "runtime_setup": "Source checkout only. No third-party setup hooks are executed. Read the pinned upstream README for service credentials, native runtimes and optional runtime setup.",
+      "upstream_url": "https://github.com/zarazhangrui/frontend-slides",
+      "what_to_install": [
+        {
+          "candidates": [
+            "."
+          ],
+          "id": "skill:frontend-slides",
+          "kind": "skill",
+          "role": "specialist",
+          "upstream_name": "frontend-slides"
         }
       ]
     },
@@ -7204,7 +7288,7 @@
       "load": "active",
       "name": "3w-frontend-design-frontend-design",
       "package": "plugin-openai-curated-remote-frontend-design-premium-1.4.0",
-      "role": "lead",
+      "role": "specialist",
       "source": "toolkit/vendor/plugin-openai-curated-remote-frontend-design-premium-1.4.0/skills/frontend-design"
     },
     {
@@ -8189,6 +8273,23 @@
     },
     {
       "aliases": [
+        "reference:awesome-design-md-library"
+      ],
+      "candidates": [
+        "design-md"
+      ],
+      "department": "design",
+      "distribution": "fetch",
+      "id": "reference:awesome-design-md-library",
+      "kind": "reference",
+      "load": "library",
+      "name": "3w-reference-awesome-design-md-library",
+      "package": "pack-voltagent-awesome-design-md-mit",
+      "role": "parked",
+      "upstream_name": "awesome-design-md"
+    },
+    {
+      "aliases": [
         "remotion:remotion-best-practices"
       ],
       "department": "media",
@@ -8833,6 +8934,23 @@
     },
     {
       "aliases": [
+        "skill:ai-website-cloner-template"
+      ],
+      "candidates": [
+        ".agents/skills/clone-website"
+      ],
+      "department": "labs",
+      "distribution": "fetch",
+      "id": "skill:ai-website-cloner-template",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-skill-ai-website-cloner-template",
+      "package": "pack-jcodesmore-ai-website-cloner-template-mit",
+      "role": "specialist",
+      "upstream_name": "clone-website"
+    },
+    {
+      "aliases": [
         "skill:alpha"
       ],
       "candidates": [
@@ -8934,6 +9052,23 @@
       "package": "pack-emilkowalski-skills-mit",
       "role": "specialist",
       "source": "toolkit/vendor/pack-emilkowalski-skills-mit/skills/apple-design"
+    },
+    {
+      "aliases": [
+        "skill:archify"
+      ],
+      "candidates": [
+        "archify"
+      ],
+      "department": "engineering",
+      "distribution": "fetch",
+      "id": "skill:archify",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-skill-archify",
+      "package": "pack-tt-a1i-archify-mit",
+      "role": "specialist",
+      "upstream_name": "archify"
     },
     {
       "aliases": [
@@ -9052,6 +9187,20 @@
       "package": "pack-garrytan-gstack-mit",
       "role": "specialist",
       "upstream_name": "autoplan"
+    },
+    {
+      "aliases": [
+        "skill:awesome-design-md"
+      ],
+      "department": "design",
+      "distribution": "vendor",
+      "id": "skill:awesome-design-md",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-skill-awesome-design-md",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "specialist",
+      "source": "skills/awesome-design-md"
     },
     {
       "aliases": [
@@ -10501,10 +10650,10 @@
       "distribution": "vendor",
       "id": "skill:emil-design-eng",
       "kind": "skill",
-      "load": "library",
+      "load": "active",
       "name": "3w-skill-emil-design-eng",
       "package": "pack-emilkowalski-skills-mit",
-      "role": "bench",
+      "role": "specialist",
       "source": "toolkit/vendor/pack-emilkowalski-skills-mit/skills/emil-design-eng"
     },
     {
@@ -10697,6 +10846,23 @@
       "package": "pack-garrytan-gstack-mit",
       "role": "specialist",
       "upstream_name": "freeze"
+    },
+    {
+      "aliases": [
+        "skill:frontend-slides"
+      ],
+      "candidates": [
+        "."
+      ],
+      "department": "design",
+      "distribution": "fetch",
+      "id": "skill:frontend-slides",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-skill-frontend-slides",
+      "package": "pack-zarazhangrui-frontend-slides-mit",
+      "role": "specialist",
+      "upstream_name": "frontend-slides"
     },
     {
       "aliases": [
@@ -11526,10 +11692,10 @@
       "distribution": "vendor",
       "id": "skill:impeccable",
       "kind": "skill",
-      "load": "library",
+      "load": "active",
       "name": "3w-skill-impeccable",
       "package": "pack-pbakaus-impeccable-apache-2.0",
-      "role": "bench",
+      "role": "lead",
       "source": "toolkit/vendor/pack-pbakaus-impeccable-apache-2.0/skills/impeccable"
     },
     {
@@ -11587,6 +11753,23 @@
       "package": "pack-dammyjay93-interface-design-mit",
       "role": "specialist",
       "source": "toolkit/vendor/pack-dammyjay93-interface-design-mit/skills/interface-design"
+    },
+    {
+      "aliases": [
+        "skill:karpathy-guidelines"
+      ],
+      "candidates": [
+        "skills/karpathy-guidelines"
+      ],
+      "department": "engineering",
+      "distribution": "fetch",
+      "id": "skill:karpathy-guidelines",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-skill-karpathy-guidelines",
+      "package": "pack-forrestchang-andrej-karpathy-skills-mit",
+      "role": "specialist",
+      "upstream_name": "karpathy-guidelines"
     },
     {
       "aliases": [
@@ -13371,18 +13554,15 @@
       "aliases": [
         "skill:superdesign"
       ],
-      "candidates": [
-        "skills/superdesign"
-      ],
       "department": "design",
-      "distribution": "fetch",
+      "distribution": "vendor",
       "id": "superdesign:superdesign",
       "kind": "skill",
-      "load": "library",
+      "load": "active",
       "name": "3w-superdesign-superdesign",
-      "package": "pack-superdesigndev-superdesign-skill-mit",
-      "role": "bench",
-      "upstream_name": "superdesign"
+      "package": "plugin-account-synced-superdesign-marketplace",
+      "role": "specialist",
+      "source": "toolkit/vendor/plugin-account-synced-superdesign-marketplace/skills/superdesign"
     },
     {
       "aliases": [
@@ -13475,19 +13655,15 @@
       "aliases": [
         "skill:ui-styling"
       ],
-      "candidates": [
-        ".claude/skills/ui-styling",
-        "cli/assets/skills/ui-styling"
-      ],
       "department": "design",
-      "distribution": "fetch",
+      "distribution": "vendor",
       "id": "ui-ux-pro-max:ui-styling",
       "kind": "skill",
-      "load": "library",
+      "load": "active",
       "name": "3w-ui-ux-pro-max-ui-styling",
-      "package": "pack-nextlevelbuilder-ui-ux-pro-max-skill-unknown",
-      "role": "bench",
-      "upstream_name": "ui-styling"
+      "package": "plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0",
+      "role": "specialist",
+      "source": "toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling"
     },
     {
       "aliases": [
@@ -13970,10 +14146,10 @@
       "distribution": "vendor",
       "id": "stitch-design:generate-design",
       "kind": "skill",
-      "load": "library",
+      "load": "active",
       "name": "3w-stitch-design-generate-design",
       "package": "plugin-google-labs-code-stitch-skills-stitch-design-0337446dadde",
-      "role": "bench",
+      "role": "specialist",
       "source": "toolkit/vendor/plugin-google-labs-code-stitch-skills-stitch-design-0337446dadde/skills/generate-design"
     },
     {

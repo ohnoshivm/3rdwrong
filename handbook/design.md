@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/design.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **179/179 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **186/186 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Design qa
 
@@ -268,15 +268,23 @@ Card coverage: **179/179 (100.0%)** lead/specialist tools. Start with the lead; 
 
 ### Ui design
 
-- **Lead:** [`frontend-design:frontend-design`](../toolkit/cards/design/experience-design/frontend-design--frontend-design.md) — The experience-design lead for ui-design is Frontend Design, which leads distinctive visual design for new or reshaped interfaces, grounded in the specific subject and brief.
+- **Lead:** [`skill:impeccable`](../toolkit/cards/design/experience-design/skill--impeccable.md) — The experience-design lead for ui-design: a frontend design and critique skill that sets a mode (persuade, operate or read), works through a set of design commands, and checks the rendered result before it is called finished.
 - **Specialist:** [`agency:design-ui-designer`](../toolkit/cards/design/experience-design/agency--design-ui-designer.md) — The experience-design specialist for ui-design is UI Designer (trigger: “When the approved scope specifically requires composition layout expertise”), which designs interface systems, component libraries and polished screens that reflect the supplied brand.
   Trigger: When the approved scope specifically requires composition layout expertise.
 - **Specialist:** [`design-superpowers:design`](../toolkit/cards/design/experience-design/design-superpowers--design.md) — The experience-design specialist for ui-design is Design with an Existing System (trigger: “An existing design system must be used to design a new scoped screen or flow”), which routes a scoped feature or screen through an existing design system and its component patterns.
   Trigger: An existing design system must be used to design a new scoped screen or flow.
 - **Specialist:** [`figma:figma-generate-design`](../toolkit/cards/design/experience-design/figma--figma-generate-design.md) — The experience-design specialist for ui-design is Figma Generate Design (trigger: “A Figma file/workspace exists or is explicitly requested, and the task requires generate design.
   Trigger: A Figma file/workspace exists or is explicitly requested, and the task requires generate design. Load this prerequisite only for its corresponding Figma operation.
+- **Specialist:** [`frontend-design:frontend-design`](../toolkit/cards/design/experience-design/frontend-design--frontend-design.md) — Frontend Design is the experience-design specialist for ui-design (demoted from lead on 2026-10-24; skill:impeccable now leads).
+  Trigger: Use when building new UI or reshaping an existing one, to get distinctive, intentional visual design rather than templated defaults.
 - **Specialist:** [`skill:designing-frontend-interfaces`](../toolkit/cards/design/experience-design/skill--designing-frontend-interfaces.md) — The experience-design specialist for ui-design is Designing Frontend Interfaces (trigger: “When the approved scope specifically requires designing or restyling web interfaces with distinctive visual direction”), which builds or restyles a web interface from an explicit visual brief and locked design tokens.
   Trigger: When the approved scope specifically requires designing or restyling web interfaces with distinctive visual direction.
+- **Specialist:** [`skill:emil-design-eng`](../toolkit/cards/design/experience-design/skill--emil-design-eng.md) — A specialist for interface polish, component detail and animation decisions, based on one designer's craft philosophy: unseen details compound, and beauty is leverage.
+  Trigger: Use when the user wants UI polish, component design, animation decisions or the invisible details that make software feel great.
+- **Specialist:** [`stitch-design:generate-design`](../toolkit/cards/design/experience-design/stitch-design--generate-design.md) — A specialist for generating and editing screens in Google Stitch from a text prompt or an image, and for producing design variants.
+  Trigger: Use when generating new screens from text prompts or images, editing existing screens, or generating design variants with Stitch MCP.
+- **Specialist:** [`ui-ux-pro-max:ui-styling`](../toolkit/cards/design/experience-design/ui-ux-pro-max--ui-styling.md) — A specialist for implementing UI with shadcn/ui components on Radix primitives and Tailwind utility styling, including tokens, themes, dark mode and responsive layout.
+  Trigger: Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components, or customising themes and dark mode.
 - **Specialist:** [`vectorlab-ux-skills:page-patterns`](../toolkit/cards/design/experience-design/vectorlab-ux-skills--page-patterns.md) — The experience-design specialist for ui-design is Page Patterns (trigger: “A digital screen lacks a named structural pattern and the adopted product system needs one”), which names one structural page pattern before a new digital screen is built.
   Trigger: A digital screen lacks a named structural pattern and the adopted product system needs one.
 - **Specialist:** [`vectorlab-ux-skills:setup-ui-ux-skills`](../toolkit/cards/design/experience-design/vectorlab-ux-skills--setup-ui-ux-skills.md) — The experience-design specialist for ui-design is Setup UI/UX Skills (trigger: “A digital project explicitly adopts VectorLab and needs its one-time reference and access-target setup”), which sets up the vectorlab project profile that its other ux skills expect.
@@ -321,6 +329,8 @@ Card coverage: **179/179 (100.0%)** lead/specialist tools. Start with the lead; 
   Trigger: When the approved scope specifically requires use when the task specifically needs create a monochrome technical wireframe design system with exploded 3d structure, connector annotations, sparse information labels, and precise dark diagnostic framing.
 - **Specialist:** [`stitch-utilities:taste-design`](../toolkit/cards/design/identity-craft/stitch-utilities--taste-design.md) — The Taste Design is a specialist for composition and layout in 3RDWRONG’s identity-craft work.
   Trigger: An approved Stitch project needs a restrained semantic design-system prompt; its preset aesthetics remain subordinate to the concept.
+- **Specialist:** [`superdesign:superdesign`](../toolkit/cards/design/identity-craft/superdesign--superdesign.md) — A specialist for composition and layout exploration on the Superdesign canvas: it generates design drafts, compares directions across models and iterates on a chosen draft.
+  Trigger: Use when the user wants to design or redesign a page, feature, flow, slide deck or brand-new product on the Superdesign canvas, or to compare and explore visual variants.
 - **Specialist:** [`ui-ux-pro-max:banner-design`](../toolkit/cards/design/identity-craft/ui-ux-pro-max--banner-design.md) — The Banner Design is a specialist for composition and layout in 3RDWRONG’s identity-craft work.
   Trigger: An explicitly agreed identity application needs a banner composition at specified dimensions.
 - **Specialist:** [`ui-ux-pro-max:brand`](../toolkit/cards/design/identity-craft/ui-ux-pro-max--brand.md) — The Brand Consistency Operation is a specialist for composition and layout in 3RDWRONG’s identity-craft work.
@@ -357,6 +367,8 @@ Card coverage: **179/179 (100.0%)** lead/specialist tools. Start with the lead; 
   Trigger: A supplied Figma file or explicitly requested Figma workspace needs inspection, asset access or implementation handoff.
 - **Specialist:** [`skill:applying-themes`](../toolkit/cards/design/identity-craft/skill--applying-themes.md) — The Applying Themes is a specialist for design system guidelines in 3RDWRONG’s identity-craft work.
   Trigger: When the approved scope specifically requires applying or authoring a coherent visual theme and design system.
+- **Specialist:** [`skill:awesome-design-md`](../toolkit/cards/design/identity-craft/skill--awesome-design-md.md) — A reference wrapper around a pinned library of 84 DESIGN.md analyses of brand and product websites.
+  Trigger: Use when you need a DESIGN.md reference to study a brand or product visual system; it is inspiration only, never a source to copy into client work.
 - **Specialist:** [`skill:skeuomorphic-ui`](../toolkit/cards/design/identity-craft/skill--skeuomorphic-ui.md) — The Skeuomorphic UI is a specialist for design system guidelines in 3RDWRONG’s identity-craft work.
   Trigger: When the approved scope specifically requires use when the task specifically needs create skeuomorphic web ui surfaces with layered gradients, stacked inner and outer shadows, reflective gradient borders, micro texture, and embossed text or icon details.
 - **Specialist:** [`skill:stitch-skill`](../toolkit/cards/design/identity-craft/skill--stitch-skill.md) — The Stitch Design Taste is a specialist for design system guidelines in 3RDWRONG’s identity-craft work.
@@ -417,6 +429,8 @@ Card coverage: **179/179 (100.0%)** lead/specialist tools. Start with the lead; 
   Trigger: A Figma file/workspace exists or is explicitly requested, and the task requires generate diagram. Load this prerequisite only for its corresponding Figma operation.
 - **Specialist:** [`figma:figma-use-slides`](../toolkit/cards/design/identity-craft/figma--figma-use-slides.md) — The Figma Use Slides is a specialist for presentation in 3RDWRONG’s identity-craft work.
   Trigger: A Figma file/workspace exists or is explicitly requested, and the task requires use slides. Load this prerequisite only for its corresponding Figma operation.
+- **Specialist:** [`skill:frontend-slides`](../toolkit/cards/design/identity-craft/skill--frontend-slides.md) — A specialist for building a presentation as a single, zero-dependency HTML file that runs in the browser, with a fixed 16:9 stage and animation.
+  Trigger: Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk or pitch.
 
 ### Typography
 
@@ -436,6 +450,7 @@ Library tools are available only by explicit request after source and prerequisi
 | `frontend-design-premium:frontend-design-premium` | bench | Production UX and application UI context; useful for studio touchpoints, but product-interface specialization. |
 | `product-design:ideate` | bench | Product ideation workflow; narrower and less brand-identity focused than studio concept direction. |
 | `product-design:index` | bench | Library reference for a narrowly matched ui-design requirement; overlaps active owners or targets a platform/vertical outside recurring studio work. Re-evaluate against the approved brief before loading. v2 primary-output boundary: design/experience-design owns this contract; preserve a single canonical home. |
+| `reference:awesome-design-md-library` | parked | Reference library of DESIGN.md analyses (MIT), read through the awesome-design-md wrapper; not a tool in its own right. |
 | `skill:agency-grid-layout-minimal` | bench | parked — activate only if a design task needs this specific composition-layout capability. |
 | `skill:audit-ai-design-slop` | bench | parked — activate only if a design task needs this specific concept-critique capability. |
 | `skill:aura-asset-images` | bench | parked — activate only if a design task needs this specific image-generation-direction capability. |
@@ -460,7 +475,6 @@ Library tools are available only by explicit request after source and prerequisi
 | `skill:editorial-portfolio-chapters` | bench | parked — activate only if a design task needs this specific composition-layout capability. Source-specific UI/layout reference informs experience design; it is not the identity composition lead. |
 | `skill:editorial-service-booking` | bench | parked — activate only if a design task needs this specific composition-layout capability. Source-specific UI/layout reference informs experience design; it is not the identity composition lead. |
 | `skill:editorial-tech` | bench | parked — activate only if a design task needs this specific composition-layout capability. |
-| `skill:emil-design-eng` | bench | Useful craft philosophy for interface polish and motion; activate for studio digital touchpoints. |
 | `skill:framed-grid-layout` | bench | Prescriptive single-look UI recipes that risk imposing a generic visual system; activate only if the art direction explicitly calls for the named treatment. |
 | `skill:framed-tech-dark-border-gradient` | bench | Prescriptive single-look UI recipes that risk imposing a generic visual system; activate only if the art direction explicitly calls for the named treatment. |
 | `skill:funky-purple-container-tech` | bench | Prescriptive single-look UI recipes that risk imposing a generic visual system; activate only if the art direction explicitly calls for the named treatment. |
@@ -471,7 +485,6 @@ Library tools are available only by explicit request after source and prerequisi
 | `skill:gstack-diagram` | bench | Diagram artifact workflow belongs mainly to workflow/communication; presentation-specific use is limited. |
 | `skill:high-contrast-skeuomorphic-clean` | bench | Prescriptive single-look UI recipes that risk imposing a generic visual system; activate only if the art direction explicitly calls for the named treatment. |
 | `skill:image-first-grid-layout` | bench | A narrow image-led web composition recipe; activate only when full-bleed imagery and guide lines fit the chosen direction. |
-| `skill:impeccable` | bench | Broad UI improvement/generation overlaps with more rigorous direction and composition skills. Source-specific UI/layout reference informs experience design; it is not the identity composition lead. |
 | `skill:landing-optimizer` | bench | Library reference for a narrowly matched interaction-architecture requirement; overlaps active owners or targets a platform/vertical outside recurring studio work. Re-evaluate against the approved brief before loading. Conversion, activation and upgrade flows are experience decisions, not paid-media ownership merely because campaigns feed them. |
 | `skill:landing-page` | bench | This is visual interaction, 3D, or page design craft owned by Design. v2 primary-output boundary: design/experience-design owns this contract; preserve a single canonical home. |
 | `skill:light-mode-paper-technical` | bench | Prescriptive single-look UI recipes that risk imposing a generic visual system; activate only if the art direction explicitly calls for the named treatment. |
@@ -494,13 +507,10 @@ Library tools are available only by explicit request after source and prerequisi
 | `skill:unsplash-asset-images` | bench | Bench: narrow or overlapping capability; activate only for its stated use case. |
 | `skill:web-design-guidelines` | bench | Broad interface review overlaps with the more evidence-led CEOS visual audit. |
 | `stitch-design:code-to-design` | bench | duplicate of frontend-design for studio web UI; tool is platform- or implementation-specific. |
-| `stitch-design:generate-design` | bench | duplicate of frontend-design for studio web UI; tool is platform- or implementation-specific. |
 | `stitch-design:upload-to-stitch` | bench | duplicate of frontend-design for studio web UI; tool is platform- or implementation-specific. |
 | `stitch-utilities:enhance-prompt` | bench | Not routed: presentation is already covered by the lead. This additional workflow adds no required capability to the present identity scope; reconsider only after a bounded comparison. |
-| `superdesign:superdesign` | bench | Broad UI improvement/generation overlaps with more rigorous direction and composition skills. |
 | `ui-ux-pro-max:design` | bench | Not routed: presentation is already covered by the lead. This additional workflow adds no required capability to the present identity scope; reconsider only after a bounded comparison. |
 | `ui-ux-pro-max:slides` | bench | Not routed: presentation is already covered by the lead. This additional workflow adds no required capability to the present identity scope; reconsider only after a bounded comparison. |
-| `ui-ux-pro-max:ui-styling` | bench | duplicate of frontend-design for studio web UI; tool is platform- or implementation-specific. |
 | `visualize:visualize` | bench | Creates interactive visual artifacts; general-purpose visualization rather than identity craft. |
 | `watch:watch` | bench | Not routed: presentation is already covered by the lead. This additional workflow adds no required capability to the present identity scope; reconsider only after a bounded comparison. |
 | `wix:wix-design-system` | bench | Component reference for Wix product interfaces; platform-specific implementation support. |

@@ -31,9 +31,9 @@ Coverage counts cards against registry leads and specialists, including aliases 
 | Department | Cards | Lead/specialist tools | Coverage |
 | --- | ---: | ---: | ---: |
 | [Advertising](advertising.md) | 31 | 31 | 100.0% |
-| [Design](design.md) | 179 | 179 | 100.0% |
-| [Engineering](engineering.md) | 200 | 200 | 100.0% |
-| [Labs](labs.md) | 9 | 9 | 100.0% |
+| [Design](design.md) | 186 | 186 | 100.0% |
+| [Engineering](engineering.md) | 202 | 202 | 100.0% |
+| [Labs](labs.md) | 10 | 10 | 100.0% |
 | [Marketing](marketing.md) | 99 | 99 | 100.0% |
 | [Media](media.md) | 47 | 47 | 100.0% |
 | [Operations](operations.md) | 177 | 177 | 100.0% |
