@@ -1907,6 +1907,29 @@
     },
     {
       "account_decision": null,
+      "audit_class": "FETCH",
+      "class": "FETCH",
+      "id": "pack-forrestchang-andrej-karpathy-skills-mit",
+      "installer_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "installer_pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "kind": "skill-pack",
+      "licence": "MIT",
+      "licence_scope": "pinned-commit",
+      "notices": [],
+      "pin_status": "pinned",
+      "pinned_ref": [
+        "2c606141936f1eeef17fa3043a72095b4765b9c2"
+      ],
+      "reason": "MIT declared in the upstream README and SKILL.md frontmatter; no LICENSE file at the pinned commit (flagged for review).",
+      "tool_count": 1,
+      "tool_ids": [
+        "skill:karpathy-guidelines"
+      ],
+      "upstream_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "versions": []
+    },
+    {
+      "account_decision": null,
       "audit_class": "VENDOR",
       "class": "EXISTING",
       "id": "pack-founder-3rdwrong-skills",
@@ -2147,6 +2170,29 @@
         "skill:gsap-utils"
       ],
       "upstream_url": "https://github.com/greensock/gsap-skills",
+      "versions": []
+    },
+    {
+      "account_decision": null,
+      "audit_class": "FETCH",
+      "class": "FETCH",
+      "id": "pack-jcodesmore-ai-website-cloner-template-mit",
+      "installer_commit": "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb",
+      "installer_pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "kind": "skill-pack",
+      "licence": "MIT",
+      "licence_scope": "pinned-commit",
+      "notices": [],
+      "pin_status": "pinned",
+      "pinned_ref": [
+        "ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb"
+      ],
+      "reason": "MIT LICENSE file present at the pinned commit; only the clone-website skill folder is installed, study use only.",
+      "tool_count": 1,
+      "tool_ids": [
+        "skill:ai-website-cloner-template"
+      ],
+      "upstream_url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "versions": []
     },
     {
@@ -2581,6 +2627,29 @@
     },
     {
       "account_decision": null,
+      "audit_class": "FETCH",
+      "class": "FETCH",
+      "id": "pack-tt-a1i-archify-mit",
+      "installer_commit": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
+      "installer_pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "kind": "skill-pack",
+      "licence": "MIT",
+      "licence_scope": "pinned-commit",
+      "notices": [],
+      "pin_status": "pinned",
+      "pinned_ref": [
+        "25cf37080fc8b1dbe758a4efc3935b55f3327083"
+      ],
+      "reason": "MIT LICENSE at the pinned commit; only the archify/ skill folder is installed. Ships bin/ and renderer sources, which run only when invoked; no install hook runs.",
+      "tool_count": 1,
+      "tool_ids": [
+        "skill:archify"
+      ],
+      "upstream_url": "https://github.com/tt-a1i/archify",
+      "versions": []
+    },
+    {
+      "account_decision": null,
       "audit_class": "VENDOR",
       "class": "VENDOR",
       "id": "pack-vercel-labs-agent-skills-mit",
@@ -2748,6 +2817,52 @@
         "skill:workflow"
       ],
       "upstream_url": "https://github.com/vercel/vercel-plugin",
+      "versions": []
+    },
+    {
+      "account_decision": null,
+      "audit_class": "FETCH",
+      "class": "FETCH",
+      "id": "pack-voltagent-awesome-design-md-mit",
+      "installer_commit": "3b605329240ce735b510037cca322f1831fdd7f8",
+      "installer_pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "kind": "skill-pack",
+      "licence": "MIT",
+      "licence_scope": "pinned-commit",
+      "notices": [],
+      "pin_status": "pinned",
+      "pinned_ref": [
+        "3b605329240ce735b510037cca322f1831fdd7f8"
+      ],
+      "reason": "Reference library; MIT LICENCE file present at the pinned commit. Read through the awesome-design-md wrapper.",
+      "tool_count": 1,
+      "tool_ids": [
+        "reference:awesome-design-md-library"
+      ],
+      "upstream_url": "https://github.com/voltagent/awesome-design-md",
+      "versions": []
+    },
+    {
+      "account_decision": null,
+      "audit_class": "FETCH",
+      "class": "FETCH",
+      "id": "pack-zarazhangrui-frontend-slides-mit",
+      "installer_commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "installer_pin_basis": "explicit public installation snapshot; not proof of installed identity",
+      "kind": "skill-pack",
+      "licence": "MIT",
+      "licence_scope": "pinned-commit",
+      "notices": [],
+      "pin_status": "pinned",
+      "pinned_ref": [
+        "9906a34d640d2111f724544cbc50f7f130569ae1"
+      ],
+      "reason": "MIT LICENSE file present at the pinned commit.",
+      "tool_count": 1,
+      "tool_ids": [
+        "skill:frontend-slides"
+      ],
+      "upstream_url": "https://github.com/zarazhangrui/frontend-slides",
       "versions": []
     },
     {

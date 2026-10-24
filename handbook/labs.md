@@ -12,13 +12,15 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/labs.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **9/9 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **10/10 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Experiments
 
 ### Effect studies
 
 - **Lead:** [`skill:3w-effect-study`](../toolkit/cards/labs/experiments/skill--3w-effect-study.md) — The studio's lead tool for effect studies: re-authors a parked effect recipe or captured technique as an original technique card, measured against the D-0023 budget.
+- **Specialist:** [`skill:ai-website-cloner-template`](../toolkit/cards/labs/experiments/skill--ai-website-cloner-template.md) — A Labs-only skill for deconstructing a reference website into its structure, behaviour and motion, so the studio can study how an effect is built.
+  Trigger: Use when deconstructing a reference website (cloning, replication or reverse engineering, including animated pages) for study only; never ship cloned layouts, assets or code in client work.
 
 ### Playable prototypes
 

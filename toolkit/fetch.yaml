@@ -67,6 +67,23 @@ packages:
     the pinned upstream README for service credentials, native runtimes and optional
     runtime setup.
   component_only: false
+- id: pack-forrestchang-andrej-karpathy-skills-mit
+  upstream_url: https://github.com/forrestchang/andrej-karpathy-skills
+  commit: 2c606141936f1eeef17fa3043a72095b4765b9c2
+  licence: MIT
+  pin_basis: explicit public installation snapshot; not proof of installed identity
+  destination: ~/.3rdwrong/fetch/pack-forrestchang-andrej-karpathy-skills-mit
+  what_to_install:
+  - id: skill:karpathy-guidelines
+    kind: skill
+    role: specialist
+    candidates:
+    - skills/karpathy-guidelines
+    upstream_name: karpathy-guidelines
+  runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
+    the pinned upstream README for service credentials, native runtimes and optional
+    runtime setup.
+  component_only: false
 - id: pack-garrytan-gstack-mit
   upstream_url: https://github.com/garrytan/gstack
   commit: d258bcffb0cb7bda5f133f3e957f932d816d282f
@@ -480,6 +497,23 @@ packages:
     the pinned upstream README for service credentials, native runtimes and optional
     runtime setup.
   component_only: false
+- id: pack-jcodesmore-ai-website-cloner-template-mit
+  upstream_url: https://github.com/JCodesMore/ai-website-cloner-template
+  commit: ee3f5a2f31fd549b9593fa4f7cf6d2955ee593bb
+  licence: MIT
+  pin_basis: explicit public installation snapshot; not proof of installed identity
+  destination: ~/.3rdwrong/fetch/pack-jcodesmore-ai-website-cloner-template-mit
+  what_to_install:
+  - id: skill:ai-website-cloner-template
+    kind: skill
+    role: specialist
+    candidates:
+    - .agents/skills/clone-website
+    upstream_name: clone-website
+  runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
+    the pinned upstream README for service credentials, native runtimes and optional
+    runtime setup.
+  component_only: false
 - id: pack-mengto-skills-mit
   upstream_url: https://github.com/MengTo/Skills
   commit: 398cd41c86ba42fbb30e944ae507f463648f08b7
@@ -586,14 +620,7 @@ packages:
   licence: unknown
   pin_basis: audit installer_commit
   destination: ~/.3rdwrong/fetch/pack-nextlevelbuilder-ui-ux-pro-max-skill-unknown
-  what_to_install:
-  - id: ui-ux-pro-max:ui-styling
-    kind: skill
-    role: bench
-    candidates:
-    - .claude/skills/ui-styling
-    - cli/assets/skills/ui-styling
-    upstream_name: ui-styling
+  what_to_install: []
   runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
     the pinned upstream README for service credentials, native runtimes and optional
     runtime setup.
@@ -634,13 +661,24 @@ packages:
   licence: MIT
   pin_basis: audit installer_commit
   destination: ~/.3rdwrong/fetch/pack-superdesigndev-superdesign-skill-mit
+  what_to_install: []
+  runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
+    the pinned upstream README for service credentials, native runtimes and optional
+    runtime setup.
+  component_only: false
+- id: pack-tt-a1i-archify-mit
+  upstream_url: https://github.com/tt-a1i/archify
+  commit: 25cf37080fc8b1dbe758a4efc3935b55f3327083
+  licence: MIT
+  pin_basis: explicit public installation snapshot; not proof of installed identity
+  destination: ~/.3rdwrong/fetch/pack-tt-a1i-archify-mit
   what_to_install:
-  - id: superdesign:superdesign
+  - id: skill:archify
     kind: skill
-    role: bench
+    role: specialist
     candidates:
-    - skills/superdesign
-    upstream_name: superdesign
+    - archify
+    upstream_name: archify
   runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
     the pinned upstream README for service credentials, native runtimes and optional
     runtime setup.
@@ -675,6 +713,40 @@ packages:
     candidates:
     - skills/find-skills
     upstream_name: find-skills
+  runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
+    the pinned upstream README for service credentials, native runtimes and optional
+    runtime setup.
+  component_only: false
+- id: pack-voltagent-awesome-design-md-mit
+  upstream_url: https://github.com/voltagent/awesome-design-md
+  commit: 3b605329240ce735b510037cca322f1831fdd7f8
+  licence: MIT
+  pin_basis: explicit public installation snapshot; not proof of installed identity
+  destination: ~/.3rdwrong/fetch/pack-voltagent-awesome-design-md-mit
+  what_to_install:
+  - id: reference:awesome-design-md-library
+    kind: reference
+    role: parked
+    candidates:
+    - design-md
+    upstream_name: awesome-design-md
+  runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
+    the pinned upstream README for service credentials, native runtimes and optional
+    runtime setup.
+  component_only: false
+- id: pack-zarazhangrui-frontend-slides-mit
+  upstream_url: https://github.com/zarazhangrui/frontend-slides
+  commit: 9906a34d640d2111f724544cbc50f7f130569ae1
+  licence: MIT
+  pin_basis: explicit public installation snapshot; not proof of installed identity
+  destination: ~/.3rdwrong/fetch/pack-zarazhangrui-frontend-slides-mit
+  what_to_install:
+  - id: skill:frontend-slides
+    kind: skill
+    role: specialist
+    candidates:
+    - .
+    upstream_name: frontend-slides
   runtime_setup: Source checkout only. No third-party setup hooks are executed. Read
     the pinned upstream README for service credentials, native runtimes and optional
     runtime setup.

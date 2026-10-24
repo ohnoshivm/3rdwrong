@@ -3,13 +3,13 @@ title: Frontend Design
 type: tool-card
 status: proposed
 owner: founder
-last_reviewed: 2026-10-23
+last_reviewed: 2026-10-24
 tool_id: frontend-design:frontend-design
 department: design
 sub_department: experience-design
 job: ui-design
-role: lead
-trigger: ""
+role: specialist
+trigger: "Use when building new UI or reshaping an existing one, to get distinctive, intentional visual design rather than templated defaults."
 kind: skill
 availability: both
 distribution: vendor
@@ -19,7 +19,7 @@ pairs_with: [skill:designing-frontend-interfaces, skill:designing-user-experienc
 ---
 # Frontend Design
 
-The experience-design lead for `ui-design` is Frontend Design, which leads distinctive visual design for new or reshaped interfaces, grounded in the specific subject and brief.
+Frontend Design is the experience-design specialist for `ui-design` (demoted from lead on 2026-10-24; `skill:impeccable` now leads). Use it when building new UI or reshaping an existing one, for distinctive visual design grounded in the specific subject and brief.
 
 ## What it does
 

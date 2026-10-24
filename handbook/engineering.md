@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/engineering.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **200/200 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **202/202 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Creative engineering
 
@@ -159,6 +159,8 @@ Card coverage: **200/200 (100.0%)** lead/specialist tools. Start with the lead; 
   Trigger: Use for an independent second review when engineering:code-review did not author the change; keep reviewer separate from maker.
 - **Specialist:** [`skill:best-practices`](../toolkit/cards/engineering/engineering-qa-security/skill--best-practices.md) — The studio's specialist tool for code review: Apply modern web development best practices for security, compatibility, and code quality.
   Trigger: Use for tasks involving Apply modern web development best practices for security, compatibility, and code quality.
+- **Specialist:** [`skill:karpathy-guidelines`](../toolkit/cards/engineering/engineering-qa-security/skill--karpathy-guidelines.md) — A behavioural guideline for coding agents: avoid overcomplication, make surgical changes, surface assumptions and define verifiable success criteria before editing.
+  Trigger: Use when any build agent writes, reviews or refactors code, to avoid overcomplication, make surgical changes, surface assumptions and define verifiable success criteria.
 
 ### Codebase analysis
 
@@ -245,6 +247,8 @@ Card coverage: **200/200 (100.0%)** lead/specialist tools. Start with the lead; 
 - **Lead:** [`agency:engineering-software-architect`](../toolkit/cards/engineering/engineering-qa-security/agency--engineering-software-architect.md) — The studio's lead tool for technical architecture: Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems.
 - **Specialist:** [`agency:specialized-master-plan-architect`](../toolkit/cards/engineering/engineering-qa-security/agency--specialized-master-plan-architect.md) — The studio's specialist tool for technical architecture: Master planning architect, technical educator, and ruthless plan critic who specializes in deep architectural teaching, Red Teaming / risk critique, and crafting comprehensive Implementation Plans in Markdown with ZERO code execution.
   Trigger: Use for engineering/engineering-qa-security/technical-architecture when the brief specifically requires: Master planning architect, technical educator, and ruthless plan critic who specializes in deep architectural teaching, Red Teaming / risk critique, and crafting comprehensive Implementation Plans in Markdown with ZERO code execution .
+- **Specialist:** [`skill:archify`](../toolkit/cards/engineering/engineering-qa-security/skill--archify.md) — A specialist for drawing technical diagrams as checked, standalone HTML: architecture, workflow, sequence, data-flow, lifecycle, ERD, class, tree, timeline and waterfall.
+  Trigger: Use when creating validated architecture, workflow, sequence, data-flow, lifecycle, ERD or class diagrams as explorable standalone HTML.
 
 ### Test engineering
 

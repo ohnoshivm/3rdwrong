@@ -22,8 +22,8 @@
         "packages": 42
       }
     },
-    "fetch_packages": 20,
-    "fetch_tool_ids": 199,
+    "fetch_packages": 25,
+    "fetch_tool_ids": 204,
     "manual_packages": 201,
     "manual_tool_ids": 480,
     "plugins": 12,
@@ -1477,11 +1477,11 @@
       "sha256": "08c713cf10fbd4661644c1438b318b436c96168d2ad4c3e42d0aaf81252a7bfc"
     },
     {
-      "bytes": 1942,
+      "bytes": 2226,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/THIRD_PARTY_NOTICES.md",
-      "sha256": "73cad3d9a84619cccd5060b6b0e674ee8cfff36a85d76fc019934947467f62ca"
+      "sha256": "d76c4f0b7695f45e3c248ec05d021b22219029c6a2637d27cd56b2a784e7785e"
     },
     {
       "bytes": 11641,
@@ -1671,6 +1671,13 @@
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/notices/Agency-Agents.md",
       "sha256": "b0e003f83555b8b025b95b26b1faad092ec08fa0f17f1ff0c6b511330a16c7ae"
+    },
+    {
+      "bytes": 18657,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/LICENSE-DOCS",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
     },
     {
       "bytes": 11347,
@@ -2772,6 +2779,20 @@
       "sha256": "e49daf61e99be56af003b83901d70e02d76e0e3c8e84540677d78bb81a4a97e7"
     },
     {
+      "bytes": 10766,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/pack-pbakaus-impeccable-apache-2.0/0-02bb8c3b4e70-LICENSE",
+      "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812"
+    },
+    {
+      "bytes": 503,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/pack-pbakaus-impeccable-apache-2.0/1-c60a093c2845-NOTICE.md",
+      "sha256": "c60a093c2845fd9fb82f9c6f742ece31f379f8190b535309d32d66c45ccffdcb"
+    },
+    {
       "bytes": 1065,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
@@ -2847,6 +2868,41 @@
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/notices/plugin-account-synced-design-superpowers-marketplace/3-b0b05e6a7e53-README.md",
       "sha256": "b0b05e6a7e537153d56edb96c56c13d300b8ddc76208087e181bf13ae9340af3"
+    },
+    {
+      "bytes": 1086,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/plugin-account-synced-superdesign-marketplace/0-LICENSE",
+      "sha256": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab"
+    },
+    {
+      "bytes": 969,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/plugin-account-synced-superdesign-marketplace/1-db8393e1bfc0-plugin.json",
+      "sha256": "db8393e1bfc0229a975f68572e5cf50fecb53508a11944f2d07f2f848f768a2e"
+    },
+    {
+      "bytes": 1912,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/plugin-account-synced-superdesign-marketplace/2-530bafa2c47e-plugin.json",
+      "sha256": "530bafa2c47e69c2cf7775652c6c90d031faddf5446264e4e1ed4fe26c0a40a4"
+    },
+    {
+      "bytes": 854,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/plugin-account-synced-superdesign-marketplace/3-315254c6fb6d-package.json",
+      "sha256": "315254c6fb6d1bbe25ce725617a5bc6cc3c748f1c919988468ccde0d4f1a4fa1"
+    },
+    {
+      "bytes": 1086,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/notices/plugin-account-synced-superdesign-marketplace/4-40ef0633533b-LICENSE",
+      "sha256": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab"
     },
     {
       "bytes": 1066,
@@ -3675,6 +3731,13 @@
       "sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7"
     },
     {
+      "bytes": 2777,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-awesome-design-md/SKILL.md",
+      "sha256": "b29d898a130eab013b2c28b76a584ba38f22fb0749d17e3f60eb58de3058d40e"
+    },
+    {
       "bytes": 11347,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
@@ -3762,6 +3825,20 @@
       "bytes": 1070,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-emil-design-eng/LICENSE.upstream",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
+    },
+    {
+      "bytes": 27123,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-emil-design-eng/SKILL.md",
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939"
+    },
+    {
+      "bytes": 1070,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-find-animation-opportunities/LICENSE.upstream",
       "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b"
     },
@@ -3771,6 +3848,405 @@
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-find-animation-opportunities/SKILL.md",
       "sha256": "d52a377819b84a71930f0c822cfe2849f40301605a2d5c7eccbfa3b257700df2"
+    },
+    {
+      "bytes": 12015,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/SKILL.md",
+      "sha256": "f6f412bd840dd6e96ed94cc4294c9216305b50a0a66fbaeab5f8ddf148d3e85a"
+    },
+    {
+      "bytes": 11313,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/adapt.md",
+      "sha256": "5826bb4bca75d7b891bed17ff03bd3b685dff0e4f26d387fa6190d4ba3f065e4"
+    },
+    {
+      "bytes": 3910,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/adapt.native.md",
+      "sha256": "acbeecbcbf6558d438ed4aec6b85027d72587bf181b8ae12d4dfbe8dce62e9a5"
+    },
+    {
+      "bytes": 4093,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/android.md",
+      "sha256": "058f81f256134841875fd3183e06b37a023de0c877fd2b9eecd97011640791fe"
+    },
+    {
+      "bytes": 5236,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/animate.md",
+      "sha256": "94b4ce6299fea93d9f256b2d25705961a76bc5ea940c56db4145686ebc99df1b"
+    },
+    {
+      "bytes": 9252,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/audit.md",
+      "sha256": "b037edb616956fea88ff2ddde9d8bdc0202ed53bb8daa93864ca7382b6adb8cf"
+    },
+    {
+      "bytes": 8326,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/audit.native.md",
+      "sha256": "33a4ac3906140cfd73f65cd35026867e261adf411da0fc6da95770d9b6edeb81"
+    },
+    {
+      "bytes": 3492,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/bolder.md",
+      "sha256": "54ab55cc79d95c839ffc11f0559b74e509746fc82aad86399ac23697dec1331e"
+    },
+    {
+      "bytes": 4590,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/clarify.md",
+      "sha256": "6c382f8283756e8a693d832b750f7e4cbff1ca5bdcc3825b2b4ef4da9f21876a"
+    },
+    {
+      "bytes": 4537,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/colorize.md",
+      "sha256": "d1fbd55074abb2251bdaa03749d34acc42c38e46e47549f18f5848df57d43c42"
+    },
+    {
+      "bytes": 8035,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/component-review.md",
+      "sha256": "3c5dc3e7993388c8a7a6f4992a88b53bc91cd2b511f8d4da72d277664ca61936"
+    },
+    {
+      "bytes": 4486,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/craft-floor.md",
+      "sha256": "f204158e35616d8d5f0dad8087ee3f1f91c0fe1337fde6e3cf616a51b496822a"
+    },
+    {
+      "bytes": 555,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/craft.md",
+      "sha256": "9205e222bc6565b37fb504ceec93233c2d2a456802b69d16e6b1c44723907c4c"
+    },
+    {
+      "bytes": 45645,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/critique.md",
+      "sha256": "60439b0bde23b17943d7037259fc6a4be854c1396e48dfdf08268b08746ebc56"
+    },
+    {
+      "bytes": 8437,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/degraded/asset-producer.md",
+      "sha256": "663e134a066dfe794a53a9968db408bc7fb6c1d2f3d86736aea0fbe138012fb1"
+    },
+    {
+      "bytes": 3325,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/degraded/documenter.md",
+      "sha256": "bcc05ea92faebb5c74037a9d4263a5ce9a56f5ab07c8ab3c59ee704d8cade745"
+    },
+    {
+      "bytes": 15803,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/degraded/finish-reviewer.md",
+      "sha256": "c33c4cfa7f0ce0bedde80d4fc3b595e747d0e9b43a77f06cacb8e899802f709d"
+    },
+    {
+      "bytes": 7196,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/degraded/manual-edit-applier.md",
+      "sha256": "5fae7f8a2fc3ddd49ad0a413446dc44daedef5b6b7de5eb935bd2fbfad646d58"
+    },
+    {
+      "bytes": 3716,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/delight.md",
+      "sha256": "56500b1f9d2fcec8324d7f448d813048b5831a46d3feeb1055bd3eb17ec3660f"
+    },
+    {
+      "bytes": 5574,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/distill.md",
+      "sha256": "cec606d202d443b40e528ceed4474c9fe1ca78be24e0aa6cbdb4c233c8ec32c0"
+    },
+    {
+      "bytes": 5567,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/doctor.md",
+      "sha256": "f3e48472a00f01f2caa2a3b8e5b04366d81c59381ed21db2d98ca86a8e6e6d5a"
+    },
+    {
+      "bytes": 27449,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/document.md",
+      "sha256": "5bebeba8ea3583371a1c85db4d6c173603c60cca5a4cc80291703b5295d50db1"
+    },
+    {
+      "bytes": 3332,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/extract.md",
+      "sha256": "ad27ebbc89e3327362602757e82ff623ebecd547e0712b07507cdf2078143b92"
+    },
+    {
+      "bytes": 13159,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/generate.md",
+      "sha256": "8a5c63fb112c6d4f824d7d05c21ce6128e39414ee0db3348c0ec749aad1422a9"
+    },
+    {
+      "bytes": 9305,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/harden.md",
+      "sha256": "035c4b02adc17df27b2b42142368052053bf19675b5e1639dab298dc45e4ebca"
+    },
+    {
+      "bytes": 14107,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/hooks.md",
+      "sha256": "557734bc078d2ab4edd3994f1db6f8a27851e45620eda6c0ca321c426b44fabf"
+    },
+    {
+      "bytes": 11692,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/init.md",
+      "sha256": "3fc3572e13dd8439cb107c57620bfed1151c7485df7c379f390478a72c5e149c"
+    },
+    {
+      "bytes": 3812,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/ios.md",
+      "sha256": "40c87038b5f75147a5952a96237acf312a327bf70c1bcd8e0a5f064625ae9668"
+    },
+    {
+      "bytes": 5163,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/layout.md",
+      "sha256": "86d10faab62da852aa1f4304157871545c853da708b6fe61c80aefb552c1f300"
+    },
+    {
+      "bytes": 8188,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/live-setup.md",
+      "sha256": "a4cfd2330c8cca94b62986679b3f9e3bb9ada0cb30c2c63c5d19c6039f5a45ae"
+    },
+    {
+      "bytes": 36575,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/live.md",
+      "sha256": "5afc2a31a501436c29e694dab41c7cd06aca33c90f3a910573c662b5c0bb4f37"
+    },
+    {
+      "bytes": 4716,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/mode-operate.md",
+      "sha256": "7a52dd7a94ee75f6ae89542c86a1b6e1d306812b16e0d9dbf12d4acad44d148b"
+    },
+    {
+      "bytes": 3638,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/mode-persuade.md",
+      "sha256": "21e78c8a77badb3f83290cd4577ed3b24bd4dd3b57136d7da75733d4f3ee9ac0"
+    },
+    {
+      "bytes": 4396,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/mode-read.md",
+      "sha256": "a569989e6a3d6453b4c45e9474e162a15cc54e11732ac6baa7990a6e7cccc0b5"
+    },
+    {
+      "bytes": 61804,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/new-work.md",
+      "sha256": "29ee3bc1ff6003cc2a795359272cf14b7583474b75f3edcb3c145cc2af13ed14"
+    },
+    {
+      "bytes": 7688,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/onboard.md",
+      "sha256": "eb713f3d6686bac6431dd874f7b02358b4cf08e879e11bf747d75660dedd685a"
+    },
+    {
+      "bytes": 4145,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/operate.md",
+      "sha256": "a9d2203acd45ca33a13d5c68b02b23ed512425ac15f0e8438318ed124b43729d"
+    },
+    {
+      "bytes": 7594,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/optimize.md",
+      "sha256": "fb4014a4482231fbbbec71691d94aef854a1ea5380dbd7963074d14a0e579fdb"
+    },
+    {
+      "bytes": 9005,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/overdrive.md",
+      "sha256": "a917118e79c5895f904572413283ea7ce3befa75d512bae7daa57aba83fc5f00"
+    },
+    {
+      "bytes": 6650,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/polish.md",
+      "sha256": "4b0e2eea17f297daa06b17578131775be099ef43addf91007f4b7e295454f64f"
+    },
+    {
+      "bytes": 4946,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/quieter.md",
+      "sha256": "4a8016b32a722b61c34be53a71b1e680fc7eb11ec93da72592a8d300bd2ac215"
+    },
+    {
+      "bytes": 3367,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/region-map.md",
+      "sha256": "f5efb1b1dd4cd18e1d4789d7c8e0188f4342b25fffd53af6088ba8b67774fb99"
+    },
+    {
+      "bytes": 3340,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/routing.md",
+      "sha256": "1c6258015ed02c522948f8f1a3b6457395a8f7954497b87c1cd83f1791f9f819"
+    },
+    {
+      "bytes": 3547,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/shape.md",
+      "sha256": "a55f016c046cb6a27c55bd7f346375aeb506a755c4fbca19a5f92dbd42309c23"
+    },
+    {
+      "bytes": 6265,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/typeset.md",
+      "sha256": "e3beebc6ce8a3c44e7c2e1f94b52a5604494d16aa494faa3efa2f507673aff92"
+    },
+    {
+      "bytes": 13920,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/reference/visualize.md",
+      "sha256": "d250e823e9a641cace25cabdaa4a67e26bf5e21d90063831684e91aa74bb76e6"
+    },
+    {
+      "bytes": 7,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/VERSION",
+      "sha256": "7470694a0b5af87394b523c1a640e2ad099efbe0e6d9e6d2f7a70703e4d04457"
+    },
+    {
+      "bytes": 8392,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/command-metadata.json",
+      "sha256": "e8720f3aa41135211cc58cc299a39eeda86c75651f4279cc1ede8db10dcc0584"
+    },
+    {
+      "bytes": 2437,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/data/font-index-failures.json",
+      "sha256": "835f19a0a3812f3652dd6979a2ce5597f654fd01f26e1b420b92d5f42b997ce4"
+    },
+    {
+      "bytes": 1100013,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/data/font-index.json",
+      "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da"
+    },
+    {
+      "bytes": 8827,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/impeccable",
+      "sha256": "f5d9fcd37559ed6af782306f71b7688ad1ec5e1a4f8ae1ef4d3168f42523b1b1"
+    },
+    {
+      "bytes": 9306,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/impeccable.cmd",
+      "sha256": "e0dcc4cd739c8a6ac9e8ce637c216cf8bd4ddae36a8bac458345bdb5a5d7e252"
+    },
+    {
+      "bytes": 12283,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/live-browser-dom.js",
+      "sha256": "4b379aff87ce0f485008a2b6a0dc711d00a869f5cf0ec2459279d6364fbf0c9e"
+    },
+    {
+      "bytes": 10346,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/live-browser-ignores.js",
+      "sha256": "c1cb6877ca99a0c1b38ba0c7d59f32702d3022f6821d8045f7133f7c40b6362f"
+    },
+    {
+      "bytes": 5751,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/live-browser-session.js",
+      "sha256": "2b45c12bef4e25d40b673044c9f124d1da6dfa72ef3f0c09ff30fdb419048e5d"
+    },
+    {
+      "bytes": 550029,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/live-browser.js",
+      "sha256": "8f26a309ae1af52d2413a39a886908721e78c55b468025054e06e8faffe90cf0"
+    },
+    {
+      "bytes": 29290,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-skill-impeccable/scripts/modern-screenshot.umd.js",
+      "sha256": "bb36665889124a0b6e15f16045265737449c3bdcf2712cdb08af3cfa01563e2b"
     },
     {
       "bytes": 7387,
@@ -4214,6 +4690,34 @@
       "sha256": "df8f4d1e166e4cca4d01a60f28a1ecf35ce45787669a79008ea0cad1ec709f9f"
     },
     {
+      "bytes": 10996,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-stitch-design-generate-design/SKILL.md",
+      "sha256": "d03d2de3a0cefbde2ca7b8cdc2c96e8164a8b9400fe3a9b97a3aa6ce37ee638d"
+    },
+    {
+      "bytes": 1704,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-stitch-design-generate-design/examples/enhanced-prompt.md",
+      "sha256": "8ca345151e70d6067bd460fc63fcbd455d60cc87f066e7c70160e3f277f857f5"
+    },
+    {
+      "bytes": 2330,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-stitch-design-generate-design/references/design-mappings.md",
+      "sha256": "add62a31b8507d7ce22f345f0104725962f0c62a484d4ff975821cefb28ad10b"
+    },
+    {
+      "bytes": 2798,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-stitch-design-generate-design/references/prompt-keywords.md",
+      "sha256": "8ca5c0cf251a6801d0bdccf5cf59271be172f7c2fd83b298c54d9b3ceb498fdf"
+    },
+    {
       "bytes": 5663,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
@@ -4275,6 +4779,97 @@
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/skills/3w-stitch-utilities-taste-design/resources/DESIGN.md",
       "sha256": "d6bd72a44725e0d8fe40642559863c4c2eae5e4a6bd3b5f204d1cc0c7c5482fa"
+    },
+    {
+      "bytes": 438,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/INIT.md",
+      "sha256": "fa40e7c282d2520544167084d21a8b277e13a6ea299058c5021dd793f86c99c7"
+    },
+    {
+      "bytes": 16532,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/SKILL.md",
+      "sha256": "f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567"
+    },
+    {
+      "bytes": 459,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/SUPERDESIGN.md",
+      "sha256": "b243e0dba9889115c8b363ebe6e1b3b286b59c54293b76927e78a3febabea610"
+    },
+    {
+      "bytes": 192,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/agents/openai.yaml",
+      "sha256": "0e1c60a46d7837a3b47fb5a034d9b210b06af8fef7b33090122f9672ca5abb84"
+    },
+    {
+      "bytes": 6377,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/ASSET_GENERATION.md",
+      "sha256": "655fdb83dc3d9603dcf34229f7dc37973275e9484eb4eef75fc8acc6313cb572"
+    },
+    {
+      "bytes": 4756,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/COMPONENTS.md",
+      "sha256": "03935ff4b869327b31146cf7ee7020aa90044b6921567f96d4180810685bf7fb"
+    },
+    {
+      "bytes": 16510,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/GRAPHIC.md",
+      "sha256": "873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092"
+    },
+    {
+      "bytes": 8379,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/INIT.md",
+      "sha256": "b262b4dc10705eac6caeaa7f55cae1814a71b186667d27b6a89ed776ef9f48ec"
+    },
+    {
+      "bytes": 13362,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/PRESENTATION.md",
+      "sha256": "1e090e67e94d544aff8d5bb99d1aa36f11cc745b45ad6cfef65c734efa038639"
+    },
+    {
+      "bytes": 21554,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/RESUME.md",
+      "sha256": "84c7b05038bb81f5c8067f385923be09f17ef2fe10c872504bbab3ab6986c3da"
+    },
+    {
+      "bytes": 48403,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/SUPERDESIGN.md",
+      "sha256": "cecaa6ca1ef8ce39430f7f2c8d786e744e6c2a3eda2fde780d22f8162c04f791"
+    },
+    {
+      "bytes": 4648,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/WEBSITE.md",
+      "sha256": "5cd4a0fd36249bd18c1f6d2f683b3c9d96c9d136fa7a7ba5832966b09e16b4fe"
+    },
+    {
+      "bytes": 3193,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-superdesign-superdesign/references/design-with-your-model.md",
+      "sha256": "986f7dcab61a5d5ad74dfdb6c4c6b43378c4887cd776719b944233aed9c40cf2"
     },
     {
       "bytes": 1075,
@@ -4625,6 +5220,307 @@
       "package": "3rdwrong-design",
       "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-design-system/templates/design-tokens-starter.json",
       "sha256": "5444f477b06bab9c72e2cc289d4a9104efef653391c9639972bcb712d5f2d81e"
+    },
+    {
+      "bytes": 11357,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/LICENSE.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "bytes": 10945,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/SKILL.md",
+      "sha256": "625e302c60ee8f2e22d56cbe638c4a739e2657f566dae42689503ad517c30f1e"
+    },
+    {
+      "bytes": 4373,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/ArsenalSC-OFL.txt",
+      "sha256": "8ddd61b18ba2c0d0dbe4a691cf5f1a0673f473d02fa0546e67ee88c006aeff6e"
+    },
+    {
+      "bytes": 4397,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/BigShoulders-OFL.txt",
+      "sha256": "fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f"
+    },
+    {
+      "bytes": 4390,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Boldonse-OFL.txt",
+      "sha256": "45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326"
+    },
+    {
+      "bytes": 4403,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/BricolageGrotesque-OFL.txt",
+      "sha256": "0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4"
+    },
+    {
+      "bytes": 4394,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/CrimsonPro-OFL.txt",
+      "sha256": "35680d14547b6748b6f362a052a46d22764ce5eccf96e18b74f567bb2ee58114"
+    },
+    {
+      "bytes": 4392,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/DMMono-OFL.txt",
+      "sha256": "bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3"
+    },
+    {
+      "bytes": 4410,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/EricaOne-OFL.txt",
+      "sha256": "e0de629968b52255548d5fafcf30b24ff9edae0eda362380755a75816404d0fa"
+    },
+    {
+      "bytes": 4388,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/GeistMono-OFL.txt",
+      "sha256": "6a873c900f584109b13ae0aaf81d6e3cf0a68751a216b03f7b6c68d547057bb4"
+    },
+    {
+      "bytes": 4381,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Gloock-OFL.txt",
+      "sha256": "c0a3f3125ac491ef3d1f09f401be4834c646562f647e44f2bcbc49f0466c656d"
+    },
+    {
+      "bytes": 4363,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/IBMPlexMono-OFL.txt",
+      "sha256": "5294ce778857e1eb02e830b6ab06435537d38f43055327e73d03a2d4d57d5123"
+    },
+    {
+      "bytes": 4403,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/InstrumentSans-OFL.txt",
+      "sha256": "bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5"
+    },
+    {
+      "bytes": 4394,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Italiana-OFL.txt",
+      "sha256": "8373b11312ace78c4cec2e8f9f6aa9f2330601107dac7bcf899c6f2dbd40c5a5"
+    },
+    {
+      "bytes": 4399,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/JetBrainsMono-OFL.txt",
+      "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
+    },
+    {
+      "bytes": 4380,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Jura-OFL.txt",
+      "sha256": "eaf9bdb675f6d87e5feb88199ab3ea581d3bd2082f426e384fa9c394576d7260"
+    },
+    {
+      "bytes": 4449,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/LibreBaskerville-OFL.txt",
+      "sha256": "55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343"
+    },
+    {
+      "bytes": 4423,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Lora-OFL.txt",
+      "sha256": "62e37a82d3f1ef2a70712885fa8b3144b65fd144d8e748d6196b690a354d792c"
+    },
+    {
+      "bytes": 4399,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/NationalPark-OFL.txt",
+      "sha256": "81c6c71d83b5b45d7344f96df12bb4a2477a5b092a9144757ee1d0f50f855175"
+    },
+    {
+      "bytes": 4363,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/NothingYouCouldDo-OFL.txt",
+      "sha256": "7c2a6970584ddad04919816163746f83b378078015899b18468b40f05e9ce128"
+    },
+    {
+      "bytes": 4389,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Outfit-OFL.txt",
+      "sha256": "1945b62cd76da9a3051a1660dde72afaa64ffc2666d30e7a78356d651653ba2f"
+    },
+    {
+      "bytes": 4395,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/PixelifySans-OFL.txt",
+      "sha256": "7f54d1d9f1ae1ba9f2722f978145f90324fea34ca3c2304b3a29cfa96ac6037e"
+    },
+    {
+      "bytes": 4366,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/PoiretOne-OFL.txt",
+      "sha256": "2eaf541f7eb8b512e4c757a5212060abf5b6edfef230e9d7640bf736b315c33a"
+    },
+    {
+      "bytes": 4394,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/RedHatMono-OFL.txt",
+      "sha256": "435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8"
+    },
+    {
+      "bytes": 4394,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Silkscreen-OFL.txt",
+      "sha256": "6b849745119bbe85ec01fd080c9cd50234da9f52ac6e48b55d1a424a0c4d7ca9"
+    },
+    {
+      "bytes": 4396,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/SmoochSans-OFL.txt",
+      "sha256": "74c9c4eb88e891483e1b7bc54780b452cbf4f4df66d4e71881d7569aa2130749"
+    },
+    {
+      "bytes": 4385,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/Tektur-OFL.txt",
+      "sha256": "3f1466cb5438f31782eeb6e895f3a655bc4d090e24263e331f555357d1cb734e"
+    },
+    {
+      "bytes": 4397,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/WorkSans-OFL.txt",
+      "sha256": "ace8c22a3326318b54e67c3691857929634205533f454a70ef5a3473ddb2e2ba"
+    },
+    {
+      "bytes": 4398,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/canvas-fonts/YoungSerif-OFL.txt",
+      "sha256": "cdcb8039606b40a027a6d24586ec62d5fe29c701343d82a048c829cb28a3dd28"
+    },
+    {
+      "bytes": 7888,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/canvas-design-system.md",
+      "sha256": "f5de85ff39d9f3a8275c4164b921ba72d5e1d34b8d7a9243d9ee34b3870a4f5f"
+    },
+    {
+      "bytes": 9976,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/shadcn-accessibility.md",
+      "sha256": "a22cd4ccf82b635b2b2c4f12416a0c4f7edcd825d219d6089450fa797a0d9511"
+    },
+    {
+      "bytes": 11155,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/shadcn-components.md",
+      "sha256": "79c4f91cbf68993a43fa3a95889c35db73de45bdd3dfd83a6830863c01aa598a"
+    },
+    {
+      "bytes": 8672,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/shadcn-theming.md",
+      "sha256": "d17d641474221123ff0e0288043ca2f2dab3ac96908a19eed28d82f9e58865ed"
+    },
+    {
+      "bytes": 10171,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/tailwind-customization.md",
+      "sha256": "4c5adeed6263a274f74f6eb2c816ca420fd6ef4f35683582988bacd404799afe"
+    },
+    {
+      "bytes": 8270,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/tailwind-responsive.md",
+      "sha256": "8d00ae620df26daea4623c7bf996d6e612e09d359305fcfa2b40cab757ed840c"
+    },
+    {
+      "bytes": 9980,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/references/tailwind-utilities.md",
+      "sha256": "aba1c40ef84f43beea142ae310371e332541f39d973df90a71f1854823effda1"
+    },
+    {
+      "bytes": 444,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/requirements.txt",
+      "sha256": "09402d2d274248e18bb5fd0a0267fd7cbf99b7a2440e73e87f054aa8f259f9da"
+    },
+    {
+      "bytes": 8799,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/shadcn_add.py",
+      "sha256": "0c11d28ce9f12217df2c3306f24ae1f73527d5116db63707ab55cbe1a8bcf28c"
+    },
+    {
+      "bytes": 15712,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/tailwind_config_gen.py",
+      "sha256": "9a81a5e2780650ab613a87d50ffd5caa9be22533f7bac0f8807a7f7214f26471"
+    },
+    {
+      "bytes": 35121,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/tests/coverage-ui.json",
+      "sha256": "33bdc1f5998db9a38cac8e6128a82711f8f8b65fbb3dcb0c1680ae260441cbce"
+    },
+    {
+      "bytes": 52,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/tests/requirements.txt",
+      "sha256": "80846c98ee02a7e9651ec4eee6709f840b785646b469aad5284ab7ab9b344f17"
+    },
+    {
+      "bytes": 9919,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/tests/test_shadcn_add.py",
+      "sha256": "35f60ac5d74c4a7f950854a0337883c3e8dd812c58fcf6c5153876e43a6effa2"
+    },
+    {
+      "bytes": 19154,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-design",
+      "path": "toolkit/plugins/3rdwrong-design/skills/3w-ui-ux-pro-max-ui-styling/scripts/tests/test_tailwind_config_gen.py",
+      "sha256": "2d044e1a9e67d358e8f7f664eeaa588dbd0ef150daa91cdea71519d8d686e470"
     },
     {
       "bytes": 15969,
@@ -21602,25 +22498,25 @@
       "sha256": "31e89c01ae9f567239673fbd49ffce0a43bba2ad76dea0f7a78761a93895f8e9"
     },
     {
-      "bytes": 254112,
+      "bytes": 255438,
       "licence": "MIT",
       "package": "toolkit-metadata",
       "path": "toolkit/sources/materials.json",
-      "sha256": "d01a7a8f8af706767c9ce2106dee2440ce611936a534053825e221e7dd9f6a04"
+      "sha256": "2df9e206fc1c680a2f9cbbcab352e82e0ceb562c1ed3195910fde634a7c18427"
     },
     {
-      "bytes": 299989,
+      "bytes": 304301,
       "licence": "MIT",
       "package": "toolkit-metadata",
       "path": "toolkit/sources/packages.json",
-      "sha256": "7cacdea2d8288c7877637002ec67a4ac55cd7c183988697baaf1ae0b569691a7"
+      "sha256": "a58ac423afded4c4a706532229af7a27f0b74df27caa58ad41f6bd4420c31386"
     },
     {
-      "bytes": 915061,
+      "bytes": 919064,
       "licence": "MIT",
       "package": "toolkit-metadata",
       "path": "toolkit/sources/registry.json",
-      "sha256": "4d52c01d94cbc0cbe6bb37e258c074185b47eec5612dfa1fd14f9d0cc367b0c6"
+      "sha256": "fb1cfd2712ba5939464bae0c52f12867dca5ce39b6bff7f1d230504c415d5d55"
     },
     {
       "bytes": 60108,
@@ -57054,13 +57950,13 @@
   ],
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
-    "THIRD_PARTY_NOTICES.md": "8c3abfca9e24b17ed6851bb804e426c5cc27d28ff556cbd9dff5b7e49c15ac07",
-    "toolkit/coverage.json": "e7bcbcb203799950be5a77847c95a0cd86a9090953d829d0de61392e32009c6f",
-    "toolkit/fetch.yaml": "04eaf42499bca02f9db6ee0a505214e14fba46c7b86ec857f5a25b786b409c1f",
-    "toolkit/install-plan.json": "1699d01ff5c60efe75096d0baebf6bcdf53ecf0378dc8711efc3b14131deb1bb",
+    "THIRD_PARTY_NOTICES.md": "0d30696cf4ec420ae2a924409c2688249f3039b1fcea22432caae290bfae4276",
+    "toolkit/coverage.json": "76fe1a81f278689456042323a232e15a5af3613dee9d3c067715e1b053b9734f",
+    "toolkit/fetch.yaml": "ad131a534a3bec05786dfda34ffcc25fdff132c74b5d24837ace1da50acb3c04",
+    "toolkit/install-plan.json": "971ac1c8e6042c72c4e7e58d1043eef70b93a304542eb87e2d8e558b5e71fc23",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
-    "toolkit/secret-allowlist.json": "aebcb912c20c41908ee1ce94aa8b057168154e57c3c7a05d738385d8c25533d9"
+    "toolkit/secret-allowlist.json": "1616e24fdb32696e9619763c08e806499d92468b5ae2fe7d76c2492f472152d9"
   },
   "schema_version": 1
 }

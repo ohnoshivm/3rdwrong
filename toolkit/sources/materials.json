@@ -3064,6 +3064,15 @@
     "package": "plugin-claude-plugins-official-receipts-marketplace",
     "source": "toolkit/vendor/plugin-claude-plugins-official-receipts-marketplace/skills/receipts"
   },
+  "reference:awesome-design-md-library": {
+    "candidates": [
+      "design-md"
+    ],
+    "distribution": "fetch",
+    "kind": "reference",
+    "package": "pack-voltagent-awesome-design-md-mit",
+    "upstream_name": "awesome-design-md"
+  },
   "remotion:remotion-best-practices": {
     "distribution": "vendor",
     "kind": "skill",
@@ -3346,6 +3355,15 @@
     "package": "pack-vercel-vercel-plugin-apache-2.0",
     "source": "toolkit/vendor/pack-vercel-vercel-plugin-apache-2.0/skills/ai-sdk"
   },
+  "skill:ai-website-cloner-template": {
+    "candidates": [
+      ".agents/skills/clone-website"
+    ],
+    "distribution": "fetch",
+    "kind": "skill",
+    "package": "pack-jcodesmore-ai-website-cloner-template-mit",
+    "upstream_name": "clone-website"
+  },
   "skill:alpha": {
     "candidates": [
       "test/fixtures/context-bill/tree-a/alpha"
@@ -3393,6 +3411,15 @@
     "kind": "skill",
     "package": "pack-emilkowalski-skills-mit",
     "source": "toolkit/vendor/pack-emilkowalski-skills-mit/skills/apple-design"
+  },
+  "skill:archify": {
+    "candidates": [
+      "archify"
+    ],
+    "distribution": "fetch",
+    "kind": "skill",
+    "package": "pack-tt-a1i-archify-mit",
+    "upstream_name": "archify"
   },
   "skill:ask-sonner": {
     "distribution": "vendor",
@@ -3447,6 +3474,12 @@
     "kind": "skill",
     "package": "pack-garrytan-gstack-mit",
     "upstream_name": "autoplan"
+  },
+  "skill:awesome-design-md": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/awesome-design-md"
   },
   "skill:banner-design": {
     "distribution": "vendor",
@@ -4217,6 +4250,15 @@
     "package": "pack-tryhand-co-ltd-frontend-design-premium-apache-2.0",
     "source": "toolkit/vendor/pack-tryhand-co-ltd-frontend-design-premium-apache-2.0/skills/frontend-design-premium"
   },
+  "skill:frontend-slides": {
+    "candidates": [
+      "."
+    ],
+    "distribution": "fetch",
+    "kind": "skill",
+    "package": "pack-zarazhangrui-frontend-slides-mit",
+    "upstream_name": "frontend-slides"
+  },
   "skill:geo-content-optimizer": {
     "distribution": "vendor",
     "kind": "skill",
@@ -4945,6 +4987,15 @@
     "kind": "skill",
     "package": "pack-garrytan-gstack-mit",
     "upstream_name": "ios-sync"
+  },
+  "skill:karpathy-guidelines": {
+    "candidates": [
+      "skills/karpathy-guidelines"
+    ],
+    "distribution": "fetch",
+    "kind": "skill",
+    "package": "pack-forrestchang-andrej-karpathy-skills-mit",
+    "upstream_name": "karpathy-guidelines"
   },
   "skill:keyword-research": {
     "distribution": "vendor",
@@ -6018,13 +6069,10 @@
     "source": "toolkit/vendor/pack-aaron-he-zhu-aaron-marketing-skills-apache-2.0/skills/subject-line-lab"
   },
   "skill:superdesign": {
-    "candidates": [
-      "skills/superdesign"
-    ],
-    "distribution": "fetch",
+    "distribution": "vendor",
     "kind": "skill",
-    "package": "pack-superdesigndev-superdesign-skill-mit",
-    "upstream_name": "superdesign"
+    "package": "plugin-account-synced-superdesign-marketplace",
+    "source": "toolkit/vendor/plugin-account-synced-superdesign-marketplace/skills/superdesign"
   },
   "skill:sync-gbrain": {
     "candidates": [
@@ -6099,14 +6147,10 @@
     "upstream_name": "ucp"
   },
   "skill:ui-styling": {
-    "candidates": [
-      ".claude/skills/ui-styling",
-      "cli/assets/skills/ui-styling"
-    ],
-    "distribution": "fetch",
+    "distribution": "vendor",
     "kind": "skill",
-    "package": "pack-nextlevelbuilder-ui-ux-pro-max-skill-unknown",
-    "upstream_name": "ui-styling"
+    "package": "plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0",
+    "source": "toolkit/vendor/plugin-ui-ux-pro-max-skill-ui-ux-pro-max-2.13.0/.claude/skills/ui-styling"
   },
   "skill:unfreeze": {
     "candidates": [

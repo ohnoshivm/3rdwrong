@@ -1835,17 +1835,17 @@
       "summary": "The experience-design specialist for motion-principles is Motion Tokens (trigger: “An approved digital interaction needs consistent duration/easing tokens”), which defines consistent duration/easing tokens and allowed animation properties for an approved interaction."
     },
     {
-      "id": "frontend-design:frontend-design",
+      "id": "skill:impeccable",
       "department": "design",
       "sub_department": "experience-design",
       "job": "ui-design",
       "role": "lead",
-      "trigger": "",
-      "invoke": "frontend-design skill",
+      "trigger": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface.",
+      "invoke": "impeccable skill (Claude Code: /impeccable; Codex: skill name impeccable)",
       "availability": "both",
       "distribution": "vendor",
-      "card": "toolkit/cards/design/experience-design/frontend-design--frontend-design.md",
-      "summary": "The experience-design lead for ui-design is Frontend Design, which leads distinctive visual design for new or reshaped interfaces, grounded in the specific subject and brief."
+      "card": "toolkit/cards/design/experience-design/skill--impeccable.md",
+      "summary": "The experience-design lead for ui-design: a frontend design and critique skill that sets a mode (persuade, operate or read), works through a set of design commands, and checks the rendered result before it is called finished."
     },
     {
       "id": "agency:design-ui-designer",
@@ -1887,6 +1887,19 @@
       "summary": "The experience-design specialist for ui-design is Figma Generate Design (trigger: “A Figma file/workspace exists or is explicitly requested, and the task requires generate design."
     },
     {
+      "id": "frontend-design:frontend-design",
+      "department": "design",
+      "sub_department": "experience-design",
+      "job": "ui-design",
+      "role": "specialist",
+      "trigger": "Use when building new UI or reshaping an existing one, to get distinctive, intentional visual design rather than templated defaults.",
+      "invoke": "frontend-design skill",
+      "availability": "both",
+      "distribution": "vendor",
+      "card": "toolkit/cards/design/experience-design/frontend-design--frontend-design.md",
+      "summary": "Frontend Design is the experience-design specialist for ui-design (demoted from lead on 2026-10-24; skill:impeccable now leads)."
+    },
+    {
       "id": "skill:designing-frontend-interfaces",
       "department": "design",
       "sub_department": "experience-design",
@@ -1898,6 +1911,45 @@
       "distribution": "manual",
       "card": "toolkit/cards/design/experience-design/skill--designing-frontend-interfaces.md",
       "summary": "The experience-design specialist for ui-design is Designing Frontend Interfaces (trigger: “When the approved scope specifically requires designing or restyling web interfaces with distinctive visual direction”), which builds or restyles a web interface from an explicit visual brief and locked design tokens."
+    },
+    {
+      "id": "skill:emil-design-eng",
+      "department": "design",
+      "sub_department": "experience-design",
+      "job": "ui-design",
+      "role": "specialist",
+      "trigger": "Use when the user wants UI polish, component design, animation decisions or the invisible details that make software feel great.",
+      "invoke": "emil-design-eng skill",
+      "availability": "both",
+      "distribution": "vendor",
+      "card": "toolkit/cards/design/experience-design/skill--emil-design-eng.md",
+      "summary": "A specialist for interface polish, component detail and animation decisions, based on one designer's craft philosophy: unseen details compound, and beauty is leverage."
+    },
+    {
+      "id": "stitch-design:generate-design",
+      "department": "design",
+      "sub_department": "experience-design",
+      "job": "ui-design",
+      "role": "specialist",
+      "trigger": "Use when generating new screens from text prompts or images, editing existing screens, or generating design variants with Stitch MCP.",
+      "invoke": "generate-design skill; requires the Stitch MCP server (mcp__stitch__*)",
+      "availability": "both",
+      "distribution": "vendor",
+      "card": "toolkit/cards/design/experience-design/stitch-design--generate-design.md",
+      "summary": "A specialist for generating and editing screens in Google Stitch from a text prompt or an image, and for producing design variants."
+    },
+    {
+      "id": "ui-ux-pro-max:ui-styling",
+      "department": "design",
+      "sub_department": "experience-design",
+      "job": "ui-design",
+      "role": "specialist",
+      "trigger": "Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components, or customising themes and dark mode.",
+      "invoke": "ui-styling skill (from the ui-ux-pro-max plugin)",
+      "availability": "both",
+      "distribution": "vendor",
+      "card": "toolkit/cards/design/experience-design/ui-ux-pro-max--ui-styling.md",
+      "summary": "A specialist for implementing UI with shadcn/ui components on Radix primitives and Tailwind utility styling, including tokens, themes, dark mode and responsive layout."
     },
     {
       "id": "vectorlab-ux-skills:page-patterns",
@@ -2134,6 +2186,19 @@
       "summary": "The Taste Design is a specialist for composition and layout in 3RDWRONG’s identity-craft work."
     },
     {
+      "id": "superdesign:superdesign",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "composition-layout",
+      "role": "specialist",
+      "trigger": "Use when the user wants to design or redesign a page, feature, flow, slide deck or brand-new product on the Superdesign canvas, or to compare and explore visual variants.",
+      "invoke": "superdesign skill; it drives the Superdesign CLI (npx @superdesign/cli)",
+      "availability": "both",
+      "distribution": "vendor",
+      "card": "toolkit/cards/design/identity-craft/superdesign--superdesign.md",
+      "summary": "A specialist for composition and layout exploration on the Superdesign canvas: it generates design drafts, compares directions across models and iterates on a chosen draft."
+    },
+    {
       "id": "ui-ux-pro-max:banner-design",
       "department": "design",
       "sub_department": "identity-craft",
@@ -2353,6 +2418,19 @@
       "distribution": "manual",
       "card": "toolkit/cards/design/identity-craft/skill--applying-themes.md",
       "summary": "The Applying Themes is a specialist for design system guidelines in 3RDWRONG’s identity-craft work."
+    },
+    {
+      "id": "skill:awesome-design-md",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "design-system-guidelines",
+      "role": "specialist",
+      "trigger": "Use when you need a DESIGN.md reference to study a brand or product visual system; it is inspiration only, never a source to copy into client work.",
+      "invoke": "awesome-design-md skill; reads the fetched library at ~/.3rdwrong/fetch/pack-voltagent-awesome-design-md-mit/design-md",
+      "availability": "both",
+      "distribution": "repo",
+      "card": "toolkit/cards/design/identity-craft/skill--awesome-design-md.md",
+      "summary": "A reference wrapper around a pinned library of 84 DESIGN.md analyses of brand and product websites."
     },
     {
       "id": "skill:skeuomorphic-ui",
@@ -2691,6 +2769,19 @@
       "distribution": "fetch",
       "card": "toolkit/cards/design/identity-craft/figma--figma-use-slides.md",
       "summary": "The Figma Use Slides is a specialist for presentation in 3RDWRONG’s identity-craft work."
+    },
+    {
+      "id": "skill:frontend-slides",
+      "department": "design",
+      "sub_department": "identity-craft",
+      "job": "presentation",
+      "role": "specialist",
+      "trigger": "Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk or pitch.",
+      "invoke": "frontend-slides skill",
+      "availability": "both",
+      "distribution": "fetch",
+      "card": "toolkit/cards/design/identity-craft/skill--frontend-slides.md",
+      "summary": "A specialist for building a presentation as a single, zero-dependency HTML file that runs in the browser, with a fixed 16:9 stage and animation."
     },
     {
       "id": "skill:3w-typography-system",
@@ -3564,6 +3655,19 @@
       "summary": "The studio's specialist tool for code review: Apply modern web development best practices for security, compatibility, and code quality."
     },
     {
+      "id": "skill:karpathy-guidelines",
+      "department": "engineering",
+      "sub_department": "engineering-qa-security",
+      "job": "code-review",
+      "role": "specialist",
+      "trigger": "Use when any build agent writes, reviews or refactors code, to avoid overcomplication, make surgical changes, surface assumptions and define verifiable success criteria.",
+      "invoke": "karpathy-guidelines skill",
+      "availability": "both",
+      "distribution": "fetch",
+      "card": "toolkit/cards/engineering/engineering-qa-security/skill--karpathy-guidelines.md",
+      "summary": "A behavioural guideline for coding agents: avoid overcomplication, make surgical changes, surface assumptions and define verifiable success criteria before editing."
+    },
+    {
       "id": "agency:engineering-codebase-onboarding-engineer",
       "department": "engineering",
       "sub_department": "engineering-qa-security",
@@ -4056,6 +4160,19 @@
       "distribution": "vendor",
       "card": "toolkit/cards/engineering/engineering-qa-security/agency--specialized-master-plan-architect.md",
       "summary": "The studio's specialist tool for technical architecture: Master planning architect, technical educator, and ruthless plan critic who specializes in deep architectural teaching, Red Teaming / risk critique, and crafting comprehensive Implementation Plans in Markdown with ZERO code execution."
+    },
+    {
+      "id": "skill:archify",
+      "department": "engineering",
+      "sub_department": "engineering-qa-security",
+      "job": "technical-architecture",
+      "role": "specialist",
+      "trigger": "Use when creating validated architecture, workflow, sequence, data-flow, lifecycle, ERD or class diagrams as explorable standalone HTML.",
+      "invoke": "archify skill; for a native diagram ask: Use the archify skill to draw {type} for {system}",
+      "availability": "both",
+      "distribution": "fetch",
+      "card": "toolkit/cards/engineering/engineering-qa-security/skill--archify.md",
+      "summary": "A specialist for drawing technical diagrams as checked, standalone HTML: architecture, workflow, sequence, data-flow, lifecycle, ERD, class, tree, timeline and waterfall."
     },
     {
       "id": "skill:playwright-cli",
@@ -5343,6 +5460,19 @@
       "distribution": "repo",
       "card": "toolkit/cards/labs/experiments/skill--3w-effect-study.md",
       "summary": "The studio's lead tool for effect studies: re-authors a parked effect recipe or captured technique as an original technique card, measured against the D-0023 budget."
+    },
+    {
+      "id": "skill:ai-website-cloner-template",
+      "department": "labs",
+      "sub_department": "experiments",
+      "job": "effect-studies",
+      "role": "specialist",
+      "trigger": "Use when deconstructing a reference website (cloning, replication or reverse engineering, including animated pages) for study only; never ship cloned layouts, assets or code in client work.",
+      "invoke": "clone-website skill (Labs study only)",
+      "availability": "both",
+      "distribution": "fetch",
+      "card": "toolkit/cards/labs/experiments/skill--ai-website-cloner-template.md",
+      "summary": "A Labs-only skill for deconstructing a reference website into its structure, behaviour and motion, so the studio can study how an effect is built."
     },
     {
       "id": "skill:master-of-games",
