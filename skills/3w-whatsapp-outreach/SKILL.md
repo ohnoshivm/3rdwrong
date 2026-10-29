@@ -41,10 +41,10 @@ Read the [outbound system](../../growth/outbound/README.md), [compliance basics]
 1. **Parse the source safely.** Find the real header row; never assume it is row 1. Keep the original file unchanged and record its hash.
 2. **Build the exclusion set.** Exclude any row whose phone (compared on its last 10 digits), business name or website host matches a record with do-not-contact set, a prior outcome, a last-contacted date, a non-new stage or a data issue. Overexclusion is intended.
 3. **Select the batch.** Prefer company lines verified on an official page. Use one number per business and skip page-title names, duplicate phones and businesses outside the offer. Use the country code the source supplies; never guess one. Keep the first batch to five.
-4. **Draft the opener.** Write three short paragraphs: who you are, one easy question, and an opt-out line. Do not claim past results, research you have not done, consent, active ads or site defects. Reference wording (fictional example below):
+4. **Draft the opener.** Use the contact’s person name in the greeting when reliably supplied; otherwise address the business team. Never guess a name or assume a shared business number belongs to a named person. Write three short paragraphs: who you are, one easy question, and an opt-out line. Do not claim past results, research you have not done, consent, active ads or site defects. Reference wording (fictional example below):
 
    ```text
-   Hey {{Business}} team, I'm {{Sender}} from {{brand-site}}. We work on {{one-line offer}}.
+   Hey {{Person name, or Business team if no name}}, I'm {{Sender}} from {{brand-site}}. We work on {{one-line offer}}.
 
    Are you {{one relevant, easy question}}? Would be good to hear what you're working on and see if we could help.
 
