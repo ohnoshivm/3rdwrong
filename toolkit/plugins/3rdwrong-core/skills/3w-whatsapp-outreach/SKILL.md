@@ -1,12 +1,12 @@
 ---
 name: 3w-whatsapp-outreach
-description: Prepare and, after explicit approval, send one-to-one WhatsApp opening messages to qualified business contacts through WhatsApp Web — recipient selection with suppression and history checks, a short human opener, a per-batch approval gate, paced sending with paragraph-spacing checks, and a send log. Use for small founder-approved WhatsApp batches; do not use for bulk or automated sending, unapproved recipients, follow-ups, or numbers without a business source.
+description: Prepare and, after explicit approval, send one-to-one WhatsApp opening messages to qualified business contacts through WhatsApp Web — recipient selection with suppression and history checks, a short human opener, a per-batch approval gate, paced sending with paragraph-spacing checks, and a send log. Use for permission-verified, founder-approved outreach and follow-ups; never send to unapproved recipients or use unofficial automation.
 metadata:
   type: skill
   status: experimental
   owner: founder
   last_reviewed: 2026-10-29
-  version: 0.4.1
+  version: 0.5.0
 ---
 # 3w-whatsapp-outreach
 
@@ -16,11 +16,11 @@ Start a small number of genuine WhatsApp conversations with businesses, in the s
 
 ## When to use
 
-Use when the founder wants WhatsApp openers sent to contacts from a sourced list, and approves each batch's exact recipients and message.
+Use for the founder’s WhatsApp outreach and follow-up workflow using existing contacts, verified permission and exact message-and-recipient approval.
 
 ## When not to use
 
-Do not use for bulk broadcasts, sender automation tools, unofficial APIs, number probing, or contact-list uploads. Do not use for follow-ups (each follow-up needs its own approval) or for replies (`skill:3w-reply-triage`). Do not use with numbers that lack a business source, or for any recipient on the suppression list.
+Do not use for bulk broadcasts, sender automation tools, unofficial APIs, number probing, or contact-list uploads. Do not send follow-ups without exact message-and-recipient approval; use reply triage for replies (`skill:3w-reply-triage`). Do not use with numbers that lack a business source, or for any recipient on the suppression list.
 
 ## Inputs
 
@@ -40,28 +40,9 @@ Read the [outbound system](../../growth/outbound/README.md), [compliance basics]
 
 1. **Parse the source safely.** Find the real header row; never assume it is row 1. Keep the original file unchanged and record its hash.
 2. **Build the exclusion set.** Exclude any row whose phone (compared on its last 10 digits), business name or website host matches a record with do-not-contact set, a prior outcome, a last-contacted date, a non-new stage or a data issue. Overexclusion is intended.
-3. **Select the batch.** Prefer company lines verified on an official page. Use one number per business and skip page-title names, duplicate phones and businesses outside the offer. Use the country code the source supplies; never guess one. Keep the first batch to five.
-4. **Draft the opener.** Use the contact’s person name in the greeting when reliably supplied; otherwise address the business team. Never guess a name or assume a shared business number belongs to a named person. Default to a **straight cold pitch** in four or five short lines: who you are, what you do, what you handle, an offer to show how you'd do it, and one easy question. Do not add personalised observations or "insights" about the prospect's project by default: when they are drawn from a website skim they read as generic and machine-written. Use the research-led templates in the [opener library](#opener-library) only when the founder asks for them and the research is real. Do not claim past results, research you have not done, consent, active ads or site defects.
-
-   **Write like a person, not a system.** Never add a scripted opt-out or unsubscribe line such as "If it's not relevant, let me know and I won't message again": it makes a one-to-one message read as automated. Close the way a person would, with a reason for asking or a light question, and vary the close across a batch. Avoid other template tells too: "I hope this finds you well", "no strings attached", "just following up", bracketed or mismatched merge fields, and the same closing line in every message. Dropping the line does not drop the duty: anyone who says no, stop or not interested is never messaged again (step 9).
-
-   Default opener (P1), approved by the founder for real-estate developers on 2026-10-29; adapt the offer lines for other sectors:
-
-   ```text
-   Hi {{Person name, or Business team if no name}}, I'm {{Sender}} from {{brand-site}}.
-
-   We run ads for real-estate developers, built to bring in serious buyers who book site visits, not just people filling forms.
-
-   We handle the whole thing: the ad creatives, running the campaigns, and instant WhatsApp replies to every enquiry.
-
-   If you've got a project to sell right now, I'd love to show you how we'd run it.
-
-   Open to a quick look?
-   ```
-
-   Only describe services the sender actually provides, and never turn the offer lines into promised results.
-
-5. **Get approval.** Show the founder the exact recipients (business and number), the exact text, the sending account and any image. Approval covers that batch and those recipients once, with no follow-ups. A hold or a decline is final for that batch.
+3. **Select the batch.** Prefer company lines verified on an official page. Use one number per business and skip page-title names, duplicate phones and businesses outside the offer. Use the country code the source supplies; never guess one. Prepare up to 20 eligible prospects per batch, subject to evidence and approval.
+4. **Qualify and research.** Use the existing contact database only; do not source new leads. Target international residential and premium real-estate developers. Check source, duplicate identity, conversation and suppression history. Document affirmative permission evidence appropriate to the channel; a listed number, DNC FALSE, a business website or prior outbound message alone is not permission. Keep unknowns out of outbound. Preserve the original source and surface ambiguous duplicates for review. Research a real project and prepare a specific actionable advertising opportunity before drafting; distinguish source facts from hypotheses.
+5. **Draft and approve.** Write a natural, direct 40–80 word message: benefit, verified specific hook, sender identity and one curiosity question. No invented results, guarantees or generic flattery. Use a reliably known person's name only when linked to that number; otherwise address the business. Keep blank lines between paragraphs. Show the exact messages, recipient names and numbers, sending account and any image; obtain founder approval for each send and recipient. Prepare up to 20 eligible contacts; fewer if eligibility is unproven. Individual follow-ups and replies also need explicit message-and-recipient approval; campaign approval alone is not blanket approval for future messages.
 6. **Send one at a time** in WhatsApp Web:
    - Open `https://web.whatsapp.com/send?phone={{digits}}` without prefilled text. Prefilled `&text=` can show blank lines in the composer and still lose them on send.
    - Never send newline-containing text through an untargeted browser `type` call: its newlines can act as Enter and send fragments immediately. Either type each paragraph separately and press Shift+Enter twice between paragraphs, or use a composer-targeted multiline input only after testing that exact method in the sender's own chat and checking the sent bubble. Verify the composer after input and test again when the browser or behaviour has changed.
@@ -74,32 +55,13 @@ Read the [outbound system](../../growth/outbound/README.md), [compliance basics]
 8. **Log everything** in the vault: recipient reference, number, template ID, time, status and source row. Update the contact's stage so the next batch excludes it.
 9. **Hand off replies** to `skill:3w-reply-triage`. Opt-outs go to the suppression list the same day.
 
-## Opener library
+## Follow-up and native lists
 
-Alternatives to P1 for rotation and testing. Each keeps a short spaced shape: greeting, `I'm {{Sender}} from {{brand-site}}` and a one-line offer; the hook below; then a natural closing line, such as a reason for asking ("Asking so I don't pitch you something you already have") or a light question ("Want me to?"), never an opt-out line. Keep the final wording in the vault.
+Use native WhatsApp Business lists: 01 — First DM Sent, 02 — Interested, 03 — Contact Later, 04 — Needs Attention, 05 — Not Interested, 06 — No Response, 07 — Do Not Contact. Verify every change in WhatsApp; each processed chat belongs to exactly one sales-stage list. Stop and report if lists or syncing are unavailable. Sent openers enter First DM Sent; a reply pauses the unanswered sequence immediately. Classify positive, later, uncertain, rejection, and explicit opt-out into their respective lists; record exact later requests and agreed dates. Opt-outs suppress all marketing, and contact-later conversations never re-enter the unanswered sequence.
 
-| ID | Mechanism | Hook (paragraph 2) | Use only when |
-| --- | --- | --- | --- |
-| T1 | Problem question | Do most enquiries from your ads turn into {{desired outcome}}, or do many go quiet after first contact? | Always |
-| T2 | Response-time question | If someone enquires at 10 pm, how soon do they usually hear back? | The offer includes enquiry handling |
-| T3 | Qualification | Is your marketing done in-house or with an agency? Asking so I don't pitch something you already have. | Always |
-| T4 | Right person | Who's the best person to speak to about marketing? Happy to message them directly. | Business lines only, never a named person's number |
-| T5 | Timely trigger | With {{season or event}} close, are you planning anything for it? | Before the event only |
-| T6 | Local language | P1 translated into the recipient's working language | The source location supports that language; never infer it from a phone prefix |
-| T7 | Give first | I'd be happy to send 2–3 ideas for what you're promoting, free, right here. Want me to? | The sender commits to delivering within 48 hours |
-| T8 | Show, don't tell | Sharing one of our sample pieces so you can see the style. Would something like this help? | A finished sample exists; it is the sender's own or clearly fictional and is never called client work unless it was |
-| T9 | Observation | Came across {{verified observation}}. I've one idea for it worth trying. Want me to send it? | The observation is sourced and logged, and the idea is written before sending |
-| T10 | Named project | Saw you're developing {{project}}. Who's looking after its marketing right now? | The project name comes from a verified source |
+Track first contact plus at most seven follow-ups, tentatively on days 3, 7, 14, 21, 30, 45 and 60 after the initial message. These are candidate dates, not authorization to send: recheck permission, platform eligibility, chat history and replies and obtain approval for each exact message and recipient. Each follow-up must offer a genuinely new, relevant idea; skip if no useful reason exists. Never follow up after a reply without reviewing it. After the seventh follow-up and a documented final response window, place an unanswered contact in No Response and close the sequence. Use approved WhatsApp templates where the Business Platform requires them; do not assume a 24-hour window itself authorizes marketing.
 
-Log the template ID with every send. After about 20 sends of a template, compare positive replies, keep the strongest and rewrite the weakest; at these volumes treat results as signals, not proof.
-
-Evidence behind the library (all **Documented**, vendor or secondary data unless stated):
-
-- For cold emails an interest question beat a meeting request; a specific day-and-time ask succeeded 15% of the time ([Gong Labs](https://www.gong.io/resources/labs/this-surprising-cold-email-cta-will-help-you-book-a-lot-more-meetings/), 304,174 emails, success = meeting within 10 days).
-- 50–100 words performed best and buzzwords or vague ROI claims reduced replies ([Gong](https://www.gong.io/blog/do-execs-really-reply-to-cold-email-here-s-what-the-data-says)); length differences were small in [Hunter's](https://hunter.io/blog/cold-email-word-count) 34M emails.
-- Advanced personalisation ~17–18% replies vs ~7–9% for basic templates, and 42% of replies came from follow-ups ([Woodpecker](https://woodpecker.co/blog/cold-email-statistics/), per-figure samples not stated).
-- "But you are free" wording showed a medium effect overall but none in low-bias studies ([Fillon et al.](https://open.lnu.se/index.php/metapsychology/article/view/2640), 52 studies, peer-reviewed). There is no reliable conversion case for a scripted opt-out line, and the founder found it made messages look automated, so the library omits it; opt-outs are honoured from replies instead.
-- **Unknown:** independent WhatsApp-specific reply data; available figures are vendor claims that conflict.
+Maintain a contact record (ID, name, phone, company, project, permission and evidence, list, follow-up count, last and next date, reply status, action and notes) and append-only interaction history (contact, time, direction, type, follow-up number, angle, text, send status and message ID if available). Unknown is unknown. Update after verified events and reconcile against WhatsApp; never fabricate missing history or assume continuous monitoring or automation. Report replies needing Shivam's attention. Any n8n or other automation requires an authorised integration, exact send approval, working event handling and independent verification; do not claim it is active until proven.
 
 ## Evidence requirements
 
@@ -138,4 +100,4 @@ The founder approves every batch: recipients, text, account and any image. A sec
 
 ## Example
 
-**Fictional example.** Stillsoil Atelier approves five fictional builders, each with a different template (T1, T3, T4, T5, T2) and none with an opt-out line. The operator types each message with Shift+Enter twice between paragraphs. One chat reopens with a saved draft, so the operator clears and retypes it rather than sending. All five show as sent with their template IDs logged; batch two stays held.
+**Fictional example.** Stillsoil Atelier approves five fictional builders with verified permission and a researched project-specific message for each. The operator types each message with Shift+Enter twice between paragraphs. One chat reopens with a saved draft, so the operator clears and retypes it rather than sending. All five show as sent with their message histories logged; follow-ups remain subject to separate approval.
