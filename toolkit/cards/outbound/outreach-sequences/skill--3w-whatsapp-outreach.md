@@ -25,7 +25,7 @@ The studio's lead tool for small, founder-approved WhatsApp opener batches sent 
 
 - Excludes suppressed, previously contacted and duplicate numbers.
 - Selects a small batch of business lines that each have a source.
-- Drafts a short, three-paragraph human opener from a rotating ten-template library, with a natural closing line and no scripted opt-out line, using a reliably supplied person name first or the business team when no person name is available.
+- Drafts a short, human straight-pitch opener (the approved default, with a ten-template library for rotation), with a natural closing line and no scripted opt-out line, using a reliably supplied person name first or the business team when no person name is available.
 - Sends only the approved batch, checks paragraph spacing before each send and logs delivery status.
 
 ## When to use
@@ -58,7 +58,7 @@ Use the 3w-whatsapp-outreach skill on {{vault contact file}}. Exclude history an
 ## What good output looks like
 
 - Every recipient has a source row, an approved message and an observed status.
-- Every message shows three spaced paragraphs in the chat.
+- Every message shows its paragraphs separated by blank lines in the chat.
 
 ## Quality checks
 

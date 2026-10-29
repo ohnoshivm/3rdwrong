@@ -6,7 +6,7 @@ metadata:
   status: experimental
   owner: founder
   last_reviewed: 2026-10-29
-  version: 0.3.0
+  version: 0.4.0
 ---
 # 3w-whatsapp-outreach
 
@@ -41,19 +41,25 @@ Read the [outbound system](../../growth/outbound/README.md), [compliance basics]
 1. **Parse the source safely.** Find the real header row; never assume it is row 1. Keep the original file unchanged and record its hash.
 2. **Build the exclusion set.** Exclude any row whose phone (compared on its last 10 digits), business name or website host matches a record with do-not-contact set, a prior outcome, a last-contacted date, a non-new stage or a data issue. Overexclusion is intended.
 3. **Select the batch.** Prefer company lines verified on an official page. Use one number per business and skip page-title names, duplicate phones and businesses outside the offer. Use the country code the source supplies; never guess one. Keep the first batch to five.
-4. **Draft the opener.** Use the contact’s person name in the greeting when reliably supplied; otherwise address the business team. Never guess a name or assume a shared business number belongs to a named person. Write three short paragraphs of under about 60 words in total: who you are, one easy question, and a natural closing line. Pick a template from the [opener library](#opener-library), giving each recipient in a batch a different one and never using the same template twice in a row. Do not claim past results, research you have not done, consent, active ads or site defects.
+4. **Draft the opener.** Use the contact’s person name in the greeting when reliably supplied; otherwise address the business team. Never guess a name or assume a shared business number belongs to a named person. Default to a **straight cold pitch** in four or five short lines: who you are, what you do, what you handle, an offer to show how you'd do it, and one easy question. Do not add personalised observations or "insights" about the prospect's project by default: when they are drawn from a website skim they read as generic and machine-written. Use the research-led templates in the [opener library](#opener-library) only when the founder asks for them and the research is real. Do not claim past results, research you have not done, consent, active ads or site defects.
 
    **Write like a person, not a system.** Never add a scripted opt-out or unsubscribe line such as "If it's not relevant, let me know and I won't message again": it makes a one-to-one message read as automated. Close the way a person would, with a reason for asking or a light question, and vary the close across a batch. Avoid other template tells too: "I hope this finds you well", "no strings attached", "just following up", bracketed or mismatched merge fields, and the same closing line in every message. Dropping the line does not drop the duty: anyone who says no, stop or not interested is never messaged again (step 9).
 
-   Control wording (T0):
+   Default opener (P1), approved by the founder for real-estate developers on 2026-10-29; adapt the offer lines for other sectors:
 
    ```text
-   Hey {{Person name, or Business team if no name}}, I'm {{Sender}} from {{brand-site}}. We work on {{one-line offer}}.
+   Hi {{Person name, or Business team if no name}}, I'm {{Sender}} from {{brand-site}}.
 
-   Are you {{one relevant, easy question}}?
+   We run ads for real-estate developers, built to bring in serious buyers who book site visits, not just people filling forms.
 
-   Would be good to hear what you're working on and see if we could help.
+   We handle the whole thing: the ad creatives, running the campaigns, and instant WhatsApp replies to every enquiry.
+
+   If you've got a project to sell right now, I'd love to show you how we'd run it.
+
+   Open to a quick look?
    ```
+
+   Only describe services the sender actually provides, and never turn the offer lines into promised results.
 
 5. **Get approval.** Show the founder the exact recipients (business and number), the exact text, the sending account and any image. Approval covers that batch and those recipients once, with no follow-ups. A hold or a decline is final for that batch.
 6. **Send one at a time** in WhatsApp Web:
@@ -69,7 +75,7 @@ Read the [outbound system](../../growth/outbound/README.md), [compliance basics]
 
 ## Opener library
 
-Each template keeps the three-paragraph shape: greeting, `I'm {{Sender}} from {{brand-site}}` and a one-line offer; the hook below; then a natural closing line, such as a reason for asking ("Asking so I don't pitch you something you already have") or a light question ("Want me to?"), never an opt-out line. Keep the final wording in the vault.
+Alternatives to P1 for rotation and testing. Each keeps a short spaced shape: greeting, `I'm {{Sender}} from {{brand-site}}` and a one-line offer; the hook below; then a natural closing line, such as a reason for asking ("Asking so I don't pitch you something you already have") or a light question ("Want me to?"), never an opt-out line. Keep the final wording in the vault.
 
 | ID | Mechanism | Hook (paragraph 2) | Use only when |
 | --- | --- | --- | --- |
@@ -78,7 +84,7 @@ Each template keeps the three-paragraph shape: greeting, `I'm {{Sender}} from {{
 | T3 | Qualification | Is your marketing done in-house or with an agency? Asking so I don't pitch something you already have. | Always |
 | T4 | Right person | Who's the best person to speak to about marketing? Happy to message them directly. | Business lines only, never a named person's number |
 | T5 | Timely trigger | With {{season or event}} close, are you planning anything for it? | Before the event only |
-| T6 | Local language | T0 translated into the recipient's working language | The source location supports that language; never infer it from a phone prefix |
+| T6 | Local language | P1 translated into the recipient's working language | The source location supports that language; never infer it from a phone prefix |
 | T7 | Give first | I'd be happy to send 2–3 ideas for what you're promoting, free, right here. Want me to? | The sender commits to delivering within 48 hours |
 | T8 | Show, don't tell | Sharing one of our sample pieces so you can see the style. Would something like this help? | A finished sample exists; it is the sender's own or clearly fictional and is never called client work unless it was |
 | T9 | Observation | Came across {{verified observation}}. I've one idea for it worth trying. Want me to send it? | The observation is sourced and logged, and the idea is written before sending |
@@ -116,7 +122,7 @@ Excluded by history/suppression: {{n}} rows ({{rule}})
 
 - Every recipient was approved by name and number before sending.
 - No suppressed, previously contacted or duplicate recipients.
-- Every message reads as three spaced paragraphs, and the sent copy matches the approved text.
+- Every message shows its short paragraphs separated by blank lines, and the sent copy matches the approved text.
 - Read aloud, each message sounds like the sender typed it: no scripted opt-out line, no template tells, and no closing line repeated across the batch.
 - No follow-up was sent without separate approval.
 - No names, numbers or messages in the public repository: batches and logs live in the vault.
