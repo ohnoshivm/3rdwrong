@@ -12,7 +12,7 @@ last_reviewed: 2026-10-23
 
 Use this guide alongside the [department charter](../studio/departments/outbound.md). The [registry](../toolkit/sources/registry.json) owns routing; cards document use. All generated guidance retains its source review state.
 
-Card coverage: **15/15 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
+Card coverage: **16/16 (100.0%)** lead/specialist tools. Start with the lead; maker ≠ checker.
 
 ## Outreach sequences
 
@@ -31,6 +31,10 @@ Card coverage: **15/15 (100.0%)** lead/specialist tools. Start with the lead; ma
   Trigger: Use for outbound/outreach-sequences/sequence-design when the brief specifically requires: Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling .
 - **Specialist:** [`skill:cold-outbound-sequencer`](../toolkit/cards/outbound/outreach-sequences/skill--cold-outbound-sequencer.md) — The studio specialist for sequence-design: Use for outbound/outreach-sequences/sequence-design when the brief specifically requires: Use when the user asks to "build a B2B cold-outbound sequence", "design reply-triage branching", "plan a domain warmup / sending throttle", or "make my outbound CAN-SPAM / opt-in compliant"; produces a multi-step outbound sequence with reply-triage branches (positive / objection / referral / not-now / opt-out), a warmup + send-throttle ramp schedule, jurisdiction opt-in/CAN-SPAM guardrails (guidance, not legal advice), and a SEND S-dimension read .
   Trigger: Use for outbound/outreach-sequences/sequence-design when the brief specifically requires: Use when the user asks to "build a B2B cold-outbound sequence", "design reply-triage branching", "plan a domain warmup / sending throttle", or "make my outbound CAN-SPAM / opt-in compliant"; produces a multi-step outbound sequence with reply-triage branches (positive / objection / referral / not-now / opt-out), a warmup + send-throttle ramp schedule, jurisdiction opt-in/CAN-SPAM guardrails (guidance, not legal advice), and a SEND S-dimension read .
+
+### Whatsapp outreach
+
+- **Lead:** [`skill:3w-whatsapp-outreach`](../toolkit/cards/outbound/outreach-sequences/skill--3w-whatsapp-outreach.md) — The studio's lead tool for small, founder-approved WhatsApp opener batches sent one to one through WhatsApp Web.
 
 ## Partnerships referrals
 

@@ -9526,6 +9526,20 @@
     },
     {
       "aliases": [
+        "skill:3w-whatsapp-outreach"
+      ],
+      "department": "outbound",
+      "id": "skill:3w-whatsapp-outreach",
+      "job": "whatsapp-outreach",
+      "kind": "repo-skill",
+      "load": "active",
+      "reason": "Studio-authored lead for founder-approved one-to-one WhatsApp opener batches. agency:sales-outreach writes copy and skill:3w-reply-triage handles replies; neither covers WhatsApp Web sending with suppression checks, per-batch approval, paragraph-spacing checks and a send log. This skill does.",
+      "role": "lead",
+      "sub_department": "outreach-sequences",
+      "trigger": ""
+    },
+    {
+      "aliases": [
         "skill:3w-taste-graph"
       ],
       "department": "design",

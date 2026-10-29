@@ -3307,6 +3307,12 @@
     "package": "pack-founder-3rdwrong-skills",
     "source": "skills/3w-typography-system"
   },
+  "skill:3w-whatsapp-outreach": {
+    "distribution": "vendor",
+    "kind": "skill",
+    "package": "pack-founder-3rdwrong-skills",
+    "source": "skills/3w-whatsapp-outreach"
+  },
   "skill:access-protected-vercel-deployment": {
     "distribution": "vendor",
     "kind": "skill",

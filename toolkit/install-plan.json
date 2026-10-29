@@ -8822,6 +8822,20 @@
     },
     {
       "aliases": [
+        "skill:3w-whatsapp-outreach"
+      ],
+      "department": "core",
+      "distribution": "vendor",
+      "id": "skill:3w-whatsapp-outreach",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-whatsapp-outreach",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-whatsapp-outreach"
+    },
+    {
+      "aliases": [
         "skill:access-protected-vercel-deployment"
       ],
       "department": "engineering",
