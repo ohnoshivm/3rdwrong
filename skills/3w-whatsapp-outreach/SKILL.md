@@ -6,7 +6,7 @@ metadata:
   status: experimental
   owner: founder
   last_reviewed: 2026-10-29
-  version: 0.4.0
+  version: 0.4.1
 ---
 # 3w-whatsapp-outreach
 
@@ -64,10 +64,11 @@ Read the [outbound system](../../growth/outbound/README.md), [compliance basics]
 5. **Get approval.** Show the founder the exact recipients (business and number), the exact text, the sending account and any image. Approval covers that batch and those recipients once, with no follow-ups. A hold or a decline is final for that batch.
 6. **Send one at a time** in WhatsApp Web:
    - Open `https://web.whatsapp.com/send?phone={{digits}}` without prefilled text. Prefilled `&text=` can show blank lines in the composer and still lose them on send.
-   - Type each paragraph and press Shift+Enter twice between paragraphs.
+   - Never send newline-containing text through an untargeted browser `type` call: its newlines can act as Enter and send fragments immediately. Either type each paragraph separately and press Shift+Enter twice between paragraphs, or use a composer-targeted multiline input only after testing that exact method in the sender's own chat and checking the sent bubble. Verify the composer after input and test again when the browser or behaviour has changed.
    - Before sending, read the composer value and confirm a blank line (`\n\n`) separates each paragraph. If a saved draft has replaced the text, clear it and retype instead of sending.
    - Confirm the chat header shows the intended number, then send.
    - Read back the chat-list preview and status (sent or delivered) and record the time.
+   - If any fragment is sent prematurely, stop the batch, clear any remaining unsent draft, log precisely what was sent, and tell the founder. Do not resend or send a correction without approval. Verify the input method in the sender's own chat before resuming.
    - If the number is not on WhatsApp, skip it and log it. Do not try other formats or numbers.
 7. **Pace the sends.** Leave real gaps between messages and stop the batch at the first sign of a restriction, block or spam warning.
 8. **Log everything** in the vault: recipient reference, number, template ID, time, status and source row. Update the contact's stage so the next batch excludes it.
