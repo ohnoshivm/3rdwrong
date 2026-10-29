@@ -1470,6 +1470,13 @@
       "sha256": "b1bec77e5a27fd6d3ad1cd3ccfa78ada37659f6c3b483ef6518ff46a67ea0631"
     },
     {
+      "bytes": 6649,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-whatsapp-outreach/SKILL.md",
+      "sha256": "99e228dd87d9eac64344f619eec315b986a81d13556c2e79b9e20778e2f41432"
+    },
+    {
       "bytes": 242,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-design",
@@ -22498,11 +22505,11 @@
       "sha256": "31e89c01ae9f567239673fbd49ffce0a43bba2ad76dea0f7a78761a93895f8e9"
     },
     {
-      "bytes": 255438,
+      "bytes": 255619,
       "licence": "MIT",
       "package": "toolkit-metadata",
       "path": "toolkit/sources/materials.json",
-      "sha256": "2df9e206fc1c680a2f9cbbcab352e82e0ceb562c1ed3195910fde634a7c18427"
+      "sha256": "af4fd9698daa0aee78027d412803d0dd84230fe979318331b64c65253b003e58"
     },
     {
       "bytes": 304301,
@@ -22512,11 +22519,11 @@
       "sha256": "a58ac423afded4c4a706532229af7a27f0b74df27caa58ad41f6bd4420c31386"
     },
     {
-      "bytes": 919064,
+      "bytes": 919703,
       "licence": "MIT",
       "package": "toolkit-metadata",
       "path": "toolkit/sources/registry.json",
-      "sha256": "fb1cfd2712ba5939464bae0c52f12867dca5ce39b6bff7f1d230504c415d5d55"
+      "sha256": "19c1289944929469b5143068f428112fc7bef808bafd2bc37111b475a563b73f"
     },
     {
       "bytes": 60108,
@@ -57951,9 +57958,9 @@
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
     "THIRD_PARTY_NOTICES.md": "0d30696cf4ec420ae2a924409c2688249f3039b1fcea22432caae290bfae4276",
-    "toolkit/coverage.json": "76fe1a81f278689456042323a232e15a5af3613dee9d3c067715e1b053b9734f",
+    "toolkit/coverage.json": "ee1cab5d66fed533e05e3062fef2cd78d3bf3372d7fcbac7ff4a101cde15eda6",
     "toolkit/fetch.yaml": "ad131a534a3bec05786dfda34ffcc25fdff132c74b5d24837ace1da50acb3c04",
-    "toolkit/install-plan.json": "971ac1c8e6042c72c4e7e58d1043eef70b93a304542eb87e2d8e558b5e71fc23",
+    "toolkit/install-plan.json": "7a980cdc8707ec524ce2b72477c2336b3acdd9b4be4c99f056bd895ece1f2c6e",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
     "toolkit/secret-allowlist.json": "1616e24fdb32696e9619763c08e806499d92468b5ae2fe7d76c2492f472152d9"

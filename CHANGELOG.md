@@ -6,6 +6,8 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 ### Added
 
+- Experimental `3w-whatsapp-outreach` skill (Outbound, outreach-sequences): suppression and history exclusion, small founder-approved batches, three-paragraph opener, WhatsApp Web paragraph-spacing check before each send, and a vault send log; with a `.claude/skills` link, a proposed tool card and registry routing.
+
 - Web delivery QA harness (`bin/3w qa run`): three mobile Lighthouse runs, explicit lab/field limits, project budget checks with founder exception records, Playwright responsive/reduced-motion evidence, console and scroll cadence probes, Markdown/JSON reports and local integration coverage.
 
 - Creative Technology system from the founder-supplied October 2026 handbook:

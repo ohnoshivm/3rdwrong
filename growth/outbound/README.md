@@ -22,7 +22,8 @@ roles were reversed.
 ## When it applies
 
 All proactive contact with people who have not asked to hear from the studio:
-email, LinkedIn messages and Instagram DMs. Read
+email, LinkedIn messages, Instagram DMs and WhatsApp messages
+(WhatsApp batches follow [`3w-whatsapp-outreach`](../../skills/3w-whatsapp-outreach/SKILL.md)). Read
 [compliance basics](compliance.md) before the first send to any new country.
 
 ## Roles

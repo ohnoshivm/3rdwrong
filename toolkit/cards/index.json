@@ -9843,6 +9843,19 @@
       "summary": "The studio specialist for sequence-design: Use for outbound/outreach-sequences/sequence-design when the brief specifically requires: Use when the user asks to \"build a B2B cold-outbound sequence\", \"design reply-triage branching\", \"plan a domain warmup / sending throttle\", or \"make my outbound CAN-SPAM / opt-in compliant\"; produces a multi-step outbound sequence with reply-triage branches (positive / objection / referral / not-now / opt-out), a warmup + send-throttle ramp schedule, jurisdiction opt-in/CAN-SPAM guardrails (guidance, not legal advice), and a SEND S-dimension read ."
     },
     {
+      "id": "skill:3w-whatsapp-outreach",
+      "department": "outbound",
+      "sub_department": "outreach-sequences",
+      "job": "whatsapp-outreach",
+      "role": "lead",
+      "trigger": "",
+      "invoke": "3w-whatsapp-outreach skill",
+      "availability": "repo",
+      "distribution": "repo",
+      "card": "toolkit/cards/outbound/outreach-sequences/skill--3w-whatsapp-outreach.md",
+      "summary": "The studio's lead tool for small, founder-approved WhatsApp opener batches sent one to one through WhatsApp Web."
+    },
+    {
       "id": "skill:influencer-marketing",
       "department": "outbound",
       "sub_department": "partnerships-referrals",

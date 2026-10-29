@@ -32,6 +32,7 @@ Status: proposed registry routing. Source review does not establish live tool pe
 | `sequence-design` | `agency:sales-outbound-strategist` |
 | `outreach-copy` | `agency:sales-outreach` |
 | `reply-triage` | `skill:3w-reply-triage` |
+| `whatsapp-outreach` | `skill:3w-whatsapp-outreach` |
 
 ### partnerships-referrals
 
@@ -66,6 +67,7 @@ The previous lead gaps now have experimental studio methods:
 
 - `prospecting-research/prospect-qualification` — [`skill:3w-prospect-qualification`](../../skills/3w-prospect-qualification/SKILL.md).
 - `outreach-sequences/reply-triage` — [`skill:3w-reply-triage`](../../skills/3w-reply-triage/SKILL.md).
+- `outreach-sequences/whatsapp-outreach` — [`skill:3w-whatsapp-outreach`](../../skills/3w-whatsapp-outreach/SKILL.md).
 
 Routing closes the ownership gap; it does not prove output quality, human
 approval, installed prerequisites or completed delivery. Independent evidence

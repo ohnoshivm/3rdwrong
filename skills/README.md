@@ -1,6 +1,6 @@
 # Skills
 
-These twenty-three Agent Skills are **experimental**. Their outputs are drafts for human review; none can approve strategy, design, rights or release.
+These twenty-four Agent Skills are **experimental**. Their outputs are drafts for human review; none can approve strategy, design, rights or release.
 
 | Skill | Purpose | Phase | Inputs | Output |
 | --- | --- | --- | --- | --- |
@@ -23,6 +23,7 @@ These twenty-three Agent Skills are **experimental**. Their outputs are drafts f
 | [3w-awards-submission](3w-awards-submission/SKILL.md) | Free award entries with fit and permission | After L7 / L9 | Live work, permission, official criteria | Award entry record and results log |
 | [3w-prospect-qualification](3w-prospect-qualification/SKILL.md) | Contact, watch or exclude before outbound | L0 outbound | Sourced account research | Qualification record |
 | [3w-reply-triage](3w-reply-triage/SKILL.md) | Classify and answer outbound replies | L0 outbound | Replies, suppression list | Triage table and suppression updates |
+| [3w-whatsapp-outreach](3w-whatsapp-outreach/SKILL.md) | Founder-approved one-to-one WhatsApp opener batches | L0 outbound | Sourced contacts, suppression list, approved offer | Approved batch and send log |
 | [3w-effect-study](3w-effect-study/SKILL.md) | Re-author an effect as an original technique card | Labs | Study question, source recipe | Technique card with budget fit |
 | [3w-labs-benchmark](3w-labs-benchmark/SKILL.md) | Reproducible comparison for a decision | Labs | Options, fixture, threshold | Benchmark record |
 | [3w-engine-validation](3w-engine-validation/SKILL.md) | Gate a house-engine kit before project use | Labs | Kit, README, demo, licences | Validation record with one verdict |

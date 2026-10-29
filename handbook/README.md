@@ -37,7 +37,7 @@ Coverage counts cards against registry leads and specialists, including aliases 
 | [Marketing](marketing.md) | 99 | 99 | 100.0% |
 | [Media](media.md) | 47 | 47 | 100.0% |
 | [Operations](operations.md) | 177 | 177 | 100.0% |
-| [Outbound](outbound.md) | 15 | 15 | 100.0% |
+| [Outbound](outbound.md) | 16 | 16 | 100.0% |
 | [Production](production.md) | 20 | 20 | 100.0% |
 | [Sales](sales.md) | 19 | 19 | 100.0% |
 | [Strategy](strategy.md) | 29 | 29 | 100.0% |
