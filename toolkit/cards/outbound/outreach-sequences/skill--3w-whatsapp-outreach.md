@@ -25,7 +25,7 @@ The studio's lead tool for small, founder-approved WhatsApp opener batches sent 
 
 - Excludes suppressed, previously contacted and duplicate numbers.
 - Selects a small batch of business lines that each have a source.
-- Drafts a short, three-paragraph human opener with an opt-out line, using a reliably supplied person name first or the business team when no person name is available.
+- Drafts a short, three-paragraph human opener from a rotating ten-template library, with a natural closing line and no scripted opt-out line, using a reliably supplied person name first or the business team when no person name is available.
 - Sends only the approved batch, checks paragraph spacing before each send and logs delivery status.
 
 ## When to use

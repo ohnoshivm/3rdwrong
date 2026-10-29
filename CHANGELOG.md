@@ -8,6 +8,7 @@ Changes to the 3RDWRONG Creative Operating System are recorded here.
 
 - Experimental `3w-whatsapp-outreach` skill (Outbound, outreach-sequences): suppression and history exclusion, small founder-approved batches, three-paragraph opener, WhatsApp Web paragraph-spacing check before each send, and a vault send log; with a `.claude/skills` link, a proposed tool card and registry routing.
 - `3w-whatsapp-outreach` 0.2.0: ten-template opener library with use conditions, per-batch template rotation, template IDs in the send log, sourced evidence notes, and a typed Shift+Enter spacing method replacing prefilled URL text.
+- `3w-whatsapp-outreach` 0.3.0: no scripted opt-out line in openers (founder found it read as automated); natural closing lines, a template-tell check, and opt-outs still honoured from replies.
 
 - Web delivery QA harness (`bin/3w qa run`): three mobile Lighthouse runs, explicit lab/field limits, project budget checks with founder exception records, Playwright responsive/reduced-motion evidence, console and scroll cadence probes, Markdown/JSON reports and local integration coverage.
 
