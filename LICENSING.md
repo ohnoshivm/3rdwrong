@@ -4,7 +4,7 @@ This repository has separate licences because executable tooling, original creat
 
 ## Code
 
-The validator, tests, schemas, and GitHub configuration are licensed under the [MIT License](LICENSE). The MIT licence applies to code and repository tooling in `scripts/`, `tests/`, `schemas/`, and `.github/`.
+The validator, tests, schemas, and GitHub configuration are licensed under the [MIT License](LICENSE). The MIT licence applies to code and repository tooling in `scripts/`, `tests/`, `schemas/`, and `.github/`, plus `motion-teardown/agent-system/scripts/`, `motion-teardown/agent-system/schemas/`, `motion-teardown/tracks/dev/tests/`, the scripts under `motion-teardown/media/`, and `motion-teardown/export/build_exports.py`.
 
 ## Original documentation and creative material
 

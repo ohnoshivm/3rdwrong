@@ -1,0 +1,1162 @@
+{
+  "reviewed_on": "2026-10-31",
+  "scope": "Screenshot-pixel provenance, not rights in depicted geometry, copy or marks. Every copied image was inspected in labelled contact sheets; the generated-assets sheet, generated-props panel and replacements were also inspected individually.",
+  "source_fidelity_sha256": "245ec45648fbc4841faa3250ad1f161a56c627c55d473f6aaa97056adf065aa2",
+  "removed": [
+    "media/f01-hero-side-by-side.png (replaced by f01-rebuild-hero.png)",
+    "media/f02-reference-frames.jpg",
+    "media/f06-props.png (replaced with generated-only content)",
+    "media/f07-comparison-grid.jpg (replaced by f07-rebuild-grid.jpg)",
+    "media/article/a01-original-hero-card.jpg",
+    "media/article/a02-original-hover-glow.jpg",
+    "export/upload-kit/ (all duplicate images excluded)",
+    "agent-system/scripts/_checks/ (generated test artefacts excluded)"
+  ],
+  "regenerated": [
+    "media/f01-rebuild-hero.png",
+    "media/f06-props.png",
+    "media/f07-rebuild-grid.jpg",
+    "media/f08-fidelity.png"
+  ],
+  "derived": [
+    "media/generated-props.png: source f06 right-hand panel, crop x=518..1524, y=315..590; original atlas excluded"
+  ],
+  "images": [
+    {
+      "path": "media/article/a03-rebuild-y1530.jpg",
+      "sha256": "e3899538067a562c8071c59fd3fb1075cf40a77998f55157554ab72f91c9e949",
+      "bytes": 65779,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/article/a04-rebuild-y6030.jpg",
+      "sha256": "633d373a20395d5f29ce684a2e8c6d7771d4050bb55679ba134bfe20958117ea",
+      "bytes": 80506,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/cards/c01-opening-request.png",
+      "sha256": "5405a41fdb3633ee241c5d19c7f14021a9cb12bd6610fbc7b3aebf5e350fe1fe",
+      "bytes": 42902,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c02-reverse-engineering-prompt.png",
+      "sha256": "4eb0c3d6a622a5f3f28fa09c505c04820cf13eef666ffb284f1cfcc29a8fe8f7",
+      "bytes": 81949,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c03-speed-up-three-agents.png",
+      "sha256": "cd71c4cb63e779d64547743ffab1820c2b56663bbea39d3b8eb2b07dc8ccb36b",
+      "bytes": 61453,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c04-four-questions.png",
+      "sha256": "a6959d34c3032d042ddda07b62092ba16ba7e00c5a61372d4fb6749aaea8d1fb",
+      "bytes": 57489,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c05-cutter-prompt-to-image.png",
+      "sha256": "4fdbdba6b2da89672038c2f1db1fef89c4a21e248b60915fe958557409cb6a08",
+      "bytes": 90678,
+      "provenance": "our generated imagery and authored labels",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c06-contract-and-ownership.png",
+      "sha256": "cec2d1dff7347f16b7e7677e99a9080309eefd157ea720a6f7e4b4e3940ab2c3",
+      "bytes": 76012,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c07-resume-note.png",
+      "sha256": "6604f5cd906bd5bb40ccbaa768290fb7174cb72d898d7bd749ebae9a1d6bfaf1",
+      "bytes": 52848,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/cards/c08-approval.png",
+      "sha256": "e7a79dfca4dd8d80d6f50f90557cbf9891f7513ff897f491975f17a2baf0ddb4",
+      "bytes": 35487,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f01-rebuild-hero.png",
+      "sha256": "699f70429d0a8d032b6d6d7547eed34eb6edc13b1ef12cf47ba715549f588640",
+      "bytes": 509673,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/f03-choreography.png",
+      "sha256": "3e28d68379cba3e230c22258446fb93c39ac58ffe50d9b0c005f83b60471e3a6",
+      "bytes": 38905,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f04-orchestration.png",
+      "sha256": "82e9e87b64e2f083eb4fe90cdb7b980d2ea737d40d79c32a16913a2f5bdd08a9",
+      "bytes": 55173,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f05-timeline.png",
+      "sha256": "cbe8ca97beb3a406b61bdca74eed21443e9b2ec36fcf190e8d96aa719092b216",
+      "bytes": 60680,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f06-props.png",
+      "sha256": "ff5a627074af46e8d0ee3de0a31c6166f86e609f1bbd7405156088d0dc8773ed",
+      "bytes": 46200,
+      "provenance": "our generated imagery and authored labels",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f07-rebuild-grid.jpg",
+      "sha256": "764ab1f21ddbc3664598669a5416abc4f98d4d46c0d77df7f48fb987b51ae108",
+      "bytes": 407109,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/f08-fidelity.png",
+      "sha256": "82381cbc11ff146a3b9eeacf17ab8e307106badb40a91b77a3589db4275e4b26",
+      "bytes": 36580,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f09-architecture.png",
+      "sha256": "73e345c3b566020d7fd7b3111a1e953081559a5f48e1079515b8eda5b0ef542c",
+      "bytes": 51947,
+      "provenance": "our authored text, diagram or measurement chart",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/f10-hand-sequence.jpg",
+      "sha256": "9e97a10bc72f10ff43b27f4363cd0d9c4f85c5bce20679d08160e97e7d89af0a",
+      "bytes": 111019,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/f11-generated-assets.jpg",
+      "sha256": "d51fde02ed1c6ab492a22e1820e0cb7220e195a9f161b6625d3ba603e2b18b21",
+      "bytes": 261823,
+      "provenance": "our generated imagery and authored labels",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/generated-props.png",
+      "sha256": "7765dc414618b91acc0fcff3b734f95ac80570a83d655a4957ea3f2afc9b92a6",
+      "bytes": 17195,
+      "provenance": "our generated imagery and authored labels",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false
+    },
+    {
+      "path": "media/hand-sequence/hand-y3060.jpg",
+      "sha256": "cc22691d3c70dd6edd974e36f47844571b9730095ca1a2d2176a63ec363c3bec",
+      "bytes": 41809,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/hand-sequence/hand-y3600.jpg",
+      "sha256": "e27de76f3b63f3e58e87ce6eecaa094403659e85102f75b8792d3129a6d53c40",
+      "bytes": 54397,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/hand-sequence/hand-y4200.jpg",
+      "sha256": "fa78c1791377e1084a9cf4fe3c51375da79da8df149cf4e39b457a330d300b01",
+      "bytes": 61063,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/hand-sequence/hand-y4950.jpg",
+      "sha256": "608044cffe12979866a1f27166ed07e0d4a97eccec1213262fd45dd8e6a09beb",
+      "bytes": 62607,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/hand-sequence/hand-y5400.jpg",
+      "sha256": "5c0dcef572b083c9910ec1c20de0a39a40f51780b845a7bba7bb9da1eb611f5f",
+      "bytes": 81649,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/hand-sequence/scroll-y6000.jpg",
+      "sha256": "3537d5f76340694050525671a5cb12363f0b3e8201fe656a7c03ea775056fb80",
+      "bytes": 81732,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-000.jpg",
+      "sha256": "c33eb4eb745b7e576c1822882eaa990c0a754f8a06be8072d44d1ffe06979aaf",
+      "bytes": 97767,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-001.jpg",
+      "sha256": "e82e053cb1dac42e764f83f776e44bca30c9d441e65ba2e2b0572e120db553c0",
+      "bytes": 97499,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-002.jpg",
+      "sha256": "b8855206ebc26b9ca73c693d6115aa8c99561d943c61ffda5096a0c4b93ead4b",
+      "bytes": 92799,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-003.jpg",
+      "sha256": "f70a0cba8e629b38a0fe0c17189781d40ced556a81a375a2d54285231136274e",
+      "bytes": 87059,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-004.jpg",
+      "sha256": "b055a3c5e90d2027446f16572497d0f8186e300115d07bece81f1c243b50d6ee",
+      "bytes": 68145,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-005.jpg",
+      "sha256": "4db5c8baa4d6573d54b3916c8c77e400b83ced722cc25d11017cfc321e5e2275",
+      "bytes": 29668,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-006.jpg",
+      "sha256": "d93f0cb2c5ddaca4d12b4c6a036a0cbe73d2bfc7827b85e87855cd7fd1330e2e",
+      "bytes": 31891,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-007.jpg",
+      "sha256": "df5f88d3f8597c5f4d104aac3b7a3fb92a153e4278fe3dd2fc07a3e84eceb2de",
+      "bytes": 35895,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-008.jpg",
+      "sha256": "d0864770b759b946892eaa1d27bb81ce4bce18ff58e0b75acc7fa8fbc924c557",
+      "bytes": 40001,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-009.jpg",
+      "sha256": "71221690ee83db33c05f0cc571fe90bdbbe586d425ea3cece5428356e748ca70",
+      "bytes": 43893,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-010.jpg",
+      "sha256": "51c37a871eb4664b9aa026206f6578feb9c34d2a764ce9dd54f4ffd09a126461",
+      "bytes": 45694,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-011.jpg",
+      "sha256": "e02cf3763696b202e6643cb2643bf0e7e5edae46ae5d9ce628dc07f4457826e0",
+      "bytes": 45573,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-012.jpg",
+      "sha256": "4c3657132bfd4543811e600f3d0e0a20a8c9a21eddcb4a41e2dcc96f62adb970",
+      "bytes": 44664,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-013.jpg",
+      "sha256": "0b73ac9dae2ee9bff6b69a3c37238a5da14f60684d8c5c8d3a17fec5bde15b66",
+      "bytes": 42981,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-014.jpg",
+      "sha256": "d8e7b0cd2dbba74e6a587aaa0143ca567161bf90ae8ae8f8ce6a51cf27142212",
+      "bytes": 40185,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-015.jpg",
+      "sha256": "005277aedb8ec3f3c4d6f0a8b6d4d6bf6250a33ed2a9f2e58be49d989438ca6f",
+      "bytes": 37864,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-016.jpg",
+      "sha256": "d4af5843f2050c831bd551bfb865b1aa9bbf304e315c64f0404e532bc082fa3e",
+      "bytes": 35481,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-017.jpg",
+      "sha256": "5724a8b8efc67876bcf4296f0d5317b6a2f6a8ca738bf6d4cc311c23b93c3c49",
+      "bytes": 34450,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-018.jpg",
+      "sha256": "3e1f17ebc15caf8a479bebad7ccad69de2c04e4198f9c82baabe35ea46bdb9b9",
+      "bytes": 34721,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-019.jpg",
+      "sha256": "98c4a116f9eb36e296f45b0b5e073b886da817f647e165de7b0b1566c2fb8989",
+      "bytes": 34441,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-020.jpg",
+      "sha256": "15ea9255abfdd727c5f770dd97aa0fcbf390c474026440eca68d23d240b64209",
+      "bytes": 44423,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-021.jpg",
+      "sha256": "226c5961de945303d20cd60c563d46a563718305d36f6700c95f78787f89c58e",
+      "bytes": 53975,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-022.jpg",
+      "sha256": "904767bc63979ee750f4aa4fdd9ca021a99ce178170bb47a71e1a326ed5ba15e",
+      "bytes": 62539,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-023.jpg",
+      "sha256": "a8a67e4843681fb105bfcfb88d58b30641006209ac437a5164bd5967c78ad7f5",
+      "bytes": 46197,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-024.jpg",
+      "sha256": "5b7a5c27c12150663a38f88bccea7c3a6d0807cca3ca095310edff034976c3ba",
+      "bytes": 34791,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-025.jpg",
+      "sha256": "5dc748588b2bf4b34673dcf0fd40a95bfc15382dc0028fae817002ecdecfd9a1",
+      "bytes": 32073,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-026.jpg",
+      "sha256": "6fa97486a27e8eca1dbcf63103a0e6d05a186145aa00f58e319cc5bad7f99e00",
+      "bytes": 32849,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-027.jpg",
+      "sha256": "61526c91f6d0a68270eb648821e1a21f9d648ae5e0a90b29918690b0b679f029",
+      "bytes": 37905,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-028.jpg",
+      "sha256": "ab36877d82557699f0fff2a8c922ab8212ef157dd9b43d91f29001991fc69574",
+      "bytes": 42516,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-029.jpg",
+      "sha256": "a9d4f9b806bdac9b9bb62ac2579afdc86139bee1832a816dde7767f5ec03362c",
+      "bytes": 41955,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-030.jpg",
+      "sha256": "3754e5f05a92b5735f8a87a2805d2a1fcf176ed71957dc899a2e0959fd538b32",
+      "bytes": 38630,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-031.jpg",
+      "sha256": "0e6bd493358d1371ba9d545075fee7393bb6dbb8903ea5e0984ed11a9becfe63",
+      "bytes": 33977,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-032.jpg",
+      "sha256": "2b468a4d1fa67d15619d873eef0838eb84418608808a7f219f66e75630c68bc3",
+      "bytes": 28399,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-033.jpg",
+      "sha256": "fd54de2f7731143d80d6b04fb93cf05b6aeb63425196a0f4330c4993b8c32b98",
+      "bytes": 23480,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-034.jpg",
+      "sha256": "084b2ba064068f5d12b4b4837094607fc887de3f3d119bd644d6b493ea0a35cb",
+      "bytes": 20244,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-035.jpg",
+      "sha256": "7e4eec49dac558b2a8b7df2fdce0fa354067874f5e5d01569bb32e5b05bf37d0",
+      "bytes": 19007,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-036.jpg",
+      "sha256": "3e4636c97390e587bab328c90955471f4c59c4c43f07b06cd378862914a2d080",
+      "bytes": 19665,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-037.jpg",
+      "sha256": "fa48b292f86c71420f8627a1b9e0a2ed5014c2511003a343abfa524938f78f4d",
+      "bytes": 21440,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-038.jpg",
+      "sha256": "0005bc694c0ad0f3eec64f9030e30434cc1d3c53255670b8b3b59246d0633159",
+      "bytes": 23810,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-039.jpg",
+      "sha256": "b987f2e1f88c3072a8f4292b12549f82bba4860796b0490439e2b67ac098f9dd",
+      "bytes": 26910,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-040.jpg",
+      "sha256": "999142f1efe95fe0c448dfe02c8112ddbfc7a201546132063e8eef885eb99e13",
+      "bytes": 29045,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-041.jpg",
+      "sha256": "485497885b277352b76059ec16a0f431cbdace6bf1da5eb80ae8142725f75747",
+      "bytes": 30999,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-042.jpg",
+      "sha256": "dc4b4a91492a38e6976656c5deb0d7edec5220b4fac8daa2030d1af1a8828202",
+      "bytes": 31695,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-043.jpg",
+      "sha256": "66c2f1fc0be1b40e35d7051c739face57a41e61fbe4e099bbfbdfe71b6cce068",
+      "bytes": 31918,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-044.jpg",
+      "sha256": "901861909b17d40aea9ec97d788a9c714a3909cfbdfe08471728579ca0ef31f4",
+      "bytes": 31633,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-045.jpg",
+      "sha256": "097672cc2ffa6d03f39f0de9e3391ce111b6ad1d7c12eddd579bc3a93195cd84",
+      "bytes": 31301,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-046.jpg",
+      "sha256": "909129f7fc133818ef09399f129379eadebb35124232c266903d9c02dd0ff4c0",
+      "bytes": 32407,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-047.jpg",
+      "sha256": "c6cd2c270300f1aecebc12f24fa756fcda06e51323ffcd08b3363112514846ac",
+      "bytes": 33505,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-048.jpg",
+      "sha256": "1547bbeee42ecf0317d88c8a373cbfc9feeb38c235aa776e0de23c250ea42d45",
+      "bytes": 34309,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-049.jpg",
+      "sha256": "a8ed767dd2f932255ed92c9454a34e93cd75e4c0d70c41efe9a452cbdc0010e1",
+      "bytes": 34300,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-050.jpg",
+      "sha256": "7f3cb5539410c18d68be6c2f3865866fbe6473c776cd09303a49c2274e976d1e",
+      "bytes": 34341,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-051.jpg",
+      "sha256": "4d1ab79d1749bebe88559bcc86721b5fc30a762de364e29cbe3a44851b284a7c",
+      "bytes": 34428,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-052.jpg",
+      "sha256": "6362f42e7185167ae12fe504d7e9f4d0ade19789a37d7a038322974fff728b9e",
+      "bytes": 34404,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-053.jpg",
+      "sha256": "5be8a24dc435923ea4447826353212a09fc1ee2a5701a082ad7705a9a8c41c60",
+      "bytes": 34451,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-054.jpg",
+      "sha256": "041a4aa0b9ff88e5bfa7fd306cefd324feb8476c0c8bffbe7b05b9f17aa9b09e",
+      "bytes": 34484,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-055.jpg",
+      "sha256": "b4fcf145cd0d85c37bc7ed4a23d1ccc81ba6a991c4d52246a2314a5037927883",
+      "bytes": 34430,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-056.jpg",
+      "sha256": "2c3755d0969536464f12909ce11e0eea32717519bf037ecd668ad34c3b85f00b",
+      "bytes": 37459,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-057.jpg",
+      "sha256": "88459ca74092df7aa9bf97d699af2a0bba10952e29d2e1dee96eef2edfaf4e0d",
+      "bytes": 39331,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-058.jpg",
+      "sha256": "d69d840f25cd4894c71274206a634fc32d1e55542665a493d81786368596059f",
+      "bytes": 42246,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-059.jpg",
+      "sha256": "ebb78944d72f6517183bc360326d57befc6b3f5b5c414a442a98440ede3494ca",
+      "bytes": 42937,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-060.jpg",
+      "sha256": "39dcda92546e31346838d99ac53bda60946b90fc1c89fae7e28ebe28052c585b",
+      "bytes": 44141,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-061.jpg",
+      "sha256": "84f01473ed819444e5ce4cc3ac0edcc67d2ffc6c04f68c21b778e9d420dd9733",
+      "bytes": 44123,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-062.jpg",
+      "sha256": "bc1094610e0a23a63b4df58ab47843aa52f51e904dcd4408c89863c5b6a8d305",
+      "bytes": 43908,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-063.jpg",
+      "sha256": "824c840f2ac56ce1aa209e142728bcde42d10aa1a7b838eb01d3129fab8defef",
+      "bytes": 44138,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-064.jpg",
+      "sha256": "a45b184e659fa9966273564fc94b4fa9e812bfec2e60aefb4ad963b38b9e93e8",
+      "bytes": 44135,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-065.jpg",
+      "sha256": "126881613f1cf5463bbe6bddbf7d6a43cae6a2db8b945e6253eff5f73a5131ff",
+      "bytes": 44293,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-066.jpg",
+      "sha256": "fbb01e922b4d4f776c116031e23c29b447d3f9c1670f67a69846fa4d7f8ecea0",
+      "bytes": 44485,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-067.jpg",
+      "sha256": "9bdd196d95ed95b1dd2af9995a42640260173221b9813095a7dbfe95e0a03ce5",
+      "bytes": 44399,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-068.jpg",
+      "sha256": "e9a157380302b5dd55b23148ad1a0ca67c16539e8674e852ac6dad8d0df5355a",
+      "bytes": 44377,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-069.jpg",
+      "sha256": "88f04f81035cc82674bc5ee336d807916bb81d4d5517802feeab0a0f174e1d9c",
+      "bytes": 44248,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-070.jpg",
+      "sha256": "b59dc9a4281f4e7ddb59f5295bf49b1ba6e1bd0c0dbe7d8cef1514db0f1e23b5",
+      "bytes": 43785,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-071.jpg",
+      "sha256": "3887236e0c8bf2e3c630c71786ede70da845ccfad12725b1b3b14ff1adca2de8",
+      "bytes": 43910,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-072.jpg",
+      "sha256": "16f377da49ef1eac9e42303253ce3c304ed985eb03e94284dc64dd98827d09ef",
+      "bytes": 44155,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-073.jpg",
+      "sha256": "62c77de63b6d0e6d646cd0808c9e9a5b042c02231c21dc520584c828fed7a377",
+      "bytes": 43997,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-074.jpg",
+      "sha256": "45263243bb03955cf7483ddc90a94c674a8df2ec2aa0ecdcefe966850351e915",
+      "bytes": 44391,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-075.jpg",
+      "sha256": "258de8d7a131994a406d4375648f217d28ff1ab39990d63787f1a11ea71a1829",
+      "bytes": 44502,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-076.jpg",
+      "sha256": "03862392eafc25575a53936c5b857e3b1720d1d2117b436e30c48f84fc19f83c",
+      "bytes": 42050,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-077.jpg",
+      "sha256": "c5164aec622a0048966420565d73e0542aec0d0fdb793c5596d8cf5923ceda9a",
+      "bytes": 38872,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-078.jpg",
+      "sha256": "d280db1338cc6d27d0c8d07e72a7b1b6d0c825bd5453abcb4fbc5cd5e3e7aa19",
+      "bytes": 34781,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-079.jpg",
+      "sha256": "410b41f936cd04f61f2054f9f195dfce94eef2627f17ddb731700e1a8f7eff5c",
+      "bytes": 28948,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-080.jpg",
+      "sha256": "0c4d3f21e4f3076548f201b1f05e11d288c47bb1f3242b7123a537c26eab3440",
+      "bytes": 21781,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-081.jpg",
+      "sha256": "8f70e44ba4055c374eb8c8beefa4fedae2bdc4453c55a1911053d35c14d67b11",
+      "bytes": 21398,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-082.jpg",
+      "sha256": "7de767c9ef1fd6888bcb258872da94b930abb75f4b06e64c8ce81f7bdb9f258b",
+      "bytes": 21129,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-083.jpg",
+      "sha256": "ada305e66f3cac3439b4b3da518f8106a5eb7be7d8313f84cdd52d91d758259d",
+      "bytes": 20741,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-084.jpg",
+      "sha256": "d8f9acb483e7bcce82630907819ccccbd55415b82b7312be3767ec80811cccc9",
+      "bytes": 20574,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-085.jpg",
+      "sha256": "7f7bdd2a7095c4e301ecd4d1ad7c591326da89883bc9f250478b9be5d5961cd1",
+      "bytes": 20432,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-086.jpg",
+      "sha256": "cf8bbb96cdb0100df0cb734668e568ec26512834ae4a818c385bb659289b9e24",
+      "bytes": 19821,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-087.jpg",
+      "sha256": "71a9d74fb8eb94d6db097c492adf73f279cb7cfbac8018209c1dee36b0e65e2e",
+      "bytes": 16761,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-088.jpg",
+      "sha256": "2983bcdeba8ba755252947065a565d98613fc18d4641c6d060416f35b97ab095",
+      "bytes": 14625,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-089.jpg",
+      "sha256": "26b0ef7530499ed59c25501a35b4c4ae2c0ff83d68cfb4dc01efdf0278058441",
+      "bytes": 14251,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-090.jpg",
+      "sha256": "f7c87bcb07d2686abb8d07173e0c8b431a8e8687d875d5a1aef60edd1bf11d78",
+      "bytes": 14007,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-091.jpg",
+      "sha256": "93cd9fedf64af8a862cb9009a3d03d2c035f5330d6273251e3c946aa2cd08166",
+      "bytes": 14062,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-092.jpg",
+      "sha256": "437558dab3c931f84d079df07348c4458e686ec0291d930f6c24fb4fafa7bd3e",
+      "bytes": 14060,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-093.jpg",
+      "sha256": "f9ffd5027f661cfb6fd79ab07698bb35e3099dd0cd77dc7434d6b9b90571f364",
+      "bytes": 14049,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-094.jpg",
+      "sha256": "5082db5a4ea7b84ecd5088277c3e3c7a6b3bd382a060fa356e2a83a7088d1e6a",
+      "bytes": 14095,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-095.jpg",
+      "sha256": "51520fc2ef1b4770b531e502535645368ee588cce837382169fa4a2a8a1d35da",
+      "bytes": 14069,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-096.jpg",
+      "sha256": "6e39b4db8aa0ae7dd4283d2d55f5f7fc6673b6c39f9f48fdca2fc79638c326c6",
+      "bytes": 14049,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-097.jpg",
+      "sha256": "b2c1f0c50f23bbbd44e9b1b54fad4b217e7b8c99a254f42d8733f7efec651b8b",
+      "bytes": 14068,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-098.jpg",
+      "sha256": "75f5c51b10e8895366751a5f318ae6b1a7661e0dcf8f794f147107cb7b3c1544",
+      "bytes": 14029,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-099.jpg",
+      "sha256": "00df417ed0ad701b7002cf8ba16c3fe2f84ad58b475ddd95a9a8d4f4cfa5c5dd",
+      "bytes": 14073,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    },
+    {
+      "path": "media/rebuild-steps/step-100.jpg",
+      "sha256": "3bbac570ab7e4363b8251cde641b31742adae7c9322a1c67cbc5e08281fd02b6",
+      "bytes": 14109,
+      "provenance": "our rebuild render",
+      "visual_review": "inspected; no original oryzo.ai screenshot pixels",
+      "original_site_screenshot_pixels": false,
+      "credit": "the hand and coaster geometry come from oryzo.ai by Lusion, recoloured"
+    }
+  ]
+}

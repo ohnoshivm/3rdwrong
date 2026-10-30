@@ -1,0 +1,286 @@
+{
+  "version": "2.0",
+  "project": "Original motion study informed by Oryzo",
+  "reference": {
+    "url": "https://oryzo.ai/",
+    "creator": "Lusion"
+  },
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 2
+  },
+  "effects": [
+    {
+      "id": "hand-pose",
+      "name": "Hand closes around the object as scroll advances",
+      "trigger": "SCRUBBED",
+      "driver": {
+        "scalar": "r",
+        "unit": "scalar",
+        "formula": "r = 1 + (scrollY - sectionTop) / viewportHeight",
+        "sectionId": "ai"
+      },
+      "window": {
+        "in": {
+          "start": 3056,
+          "end": 4950,
+          "unit": "px"
+        },
+        "out": null
+      },
+      "properties": [
+        {
+          "target": "hand",
+          "property": "bakedPoseFrame",
+          "from": 71,
+          "to": 115,
+          "unit": "frame"
+        }
+      ],
+      "easing": "linear",
+      "stagger": {
+        "basis": "none",
+        "order": "none",
+        "indexFactor": 0,
+        "windowWidth": 0,
+        "unit": "scalar"
+      },
+      "evidence": [
+        "code",
+        "measured"
+      ],
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ],
+      "status": "answered",
+      "notes": "Approximate first visible y at this viewport. Custom 36-bone GPU skinning in the reference; no mesh or animation data is distributed. Reverse scroll reverses pose."
+    },
+    {
+      "id": "edge-glow",
+      "name": "Scroll gates the border glow",
+      "trigger": "SCRUBBED",
+      "driver": {
+        "scalar": "r",
+        "unit": "scalar",
+        "formula": "r = 1 + (scrollY - sectionTop) / viewportHeight",
+        "sectionId": "ai"
+      },
+      "window": {
+        "in": {
+          "start": 5.5,
+          "end": 6,
+          "unit": "scalar"
+        },
+        "out": {
+          "start": 7.5,
+          "end": 8,
+          "unit": "scalar"
+        }
+      },
+      "properties": [
+        {
+          "target": "post.edgeGlow",
+          "property": "amount",
+          "from": 0,
+          "to": 1,
+          "unit": "ratio"
+        }
+      ],
+      "easing": "sineIn",
+      "stagger": {
+        "basis": "none",
+        "order": "none",
+        "indexFactor": 0,
+        "windowWidth": 0,
+        "unit": "scalar"
+      },
+      "evidence": [
+        "code",
+        "measured"
+      ],
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ],
+      "status": "answered",
+      "notes": "Gate on at 4950\u20135400 px, off at 6750\u20137200 px. A time pulse cycles every 2 seconds while enabled. Pointer bands affect fingers, not this gate."
+    },
+    {
+      "id": "headline",
+      "name": "Letters sharpen across the heading",
+      "trigger": "SCRUBBED",
+      "driver": {
+        "scalar": "r",
+        "unit": "scalar",
+        "formula": "r = 1 + (scrollY - sectionTop) / viewportHeight",
+        "sectionId": "ai"
+      },
+      "window": {
+        "in": {
+          "start": 3.5,
+          "end": 5,
+          "unit": "scalar"
+        },
+        "out": {
+          "start": 7.5,
+          "end": 8,
+          "unit": "scalar"
+        }
+      },
+      "properties": [
+        {
+          "target": "heading.characters",
+          "property": "opacity",
+          "from": 0,
+          "to": 1,
+          "unit": "ratio"
+        },
+        {
+          "target": "heading.characters",
+          "property": "translateX",
+          "from": 0.25,
+          "to": 0,
+          "unit": "ex"
+        },
+        {
+          "target": "heading.characters",
+          "property": "blur",
+          "from": 12.3,
+          "to": 0,
+          "unit": "px"
+        }
+      ],
+      "easing": "expoOut",
+      "stagger": {
+        "basis": "character",
+        "order": "forward",
+        "indexFactor": 0.3,
+        "windowWidth": 0.4,
+        "unit": "scalar"
+      },
+      "evidence": [
+        "code",
+        "measured"
+      ],
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ],
+      "status": "answered",
+      "notes": "Blur 12.3 px is the desktop 123 px type case. Opacity uses a 0.4 local window; translation uses 0.6. Final asterisk scales with backOut; exit opacity is linear. This entry summarises the main reveal."
+    }
+  ],
+  "scrollMap": "scroll-map.example.json",
+  "architecture": {
+    "scrollOwner": "DOM",
+    "frameLoopOwner": "integration",
+    "smoothing": "Once in the scroll controller; effect progress is a direct function of the section scalar.",
+    "contractPath": "src/contract.ts",
+    "contractVersion": "1"
+  },
+  "ownership": [
+    {
+      "owner": "integration",
+      "paths": [
+        "src/contract.ts",
+        "src/main.ts",
+        "package.json"
+      ]
+    },
+    {
+      "owner": "DOM",
+      "paths": [
+        "src/dom/",
+        "src/core/",
+        "src/styles/"
+      ]
+    },
+    {
+      "owner": "GL",
+      "paths": [
+        "src/gl/"
+      ]
+    },
+    {
+      "owner": "IMG",
+      "paths": [
+        "public/generated/"
+      ]
+    },
+    {
+      "owner": "QA",
+      "paths": [
+        "qa/"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "replacement-hand",
+      "path": "public/generated/hand.glb",
+      "provenance": "placeholder",
+      "rights": "Proposed replacement only; supply an original or independently licensed rig. No reference geometry or animation included.",
+      "fallback": "Keep text usable and omit the rig until a cleared replacement exists."
+    }
+  ],
+  "readiness": {
+    "timeoutMs": 10000,
+    "onFailure": "Settle ready as degraded and expose a DOM fallback with failed asset IDs."
+  },
+  "reducedMotion": "Stop idle/pointer oscillation and blur. Preserve content access with the same scroll windows and simple opacity changes.",
+  "acceptance": [
+    {
+      "id": "paired-direction",
+      "scenario": "Capture y 0, 3060, 4950, 5400, 7200 and 8100 at the reference viewport in both directions.",
+      "expected": "Matching scroll-driven state at each y; pulse phase is recorded separately.",
+      "evidencePath": "qa/paired/"
+    },
+    {
+      "id": "missing-asset",
+      "scenario": "Fail one asset request.",
+      "expected": "Readiness settles within 10 seconds and DOM stays usable.",
+      "evidencePath": "qa/missing-asset.json"
+    }
+  ],
+  "intentionalDifferences": [
+    "Use original assets and code; the study palette was crimson and white."
+  ],
+  "unknowns": [
+    {
+      "question": "Reference hand atlas quadrant meaning was partly inferred.",
+      "nextProbe": "Use an original replacement rig and document its channels independently."
+    }
+  ]
+}

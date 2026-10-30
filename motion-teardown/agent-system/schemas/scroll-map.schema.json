@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://3rdwrong.com/motion-teardown/schemas/scroll-map.schema.json",
+  "title": "Reconciled scroll map",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "2.0"
+    },
+    "viewport": {
+      "$ref": "effects.schema.json#/$defs/viewport"
+    },
+    "coordinate": {
+      "const": "native-scroll-css-px"
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "number",
+          "minimum": 0
+        },
+        "end": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "start",
+        "end"
+      ]
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "selector": {
+            "type": "string",
+            "minLength": 1
+          },
+          "top": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "scalar": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "effects.schema.json#/$defs/source"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "selector",
+          "top",
+          "height",
+          "scalar",
+          "sources"
+        ]
+      },
+      "minItems": 1
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "effectId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sectionId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "in": {
+            "anyOf": [
+              {
+                "$ref": "effects.schema.json#/$defs/window"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "out": {
+            "anyOf": [
+              {
+                "$ref": "effects.schema.json#/$defs/window"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "code",
+                "measured",
+                "inferred"
+              ]
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "effects.schema.json#/$defs/source"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "effectId",
+          "sectionId",
+          "in",
+          "out",
+          "evidence",
+          "sources"
+        ]
+      },
+      "minItems": 1
+    },
+    "notes": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "version",
+    "viewport",
+    "coordinate",
+    "scope",
+    "sections",
+    "effects"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": "2.0",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 2
+  },
+  "coordinate": "native-scroll-css-px",
+  "scope": {
+    "start": 0,
+    "end": 8100
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "selector": "#hero",
+      "top": 0,
+      "height": 900,
+      "scalar": "hero exit measured over y 0 to 450",
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "selector": "#ai",
+      "top": 900,
+      "height": 7200,
+      "scalar": "r = 1 + (scrollY - 900) / 900",
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "effectId": "hand-pose",
+      "sectionId": "ai",
+      "in": {
+        "start": 3056,
+        "end": 4950,
+        "unit": "px"
+      },
+      "out": null,
+      "evidence": [
+        "code",
+        "measured"
+      ],
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ]
+    },
+    {
+      "effectId": "edge-glow",
+      "sectionId": "ai",
+      "in": {
+        "start": 4950,
+        "end": 5400,
+        "unit": "px"
+      },
+      "out": {
+        "start": 6750,
+        "end": 7200,
+        "unit": "px"
+      },
+      "evidence": [
+        "code",
+        "measured"
+      ],
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ]
+    },
+    {
+      "effectId": "headline",
+      "sectionId": "ai",
+      "in": {
+        "start": 3150,
+        "end": 4500,
+        "unit": "px"
+      },
+      "out": {
+        "start": 6750,
+        "end": 7200,
+        "unit": "px"
+      },
+      "evidence": [
+        "code",
+        "measured"
+      ],
+      "sources": [
+        {
+          "id": "ORYZO-REPORT-5",
+          "kind": "code",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Paraphrased section windows from the reconciled study; original raw source excluded."
+        },
+        {
+          "id": "ORYZO-STUDY-CAPTURE",
+          "kind": "measured",
+          "locator": "case-study/oryzo/numbers.md",
+          "note": "Study measurements at 1440\u00d7900; this example is a hand-authored summary, not new capture data."
+        }
+      ]
+    }
+  ],
+  "notes": "Viewport-specific summary in our words. The eight-viewport section has fixed inner content; its scalar can exceed one."
+}

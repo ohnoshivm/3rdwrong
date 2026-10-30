@@ -1,0 +1,15 @@
+{
+  "origin": "http://127.0.0.1:5190/",
+  "gpu": {
+    "vendor": "Google Inc. (Apple)",
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M3, Unspecified Version)",
+    "dpr": 2,
+    "viewport": [
+      1440,
+      900
+    ]
+  },
+  "swiftshader": false,
+  "consoleErrors": [],
+  "pageErrors": []
+}

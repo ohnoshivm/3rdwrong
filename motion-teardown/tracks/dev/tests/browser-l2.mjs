@@ -1,0 +1,25 @@
+import { chromium } from 'playwright-core';
+import assert from 'node:assert/strict';
+const browser = await chromium.launch({ channel:'chrome', headless:true, args:['--use-angle=metal','--ignore-gpu-blocklist'] });
+const page = await browser.newPage({ viewport:{width:800,height:600}, deviceScaleFactor:1 });
+const errs=[]; page.on('console',m=>{ if(['error','warning'].includes(m.type())) errs.push(m.text()); }); page.on('pageerror',e=>errs.push(String(e)));
+await page.goto('file://' + process.cwd() + '/page-l2/index.html');
+const res = await page.evaluate(() => {
+  const st = window.__stage; st.resize(800,600);
+  const gl = st.renderer.getContext();
+  const energy = (x0,y0,w,h) => { const buf = new Uint8Array(w*h*4); gl.readPixels(x0, 600-y0-h, w, h, gl.RGBA, gl.UNSIGNED_BYTE, buf); let e=0; for(let y=0;y<h;y++) for(let x=0;x<w-1;x++){ const i=(y*w+x)*4, j=i+4; e+=Math.abs(buf[i]-buf[j])+Math.abs(buf[i+1]-buf[j+1]); } return e/(w*h); };
+  const rect = {x:250,y:200,w:300,h:200};
+  const out = {};
+  st.update({ratio:0.2, blur:0, rect}, 0); out.inside0 = energy(300,250,100,100); out.outside0 = energy(20,480,100,100);
+  st.update({ratio:0.2, blur:1, rect}, 0); out.inside1 = energy(300,250,100,100); out.outside1 = energy(20,480,100,100);
+  const px = new Uint8Array(4); gl.readPixels(400, 300, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, px); out.centre = [...px];
+  out.renderer = gl.getParameter(gl.RENDERER);
+  return out;
+});
+console.log(JSON.stringify(res), 'console:', JSON.stringify(errs));
+assert.ok(res.inside0 > 2 && res.outside0 > 2, 'there is detail to blur');
+assert.ok(res.inside1 < res.inside0 * 0.35, 'inside blurred');
+assert.ok(Math.abs(res.outside1 - res.outside0) < res.outside0*0.05, 'outside untouched');
+await page.screenshot({path:'l2.png'});
+await browser.close();
+console.log('L2 browser OK');

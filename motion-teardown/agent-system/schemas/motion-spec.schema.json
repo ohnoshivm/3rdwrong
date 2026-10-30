@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://3rdwrong.com/motion-teardown/schemas/motion-spec.schema.json",
+  "title": "Build hand-off motion spec",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "2.0"
+    },
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "creator": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "url",
+        "creator"
+      ]
+    },
+    "viewport": {
+      "$ref": "effects.schema.json#/$defs/viewport"
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "$ref": "effects.schema.json#/$defs/effect"
+      },
+      "minItems": 1
+    },
+    "scrollMap": {
+      "type": "string",
+      "minLength": 1
+    },
+    "architecture": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "scrollOwner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "frameLoopOwner": {
+          "type": "string",
+          "minLength": 1
+        },
+        "smoothing": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contractPath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contractVersion": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "scrollOwner",
+        "frameLoopOwner",
+        "smoothing",
+        "contractPath",
+        "contractVersion"
+      ]
+    },
+    "ownership": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "paths": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "owner",
+          "paths"
+        ]
+      },
+      "minItems": 1
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "provenance": {
+            "enum": [
+              "original",
+              "generated",
+              "licensed",
+              "placeholder"
+            ]
+          },
+          "rights": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fallback": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "path",
+          "provenance",
+          "rights",
+          "fallback"
+        ]
+      }
+    },
+    "readiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "timeoutMs": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "onFailure": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "timeoutMs",
+        "onFailure"
+      ]
+    },
+    "reducedMotion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "acceptance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scenario": {
+            "type": "string",
+            "minLength": 1
+          },
+          "expected": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidencePath": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "scenario",
+          "expected",
+          "evidencePath"
+        ]
+      },
+      "minItems": 1
+    },
+    "intentionalDifferences": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "nextProbe": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "question",
+          "nextProbe"
+        ]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "project",
+    "reference",
+    "viewport",
+    "effects",
+    "scrollMap",
+    "architecture",
+    "ownership",
+    "assets",
+    "readiness",
+    "reducedMotion",
+    "acceptance",
+    "intentionalDifferences",
+    "unknowns"
+  ]
+}
