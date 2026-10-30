@@ -1,0 +1,13 @@
+{
+  "name": "motion-teardown-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "test": "node self-test.mjs",
+    "test:browser": "node self-test.mjs --browser"
+  },
+  "dependencies": { "playwright-core": "1.64.1" }
+}

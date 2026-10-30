@@ -1,0 +1,355 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://3rdwrong.com/motion-teardown/schemas/effects.schema.json",
+  "title": "Reconciled effect inventory",
+  "description": "Original descriptions of observed effects, never captured source or shaders. Cross-field checks are described in README.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "2.0"
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "creator": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "url",
+        "creator"
+      ]
+    },
+    "viewport": {
+      "$ref": "#/$defs/viewport"
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/effect"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "version",
+    "reference",
+    "viewport",
+    "effects"
+  ],
+  "$defs": {
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "number"
+        },
+        "end": {
+          "type": "number"
+        },
+        "unit": {
+          "enum": [
+            "px",
+            "vh",
+            "scalar",
+            "seconds"
+          ]
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "unit"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "code",
+            "measured",
+            "inferred"
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "locator"
+      ]
+    },
+    "effect": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "trigger": {
+          "enum": [
+            "SCRUBBED",
+            "TRIGGERED",
+            "IDLE"
+          ]
+        },
+        "driver": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "scalar": {
+              "type": "string",
+              "minLength": 1
+            },
+            "unit": {
+              "enum": [
+                "px",
+                "vh",
+                "scalar",
+                "seconds",
+                "ndc"
+              ]
+            },
+            "formula": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sectionId": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "scalar",
+            "unit",
+            "formula"
+          ]
+        },
+        "window": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "in": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/window"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "out": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/window"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "in",
+            "out"
+          ]
+        },
+        "properties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "target": {
+                "type": "string",
+                "minLength": 1
+              },
+              "property": {
+                "type": "string",
+                "minLength": 1
+              },
+              "from": {},
+              "to": {},
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "target",
+              "property",
+              "from",
+              "to"
+            ]
+          },
+          "minItems": 1
+        },
+        "easing": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stagger": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "basis": {
+              "enum": [
+                "character",
+                "word",
+                "line",
+                "object",
+                "none"
+              ]
+            },
+            "order": {
+              "enum": [
+                "forward",
+                "reverse",
+                "centre",
+                "custom",
+                "none"
+              ]
+            },
+            "indexFactor": {
+              "type": "number"
+            },
+            "windowWidth": {
+              "type": "number",
+              "minimum": 0
+            },
+            "unit": {
+              "enum": [
+                "scalar",
+                "seconds",
+                "px",
+                "vh"
+              ]
+            }
+          },
+          "required": [
+            "basis",
+            "order",
+            "indexFactor",
+            "windowWidth",
+            "unit"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "code",
+              "measured",
+              "inferred"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "minItems": 1
+        },
+        "status": {
+          "enum": [
+            "answered",
+            "partial",
+            "unresolved"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confirmationProbe": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "trigger",
+        "driver",
+        "window",
+        "properties",
+        "easing",
+        "stagger",
+        "evidence",
+        "sources",
+        "status"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "evidence": {
+                "contains": {
+                  "const": "inferred"
+                }
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "confirmationProbe"
+            ]
+          }
+        }
+      ]
+    },
+    "viewport": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "dpr": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "dpr"
+      ]
+    }
+  }
+}

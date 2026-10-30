@@ -78,3 +78,5 @@ measurements with device and date, fallback test notes.
 [05 Production build](05-production-build.md) · [07 QA](07-qa.md) ·
 [Web standards](../quality/web-standards.md#motion-standards) ·
 [Living identities](../living-identities.md)
+
+[Motion Teardown](../../motion-teardown/README.md) records an experimental eight-stage motion study, learning tracks and evidence tools for original rebuilds.

@@ -14837,6 +14837,17 @@
       "package": "plugin-local-desktop-app-uploads-x-skills-marketplace",
       "role": "bench",
       "source": "toolkit/vendor/plugin-local-desktop-app-uploads-x-skills-marketplace/skills/x-skills/.codex-marketplace/x-skills/skills/x-thread-builder"
+    },
+    {
+      "department": "core",
+      "distribution": "vendor",
+      "id": "core:3w-motion-teardown",
+      "kind": "skill",
+      "load": "active",
+      "name": "3w-motion-teardown",
+      "package": "pack-founder-3rdwrong-skills",
+      "role": "lead",
+      "source": "skills/3w-motion-teardown"
     }
   ],
   "manual": [
