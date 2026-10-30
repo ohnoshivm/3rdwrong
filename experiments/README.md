@@ -31,3 +31,5 @@ turn every observation into a rule; preserve context and uncertainty in the
 **Proposed publication model:** experimental code is intended to use MIT; the
 licensing proposal remains pending founder confirmation at publication. See
 [decision D-0009](../studio/decisions/0009-licensing-model.md).
+
+[Motion Teardown](../motion-teardown/README.md) records an experimental eight-stage motion study, learning tracks and evidence tools for original rebuilds.

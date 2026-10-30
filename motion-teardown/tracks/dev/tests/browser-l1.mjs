@@ -8,7 +8,7 @@ const state = async (y) => { await page.evaluate(y=>scrollTo(0,y), y); await pag
   return page.evaluate(()=>({ y:Math.round(scrollY), hud:document.getElementById('hud').textContent, ops:[...document.querySelectorAll('#headline span span')].map(s=>+s.style.opacity), kicker:+document.getElementById('kicker').style.opacity })); };
 const s0 = await state(0); assert.equal(s0.y,0); assert.ok(s0.ops.every(o=>o===0)); assert.match(s0.hud,/r 1\.000/);
 const sA = await state(1080);
-assert.ok(sA.ops.every(o=>o>0.99), 'all letters in at r=2.2: '+sA.ops.slice(0,3)); 
+assert.ok(sA.ops.every(o=>o>0.99), 'all letters in at r=2.2: '+sA.ops.slice(0,3));
 const sMid = await state(540); assert.ok(sMid.ops[0]>sMid.ops.at(-1), 'first letter ahead of last');
 const sOut = await state(2700);
 assert.ok(sOut.ops.every(o=>o===0), 'all out at r=4');
@@ -18,7 +18,7 @@ assert.equal(sBack.y,1080);
 const words = await page.evaluate(()=>[...document.querySelectorAll('#headline > span')].map(s=>s.textContent));
 assert.deepEqual(words,['Scroll','is','just','a','number']);
 await state(0); await page.mouse.move(700,400); await page.mouse.wheel(0,1000);
-await page.waitForTimeout(1500); const yw = await page.evaluate(()=>Math.round(scrollY)); 
+await page.waitForTimeout(1500); const yw = await page.evaluate(()=>Math.round(scrollY));
 assert.ok(yw===200, 'one 1000px wheel event moves 200, got '+yw);
 await page.screenshot({path:'l1.png'});
 console.log('L1 browser OK', JSON.stringify({s0hud:s0.hud, errs}));

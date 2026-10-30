@@ -1435,6 +1435,76 @@
       "sha256": "89a72cd03808eaf847a6891da668f625d8c51e0662f0449bca65dd2ae998b96e"
     },
     {
+      "bytes": 6475,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/SKILL.md",
+      "sha256": "19a0750435f522d9cc85ce51a29143a718be6283e6ccc8465a79cf373d6c2fa6"
+    },
+    {
+      "bytes": 1171,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/01-watch.md",
+      "sha256": "d49922b5326aba733d61467c6169580b4c1483104adf3cbfd76e1ffbdcdc0cbf"
+    },
+    {
+      "bytes": 1189,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/02-map.md",
+      "sha256": "851cabd3da355dcf88ad864a7c4d46405322764c403a87db3c3f3b8466409d4c"
+    },
+    {
+      "bytes": 2278,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/03-teardown.md",
+      "sha256": "e79331736e391f72e8a1052d47a8fbe7b81d2d716044a003bc7657a5a58b1986"
+    },
+    {
+      "bytes": 1523,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/04-reconcile.md",
+      "sha256": "afe9f92cf07650138062f0e2f68c388bb954212d867123496b6097fd612875c9"
+    },
+    {
+      "bytes": 1545,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/05-spec.md",
+      "sha256": "a8b891723fc12efc9fa2be3bbb932eb16f16d6016f6387bd5b14c1d9c2043d52"
+    },
+    {
+      "bytes": 1277,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/06-assets.md",
+      "sha256": "39da82cd7e682350533cf9f4fc5a3486225f05acdb8fa875babb1682a12a2ee5"
+    },
+    {
+      "bytes": 1507,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/07-parallel-build.md",
+      "sha256": "8585b5a2494b7ce331ab61418b6f67df5ff1de0e99bc98887b35591a9a68482d"
+    },
+    {
+      "bytes": 1708,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/08-compare.md",
+      "sha256": "7f862ea4d28a711919d4618b2a72b087301b2f6da0c2b714810677997302bf9b"
+    },
+    {
+      "bytes": 2062,
+      "licence": "mixed; see plugin notices",
+      "package": "3rdwrong-core",
+      "path": "toolkit/plugins/3rdwrong-core/skills/3w-motion-teardown/references/routing.md",
+      "sha256": "1987573ebe6def2b4414e7c89f1d817c18bcceeec42a7ac8de95c90bd849fad3"
+    },
+    {
       "bytes": 5150,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
@@ -57957,10 +58027,10 @@
   ],
   "generated_sha256": {
     ".claude-plugin/marketplace.json": "c8edfd2004aaa99fba23aafc324aca8947f968f75b773632f2bb68c4ab3c1fe5",
-    "THIRD_PARTY_NOTICES.md": "0d30696cf4ec420ae2a924409c2688249f3039b1fcea22432caae290bfae4276",
-    "toolkit/coverage.json": "ee1cab5d66fed533e05e3062fef2cd78d3bf3372d7fcbac7ff4a101cde15eda6",
+    "THIRD_PARTY_NOTICES.md": "a56d3ce955f85254ac24d9526fa31b2332024bbae8b77eec94c5e3f849c69cde",
+    "toolkit/coverage.json": "57735e62d394899f61e7439be0b2db0da7669baf4588be33f7ffedb166eb1e4a",
     "toolkit/fetch.yaml": "ad131a534a3bec05786dfda34ffcc25fdff132c74b5d24837ace1da50acb3c04",
-    "toolkit/install-plan.json": "7a980cdc8707ec524ce2b72477c2336b3acdd9b4be4c99f056bd895ece1f2c6e",
+    "toolkit/install-plan.json": "6f2c2dc643ef9f8aafe3f7ff17e81e0c6a57fbad4ad6c9c6529157957876fc0a",
     "toolkit/manual.md": "40fde2fe775240c08a567e7c9d0fd7f4ac164126d3d42b2bce508973d63d2876",
     "toolkit/manual.yaml": "c5c63d9ebe73635801180c5dea99cc092d8227c3a4958cc48d1b9b12511c5401",
     "toolkit/secret-allowlist.json": "1616e24fdb32696e9619763c08e806499d92468b5ae2fe7d76c2492f472152d9"

@@ -21,6 +21,7 @@ This repository is the studio's version-controlled second brain: a public operat
 | [`skills/`](skills/README.md) | Six `3w-` experimental AI workflows with evidence and human-review requirements. |
 | [`agents/`](agents/README.md) | Upstream Agency Agents catalogue minus founder exclusions, provenance, lock and repo-level update instructions. |
 | [`projects/`](projects/README.md) | Codenamed, contract-cleared anonymised project records and internal exploration. |
+| [`motion-teardown/`](motion-teardown/README.md) | Experimental motion study, eight-stage playbook, learning tracks and evidence tools. |
 | [`experiments/`](experiments/README.md) | Small, explicit tests of creative and operating hypotheses. |
 | [`growth/`](growth/README.md) | Sales, content, outbound, proof and acquisition metrics; identities and money stay in the vault. |
 | [`business/`](business/README.md) | Pricing, proposals, legal/finance methods, operations and founder reviews. |
