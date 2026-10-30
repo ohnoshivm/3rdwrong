@@ -1470,11 +1470,11 @@
       "sha256": "b1bec77e5a27fd6d3ad1cd3ccfa78ada37659f6c3b483ef6518ff46a67ea0631"
     },
     {
-      "bytes": 10258,
+      "bytes": 10358,
       "licence": "mixed; see plugin notices",
       "package": "3rdwrong-core",
       "path": "toolkit/plugins/3rdwrong-core/skills/3w-whatsapp-outreach/SKILL.md",
-      "sha256": "859fe7e4001f301f2469bc3cad1e1d4a21f7c1d4ccf9f81ea009ca2e3799c381"
+      "sha256": "c75d50a383a4abebf520b0364fba0be6697224a3468735413c5dc8074e452a2c"
     },
     {
       "bytes": 242,
