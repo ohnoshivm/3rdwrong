@@ -1,0 +1,3 @@
+[submodule "clients/khalifa"]
+	path = clients/khalifa
+	url = https://github.com/ohnoshivm/khalifa.git
